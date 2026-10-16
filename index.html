@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>QBIR · The TTT Index — Throw in the Towel</title>
+<meta name="description" content="QBIR — the Throw in the Towel quarterback rating. Every QB graded in a neutral situation, every factor ranked. Built on nflverse + PFF.">
+<link rel="icon" href="./logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Saira+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#101124; --panel:#171830; --row:#14152B; --rowalt:#181935;
+  --line:#272943; --line2:#353755;
+  --ink:#EEE9DC; --dim:#A7A2BA; --faint:#8E8AA6;
+  --gold:#D3A456; --gold-br:#ECC77F; --cool:#7E8CBC; --brick:#CB5E47;
+  --disp:'Saira Condensed',Arial Narrow,sans-serif;
+  --sans:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:14px; line-height:1.45; -webkit-font-smoothing:antialiased; min-height:100vh}
+.num{font-variant-numeric:tabular-nums; font-feature-settings:"tnum" 1}
+::selection{background:rgba(211,164,86,.3); color:#fff}
+:focus-visible{outline:2px solid var(--gold); outline-offset:1px}
+a{color:inherit; text-decoration:none}
+*{scrollbar-width:thin; scrollbar-color:var(--line2) transparent}
+*::-webkit-scrollbar{width:10px;height:10px}
+*::-webkit-scrollbar-track{background:transparent}
+*::-webkit-scrollbar-thumb{background:var(--line2); border-radius:5px; border:2px solid var(--bg)}
+
+/* header — thin, utilitarian */
+.top{border-bottom:1px solid var(--line2); background:var(--bg)}
+.topin{max-width:1320px; margin:0 auto; padding:10px 20px; display:flex; align-items:center; gap:12px}
+.topin img{height:26px; display:block}
+.topin .wm{font-family:var(--disp); font-weight:800; font-size:21px; letter-spacing:.04em; color:var(--ink)}
+.topin .wm span{color:var(--gold)}
+.topin .exp{font-size:12.5px; color:var(--dim); border-left:1px solid var(--line2); padding-left:12px}
+.topin nav{margin-left:auto; display:flex; gap:2px}
+.topin nav a{font-size:12px; font-weight:600; letter-spacing:.03em; text-transform:uppercase; color:var(--faint); padding:5px 10px; transition:color .13s}
+.topin nav a:hover{color:var(--ink)} .topin nav a.on{color:var(--gold)}
+.topin nav a.soon{cursor:default} .topin nav a.soon::after{content:" soon"; font-size:.8em; opacity:.55}
+
+/* context line */
+.ctx{max-width:1320px; margin:0 auto; padding:13px 20px 11px; display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 16px}
+.ctx h1{font-family:var(--disp); font-weight:800; font-size:19px; letter-spacing:.04em; text-transform:uppercase; color:var(--ink)}
+.ctx .d{font-size:13px; color:var(--dim)}
+.ctx .d b{color:var(--ink); font-weight:600}
+.ctx .d .go{color:var(--gold); font-weight:600}
+.ctx .mlink{margin-left:auto; font-size:12.5px; color:var(--gold); font-weight:600}
+.ctx .mlink:hover{text-decoration:underline}
+
+/* table */
+.scroll{max-width:1320px; margin:0 auto; padding:0 20px 10px; overflow-x:auto}
+table.kp{width:100%; border-collapse:collapse; min-width:1040px; font-variant-numeric:tabular-nums}
+.kp thead th{position:sticky; top:0; z-index:3; background:var(--panel); font-size:11px; font-weight:700; letter-spacing:.03em; text-transform:uppercase; color:var(--dim); text-align:right; padding:8px 9px; border-bottom:2px solid var(--line2); white-space:nowrap; cursor:pointer; user-select:none}
+.kp thead th:hover{color:var(--ink)}
+.kp thead th.lt{text-align:left}
+.kp thead th.active{color:var(--gold)}
+.kp thead th .ar{font-size:8px; margin-left:1px}
+.kp thead th.grp{border-left:1px solid var(--line)}
+.kp tbody td{padding:5px 9px; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap}
+.kp tbody tr{cursor:pointer}
+.kp tbody tr:nth-child(even){background:var(--rowalt)}
+.kp tbody tr:hover{background:#1E2042}
+.kp td.lt{text-align:left}
+.kp td.grp{border-left:1px solid var(--line)}
+.c-rk{color:var(--faint); font-size:12.5px; width:34px}
+.c-qb{min-width:184px}
+.c-qb .nm{font-weight:700; font-size:14.5px; color:var(--ink)}
+.c-qb .nm:hover{color:var(--gold)}
+.c-qb .mt{font-size:11px; color:var(--faint); margin-top:0}
+.c-qb .dot{display:inline-block; width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:baseline}
+.c-gr{font-family:var(--disp); font-weight:800; font-size:18px; width:60px}
+.c-gr.t-elite{color:var(--gold-br)} .c-gr.t-good{color:var(--ink)} .c-gr.t-mid{color:var(--dim)} .c-gr.t-low{color:var(--brick)}
+.c-val{font-weight:700; font-size:13.5px; width:58px} .c-val.pos{color:var(--ink)} .c-val.neg{color:var(--brick)}
+.c-luck{font-weight:700; font-size:13px; width:56px} .c-luck.pos{color:var(--gold)} .c-luck.neg{color:var(--cool)}
+.sval{background:var(--row)} .sval .svk{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:5px}
+.sval .svv{font-size:13.5px;color:var(--dim);line-height:1.5} .sval .svv b{font-size:17px} .sval .svv b.pos{color:var(--ink)} .sval .svv b.neg{color:var(--brick)} .sval .apx{color:var(--faint);font-size:11.5px}
+.val{font-size:13.5px; color:var(--ink)}
+.val.sm{color:var(--dim)}
+sup.rk{font-size:9.5px; font-weight:600; margin-left:2px; vertical-align:super; line-height:0}
+sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(--faint)} sup.r-low{color:var(--brick)}
+.colg{color:var(--faint); font-size:12.5px}
+
+.note{max-width:1320px; margin:0 auto; padding:4px 20px 0; font-size:11.5px; color:var(--faint)}
+.note .rk-ex{color:var(--gold)}
+
+/* detail sheet */
+.scrim{position:fixed; inset:0; background:rgba(6,6,16,.64); opacity:0; pointer-events:none; transition:opacity .2s; z-index:50}
+.scrim.on{opacity:1; pointer-events:auto}
+.sheet{position:fixed; top:0; right:0; bottom:0; width:min(420px,93vw); background:var(--panel); border-left:1px solid var(--line2); transform:translateX(100%); transition:transform .24s cubic-bezier(.22,.61,.36,1); z-index:51; overflow-y:auto; padding-bottom:28px}
+.sheet.on{transform:none}
+.shead{position:sticky; top:0; background:var(--panel); border-bottom:1px solid var(--line2); padding:17px 20px; display:flex; align-items:flex-start; gap:13px}
+.shead .sg{font-family:var(--disp); font-weight:800; font-size:34px; line-height:.9}
+.shead .snm{font-family:var(--disp); font-weight:700; font-size:20px; line-height:1; text-transform:uppercase}
+.shead .smeta{font-size:12px; color:var(--dim); margin-top:4px}
+.shead .sx{margin-left:auto; width:30px;height:30px; border:1px solid var(--line2); background:transparent; color:var(--dim); cursor:pointer; display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.shead .sx:hover{color:var(--brick);border-color:var(--brick)} .shead .sx svg{width:13px;height:13px}
+.sec{padding:16px 20px; border-bottom:1px solid var(--line)}
+.sec h3{font-size:11px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--gold); margin-bottom:12px}
+.fdet{display:flex; align-items:center; gap:11px; margin-bottom:10px}
+.fdet:last-child{margin-bottom:0}
+.fdet .fl{width:94px; font-size:12.5px; color:var(--dim); flex-shrink:0}
+.fdet .ft{flex:1; height:7px; background:var(--row); position:relative; overflow:hidden}
+.fdet .ft::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--line2)}
+.fdet .ft i{position:absolute; top:0; bottom:0; display:block}
+.fdet .fv{width:50px; text-align:right; font-weight:700; font-size:13px; flex-shrink:0}
+.fdet .fv sup{font-size:9px;font-weight:600;color:var(--faint)}
+.stt{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line)}
+.stt div{background:var(--panel); padding:9px 11px}
+.stt .sk{font-size:11.5px; color:var(--dim)}
+.stt .sv{font-weight:700; font-size:14px; margin-top:1px}
+
+/* method + footer */
+.method{max-width:1320px; margin:18px auto 0; padding:26px 20px 46px; border-top:1px solid var(--line2)}
+.mgrid{display:grid; grid-template-columns:1.1fr 1fr; gap:24px}
+.mcard h2{font-family:var(--disp); font-weight:800; font-size:22px; text-transform:uppercase; letter-spacing:.03em; margin-bottom:12px}
+.mcard p{color:var(--dim); font-size:14px; line-height:1.62; margin-bottom:11px}
+.mcard p b{color:var(--ink); font-weight:600}
+.flist{list-style:none}
+.flist li{display:flex; gap:12px; padding:9px 0; border-top:1px solid var(--line); align-items:baseline}
+.flist li .w{font-family:var(--disp); font-size:15px; font-weight:800; color:var(--gold); width:42px; text-align:right; flex-shrink:0}
+.flist li .d b{color:var(--ink); font-weight:700; font-size:14px} .flist li .d span{color:var(--dim); font-size:13px}
+.prov{margin-top:20px; padding-top:14px; border-top:1px solid var(--line); font-size:12px; color:var(--faint)}
+.prov b{color:var(--gold); font-weight:600}
+.foot{border-top:1px solid var(--line2); background:var(--panel)}
+.footin{max-width:1320px; margin:0 auto; padding:22px 20px; display:flex; flex-wrap:wrap; gap:12px; align-items:center}
+.footin .fstars{display:flex;gap:5px;color:var(--gold)} .footin .fstars svg{width:12px;height:12px}
+.footin .fb{font-family:var(--disp); font-weight:800; letter-spacing:.06em; font-size:15px; text-transform:uppercase}
+.footin .ft2{color:var(--faint); font-size:12.5px}
+.footin .fr2{margin-left:auto; display:flex; gap:16px; font-size:11.5px; font-weight:600; letter-spacing:.03em; text-transform:uppercase; color:var(--faint)}
+.footin .fr2 a:hover{color:var(--gold)}
+
+@media (max-width:820px){ .mgrid{grid-template-columns:1fr} .topin nav{display:none} .topin .exp{display:none}
+  .c-qb{position:sticky;left:0;background:var(--bg);z-index:2} .kp tbody tr:nth-child(even) .c-qb{background:var(--rowalt)} .kp tbody tr:hover .c-qb{background:#1E2042} }
+@media (max-width:560px){ .topin,.ctx,.scroll,.note,.method,.footin{padding-left:13px;padding-right:13px} }
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="topin">
+    <img src="./logo.png" alt="Throw in the Towel">
+    <span class="wm">QBIR</span>
+    <span class="exp">The QB Independent Rating · Throw in the Towel</span>
+    <nav>
+      <a class="on" href="./">Index</a>
+      <a href="coaches/">Coaches</a><a href="https://chukse.github.io/ttt-fantasy/" target="_blank" rel="noopener">Fantasy</a>
+      <a class="soon">Draft</a>
+      <a href="#method">Method</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ctx">
+  <h1>2026 Quarterbacks</h1>
+  <span class="d" id="ctxd"></span>
+  <a class="mlink" href="#method">How it's built ↓</a>
+</div>
+
+<div class="scroll">
+  <table class="kp"><thead id="thead"></thead><tbody id="tbody"></tbody></table>
+</div>
+<p class="note">Every value carries its <span class="rk-ex">rank<sup>1</sup></span> among the 29 qualifying QBs. Click a column to sort · click a row for the full card. <b style="color:var(--dim)">PTS/G</b> = situation-stripped points of offense per game vs an average starter (QBIR's answer to KenPom's AdjEM). <b style="color:var(--dim)">LUCK</b> = his turnover-worthy throws vs his actual picks (+ lucky, regression coming · − unlucky, bounce-back due) — a diagnostic, not part of QBIR. Factors are scaled so 50 = pool average, +10 ≈ one standard deviation.</p>
+
+<section class="method" id="method">
+  <div class="mgrid">
+    <div class="mcard">
+      <h2>How the number is built</h2>
+      <p>Most ratings grade what happened. QBIR estimates <b>what the quarterback himself is worth</b> — regardless of where he plays. A play-level ridge regression partials out the opponent defense, the scheme, the game state and the supporting cast, so the leftover is the quarterback's own signal.</p>
+      <p>That isolated value is fused with PFF's charting grades, classic production and a multi-year track record into one 0–100 number. Where PFF's grade sits behind a paywall and a black box, QBIR is <b>public and fully decomposable</b> — every grade breaks into the seven factors beside this, each one ranked. Early-season grades lean on the track-record prior and flag small samples honestly.</p>
+      <div class="prov"><b>Built on</b> nflverse + PFF &nbsp;·&nbsp; <b>Rating by</b> Throw in the Towel &nbsp;·&nbsp; 2026, through Week 5</div>
+    </div>
+    <div class="mcard">
+      <h2>The seven factors</h2>
+      <ul class="flist">
+        <li><span class="w">40%</span><span class="d"><b>Efficiency</b> &nbsp;<span>isolated EPA/play + accuracy + production</span></span></li>
+        <li><span class="w">24%</span><span class="d"><b>Track record</b> &nbsp;<span>2023–25 grade + prior EPA</span></span></li>
+        <li><span class="w">12%</span><span class="d"><b>Availability</b> &nbsp;<span>games played — missing time is a debit</span></span></li>
+        <li><span class="w">11%</span><span class="d"><b>Mobility</b> &nbsp;<span>rushing EPA + elusiveness</span></span></li>
+        <li><span class="w">7%</span><span class="d"><b>Pressure</b> &nbsp;<span>play under pressure, sack avoidance</span></span></li>
+        <li><span class="w">6%</span><span class="d"><b>Carry</b> &nbsp;<span>doing it with weak support</span></span></li>
+        <li><span class="w">−3%</span><span class="d"><b>Env. help</b> &nbsp;<span>schedule + protection + drops, credited back</span></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="footin">
+    <span class="fstars" id="footstars" aria-hidden="true"></span>
+    <span class="fb">Throw in the Towel</span>
+    <span class="ft2">Sports stories told through data.</span>
+    <nav class="fr2"><a href="#method">Methodology</a><a href="coaches/">Coaches</a><a href="https://chukse.github.io/ttt-fantasy/" target="_blank" rel="noopener">Fantasy</a><a href="https://throwinthetowel214.substack.com" target="_blank" rel="noopener">Substack</a></nav>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Quarterback detail" tabindex="-1"></div>
+
+<script>
+const STAR='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2l2.95 6.3 6.85.72-5.1 4.64 1.43 6.74L12 17.6l-6.13 3-1.43-6.74-5.1-4.64 6.85-.72z"/></svg>';
+const X='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
+const FULL=["Efficiency","Mobility","Pressure","Carry","Track record","Availability","Env. help"];
+// columns: factor (f) + raw stat (s). all higher=better, so rank desc.
+const COLS=[
+  {id:"Efficiency",ab:"EFF",t:"f"},{id:"Mobility",ab:"MOB",t:"f"},{id:"Pressure",ab:"PRS",t:"f"},
+  {id:"Carry",ab:"CAR",t:"f"},{id:"Track record",ab:"TRK",t:"f"},{id:"Availability",ab:"AVL",t:"f"},{id:"Env. help",ab:"ENV",t:"f"},
+  {id:"PFF pass grade",ab:"PFF",t:"s",grp:1,fmt:v=>v.toFixed(1)},
+  {id:"Passer rating",ab:"RTG",t:"s",fmt:v=>v.toFixed(1)},
+  {id:"ANY/A",ab:"ANY/A",t:"s",fmt:v=>v.toFixed(2)},
+];
+const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7BD8',DET:'#0076B6',DAL:'#8993A0',NE:'#88A4C4',HOU:'#9AB',LV:'#C9C9C9',GB:'#2E8B57',KC:'#E31837',LA:'#4F7FD4',CAR:'#0085CA',NO:'#D3BC8D',NYJ:'#2E8B57',MIN:'#9A7BD8',DEN:'#FB4F14',SEA:'#69BE28',MIA:'#00A3A3',ARI:'#C14965',LAC:'#2CA0E0',PIT:'#FFB612',CLE:'#C0712B',NYG:'#5577C0',IND:'#5588C8',TEN:'#4B92DB',TB:'#D50A0A',PHI:'#1A9E7A',ATL:'#D14B5A',WAS:'#C68A5A',CHI:'#C8743A'};
+let DATA=null, RANK={}, sortKey="rank", sortDir=1;
+document.getElementById('footstars').innerHTML=STAR+STAR+STAR+STAR+STAR;
+
+function tierClass(g){return g>=87?'t-elite':g>=79?'t-good':g>=72?'t-mid':'t-low'}
+function relLabel(r){return r>=.45?'solid':r>=.33?'fair':'small'}
+function rkClass(r){return r<=5?'r-top':r<=12?'r-good':r>=23?'r-low':'r-mid'}
+function val(q,c){return c.t==='f'?q.factors[c.id]:q.stats[c.id]}
+
+fetch('data/qbir.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;prep();computeRanks();render()}).catch(()=>{
+  document.getElementById('tbody').innerHTML='<tr><td colspan="16" style="padding:46px;text-align:center"><div style="font-family:var(--disp);font-weight:700;font-size:20px;text-transform:uppercase;color:var(--ink)">The board is off the air</div><div style="margin-top:6px;font-size:13px;color:var(--dim)">Couldn’t load the ratings — refresh in a moment.</div></td></tr>';
+});
+
+// VALUE = situation-stripped expected points of offense per game vs an average starter
+// (isolated EPA/dropback × dropbacks/game) — QBIR's answer to KenPom's AdjEM.
+function prep(){DATA.qbs.forEach(q=>{const iso=q.stats["Isolated EPA/play"]; q._val=(iso!=null&&q.games)?iso*(q.db/q.games):null;});}
+const PTS_PER_WIN=40; // rough NFL points-of-margin per win (offense-only, back-of-envelope)
+function winsVsAvg(q){return q._val==null?null:q._val*17/PTS_PER_WIN;}
+
+function computeRanks(){
+  const keys=[{k:"grade",get:q=>q.grade},{k:"val",get:q=>q._val},{k:"luck",get:q=>q.luck}].concat(COLS.map(c=>({k:c.id,get:q=>val(q,c)})));
+  keys.forEach(({k,get})=>{
+    RANK[k]={};
+    [...DATA.qbs].map(q=>({id:q.id,v:get(q)})).filter(o=>o.v!=null)
+      .sort((a,b)=>b.v-a.v).forEach((o,i)=>RANK[k][o.id]=i+1);
+  });
+}
+
+function render(){
+  const m=DATA.meta;
+  document.getElementById('ctxd').innerHTML=`<b>${m.n}</b> qualifiers · ≥100 dropbacks · leader <span class="go">${m.leader.replace(/^.*\./,'')} ${m.leader_grade}</span> · pool avg ${m.pool_avg_grade} · through Wk ${m.through_week}`;
+
+  let th=`<tr><th class="lt" data-s="rank">#</th><th class="lt" data-s="rank">Quarterback</th><th data-s="grade">QBIR</th><th data-s="val" title="Expected points of offense per game vs an average starter — situation-stripped. QBIR's AdjEM.">PTS/G</th><th class="colg" data-s="G">G</th>`+
+    COLS.map(c=>`<th class="${c.grp?'grp':''}" data-s="${c.id}" title="${c.id}">${c.ab}</th>`).join('')+
+    `<th class="grp" data-s="luck" title="Turnover luck — expected picks from his turnover-worthy throws minus actual picks. + = lucky (regression coming), − = unlucky (bounce-back due).">LUCK</th></tr>`;
+  document.getElementById('thead').innerHTML=th;
+  document.querySelectorAll('#thead th').forEach(h=>{
+    const k=h.getAttribute('data-s');
+    if(k===sortKey){h.classList.add('active'); h.insertAdjacentHTML('beforeend',`<span class="ar">${sortDir<0?'▼':'▲'}</span>`);}
+    h.onclick=()=>{ if(sortKey===k){sortDir*=-1}else{sortKey=k;sortDir=(k==='rank'||k==='G')?1:-1;} render(); };
+  });
+
+  let qbs=[...DATA.qbs];
+  qbs.sort((a,b)=>{
+    let av,bv;
+    if(sortKey==='rank'){av=a.rank;bv=b.rank;}
+    else if(sortKey==='grade'){av=a.grade;bv=b.grade;}
+    else if(sortKey==='val'){av=a._val;bv=b._val;}
+    else if(sortKey==='luck'){av=a.luck;bv=b.luck;}
+    else if(sortKey==='G'){av=a.games;bv=b.games;}
+    else{const c=COLS.find(x=>x.id===sortKey); av=val(a,c);bv=val(b,c);}
+    return ((av==null?-1e9:av)-(bv==null?-1e9:bv))*sortDir;
+  });
+
+  let rows=qbs.map(q=>{
+    const col=TEAMCOL[q.team]||'#888';
+    const gr=RANK.grade[q.id];
+    let cells=COLS.map(c=>{
+      const v=val(q,c); if(v==null)return `<td class="${c.grp?'grp':''}"><span class="val sm">—</span></td>`;
+      const r=RANK[c.id][q.id], disp=c.fmt?c.fmt(v):v;
+      return `<td class="${c.grp?'grp':''}"><span class="val ${c.t==='s'?'sm':''}">${disp}</span><sup class="rk ${rkClass(r)}">${r}</sup></td>`;
+    }).join('');
+    const lk=q.luck;
+    const luckCell=lk==null?`<td class="grp"><span class="val sm">—</span></td>`:`<td class="c-luck grp ${lk>=0?'pos':'neg'} num">${lk>=0?'+':''}${lk.toFixed(1)}<sup class="rk ${rkClass(RANK.luck[q.id])}">${RANK.luck[q.id]}</sup></td>`;
+    return `<tr data-id="${q.id}">
+      <td class="lt c-rk num">${q.rank}</td>
+      <td class="lt c-qb"><div class="nm">${q.name}</div><div class="mt"><span class="dot" style="background:${col}"></span>${q.team} · ${q.games}G · ${q.db}db · ${relLabel(q.reliability)}</div></td>
+      <td class="c-gr ${tierClass(q.grade)} num">${q.grade.toFixed(1)}</td>
+      <td class="c-val ${q._val>=0?'pos':'neg'} num">${q._val==null?'—':(q._val>=0?'+':'')+q._val.toFixed(1)}${q._val==null?'':`<sup class="rk ${rkClass(RANK.val[q.id])}">${RANK.val[q.id]}</sup>`}</td>
+      <td class="colg num">${q.games}</td>${cells}${luckCell}</tr>`;
+  }).join('');
+  document.getElementById('tbody').innerHTML=rows;
+  document.querySelectorAll('#tbody tr[data-id]').forEach(tr=>tr.onclick=e=>{if(!e.target.closest('a'))openSheet(tr.getAttribute('data-id'))});
+}
+function qb(id){return DATA.qbs.find(q=>q.id===id)}
+
+let lastFocus=null;
+function openSheet(id){
+  const q=qb(id), sh=document.getElementById('sheet'), vv=q._val, wins=winsVsAvg(q);
+  const lk=q.luck, twp=q.twp, ai=q.ints;
+  const luckTxt=lk==null?'—':lk>=1.5?'living dangerously — the picks are coming':lk<=-1.5?'snakebit — positive regression due':'about right';
+  let fdet=FULL.map(fk=>{
+    const v=q.factors[fk], above=v>=50, mag=Math.min(Math.abs(v-50)/40,1)*50, cc=above?'var(--gold)':'var(--cool)', r=RANK[fk][q.id];
+    return `<div class="fdet"><span class="fl">${fk}</span><span class="ft"><i style="${above?'left:50%':'right:50%'};width:${mag}%;background:${cc}"></i></span><span class="fv num" style="color:${above?'var(--gold-br)':v<42?'var(--brick)':'var(--ink)'}">${v}<sup>${r}</sup></span></div>`;
+  }).join('');
+  let stats=Object.entries(q.stats).filter(([k,v])=>v!=null).map(([k,v])=>`<div><div class="sk">${k}</div><div class="sv num">${v}</div></div>`).join('');
+  sh.innerHTML=`
+    <div class="shead">
+      <div class="sg num ${tierClass(q.grade)}" style="color:${q.grade>=87?'var(--gold-br)':q.grade<72?'var(--brick)':'var(--ink)'}">${q.grade.toFixed(1)}</div>
+      <div><div class="snm">${q.name}</div><div class="smeta num">#${q.rank} · ${q.team} · ${q.games}G · ${q.db} DB · ${relLabel(q.reliability)} sample</div></div>
+      <button class="sx" id="sheetx" aria-label="Close">${X}</button>
+    </div>
+    <div class="sec sval"><div class="svk">Value · situation-stripped</div><div class="svv"><b class="${vv>=0?'pos':'neg'}">${vv==null?'—':(vv>=0?'+':'')+vv.toFixed(1)}</b> pts/game of offense vs an average starter &nbsp;·&nbsp; ≈ <b class="${wins>=0?'pos':'neg'}">${wins==null?'—':(wins>=0?'+':'')+wins.toFixed(1)}</b> wins / full season <span class="apx">(approx · offense-only)</span></div></div>
+    <div class="sec"><h3>Factor profile · value + rank · vs pool avg (50)</h3>${fdet}</div>
+    <div class="sec"><h3>Turnover luck</h3><div style="font-size:13.5px;color:var(--dim);line-height:1.55"><b style="color:var(--ink);font-size:16px">${twp==null?'—':twp}</b> turnover-worthy throws &nbsp;·&nbsp; <b style="color:var(--ink);font-size:16px">${ai==null?'—':ai}</b> actual picks &nbsp;·&nbsp; <b style="color:${lk>=0?'var(--gold)':'var(--cool)'};font-size:16px">${lk==null?'—':(lk>=0?'+':'')+lk.toFixed(1)}</b> <span style="color:var(--faint)">— ${luckTxt}</span></div></div>
+    <div class="sec"><h3>Underlying numbers</h3><div class="stt">${stats}</div></div>`;
+  document.getElementById('sheetx').onclick=closeSheet;
+  lastFocus=document.activeElement;
+  sh.onkeydown=(e)=>{if(e.key!=='Tab')return;const f=sh.querySelectorAll('button');if(!f.length)return;const fi=f[0],la=f[f.length-1];if(e.shiftKey&&document.activeElement===fi){e.preventDefault();la.focus()}else if(!e.shiftKey&&document.activeElement===la){e.preventDefault();fi.focus()}};
+  document.body.style.overflow='hidden';
+  document.getElementById('scrim').classList.add('on'); sh.classList.add('on'); document.getElementById('sheetx').focus();
+}
+function closeSheet(){document.getElementById('scrim').classList.remove('on');document.getElementById('sheet').classList.remove('on');document.body.style.overflow='';if(lastFocus){lastFocus.focus();lastFocus=null}}
+document.getElementById('scrim').addEventListener('click',closeSheet);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
+</script>
+</body>
+</html>
