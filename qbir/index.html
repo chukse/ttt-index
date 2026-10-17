@@ -204,7 +204,8 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
   <div class="mgrid">
     <div class="mcard">
       <h2>How the number is built</h2>
-      <p>Most ratings grade what happened. QBIR estimates <b>what the quarterback himself is worth</b> — regardless of where he plays. A play-level ridge regression partials out the opponent defense, the scheme, the game state and the supporting cast, so the leftover is the quarterback's own signal.</p>
+      <p>Most ratings grade what happened. QBIR estimates <b>what the quarterback himself is worth</b> — regardless of where he plays. A play-level ridge regression partials out the opponent defense, the game state and the supporting cast, so the leftover is the quarterback's own signal.</p>
+      <p>Scheme gets special treatment, because a QB who has only played in one system is statistically fused with it. We borrow the <b>two-way fixed-effects model</b> labor economists use to separate a worker's skill from the firm that employs them — here, QB from offensive scheme — identified from quarterbacks who <b>changed teams</b> (2022–26). Each system's lift is then netted out, so a QB-friendly scheme like San Francisco's (the league's most generous) is credited to the scheme, not the passer. Every card shows the tax.</p>
       <p>That isolated value is fused with PFF's charting grades, classic production and a multi-year track record into one 0–100 number. Where PFF's grade sits behind a paywall and a black box, QBIR is <b>public and fully decomposable</b> — every grade breaks into the seven factors beside this, each one ranked. Early-season grades lean on the track-record prior and flag small samples honestly.</p>
       <div class="prov"><b>Built on</b> nflverse + PFF &nbsp;·&nbsp; <b>Rating by</b> Throw in the Towel &nbsp;·&nbsp; 2026, through Week 5</div>
     </div>
@@ -336,6 +337,8 @@ function openSheet(id){
     return `<div class="fdet"><span class="fl">${fk}</span><span class="ft"><i style="${above?'left:50%':'right:50%'};width:${mag}%;background:${cc}"></i></span><span class="fv num" style="color:${above?'var(--gold-br)':v<42?'var(--brick)':'var(--ink)'}">${v}<sup>${r}</sup></span></div>`;
   }).join('');
   let stats=Object.entries(q.stats).filter(([k,v])=>v!=null).map(([k,v])=>`<div><div class="sk">${k}</div><div class="sv num">${v}</div></div>`).join('');
+  const sc=q.scheme, sctax=q.stats["Scheme tax (EPA/play)"];
+  const schemeHtml = sc ? `<div class="sec"><h3>Scheme context · QB vs system</h3><div style="font-size:13.5px;color:var(--dim);line-height:1.55">Plays in <b style="color:var(--ink)">${q.team}</b>'s offense — the <b style="color:${sc.lift>=0?'var(--gold-br)':'var(--cool)'}">#${sc.rank}</b> most QB-friendly scheme of ${sc.of} <span style="color:var(--faint)">(${sc.lift>=0?'+':''}${sc.lift} EPA/play a league-average QB gains here)</span>. QBIR nets out <b style="color:var(--ink)">${sctax==null?'—':(sctax>=0?'+':'')+sctax}</b> EPA/play of that system help from his isolated value${sc.reliability<0.3?', <span style="color:var(--faint)">lightly — this scheme is weakly identified (few non-starter snaps)</span>':''}.</div></div>` : '';
   sh.innerHTML=`
     <div class="shead">
       <div class="sg num ${tierClass(q.grade)}" style="color:${q.grade>=87?'var(--gold-br)':q.grade<72?'var(--brick)':'var(--ink)'}">${q.grade.toFixed(1)}</div>
@@ -343,6 +346,7 @@ function openSheet(id){
       <button class="sx" id="sheetx" aria-label="Close">${X}</button>
     </div>
     <div class="sec sval"><div class="svk">Value · situation-stripped</div><div class="svv"><b class="${vv>=0?'pos':'neg'}">${vv==null?'—':(vv>=0?'+':'')+vv.toFixed(1)}</b> pts/game of offense vs an average starter &nbsp;·&nbsp; ≈ <b class="${wins>=0?'pos':'neg'}">${wins==null?'—':(wins>=0?'+':'')+wins.toFixed(1)}</b> wins / full season <span class="apx">(approx · offense-only)</span></div></div>
+    ${schemeHtml}
     <div class="sec"><h3>Factor profile · value + rank · vs pool avg (50)</h3>${fdet}</div>
     <div class="sec"><h3>Turnover luck</h3><div style="font-size:13.5px;color:var(--dim);line-height:1.55"><b style="color:var(--ink);font-size:16px">${twp==null?'—':twp}</b> turnover-worthy throws &nbsp;·&nbsp; <b style="color:var(--ink);font-size:16px">${ai==null?'—':ai}</b> actual picks &nbsp;·&nbsp; <b style="color:${lk>=0?'var(--gold)':'var(--cool)'};font-size:16px">${lk==null?'—':(lk>=0?'+':'')+lk.toFixed(1)}</b> <span style="color:var(--faint)">— ${luckTxt}</span></div></div>
     <div class="sec"><h3>Underlying numbers</h3><div class="stt">${stats}</div></div>`;

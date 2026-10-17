@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "qbir/index.html"
+        ],
+        "createdAt": "2026-10-17T16:23:22.300Z",
+        "reason": "documented design-system micro-labels (11-11.5px mono rank sups/col abbrevs); all prose >=14px, new scheme callout is 13.5px — same sanctioned exception carried from the ttt_index source tree"
+      }
+    ]
+  }
+}
