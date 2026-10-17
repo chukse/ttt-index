@@ -48,10 +48,9 @@
         var s = await sb.auth.getSession();
         var session = s && s.data && s.data.session;
         if (!session) return this._set('free');
-        var r = await sb.from('user_state').select('plan,plan_expires').eq('user_id', session.user.id).single();
+        var r = await sb.from('user_state').select('plan').eq('user_id', session.user.id).maybeSingle();
         var row = r && r.data;
         var tier = (row && row.plan) || 'free';
-        if (row && row.plan_expires && new Date(row.plan_expires) < new Date()) tier = 'free';
         return this._set(tier);
       } catch (e) {
         return this._set('free');
