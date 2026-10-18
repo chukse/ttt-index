@@ -11,17 +11,17 @@
  * Stripe's webhook writes that value on checkout; this file maps it to features.
  */
 (function (global) {
-  // tier -> the features it unlocks, across every TTT app
+  // ONE TTT membership: any paid plan unlocks everything, every app. The free tier
+  // keeps the public rankings; the membership unlocks depth, tools and the full apps.
+  var ALL = ['index_depth', 'substack', 'fantasy_pro', 'draft_pro'];
   var TIERS = {
     free:      [],
-    core:      ['index_depth', 'substack'],
-    allaccess: ['index_depth', 'substack', 'fantasy_pro', 'draft_pro'],
+    member:    ALL,   // canonical paid plan name
+    pro:       ALL,   // the fantasy app already writes plan='pro'
+    core:      ALL,   // legacy aliases — collapsed into the single membership
+    allaccess: ALL,
   };
-  // human-readable, for upgrade prompts / "which tier unlocks this"
-  var MIN_TIER = {
-    index_depth: 'core', substack: 'core',
-    fantasy_pro: 'allaccess', draft_pro: 'allaccess',
-  };
+  var MIN_TIER = { index_depth: 'member', substack: 'member', fantasy_pro: 'member', draft_pro: 'member' };
 
   var TTT = {
     tier: 'free',
