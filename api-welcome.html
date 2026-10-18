@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your TTT API key</title>
+<link rel="icon" href="./logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=Spline+Sans+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#101124;--panel:#171830;--line:#2b2d4e;--ink:#EEE9DC;--dim:#A7A2BA;--faint:#8E8AA6;--gold:#D3A456;--gold-br:#ECC77F;--up:#49C98B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Archivo',system-ui,sans-serif;line-height:1.6;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.card{max-width:620px;width:100%;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:36px}
+.badge{font-family:'Archivo';font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--up)}
+h1{font-family:'Archivo';font-weight:900;font-size:30px;letter-spacing:-.01em;margin:6px 0 0}
+p{color:var(--dim);font-size:15px;margin-top:12px}
+p b{color:var(--ink);font-weight:600}
+.keybox{margin-top:22px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;gap:10px;align-items:center}
+.keybox code{font-family:'Spline Sans Mono',monospace;font-size:14px;color:var(--gold-br);word-break:break-all;flex:1}
+.btn{font-family:'Archivo';font-weight:700;font-size:13px;border:0;border-radius:8px;padding:9px 14px;cursor:pointer;background:var(--gold);color:#17120a;white-space:nowrap}
+.btn:hover{background:var(--gold-br)}
+.warn{margin-top:14px;font-size:13px;color:var(--faint)}
+.ex{margin-top:22px;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:16px;font-family:'Spline Sans Mono',monospace;font-size:12.5px;color:var(--dim);white-space:pre-wrap;word-break:break-all}
+.ex b{color:var(--ink)}
+a{color:var(--gold-br)}
+.load{color:var(--faint);font-size:15px;margin-top:22px}
+.err{color:#e08;font-size:14px;margin-top:22px}
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="badge">● Payment confirmed</span>
+  <h1>Your TTT API key</h1>
+  <p>Thanks for subscribing to the <b>Throw in the Towel API</b>. Here's your key — it authenticates every request.</p>
+  <div id="out" class="load">Generating your key…</div>
+  <div id="example" style="display:none" class="ex">curl -H "Authorization: Bearer <b id="exkey">YOUR_KEY</b>" \
+  https://ttt-api.chukegbuchunam.workers.dev/v1/qbir?limit=5
+
+Docs: <a href="https://ttt-api.chukegbuchunam.workers.dev/v1" target="_blank">/v1</a> · Endpoints: /v1/qbir · /v1/qbir/{id} · /v1/coaches</div>
+</div>
+<script>
+const API="https://ttt-api.chukegbuchunam.workers.dev";
+const sid=new URLSearchParams(location.search).get("session_id");
+const out=document.getElementById("out");
+async function go(){
+  if(!sid){out.className="err";out.textContent="No checkout session found in the link.";return;}
+  try{
+    const r=await fetch(`${API}/v1/provision?session_id=${encodeURIComponent(sid)}`);
+    const d=await r.json();
+    if(!r.ok||!d.api_key){out.className="err";out.textContent=(d.error&&d.error.message)||"Couldn't issue a key — contact support@throwinthetowel.";return;}
+    out.className="";
+    out.innerHTML=`<div class="keybox"><code id="k">${d.api_key}</code><button class="btn" id="copy">Copy</button></div>
+      <div class="warn">⚠︎ Save this now — for security it won't be shown again after 7 days (the key itself keeps working).</div>`;
+    document.getElementById("copy").onclick=()=>{navigator.clipboard.writeText(d.api_key);document.getElementById("copy").textContent="Copied";};
+    document.getElementById("exkey").textContent=d.api_key;
+    document.getElementById("example").style.display="block";
+  }catch(e){out.className="err";out.textContent="Network error — refresh to try again.";}
+}
+go();
+</script>
+</body>
+</html>
