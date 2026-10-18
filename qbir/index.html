@@ -198,7 +198,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 <div class="scroll">
   <table class="kp"><thead id="thead"></thead><tbody id="tbody"></tbody></table>
 </div>
-<p class="note">Every value carries its <span class="rk-ex">rank<sup>1</sup></span> among the 29 qualifying QBs. Click a column to sort · click a row for the full card. <b style="color:var(--dim)">PTS/G</b> = situation-stripped points of offense per game vs an average starter (QBIR's answer to KenPom's AdjEM). <b style="color:var(--dim)">LUCK</b> = his turnover-worthy throws vs his actual picks (+ lucky, regression coming · − unlucky, bounce-back due) — a diagnostic, not part of QBIR. Factors are scaled so 50 = pool average, +10 ≈ one standard deviation.</p>
+<p class="note">Every value carries its <span class="rk-ex">rank<sup>1</sup></span> among the 29 qualifying QBs. Click a column to sort · click a row for the full card. <b style="color:var(--dim)">PTS/G</b> = situation-stripped points of offense per game vs an average starter. <b style="color:var(--dim)">LUCK</b> = his turnover-worthy throws vs his actual picks (+ lucky, regression coming · − unlucky, bounce-back due) — a diagnostic, not part of QBIR. Factors are scaled so 50 = pool average, +10 ≈ one standard deviation.</p>
 
 <section class="method" id="method">
   <div class="mgrid">
@@ -265,7 +265,7 @@ fetch('data/qbir.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;prep();c
 });
 
 // VALUE = situation-stripped expected points of offense per game vs an average starter
-// (isolated EPA/dropback × dropbacks/game) — QBIR's answer to KenPom's AdjEM.
+// (isolated EPA/dropback × dropbacks/game) — the single situation-stripped value number.
 function prep(){DATA.qbs.forEach(q=>{const iso=q.stats["Isolated EPA/play"]; q._val=(iso!=null&&q.games)?iso*(q.db/q.games):null;});}
 const PTS_PER_WIN=40; // rough NFL points-of-margin per win (offense-only, back-of-envelope)
 function winsVsAvg(q){return q._val==null?null:q._val*17/PTS_PER_WIN;}
