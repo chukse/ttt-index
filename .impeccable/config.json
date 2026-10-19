@@ -20,6 +20,15 @@
         ],
         "createdAt": "2026-10-18T23:41:06.759Z",
         "reason": "documented footnote/micro-label tokens (11.5px .note + uppercase nav labels), consistent with the qbir board's sanctioned exception; all prose >=14px"
+      },
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-19T02:10:06.251Z",
+        "reason": "root front page is a copy of the qbir board; same documented footnote/micro-label tokens (11.5px .note + 11px rank sups/col labels) already sanctioned on qbir + coaches; all prose >=14px"
       }
     ]
   }
