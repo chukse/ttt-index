@@ -7,13 +7,13 @@
 <meta name="description" content="The TTT Coach Index — every NFL coach's scheme identity, ranked. Built on nflverse + PFF.">
 <link rel="icon" href="../ttt_index/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Saira+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Hanken+Grotesk:wght@400..800&family=Spline+Sans+Mono:wght@500..700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#101124; --panel:#171830; --row:#14152B; --rowalt:#181935; --line:#272943; --line2:#353755;
   --ink:#EEE9DC; --dim:#A7A2BA; --faint:#8E8AA6;
   --gold:#D3A456; --gold-br:#ECC77F; --cool:#7E8CBC; --brick:#CB5E47;
-  --disp:'Saira Condensed',Arial Narrow,sans-serif; --sans:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --disp:'Bricolage Grotesque','Hanken Grotesk',sans-serif; --sans:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; --mono:'Spline Sans Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
@@ -57,7 +57,7 @@ table.kp{width:100%;border-collapse:collapse;min-width:1080px;font-variant-numer
 .c-coach .nm{font-weight:700;font-size:15px} .c-coach .nm:hover{color:var(--gold)}
 .c-coach .mt{font-size:11px;color:var(--faint)}
 .c-coach .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:baseline}
-.val{font-size:13.5px;color:var(--ink)} .val.sm{color:var(--dim)}
+.val{font-family:var(--mono);font-size:12.5px;color:var(--ink)} .val.sm{color:var(--dim)}
 sup.rk{font-size:9.5px;font-weight:600;margin-left:2px;vertical-align:super;line-height:0}
 sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(--faint)} sup.r-low{color:var(--brick)}
 .c-ep.pos{color:var(--gold-br)} .c-ep.neg{color:var(--brick)}

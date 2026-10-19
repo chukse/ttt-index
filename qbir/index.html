@@ -8,15 +8,16 @@
 <link rel="icon" href="./logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Saira+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Hanken+Grotesk:wght@400..800&family=Spline+Sans+Mono:wght@500..700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#101124; --panel:#171830; --row:#14152B; --rowalt:#181935;
   --line:#272943; --line2:#353755;
   --ink:#EEE9DC; --dim:#A7A2BA; --faint:#8E8AA6;
   --gold:#D3A456; --gold-br:#ECC77F; --cool:#7E8CBC; --brick:#CB5E47;
-  --disp:'Saira Condensed',Arial Narrow,sans-serif;
-  --sans:'Archivo',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --disp:'Bricolage Grotesque','Hanken Grotesk',sans-serif;
+  --sans:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --mono:'Spline Sans Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
@@ -72,7 +73,7 @@ table.kp{width:100%; border-collapse:collapse; min-width:1040px; font-variant-nu
 .c-qb .nm:hover{color:var(--gold)}
 .c-qb .mt{font-size:11px; color:var(--faint); margin-top:0}
 .c-qb .dot{display:inline-block; width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:baseline}
-.c-gr{font-family:var(--disp); font-weight:800; font-size:18px; width:60px}
+.c-gr{font-family:var(--mono); font-weight:700; font-size:17px; width:60px}
 .c-gr.t-elite{color:var(--gold-br)} .c-gr.t-good{color:var(--ink)} .c-gr.t-mid{color:var(--dim)} .c-gr.t-low{color:var(--brick)}
 .c-val{font-weight:700; font-size:13.5px; width:58px} .c-val.pos{color:var(--ink)} .c-val.neg{color:var(--brick)}
 .c-luck{font-weight:700; font-size:13px; width:56px} .c-luck.pos{color:var(--gold)} .c-luck.neg{color:var(--cool)}
@@ -83,6 +84,7 @@ table.kp{width:100%; border-collapse:collapse; min-width:1040px; font-variant-nu
 sup.rk{font-size:9.5px; font-weight:600; margin-left:2px; vertical-align:super; line-height:0}
 sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(--faint)} sup.r-low{color:var(--brick)}
 .colg{color:var(--faint); font-size:12.5px}
+.kp .val,.kp .c-val,.kp .c-luck,.kp .colg,.kp .c-rk{font-family:var(--mono)}
 
 .note{max-width:1320px; margin:0 auto; padding:4px 20px 0; font-size:11.5px; color:var(--faint)}
 .note .rk-ex{color:var(--gold)}
@@ -93,7 +95,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 .sheet{position:fixed; top:0; right:0; bottom:0; width:min(420px,93vw); background:var(--panel); border-left:1px solid var(--line2); transform:translateX(100%); transition:transform .24s cubic-bezier(.22,.61,.36,1); z-index:51; overflow-y:auto; padding-bottom:28px}
 .sheet.on{transform:none}
 .shead{position:sticky; top:0; background:var(--panel); border-bottom:1px solid var(--line2); padding:17px 20px; display:flex; align-items:flex-start; gap:13px}
-.shead .sg{font-family:var(--disp); font-weight:800; font-size:34px; line-height:.9}
+.shead .sg{font-family:var(--mono); font-weight:700; font-size:32px; line-height:.9}
 .shead .snm{font-family:var(--disp); font-weight:700; font-size:20px; line-height:1; text-transform:uppercase}
 .shead .smeta{font-size:12px; color:var(--dim); margin-top:4px}
 .shead .sx{margin-left:auto; width:30px;height:30px; border:1px solid var(--line2); background:transparent; color:var(--dim); cursor:pointer; display:flex;align-items:center;justify-content:center;flex-shrink:0}
