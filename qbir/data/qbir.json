@@ -7,7 +7,7 @@
   "through_week": 5,
   "n": 29,
   "leader": "B.Purdy",
-  "leader_grade": 92.2,
+  "leader_grade": 92.9,
   "pool_avg_grade": 75.0,
   "sources": "nflverse + PFF",
   "rating_by": "Throw in the Towel"
@@ -21,8 +21,8 @@
    "team": "SF",
    "games": 5,
    "db": 145,
-   "grade": 92.2,
-   "qbir": 67.2,
+   "grade": 92.9,
+   "qbir": 67.9,
    "reliability": 0.27,
    "prev_rank": null,
    "scheme": {
@@ -32,13 +32,13 @@
     "reliability": 0.67
    },
    "factors": {
-    "Efficiency": 65.9,
-    "Mobility": 52.4,
-    "Pressure": 66.1,
+    "Efficiency": 65.6,
+    "Mobility": 53.2,
+    "Pressure": 54.2,
     "Carry": 53.6,
-    "Track record": 62.3,
+    "Track record": 62.2,
     "Availability": 55.3,
-    "Env. help": 63.4
+    "Env. help": 55.1
    },
    "stats": {
     "Passer rating": 119.3,
@@ -48,7 +48,6 @@
     "Isolated EPA/play": 0.046,
     "Situation credit": 0.309,
     "Scheme tax (EPA/play)": 0.039,
-    "EPA/db vs pressure": -0.001,
     "Rush EPA (total)": 5.7
    },
    "twp": 4.0,
@@ -57,56 +56,14 @@
   },
   {
    "rank": 2,
-   "id": "00-0036442",
-   "name": "J.Burrow",
-   "last": "Burrow",
-   "team": "CIN",
-   "games": 5,
-   "db": 198,
-   "grade": 90.5,
-   "qbir": 65.5,
-   "reliability": 0.33,
-   "prev_rank": null,
-   "scheme": {
-    "lift": 0.033,
-    "rank": 10,
-    "of": 32,
-    "reliability": 0.63
-   },
-   "factors": {
-    "Efficiency": 62.2,
-    "Mobility": 49.9,
-    "Pressure": 60.4,
-    "Carry": 58.5,
-    "Track record": 64.1,
-    "Availability": 55.3,
-    "Env. help": 52.4
-   },
-   "stats": {
-    "Passer rating": 104.4,
-    "ANY/A": 7.61,
-    "CPOE": 6.0,
-    "TWP rate (FTN)": 0.015,
-    "Isolated EPA/play": 0.038,
-    "Situation credit": 0.116,
-    "Scheme tax (EPA/play)": 0.012,
-    "EPA/db vs pressure": -0.002,
-    "Rush EPA (total)": 5.1
-   },
-   "twp": 3.0,
-   "ints": 3,
-   "luck": -0.5
-  },
-  {
-   "rank": 3,
    "id": "00-0034857",
    "name": "J.Allen",
    "last": "Allen",
    "team": "BUF",
    "games": 5,
    "db": 151,
-   "grade": 90.2,
-   "qbir": 65.2,
+   "grade": 92.7,
+   "qbir": 67.7,
    "reliability": 0.27,
    "prev_rank": null,
    "scheme": {
@@ -116,13 +73,13 @@
     "reliability": 0.17
    },
    "factors": {
-    "Efficiency": 57.0,
-    "Mobility": 79.4,
-    "Pressure": 56.2,
+    "Efficiency": 58.3,
+    "Mobility": 85.0,
+    "Pressure": 53.3,
     "Carry": 59.3,
-    "Track record": 59.8,
+    "Track record": 58.6,
     "Availability": 55.3,
-    "Env. help": 54.4
+    "Env. help": 57.4
    },
    "stats": {
     "Passer rating": 99.6,
@@ -132,7 +89,6 @@
     "Isolated EPA/play": 0.045,
     "Situation credit": 0.208,
     "Scheme tax (EPA/play)": 0.028,
-    "EPA/db vs pressure": 0.0,
     "Rush EPA (total)": 24.4
    },
    "twp": 7.0,
@@ -140,57 +96,56 @@
    "luck": 1.8
   },
   {
-   "rank": 4,
-   "id": "00-0036971",
-   "name": "T.Lawrence",
-   "last": "Lawrence",
-   "team": "JAX",
+   "rank": 3,
+   "id": "00-0036442",
+   "name": "J.Burrow",
+   "last": "Burrow",
+   "team": "CIN",
    "games": 5,
-   "db": 153,
-   "grade": 87.2,
-   "qbir": 62.2,
-   "reliability": 0.28,
+   "db": 198,
+   "grade": 89.2,
+   "qbir": 64.2,
+   "reliability": 0.33,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.049,
-    "rank": 7,
+    "lift": 0.033,
+    "rank": 10,
     "of": 32,
-    "reliability": 0.47
+    "reliability": 0.63
    },
    "factors": {
-    "Efficiency": 59.3,
-    "Mobility": 75.3,
-    "Pressure": 50.4,
-    "Carry": 50.8,
-    "Track record": 52.0,
+    "Efficiency": 62.7,
+    "Mobility": 52.2,
+    "Pressure": 63.6,
+    "Carry": 58.5,
+    "Track record": 53.5,
     "Availability": 55.3,
-    "Env. help": 41.1
+    "Env. help": 46.1
    },
    "stats": {
-    "Passer rating": 106.8,
-    "ANY/A": 8.56,
-    "CPOE": 5.9,
-    "TWP rate (FTN)": 0.026,
-    "Isolated EPA/play": 0.043,
-    "Situation credit": 0.218,
-    "Scheme tax (EPA/play)": 0.014,
-    "EPA/db vs pressure": -0.006,
-    "Rush EPA (total)": 1.4
+    "Passer rating": 104.4,
+    "ANY/A": 7.61,
+    "CPOE": 6.0,
+    "TWP rate (FTN)": 0.015,
+    "Isolated EPA/play": 0.038,
+    "Situation credit": 0.116,
+    "Scheme tax (EPA/play)": 0.012,
+    "Rush EPA (total)": 5.1
    },
-   "twp": 4.0,
-   "ints": 4,
-   "luck": -0.7
+   "twp": 3.0,
+   "ints": 3,
+   "luck": -0.5
   },
   {
-   "rank": 5,
+   "rank": 4,
    "id": "00-0034796",
    "name": "L.Jackson",
    "last": "Jackson",
    "team": "BAL",
    "games": 4,
    "db": 101,
-   "grade": 85.8,
-   "qbir": 60.8,
+   "grade": 88.4,
+   "qbir": 63.4,
    "reliability": 0.2,
    "prev_rank": null,
    "scheme": {
@@ -200,13 +155,13 @@
     "reliability": 0.49
    },
    "factors": {
-    "Efficiency": 62.8,
-    "Mobility": 57.1,
-    "Pressure": 58.2,
+    "Efficiency": 62.9,
+    "Mobility": 60.1,
+    "Pressure": 67.3,
     "Carry": 60.0,
-    "Track record": 58.1,
+    "Track record": 59.3,
     "Availability": 36.0,
-    "Env. help": 59.8
+    "Env. help": 75.0
    },
    "stats": {
     "Passer rating": 119.6,
@@ -216,12 +171,52 @@
     "Isolated EPA/play": 0.057,
     "Situation credit": 0.3,
     "Scheme tax (EPA/play)": 0.008,
-    "EPA/db vs pressure": -0.005,
     "Rush EPA (total)": 7.8
    },
    "twp": 3.0,
    "ints": 1,
    "luck": 1.5
+  },
+  {
+   "rank": 5,
+   "id": "00-0039851",
+   "name": "D.Maye",
+   "last": "Maye",
+   "team": "NE",
+   "games": 5,
+   "db": 163,
+   "grade": 85.0,
+   "qbir": 60.0,
+   "reliability": 0.29,
+   "prev_rank": null,
+   "scheme": {
+    "lift": -0.031,
+    "rank": 23,
+    "of": 32,
+    "reliability": 0.78
+   },
+   "factors": {
+    "Efficiency": 53.6,
+    "Mobility": 64.7,
+    "Pressure": 54.9,
+    "Carry": 55.8,
+    "Track record": 56.7,
+    "Availability": 55.3,
+    "Env. help": 53.6
+   },
+   "stats": {
+    "Passer rating": 88.9,
+    "ANY/A": 6.92,
+    "CPOE": 6.7,
+    "TWP rate (FTN)": 0.049,
+    "Isolated EPA/play": 0.027,
+    "Situation credit": 0.109,
+    "Scheme tax (EPA/play)": -0.011,
+    "Rush EPA (total)": 12.4
+   },
+   "twp": 8.0,
+   "ints": 7,
+   "luck": -0.3
   },
   {
    "rank": 6,
@@ -242,13 +237,13 @@
     "reliability": 0.05
    },
    "factors": {
-    "Efficiency": 62.2,
-    "Mobility": 36.3,
-    "Pressure": 58.5,
+    "Efficiency": 61.1,
+    "Mobility": 37.0,
+    "Pressure": 47.4,
     "Carry": 52.1,
-    "Track record": 58.0,
+    "Track record": 59.7,
     "Availability": 55.3,
-    "Env. help": 68.1
+    "Env. help": 61.9
    },
    "stats": {
     "Passer rating": 111.3,
@@ -258,7 +253,6 @@
     "Isolated EPA/play": 0.018,
     "Situation credit": 0.271,
     "Scheme tax (EPA/play)": 0.035,
-    "EPA/db vs pressure": -0.002,
     "Rush EPA (total)": -3.8
    },
    "twp": 2.0,
@@ -267,140 +261,55 @@
   },
   {
    "rank": 7,
-   "id": "00-0033077",
-   "name": "D.Prescott",
-   "last": "Prescott",
-   "team": "DAL",
+   "id": "00-0036971",
+   "name": "T.Lawrence",
+   "last": "Lawrence",
+   "team": "JAX",
    "games": 5,
-   "db": 200,
-   "grade": 83.7,
-   "qbir": 58.7,
-   "reliability": 0.33,
+   "db": 153,
+   "grade": 83.0,
+   "qbir": 58.0,
+   "reliability": 0.28,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.057,
-    "rank": 6,
+    "lift": 0.049,
+    "rank": 7,
     "of": 32,
-    "reliability": 0.59
+    "reliability": 0.47
    },
    "factors": {
-    "Efficiency": 57.8,
-    "Mobility": 42.9,
-    "Pressure": 53.7,
-    "Carry": 52.9,
-    "Track record": 57.8,
+    "Efficiency": 61.0,
+    "Mobility": 45.9,
+    "Pressure": 59.2,
+    "Carry": 50.8,
+    "Track record": 46.7,
     "Availability": 55.3,
-    "Env. help": 39.2
+    "Env. help": 43.1
    },
    "stats": {
-    "Passer rating": 97.2,
-    "ANY/A": 7.37,
-    "CPOE": 1.9,
-    "TWP rate (FTN)": 0.02,
-    "Isolated EPA/play": 0.026,
-    "Situation credit": 0.179,
-    "Scheme tax (EPA/play)": 0.022,
-    "EPA/db vs pressure": -0.004,
-    "Rush EPA (total)": 0.5
+    "Passer rating": 106.8,
+    "ANY/A": 8.56,
+    "CPOE": 5.9,
+    "TWP rate (FTN)": 0.026,
+    "Isolated EPA/play": 0.043,
+    "Situation credit": 0.218,
+    "Scheme tax (EPA/play)": 0.014,
+    "Rush EPA (total)": 1.4
    },
    "twp": 4.0,
-   "ints": 5,
-   "luck": -1.7
+   "ints": 4,
+   "luck": -0.7
   },
   {
    "rank": 8,
-   "id": "00-0039851",
-   "name": "D.Maye",
-   "last": "Maye",
-   "team": "NE",
-   "games": 5,
-   "db": 163,
-   "grade": 83.3,
-   "qbir": 58.3,
-   "reliability": 0.29,
-   "prev_rank": null,
-   "scheme": {
-    "lift": -0.031,
-    "rank": 23,
-    "of": 32,
-    "reliability": 0.78
-   },
-   "factors": {
-    "Efficiency": 53.2,
-    "Mobility": 63.6,
-    "Pressure": 52.7,
-    "Carry": 55.8,
-    "Track record": 56.9,
-    "Availability": 55.3,
-    "Env. help": 56.1
-   },
-   "stats": {
-    "Passer rating": 88.9,
-    "ANY/A": 6.92,
-    "CPOE": 6.7,
-    "TWP rate (FTN)": 0.049,
-    "Isolated EPA/play": 0.027,
-    "Situation credit": 0.109,
-    "Scheme tax (EPA/play)": -0.011,
-    "EPA/db vs pressure": -0.002,
-    "Rush EPA (total)": 12.4
-   },
-   "twp": 8.0,
-   "ints": 7,
-   "luck": -0.3
-  },
-  {
-   "rank": 9,
-   "id": "00-0029604",
-   "name": "K.Cousins",
-   "last": "Cousins",
-   "team": "LV",
-   "games": 5,
-   "db": 180,
-   "grade": 81.4,
-   "qbir": 56.4,
-   "reliability": 0.31,
-   "prev_rank": null,
-   "scheme": {
-    "lift": -0.065,
-    "rank": 29,
-    "of": 32,
-    "reliability": 0.84
-   },
-   "factors": {
-    "Efficiency": 57.9,
-    "Mobility": 41.4,
-    "Pressure": 57.4,
-    "Carry": 60.2,
-    "Track record": 50.6,
-    "Availability": 55.3,
-    "Env. help": 49.1
-   },
-   "stats": {
-    "Passer rating": 100.7,
-    "ANY/A": 7.66,
-    "CPOE": 1.4,
-    "TWP rate (FTN)": 0.028,
-    "Isolated EPA/play": 0.049,
-    "Situation credit": 0.165,
-    "Scheme tax (EPA/play)": -0.023,
-    "EPA/db vs pressure": -0.003,
-    "Rush EPA (total)": -0.5
-   },
-   "twp": 5.0,
-   "ints": 5,
-   "luck": -0.8
-  },
-  {
-   "rank": 10,
    "id": "00-0039163",
    "name": "C.Stroud",
    "last": "Stroud",
    "team": "HOU",
    "games": 5,
    "db": 195,
-   "grade": 81.2,
-   "qbir": 56.2,
+   "grade": 82.8,
+   "qbir": 57.8,
    "reliability": 0.33,
    "prev_rank": null,
    "scheme": {
@@ -411,12 +320,12 @@
    },
    "factors": {
     "Efficiency": 55.9,
-    "Mobility": 55.2,
-    "Pressure": 52.5,
+    "Mobility": 58.0,
+    "Pressure": 57.7,
     "Carry": 63.8,
     "Track record": 49.2,
     "Availability": 55.3,
-    "Env. help": 60.2
+    "Env. help": 65.5
    },
    "stats": {
     "Passer rating": 98.1,
@@ -426,12 +335,93 @@
     "Isolated EPA/play": 0.023,
     "Situation credit": 0.091,
     "Scheme tax (EPA/play)": -0.021,
-    "EPA/db vs pressure": -0.006,
     "Rush EPA (total)": 8.5
    },
    "twp": 1.0,
    "ints": 1,
    "luck": -0.2
+  },
+  {
+   "rank": 9,
+   "id": "00-0033077",
+   "name": "D.Prescott",
+   "last": "Prescott",
+   "team": "DAL",
+   "games": 5,
+   "db": 200,
+   "grade": 82.2,
+   "qbir": 57.2,
+   "reliability": 0.33,
+   "prev_rank": null,
+   "scheme": {
+    "lift": 0.057,
+    "rank": 6,
+    "of": 32,
+    "reliability": 0.59
+   },
+   "factors": {
+    "Efficiency": 57.2,
+    "Mobility": 44.4,
+    "Pressure": 42.9,
+    "Carry": 52.9,
+    "Track record": 55.6,
+    "Availability": 55.3,
+    "Env. help": 40.0
+   },
+   "stats": {
+    "Passer rating": 97.2,
+    "ANY/A": 7.37,
+    "CPOE": 1.9,
+    "TWP rate (FTN)": 0.02,
+    "Isolated EPA/play": 0.026,
+    "Situation credit": 0.179,
+    "Scheme tax (EPA/play)": 0.022,
+    "Rush EPA (total)": 0.5
+   },
+   "twp": 4.0,
+   "ints": 5,
+   "luck": -1.7
+  },
+  {
+   "rank": 10,
+   "id": "00-0029604",
+   "name": "K.Cousins",
+   "last": "Cousins",
+   "team": "LV",
+   "games": 5,
+   "db": 180,
+   "grade": 81.9,
+   "qbir": 56.9,
+   "reliability": 0.31,
+   "prev_rank": null,
+   "scheme": {
+    "lift": -0.065,
+    "rank": 29,
+    "of": 32,
+    "reliability": 0.84
+   },
+   "factors": {
+    "Efficiency": 59.1,
+    "Mobility": 42.7,
+    "Pressure": 56.4,
+    "Carry": 60.2,
+    "Track record": 48.4,
+    "Availability": 55.3,
+    "Env. help": 52.5
+   },
+   "stats": {
+    "Passer rating": 100.7,
+    "ANY/A": 7.66,
+    "CPOE": 1.4,
+    "TWP rate (FTN)": 0.028,
+    "Isolated EPA/play": 0.049,
+    "Situation credit": 0.165,
+    "Scheme tax (EPA/play)": -0.023,
+    "Rush EPA (total)": -0.5
+   },
+   "twp": 5.0,
+   "ints": 5,
+   "luck": -0.8
   },
   {
    "rank": 11,
@@ -441,8 +431,8 @@
    "team": "GB",
    "games": 5,
    "db": 196,
-   "grade": 79.2,
-   "qbir": 54.2,
+   "grade": 77.3,
+   "qbir": 52.3,
    "reliability": 0.33,
    "prev_rank": null,
    "scheme": {
@@ -452,13 +442,13 @@
     "reliability": 0.64
    },
    "factors": {
-    "Efficiency": 49.2,
-    "Mobility": 35.5,
-    "Pressure": 50.1,
+    "Efficiency": 48.3,
+    "Mobility": 36.2,
+    "Pressure": 52.5,
     "Carry": 56.2,
-    "Track record": 61.4,
+    "Track record": 57.7,
     "Availability": 55.3,
-    "Env. help": 19.6
+    "Env. help": 33.2
    },
    "stats": {
     "Passer rating": 95.5,
@@ -468,7 +458,6 @@
     "Isolated EPA/play": 0.007,
     "Situation credit": 0.089,
     "Scheme tax (EPA/play)": 0.013,
-    "EPA/db vs pressure": -0.003,
     "Rush EPA (total)": -4.3
    },
    "twp": 6.0,
@@ -483,8 +472,8 @@
    "team": "KC",
    "games": 4,
    "db": 135,
-   "grade": 78.6,
-   "qbir": 53.6,
+   "grade": 76.6,
+   "qbir": 51.6,
    "reliability": 0.25,
    "prev_rank": null,
    "scheme": {
@@ -494,13 +483,13 @@
     "reliability": 0.29
    },
    "factors": {
-    "Efficiency": 58.8,
-    "Mobility": 49.4,
-    "Pressure": 68.6,
+    "Efficiency": 55.5,
+    "Mobility": 51.6,
+    "Pressure": 63.6,
     "Carry": 37.1,
-    "Track record": 51.6,
+    "Track record": 52.7,
     "Availability": 36.0,
-    "Env. help": 62.6
+    "Env. help": 70.2
    },
    "stats": {
     "Passer rating": 106.2,
@@ -510,7 +499,6 @@
     "Isolated EPA/play": 0.024,
     "Situation credit": 0.164,
     "Scheme tax (EPA/play)": 0.003,
-    "EPA/db vs pressure": 0.003,
     "Rush EPA (total)": 3.8
    },
    "twp": 3.0,
@@ -519,56 +507,14 @@
   },
   {
    "rank": 13,
-   "id": "00-0026498",
-   "name": "M.Stafford",
-   "last": "Stafford",
-   "team": "LA",
-   "games": 5,
-   "db": 221,
-   "grade": 77.9,
-   "qbir": 52.9,
-   "reliability": 0.36,
-   "prev_rank": null,
-   "scheme": {
-    "lift": 0.004,
-    "rank": 16,
-    "of": 32,
-    "reliability": 0.48
-   },
-   "factors": {
-    "Efficiency": 49.0,
-    "Mobility": 40.8,
-    "Pressure": 50.6,
-    "Carry": 47.7,
-    "Track record": 61.4,
-    "Availability": 55.3,
-    "Env. help": 50.3
-   },
-   "stats": {
-    "Passer rating": 88.3,
-    "ANY/A": 6.86,
-    "CPOE": 0.3,
-    "TWP rate (FTN)": 0.05,
-    "Isolated EPA/play": 0.016,
-    "Situation credit": 0.124,
-    "Scheme tax (EPA/play)": 0.001,
-    "EPA/db vs pressure": -0.007,
-    "Rush EPA (total)": -0.9
-   },
-   "twp": 11.0,
-   "ints": 6,
-   "luck": 3.2
-  },
-  {
-   "rank": 14,
    "id": "00-0039150",
    "name": "B.Young",
    "last": "Young",
    "team": "CAR",
    "games": 4,
    "db": 171,
-   "grade": 77.1,
-   "qbir": 52.1,
+   "grade": 76.2,
+   "qbir": 51.2,
    "reliability": 0.3,
    "prev_rank": null,
    "scheme": {
@@ -578,13 +524,13 @@
     "reliability": 0.66
    },
    "factors": {
-    "Efficiency": 62.9,
-    "Mobility": 47.2,
-    "Pressure": 65.6,
+    "Efficiency": 63.7,
+    "Mobility": 49.1,
+    "Pressure": 58.7,
     "Carry": 60.2,
-    "Track record": 36.0,
+    "Track record": 33.2,
     "Availability": 36.0,
-    "Env. help": 56.0
+    "Env. help": 58.1
    },
    "stats": {
     "Passer rating": 100.0,
@@ -594,12 +540,52 @@
     "Isolated EPA/play": 0.086,
     "Situation credit": 0.185,
     "Scheme tax (EPA/play)": -0.03,
-    "EPA/db vs pressure": -0.0,
     "Rush EPA (total)": 2.6
    },
    "twp": 1.0,
    "ints": 2,
    "luck": -1.2
+  },
+  {
+   "rank": 14,
+   "id": "00-0026498",
+   "name": "M.Stafford",
+   "last": "Stafford",
+   "team": "LA",
+   "games": 5,
+   "db": 221,
+   "grade": 75.9,
+   "qbir": 50.9,
+   "reliability": 0.36,
+   "prev_rank": null,
+   "scheme": {
+    "lift": 0.004,
+    "rank": 16,
+    "of": 32,
+    "reliability": 0.48
+   },
+   "factors": {
+    "Efficiency": 48.6,
+    "Mobility": 42.0,
+    "Pressure": 53.3,
+    "Carry": 47.7,
+    "Track record": 55.1,
+    "Availability": 55.3,
+    "Env. help": 49.5
+   },
+   "stats": {
+    "Passer rating": 88.3,
+    "ANY/A": 6.86,
+    "CPOE": 0.3,
+    "TWP rate (FTN)": 0.05,
+    "Isolated EPA/play": 0.016,
+    "Situation credit": 0.124,
+    "Scheme tax (EPA/play)": 0.001,
+    "Rush EPA (total)": -0.9
+   },
+   "twp": 11.0,
+   "ints": 6,
+   "luck": 3.2
   },
   {
    "rank": 15,
@@ -609,8 +595,8 @@
    "team": "NYJ",
    "games": 5,
    "db": 164,
-   "grade": 74.8,
-   "qbir": 49.8,
+   "grade": 75.1,
+   "qbir": 50.1,
    "reliability": 0.29,
    "prev_rank": null,
    "scheme": {
@@ -620,13 +606,13 @@
     "reliability": 0.84
    },
    "factors": {
-    "Efficiency": 56.2,
-    "Mobility": 36.7,
-    "Pressure": 49.5,
+    "Efficiency": 56.6,
+    "Mobility": 37.5,
+    "Pressure": 45.3,
     "Carry": 47.0,
-    "Track record": 43.1,
+    "Track record": 43.5,
     "Availability": 55.3,
-    "Env. help": 46.5
+    "Env. help": 41.8
    },
    "stats": {
     "Passer rating": 104.2,
@@ -636,7 +622,6 @@
     "Isolated EPA/play": 0.014,
     "Situation credit": 0.057,
     "Scheme tax (EPA/play)": -0.018,
-    "EPA/db vs pressure": -0.004,
     "Rush EPA (total)": -3.5
    },
    "twp": 2.0,
@@ -645,266 +630,14 @@
   },
   {
    "rank": 16,
-   "id": "00-0040743",
-   "name": "T.Shough",
-   "last": "Shough",
-   "team": "NO",
-   "games": 5,
-   "db": 218,
-   "grade": 74.3,
-   "qbir": 49.3,
-   "reliability": 0.35,
-   "prev_rank": null,
-   "scheme": {
-    "lift": -0.035,
-    "rank": 24,
-    "of": 32,
-    "reliability": 0.82
-   },
-   "factors": {
-    "Efficiency": 48.8,
-    "Mobility": 52.1,
-    "Pressure": 50.2,
-    "Carry": 51.7,
-    "Track record": 46.2,
-    "Availability": 55.3,
-    "Env. help": 53.2
-   },
-   "stats": {
-    "Passer rating": 88.6,
-    "ANY/A": 6.2,
-    "CPOE": 1.9,
-    "TWP rate (FTN)": 0.032,
-    "Isolated EPA/play": -0.029,
-    "Situation credit": 0.018,
-    "Scheme tax (EPA/play)": -0.012,
-    "EPA/db vs pressure": -0.005,
-    "Rush EPA (total)": 2.8
-   },
-   "twp": 7.0,
-   "ints": 5,
-   "luck": 0.8
-  },
-  {
-   "rank": 17,
-   "id": "00-0036389",
-   "name": "J.Hurts",
-   "last": "Hurts",
-   "team": "PHI",
-   "games": 5,
-   "db": 167,
-   "grade": 73.0,
-   "qbir": 48.0,
-   "reliability": 0.29,
-   "prev_rank": null,
-   "scheme": {
-    "lift": 0.061,
-    "rank": 5,
-    "of": 32,
-    "reliability": 0.38
-   },
-   "factors": {
-    "Efficiency": 46.7,
-    "Mobility": 43.9,
-    "Pressure": 41.5,
-    "Carry": 58.4,
-    "Track record": 51.3,
-    "Availability": 55.3,
-    "Env. help": 54.6
-   },
-   "stats": {
-    "Passer rating": 84.7,
-    "ANY/A": 6.22,
-    "CPOE": -2.2,
-    "TWP rate (FTN)": 0.024,
-    "Isolated EPA/play": -0.029,
-    "Situation credit": -0.049,
-    "Scheme tax (EPA/play)": 0.02,
-    "EPA/db vs pressure": -0.006,
-    "Rush EPA (total)": 1.2
-   },
-   "twp": 4.0,
-   "ints": 3,
-   "luck": 0.3
-  },
-  {
-   "rank": 18,
-   "id": "00-0035228",
-   "name": "K.Murray",
-   "last": "Murray",
-   "team": "MIN",
-   "games": 4,
-   "db": 109,
-   "grade": 72.6,
-   "qbir": 47.6,
-   "reliability": 0.21,
-   "prev_rank": null,
-   "scheme": {
-    "lift": -0.028,
-    "rank": 22,
-    "of": 32,
-    "reliability": 0.81
-   },
-   "factors": {
-    "Efficiency": 49.9,
-    "Mobility": 58.3,
-    "Pressure": 48.4,
-    "Carry": 58.6,
-    "Track record": 46.5,
-    "Availability": 36.0,
-    "Env. help": 60.0
-   },
-   "stats": {
-    "Passer rating": 84.7,
-    "ANY/A": 6.18,
-    "CPOE": 5.7,
-    "TWP rate (FTN)": 0.009,
-    "Isolated EPA/play": -0.02,
-    "Situation credit": -0.054,
-    "Scheme tax (EPA/play)": -0.007,
-    "EPA/db vs pressure": -0.004,
-    "Rush EPA (total)": 8.5
-   },
-   "twp": 1.0,
-   "ints": 2,
-   "luck": -1.2
-  },
-  {
-   "rank": 19,
-   "id": "00-0039732",
-   "name": "B.Nix",
-   "last": "Nix",
-   "team": "DEN",
-   "games": 5,
-   "db": 170,
-   "grade": 69.5,
-   "qbir": 44.5,
-   "reliability": 0.3,
-   "prev_rank": null,
-   "scheme": {
-    "lift": -0.012,
-    "rank": 19,
-    "of": 32,
-    "reliability": 0.75
-   },
-   "factors": {
-    "Efficiency": 42.2,
-    "Mobility": 40.8,
-    "Pressure": 51.5,
-    "Carry": 45.8,
-    "Track record": 49.3,
-    "Availability": 55.3,
-    "Env. help": 41.7
-   },
-   "stats": {
-    "Passer rating": 79.4,
-    "ANY/A": 5.46,
-    "CPOE": -2.6,
-    "TWP rate (FTN)": 0.041,
-    "Isolated EPA/play": 0.016,
-    "Situation credit": -0.064,
-    "Scheme tax (EPA/play)": -0.004,
-    "EPA/db vs pressure": -0.008,
-    "Rush EPA (total)": -0.9
-   },
-   "twp": 7.0,
-   "ints": 3,
-   "luck": 2.8
-  },
-  {
-   "rank": 20,
-   "id": "00-0033537",
-   "name": "D.Watson",
-   "last": "Watson",
-   "team": "CLE",
-   "games": 5,
-   "db": 168,
-   "grade": 68.1,
-   "qbir": 43.1,
-   "reliability": 0.3,
-   "prev_rank": null,
-   "scheme": {
-    "lift": -0.125,
-    "rank": 32,
-    "of": 32,
-    "reliability": 0.83
-   },
-   "factors": {
-    "Efficiency": 50.6,
-    "Mobility": 44.0,
-    "Pressure": 40.2,
-    "Carry": 56.9,
-    "Track record": 31.9,
-    "Availability": 55.3,
-    "Env. help": 53.0
-   },
-   "stats": {
-    "Passer rating": 94.1,
-    "ANY/A": 7.02,
-    "CPOE": -2.4,
-    "TWP rate (FTN)": 0.03,
-    "Isolated EPA/play": 0.048,
-    "Situation credit": 0.017,
-    "Scheme tax (EPA/play)": -0.04,
-    "EPA/db vs pressure": -0.005,
-    "Rush EPA (total)": -0.7
-   },
-   "twp": 5.0,
-   "ints": 2,
-   "luck": 2.2
-  },
-  {
-   "rank": 21,
-   "id": "00-0033119",
-   "name": "J.Brissett",
-   "last": "Brissett",
-   "team": "ARI",
-   "games": 5,
-   "db": 209,
-   "grade": 67.8,
-   "qbir": 42.8,
-   "reliability": 0.34,
-   "prev_rank": null,
-   "scheme": {
-    "lift": -0.037,
-    "rank": 25,
-    "of": 32,
-    "reliability": 0.77
-   },
-   "factors": {
-    "Efficiency": 43.2,
-    "Mobility": 51.2,
-    "Pressure": 46.6,
-    "Carry": 44.6,
-    "Track record": 40.3,
-    "Availability": 55.3,
-    "Env. help": 44.9
-   },
-   "stats": {
-    "Passer rating": 85.2,
-    "ANY/A": 5.37,
-    "CPOE": 2.0,
-    "TWP rate (FTN)": 0.019,
-    "Isolated EPA/play": -0.027,
-    "Situation credit": 0.025,
-    "Scheme tax (EPA/play)": -0.012,
-    "EPA/db vs pressure": -0.011,
-    "Rush EPA (total)": 5.9
-   },
-   "twp": 4.0,
-   "ints": 6,
-   "luck": -2.7
-  },
-  {
-   "rank": 22,
    "id": "00-0038128",
    "name": "M.Willis",
    "last": "Willis",
    "team": "MIA",
    "games": 5,
    "db": 144,
-   "grade": 67.5,
-   "qbir": 42.5,
+   "grade": 73.6,
+   "qbir": 48.6,
    "reliability": 0.27,
    "prev_rank": null,
    "scheme": {
@@ -914,13 +647,13 @@
     "reliability": 0.63
    },
    "factors": {
-    "Efficiency": 30.3,
-    "Mobility": 55.1,
-    "Pressure": 40.2,
+    "Efficiency": 31.1,
+    "Mobility": 53.2,
+    "Pressure": 43.8,
     "Carry": 37.6,
-    "Track record": 62.2,
+    "Track record": 78.6,
     "Availability": 55.3,
-    "Env. help": 39.6
+    "Env. help": 47.9
    },
    "stats": {
     "Passer rating": 68.4,
@@ -930,7 +663,6 @@
     "Isolated EPA/play": -0.089,
     "Situation credit": -0.113,
     "Scheme tax (EPA/play)": 0.004,
-    "EPA/db vs pressure": -0.008,
     "Rush EPA (total)": 5.7
    },
    "twp": 5.0,
@@ -938,99 +670,220 @@
    "luck": 0.2
   },
   {
-   "rank": 23,
-   "id": "00-0034869",
-   "name": "S.Darnold",
-   "last": "Darnold",
-   "team": "SEA",
+   "rank": 17,
+   "id": "00-0035228",
+   "name": "K.Murray",
+   "last": "Murray",
+   "team": "MIN",
    "games": 4,
-   "db": 107,
-   "grade": 66.8,
-   "qbir": 41.8,
+   "db": 109,
+   "grade": 73.5,
+   "qbir": 48.5,
    "reliability": 0.21,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.03,
-    "rank": 11,
+    "lift": -0.028,
+    "rank": 22,
     "of": 32,
-    "reliability": 0.66
+    "reliability": 0.81
    },
    "factors": {
-    "Efficiency": 42.7,
-    "Mobility": 49.3,
-    "Pressure": 30.9,
-    "Carry": 44.6,
-    "Track record": 53.7,
+    "Efficiency": 50.1,
+    "Mobility": 61.6,
+    "Pressure": 43.5,
+    "Carry": 58.6,
+    "Track record": 48.5,
     "Availability": 36.0,
-    "Env. help": 46.1
+    "Env. help": 57.6
    },
    "stats": {
-    "Passer rating": 77.4,
-    "ANY/A": 5.85,
-    "CPOE": 2.1,
-    "TWP rate (FTN)": 0.037,
-    "Isolated EPA/play": -0.053,
-    "Situation credit": -0.096,
-    "Scheme tax (EPA/play)": 0.007,
-    "EPA/db vs pressure": -0.016,
-    "Rush EPA (total)": 3.7
+    "Passer rating": 84.7,
+    "ANY/A": 6.18,
+    "CPOE": 5.7,
+    "TWP rate (FTN)": 0.009,
+    "Isolated EPA/play": -0.02,
+    "Situation credit": -0.054,
+    "Scheme tax (EPA/play)": -0.007,
+    "Rush EPA (total)": 8.5
    },
-   "twp": 4.0,
-   "ints": 7,
-   "luck": -3.7
+   "twp": 1.0,
+   "ints": 2,
+   "luck": -1.2
   },
   {
-   "rank": 24,
-   "id": "00-0036355",
-   "name": "J.Herbert",
-   "last": "Herbert",
-   "team": "LAC",
+   "rank": 18,
+   "id": "00-0036389",
+   "name": "J.Hurts",
+   "last": "Hurts",
+   "team": "PHI",
    "games": 5,
-   "db": 159,
-   "grade": 66.5,
-   "qbir": 41.5,
-   "reliability": 0.28,
+   "db": 167,
+   "grade": 72.8,
+   "qbir": 47.8,
+   "reliability": 0.29,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.001,
-    "rank": 17,
+    "lift": 0.061,
+    "rank": 5,
     "of": 32,
-    "reliability": 0.4
+    "reliability": 0.38
    },
    "factors": {
-    "Efficiency": 30.3,
-    "Mobility": 46.7,
-    "Pressure": 45.8,
-    "Carry": 53.5,
-    "Track record": 57.5,
+    "Efficiency": 47.1,
+    "Mobility": 45.5,
+    "Pressure": 33.0,
+    "Carry": 58.4,
+    "Track record": 51.8,
     "Availability": 55.3,
-    "Env. help": 37.4
+    "Env. help": 50.8
    },
    "stats": {
-    "Passer rating": 70.2,
-    "ANY/A": 5.22,
-    "CPOE": -4.5,
-    "TWP rate (FTN)": 0.063,
-    "Isolated EPA/play": -0.086,
-    "Situation credit": -0.106,
-    "Scheme tax (EPA/play)": -0.001,
-    "EPA/db vs pressure": -0.003,
-    "Rush EPA (total)": -4.5
+    "Passer rating": 84.7,
+    "ANY/A": 6.22,
+    "CPOE": -2.2,
+    "TWP rate (FTN)": 0.024,
+    "Isolated EPA/play": -0.029,
+    "Situation credit": -0.049,
+    "Scheme tax (EPA/play)": 0.02,
+    "Rush EPA (total)": 1.2
    },
-   "twp": 10.0,
-   "ints": 8,
+   "twp": 4.0,
+   "ints": 3,
    "luck": 0.3
   },
   {
-   "rank": 25,
+   "rank": 19,
+   "id": "00-0040743",
+   "name": "T.Shough",
+   "last": "Shough",
+   "team": "NO",
+   "games": 5,
+   "db": 218,
+   "grade": 71.6,
+   "qbir": 46.6,
+   "reliability": 0.35,
+   "prev_rank": null,
+   "scheme": {
+    "lift": -0.035,
+    "rank": 24,
+    "of": 32,
+    "reliability": 0.82
+   },
+   "factors": {
+    "Efficiency": 47.6,
+    "Mobility": 48.3,
+    "Pressure": 45.2,
+    "Carry": 51.7,
+    "Track record": 44.8,
+    "Availability": 55.3,
+    "Env. help": 51.3
+   },
+   "stats": {
+    "Passer rating": 88.6,
+    "ANY/A": 6.2,
+    "CPOE": 1.9,
+    "TWP rate (FTN)": 0.032,
+    "Isolated EPA/play": -0.029,
+    "Situation credit": 0.018,
+    "Scheme tax (EPA/play)": -0.012,
+    "Rush EPA (total)": 2.8
+   },
+   "twp": 7.0,
+   "ints": 5,
+   "luck": 0.8
+  },
+  {
+   "rank": 20,
+   "id": "00-0039732",
+   "name": "B.Nix",
+   "last": "Nix",
+   "team": "DEN",
+   "games": 5,
+   "db": 170,
+   "grade": 70.2,
+   "qbir": 45.2,
+   "reliability": 0.3,
+   "prev_rank": null,
+   "scheme": {
+    "lift": -0.012,
+    "rank": 19,
+    "of": 32,
+    "reliability": 0.75
+   },
+   "factors": {
+    "Efficiency": 41.8,
+    "Mobility": 42.0,
+    "Pressure": 59.7,
+    "Carry": 45.8,
+    "Track record": 50.5,
+    "Availability": 55.3,
+    "Env. help": 44.8
+   },
+   "stats": {
+    "Passer rating": 79.4,
+    "ANY/A": 5.46,
+    "CPOE": -2.6,
+    "TWP rate (FTN)": 0.041,
+    "Isolated EPA/play": 0.016,
+    "Situation credit": -0.064,
+    "Scheme tax (EPA/play)": -0.004,
+    "Rush EPA (total)": -0.9
+   },
+   "twp": 7.0,
+   "ints": 3,
+   "luck": 2.8
+  },
+  {
+   "rank": 21,
+   "id": "00-0033119",
+   "name": "J.Brissett",
+   "last": "Brissett",
+   "team": "ARI",
+   "games": 5,
+   "db": 209,
+   "grade": 70.1,
+   "qbir": 45.1,
+   "reliability": 0.34,
+   "prev_rank": null,
+   "scheme": {
+    "lift": -0.037,
+    "rank": 25,
+    "of": 32,
+    "reliability": 0.77
+   },
+   "factors": {
+    "Efficiency": 44.1,
+    "Mobility": 53.6,
+    "Pressure": 58.6,
+    "Carry": 44.6,
+    "Track record": 41.7,
+    "Availability": 55.3,
+    "Env. help": 43.6
+   },
+   "stats": {
+    "Passer rating": 85.2,
+    "ANY/A": 5.37,
+    "CPOE": 2.0,
+    "TWP rate (FTN)": 0.019,
+    "Isolated EPA/play": -0.027,
+    "Situation credit": 0.025,
+    "Scheme tax (EPA/play)": -0.012,
+    "Rush EPA (total)": 5.9
+   },
+   "twp": 4.0,
+   "ints": 6,
+   "luck": -2.7
+  },
+  {
+   "rank": 22,
    "id": "00-0023459",
    "name": "A.Rodgers",
    "last": "Rodgers",
    "team": "PIT",
    "games": 5,
    "db": 198,
-   "grade": 65.6,
-   "qbir": 40.6,
+   "grade": 66.9,
+   "qbir": 41.9,
    "reliability": 0.33,
    "prev_rank": null,
    "scheme": {
@@ -1040,13 +893,13 @@
     "reliability": 0.81
    },
    "factors": {
-    "Efficiency": 41.8,
-    "Mobility": 44.4,
-    "Pressure": 49.5,
+    "Efficiency": 41.2,
+    "Mobility": 46.1,
+    "Pressure": 48.3,
     "Carry": 39.6,
-    "Track record": 40.6,
+    "Track record": 46.8,
     "Availability": 55.3,
-    "Env. help": 48.1
+    "Env. help": 47.3
    },
    "stats": {
     "Passer rating": 88.9,
@@ -1056,7 +909,6 @@
     "Isolated EPA/play": -0.044,
     "Situation credit": -0.035,
     "Scheme tax (EPA/play)": 0.009,
-    "EPA/db vs pressure": -0.006,
     "Rush EPA (total)": 1.5
    },
    "twp": 4.0,
@@ -1064,15 +916,97 @@
    "luck": -1.7
   },
   {
-   "rank": 26,
+   "rank": 23,
+   "id": "00-0033537",
+   "name": "D.Watson",
+   "last": "Watson",
+   "team": "CLE",
+   "games": 5,
+   "db": 168,
+   "grade": 66.8,
+   "qbir": 41.8,
+   "reliability": 0.3,
+   "prev_rank": null,
+   "scheme": {
+    "lift": -0.125,
+    "rank": 32,
+    "of": 32,
+    "reliability": 0.83
+   },
+   "factors": {
+    "Efficiency": 50.7,
+    "Mobility": 42.3,
+    "Pressure": 44.3,
+    "Carry": 56.9,
+    "Track record": 28.9,
+    "Availability": 55.3,
+    "Env. help": 44.1
+   },
+   "stats": {
+    "Passer rating": 94.1,
+    "ANY/A": 7.02,
+    "CPOE": -2.4,
+    "TWP rate (FTN)": 0.03,
+    "Isolated EPA/play": 0.048,
+    "Situation credit": 0.017,
+    "Scheme tax (EPA/play)": -0.04,
+    "Rush EPA (total)": -0.7
+   },
+   "twp": 5.0,
+   "ints": 2,
+   "luck": 2.2
+  },
+  {
+   "rank": 24,
+   "id": "00-0034869",
+   "name": "S.Darnold",
+   "last": "Darnold",
+   "team": "SEA",
+   "games": 4,
+   "db": 107,
+   "grade": 65.1,
+   "qbir": 40.1,
+   "reliability": 0.21,
+   "prev_rank": null,
+   "scheme": {
+    "lift": 0.03,
+    "rank": 11,
+    "of": 32,
+    "reliability": 0.66
+   },
+   "factors": {
+    "Efficiency": 42.0,
+    "Mobility": 51.5,
+    "Pressure": 26.2,
+    "Carry": 44.6,
+    "Track record": 52.9,
+    "Availability": 36.0,
+    "Env. help": 44.5
+   },
+   "stats": {
+    "Passer rating": 77.4,
+    "ANY/A": 5.85,
+    "CPOE": 2.1,
+    "TWP rate (FTN)": 0.037,
+    "Isolated EPA/play": -0.053,
+    "Situation credit": -0.096,
+    "Scheme tax (EPA/play)": 0.007,
+    "Rush EPA (total)": 3.7
+   },
+   "twp": 4.0,
+   "ints": 7,
+   "luck": -3.7
+  },
+  {
+   "rank": 25,
    "id": "00-0031503",
    "name": "J.Winston",
    "last": "Winston",
    "team": "NYG",
    "games": 4,
    "db": 144,
-   "grade": 63.0,
-   "qbir": 38.0,
+   "grade": 64.2,
+   "qbir": 39.2,
    "reliability": 0.27,
    "prev_rank": null,
    "scheme": {
@@ -1082,13 +1016,13 @@
     "reliability": 0.79
    },
    "factors": {
-    "Efficiency": 43.7,
-    "Mobility": 53.1,
-    "Pressure": 45.1,
+    "Efficiency": 43.4,
+    "Mobility": 55.7,
+    "Pressure": 49.8,
     "Carry": 44.4,
-    "Track record": 37.4,
+    "Track record": 40.7,
     "Availability": 36.0,
-    "Env. help": 58.3
+    "Env. help": 52.6
    },
    "stats": {
     "Passer rating": 81.2,
@@ -1098,7 +1032,6 @@
     "Isolated EPA/play": -0.026,
     "Situation credit": -0.011,
     "Scheme tax (EPA/play)": -0.02,
-    "EPA/db vs pressure": -0.008,
     "Rush EPA (total)": 5.7
    },
    "twp": 4.0,
@@ -1106,15 +1039,15 @@
    "luck": -1.7
   },
   {
-   "rank": 27,
+   "rank": 26,
    "id": "00-0035710",
    "name": "D.Jones",
    "last": "Jones",
    "team": "IND",
    "games": 5,
    "db": 185,
-   "grade": 61.3,
-   "qbir": 36.3,
+   "grade": 62.5,
+   "qbir": 37.5,
    "reliability": 0.32,
    "prev_rank": null,
    "scheme": {
@@ -1124,13 +1057,13 @@
     "reliability": 0.83
    },
    "factors": {
-    "Efficiency": 35.2,
-    "Mobility": 52.1,
-    "Pressure": 46.6,
+    "Efficiency": 35.5,
+    "Mobility": 54.7,
+    "Pressure": 47.8,
     "Carry": 38.8,
-    "Track record": 38.0,
+    "Track record": 41.4,
     "Availability": 55.3,
-    "Env. help": 52.7
+    "Env. help": 44.1
    },
    "stats": {
     "Passer rating": 73.6,
@@ -1140,12 +1073,52 @@
     "Isolated EPA/play": -0.075,
     "Situation credit": -0.059,
     "Scheme tax (EPA/play)": 0.004,
-    "EPA/db vs pressure": -0.007,
     "Rush EPA (total)": 6.5
    },
    "twp": 8.0,
    "ints": 6,
    "luck": 0.7
+  },
+  {
+   "rank": 27,
+   "id": "00-0036355",
+   "name": "J.Herbert",
+   "last": "Herbert",
+   "team": "LAC",
+   "games": 5,
+   "db": 159,
+   "grade": 60.5,
+   "qbir": 35.5,
+   "reliability": 0.28,
+   "prev_rank": null,
+   "scheme": {
+    "lift": 0.001,
+    "rank": 17,
+    "of": 32,
+    "reliability": 0.4
+   },
+   "factors": {
+    "Efficiency": 30.2,
+    "Mobility": 35.8,
+    "Pressure": 49.0,
+    "Carry": 53.5,
+    "Track record": 50.2,
+    "Availability": 55.3,
+    "Env. help": 46.3
+   },
+   "stats": {
+    "Passer rating": 70.2,
+    "ANY/A": 5.22,
+    "CPOE": -4.5,
+    "TWP rate (FTN)": 0.063,
+    "Isolated EPA/play": -0.086,
+    "Situation credit": -0.106,
+    "Scheme tax (EPA/play)": -0.001,
+    "Rush EPA (total)": -4.5
+   },
+   "twp": 10.0,
+   "ints": 8,
+   "luck": 0.3
   },
   {
    "rank": 28,
@@ -1155,8 +1128,8 @@
    "team": "TEN",
    "games": 5,
    "db": 166,
-   "grade": 58.2,
-   "qbir": 33.2,
+   "grade": 59.5,
+   "qbir": 34.5,
    "reliability": 0.29,
    "prev_rank": null,
    "scheme": {
@@ -1166,11 +1139,11 @@
     "reliability": 0.81
    },
    "factors": {
-    "Efficiency": 37.5,
-    "Mobility": 50.4,
-    "Pressure": 44.0,
+    "Efficiency": 38.4,
+    "Mobility": 52.7,
+    "Pressure": 45.5,
     "Carry": 45.4,
-    "Track record": 24.7,
+    "Track record": 29.3,
     "Availability": 55.3,
     "Env. help": 45.0
    },
@@ -1182,7 +1155,6 @@
     "Isolated EPA/play": -0.053,
     "Situation credit": -0.105,
     "Scheme tax (EPA/play)": -0.025,
-    "EPA/db vs pressure": -0.011,
     "Rush EPA (total)": 5.4
    },
    "twp": 3.0,
@@ -1197,8 +1169,8 @@
    "team": "TB",
    "games": 3,
    "db": 109,
-   "grade": 53.3,
-   "qbir": 28.3,
+   "grade": 54.1,
+   "qbir": 29.1,
    "reliability": 0.21,
    "prev_rank": null,
    "scheme": {
@@ -1209,12 +1181,12 @@
    },
    "factors": {
     "Efficiency": 36.9,
-    "Mobility": 45.6,
-    "Pressure": 19.2,
+    "Mobility": 47.3,
+    "Pressure": 24.9,
     "Carry": 14.8,
-    "Track record": 47.9,
+    "Track record": 51.7,
     "Availability": 16.7,
-    "Env. help": 36.5
+    "Env. help": 27.2
    },
    "stats": {
     "Passer rating": 80.0,
@@ -1224,7 +1196,6 @@
     "Isolated EPA/play": -0.086,
     "Situation credit": -0.204,
     "Scheme tax (EPA/play)": 0.016,
-    "EPA/db vs pressure": -0.023,
     "Rush EPA (total)": 1.3
    },
    "twp": 2.0,
