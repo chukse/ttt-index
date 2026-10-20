@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "QBIR",
-  "twp_int_conversion": 0.712,
+  "twp_int_conversion": 0.833,
   "subtitle": "QB Independent Rating",
   "season": 2026,
   "through_week": 5,
@@ -41,8 +41,6 @@
     "Env. help": 63.4
    },
    "stats": {
-    "PFF pass grade": 82.4,
-    "BTT rate %": 4.7,
     "Passer rating": 119.3,
     "ANY/A": 9.52,
     "CPOE": 4.7,
@@ -51,12 +49,11 @@
     "Situation credit": 0.309,
     "Scheme tax (EPA/play)": 0.039,
     "EPA/db vs pressure": -0.001,
-    "Rush EPA (total)": 5.7,
-    "Elusive rating": 3.6
+    "Rush EPA (total)": 5.7
    },
    "twp": 4.0,
    "ints": 2,
-   "luck": 0.8
+   "luck": 1.3
   },
   {
    "rank": 2,
@@ -86,8 +83,6 @@
     "Env. help": 52.4
    },
    "stats": {
-    "PFF pass grade": 83.8,
-    "BTT rate %": 4.1,
     "Passer rating": 104.4,
     "ANY/A": 7.61,
     "CPOE": 6.0,
@@ -96,12 +91,11 @@
     "Situation credit": 0.116,
     "Scheme tax (EPA/play)": 0.012,
     "EPA/db vs pressure": -0.002,
-    "Rush EPA (total)": 5.1,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 5.1
    },
    "twp": 3.0,
    "ints": 3,
-   "luck": -0.9
+   "luck": -0.5
   },
   {
    "rank": 3,
@@ -131,8 +125,6 @@
     "Env. help": 54.4
    },
    "stats": {
-    "PFF pass grade": 68.0,
-    "BTT rate %": 3.2,
     "Passer rating": 99.6,
     "ANY/A": 8.56,
     "CPOE": 5.0,
@@ -141,12 +133,11 @@
     "Situation credit": 0.208,
     "Scheme tax (EPA/play)": 0.028,
     "EPA/db vs pressure": 0.0,
-    "Rush EPA (total)": 24.4,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 24.4
    },
    "twp": 7.0,
    "ints": 4,
-   "luck": 1.0
+   "luck": 1.8
   },
   {
    "rank": 4,
@@ -176,8 +167,6 @@
     "Env. help": 41.1
    },
    "stats": {
-    "PFF pass grade": 76.5,
-    "BTT rate %": 3.9,
     "Passer rating": 106.8,
     "ANY/A": 8.56,
     "CPOE": 5.9,
@@ -186,12 +175,11 @@
     "Situation credit": 0.218,
     "Scheme tax (EPA/play)": 0.014,
     "EPA/db vs pressure": -0.006,
-    "Rush EPA (total)": 1.4,
-    "Elusive rating": 71.9
+    "Rush EPA (total)": 1.4
    },
    "twp": 4.0,
-   "ints": 3,
-   "luck": -0.2
+   "ints": 4,
+   "luck": -0.7
   },
   {
    "rank": 5,
@@ -221,8 +209,6 @@
     "Env. help": 59.8
    },
    "stats": {
-    "PFF pass grade": 85.5,
-    "BTT rate %": 5.7,
     "Passer rating": 119.6,
     "ANY/A": 10.74,
     "CPOE": 8.1,
@@ -231,12 +217,11 @@
     "Situation credit": 0.3,
     "Scheme tax (EPA/play)": 0.008,
     "EPA/db vs pressure": -0.005,
-    "Rush EPA (total)": 7.8,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 7.8
    },
    "twp": 3.0,
    "ints": 1,
-   "luck": 1.1
+   "luck": 1.5
   },
   {
    "rank": 6,
@@ -266,8 +251,6 @@
     "Env. help": 68.1
    },
    "stats": {
-    "PFF pass grade": 86.1,
-    "BTT rate %": 4.6,
     "Passer rating": 111.3,
     "ANY/A": 8.97,
     "CPOE": 1.3,
@@ -276,12 +259,11 @@
     "Situation credit": 0.271,
     "Scheme tax (EPA/play)": 0.035,
     "EPA/db vs pressure": -0.002,
-    "Rush EPA (total)": -3.8,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": -3.8
    },
    "twp": 2.0,
    "ints": 0,
-   "luck": 1.4
+   "luck": 1.7
   },
   {
    "rank": 7,
@@ -311,8 +293,6 @@
     "Env. help": 39.2
    },
    "stats": {
-    "PFF pass grade": 85.3,
-    "BTT rate %": 4.3,
     "Passer rating": 97.2,
     "ANY/A": 7.37,
     "CPOE": 1.9,
@@ -321,12 +301,11 @@
     "Situation credit": 0.179,
     "Scheme tax (EPA/play)": 0.022,
     "EPA/db vs pressure": -0.004,
-    "Rush EPA (total)": 0.5,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 0.5
    },
    "twp": 4.0,
-   "ints": 3,
-   "luck": -0.2
+   "ints": 5,
+   "luck": -1.7
   },
   {
    "rank": 8,
@@ -356,8 +335,6 @@
     "Env. help": 56.1
    },
    "stats": {
-    "PFF pass grade": 67.7,
-    "BTT rate %": 6.1,
     "Passer rating": 88.9,
     "ANY/A": 6.92,
     "CPOE": 6.7,
@@ -366,12 +343,11 @@
     "Situation credit": 0.109,
     "Scheme tax (EPA/play)": -0.011,
     "EPA/db vs pressure": -0.002,
-    "Rush EPA (total)": 12.4,
-    "Elusive rating": 5.6
+    "Rush EPA (total)": 12.4
    },
    "twp": 8.0,
    "ints": 7,
-   "luck": -1.3
+   "luck": -0.3
   },
   {
    "rank": 9,
@@ -401,8 +377,6 @@
     "Env. help": 49.1
    },
    "stats": {
-    "PFF pass grade": 71.1,
-    "BTT rate %": 2.2,
     "Passer rating": 100.7,
     "ANY/A": 7.66,
     "CPOE": 1.4,
@@ -411,12 +385,11 @@
     "Situation credit": 0.165,
     "Scheme tax (EPA/play)": -0.023,
     "EPA/db vs pressure": -0.003,
-    "Rush EPA (total)": -0.5,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": -0.5
    },
    "twp": 5.0,
-   "ints": 4,
-   "luck": -0.4
+   "ints": 5,
+   "luck": -0.8
   },
   {
    "rank": 10,
@@ -446,8 +419,6 @@
     "Env. help": 60.2
    },
    "stats": {
-    "PFF pass grade": 81.2,
-    "BTT rate %": 5.5,
     "Passer rating": 98.1,
     "ANY/A": 8.12,
     "CPOE": 2.5,
@@ -456,12 +427,11 @@
     "Situation credit": 0.091,
     "Scheme tax (EPA/play)": -0.021,
     "EPA/db vs pressure": -0.006,
-    "Rush EPA (total)": 8.5,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 8.5
    },
    "twp": 1.0,
-   "ints": 0,
-   "luck": 0.7
+   "ints": 1,
+   "luck": -0.2
   },
   {
    "rank": 11,
@@ -491,8 +461,6 @@
     "Env. help": 19.6
    },
    "stats": {
-    "PFF pass grade": 67.3,
-    "BTT rate %": 4.5,
     "Passer rating": 95.5,
     "ANY/A": 7.83,
     "CPOE": -3.1,
@@ -501,12 +469,11 @@
     "Situation credit": 0.089,
     "Scheme tax (EPA/play)": 0.013,
     "EPA/db vs pressure": -0.003,
-    "Rush EPA (total)": -4.3,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": -4.3
    },
    "twp": 6.0,
-   "ints": 3,
-   "luck": 1.3
+   "ints": 4,
+   "luck": 1.0
   },
   {
    "rank": 12,
@@ -536,8 +503,6 @@
     "Env. help": 62.6
    },
    "stats": {
-    "PFF pass grade": 84.1,
-    "BTT rate %": 6.7,
     "Passer rating": 106.2,
     "ANY/A": 8.69,
     "CPOE": 0.8,
@@ -546,12 +511,11 @@
     "Situation credit": 0.164,
     "Scheme tax (EPA/play)": 0.003,
     "EPA/db vs pressure": 0.003,
-    "Rush EPA (total)": 3.8,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 3.8
    },
    "twp": 3.0,
-   "ints": 2,
-   "luck": 0.1
+   "ints": 3,
+   "luck": -0.5
   },
   {
    "rank": 13,
@@ -581,8 +545,6 @@
     "Env. help": 50.3
    },
    "stats": {
-    "PFF pass grade": 66.6,
-    "BTT rate %": 3.5,
     "Passer rating": 88.3,
     "ANY/A": 6.86,
     "CPOE": 0.3,
@@ -591,12 +553,11 @@
     "Situation credit": 0.124,
     "Scheme tax (EPA/play)": 0.001,
     "EPA/db vs pressure": -0.007,
-    "Rush EPA (total)": -0.9,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": -0.9
    },
    "twp": 11.0,
    "ints": 6,
-   "luck": 1.8
+   "luck": 3.2
   },
   {
    "rank": 14,
@@ -626,8 +587,6 @@
     "Env. help": 56.0
    },
    "stats": {
-    "PFF pass grade": 85.2,
-    "BTT rate %": 4.7,
     "Passer rating": 100.0,
     "ANY/A": 8.26,
     "CPOE": 5.7,
@@ -636,12 +595,11 @@
     "Situation credit": 0.185,
     "Scheme tax (EPA/play)": -0.03,
     "EPA/db vs pressure": -0.0,
-    "Rush EPA (total)": 2.6,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 2.6
    },
    "twp": 1.0,
    "ints": 2,
-   "luck": -1.3
+   "luck": -1.2
   },
   {
    "rank": 15,
@@ -671,8 +629,6 @@
     "Env. help": 46.5
    },
    "stats": {
-    "PFF pass grade": 73.1,
-    "BTT rate %": 3.8,
     "Passer rating": 104.2,
     "ANY/A": 8.21,
     "CPOE": 4.4,
@@ -681,12 +637,11 @@
     "Situation credit": 0.057,
     "Scheme tax (EPA/play)": -0.018,
     "EPA/db vs pressure": -0.004,
-    "Rush EPA (total)": -3.5,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": -3.5
    },
    "twp": 2.0,
-   "ints": 0,
-   "luck": 1.4
+   "ints": 1,
+   "luck": 0.7
   },
   {
    "rank": 16,
@@ -716,8 +671,6 @@
     "Env. help": 53.2
    },
    "stats": {
-    "PFF pass grade": 76.1,
-    "BTT rate %": 4.6,
     "Passer rating": 88.6,
     "ANY/A": 6.2,
     "CPOE": 1.9,
@@ -726,12 +679,11 @@
     "Situation credit": 0.018,
     "Scheme tax (EPA/play)": -0.012,
     "EPA/db vs pressure": -0.005,
-    "Rush EPA (total)": 2.8,
-    "Elusive rating": 13.0
+    "Rush EPA (total)": 2.8
    },
    "twp": 7.0,
    "ints": 5,
-   "luck": -0.0
+   "luck": 0.8
   },
   {
    "rank": 17,
@@ -761,8 +713,6 @@
     "Env. help": 54.6
    },
    "stats": {
-    "PFF pass grade": 60.6,
-    "BTT rate %": 5.0,
     "Passer rating": 84.7,
     "ANY/A": 6.22,
     "CPOE": -2.2,
@@ -771,12 +721,11 @@
     "Situation credit": -0.049,
     "Scheme tax (EPA/play)": 0.02,
     "EPA/db vs pressure": -0.006,
-    "Rush EPA (total)": 1.2,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 1.2
    },
    "twp": 4.0,
    "ints": 3,
-   "luck": -0.2
+   "luck": 0.3
   },
   {
    "rank": 18,
@@ -806,8 +755,6 @@
     "Env. help": 60.0
    },
    "stats": {
-    "PFF pass grade": 72.9,
-    "BTT rate %": 2.8,
     "Passer rating": 84.7,
     "ANY/A": 6.18,
     "CPOE": 5.7,
@@ -816,12 +763,11 @@
     "Situation credit": -0.054,
     "Scheme tax (EPA/play)": -0.007,
     "EPA/db vs pressure": -0.004,
-    "Rush EPA (total)": 8.5,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 8.5
    },
    "twp": 1.0,
    "ints": 2,
-   "luck": -1.3
+   "luck": -1.2
   },
   {
    "rank": 19,
@@ -851,8 +797,6 @@
     "Env. help": 41.7
    },
    "stats": {
-    "PFF pass grade": 52.6,
-    "BTT rate %": 2.8,
     "Passer rating": 79.4,
     "ANY/A": 5.46,
     "CPOE": -2.6,
@@ -861,12 +805,11 @@
     "Situation credit": -0.064,
     "Scheme tax (EPA/play)": -0.004,
     "EPA/db vs pressure": -0.008,
-    "Rush EPA (total)": -0.9,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": -0.9
    },
    "twp": 7.0,
    "ints": 3,
-   "luck": 2.0
+   "luck": 2.8
   },
   {
    "rank": 20,
@@ -896,8 +839,6 @@
     "Env. help": 53.0
    },
    "stats": {
-    "PFF pass grade": 54.4,
-    "BTT rate %": 3.7,
     "Passer rating": 94.1,
     "ANY/A": 7.02,
     "CPOE": -2.4,
@@ -906,12 +847,11 @@
     "Situation credit": 0.017,
     "Scheme tax (EPA/play)": -0.04,
     "EPA/db vs pressure": -0.005,
-    "Rush EPA (total)": -0.7,
-    "Elusive rating": 6.8
+    "Rush EPA (total)": -0.7
    },
    "twp": 5.0,
    "ints": 2,
-   "luck": 1.6
+   "luck": 2.2
   },
   {
    "rank": 21,
@@ -941,8 +881,6 @@
     "Env. help": 44.9
    },
    "stats": {
-    "PFF pass grade": 75.6,
-    "BTT rate %": 2.4,
     "Passer rating": 85.2,
     "ANY/A": 5.37,
     "CPOE": 2.0,
@@ -951,12 +889,11 @@
     "Situation credit": 0.025,
     "Scheme tax (EPA/play)": -0.012,
     "EPA/db vs pressure": -0.011,
-    "Rush EPA (total)": 5.9,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 5.9
    },
    "twp": 4.0,
-   "ints": 5,
-   "luck": -2.2
+   "ints": 6,
+   "luck": -2.7
   },
   {
    "rank": 22,
@@ -986,8 +923,6 @@
     "Env. help": 39.6
    },
    "stats": {
-    "PFF pass grade": 43.8,
-    "BTT rate %": 3.5,
     "Passer rating": 68.4,
     "ANY/A": 5.49,
     "CPOE": -7.3,
@@ -996,12 +931,11 @@
     "Situation credit": -0.113,
     "Scheme tax (EPA/play)": 0.004,
     "EPA/db vs pressure": -0.008,
-    "Rush EPA (total)": 5.7,
-    "Elusive rating": 9.9
+    "Rush EPA (total)": 5.7
    },
    "twp": 5.0,
    "ints": 4,
-   "luck": -0.4
+   "luck": 0.2
   },
   {
    "rank": 23,
@@ -1031,8 +965,6 @@
     "Env. help": 46.1
    },
    "stats": {
-    "PFF pass grade": 70.2,
-    "BTT rate %": 5.9,
     "Passer rating": 77.4,
     "ANY/A": 5.85,
     "CPOE": 2.1,
@@ -1041,12 +973,11 @@
     "Situation credit": -0.096,
     "Scheme tax (EPA/play)": 0.007,
     "EPA/db vs pressure": -0.016,
-    "Rush EPA (total)": 3.7,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 3.7
    },
    "twp": 4.0,
    "ints": 7,
-   "luck": -4.2
+   "luck": -3.7
   },
   {
    "rank": 24,
@@ -1076,8 +1007,6 @@
     "Env. help": 37.4
    },
    "stats": {
-    "PFF pass grade": 38.7,
-    "BTT rate %": 3.8,
     "Passer rating": 70.2,
     "ANY/A": 5.22,
     "CPOE": -4.5,
@@ -1086,12 +1015,11 @@
     "Situation credit": -0.106,
     "Scheme tax (EPA/play)": -0.001,
     "EPA/db vs pressure": -0.003,
-    "Rush EPA (total)": -4.5,
-    "Elusive rating": 26.6
+    "Rush EPA (total)": -4.5
    },
    "twp": 10.0,
-   "ints": 7,
-   "luck": 0.1
+   "ints": 8,
+   "luck": 0.3
   },
   {
    "rank": 25,
@@ -1121,8 +1049,6 @@
     "Env. help": 48.1
    },
    "stats": {
-    "PFF pass grade": 64.6,
-    "BTT rate %": 4.0,
     "Passer rating": 88.9,
     "ANY/A": 6.92,
     "CPOE": -2.5,
@@ -1131,12 +1057,11 @@
     "Situation credit": -0.035,
     "Scheme tax (EPA/play)": 0.009,
     "EPA/db vs pressure": -0.006,
-    "Rush EPA (total)": 1.5,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 1.5
    },
    "twp": 4.0,
-   "ints": 4,
-   "luck": -1.2
+   "ints": 5,
+   "luck": -1.7
   },
   {
    "rank": 26,
@@ -1166,8 +1091,6 @@
     "Env. help": 58.3
    },
    "stats": {
-    "PFF pass grade": 56.7,
-    "BTT rate %": 5.1,
     "Passer rating": 81.2,
     "ANY/A": 5.93,
     "CPOE": -5.9,
@@ -1176,12 +1099,11 @@
     "Situation credit": -0.011,
     "Scheme tax (EPA/play)": -0.02,
     "EPA/db vs pressure": -0.008,
-    "Rush EPA (total)": 5.7,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 5.7
    },
    "twp": 4.0,
-   "ints": 3,
-   "luck": -0.2
+   "ints": 5,
+   "luck": -1.7
   },
   {
    "rank": 27,
@@ -1211,8 +1133,6 @@
     "Env. help": 52.7
    },
    "stats": {
-    "PFF pass grade": 56.2,
-    "BTT rate %": 2.2,
     "Passer rating": 73.6,
     "ANY/A": 5.17,
     "CPOE": -2.4,
@@ -1221,12 +1141,11 @@
     "Situation credit": -0.059,
     "Scheme tax (EPA/play)": 0.004,
     "EPA/db vs pressure": -0.007,
-    "Rush EPA (total)": 6.5,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 6.5
    },
    "twp": 8.0,
-   "ints": 4,
-   "luck": 1.7
+   "ints": 6,
+   "luck": 0.7
   },
   {
    "rank": 28,
@@ -1256,8 +1175,6 @@
     "Env. help": 45.0
    },
    "stats": {
-    "PFF pass grade": 65.9,
-    "BTT rate %": 1.2,
     "Passer rating": 77.2,
     "ANY/A": 5.44,
     "CPOE": 1.6,
@@ -1266,12 +1183,11 @@
     "Situation credit": -0.105,
     "Scheme tax (EPA/play)": -0.025,
     "EPA/db vs pressure": -0.011,
-    "Rush EPA (total)": 5.4,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 5.4
    },
    "twp": 3.0,
-   "ints": 3,
-   "luck": -0.9
+   "ints": 4,
+   "luck": -1.5
   },
   {
    "rank": 29,
@@ -1301,8 +1217,6 @@
     "Env. help": 36.5
    },
    "stats": {
-    "PFF pass grade": 58.6,
-    "BTT rate %": 3.8,
     "Passer rating": 80.0,
     "ANY/A": 5.73,
     "CPOE": 0.3,
@@ -1311,12 +1225,11 @@
     "Situation credit": -0.204,
     "Scheme tax (EPA/play)": 0.016,
     "EPA/db vs pressure": -0.023,
-    "Rush EPA (total)": 1.3,
-    "Elusive rating": 0.0
+    "Rush EPA (total)": 1.3
    },
    "twp": 2.0,
    "ints": 2,
-   "luck": -0.6
+   "luck": -0.3
   }
  ]
 }
