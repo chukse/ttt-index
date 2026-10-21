@@ -18,6 +18,7 @@
    "Kyle Shanahan",
    "Liam Coen",
    "Matt LaFleur",
+   "Mike LaFleur",
    "Mike McCarthy",
    "Mike McDaniel",
    "Sean McVay",
@@ -165,7 +166,7 @@
    "ranks": {
     "proe": 59,
     "pa_rate": 36,
-    "screen_rate": 38,
+    "screen_rate": 37,
     "rpo_rate": 14,
     "motion_rate": 26,
     "p11": 42,
@@ -175,7 +176,7 @@
     "p22": 44,
     "plays_pg": 53,
     "creativity": 27,
-    "off_epa": 16,
+    "off_epa": 15,
     "pass_epa": 10,
     "rush_epa": 46,
     "pass_sr": 27,
@@ -331,10 +332,10 @@
     "creativity": 10,
     "off_epa": 14,
     "pass_epa": 16,
-    "rush_epa": 18,
+    "rush_epa": 17,
     "pass_sr": 15,
     "rush_sr": 21,
-    "scheme_value": 35
+    "scheme_value": 36
    }
   },
   {
@@ -370,7 +371,7 @@
    "rush_epa": -0.044,
    "pass_sr": 47.0,
    "rush_sr": 42.425,
-   "scheme_value": 0.08,
+   "scheme_value": 0.079,
    "scheme_rel": 0.11,
    "_byseason": [
     {
@@ -481,10 +482,10 @@
     "p13": 34,
     "p21": 18,
     "p22": 2,
-    "plays_pg": 23,
-    "creativity": 59,
+    "plays_pg": 22,
+    "creativity": 58,
     "off_epa": 21,
-    "pass_epa": 23,
+    "pass_epa": 22,
     "rush_epa": 29,
     "pass_sr": 24,
     "rush_sr": 18,
@@ -525,7 +526,7 @@
    "rush_epa": -0.026,
    "pass_sr": 46.425,
    "rush_sr": 42.4,
-   "scheme_value": -0.002,
+   "scheme_value": 0.003,
    "scheme_rel": 0.72,
    "_byseason": [
     {
@@ -628,7 +629,7 @@
    "ranks": {
     "proe": 27,
     "pa_rate": 22,
-    "screen_rate": 48,
+    "screen_rate": 47,
     "rpo_rate": 50,
     "motion_rate": 54,
     "p11": 59,
@@ -640,10 +641,10 @@
     "creativity": 64,
     "off_epa": 23,
     "pass_epa": 29,
-    "rush_epa": 21,
+    "rush_epa": 20,
     "pass_sr": 31,
     "rush_sr": 19,
-    "scheme_value": 30
+    "scheme_value": 26
    }
   },
   {
@@ -781,7 +782,7 @@
    ],
    "ranks": {
     "proe": 52,
-    "pa_rate": 17,
+    "pa_rate": 16,
     "screen_rate": 53,
     "rpo_rate": 9,
     "motion_rate": 42,
@@ -794,7 +795,7 @@
     "creativity": 23,
     "off_epa": 44,
     "pass_epa": 55,
-    "rush_epa": 14,
+    "rush_epa": 13,
     "pass_sr": 55,
     "rush_sr": 25,
     "scheme_value": null
@@ -935,8 +936,8 @@
    ],
    "ranks": {
     "proe": 30,
-    "pa_rate": 11,
-    "screen_rate": 31,
+    "pa_rate": 10,
+    "screen_rate": 30,
     "rpo_rate": 30,
     "motion_rate": 31,
     "p11": 44,
@@ -951,7 +952,7 @@
     "rush_epa": 56,
     "pass_sr": 52,
     "rush_sr": 43,
-    "scheme_value": 44
+    "scheme_value": 45
    }
   },
   {
@@ -1088,11 +1089,11 @@
     }
    ],
    "ranks": {
-    "proe": 21,
+    "proe": 20,
     "pa_rate": 43,
     "screen_rate": 52,
-    "rpo_rate": 62,
-    "motion_rate": 8,
+    "rpo_rate": 61,
+    "motion_rate": 7,
     "p11": 7,
     "p12": 51,
     "p13": 61,
@@ -1244,7 +1245,7 @@
    "ranks": {
     "proe": 60,
     "pa_rate": 37,
-    "screen_rate": 39,
+    "screen_rate": 38,
     "rpo_rate": 15,
     "motion_rate": 27,
     "p11": 43,
@@ -1254,7 +1255,7 @@
     "p22": 47,
     "plays_pg": 54,
     "creativity": 29,
-    "off_epa": 17,
+    "off_epa": 16,
     "pass_epa": 11,
     "rush_epa": 47,
     "pass_sr": 28,
@@ -1414,7 +1415,162 @@
     "rush_epa": 43,
     "pass_sr": 22,
     "rush_sr": 49,
-    "scheme_value": 28
+    "scheme_value": 30
+   }
+  },
+  {
+   "coach": "Mike LaFleur",
+   "team": "ARI",
+   "latest_season": 2026,
+   "seasons": 4,
+   "teams": [
+    "ARI",
+    "LA"
+   ],
+   "role": "HC",
+   "called_latest": true,
+   "ever_called": true,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "ARI",
+   "cur_role": "HC",
+   "proe": 0.625,
+   "pa_rate": 21.95,
+   "screen_rate": 6.65,
+   "rpo_rate": 0.5,
+   "motion_rate": 51.775,
+   "p11": 79.467,
+   "p12": 9.367,
+   "p13": 10.567,
+   "p21": 0.0,
+   "p22": 0.0,
+   "plays_pg": 78.3,
+   "creativity": 43.0,
+   "off_epa": 0.045,
+   "pass_epa": 0.092,
+   "rush_epa": -0.026,
+   "pass_sr": 48.7,
+   "rush_sr": 45.5,
+   "scheme_value": -0.003,
+   "scheme_rel": 0.0,
+   "_byseason": [
+    {
+     "season": 2023,
+     "team": "LA",
+     "role": "OC",
+     "called": false,
+     "caller": "Sean McVay",
+     "proe": 1.5,
+     "pa_rate": 17.7,
+     "screen_rate": 9.9,
+     "rpo_rate": 0.9,
+     "motion_rate": 59.9,
+     "p11": 95.1,
+     "p12": 4.8,
+     "p13": 0.1,
+     "p21": 0.0,
+     "p22": 0.0,
+     "plays_pg": 83.2,
+     "creativity": 41.0,
+     "off_epa": 0.039,
+     "pass_epa": 0.067,
+     "rush_epa": -0.001,
+     "pass_sr": 45.2,
+     "rush_sr": 44.1
+    },
+    {
+     "season": 2024,
+     "team": "LA",
+     "role": "OC",
+     "called": false,
+     "caller": "Sean McVay",
+     "proe": -1.1,
+     "pa_rate": 30.8,
+     "screen_rate": 8.6,
+     "rpo_rate": 0.7,
+     "motion_rate": 72.4,
+     "p11": 83.6,
+     "p12": 14.4,
+     "p13": 0.3,
+     "p21": 0.0,
+     "p22": 0.0,
+     "plays_pg": 79.8,
+     "creativity": 49.0,
+     "off_epa": 0.014,
+     "pass_epa": 0.064,
+     "rush_epa": -0.056,
+     "pass_sr": 48.5,
+     "rush_sr": 44.4
+    },
+    {
+     "season": 2025,
+     "team": "LA",
+     "role": "OC",
+     "called": false,
+     "caller": "Sean McVay",
+     "proe": 4.2,
+     "pa_rate": 32.4,
+     "screen_rate": 6.4,
+     "rpo_rate": 0.4,
+     "motion_rate": 54.4,
+     "p11": 59.7,
+     "p12": 8.9,
+     "p13": 31.3,
+     "p21": 0.0,
+     "p22": 0.0,
+     "plays_pg": 83.7,
+     "creativity": 52.0,
+     "off_epa": 0.145,
+     "pass_epa": 0.223,
+     "rush_epa": 0.032,
+     "pass_sr": 52.7,
+     "rush_sr": 50.5
+    },
+    {
+     "season": 2026,
+     "team": "ARI",
+     "role": "HC",
+     "called": true,
+     "caller": null,
+     "proe": -2.1,
+     "pa_rate": 6.9,
+     "screen_rate": 1.7,
+     "rpo_rate": 0.0,
+     "motion_rate": 20.4,
+     "p11": null,
+     "p12": null,
+     "p13": null,
+     "p21": null,
+     "p22": null,
+     "plays_pg": 66.5,
+     "creativity": 30.0,
+     "off_epa": -0.019,
+     "pass_epa": 0.016,
+     "rush_epa": -0.078,
+     "pass_sr": 48.4,
+     "rush_sr": 43.0
+    }
+   ],
+   "ranks": {
+    "proe": 24,
+    "pa_rate": 21,
+    "screen_rate": 49,
+    "rpo_rate": 68,
+    "motion_rate": 13,
+    "p11": 4,
+    "p12": 63,
+    "p13": 3,
+    "p21": 64,
+    "p22": 60,
+    "plays_pg": 32,
+    "creativity": 61,
+    "off_epa": 20,
+    "pass_epa": 23,
+    "rush_epa": 21,
+    "pass_sr": 11,
+    "rush_sr": 5,
+    "scheme_value": 32
    }
   },
   {
@@ -1556,7 +1712,7 @@
     "pa_rate": 25,
     "screen_rate": 11,
     "rpo_rate": 29,
-    "motion_rate": 7,
+    "motion_rate": 6,
     "p11": 33,
     "p12": 54,
     "p13": 49,
@@ -1569,7 +1725,7 @@
     "rush_epa": 54,
     "pass_sr": 43,
     "rush_sr": 42,
-    "scheme_value": 45
+    "scheme_value": 46
    }
   },
   {
@@ -1707,22 +1863,22 @@
    ],
    "ranks": {
     "proe": 16,
-    "pa_rate": 14,
-    "screen_rate": 45,
-    "rpo_rate": 66,
-    "motion_rate": 13,
+    "pa_rate": 13,
+    "screen_rate": 44,
+    "rpo_rate": 65,
+    "motion_rate": 12,
     "p11": 5,
     "p12": 64,
     "p13": 4,
     "p21": 65,
     "p22": 62,
-    "plays_pg": 32,
-    "creativity": 57,
-    "off_epa": 18,
-    "pass_epa": 19,
-    "rush_epa": 17,
-    "pass_sr": 11,
-    "rush_sr": 5,
+    "plays_pg": 31,
+    "creativity": 56,
+    "off_epa": 17,
+    "pass_epa": 18,
+    "rush_epa": 16,
+    "pass_sr": 10,
+    "rush_sr": 4,
     "scheme_value": 8
    }
   },
@@ -1759,7 +1915,7 @@
    "rush_epa": -0.064,
    "pass_sr": 42.475,
    "rush_sr": 40.6,
-   "scheme_value": 0.026,
+   "scheme_value": 0.025,
    "scheme_rel": 0.59,
    "_byseason": [
     {
@@ -1877,7 +2033,7 @@
     "rush_epa": 37,
     "pass_sr": 62,
     "rush_sr": 39,
-    "scheme_value": 22
+    "scheme_value": 21
    }
   },
   {
@@ -2015,7 +2171,7 @@
    ],
    "ranks": {
     "proe": 53,
-    "pa_rate": 18,
+    "pa_rate": 17,
     "screen_rate": 54,
     "rpo_rate": 10,
     "motion_rate": 43,
@@ -2028,7 +2184,7 @@
     "creativity": 26,
     "off_epa": 45,
     "pass_epa": 56,
-    "rush_epa": 15,
+    "rush_epa": 14,
     "pass_sr": 56,
     "rush_sr": 26,
     "scheme_value": 10
@@ -2169,8 +2325,8 @@
    ],
    "ranks": {
     "proe": 31,
-    "pa_rate": 12,
-    "screen_rate": 32,
+    "pa_rate": 11,
+    "screen_rate": 31,
     "rpo_rate": 31,
     "motion_rate": 32,
     "p11": 45,
@@ -2324,7 +2480,7 @@
    "ranks": {
     "proe": 2,
     "pa_rate": 58,
-    "screen_rate": 43,
+    "screen_rate": 42,
     "rpo_rate": 24,
     "motion_rate": 44,
     "p11": 38,
@@ -2455,7 +2611,7 @@
    "ranks": {
     "proe": 64,
     "pa_rate": 38,
-    "screen_rate": 33,
+    "screen_rate": 32,
     "rpo_rate": 57,
     "motion_rate": 24,
     "p11": 16,
@@ -2470,7 +2626,7 @@
     "rush_epa": 60,
     "pass_sr": 63,
     "rush_sr": 72,
-    "scheme_value": 53
+    "scheme_value": 54
    }
   },
   {
@@ -2600,7 +2756,7 @@
     "rush_epa": 28,
     "pass_sr": 50,
     "rush_sr": 20,
-    "scheme_value": 21
+    "scheme_value": 20
    }
   },
   {
@@ -2725,8 +2881,8 @@
     "p22": 34,
     "plays_pg": 43,
     "creativity": 70,
-    "off_epa": 20,
-    "pass_epa": 21,
+    "off_epa": 19,
+    "pass_epa": 20,
     "rush_epa": 27,
     "pass_sr": 8,
     "rush_sr": 27,
@@ -2844,7 +3000,7 @@
    ],
    "ranks": {
     "proe": 57,
-    "pa_rate": 7,
+    "pa_rate": 6,
     "screen_rate": 2,
     "rpo_rate": 20,
     "motion_rate": 1,
@@ -2853,7 +3009,7 @@
     "p13": 48,
     "p21": 2,
     "p22": 3,
-    "plays_pg": 30,
+    "plays_pg": 29,
     "creativity": 8,
     "off_epa": 30,
     "pass_epa": 28,
@@ -2974,7 +3130,7 @@
    ],
    "ranks": {
     "proe": 26,
-    "pa_rate": 10,
+    "pa_rate": 9,
     "screen_rate": 5,
     "rpo_rate": 8,
     "motion_rate": 52,
@@ -2983,7 +3139,7 @@
     "p13": 38,
     "p21": 52,
     "p22": 53,
-    "plays_pg": 19,
+    "plays_pg": 18,
     "creativity": 9,
     "off_epa": 34,
     "pass_epa": 35,
@@ -3104,9 +3260,9 @@
     }
    ],
    "ranks": {
-    "proe": 22,
+    "proe": 21,
     "pa_rate": 48,
-    "screen_rate": 42,
+    "screen_rate": 41,
     "rpo_rate": 58,
     "motion_rate": 38,
     "p11": 20,
@@ -3125,136 +3281,6 @@
    }
   },
   {
-   "coach": "Mike LaFleur",
-   "team": "LA",
-   "latest_season": 2025,
-   "seasons": 3,
-   "teams": [
-    "LA"
-   ],
-   "role": "OC",
-   "called_latest": false,
-   "ever_called": false,
-   "as_hc": false,
-   "last_season": 2025,
-   "status": "team",
-   "cur_team": "ARI",
-   "cur_role": "HC",
-   "proe": 1.533,
-   "pa_rate": 26.967,
-   "screen_rate": 8.3,
-   "rpo_rate": 0.667,
-   "motion_rate": 62.233,
-   "p11": 79.467,
-   "p12": 9.367,
-   "p13": 10.567,
-   "p21": 0.0,
-   "p22": 0.0,
-   "plays_pg": 82.233,
-   "creativity": 47.333,
-   "off_epa": 0.066,
-   "pass_epa": 0.118,
-   "rush_epa": -0.008,
-   "pass_sr": 48.8,
-   "rush_sr": 46.333,
-   "scheme_value": null,
-   "scheme_rel": null,
-   "_byseason": [
-    {
-     "season": 2023,
-     "team": "LA",
-     "role": "OC",
-     "called": false,
-     "caller": "Sean McVay",
-     "proe": 1.5,
-     "pa_rate": 17.7,
-     "screen_rate": 9.9,
-     "rpo_rate": 0.9,
-     "motion_rate": 59.9,
-     "p11": 95.1,
-     "p12": 4.8,
-     "p13": 0.1,
-     "p21": 0.0,
-     "p22": 0.0,
-     "plays_pg": 83.2,
-     "creativity": 41.0,
-     "off_epa": 0.039,
-     "pass_epa": 0.067,
-     "rush_epa": -0.001,
-     "pass_sr": 45.2,
-     "rush_sr": 44.1
-    },
-    {
-     "season": 2024,
-     "team": "LA",
-     "role": "OC",
-     "called": false,
-     "caller": "Sean McVay",
-     "proe": -1.1,
-     "pa_rate": 30.8,
-     "screen_rate": 8.6,
-     "rpo_rate": 0.7,
-     "motion_rate": 72.4,
-     "p11": 83.6,
-     "p12": 14.4,
-     "p13": 0.3,
-     "p21": 0.0,
-     "p22": 0.0,
-     "plays_pg": 79.8,
-     "creativity": 49.0,
-     "off_epa": 0.014,
-     "pass_epa": 0.064,
-     "rush_epa": -0.056,
-     "pass_sr": 48.5,
-     "rush_sr": 44.4
-    },
-    {
-     "season": 2025,
-     "team": "LA",
-     "role": "OC",
-     "called": false,
-     "caller": "Sean McVay",
-     "proe": 4.2,
-     "pa_rate": 32.4,
-     "screen_rate": 6.4,
-     "rpo_rate": 0.4,
-     "motion_rate": 54.4,
-     "p11": 59.7,
-     "p12": 8.9,
-     "p13": 31.3,
-     "p21": 0.0,
-     "p22": 0.0,
-     "plays_pg": 83.7,
-     "creativity": 52.0,
-     "off_epa": 0.145,
-     "pass_epa": 0.223,
-     "rush_epa": 0.032,
-     "pass_sr": 52.7,
-     "rush_sr": 50.5
-    }
-   ],
-   "ranks": {
-    "proe": 19,
-    "pa_rate": 2,
-    "screen_rate": 26,
-    "rpo_rate": 59,
-    "motion_rate": 4,
-    "p11": 4,
-    "p12": 63,
-    "p13": 3,
-    "p21": 64,
-    "p22": 60,
-    "plays_pg": 13,
-    "creativity": 50,
-    "off_epa": 15,
-    "pass_epa": 17,
-    "rush_epa": 13,
-    "pass_sr": 10,
-    "rush_sr": 4,
-    "scheme_value": null
-   }
-  },
-  {
    "coach": "Nathaniel Hackett",
    "team": "ARI",
    "latest_season": 2026,
@@ -3264,7 +3290,7 @@
     "NYJ"
    ],
    "role": "OC",
-   "called_latest": true,
+   "called_latest": false,
    "ever_called": true,
    "as_hc": false,
    "last_season": 2026,
@@ -3288,8 +3314,8 @@
    "rush_epa": -0.112,
    "pass_sr": 42.567,
    "rush_sr": 39.133,
-   "scheme_value": -0.053,
-   "scheme_rel": 0.7,
+   "scheme_value": -0.066,
+   "scheme_rel": 0.63,
    "_byseason": [
     {
      "season": 2023,
@@ -3343,8 +3369,8 @@
      "season": 2026,
      "team": "ARI",
      "role": "OC",
-     "called": true,
-     "caller": null,
+     "called": false,
+     "caller": "Mike LaFleur",
      "proe": -2.1,
      "pa_rate": 6.9,
      "screen_rate": 1.7,
@@ -3367,7 +3393,7 @@
    "ranks": {
     "proe": 35,
     "pa_rate": 49,
-    "screen_rate": 47,
+    "screen_rate": 46,
     "rpo_rate": 49,
     "motion_rate": 61,
     "p11": 26,
@@ -3382,7 +3408,7 @@
     "rush_epa": 55,
     "pass_sr": 59,
     "rush_sr": 48,
-    "scheme_value": 48
+    "scheme_value": 52
    }
   },
   {
@@ -3498,7 +3524,7 @@
    "ranks": {
     "proe": 33,
     "pa_rate": 44,
-    "screen_rate": 34,
+    "screen_rate": 33,
     "rpo_rate": 33,
     "motion_rate": 59,
     "p11": 39,
@@ -3507,7 +3533,7 @@
     "p21": 40,
     "p22": 24,
     "plays_pg": 35,
-    "creativity": 56,
+    "creativity": 55,
     "off_epa": 46,
     "pass_epa": 42,
     "rush_epa": 49,
@@ -3627,8 +3653,8 @@
    ],
    "ranks": {
     "proe": 54,
-    "pa_rate": 19,
-    "screen_rate": 30,
+    "pa_rate": 18,
+    "screen_rate": 29,
     "rpo_rate": 17,
     "motion_rate": 20,
     "p11": 58,
@@ -3636,7 +3662,7 @@
     "p13": 41,
     "p21": 38,
     "p22": 32,
-    "plays_pg": 24,
+    "plays_pg": 23,
     "creativity": 15,
     "off_epa": 6,
     "pass_epa": 14,
@@ -3759,8 +3785,8 @@
    "ranks": {
     "proe": 69,
     "pa_rate": 60,
-    "screen_rate": 46,
-    "rpo_rate": 60,
+    "screen_rate": 45,
+    "rpo_rate": 59,
     "motion_rate": 22,
     "p11": 37,
     "p12": 32,
@@ -3811,7 +3837,7 @@
    "rush_epa": -0.142,
    "pass_sr": 42.5,
    "rush_sr": 37.55,
-   "scheme_value": -0.059,
+   "scheme_value": -0.056,
    "scheme_rel": 0.69,
    "_byseason": [
     {
@@ -3875,7 +3901,7 @@
     "p21": 49,
     "p22": 38,
     "plays_pg": 1,
-    "creativity": 53,
+    "creativity": 52,
     "off_epa": 67,
     "pass_epa": 64,
     "rush_epa": 65,
@@ -3917,7 +3943,7 @@
    "rush_epa": -0.046,
    "pass_sr": 43.25,
    "rush_sr": 40.95,
-   "scheme_value": 0.027,
+   "scheme_value": 0.024,
    "scheme_rel": 0.6,
    "_byseason": [
     {
@@ -3971,7 +3997,7 @@
    ],
    "ranks": {
     "proe": 62,
-    "pa_rate": 16,
+    "pa_rate": 15,
     "screen_rate": 8,
     "rpo_rate": 22,
     "motion_rate": 28,
@@ -3980,14 +4006,14 @@
     "p13": 1,
     "p21": 16,
     "p22": 9,
-    "plays_pg": 27,
+    "plays_pg": 26,
     "creativity": 20,
     "off_epa": 35,
     "pass_epa": 43,
     "rush_epa": 31,
     "pass_sr": 49,
     "rush_sr": 32,
-    "scheme_value": 19
+    "scheme_value": 22
    }
   },
   {
@@ -4023,7 +4049,7 @@
    "rush_epa": 0.023,
    "pass_sr": 51.6,
    "rush_sr": 43.65,
-   "scheme_value": 0.054,
+   "scheme_value": 0.055,
    "scheme_rel": 0.04,
    "_byseason": [
     {
@@ -4080,14 +4106,14 @@
     "pa_rate": 1,
     "screen_rate": 15,
     "rpo_rate": 73,
-    "motion_rate": 10,
+    "motion_rate": 9,
     "p11": 50,
     "p12": 12,
     "p13": 24,
     "p21": 22,
     "p22": 33,
     "plays_pg": 5,
-    "creativity": 58,
+    "creativity": 57,
     "off_epa": 5,
     "pass_epa": 6,
     "rush_epa": 5,
@@ -4186,7 +4212,7 @@
     "proe": 56,
     "pa_rate": 34,
     "screen_rate": 57,
-    "rpo_rate": 61,
+    "rpo_rate": 60,
     "motion_rate": 50,
     "p11": 60,
     "p12": 5,
@@ -4306,7 +4332,7 @@
     "rush_epa": 62,
     "pass_sr": 38,
     "rush_sr": 67,
-    "scheme_value": 37
+    "scheme_value": 38
    }
   },
   {
@@ -4398,7 +4424,7 @@
    "ranks": {
     "proe": 4,
     "pa_rate": 57,
-    "screen_rate": 29,
+    "screen_rate": 28,
     "rpo_rate": 36,
     "motion_rate": 62,
     "p11": 14,
@@ -4413,7 +4439,7 @@
     "rush_epa": 8,
     "pass_sr": 35,
     "rush_sr": 14,
-    "scheme_value": 36
+    "scheme_value": 37
    }
   },
   {
@@ -4505,7 +4531,7 @@
     "proe": 13,
     "pa_rate": 59,
     "screen_rate": 56,
-    "rpo_rate": 64,
+    "rpo_rate": 63,
     "motion_rate": 47,
     "p11": 22,
     "p12": 36,
@@ -4516,7 +4542,7 @@
     "creativity": 31,
     "off_epa": 10,
     "pass_epa": 8,
-    "rush_epa": 20,
+    "rush_epa": 19,
     "pass_sr": 12,
     "rush_sr": 17,
     "scheme_value": null
@@ -4608,8 +4634,8 @@
     }
    ],
    "ranks": {
-    "proe": 20,
-    "pa_rate": 4,
+    "proe": 19,
+    "pa_rate": 3,
     "screen_rate": 55,
     "rpo_rate": 46,
     "motion_rate": 14,
@@ -4618,7 +4644,7 @@
     "p13": 53,
     "p21": 54,
     "p22": 35,
-    "plays_pg": 21,
+    "plays_pg": 20,
     "creativity": 46,
     "off_epa": 33,
     "pass_epa": 34,
@@ -4715,7 +4741,7 @@
    ],
    "ranks": {
     "proe": 39,
-    "pa_rate": 15,
+    "pa_rate": 14,
     "screen_rate": 9,
     "rpo_rate": 19,
     "motion_rate": 3,
@@ -4724,14 +4750,14 @@
     "p13": 28,
     "p21": 37,
     "p22": 16,
-    "plays_pg": 17,
+    "plays_pg": 16,
     "creativity": 2,
     "off_epa": 2,
     "pass_epa": 4,
     "rush_epa": 1,
     "pass_sr": 7,
     "rush_sr": 2,
-    "scheme_value": 26
+    "scheme_value": 27
    }
   },
   {
@@ -4820,10 +4846,10 @@
     }
    ],
    "ranks": {
-    "proe": 23,
+    "proe": 22,
     "pa_rate": 50,
     "screen_rate": 67,
-    "rpo_rate": 68,
+    "rpo_rate": 67,
     "motion_rate": 53,
     "p11": 40,
     "p12": 21,
@@ -4929,9 +4955,9 @@
    "ranks": {
     "proe": 41,
     "pa_rate": 24,
-    "screen_rate": 35,
+    "screen_rate": 34,
     "rpo_rate": 3,
-    "motion_rate": 12,
+    "motion_rate": 11,
     "p11": 36,
     "p12": 18,
     "p13": 33,
@@ -5036,7 +5062,7 @@
    "ranks": {
     "proe": 14,
     "pa_rate": 30,
-    "screen_rate": 40,
+    "screen_rate": 39,
     "rpo_rate": 25,
     "motion_rate": 33,
     "p11": 15,
@@ -5051,7 +5077,7 @@
     "rush_epa": 33,
     "pass_sr": 46,
     "rush_sr": 23,
-    "scheme_value": 55
+    "scheme_value": 56
    }
   },
   {
@@ -5246,7 +5272,7 @@
     }
    ],
    "ranks": {
-    "proe": 24,
+    "proe": 23,
     "pa_rate": 39,
     "screen_rate": 66,
     "rpo_rate": 40,
@@ -5260,7 +5286,7 @@
     "creativity": 63,
     "off_epa": 11,
     "pass_epa": 15,
-    "rush_epa": 16,
+    "rush_epa": 15,
     "pass_sr": 18,
     "rush_sr": 13,
     "scheme_value": null
@@ -5353,7 +5379,7 @@
    ],
    "ranks": {
     "proe": 25,
-    "pa_rate": 5,
+    "pa_rate": 4,
     "screen_rate": 17,
     "rpo_rate": 2,
     "motion_rate": 23,
@@ -5362,10 +5388,10 @@
     "p13": 15,
     "p21": 8,
     "p22": 6,
-    "plays_pg": 14,
+    "plays_pg": 13,
     "creativity": 4,
     "off_epa": 13,
-    "pass_epa": 18,
+    "pass_epa": 17,
     "rush_epa": 6,
     "pass_sr": 17,
     "rush_sr": 8,
@@ -5460,23 +5486,23 @@
    ],
    "ranks": {
     "proe": 63,
-    "pa_rate": 13,
-    "screen_rate": 41,
+    "pa_rate": 12,
+    "screen_rate": 40,
     "rpo_rate": 55,
-    "motion_rate": 5,
+    "motion_rate": 4,
     "p11": 62,
     "p12": 4,
     "p13": 14,
     "p21": 17,
     "p22": 4,
-    "plays_pg": 26,
+    "plays_pg": 25,
     "creativity": 41,
     "off_epa": 38,
     "pass_epa": 44,
     "rush_epa": 25,
     "pass_sr": 36,
     "rush_sr": 34,
-    "scheme_value": 27
+    "scheme_value": 29
    }
   },
   {
@@ -5583,7 +5609,7 @@
     "rush_epa": 67,
     "pass_sr": 53,
     "rush_sr": 65,
-    "scheme_value": 47
+    "scheme_value": 48
    }
   },
   {
@@ -5674,7 +5700,7 @@
    "ranks": {
     "proe": 58,
     "pa_rate": 26,
-    "screen_rate": 36,
+    "screen_rate": 35,
     "rpo_rate": 21,
     "motion_rate": 40,
     "p11": 11,
@@ -5689,7 +5715,7 @@
     "rush_epa": 69,
     "pass_sr": 69,
     "rush_sr": 63,
-    "scheme_value": 58
+    "scheme_value": 59
    }
   },
   {
@@ -5726,7 +5752,7 @@
    "rush_epa": -0.036,
    "pass_sr": 40.5,
    "rush_sr": 41.2,
-   "scheme_value": -0.065,
+   "scheme_value": -0.067,
    "scheme_rel": 0.6,
    "_byseason": [
     {
@@ -5796,7 +5822,7 @@
     "rush_epa": 23,
     "pass_sr": 67,
     "rush_sr": 31,
-    "scheme_value": 52
+    "scheme_value": 53
    }
   },
   {
@@ -5896,13 +5922,13 @@
     "p21": 25,
     "p22": 18,
     "plays_pg": 59,
-    "creativity": 55,
+    "creativity": 54,
     "off_epa": 31,
-    "pass_epa": 20,
+    "pass_epa": 19,
     "rush_epa": 64,
     "pass_sr": 29,
     "rush_sr": 69,
-    "scheme_value": 39
+    "scheme_value": 40
    }
   },
   {
@@ -5938,7 +5964,7 @@
    "rush_epa": -0.122,
    "pass_sr": 39.15,
    "rush_sr": 38.0,
-   "scheme_value": -0.107,
+   "scheme_value": -0.108,
    "scheme_rel": 0.61,
    "_byseason": [
     {
@@ -6001,14 +6027,14 @@
     "p13": 36,
     "p21": 26,
     "p22": 29,
-    "plays_pg": 25,
-    "creativity": 52,
+    "plays_pg": 24,
+    "creativity": 51,
     "off_epa": 71,
     "pass_epa": 71,
     "rush_epa": 59,
     "pass_sr": 71,
     "rush_sr": 59,
-    "scheme_value": 56
+    "scheme_value": 58
    }
   },
   {
@@ -6108,14 +6134,14 @@
     "p13": 9,
     "p21": 36,
     "p22": 23,
-    "plays_pg": 20,
+    "plays_pg": 19,
     "creativity": 39,
     "off_epa": 49,
     "pass_epa": 48,
     "rush_epa": 48,
     "pass_sr": 51,
     "rush_sr": 47,
-    "scheme_value": 41
+    "scheme_value": 42
    }
   },
   {
@@ -6152,7 +6178,7 @@
    "rush_epa": -0.044,
    "pass_sr": 41.95,
    "rush_sr": 39.45,
-   "scheme_value": -0.006,
+   "scheme_value": -0.007,
    "scheme_rel": 0.65,
    "_byseason": [
     {
@@ -6206,7 +6232,7 @@
    ],
    "ranks": {
     "proe": 65,
-    "pa_rate": 9,
+    "pa_rate": 8,
     "screen_rate": 13,
     "rpo_rate": 18,
     "motion_rate": 58,
@@ -6215,14 +6241,14 @@
     "p13": 23,
     "p21": 9,
     "p22": 19,
-    "plays_pg": 16,
+    "plays_pg": 15,
     "creativity": 16,
     "off_epa": 43,
     "pass_epa": 49,
     "rush_epa": 30,
     "pass_sr": 64,
     "rush_sr": 45,
-    "scheme_value": 33
+    "scheme_value": 34
    }
   },
   {
@@ -6314,7 +6340,7 @@
    "ranks": {
     "proe": 71,
     "pa_rate": 56,
-    "screen_rate": 44,
+    "screen_rate": 43,
     "rpo_rate": 69,
     "motion_rate": 56,
     "p11": 64,
@@ -6326,10 +6352,10 @@
     "creativity": 48,
     "off_epa": 68,
     "pass_epa": 74,
-    "rush_epa": 19,
+    "rush_epa": 18,
     "pass_sr": 73,
     "rush_sr": 33,
-    "scheme_value": 62
+    "scheme_value": 63
    }
   },
   {
@@ -6487,7 +6513,7 @@
     "p21": 19,
     "p22": 20,
     "plays_pg": 34,
-    "creativity": 54,
+    "creativity": 53,
     "off_epa": 75,
     "pass_epa": 76,
     "rush_epa": 58,
@@ -6650,8 +6676,8 @@
     "p13": 58,
     "p21": 44,
     "p22": 39,
-    "plays_pg": 22,
-    "creativity": 51,
+    "plays_pg": 21,
+    "creativity": 50,
     "off_epa": 37,
     "pass_epa": 41,
     "rush_epa": 45,
@@ -6739,7 +6765,7 @@
     "rush_epa": 51,
     "pass_sr": 66,
     "rush_sr": 50,
-    "scheme_value": 54
+    "scheme_value": 55
    }
   },
   {
@@ -6775,7 +6801,7 @@
    "rush_epa": -0.242,
    "pass_sr": 44.7,
    "rush_sr": 35.9,
-   "scheme_value": -0.041,
+   "scheme_value": -0.04,
    "scheme_rel": 0.11,
    "_byseason": [
     {
@@ -6821,7 +6847,7 @@
     "rush_epa": 74,
     "pass_sr": 39,
     "rush_sr": 68,
-    "scheme_value": 43
+    "scheme_value": 44
    }
   },
   {
@@ -6887,7 +6913,7 @@
    ],
    "ranks": {
     "proe": 12,
-    "pa_rate": 21,
+    "pa_rate": 20,
     "screen_rate": 19,
     "rpo_rate": 1,
     "motion_rate": 66,
@@ -6898,8 +6924,8 @@
     "p22": 40,
     "plays_pg": 7,
     "creativity": 3,
-    "off_epa": 19,
-    "pass_epa": 22,
+    "off_epa": 18,
+    "pass_epa": 21,
     "rush_epa": 10,
     "pass_sr": 26,
     "rush_sr": 11,
@@ -6939,7 +6965,7 @@
    "rush_epa": -0.304,
    "pass_sr": 41.2,
    "rush_sr": 31.3,
-   "scheme_value": -0.174,
+   "scheme_value": -0.175,
    "scheme_rel": 0.16,
    "_byseason": [
     {
@@ -6969,23 +6995,23 @@
    ],
    "ranks": {
     "proe": 46,
-    "pa_rate": 8,
-    "screen_rate": 27,
+    "pa_rate": 7,
+    "screen_rate": 26,
     "rpo_rate": 34,
-    "motion_rate": 11,
+    "motion_rate": 10,
     "p11": 54,
     "p12": 6,
     "p13": 13,
     "p21": 56,
     "p22": 25,
     "plays_pg": 56,
-    "creativity": 60,
+    "creativity": 59,
     "off_epa": 76,
     "pass_epa": 72,
     "rush_epa": 76,
     "pass_sr": 65,
     "rush_sr": 76,
-    "scheme_value": 61
+    "scheme_value": 62
    }
   },
   {
@@ -7052,7 +7078,7 @@
    "ranks": {
     "proe": 38,
     "pa_rate": 23,
-    "screen_rate": 28,
+    "screen_rate": 27,
     "rpo_rate": 7,
     "motion_rate": 48,
     "p11": 19,
@@ -7060,14 +7086,14 @@
     "p13": 45,
     "p21": 50,
     "p22": 50,
-    "plays_pg": 18,
+    "plays_pg": 17,
     "creativity": 47,
     "off_epa": 41,
     "pass_epa": 31,
     "rush_epa": 70,
     "pass_sr": 42,
     "rush_sr": 75,
-    "scheme_value": 20
+    "scheme_value": 19
    }
   },
   {
@@ -7103,7 +7129,7 @@
    "rush_epa": -0.165,
    "pass_sr": 46.2,
    "rush_sr": 34.7,
-   "scheme_value": -0.006,
+   "scheme_value": -0.007,
    "scheme_rel": 0.27,
    "_byseason": [
     {
@@ -7133,7 +7159,7 @@
    ],
    "ranks": {
     "proe": 75,
-    "pa_rate": 3,
+    "pa_rate": 2,
     "screen_rate": 24,
     "rpo_rate": 35,
     "motion_rate": 17,
@@ -7149,7 +7175,7 @@
     "rush_epa": 71,
     "pass_sr": 33,
     "rush_sr": 70,
-    "scheme_value": 32
+    "scheme_value": 33
    }
   },
   {
@@ -7349,7 +7375,7 @@
    "rush_epa": -0.151,
    "pass_sr": 47.6,
    "rush_sr": 38.5,
-   "scheme_value": -0.001,
+   "scheme_value": -0.0,
    "scheme_rel": 0.0,
    "_byseason": [
     {
@@ -7381,7 +7407,7 @@
     "proe": 47,
     "pa_rate": 73,
     "screen_rate": 73,
-    "rpo_rate": 63,
+    "rpo_rate": 62,
     "motion_rate": 76,
     "p11": null,
     "p12": null,
@@ -7395,7 +7421,7 @@
     "rush_epa": 68,
     "pass_sr": 21,
     "rush_sr": 55,
-    "scheme_value": 29
+    "scheme_value": 28
    }
   },
   {
@@ -7431,7 +7457,7 @@
    "rush_epa": -0.049,
    "pass_sr": 48.4,
    "rush_sr": 40.6,
-   "scheme_value": 0.014,
+   "scheme_value": 0.015,
    "scheme_rel": 0.01,
    "_byseason": [
     {
@@ -7461,16 +7487,16 @@
    ],
    "ranks": {
     "proe": 67,
-    "pa_rate": 6,
+    "pa_rate": 5,
     "screen_rate": 10,
     "rpo_rate": 52,
-    "motion_rate": 6,
+    "motion_rate": 5,
     "p11": 49,
     "p12": 25,
     "p13": 17,
     "p21": 12,
     "p22": 26,
-    "plays_pg": 15,
+    "plays_pg": 14,
     "creativity": 69,
     "off_epa": 12,
     "pass_epa": 9,
@@ -7546,7 +7572,7 @@
     "pa_rate": 46,
     "screen_rate": 6,
     "rpo_rate": 47,
-    "motion_rate": 9,
+    "motion_rate": 8,
     "p11": 28,
     "p12": 40,
     "p13": 35,
@@ -7559,7 +7585,7 @@
     "rush_epa": 40,
     "pass_sr": 45,
     "rush_sr": 41,
-    "scheme_value": 34
+    "scheme_value": 35
    }
   },
   {
@@ -7625,7 +7651,7 @@
    ],
    "ranks": {
     "proe": 32,
-    "pa_rate": 20,
+    "pa_rate": 19,
     "screen_rate": 61,
     "rpo_rate": 12,
     "motion_rate": 15,
@@ -7634,14 +7660,14 @@
     "p13": 10,
     "p21": 34,
     "p22": 22,
-    "plays_pg": 29,
+    "plays_pg": 28,
     "creativity": 6,
     "off_epa": 25,
     "pass_epa": 30,
     "rush_epa": 24,
     "pass_sr": 41,
     "rush_sr": 29,
-    "scheme_value": 38
+    "scheme_value": 39
    }
   },
   {
@@ -7716,8 +7742,8 @@
     "p13": 16,
     "p21": 29,
     "p22": 28,
-    "plays_pg": 28,
-    "creativity": 61,
+    "plays_pg": 27,
+    "creativity": 60,
     "off_epa": 57,
     "pass_epa": 62,
     "rush_epa": 36,
@@ -7805,7 +7831,7 @@
     "rush_epa": 61,
     "pass_sr": 48,
     "rush_sr": 66,
-    "scheme_value": 42
+    "scheme_value": 43
    }
   },
   {
@@ -7969,7 +7995,7 @@
     "rush_epa": 44,
     "pass_sr": 40,
     "rush_sr": 58,
-    "scheme_value": 46
+    "scheme_value": 47
    }
   },
   {
@@ -8005,7 +8031,7 @@
    "rush_epa": 0.033,
    "pass_sr": 47.8,
    "rush_sr": 50.3,
-   "scheme_value": 0.047,
+   "scheme_value": 0.048,
    "scheme_rel": 0.0,
    "_byseason": [
     {
@@ -8133,7 +8159,7 @@
     "rush_epa": 52,
     "pass_sr": 34,
     "rush_sr": 46,
-    "scheme_value": 40
+    "scheme_value": 41
    }
   },
   {
@@ -8201,7 +8227,7 @@
     "proe": 49,
     "pa_rate": 74,
     "screen_rate": 72,
-    "rpo_rate": 65,
+    "rpo_rate": 64,
     "motion_rate": 72,
     "p11": null,
     "p12": null,
@@ -8282,7 +8308,7 @@
    "ranks": {
     "proe": 76,
     "pa_rate": 42,
-    "screen_rate": 49,
+    "screen_rate": 48,
     "rpo_rate": 39,
     "motion_rate": 2,
     "p11": 8,
@@ -8290,14 +8316,14 @@
     "p13": 64,
     "p21": 33,
     "p22": 30,
-    "plays_pg": 31,
+    "plays_pg": 30,
     "creativity": 36,
     "off_epa": 69,
     "pass_epa": 70,
     "rush_epa": 50,
     "pass_sr": 70,
     "rush_sr": 24,
-    "scheme_value": 60
+    "scheme_value": 61
    }
   },
   {
@@ -8364,7 +8390,7 @@
    "ranks": {
     "proe": 73,
     "pa_rate": 62,
-    "screen_rate": 37,
+    "screen_rate": 36,
     "rpo_rate": 27,
     "motion_rate": 63,
     "p11": 1,
@@ -8379,7 +8405,7 @@
     "rush_epa": 63,
     "pass_sr": 76,
     "rush_sr": 60,
-    "scheme_value": 59
+    "scheme_value": 60
    }
   },
   {
@@ -8415,7 +8441,7 @@
    "rush_epa": -0.258,
    "pass_sr": 42.8,
    "rush_sr": 34.6,
-   "scheme_value": 0.016,
+   "scheme_value": 0.017,
    "scheme_rel": 0.0,
    "_byseason": [
     {
@@ -8447,7 +8473,7 @@
     "proe": 7,
     "pa_rate": 76,
     "screen_rate": 64,
-    "rpo_rate": 67,
+    "rpo_rate": 66,
     "motion_rate": 75,
     "p11": null,
     "p12": null,
@@ -8663,7 +8689,7 @@
     "def_epa": 51,
     "def_pass_epa": 48,
     "def_rush_epa": 63,
-    "scheme_value": 49
+    "scheme_value": 48
    }
   },
   {
@@ -8691,7 +8717,7 @@
    "def_epa": -0.03,
    "def_pass_epa": -0.004,
    "def_rush_epa": -0.073,
-   "scheme_value": 0.045,
+   "scheme_value": 0.044,
    "scheme_rel": 0.82,
    "_byseason": [
     {
@@ -8865,7 +8891,7 @@
     "def_epa": 45,
     "def_pass_epa": 44,
     "def_rush_epa": 55,
-    "scheme_value": 50
+    "scheme_value": 49
    }
   },
   {
@@ -8892,7 +8918,7 @@
    "def_epa": -0.061,
    "def_pass_epa": -0.014,
    "def_rush_epa": -0.137,
-   "scheme_value": 0.054,
+   "scheme_value": 0.053,
    "scheme_rel": 0.82,
    "_byseason": [
     {
@@ -9193,7 +9219,7 @@
    "def_epa": -0.049,
    "def_pass_epa": -0.027,
    "def_rush_epa": -0.087,
-   "scheme_value": 0.045,
+   "scheme_value": 0.044,
    "scheme_rel": 0.81,
    "_byseason": [
     {
@@ -9293,7 +9319,7 @@
    "def_epa": -0.021,
    "def_pass_epa": 0.041,
    "def_rush_epa": -0.137,
-   "scheme_value": -0.046,
+   "scheme_value": -0.047,
    "scheme_rel": 0.83,
    "_byseason": [
     {
@@ -9366,7 +9392,7 @@
     "def_epa": 26,
     "def_pass_epa": 36,
     "def_rush_epa": 6,
-    "scheme_value": 48
+    "scheme_value": 50
    }
   },
   {
@@ -9466,7 +9492,7 @@
     "def_epa": 12,
     "def_pass_epa": 11,
     "def_rush_epa": 22,
-    "scheme_value": 13
+    "scheme_value": 12
    }
   },
   {
@@ -9680,7 +9706,7 @@
    "def_epa": 0.011,
    "def_pass_epa": 0.055,
    "def_rush_epa": -0.054,
-   "scheme_value": -0.037,
+   "scheme_value": -0.038,
    "scheme_rel": 0.76,
    "_byseason": [
     {
@@ -9823,7 +9849,7 @@
     "def_epa": 30,
     "def_pass_epa": 31,
     "def_rush_epa": 27,
-    "scheme_value": 25
+    "scheme_value": 26
    }
   },
   {
@@ -9851,7 +9877,7 @@
    "def_epa": 0.051,
    "def_pass_epa": 0.11,
    "def_rush_epa": -0.034,
-   "scheme_value": -0.072,
+   "scheme_value": -0.071,
    "scheme_rel": 0.75,
    "_byseason": [
     {
@@ -10192,7 +10218,7 @@
    "def_epa": -0.045,
    "def_pass_epa": -0.003,
    "def_rush_epa": -0.124,
-   "scheme_value": 0.03,
+   "scheme_value": 0.031,
    "scheme_rel": 0.74,
    "_byseason": [
     {
@@ -10332,7 +10358,7 @@
    "def_epa": -0.07,
    "def_pass_epa": -0.039,
    "def_rush_epa": -0.131,
-   "scheme_value": 0.044,
+   "scheme_value": 0.043,
    "scheme_rel": 0.67,
    "_byseason": [
     {
@@ -10375,7 +10401,7 @@
     "def_epa": 9,
     "def_pass_epa": 10,
     "def_rush_epa": 8,
-    "scheme_value": 12
+    "scheme_value": 13
    }
   },
   {
@@ -10585,7 +10611,7 @@
     "def_epa": 35,
     "def_pass_epa": 28,
     "def_rush_epa": 49,
-    "scheme_value": 18
+    "scheme_value": 19
    }
   },
   {
@@ -10612,7 +10638,7 @@
    "def_epa": -0.017,
    "def_pass_epa": 0.026,
    "def_rush_epa": -0.081,
-   "scheme_value": -0.019,
+   "scheme_value": -0.02,
    "scheme_rel": 0.73,
    "_byseason": [
     {
@@ -10892,7 +10918,7 @@
    "def_epa": 0.071,
    "def_pass_epa": 0.121,
    "def_rush_epa": -0.038,
-   "scheme_value": -0.013,
+   "scheme_value": -0.011,
    "scheme_rel": 0.66,
    "_byseason": [
     {
@@ -10935,7 +10961,7 @@
     "def_epa": 56,
     "def_pass_epa": 51,
     "def_rush_epa": 50,
-    "scheme_value": 36
+    "scheme_value": 35
    }
   },
   {
@@ -10963,7 +10989,7 @@
    "def_epa": -0.033,
    "def_pass_epa": 0.013,
    "def_rush_epa": -0.112,
-   "scheme_value": 0.033,
+   "scheme_value": 0.035,
    "scheme_rel": 0.67,
    "_byseason": [
     {
@@ -11006,7 +11032,7 @@
     "def_epa": 23,
     "def_pass_epa": 27,
     "def_rush_epa": 15,
-    "scheme_value": 19
+    "scheme_value": 17
    }
   },
   {
@@ -11355,7 +11381,7 @@
    "def_epa": -0.055,
    "def_pass_epa": 0.02,
    "def_rush_epa": -0.168,
-   "scheme_value": -0.017,
+   "scheme_value": -0.018,
    "scheme_rel": 0.57,
    "_byseason": [
     {
@@ -11575,7 +11601,7 @@
    "def_epa": -0.036,
    "def_pass_epa": -0.003,
    "def_rush_epa": -0.074,
-   "scheme_value": 0.018,
+   "scheme_value": 0.022,
    "scheme_rel": 0.26,
    "_byseason": [
     {
@@ -11603,7 +11629,7 @@
     "def_epa": 19,
     "def_pass_epa": 21,
     "def_rush_epa": 26,
-    "scheme_value": 26
+    "scheme_value": 25
    }
   },
   {
@@ -11685,7 +11711,7 @@
    "def_epa": 0.052,
    "def_pass_epa": 0.078,
    "def_rush_epa": 0.015,
-   "scheme_value": -0.036,
+   "scheme_value": -0.035,
    "scheme_rel": 0.58,
    "_byseason": [
     {
@@ -11905,7 +11931,7 @@
    "def_epa": 0.012,
    "def_pass_epa": 0.063,
    "def_rush_epa": -0.067,
-   "scheme_value": -0.043,
+   "scheme_value": -0.044,
    "scheme_rel": 0.59,
    "_byseason": [
     {
@@ -12400,7 +12426,7 @@
    "def_epa": -0.036,
    "def_pass_epa": -0.024,
    "def_rush_epa": -0.061,
-   "scheme_value": 0.034,
+   "scheme_value": 0.035,
    "scheme_rel": 0.6,
    "_byseason": [
     {
@@ -12510,7 +12536,7 @@
    "def_epa": -0.033,
    "def_pass_epa": -0.005,
    "def_rush_epa": -0.079,
-   "scheme_value": 0.022,
+   "scheme_value": 0.023,
    "scheme_rel": 0.3,
    "_byseason": [
     {
@@ -12593,7 +12619,7 @@
     "def_epa": 59,
     "def_pass_epa": 41,
     "def_rush_epa": 65,
-    "scheme_value": 35
+    "scheme_value": 36
    }
   },
   {
@@ -12648,7 +12674,7 @@
     "def_epa": 46,
     "def_pass_epa": 43,
     "def_rush_epa": 61,
-    "scheme_value": 17
+    "scheme_value": 18
    }
   },
   {
@@ -12730,7 +12756,7 @@
    "def_epa": 0.07,
    "def_pass_epa": 0.138,
    "def_rush_epa": -0.04,
-   "scheme_value": -0.091,
+   "scheme_value": -0.092,
    "scheme_rel": 0.56,
    "_byseason": [
     {
