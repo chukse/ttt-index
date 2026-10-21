@@ -377,7 +377,7 @@
    "rush_epa": 0.005,
    "pass_sr": 49.425,
    "rush_sr": 44.425,
-   "scheme_value": 0.102,
+   "scheme_value": 0.101,
    "scheme_rel": 0.68,
    "_byseason": [
     {
@@ -531,7 +531,7 @@
    "rush_epa": -0.044,
    "pass_sr": 47.0,
    "rush_sr": 42.425,
-   "scheme_value": 0.078,
+   "scheme_value": 0.077,
    "scheme_rel": 0.11,
    "_byseason": [
     {
@@ -686,7 +686,7 @@
    "rush_epa": -0.026,
    "pass_sr": 46.425,
    "rush_sr": 42.4,
-   "scheme_value": 0.008,
+   "scheme_value": 0.006,
    "scheme_rel": 0.72,
    "_byseason": [
     {
@@ -1114,7 +1114,7 @@
     "rush_epa": 51,
     "pass_sr": 36,
     "rush_sr": 66,
-    "scheme_value": 22
+    "scheme_value": 23
    }
   },
   {
@@ -1150,7 +1150,7 @@
    "rush_epa": -0.118,
    "pass_sr": 43.05,
    "rush_sr": 39.475,
-   "scheme_value": -0.043,
+   "scheme_value": -0.042,
    "scheme_rel": 0.78,
    "_byseason": [
     {
@@ -1268,7 +1268,7 @@
     "rush_epa": 56,
     "pass_sr": 52,
     "rush_sr": 42,
-    "scheme_value": 42
+    "scheme_value": 41
    }
   },
   {
@@ -1613,7 +1613,7 @@
    "rush_epa": -0.087,
    "pass_sr": 47.525,
    "rush_sr": 39.1,
-   "scheme_value": -0.001,
+   "scheme_value": 0.0,
    "scheme_rel": 0.12,
    "_byseason": [
     {
@@ -2540,7 +2540,7 @@
    "rush_epa": -0.027,
    "pass_sr": 47.65,
    "rush_sr": 42.525,
-   "scheme_value": 0.05,
+   "scheme_value": 0.051,
    "scheme_rel": 0.48,
    "_byseason": [
     {
@@ -2848,7 +2848,7 @@
    "rush_epa": -0.055,
    "pass_sr": 48.625,
    "rush_sr": 40.475,
-   "scheme_value": 0.035,
+   "scheme_value": 0.034,
    "scheme_rel": 0.63,
    "_byseason": [
     {
@@ -3785,7 +3785,7 @@
    "rush_epa": -0.099,
    "pass_sr": 47.0,
    "rush_sr": 38.033,
-   "scheme_value": 0.017,
+   "scheme_value": 0.019,
    "scheme_rel": 0.67,
    "_byseason": [
     {
@@ -3879,7 +3879,7 @@
     "rush_epa": 47,
     "pass_sr": 25,
     "rush_sr": 57,
-    "scheme_value": 23
+    "scheme_value": 22
    }
   },
   {
@@ -4272,7 +4272,7 @@
     "rush_epa": 48,
     "pass_sr": 31,
     "rush_sr": 50,
-    "scheme_value": 14
+    "scheme_value": 13
    }
   },
   {
@@ -4309,7 +4309,7 @@
    "rush_epa": -0.027,
    "pass_sr": 43.867,
    "rush_sr": 43.1,
-   "scheme_value": -0.067,
+   "scheme_value": -0.068,
    "scheme_rel": 0.61,
    "_byseason": [
     {
@@ -4546,7 +4546,7 @@
    "rush_epa": -0.046,
    "pass_sr": 43.25,
    "rush_sr": 40.95,
-   "scheme_value": 0.022,
+   "scheme_value": 0.021,
    "scheme_rel": 0.6,
    "_byseason": [
     {
@@ -4866,7 +4866,7 @@
    "rush_epa": 0.005,
    "pass_sr": 46.1,
    "rush_sr": 43.55,
-   "scheme_value": -0.02,
+   "scheme_value": -0.019,
    "scheme_rel": 0.06,
    "_byseason": [
     {
@@ -5184,7 +5184,7 @@
    "rush_epa": -0.112,
    "pass_sr": 53.0,
    "rush_sr": 37.55,
-   "scheme_value": 0.15,
+   "scheme_value": 0.151,
    "scheme_rel": 0.04,
    "_byseason": [
     {
@@ -6035,7 +6035,7 @@
    "rush_epa": -0.141,
    "pass_sr": 46.65,
    "rush_sr": 34.8,
-   "scheme_value": -0.026,
+   "scheme_value": -0.025,
    "scheme_rel": 0.3,
    "_byseason": [
     {
@@ -6141,7 +6141,7 @@
    "rush_epa": -0.122,
    "pass_sr": 39.15,
    "rush_sr": 38.0,
-   "scheme_value": -0.109,
+   "scheme_value": -0.11,
    "scheme_rel": 0.61,
    "_byseason": [
     {
@@ -6248,7 +6248,7 @@
    "rush_epa": -0.098,
    "pass_sr": 43.2,
    "rush_sr": 39.4,
-   "scheme_value": -0.027,
+   "scheme_value": -0.028,
    "scheme_rel": 0.61,
    "_byseason": [
     {
@@ -6650,7 +6650,7 @@
    "rush_epa": -0.121,
    "pass_sr": 39.1,
    "rush_sr": 38.6,
-   "scheme_value": -0.117,
+   "scheme_value": -0.116,
    "scheme_rel": 0.37,
    "_byseason": [
     {
@@ -6896,7 +6896,7 @@
    "rush_epa": -0.104,
    "pass_sr": 41.0,
    "rush_sr": 39.0,
-   "scheme_value": -0.086,
+   "scheme_value": -0.085,
    "scheme_rel": 0.0,
    "_byseason": [
     {
@@ -6978,7 +6978,7 @@
    "rush_epa": -0.242,
    "pass_sr": 44.7,
    "rush_sr": 35.9,
-   "scheme_value": -0.041,
+   "scheme_value": -0.04,
    "scheme_rel": 0.11,
    "_byseason": [
     {
@@ -7024,7 +7024,7 @@
     "rush_epa": 74,
     "pass_sr": 39,
     "rush_sr": 68,
-    "scheme_value": 40
+    "scheme_value": 39
    }
   },
   {
@@ -7060,7 +7060,7 @@
    "rush_epa": -0.001,
    "pass_sr": 46.9,
    "rush_sr": 44.6,
-   "scheme_value": 0.042,
+   "scheme_value": 0.043,
    "scheme_rel": 0.07,
    "_byseason": [
     {
@@ -7634,7 +7634,7 @@
    "rush_epa": -0.049,
    "pass_sr": 48.4,
    "rush_sr": 40.6,
-   "scheme_value": 0.036,
+   "scheme_value": 0.034,
    "scheme_rel": 0.01,
    "_byseason": [
     {
@@ -7680,7 +7680,7 @@
     "rush_epa": 33,
     "pass_sr": 15,
     "rush_sr": 37,
-    "scheme_value": 13
+    "scheme_value": 14
    }
   },
   {
@@ -7798,7 +7798,7 @@
    "rush_epa": -0.039,
    "pass_sr": 44.5,
    "rush_sr": 41.2,
-   "scheme_value": -0.03,
+   "scheme_value": -0.031,
    "scheme_rel": 0.1,
    "_byseason": [
     {
@@ -8008,7 +8008,7 @@
     "rush_epa": 61,
     "pass_sr": 48,
     "rush_sr": 65,
-    "scheme_value": 41
+    "scheme_value": 42
    }
   },
   {
@@ -8172,7 +8172,7 @@
     "rush_epa": 42,
     "pass_sr": 40,
     "rush_sr": 56,
-    "scheme_value": 39
+    "scheme_value": 40
    }
   },
   {
@@ -8290,7 +8290,7 @@
    "rush_epa": -0.108,
    "pass_sr": 46.2,
    "rush_sr": 39.4,
-   "scheme_value": -0.027,
+   "scheme_value": -0.028,
    "scheme_rel": 0.05,
    "_byseason": [
     {
@@ -8372,7 +8372,7 @@
    "rush_epa": -0.195,
    "pass_sr": 37.7,
    "rush_sr": 34.2,
-   "scheme_value": -0.059,
+   "scheme_value": -0.058,
    "scheme_rel": 0.11,
    "_byseason": [
     {
@@ -8454,7 +8454,7 @@
    "rush_epa": -0.103,
    "pass_sr": 40.1,
    "rush_sr": 41.7,
-   "scheme_value": -0.152,
+   "scheme_value": -0.151,
    "scheme_rel": 0.45,
    "_byseason": [
     {
@@ -8771,7 +8771,7 @@
     "nickel_plus": 35,
     "def_epa": 2,
     "def_pass_epa": 3,
-    "def_rush_epa": 7,
+    "def_rush_epa": 8,
     "scheme_value": 3
    }
   },
@@ -8800,7 +8800,7 @@
    "def_epa": 0.06,
    "def_pass_epa": 0.085,
    "def_rush_epa": 0.026,
-   "scheme_value": -0.047,
+   "scheme_value": -0.046,
    "scheme_rel": 0.8,
    "_byseason": [
     {
@@ -8876,9 +8876,9 @@
     "light_box_rate": 8,
     "nickel_plus": 33,
     "def_epa": 52,
-    "def_pass_epa": 49,
+    "def_pass_epa": 48,
     "def_rush_epa": 64,
-    "scheme_value": 48
+    "scheme_value": 47
    }
   },
   {
@@ -9090,9 +9090,9 @@
     "light_box_rate": 31,
     "nickel_plus": 17,
     "def_epa": 46,
-    "def_pass_epa": 45,
+    "def_pass_epa": 44,
     "def_rush_epa": 56,
-    "scheme_value": 50
+    "scheme_value": 49
    }
   },
   {
@@ -9197,7 +9197,7 @@
     "nickel_plus": 20,
     "def_epa": 9,
     "def_pass_epa": 17,
-    "def_rush_epa": 5,
+    "def_rush_epa": 6,
     "scheme_value": 7
    }
   },
@@ -9304,7 +9304,7 @@
     "nickel_plus": 8,
     "def_epa": 3,
     "def_pass_epa": 4,
-    "def_rush_epa": 9,
+    "def_rush_epa": 10,
     "scheme_value": 1
    }
   },
@@ -9411,7 +9411,7 @@
     "def_epa": 59,
     "def_pass_epa": 61,
     "def_rush_epa": 46,
-    "scheme_value": 54
+    "scheme_value": 53
    }
   },
   {
@@ -9440,7 +9440,7 @@
    "def_epa": -0.019,
    "def_pass_epa": 0.028,
    "def_rush_epa": -0.087,
-   "scheme_value": 0.004,
+   "scheme_value": 0.005,
    "scheme_rel": 0.82,
    "_byseason": [
     {
@@ -9516,9 +9516,9 @@
     "light_box_rate": 34,
     "nickel_plus": 49,
     "def_epa": 29,
-    "def_pass_epa": 33,
-    "def_rush_epa": 21,
-    "scheme_value": 31
+    "def_pass_epa": 32,
+    "def_rush_epa": 22,
+    "scheme_value": 29
    }
   },
   {
@@ -9546,7 +9546,7 @@
    "def_epa": -0.049,
    "def_pass_epa": -0.027,
    "def_rush_epa": -0.087,
-   "scheme_value": 0.043,
+   "scheme_value": 0.044,
    "scheme_rel": 0.81,
    "_byseason": [
     {
@@ -9623,7 +9623,7 @@
     "nickel_plus": 32,
     "def_epa": 15,
     "def_pass_epa": 13,
-    "def_rush_epa": 22,
+    "def_rush_epa": 23,
     "scheme_value": 11
    }
   },
@@ -9728,9 +9728,9 @@
     "light_box_rate": 49,
     "nickel_plus": 51,
     "def_epa": 26,
-    "def_pass_epa": 36,
-    "def_rush_epa": 6,
-    "scheme_value": 47
+    "def_pass_epa": 35,
+    "def_rush_epa": 7,
+    "scheme_value": 46
    }
   },
   {
@@ -9835,7 +9835,7 @@
     "nickel_plus": 41,
     "def_epa": 12,
     "def_pass_epa": 10,
-    "def_rush_epa": 24,
+    "def_rush_epa": 25,
     "scheme_value": 12
    }
   },
@@ -9941,9 +9941,100 @@
     "light_box_rate": 5,
     "nickel_plus": 16,
     "def_epa": 21,
-    "def_pass_epa": 22,
-    "def_rush_epa": 23,
+    "def_pass_epa": 21,
+    "def_rush_epa": 24,
     "scheme_value": 4
+   }
+  },
+  {
+   "coach": "Aaron Glenn",
+   "team": "NYJ",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "DET",
+    "NYJ"
+   ],
+   "role": "HC",
+   "called_latest": true,
+   "ever_called": true,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "NYJ",
+   "cur_role": "HC",
+   "creativity": 54.667,
+   "blitz_rate": 32.65,
+   "man_rate": 50.9,
+   "box": 6.115,
+   "light_box_rate": 69.1,
+   "nickel_plus": 71.4,
+   "def_epa": -0.047,
+   "def_pass_epa": 0.011,
+   "def_rush_epa": -0.14,
+   "scheme_value": 0.028,
+   "scheme_rel": 0.77,
+   "_byseason": [
+    {
+     "season": 2023,
+     "team": "DET",
+     "role": "DC",
+     "called": true,
+     "caller": null,
+     "creativity": 56.0,
+     "blitz_rate": 28.2,
+     "man_rate": 41.1,
+     "box": 6.08,
+     "light_box_rate": 69.4,
+     "nickel_plus": 77.0,
+     "def_epa": -0.029,
+     "def_pass_epa": 0.045,
+     "def_rush_epa": -0.162
+    },
+    {
+     "season": 2024,
+     "team": "DET",
+     "role": "DC",
+     "called": true,
+     "caller": null,
+     "creativity": 55.0,
+     "blitz_rate": 37.1,
+     "man_rate": 60.7,
+     "box": 6.15,
+     "light_box_rate": 68.8,
+     "nickel_plus": 65.8,
+     "def_epa": -0.062,
+     "def_pass_epa": -0.05,
+     "def_rush_epa": -0.087
+    },
+    {
+     "season": 2026,
+     "team": "NYJ",
+     "role": "HC",
+     "called": true,
+     "caller": null,
+     "creativity": 53.0,
+     "blitz_rate": null,
+     "man_rate": null,
+     "box": null,
+     "light_box_rate": null,
+     "nickel_plus": null,
+     "def_epa": -0.049,
+     "def_pass_epa": 0.037,
+     "def_rush_epa": -0.171
+    }
+   ],
+   "ranks": {
+    "creativity": 12,
+    "blitz_rate": 5,
+    "man_rate": 10,
+    "box": 6,
+    "light_box_rate": 51,
+    "nickel_plus": 55,
+    "def_epa": 16,
+    "def_pass_epa": 25,
+    "def_rush_epa": 5,
+    "scheme_value": 21
    }
   },
   {
@@ -10062,7 +10153,7 @@
    "def_epa": 0.011,
    "def_pass_epa": 0.055,
    "def_rush_epa": -0.054,
-   "scheme_value": -0.029,
+   "scheme_value": -0.028,
    "scheme_rel": 0.72,
    "_byseason": [
     {
@@ -10121,10 +10212,10 @@
     "box": 41,
     "light_box_rate": 20,
     "nickel_plus": 37,
-    "def_epa": 41,
-    "def_pass_epa": 39,
+    "def_epa": 40,
+    "def_pass_epa": 38,
     "def_rush_epa": 41,
-    "scheme_value": 42
+    "scheme_value": 40
    }
   },
   {
@@ -10303,9 +10394,9 @@
     "light_box_rate": 17,
     "nickel_plus": 28,
     "def_epa": 50,
-    "def_pass_epa": 51,
+    "def_pass_epa": 50,
     "def_rush_epa": 52,
-    "scheme_value": 55
+    "scheme_value": 54
    }
   },
   {
@@ -10393,10 +10484,101 @@
     "box": 55,
     "light_box_rate": 3,
     "nickel_plus": 42,
-    "def_epa": 40,
-    "def_pass_epa": 50,
+    "def_epa": 39,
+    "def_pass_epa": 49,
+    "def_rush_epa": 20,
+    "scheme_value": 48
+   }
+  },
+  {
+   "coach": "Jeff Hafley",
+   "team": "MIA",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "GB",
+    "MIA"
+   ],
+   "role": "HC",
+   "called_latest": true,
+   "ever_called": true,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "MIA",
+   "cur_role": "HC",
+   "creativity": 43.667,
+   "blitz_rate": 19.8,
+   "man_rate": 25.95,
+   "box": 5.935,
+   "light_box_rate": 80.45,
+   "nickel_plus": 76.55,
+   "def_epa": 0.025,
+   "def_pass_epa": 0.119,
+   "def_rush_epa": -0.095,
+   "scheme_value": -0.043,
+   "scheme_rel": 0.75,
+   "_byseason": [
+    {
+     "season": 2024,
+     "team": "GB",
+     "role": "DC",
+     "called": true,
+     "caller": null,
+     "creativity": 47.0,
+     "blitz_rate": 18.7,
+     "man_rate": 32.1,
+     "box": 5.88,
+     "light_box_rate": 81.3,
+     "nickel_plus": 77.9,
+     "def_epa": -0.067,
+     "def_pass_epa": -0.036,
+     "def_rush_epa": -0.119
+    },
+    {
+     "season": 2025,
+     "team": "GB",
+     "role": "DC",
+     "called": true,
+     "caller": null,
+     "creativity": 41.0,
+     "blitz_rate": 20.9,
+     "man_rate": 19.8,
+     "box": 5.99,
+     "light_box_rate": 79.6,
+     "nickel_plus": 75.2,
+     "def_epa": 0.033,
+     "def_pass_epa": 0.089,
+     "def_rush_epa": -0.044
+    },
+    {
+     "season": 2026,
+     "team": "MIA",
+     "role": "HC",
+     "called": true,
+     "caller": null,
+     "creativity": 43.0,
+     "blitz_rate": null,
+     "man_rate": null,
+     "box": null,
+     "light_box_rate": null,
+     "nickel_plus": null,
+     "def_epa": 0.108,
+     "def_pass_epa": 0.304,
+     "def_rush_epa": -0.123
+    }
+   ],
+   "ranks": {
+    "creativity": 49,
+    "blitz_rate": 50,
+    "man_rate": 51,
+    "box": 29,
+    "light_box_rate": 22,
+    "nickel_plus": 50,
+    "def_epa": 42,
+    "def_pass_epa": 51,
     "def_rush_epa": 19,
-    "scheme_value": 49
+    "scheme_value": 45
    }
   },
   {
@@ -10515,7 +10697,7 @@
    "def_epa": -0.088,
    "def_pass_epa": -0.083,
    "def_rush_epa": -0.091,
-   "scheme_value": 0.108,
+   "scheme_value": 0.109,
    "scheme_rel": 0.79,
    "_byseason": [
     {
@@ -10576,7 +10758,7 @@
     "nickel_plus": 38,
     "def_epa": 5,
     "def_pass_epa": 5,
-    "def_rush_epa": 20,
+    "def_rush_epa": 21,
     "scheme_value": 2
    }
   },
@@ -10665,83 +10847,9 @@
     "light_box_rate": 35,
     "nickel_plus": 54,
     "def_epa": 27,
-    "def_pass_epa": 24,
+    "def_pass_epa": 23,
     "def_rush_epa": 34,
     "scheme_value": 19
-   }
-  },
-  {
-   "coach": "Aaron Glenn",
-   "team": "DET",
-   "latest_season": 2024,
-   "seasons": 2,
-   "teams": [
-    "DET"
-   ],
-   "role": "DC",
-   "called_latest": true,
-   "ever_called": true,
-   "as_hc": false,
-   "last_season": 2024,
-   "status": "team",
-   "cur_team": "NYJ",
-   "cur_role": "HC",
-   "creativity": 55.5,
-   "blitz_rate": 32.65,
-   "man_rate": 50.9,
-   "box": 6.115,
-   "light_box_rate": 69.1,
-   "nickel_plus": 71.4,
-   "def_epa": -0.045,
-   "def_pass_epa": -0.003,
-   "def_rush_epa": -0.124,
-   "scheme_value": 0.029,
-   "scheme_rel": 0.74,
-   "_byseason": [
-    {
-     "season": 2023,
-     "team": "DET",
-     "role": "DC",
-     "called": true,
-     "caller": null,
-     "creativity": 56.0,
-     "blitz_rate": 28.2,
-     "man_rate": 41.1,
-     "box": 6.08,
-     "light_box_rate": 69.4,
-     "nickel_plus": 77.0,
-     "def_epa": -0.029,
-     "def_pass_epa": 0.045,
-     "def_rush_epa": -0.162
-    },
-    {
-     "season": 2024,
-     "team": "DET",
-     "role": "DC",
-     "called": true,
-     "caller": null,
-     "creativity": 55.0,
-     "blitz_rate": 37.1,
-     "man_rate": 60.7,
-     "box": 6.15,
-     "light_box_rate": 68.8,
-     "nickel_plus": 65.8,
-     "def_epa": -0.062,
-     "def_pass_epa": -0.05,
-     "def_rush_epa": -0.087
-    }
-   ],
-   "ranks": {
-    "creativity": 12,
-    "blitz_rate": 5,
-    "man_rate": 10,
-    "box": 6,
-    "light_box_rate": 51,
-    "nickel_plus": 55,
-    "def_epa": 17,
-    "def_pass_epa": 20,
-    "def_rush_epa": 10,
-    "scheme_value": 20
    }
   },
   {
@@ -10813,9 +10921,9 @@
     "light_box_rate": 26,
     "nickel_plus": 39,
     "def_epa": 49,
-    "def_pass_epa": 47,
+    "def_pass_epa": 46,
     "def_rush_epa": 60,
-    "scheme_value": 56
+    "scheme_value": 55
    }
   },
   {
@@ -10888,7 +10996,7 @@
     "nickel_plus": 53,
     "def_epa": 8,
     "def_pass_epa": 9,
-    "def_rush_epa": 8,
+    "def_rush_epa": 9,
     "scheme_value": 10
    }
   },
@@ -10960,8 +11068,8 @@
     "box": 45,
     "light_box_rate": 13,
     "nickel_plus": 5,
-    "def_epa": 33,
-    "def_pass_epa": 23,
+    "def_epa": 32,
+    "def_pass_epa": 22,
     "def_rush_epa": 47,
     "scheme_value": 14
    }
@@ -11034,10 +11142,10 @@
     "box": 3,
     "light_box_rate": 45,
     "nickel_plus": 48,
-    "def_epa": 37,
-    "def_pass_epa": 37,
+    "def_epa": 36,
+    "def_pass_epa": 36,
     "def_rush_epa": 44,
-    "scheme_value": 29
+    "scheme_value": 30
    }
   },
   {
@@ -11108,84 +11216,10 @@
     "box": 26,
     "light_box_rate": 32,
     "nickel_plus": 9,
-    "def_epa": 35,
+    "def_epa": 34,
     "def_pass_epa": 28,
     "def_rush_epa": 50,
     "scheme_value": 17
-   }
-  },
-  {
-   "coach": "Jeff Hafley",
-   "team": "GB",
-   "latest_season": 2025,
-   "seasons": 2,
-   "teams": [
-    "GB"
-   ],
-   "role": "DC",
-   "called_latest": true,
-   "ever_called": true,
-   "as_hc": false,
-   "last_season": 2025,
-   "status": "team",
-   "cur_team": "MIA",
-   "cur_role": "HC",
-   "creativity": 44.0,
-   "blitz_rate": 19.8,
-   "man_rate": 25.95,
-   "box": 5.935,
-   "light_box_rate": 80.45,
-   "nickel_plus": 76.55,
-   "def_epa": -0.017,
-   "def_pass_epa": 0.026,
-   "def_rush_epa": -0.081,
-   "scheme_value": -0.02,
-   "scheme_rel": 0.73,
-   "_byseason": [
-    {
-     "season": 2024,
-     "team": "GB",
-     "role": "DC",
-     "called": true,
-     "caller": null,
-     "creativity": 47.0,
-     "blitz_rate": 18.7,
-     "man_rate": 32.1,
-     "box": 5.88,
-     "light_box_rate": 81.3,
-     "nickel_plus": 77.9,
-     "def_epa": -0.067,
-     "def_pass_epa": -0.036,
-     "def_rush_epa": -0.119
-    },
-    {
-     "season": 2025,
-     "team": "GB",
-     "role": "DC",
-     "called": true,
-     "caller": null,
-     "creativity": 41.0,
-     "blitz_rate": 20.9,
-     "man_rate": 19.8,
-     "box": 5.99,
-     "light_box_rate": 79.6,
-     "nickel_plus": 75.2,
-     "def_epa": 0.033,
-     "def_pass_epa": 0.089,
-     "def_rush_epa": -0.044
-    }
-   ],
-   "ranks": {
-    "creativity": 48,
-    "blitz_rate": 50,
-    "man_rate": 51,
-    "box": 29,
-    "light_box_rate": 22,
-    "nickel_plus": 50,
-    "def_epa": 31,
-    "def_pass_epa": 32,
-    "def_rush_epa": 26,
-    "scheme_value": 39
    }
   },
   {
@@ -11259,7 +11293,7 @@
     "def_epa": 58,
     "def_pass_epa": 56,
     "def_rush_epa": 59,
-    "scheme_value": 58
+    "scheme_value": 57
    }
   },
   {
@@ -11287,7 +11321,7 @@
    "def_epa": -0.028,
    "def_pass_epa": -0.014,
    "def_rush_epa": -0.051,
-   "scheme_value": 0.023,
+   "scheme_value": 0.024,
    "scheme_rel": 0.73,
    "_byseason": [
     {
@@ -11407,7 +11441,7 @@
     "def_epa": 57,
     "def_pass_epa": 52,
     "def_rush_epa": 51,
-    "scheme_value": 35
+    "scheme_value": 34
    }
   },
   {
@@ -11436,7 +11470,7 @@
    "def_epa": -0.033,
    "def_pass_epa": 0.013,
    "def_rush_epa": -0.112,
-   "scheme_value": 0.034,
+   "scheme_value": 0.035,
    "scheme_rel": 0.67,
    "_byseason": [
     {
@@ -11482,7 +11516,7 @@
     "def_epa": 23,
     "def_pass_epa": 27,
     "def_rush_epa": 16,
-    "scheme_value": 16
+    "scheme_value": 15
    }
   },
   {
@@ -11557,7 +11591,7 @@
     "def_epa": 44,
     "def_pass_epa": 54,
     "def_rush_epa": 17,
-    "scheme_value": 57
+    "scheme_value": 56
    }
   },
   {
@@ -11623,7 +11657,7 @@
     }
    ],
    "ranks": {
-    "creativity": 49,
+    "creativity": 48,
     "blitz_rate": 28,
     "man_rate": 21,
     "box": 40,
@@ -11631,8 +11665,8 @@
     "nickel_plus": 30,
     "def_epa": 45,
     "def_pass_epa": 53,
-    "def_rush_epa": 25,
-    "scheme_value": 60
+    "def_rush_epa": 26,
+    "scheme_value": 59
    }
   },
   {
@@ -11703,10 +11737,10 @@
     "box": 30,
     "light_box_rate": 21,
     "nickel_plus": 3,
-    "def_epa": 34,
-    "def_pass_epa": 35,
+    "def_epa": 33,
+    "def_pass_epa": 34,
     "def_rush_epa": 13,
-    "scheme_value": 41
+    "scheme_value": 39
    }
   },
   {
@@ -11822,7 +11856,7 @@
     "def_epa": 18,
     "def_pass_epa": 26,
     "def_rush_epa": 4,
-    "scheme_value": 37
+    "scheme_value": 36
    }
   },
   {
@@ -11880,7 +11914,7 @@
     "def_epa": 13,
     "def_pass_epa": 30,
     "def_rush_epa": 2,
-    "scheme_value": 38
+    "scheme_value": 37
    }
   },
   {
@@ -11892,8 +11926,8 @@
     "NYJ"
    ],
    "role": "DC",
-   "called_latest": true,
-   "ever_called": true,
+   "called_latest": false,
+   "ever_called": false,
    "as_hc": false,
    "last_season": 2026,
    "status": "team",
@@ -11908,15 +11942,15 @@
    "def_epa": -0.049,
    "def_pass_epa": 0.037,
    "def_rush_epa": -0.171,
-   "scheme_value": 0.004,
-   "scheme_rel": 0.3,
+   "scheme_value": null,
+   "scheme_rel": null,
    "_byseason": [
     {
      "season": 2026,
      "team": "NYJ",
      "role": "DC",
-     "called": true,
-     "caller": null,
+     "called": false,
+     "caller": "Aaron Glenn",
      "creativity": 53.0,
      "blitz_rate": null,
      "man_rate": null,
@@ -11936,9 +11970,9 @@
     "light_box_rate": null,
     "nickel_plus": null,
     "def_epa": 14,
-    "def_pass_epa": 34,
+    "def_pass_epa": 33,
     "def_rush_epa": 1,
-    "scheme_value": 30
+    "scheme_value": null
    }
   },
   {
@@ -11994,9 +12028,9 @@
     "light_box_rate": 40,
     "nickel_plus": 31,
     "def_epa": 62,
-    "def_pass_epa": 41,
+    "def_pass_epa": 40,
     "def_rush_epa": 67,
-    "scheme_value": 21
+    "scheme_value": 20
    }
   },
   {
@@ -12054,7 +12088,7 @@
     "def_epa": 65,
     "def_pass_epa": 65,
     "def_rush_epa": 54,
-    "scheme_value": 64
+    "scheme_value": 62
    }
   },
   {
@@ -12082,7 +12116,7 @@
    "def_epa": -0.036,
    "def_pass_epa": -0.003,
    "def_rush_epa": -0.074,
-   "scheme_value": 0.016,
+   "scheme_value": 0.017,
    "scheme_rel": 0.26,
    "_byseason": [
     {
@@ -12110,7 +12144,7 @@
     "light_box_rate": null,
     "nickel_plus": null,
     "def_epa": 19,
-    "def_pass_epa": 21,
+    "def_pass_epa": 20,
     "def_rush_epa": 28,
     "scheme_value": 25
    }
@@ -12140,7 +12174,7 @@
    "def_epa": 0.164,
    "def_pass_epa": 0.342,
    "def_rush_epa": -0.057,
-   "scheme_value": -0.145,
+   "scheme_value": -0.144,
    "scheme_rel": 0.26,
    "_byseason": [
     {
@@ -12170,7 +12204,7 @@
     "def_epa": 66,
     "def_pass_epa": 67,
     "def_rush_epa": 39,
-    "scheme_value": 65
+    "scheme_value": 63
    }
   },
   {
@@ -12226,9 +12260,9 @@
     "light_box_rate": 33,
     "nickel_plus": 6,
     "def_epa": 51,
-    "def_pass_epa": 48,
+    "def_pass_epa": 47,
     "def_rush_epa": 63,
-    "scheme_value": 43
+    "scheme_value": 42
    }
   },
   {
@@ -12344,7 +12378,7 @@
     "def_epa": 54,
     "def_pass_epa": 58,
     "def_rush_epa": 32,
-    "scheme_value": 34
+    "scheme_value": 33
    }
   },
   {
@@ -12372,7 +12406,7 @@
    "def_epa": 0.07,
    "def_pass_epa": 0.15,
    "def_rush_epa": -0.032,
-   "scheme_value": -0.107,
+   "scheme_value": -0.106,
    "scheme_rel": 0.55,
    "_byseason": [
     {
@@ -12402,7 +12436,7 @@
     "def_epa": 55,
     "def_pass_epa": 60,
     "def_rush_epa": 53,
-    "scheme_value": 62
+    "scheme_value": 60
    }
   },
   {
@@ -12457,10 +12491,10 @@
     "box": null,
     "light_box_rate": null,
     "nickel_plus": null,
-    "def_epa": 36,
-    "def_pass_epa": 40,
+    "def_epa": 35,
+    "def_pass_epa": 39,
     "def_rush_epa": 14,
-    "scheme_value": 32
+    "scheme_value": 31
    }
   },
   {
@@ -12488,7 +12522,7 @@
    "def_epa": 0.012,
    "def_pass_epa": 0.063,
    "def_rush_epa": -0.067,
-   "scheme_value": -0.044,
+   "scheme_value": -0.043,
    "scheme_rel": 0.59,
    "_byseason": [
     {
@@ -12515,10 +12549,10 @@
     "box": 53,
     "light_box_rate": 2,
     "nickel_plus": 19,
-    "def_epa": 42,
-    "def_pass_epa": 43,
+    "def_epa": 41,
+    "def_pass_epa": 42,
     "def_rush_epa": 31,
-    "scheme_value": 46
+    "scheme_value": 44
    }
   },
   {
@@ -12604,7 +12638,7 @@
    "def_epa": 0.006,
    "def_pass_epa": 0.016,
    "def_rush_epa": -0.007,
-   "scheme_value": -0.006,
+   "scheme_value": -0.005,
    "scheme_rel": 0.54,
    "_byseason": [
     {
@@ -12631,10 +12665,10 @@
     "box": 54,
     "light_box_rate": 4,
     "nickel_plus": 12,
-    "def_epa": 38,
+    "def_epa": 37,
     "def_pass_epa": 29,
     "def_rush_epa": 58,
-    "scheme_value": 33
+    "scheme_value": 32
    }
   },
   {
@@ -12662,7 +12696,7 @@
    "def_epa": 0.085,
    "def_pass_epa": 0.181,
    "def_rush_epa": -0.058,
-   "scheme_value": -0.131,
+   "scheme_value": -0.13,
    "scheme_rel": 0.58,
    "_byseason": [
     {
@@ -12692,7 +12726,7 @@
     "def_epa": 61,
     "def_pass_epa": 62,
     "def_rush_epa": 38,
-    "scheme_value": 63
+    "scheme_value": 61
    }
   },
   {
@@ -12720,7 +12754,7 @@
    "def_epa": 0.128,
    "def_pass_epa": 0.234,
    "def_rush_epa": -0.063,
-   "scheme_value": -0.035,
+   "scheme_value": -0.034,
    "scheme_rel": 0.33,
    "_byseason": [
     {
@@ -12750,7 +12784,7 @@
     "def_epa": 64,
     "def_pass_epa": 63,
     "def_rush_epa": 35,
-    "scheme_value": 44
+    "scheme_value": 41
    }
   },
   {
@@ -12808,7 +12842,7 @@
     "def_epa": 53,
     "def_pass_epa": 55,
     "def_rush_epa": 43,
-    "scheme_value": 53
+    "scheme_value": 52
    }
   },
   {
@@ -12836,7 +12870,7 @@
    "def_epa": 0.008,
    "def_pass_epa": 0.053,
    "def_rush_epa": -0.055,
-   "scheme_value": -0.051,
+   "scheme_value": -0.05,
    "scheme_rel": 0.55,
    "_byseason": [
     {
@@ -12863,10 +12897,10 @@
     "box": 51,
     "light_box_rate": 12,
     "nickel_plus": 24,
-    "def_epa": 39,
-    "def_pass_epa": 38,
+    "def_epa": 38,
+    "def_pass_epa": 37,
     "def_rush_epa": 40,
-    "scheme_value": 52
+    "scheme_value": 50
    }
   },
   {
@@ -12894,7 +12928,7 @@
    "def_epa": -0.056,
    "def_pass_epa": -0.076,
    "def_rush_epa": -0.023,
-   "scheme_value": 0.049,
+   "scheme_value": 0.05,
    "scheme_rel": 0.3,
    "_byseason": [
     {
@@ -12982,7 +13016,7 @@
     "def_epa": 67,
     "def_pass_epa": 64,
     "def_rush_epa": 65,
-    "scheme_value": 66
+    "scheme_value": 64
    }
   },
   {
@@ -13126,7 +13160,7 @@
    "def_epa": 0.083,
    "def_pass_epa": 0.06,
    "def_rush_epa": 0.114,
-   "scheme_value": -0.014,
+   "scheme_value": -0.013,
    "scheme_rel": 0.56,
    "_byseason": [
     {
@@ -13154,9 +13188,9 @@
     "light_box_rate": 24,
     "nickel_plus": 15,
     "def_epa": 60,
-    "def_pass_epa": 42,
+    "def_pass_epa": 41,
     "def_rush_epa": 66,
-    "scheme_value": 36
+    "scheme_value": 35
    }
   },
   {
@@ -13212,9 +13246,9 @@
     "light_box_rate": 44,
     "nickel_plus": 34,
     "def_epa": 47,
-    "def_pass_epa": 44,
+    "def_pass_epa": 43,
     "def_rush_epa": 62,
-    "scheme_value": 15
+    "scheme_value": 16
    }
   },
   {
@@ -13330,7 +13364,7 @@
     "def_epa": 56,
     "def_pass_epa": 59,
     "def_rush_epa": 49,
-    "scheme_value": 59
+    "scheme_value": 58
    }
   },
   {
@@ -13386,9 +13420,9 @@
     "light_box_rate": 23,
     "nickel_plus": 14,
     "def_epa": 48,
-    "def_pass_epa": 46,
+    "def_pass_epa": 45,
     "def_rush_epa": 61,
-    "scheme_value": 45
+    "scheme_value": 43
    }
   },
   {
@@ -13400,8 +13434,8 @@
     "MIA"
    ],
    "role": "DC",
-   "called_latest": true,
-   "ever_called": true,
+   "called_latest": false,
+   "ever_called": false,
    "as_hc": false,
    "last_season": 2026,
    "status": "team",
@@ -13416,15 +13450,15 @@
    "def_epa": 0.108,
    "def_pass_epa": 0.304,
    "def_rush_epa": -0.123,
-   "scheme_value": -0.106,
-   "scheme_rel": 0.21,
+   "scheme_value": null,
+   "scheme_rel": null,
    "_byseason": [
     {
      "season": 2026,
      "team": "MIA",
      "role": "DC",
-     "called": true,
-     "caller": null,
+     "called": false,
+     "caller": "Jeff Hafley",
      "creativity": 43.0,
      "blitz_rate": null,
      "man_rate": null,
@@ -13446,7 +13480,7 @@
     "def_epa": 63,
     "def_pass_epa": 66,
     "def_rush_epa": 11,
-    "scheme_value": 61
+    "scheme_value": null
    }
   },
   {
@@ -13474,7 +13508,7 @@
    "def_epa": -0.082,
    "def_pass_epa": -0.1,
    "def_rush_epa": -0.042,
-   "scheme_value": 0.061,
+   "scheme_value": 0.062,
    "scheme_rel": 0.61,
    "_byseason": [
     {
@@ -13559,10 +13593,10 @@
     "box": 21,
     "light_box_rate": 28,
     "nickel_plus": 27,
-    "def_epa": 16,
+    "def_epa": 17,
     "def_pass_epa": 11,
     "def_rush_epa": 36,
-    "scheme_value": 40
+    "scheme_value": 38
    }
   },
   {
@@ -13590,7 +13624,7 @@
    "def_epa": -0.014,
    "def_pass_epa": 0.007,
    "def_rush_epa": -0.048,
-   "scheme_value": 0.009,
+   "scheme_value": 0.01,
    "scheme_rel": 0.29,
    "_byseason": [
     {
@@ -13617,8 +13651,8 @@
     "box": null,
     "light_box_rate": null,
     "nickel_plus": null,
-    "def_epa": 32,
-    "def_pass_epa": 25,
+    "def_epa": 31,
+    "def_pass_epa": 24,
     "def_rush_epa": 45,
     "scheme_value": 28
    }
