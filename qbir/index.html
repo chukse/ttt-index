@@ -42,6 +42,8 @@ a{color:inherit; text-decoration:none}
 .topin nav a{font-size:12px; font-weight:600; letter-spacing:.03em; text-transform:uppercase; color:var(--faint); padding:5px 10px; transition:color .13s}
 .topin nav a:hover{color:var(--ink)} .topin nav a.on{color:var(--gold)}
 .topin nav a.soon{cursor:default} .topin nav a.soon::after{content:" soon"; font-size:.8em; opacity:.55}
+#yearsel{font-family:var(--mono); font-size:12.5px; font-weight:600; color:var(--ink); background:var(--card,#141629); border:1px solid var(--line2); border-radius:7px; padding:5px 10px; margin-left:12px; cursor:pointer; vertical-align:middle}
+#yearsel:hover{border-color:var(--gold,#C9A227)}
 
 /* context line */
 .ctx{max-width:1320px; margin:0 auto; padding:13px 20px 11px; display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 16px}
@@ -191,7 +193,14 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 </header>
 
 <div class="ctx">
-  <h1>2026 Quarterbacks</h1>
+  <h1 id="boardh1">2026 Quarterbacks</h1>
+  <select id="yearsel" title="Season" aria-label="Season">
+    <option value="2026">2026 · in-season</option>
+    <option value="2025">2025</option>
+    <option value="2024">2024</option>
+    <option value="2023">2023</option>
+    <option value="2022">2022</option>
+  </select>
   <span class="d" id="ctxd"></span>
   <a class="mlink" href="#method">How it's built ↓</a>
   <button class="xbtn" id="exportBtn" title="Download the full board as CSV">Export CSV</button>
@@ -261,9 +270,20 @@ function relLabel(r){return r>=.45?'solid':r>=.33?'fair':'small'}
 function rkClass(r){return r<=5?'r-top':r<=12?'r-good':r>=23?'r-low':'r-mid'}
 function val(q,c){return c.t==='f'?q.factors[c.id]:q.stats[c.id]}
 
-fetch('data/qbir.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;prep();computeRanks();render()}).catch(()=>{
-  document.getElementById('tbody').innerHTML='<tr><td colspan="16" style="padding:46px;text-align:center"><div style="font-family:var(--disp);font-weight:700;font-size:20px;text-transform:uppercase;color:var(--ink)">The board is off the air</div><div style="margin-top:6px;font-size:13px;color:var(--dim)">Couldn’t load the ratings — refresh in a moment.</div></td></tr>';
-});
+function loadSeason(year){
+  // 2026 = live board (data/qbir.json); past seasons = backfilled data/qbir_<year>.json
+  const path = (year==='2026') ? 'data/qbir.json' : 'data/qbir_'+year+'.json';
+  fetch(path+'?t='+Date.now()).then(r=>r.json()).then(d=>{
+    DATA=d;
+    document.getElementById('boardh1').textContent=(d.meta.season)+' Quarterbacks';
+    document.title=d.meta.season+' QBIR · Throw in the Towel';
+    prep();computeRanks();render();
+  }).catch(()=>{
+    document.getElementById('tbody').innerHTML='<tr><td colspan="16" style="padding:46px;text-align:center"><div style="font-family:var(--disp);font-weight:700;font-size:20px;text-transform:uppercase;color:var(--ink)">The board is off the air</div><div style="margin-top:6px;font-size:13px;color:var(--dim)">Couldn’t load the ratings — refresh in a moment.</div></td></tr>';
+  });
+}
+document.getElementById('yearsel').addEventListener('change',e=>loadSeason(e.target.value));
+loadSeason('2026');
 
 // VALUE = situation-stripped expected points of offense per game vs an average starter
 // (isolated EPA/dropback × dropbacks/game) — the single situation-stripped value number.

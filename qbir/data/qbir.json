@@ -24,7 +24,7 @@
    "grade": 95.6,
    "qbir": 70.6,
    "reliability": 0.31,
-   "prev_rank": 2,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.139,
     "rank": 1,
@@ -65,7 +65,7 @@
    "grade": 92.9,
    "qbir": 67.9,
    "reliability": 0.32,
-   "prev_rank": 1,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.091,
     "rank": 3,
@@ -106,7 +106,7 @@
    "grade": 89.3,
    "qbir": 64.3,
    "reliability": 0.2,
-   "prev_rank": 4,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.044,
     "rank": 9,
@@ -147,7 +147,7 @@
    "grade": 88.3,
    "qbir": 63.3,
    "reliability": 0.33,
-   "prev_rank": 5,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.029,
     "rank": 23,
@@ -188,7 +188,7 @@
    "grade": 87.5,
    "qbir": 62.5,
    "reliability": 0.33,
-   "prev_rank": 3,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.034,
     "rank": 10,
@@ -229,7 +229,7 @@
    "grade": 85.4,
    "qbir": 60.4,
    "reliability": 0.36,
-   "prev_rank": 7,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.055,
     "rank": 27,
@@ -270,7 +270,7 @@
    "grade": 83.1,
    "qbir": 58.1,
    "reliability": 0.36,
-   "prev_rank": 9,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.062,
     "rank": 28,
@@ -311,7 +311,7 @@
    "grade": 82.8,
    "qbir": 57.8,
    "reliability": 0.34,
-   "prev_rank": 6,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.097,
     "rank": 2,
@@ -352,7 +352,7 @@
    "grade": 82.6,
    "qbir": 57.6,
    "reliability": 0.33,
-   "prev_rank": 8,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.051,
     "rank": 7,
@@ -434,7 +434,7 @@
    "grade": 79.4,
    "qbir": 54.4,
    "reliability": 0.39,
-   "prev_rank": 10,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.055,
     "rank": 5,
@@ -475,7 +475,7 @@
    "grade": 78.9,
    "qbir": 53.9,
    "reliability": 0.38,
-   "prev_rank": 11,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.045,
     "rank": 8,
@@ -557,7 +557,7 @@
    "grade": 78.8,
    "qbir": 53.8,
    "reliability": 0.29,
-   "prev_rank": 12,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.015,
     "rank": 13,
@@ -598,7 +598,7 @@
    "grade": 76.3,
    "qbir": 51.3,
    "reliability": 0.39,
-   "prev_rank": 13,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.003,
     "rank": 16,
@@ -639,7 +639,7 @@
    "grade": 75.1,
    "qbir": 50.1,
    "reliability": 0.35,
-   "prev_rank": 14,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.093,
     "rank": 30,
@@ -680,7 +680,7 @@
    "grade": 74.5,
    "qbir": 49.5,
    "reliability": 0.33,
-   "prev_rank": 15,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.051,
     "rank": 26,
@@ -721,7 +721,7 @@
    "grade": 73.4,
    "qbir": 48.4,
    "reliability": 0.21,
-   "prev_rank": 17,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.028,
     "rank": 22,
@@ -762,7 +762,7 @@
    "grade": 73.0,
    "qbir": 48.0,
    "reliability": 0.27,
-   "prev_rank": 16,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.012,
     "rank": 14,
@@ -803,7 +803,7 @@
    "grade": 72.5,
    "qbir": 47.5,
    "reliability": 0.38,
-   "prev_rank": 19,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.033,
     "rank": 24,
@@ -885,7 +885,7 @@
    "grade": 70.9,
    "qbir": 45.9,
    "reliability": 0.29,
-   "prev_rank": 18,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.058,
     "rank": 4,
@@ -926,7 +926,7 @@
    "grade": 70.0,
    "qbir": 45.0,
    "reliability": 0.38,
-   "prev_rank": 21,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.034,
     "rank": 25,
@@ -967,7 +967,7 @@
    "grade": 68.8,
    "qbir": 43.8,
    "reliability": 0.33,
-   "prev_rank": 20,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.013,
     "rank": 18,
@@ -1008,7 +1008,7 @@
    "grade": 67.3,
    "qbir": 42.3,
    "reliability": 0.29,
-   "prev_rank": 24,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.023,
     "rank": 11,
@@ -1049,7 +1049,7 @@
    "grade": 66.1,
    "qbir": 41.1,
    "reliability": 0.39,
-   "prev_rank": 22,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.018,
     "rank": 12,
@@ -1090,7 +1090,7 @@
    "grade": 65.6,
    "qbir": 40.6,
    "reliability": 0.33,
-   "prev_rank": 23,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.124,
     "rank": 32,
@@ -1172,7 +1172,7 @@
    "grade": 64.5,
    "qbir": 39.5,
    "reliability": 0.3,
-   "prev_rank": 25,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.062,
     "rank": 29,
@@ -1213,7 +1213,7 @@
    "grade": 61.3,
    "qbir": 36.3,
    "reliability": 0.37,
-   "prev_rank": 26,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.01,
     "rank": 15,
@@ -1254,7 +1254,7 @@
    "grade": 60.6,
    "qbir": 35.6,
    "reliability": 0.33,
-   "prev_rank": 27,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.001,
     "rank": 17,
@@ -1295,7 +1295,7 @@
    "grade": 57.1,
    "qbir": 32.1,
    "reliability": 0.32,
-   "prev_rank": 28,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.095,
     "rank": 31,
@@ -1336,7 +1336,7 @@
    "grade": 56.1,
    "qbir": 31.1,
    "reliability": 0.21,
-   "prev_rank": 29,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.051,
     "rank": 6,
