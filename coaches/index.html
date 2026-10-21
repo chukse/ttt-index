@@ -195,22 +195,34 @@ document.getElementById('yearsel').addEventListener('click',e=>{const b=e.target
 fetch('data/coaches.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;setSide('offense')}).catch(()=>{document.getElementById('tbody').innerHTML='<tr><td colspan="12" style="padding:46px;text-align:center;color:var(--dim)">Coach data unavailable.</td></tr>';});
 
 function identity(c){
+  // Tiered descriptors: elite (top 4) / high (top ~18%) / low (bottom ~18%) / bottom (last 4).
+  // Scheme-value & creativity lead (who he is); style + results follow. Same clipped scout voice.
   const r=c.ranks||{}, n=board().length, bits=[];
-  const say=(m,hi,lo)=>{const rk=r[m]; if(rk==null)return; if(rk<=4)bits.push(hi); else if(lo&&rk>=n-3)bits.push(lo);};
+  const band=rk=>rk==null?null:(rk<=4?'elite':rk<=Math.ceil(n*0.18)?'high':rk>=n-3?'bottom':rk>=Math.floor(n*0.82)?'low':'mid');
+  const say=(m,p)=>{const b=band(r[m]); if(b&&p[b])bits.push(p[b]);};
   if(side==='offense'){
-    say('scheme_value','one of the most quarterback-friendly systems in football','a system that makes life harder on its quarterback');
-    say('creativity','one of the most creative, exotic play-designers in football','a minimalist who wins with execution over wrinkles');
-    say('proe','one of the league\'s most pass-happy play-callers','a run-leaning, ball-control offense');
-    say('pa_rate','leans hard on play-action'); say('motion_rate','motions pre-snap constantly');
-    say('screen_rate','a screen-heavy attack'); say('off_epa','a top-tier scoring offense','a struggling offense');
+    say('scheme_value',{elite:'one of the most quarterback-friendly systems in football',high:'a quarterback-friendly system',low:'a system that asks a lot of its quarterback',bottom:'a system that makes life harder on its quarterback'});
+    say('creativity',{elite:'one of the most creative, exotic play-designers in football',high:'a wrinkle-heavy attack',low:'a low-gadgetry attack',bottom:'a minimalist who wins with execution over scheme'});
+    say('proe',{elite:'one of the league\'s most pass-happy play-callers',high:'a pass-leaning attack',low:'a run-leaning attack',bottom:'a run-first, ball-control offense'});
+    say('pa_rate',{elite:'a heavy play-action attack',high:'a play-action staple'});
+    say('motion_rate',{elite:'a near-constant pre-snap motion offense',high:'a heavy-motion offense'});
+    say('screen_rate',{elite:'a screen-heavy attack'});
+    say('rpo_rate',{elite:'a heavy RPO attack'});
+    say('plays_pg',{elite:'a breakneck-tempo offense',high:'an up-tempo offense'});
+    say('off_epa',{elite:'a top-tier scoring offense',high:'a productive offense',low:'a below-average offense',bottom:'a struggling offense'});
   }else{
-    say('scheme_value','an elite scheme regardless of personnel','a scheme that underperforms its talent');
-    say('creativity','one of the most exotic, disguise-heavy defenses in football','a simple, execution-first defense with few wrinkles');
-    say('blitz_rate','one of the league\'s heaviest blitzers','a coverage-first, low-blitz defense');
-    say('man_rate','a man-coverage defense','a zone-based defense'); say('box','a stacked-box run front');
-    say('def_epa','an elite defense','a leaky defense');
+    say('scheme_value',{elite:'an elite scheme regardless of personnel',high:'a scheme that travels past its talent',low:'a scheme that leans on its talent',bottom:'a scheme that underperforms its talent'});
+    say('creativity',{elite:'one of the most exotic, disguise-heavy defenses in football',high:'a multiple, disguise-leaning defense',low:'a low-disguise defense',bottom:'a simple, execution-first defense with few wrinkles'});
+    say('blitz_rate',{elite:'one of the league\'s heaviest blitzers',high:'a pressure-leaning front',low:'a low-blitz defense',bottom:'a coverage-first, rush-four defense'});
+    say('man_rate',{elite:'a man-coverage defense',high:'a man-leaning defense',low:'a zone-leaning defense',bottom:'a zone-based defense'});
+    say('box',{elite:'a stacked-box run front'});
+    say('light_box_rate',{elite:'a light-box, sub-package defense'});
+    say('nickel_plus',{elite:'a sub-package (nickel+) defense'});
+    say('def_epa',{elite:'an elite defense',high:'a stout unit',low:'a soft unit',bottom:'a leaky defense'});
   }
-  return bits.length?bits.slice(0,3).join(', ')+'.':'a balanced, middle-of-the-pack profile.';
+  if(!bits.length)return 'a balanced, middle-of-the-pack profile.';
+  const top=bits.slice(0,4);
+  return (top.length>1?top.slice(0,-1).join(', ')+' and '+top[top.length-1]:top[0])+'.';
 }
 function render(){
   const C=cols(), B=board(), shown=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
