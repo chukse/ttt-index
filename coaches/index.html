@@ -114,6 +114,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
   <h1 id="boardtitle">Offensive Play-Callers</h1>
   <span class="d" id="ctxd"></span>
   <div class="toggle" id="toggle"><button class="tg on" data-side="offense">Offense</button><button class="tg" data-side="defense">Defense</button></div>
+  <div class="toggle" id="yearsel"><button class="tg on" data-year="all">2023–26</button><button class="tg" data-year="2026">2026</button><button class="tg" data-year="2025">2025</button><button class="tg" data-year="2024">2024</button><button class="tg" data-year="2023">2023</button></div>
   <a class="mlink" href="#method">How ↓</a>
 </div>
 <div class="scroll"><table class="kp"><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
@@ -140,12 +141,36 @@ const OFF_COLS=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'creativi
 const DEF_COLS=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'blitz_rate',ab:'BLZ',fmt:f1},{id:'man_rate',ab:'MAN',fmt:f1},{id:'box',ab:'BOX',fmt:f1},{id:'light_box_rate',ab:'LtBX',fmt:f1},{id:'nickel_plus',ab:'NKL+',fmt:f1},{id:'def_pass_epa',ab:'dpEPA',fmt:fe,grp:1,ep:1,inv:1},{id:'def_rush_epa',ab:'drEPA',fmt:fe,ep:1,inv:1}];
 const LABELS={scheme_value:'Scheme value — system worth, adjusted for the quarterback and the opponent (higher = better)',creativity:'Creativity — how exotic the design is: motion, play-action, bootleg, deep shots, empty sets, QB runs, pre-snap variety (50 = average). Descriptive, not a quality grade',proe:'Pass over expected',pa_rate:'Play-action %',screen_rate:'Screen %',rpo_rate:'RPO %',motion_rate:'Motion %',p11:'11 personnel (1 RB, 1 TE, 3 WR)',p12:'12 personnel (1 RB, 2 TE)',p13:'13 personnel (1 RB, 3 TE)',p21:'21 personnel (2 RB, 1 TE)',p22:'22 personnel (2 RB, 2 TE)',p10:'10 personnel (1 RB, 0 TE)',plays_pg:'Plays per game',blitz_rate:'Blitz %',man_rate:'Man coverage %',box:'Defenders in box',light_box_rate:'Light box %',nickel_plus:'Nickel+ %',off_epa:'Offensive EPA/play (all)',pass_epa:'Pass EPA/play',rush_epa:'Rush EPA/play (designed)',pass_sr:'Pass success %',rush_sr:'Rush success %',def_epa:'Defensive EPA/play (all)',def_pass_epa:'Pass EPA/play allowed',def_rush_epa:'Rush EPA/play allowed'};
 const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7BD8',DET:'#0076B6',DAL:'#8993A0',NE:'#88A4C4',HOU:'#9AB',LV:'#C9C9C9',GB:'#2E8B57',KC:'#E31837',LA:'#4F7FD4',CAR:'#0085CA',NO:'#D3BC8D',NYJ:'#2E8B57',MIN:'#9A7BD8',DEN:'#FB4F14',SEA:'#69BE28',MIA:'#00A3A3',ARI:'#C14965',LAC:'#2CA0E0',PIT:'#FFB612',CLE:'#C0712B',NYG:'#5577C0',IND:'#5588C8',TEN:'#4B92DB',TB:'#D50A0A',PHI:'#1A9E7A',ATL:'#D14B5A',WAS:'#C68A5A',CHI:'#C8743A'};
-let DATA=null, side='offense', sortKey='proe', sortDir=-1;
+let DATA=null, side='offense', sortKey='proe', sortDir=-1, YEAR='all';
+const LOWER_BETTER=new Set(['def_epa','def_pass_epa','def_rush_epa']);
 function rkClass(r,n){return r==null?'r-mid':r<=Math.max(3,n*0.12)?'r-top':r<=n*0.4?'r-good':r>=n*0.82?'r-low':'r-mid'}
 function cols(){return side==='offense'?OFF_COLS:DEF_COLS}
-function board(){return (side==='offense'?DATA.offense:DATA.defense)||[]}
-function setSide(s){side=s;sortKey=cols()[0].id;sortDir=-1;document.querySelectorAll('.tg').forEach(b=>b.classList.toggle('on',b.getAttribute('data-side')===s));document.getElementById('boardtitle').textContent=s==='offense'?'Offensive Play-Callers':'Defensive Coordinators';render();}
+function rawBoard(){return (side==='offense'?DATA.offense:DATA.defense)||[]}
+// Year view: swap each coach's averaged metrics for that season's (_byseason), re-rank within the
+// season's field. Metrics with no per-season breakdown (scheme_value) keep their multi-year value.
+function board(){
+  const raw=rawBoard();
+  if(YEAR==='all')return raw;
+  const C=cols(), yr=+YEAR;
+  let view=raw.map(c=>{
+    const bs=(c._byseason||[]).find(s=>+s.season===yr);
+    if(!bs)return null;
+    const o=Object.assign({},c); o.ranks=Object.assign({},c.ranks); o._bs=bs;
+    o.team=bs.team||c.team; o.seasonView=yr;
+    C.forEach(col=>{ if(bs[col.id]!==undefined && bs[col.id]!==null) o[col.id]=bs[col.id]; });
+    return o;
+  }).filter(Boolean);
+  C.forEach(col=>{                         // re-rank only season-decomposable metrics
+    if(!view.some(c=>c._bs[col.id]!==undefined && c._bs[col.id]!==null))return;
+    const vals=view.filter(c=>c[col.id]!=null).sort((a,b)=>LOWER_BETTER.has(col.id)?a[col.id]-b[col.id]:b[col.id]-a[col.id]);
+    vals.forEach((c,i)=>{c.ranks[col.id]=i+1;});
+  });
+  return view;
+}
+function setSide(s){side=s;sortKey=cols()[0].id;sortDir=-1;document.querySelectorAll('#toggle .tg').forEach(b=>b.classList.toggle('on',b.getAttribute('data-side')===s));document.getElementById('boardtitle').textContent=s==='offense'?'Offensive Play-Callers':'Defensive Coordinators';render();}
+function setYear(y){YEAR=y;document.querySelectorAll('#yearsel .tg').forEach(b=>b.classList.toggle('on',b.getAttribute('data-year')===y));render();}
 document.getElementById('toggle').addEventListener('click',e=>{const b=e.target.closest('[data-side]');if(b)setSide(b.getAttribute('data-side'));});
+document.getElementById('yearsel').addEventListener('click',e=>{const b=e.target.closest('[data-year]');if(b)setYear(b.getAttribute('data-year'));});
 fetch('data/coaches.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;setSide('offense')}).catch(()=>{document.getElementById('tbody').innerHTML='<tr><td colspan="12" style="padding:46px;text-align:center;color:var(--dim)">Coach data unavailable.</td></tr>';});
 
 function identity(c){
@@ -166,8 +191,9 @@ function identity(c){
   return bits.length?bits.slice(0,3).join(', ')+'.':'a balanced, middle-of-the-pack profile.';
 }
 function render(){
-  const C=cols(), B=board(), shown=B.filter(c=>c.status!=='inactive');
-  document.getElementById('ctxd').innerHTML=`<b>${shown.length}</b> ${side==='offense'?'play-callers':'coordinators'} · today + free agents · overall scheme, 2023–26`;
+  const C=cols(), B=board(), shown=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
+  const scope=(YEAR==='all')?'today + free agents · overall scheme, 2023–26':('season '+YEAR+' only');
+  document.getElementById('ctxd').innerHTML=`<b>${shown.length}</b> ${side==='offense'?'play-callers':'coordinators'} · ${scope}`;
   let th=`<tr><th class="lt" data-s="rank">#</th><th class="lt" data-s="name">${side==='offense'?'Play-caller':'Coordinator'}</th>`+
     C.map(c=>`<th class="${c.grp?'grp':''}" data-s="${c.id}" title="${LABELS[c.id]}">${c.ab}</th>`).join('')+`</tr>`;
   document.getElementById('thead').innerHTML=th;
