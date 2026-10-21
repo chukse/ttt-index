@@ -47,6 +47,9 @@ a{color:inherit;text-decoration:none}
 .c-coach .pc{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.04em;border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:middle;border:1px solid var(--line2);color:var(--faint)}
 .c-coach .pc.yes{color:#17120a;background:var(--gold-br);border-color:var(--gold-br)}
 .c-coach .pc.no{color:var(--brick);border-color:var(--brick)}
+.c-coach .under{margin-top:3px;display:flex;flex-wrap:wrap;gap:4px 10px}
+.c-coach .under .uc{font-size:10.5px;color:var(--faint);border-bottom:1px dotted var(--line2);cursor:pointer}
+.c-coach .under .uc:hover{color:var(--gold)}
 .scroll{max-width:1320px;margin:0 auto;padding:0 20px 10px;overflow-x:auto}
 table.kp{width:100%;border-collapse:collapse;min-width:1080px;font-variant-numeric:tabular-nums}
 .kp thead th{position:sticky;top:0;z-index:3;background:var(--panel);font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--dim);text-align:right;padding:8px 9px;border-bottom:2px solid var(--line2);white-space:nowrap;cursor:pointer;user-select:none}
@@ -170,7 +173,15 @@ function board(){
     C.forEach(col=>{ if(bs[col.id]!==undefined && bs[col.id]!==null) o[col.id]=bs[col.id]; });
     return o;
   }).filter(Boolean);
-  C.forEach(col=>{                         // re-rank only season-decomposable metrics
+  // ONE row per team in a single-season view: the play-caller leads; the coordinator(s) of
+  // record who didn't call are folded in as understudies (still clickable to their own profile).
+  const byTeam={}; view.forEach(o=>{(byTeam[o.team]=byTeam[o.team]||[]).push(o);});
+  view=Object.values(byTeam).map(arr=>{
+    const lead=arr.find(o=>o.called_latest)||arr[0];
+    lead._understudies=arr.filter(o=>o!==lead).map(o=>({coach:o.coach,role:o.role}));
+    return lead;
+  });
+  C.forEach(col=>{                         // re-rank the collapsed field (one per team)
     if(!view.some(c=>c._bs[col.id]!==undefined && c._bs[col.id]!==null))return;
     const vals=view.filter(c=>c[col.id]!=null).sort((a,b)=>LOWER_BETTER.has(col.id)?a[col.id]-b[col.id]:b[col.id]-a[col.id]);
     vals.forEach((c,i)=>{c.ranks[col.id]=i+1;});
@@ -223,12 +234,13 @@ function render(){
     const meta=emp?(sameTeam?`${c.cur_team} · ${c.seasons} season${c.seasons>1?'s':''}`:`${c.cur_team} · scheme from ${c.teams.join('/')}`):`Free agent · last ${c.team} '${String(c.last_season).slice(2)}`;
     return `<tr data-c="${encodeURIComponent(c.coach)}">
       <td class="lt c-rk num">${i+1}</td>
-      <td class="lt c-coach"><div class="nm">${c.coach}<span class="role${emp?'':' fa'}">${role}</span>${pcChip(c)}</div><div class="mt"><span class="dot" style="background:${col}"></span>${meta}</div></td>${cells}</tr>`;
+      <td class="lt c-coach"><div class="nm">${c.coach}<span class="role${emp?'':' fa'}">${role}</span>${pcChip(c)}</div><div class="mt"><span class="dot" style="background:${col}"></span>${meta}</div>${(c._understudies&&c._understudies.length)?`<div class="under">${c._understudies.map(u=>`<span class="uc" data-u="${encodeURIComponent(u.coach)}">${u.role} of record: ${u.coach}</span>`).join('')}</div>`:''}</td>${cells}</tr>`;
   }).join('');
   document.getElementById('tbody').innerHTML=rows;
   document.querySelectorAll('#tbody tr[data-c]').forEach(tr=>tr.onclick=()=>openSheet(decodeURIComponent(tr.getAttribute('data-c'))));
+  document.querySelectorAll('#tbody .uc').forEach(el=>el.onclick=(e)=>{e.stopPropagation();openSheet(decodeURIComponent(el.getAttribute('data-u')));});
 }
-function coach(nm){return board().find(c=>c.coach===nm)}
+function coach(nm){return board().find(c=>c.coach===nm)||rawBoard().find(c=>c.coach===nm)}
 let lastFocus=null;
 function openSheet(nm){
   const c=coach(nm), sh=document.getElementById('sheet');
