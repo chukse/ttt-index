@@ -44,6 +44,9 @@ a{color:inherit;text-decoration:none}
 .tg.on{background:var(--gold);color:#17120a} .tg:not(.on):hover{color:var(--ink)}
 .c-coach .role{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.05em;color:var(--faint);border:1px solid var(--line2);border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:middle}
 .c-coach .role.fa{color:var(--gold);border-color:var(--gold)}
+.c-coach .pc{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.04em;border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:middle;border:1px solid var(--line2);color:var(--faint)}
+.c-coach .pc.yes{color:#17120a;background:var(--gold-br);border-color:var(--gold-br)}
+.c-coach .pc.no{color:var(--brick);border-color:var(--brick)}
 .scroll{max-width:1320px;margin:0 auto;padding:0 20px 10px;overflow-x:auto}
 table.kp{width:100%;border-collapse:collapse;min-width:1080px;font-variant-numeric:tabular-nums}
 .kp thead th{position:sticky;top:0;z-index:3;background:var(--panel);font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--dim);text-align:right;padding:8px 9px;border-bottom:2px solid var(--line2);white-space:nowrap;cursor:pointer;user-select:none}
@@ -144,6 +147,12 @@ const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7B
 let DATA=null, side='offense', sortKey='proe', sortDir=-1, YEAR='all';
 const LOWER_BETTER=new Set(['def_epa','def_pass_epa','def_rush_epa']);
 function rkClass(r,n){return r==null?'r-mid':r<=Math.max(3,n*0.12)?'r-top':r<=n*0.4?'r-good':r>=n*0.82?'r-low':'r-mid'}
+// play-calling chip: who actually calls the unit (system of record)
+function pcChip(c){const sr=c.role||'',calls=!!c.called_latest;
+  if(sr==='HC'&&calls)return `<span class="pc yes" title="Calls the plays as head coach">HC · PLAY-CALLER</span>`;
+  if(sr==='PC')return `<span class="pc yes" title="Play-caller">PLAY-CALLER</span>`;
+  if((sr==='OC'||sr==='DC')&&!calls)return `<span class="pc no" title="On staff but does not call the plays">${sr} · DOESN'T CALL</span>`;
+  return `<span class="pc">${sr||''}</span>`;}
 function cols(){return side==='offense'?OFF_COLS:DEF_COLS}
 function rawBoard(){return (side==='offense'?DATA.offense:DATA.defense)||[]}
 // Year view: swap each coach's averaged metrics for that season's (_byseason), re-rank within the
@@ -157,6 +166,7 @@ function board(){
     if(!bs)return null;
     const o=Object.assign({},c); o.ranks=Object.assign({},c.ranks); o._bs=bs;
     o.team=bs.team||c.team; o.seasonView=yr;
+    o.role=bs.role||c.role; o.called_latest=!!bs.called;   // chip reflects the selected season
     C.forEach(col=>{ if(bs[col.id]!==undefined && bs[col.id]!==null) o[col.id]=bs[col.id]; });
     return o;
   }).filter(Boolean);
@@ -213,7 +223,7 @@ function render(){
     const meta=emp?(sameTeam?`${c.cur_team} · ${c.seasons} season${c.seasons>1?'s':''}`:`${c.cur_team} · scheme from ${c.teams.join('/')}`):`Free agent · last ${c.team} '${String(c.last_season).slice(2)}`;
     return `<tr data-c="${encodeURIComponent(c.coach)}">
       <td class="lt c-rk num">${i+1}</td>
-      <td class="lt c-coach"><div class="nm">${c.coach}<span class="role${emp?'':' fa'}">${role}</span></div><div class="mt"><span class="dot" style="background:${col}"></span>${meta}</div></td>${cells}</tr>`;
+      <td class="lt c-coach"><div class="nm">${c.coach}<span class="role${emp?'':' fa'}">${role}</span>${pcChip(c)}</div><div class="mt"><span class="dot" style="background:${col}"></span>${meta}</div></td>${cells}</tr>`;
   }).join('');
   document.getElementById('tbody').innerHTML=rows;
   document.querySelectorAll('#tbody tr[data-c]').forEach(tr=>tr.onclick=()=>openSheet(decodeURIComponent(tr.getAttribute('data-c'))));
@@ -229,7 +239,8 @@ function openSheet(nm){
   let fg=M.filter(m=>c[m]!=null).map(m=>{const rk=(c.ranks||{})[m];const fmt=(m.includes('epa')||m==='scheme_value')?fe:(m==='proe'?fp:(m==='creativity'?(x=>x.toFixed(0)):f1));
     return `<div><span class="k">${LABELS[m]}</span><span class="v num">${fmt(c[m])}<sup>${rk||'—'}</sup></span></div>`;}).join('');
   const tcell=s=>side==='offense'?`PROE ${fp(s.proe)} · pass ${fe(s.pass_epa)} · rush ${fe(s.rush_epa)}`:`BLZ ${f1(s.blitz_rate)} · passD ${fe(s.def_pass_epa)} · rushD ${fe(s.def_rush_epa)}`;
-  let traj=(c._byseason||[]).map(s=>`<div class="tr"><span class="ty">${s.season} · ${s.team}</span><span class="td2 num">${tcell(s)}</span></div>`).join('');
+  let traj=(c._byseason||[]).map(s=>{const who=s.called?s.role:`${s.role} · scheme by ${(s.caller||'HC').split(' ').slice(-1)[0]}`;
+    return `<div class="tr"><span class="ty">${s.season} · ${s.team} · ${who}</span><span class="td2 num">${tcell(s)}</span></div>`;}).join('');
   sh.innerHTML=`<div class="shead"><div><div class="snm">${c.coach}</div><div class="smeta num">${now} · scheme ${c._byseason[0].season}–${c.latest_season} (${c.teams.join('/')})</div></div><button class="sx" id="sx" aria-label="Close">${X}</button></div>
     <div class="sec"><h3>Scheme identity</h3><div class="ident">${c.coach.split(' ').slice(-1)[0]} runs ${identity(c)}</div></div>
     <div class="sec"><h3>Fingerprint · value + rank</h3><div class="fgrid">${fg}</div></div>
