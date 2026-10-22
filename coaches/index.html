@@ -163,14 +163,14 @@ function rawBoard(){return (side==='offense'?DATA.offense:DATA.defense)||[]}
 function board(){
   const raw=rawBoard();
   if(YEAR==='all')return raw;
-  const C=cols(), yr=+YEAR;
+  const yr=+YEAR, META=new Set(['season','team','role','called','caller']);
   let view=raw.map(c=>{
     const bs=(c._byseason||[]).find(s=>+s.season===yr);
     if(!bs)return null;
-    const o=Object.assign({},c); o.ranks=Object.assign({},c.ranks); o._bs=bs;
+    const o=Object.assign({},c); o.ranks={}; o._bs=bs;
     o.team=bs.team||c.team; o.seasonView=yr;
     o.role=bs.role||c.role; o.called_latest=!!bs.called;   // chip reflects the selected season
-    C.forEach(col=>{ if(bs[col.id]!==undefined && bs[col.id]!==null) o[col.id]=bs[col.id]; });
+    Object.keys(bs).forEach(k=>{ if(!META.has(k) && bs[k]!=null) o[k]=bs[k]; });   // season values for ALL metrics
     return o;
   }).filter(Boolean);
   // ONE row per team in a single-season view: the play-caller leads; the coordinator(s) of
@@ -181,10 +181,12 @@ function board(){
     lead._understudies=arr.filter(o=>o!==lead).map(o=>({coach:o.coach,role:o.role}));
     return lead;
   });
-  C.forEach(col=>{                         // re-rank the collapsed field (one per team)
-    if(!view.some(c=>c._bs[col.id]!==undefined && c._bs[col.id]!==null))return;
-    const vals=view.filter(c=>c[col.id]!=null).sort((a,b)=>LOWER_BETTER.has(col.id)?a[col.id]-b[col.id]:b[col.id]-a[col.id]);
-    vals.forEach((c,i)=>{c.ranks[col.id]=i+1;});
+  // Re-rank EVERY metric over the collapsed field (incl. scheme_value, which has no per-season value)
+  // so the rank superscripts AND identity's bands share ONE scale (n = teams shown this season).
+  const mkeys=new Set(['scheme_value']); view.forEach(c=>Object.keys(c._bs).forEach(k=>{if(!META.has(k))mkeys.add(k);}));
+  mkeys.forEach(m=>{
+    const vals=view.filter(c=>c[m]!=null).sort((a,b)=>LOWER_BETTER.has(m)?a[m]-b[m]:b[m]-a[m]);
+    vals.forEach((c,i)=>{c.ranks[m]=i+1;});
   });
   return view;
 }
