@@ -197,6 +197,13 @@ document.getElementById('yearsel').addEventListener('click',e=>{const b=e.target
 fetch('data/coach_blurbs.json?t='+Date.now()).then(r=>r.json()).then(b=>{BLURBS=b||{}}).catch(()=>{});
 fetch('data/coaches.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;setSide('offense')}).catch(()=>{document.getElementById('tbody').innerHTML='<tr><td colspan="12" style="padding:46px;text-align:center;color:var(--dim)">Coach data unavailable.</td></tr>';});
 
+// Scheme-identity text: LLM blurb in the TTT voice when available (per-season in a year view,
+// career in the All view), else the data-driven template sentence as fallback.
+function schemeBlurb(c){
+  if(YEAR!=='all'){const s=BLURBS[c.coach+'|'+YEAR]; if(s&&s.blurb)return s.blurb;}
+  const cb=BLURBS[c.coach]; if(cb&&cb.blurb)return cb.blurb;
+  return c.coach.split(' ').slice(-1)[0]+' runs '+identity(c);
+}
 function identity(c){
   // Data-driven, not a fixed template: each clause is a ranked trait; the sentence LEADS with the
   // coach's most DISTINCTIVE trait (not always scheme-value), uses a "strength, but weakness" frame
@@ -293,7 +300,7 @@ function openSheet(nm){
   let traj=(c._byseason||[]).map(s=>{const who=s.called?s.role:`${s.role} · scheme by ${(s.caller||'HC').split(' ').slice(-1)[0]}`;
     return `<div class="tr"><span class="ty">${s.season} · ${s.team} · ${who}</span><span class="td2 num">${tcell(s)}</span></div>`;}).join('');
   sh.innerHTML=`<div class="shead"><div><div class="snm">${c.coach}</div><div class="smeta num">${now} · scheme ${c._byseason[0].season}–${c.latest_season} (${c.teams.join('/')})</div></div><button class="sx" id="sx" aria-label="Close">${X}</button></div>
-    <div class="sec"><h3>Scheme identity</h3><div class="ident">${(YEAR==='all'&&BLURBS[c.coach]&&BLURBS[c.coach].blurb)?BLURBS[c.coach].blurb:(c.coach.split(' ').slice(-1)[0]+' runs '+identity(c))}</div></div>
+    <div class="sec"><h3>Scheme identity</h3><div class="ident">${schemeBlurb(c)}</div></div>
     <div class="sec"><h3>Fingerprint · value + rank</h3><div class="fgrid">${fg}</div></div>
     <div class="sec"><h3>Year by year</h3><div class="traj">${traj}</div></div>`;
   document.getElementById('sx').onclick=closeSheet;
