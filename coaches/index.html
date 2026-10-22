@@ -147,7 +147,7 @@ const OFF_COLS=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'creativi
 const DEF_COLS=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'creativity',ab:'CRTV',fmt:v=>v.toFixed(0),grp:1},{id:'blitz_rate',ab:'BLZ',fmt:f1},{id:'man_rate',ab:'MAN',fmt:f1},{id:'box',ab:'BOX',fmt:f1},{id:'light_box_rate',ab:'LtBX',fmt:f1},{id:'nickel_plus',ab:'NKL+',fmt:f1},{id:'def_pass_epa',ab:'dpEPA',fmt:fe,grp:1,ep:1,inv:1},{id:'def_rush_epa',ab:'drEPA',fmt:fe,ep:1,inv:1}];
 const LABELS={scheme_value:'Scheme value — system worth, adjusted for the quarterback and the opponent (higher = better)',creativity:'Creativity — how exotic/varied the design is (offense: motion, play-action, RPO, empty sets, deep shots, QB runs; defense: blitz, simulated pressure, rush-count & box variety, drop-8 coverage). 50 = average. Descriptive, not a quality grade',proe:'Pass over expected',pa_rate:'Play-action %',screen_rate:'Screen %',rpo_rate:'RPO %',motion_rate:'Motion %',p11:'11 personnel (1 RB, 1 TE, 3 WR)',p12:'12 personnel (1 RB, 2 TE)',p13:'13 personnel (1 RB, 3 TE)',p21:'21 personnel (2 RB, 1 TE)',p22:'22 personnel (2 RB, 2 TE)',p10:'10 personnel (1 RB, 0 TE)',plays_pg:'Plays per game',blitz_rate:'Blitz %',man_rate:'Man coverage %',box:'Defenders in box',light_box_rate:'Light box %',nickel_plus:'Nickel+ %',off_epa:'Offensive EPA/play (all)',pass_epa:'Pass EPA/play',rush_epa:'Rush EPA/play (designed)',pass_sr:'Pass success %',rush_sr:'Rush success %',def_epa:'Defensive EPA/play (all)',def_pass_epa:'Pass EPA/play allowed',def_rush_epa:'Rush EPA/play allowed'};
 const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7BD8',DET:'#0076B6',DAL:'#8993A0',NE:'#88A4C4',HOU:'#9AB',LV:'#C9C9C9',GB:'#2E8B57',KC:'#E31837',LA:'#4F7FD4',CAR:'#0085CA',NO:'#D3BC8D',NYJ:'#2E8B57',MIN:'#9A7BD8',DEN:'#FB4F14',SEA:'#69BE28',MIA:'#00A3A3',ARI:'#C14965',LAC:'#2CA0E0',PIT:'#FFB612',CLE:'#C0712B',NYG:'#5577C0',IND:'#5588C8',TEN:'#4B92DB',TB:'#D50A0A',PHI:'#1A9E7A',ATL:'#D14B5A',WAS:'#C68A5A',CHI:'#C8743A'};
-let DATA=null, side='offense', sortKey='proe', sortDir=-1, YEAR='all';
+let DATA=null, BLURBS={}, side='offense', sortKey='proe', sortDir=-1, YEAR='all';
 const LOWER_BETTER=new Set(['def_epa','def_pass_epa','def_rush_epa']);
 function rkClass(r,n){return r==null?'r-mid':r<=Math.max(3,n*0.12)?'r-top':r<=n*0.4?'r-good':r>=n*0.82?'r-low':'r-mid'}
 // play-calling chip: who actually calls the unit (system of record)
@@ -194,6 +194,7 @@ function setSide(s){side=s;sortKey=cols()[0].id;sortDir=-1;document.querySelecto
 function setYear(y){YEAR=y;document.querySelectorAll('#yearsel .tg').forEach(b=>b.classList.toggle('on',b.getAttribute('data-year')===y));render();}
 document.getElementById('toggle').addEventListener('click',e=>{const b=e.target.closest('[data-side]');if(b)setSide(b.getAttribute('data-side'));});
 document.getElementById('yearsel').addEventListener('click',e=>{const b=e.target.closest('[data-year]');if(b)setYear(b.getAttribute('data-year'));});
+fetch('data/coach_blurbs.json?t='+Date.now()).then(r=>r.json()).then(b=>{BLURBS=b||{}}).catch(()=>{});
 fetch('data/coaches.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;setSide('offense')}).catch(()=>{document.getElementById('tbody').innerHTML='<tr><td colspan="12" style="padding:46px;text-align:center;color:var(--dim)">Coach data unavailable.</td></tr>';});
 
 function identity(c){
@@ -292,7 +293,7 @@ function openSheet(nm){
   let traj=(c._byseason||[]).map(s=>{const who=s.called?s.role:`${s.role} · scheme by ${(s.caller||'HC').split(' ').slice(-1)[0]}`;
     return `<div class="tr"><span class="ty">${s.season} · ${s.team} · ${who}</span><span class="td2 num">${tcell(s)}</span></div>`;}).join('');
   sh.innerHTML=`<div class="shead"><div><div class="snm">${c.coach}</div><div class="smeta num">${now} · scheme ${c._byseason[0].season}–${c.latest_season} (${c.teams.join('/')})</div></div><button class="sx" id="sx" aria-label="Close">${X}</button></div>
-    <div class="sec"><h3>Scheme identity</h3><div class="ident">${c.coach.split(' ').slice(-1)[0]} runs ${identity(c)}</div></div>
+    <div class="sec"><h3>Scheme identity</h3><div class="ident">${(YEAR==='all'&&BLURBS[c.coach]&&BLURBS[c.coach].blurb)?BLURBS[c.coach].blurb:(c.coach.split(' ').slice(-1)[0]+' runs '+identity(c))}</div></div>
     <div class="sec"><h3>Fingerprint · value + rank</h3><div class="fgrid">${fg}</div></div>
     <div class="sec"><h3>Year by year</h3><div class="traj">${traj}</div></div>`;
   document.getElementById('sx').onclick=closeSheet;

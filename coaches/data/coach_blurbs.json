@@ -1,0 +1,622 @@
+{
+ "Adam Stenavich": {
+  "blurb": "Stenavich runs a fairly conventional offense by design \u2014 middle of the pack in pass tendency, motion, and tempo \u2014 but leans on RPOs more than most, ranking 13th in that category. The results have been strong regardless: 14th in offensive EPA/play over four seasons in Green Bay. It's a system that doesn't need to be exotic to be effective, and the numbers back that up.",
+  "hash": "08db118e7782",
+  "side": "offense"
+ },
+ "Andy Reid": {
+  "blurb": "Reid's offense throws the ball at one of the highest rates in the sample and layers in elite RPO usage and a high screen rate to keep defenses guessing pre- and post-snap \u2014 the exoticness ranking backs that up. The results are good (13th in EPA/play), though the scheme-value number sitting middle of the pack suggests a fair portion of that production travels with the quarterback rather than the system itself. That's not a knock so much as useful context for how to read the numbers.",
+  "hash": "5bc3e2056baf",
+  "side": "offense"
+ },
+ "Ben Johnson": {
+  "blurb": "Ben Johnson runs a fairly conventional attack \u2014 middle of the pack in motion, screens, and pass tendency \u2014 but the scheme value ranks fourth in the entire index, which says the results come from execution and design quality rather than novelty. The high play-action rate and fast tempo are the clearest fingerprints; he uses the run threat to set up the pass without leaning on RPOs to do it. The EPA backs it up.",
+  "hash": "35fc21631ef1",
+  "side": "offense"
+ },
+ "Brian Schottenheimer": {
+  "blurb": "Schottenheimer runs a conventional offense by almost every structural measure \u2014 motion, tempo, pass rate, play-action, RPOs all cluster in the middle third. What separates him is that the system itself grades out well above that: #7 in scheme value after adjusting for quarterback and opponent. The methodology is orthodox, but the execution wrings more out of it than the surface tendencies would suggest.",
+  "hash": "1a18c47c0fe2",
+  "side": "offense"
+ },
+ "Drew Petzing": {
+  "blurb": "Petzing runs a conventional offense in Detroit \u2014 low exoticness, middling motion and RPO usage, nothing that stands out structurally. The honest read is that the scheme value sits at #24 and the results track almost exactly with it at #23 EPA/play, which means the system is doing about what it's worth. There's no hidden edge being left on the table, but there's no red flag either \u2014 this is an execution-first operation that lives or dies by the talent running it.",
+  "hash": "87bec3e7fb47",
+  "side": "offense"
+ },
+ "Jim Bob Cooter": {
+  "blurb": "Cooter's Indianapolis offenses leaned on play-action and RPOs more than almost anyone in the sample \u2014 both metrics land in the top 15 \u2014 while the rest of his profile sits comfortably in the middle of the pack. The results were similarly middling, a #43 EPA/play ranking that suggests the run-game infrastructure was there but not producing a meaningful edge. He's no longer calling plays in Indianapolis, and the numbers don't make a strong case that the league is missing much.",
+  "hash": "e645d2606fae",
+  "side": "offense"
+ },
+ "Kellen Moore": {
+  "blurb": "Kellen Moore's offense in New Orleans sits firmly in the middle of nearly every measurable category \u2014 pass rate, play-action, tempo, creativity \u2014 and the results land in roughly the same place. The one area where he shows a real lean is pre-snap motion and RPO usage, both in the top quarter, suggesting he does try to create conflict before the snap even if the broader scheme doesn't stand out. At #23 in scheme value but #46 in EPA, the system isn't quite converting its structural worth into production.",
+  "hash": "72a1240db121",
+  "side": "offense"
+ },
+ "Kevin O'Connell": {
+  "blurb": "O'Connell runs a fairly conventional offense \u2014 middle of the pack in most descriptors \u2014 with one real signature: a top-10 play-action rate that he leans on as a structural feature rather than a situational wrinkle. The scheme value sits around average after adjusting for quarterback and opponent, and the EPA/play results land in the lower half, which suggests the system isn't consistently generating more than its personnel inputs. Competent and deliberate, not a schematic outlier.",
+  "hash": "31afc6d7ad93",
+  "side": "offense"
+ },
+ "Kyle Shanahan": {
+  "blurb": "Shanahan's offense doesn't stand out as exotic or pass-heavy \u2014 it's essentially middle of the pack on most surface metrics \u2014 but the scheme value ranks second in the sample and EPA/play ranks fourth, which is the whole argument. The one genuine outlier is pre-snap motion, where he's fifth, and that's probably the operational fingerprint that makes ordinary-looking play calls harder to defend than they appear on paper.",
+  "hash": "4379909eda9e",
+  "side": "offense"
+ },
+ "Matt LaFleur": {
+  "blurb": "Matt LaFleur's offense doesn't stand out in any single stylistic category \u2014 he's middle of the pack on pass tendency, motion, tempo, and screens \u2014 but the scheme value number says something important: adjusted for quarterback and opponent, this system ranks third among 76 coaches. The RPO usage is a real wrinkle, but mostly this is a case where disciplined, well-structured play-calling outperforms its surface-level exoticness. Execution over novelty, and the results back it up.",
+  "hash": "ac9efbfafafe",
+  "side": "offense"
+ },
+ "Matt Nagy": {
+  "blurb": "Nagy's Giants offense leans heavily on the pass and runs RPOs at one of the highest rates in the sample, which gives it a defined identity even if the broader scheme doesn't generate much additional value over expectation \u2014 sitting 26th in QB- and opponent-adjusted system worth with middle-of-the-pack EPA/play. The pass tendency is real, but play-action usage is relatively low for how often he drops back, which is a tension worth watching. Functional, not broken, but not extracting much edge from the structure itself.",
+  "hash": "c6a870a83990",
+  "side": "offense"
+ },
+ "Mike LaFleur": {
+  "blurb": "LaFleur's Arizona offense doesn't stand out on paper \u2014 conventional pass tendencies, minimal RPOs, nothing exotic in the route tree \u2014 but the pre-snap motion volume is real, and the EPA sits comfortably in the middle third once you adjust for context. The scheme value number (#28) suggests the system itself isn't doing him many favors, which means results are leaning more on execution than design. Functional, not flashy, with one legitimate structural tell in the motion usage.",
+  "hash": "dfdeef1ff834",
+  "side": "offense"
+ },
+ "Mike McDaniel": {
+  "blurb": "McDaniel's offense is built on movement before the snap \u2014 his pre-snap motion rate ranks fourth in the league \u2014 and a heavy diet of screens that stress the perimeter and create easy completions. The structure is genuinely exotic by design, but the results have landed mid-pack on both scheme value and EPA/play, which suggests the complexity hasn't fully translated. He runs the ball more than you'd expect given his reputation, sitting near the bottom in pass-rate over expectation.",
+  "hash": "6221e0b19518",
+  "side": "offense"
+ },
+ "Sean McVay": {
+  "blurb": "McVay's offense isn't built on exotic concepts \u2014 it's built on pre-snap stress, and that's enough. Heavy motion and consistent play-action usage push his scheme value into the top 10, even with call-sheets that sit near league average in creativity and tempo. The results land in the middle of the pack on EPA, which is the one honest caveat: the system is legitimate, but it hasn't been separating from the field lately.",
+  "hash": "9eae6f2cdcec",
+  "side": "offense"
+ },
+ "Sean Payton": {
+  "blurb": "Sean Payton runs a high-RPO, high-screen offense that layers more wrinkles into the play sheet than most, but the results at Denver have been middling \u2014 middle of the pack in both scheme value and EPA/play. The creativity is real, not decorative, yet it hasn't translated into a clear edge in the standings. That gap between design and output is the honest story of his tenure with the Broncos so far.",
+  "hash": "d96899f463bc",
+  "side": "offense"
+ },
+ "Shane Steichen": {
+  "blurb": "Steichen runs a balanced, RPO-heavy system that doesn't lean on exotic concepts to generate value \u2014 his scheme grades out in the top 10 QB- and opponent-adjusted, even though his raw EPA sits in the middle of the pack. That gap suggests the results have been held back by personnel more than design. Nothing about the profile screams outlier, but the RPO usage is a real identity marker, and the scheme has consistently put offenses in position to succeed.",
+  "hash": "b5e94c749be1",
+  "side": "offense"
+ },
+ "Todd Monken": {
+  "blurb": "Monken runs a balanced, conventional offense \u2014 nothing exotic about the profile \u2014 but the scheme itself grades out as genuinely valuable, landing 10th in QB- and opponent-adjusted system worth across 76 play-callers. The results back it up: 17th in offensive EPA/play despite Cleveland's quarterback situation making that number harder to earn. The honest read is that Monken squeezes real production out of a system that doesn't rely on wrinkles to do it.",
+  "hash": "a30be4290dd2",
+  "side": "offense"
+ },
+ "Wes Phillips": {
+  "blurb": "Phillips runs a fairly conventional offense in Minnesota \u2014 middle of the pack across most scheme levers, with play-action as the one genuine standout (top-15 usage). The results have been middling to match, sitting 54th in offensive EPA/play. Worth noting he holds the OC title but doesn't call the plays, which complicates how much of this scheme fingerprint is actually his.",
+  "hash": "77835d76b57c",
+  "side": "offense"
+ },
+ "Zac Taylor": {
+  "blurb": "Zac Taylor runs one of the least exotic offenses in the league, but that's mostly a description of his menu, not an indictment of it. What defines Cincinnati's scheme is an elite commitment to throwing the football \u2014 second among 76 play-callers in pass rate over expectation \u2014 built around conventional structures rather than pre-snap complexity. Scheme value sits mid-pack, and so do results, which is the honest part: the system is functional, not a generator of independent edge.",
+  "hash": "9db4cf4662cf",
+  "side": "offense"
+ },
+ "Bobby Slowik": {
+  "blurb": "Slowik runs one of the more structurally inventive offenses in the league \u2014 top 10 in exoticness \u2014 but the results have been middling across the board, with EPA/play and scheme value both sitting around the bottom half of the middle. The wrinkle worth noting is that the creative presentation hasn't translated into a pass-heavy attack; he actually skews run at one of the lower pass rates in the sample. Whether the exotic packaging is masking a conservative philosophical core, or whether the talent around him has capped the ceiling, is the honest question Miami still needs to answer.",
+  "hash": "55c40c05df54",
+  "side": "offense"
+ },
+ "Brad Idzik": {
+  "blurb": "Brad Idzik runs a balanced, conventional offense that doesn't lean on any single schematic lever \u2014 middle of the pack across pass tendency, play-action, motion, RPOs, and tempo. The scheme value sits at #16, which is solid without being exceptional, and the EPA results (#31) track with that: functional, not dominant. Three seasons in Carolina, no obvious strengths to exploit and no obvious holes to attack either \u2014 this is a system built on execution over identity.",
+  "hash": "00420ffa2a98",
+  "side": "offense"
+ },
+ "Dan Pitcher": {
+  "blurb": "Dan Pitcher runs one of the least exotic offenses in the league \u2014 the formation and concept variety just isn't there \u2014 but Cincinnati leans heavily pass over expectation, ranking third in PROE, and the results land in the middle of the pack on EPA. Worth noting: Pitcher holds the OC title but doesn't call the plays, so how much of this fingerprint is actually his is a fair question.",
+  "hash": "42487bb2f28a",
+  "side": "offense"
+ },
+ "Frank Smith": {
+  "blurb": "Frank Smith runs one of the more structurally active offenses in the league \u2014 pre-snap motion at the top of the index, screens deployed at an elite rate, and heavy play-action usage give his system a lot of moving parts before and after the snap. The results land in the middle third on EPA/play, which is functional but not a strong endorsement of the volume. Worth noting he's currently in an OC role without play-calling duties, so how much of this fingerprint carries forward is a real question.",
+  "hash": "9bf686f0f0b2",
+  "side": "offense"
+ },
+ "Joe Brady": {
+  "blurb": "Brady runs one of the more structurally complex offenses in the league \u2014 heavy pre-snap motion, varied concepts, near the top in design creativity \u2014 but the scheme value sitting at #17 suggests the architecture alone isn't what's driving results. What's driving results is #2 in EPA/play, which with Josh Allen under center requires some honest accounting: how much is the system, and how much is the quarterback. The honest read is probably both, and Brady earns credit for building something that gets the most out of what he has.",
+  "hash": "0ba84645139c",
+  "side": "offense"
+ },
+ "Joe Lombardi": {
+  "blurb": "Lombardi runs one of the more layered offensive menus in the league \u2014 heavy play-action, a high RPO rate, and screens deployed at a top-five clip give his system a lot of moving parts. The results have landed in the middle of the pack on EPA/play, which is the honest counterweight to the scheme variety: the infrastructure is there, the efficiency hasn't fully followed. Worth noting he's currently the OC without play-calling duties, so the on-field output is a shared ledger at this point.",
+  "hash": "93a53026b096",
+  "side": "offense"
+ },
+ "Klint Kubiak": {
+  "blurb": "Kubiak runs a conventional offense by just about every measure \u2014 pass tendency, RPO usage, screen rate, tempo, and scheme creativity all land in the middle third \u2014 and the results follow suit, with EPA/play sitting around the same tier. The scheme value number (#22) is the one thing that edges above the median, suggesting the system itself carries modest structural worth beyond what the quarterback alone is producing. There's nothing to indict here, but nothing to lean on either.",
+  "hash": "d7d548a28b11",
+  "side": "offense"
+ },
+ "Liam Coen": {
+  "blurb": "Coen's offense doesn't lean heavily on any single mechanism \u2014 motion, tempo, play-action, and screen usage all land near the middle of the league \u2014 but the results argue that's a feature, not a limitation. His scheme grades out fifth in adjusted system value and fifth in offensive EPA/play, which means the execution is doing the work the gadgetry isn't. Jacksonville is getting elite production out of a balanced, unadorned structure.",
+  "hash": "89b9733669e5",
+  "side": "offense"
+ },
+ "Nathaniel Hackett": {
+  "blurb": "Hackett's Arizona offense sits in the middle of nearly every process metric \u2014 pass rate, play-action, motion, tempo \u2014 which makes the low EPA/play (#63) the real story: the results haven't justified the approach. Scheme value comes in at #47, so there's no structural edge being generated either. Now calling plays without play-calling authority, it's a hard profile to build a case around.",
+  "hash": "e968a01428a7",
+  "side": "offense"
+ },
+ "Press Taylor": {
+  "blurb": "Press Taylor's offense doesn't lean on any one tendency \u2014 his pass rate, tempo, motion, and play-action all cluster near league average \u2014 but his scheme value ranks 13th after adjusting for quarterback and opponent, which means the structure is doing real work independent of personnel. The results (45th in EPA/play) haven't fully caught up to that, and it's worth noting he's currently not the play-caller in Chicago, so there's a layer of separation between his scheme design and what actually hits the field.",
+  "hash": "6cd6c6833b25",
+  "side": "offense"
+ },
+ "Zac Robinson": {
+  "blurb": "Robinson runs a conventional offense in Tampa Bay \u2014 low exoticism, below-average pass rate, nothing that jumps off the page schematically. The scheme value sits mid-pack and the EPA/play matches it, so there's no hidden efficiency lurking beneath the vanilla surface. Three seasons in, this looks like a system built on execution over invention, and the results so far suggest the execution hasn't been sharp enough to make that trade-off work.",
+  "hash": "25764315dde4",
+  "side": "offense"
+ },
+ "Alex Van Pelt": {
+  "blurb": "Van Pelt runs the fastest offense in the dataset \u2014 no one gets more plays on the board \u2014 but the results haven't followed, with EPA/play sitting near the bottom of the league. Everything else about his scheme is resolutely middle-of-the-pack: pass rate, motion, play-action, RPO, creativity. The honest read is that pace is his one real identity marker, and in New England it hasn't translated into production.",
+  "hash": "8972b7b51d0b",
+  "side": "offense"
+ },
+ "Arthur Smith": {
+  "blurb": "Arthur Smith runs a run-heavy, play-action and screen-dependent offense that leans on structure over volume passing \u2014 and in Pittsburgh, that's a reasonable fit given what he's working with at quarterback. The scheme value sits mid-pack, and so do the results, which is about right for a coordinator whose system isn't generating a lot of schematic edge but isn't costing his team either. The heavy screen usage and high play-action rate suggest he's trying to manufacture easy completions rather than ask the quarterback to win in space.",
+  "hash": "5b3f7dc04d40",
+  "side": "offense"
+ },
+ "Declan Doyle": {
+  "blurb": "Doyle's offense ranks sixth in scheme value and seventh in EPA/play, which is about as clean a validation as the data offers \u2014 the system is genuinely adding wins, not just reflecting roster. What's interesting is that almost every usage metric sits in the middle third: pass tendency, motion, RPO, screen rate, tempo are all unremarkable by volume. The creativity ranking of fifth suggests the exoticness lives in design and sequencing rather than any single tool he leans on heavily.",
+  "hash": "c967fbf51e6c",
+  "side": "offense"
+ },
+ "Doug Nussmeier": {
+  "blurb": "Nussmeier runs a conventional, low-frills offense in New Orleans \u2014 minimal play-action, few screens, nothing exotic in the design. The structure is straightforward enough that it doesn't obscure what matters: the results land in the middle of the pack, which is roughly what the scheme asks for. It's worth noting he holds the OC title but doesn't call the plays, so the fingerprints here are shared.",
+  "hash": "238ac6feb254",
+  "side": "offense"
+ },
+ "Eric Bieniemy": {
+  "blurb": "Bieniemy's KC tenure is a tricky read because he held the OC title but didn't call the plays, which muddies what these numbers actually attribute to him. What the data shows is a pass-heavy attack \u2014 top-4 in pass rate over expectation \u2014 with high structural creativity but relatively low motion and a deliberate tempo. Scheme value lands middle of the pack, and so do the results, which is about what you'd expect from a coordinator working at arm's length from the play sheet.",
+  "hash": "9f842cb56d47",
+  "side": "offense"
+ },
+ "Grant Udinski": {
+  "blurb": "Udinski runs a relatively straightforward passing offense \u2014 high pass rate, no real commitment to play-action, RPOs, or tempo \u2014 and it's produced, ranking 8th in offensive EPA/play across his two seasons in Jacksonville. The structure is conventional by design, not by accident, and the results back it up. Worth noting: he currently holds the OC title but isn't the one calling plays, so how much of that production is his fingerprint is a fair question.",
+  "hash": "eaf741ef4e57",
+  "side": "offense"
+ },
+ "Greg Roman": {
+  "blurb": "Greg Roman's offense in Los Angeles is defined less by volume or variety than by structural leverage \u2014 he runs play-action at an elite rate (2nd of 76) and keeps pre-snap motion high (10th), using both to manufacture clean reads and favorable run-pass conflicts before the snap. Everything else sits around league average, which is consistent with his broader identity: not a wide-menu coordinator, but one who picks his tools deliberately. The results land in the middle of the pack on EPA/play, so the structural advantages are real but not yet translating into a decisive edge.",
+  "hash": "b18123c426b8",
+  "side": "offense"
+ },
+ "Josh McDaniels": {
+  "blurb": "McDaniels ranks first in scheme value among 76 play-callers, and the supporting numbers explain why: nothing here is exotic \u2014 middle-of-the-pack in motion, play-action, and pass tendency, with low RPO and screen usage. What that means is the value is coming from structure and execution, not from dressing up plays to fool the eye test. The EPA bears it out at sixth overall.",
+  "hash": "4e3fa7967792",
+  "side": "offense"
+ },
+ "Ken Dorsey": {
+  "blurb": "Dorsey runs a high-volume, pass-heavy offense at an elite pace \u2014 second-fastest in the sample \u2014 and the pre-snap and play-action usage sits right in the middle of the pack, so the tempo is the real differentiator, not the formation variety. The problem is the results don't back it up: scheme value and EPA/play both land around 50th of 76, which means the speed of operation isn't translating into efficiency gains. Plenty of snaps, not enough production per snap.",
+  "hash": "b8ac648d4142",
+  "side": "offense"
+ },
+ "Klay Kubiak": {
+  "blurb": "Kubiak's offense doesn't try to dazzle \u2014 middle-of-the-pack creativity, minimal RPO usage, deliberate tempo \u2014 but the results are elite, ranking third in offensive EPA/play across the sample. San Francisco passes at a high rate and keeps pre-snap motion active, but this isn't a system built on exoticness; it's built on execution. The numbers say that's been more than enough.",
+  "hash": "458a1f2b127c",
+  "side": "offense"
+ },
+ "Klayton Adams": {
+  "blurb": "Adams runs a conventional, low-wrinkle offense in Dallas \u2014 no signature tendency stands out across pass rate, motion, tempo, or play-action, and he's near the bottom in screens and exoticness. What makes the profile interesting is that the results don't match the blandness on paper: a top-10 EPA/play mark suggests the execution is doing the heavy lifting. Worth noting he doesn't call the plays, so how much credit flows to him directly is a real question.",
+  "hash": "bf044d825895",
+  "side": "offense"
+ },
+ "Kliff Kingsbury": {
+  "blurb": "Kingsbury's offense in Washington runs on play-action and RPOs \u2014 both top-four in the league \u2014 which gives it a structural distinctiveness that shows up in the results: high EPA/play and a scheme value sitting 11th among 76 play-callers. The pass-run balance is middling, and he's not leaning on tempo as a gimmick so much as using it as a genuine pressure lever. The design is working, and the numbers back that read cleanly.",
+  "hash": "dc23094cec73",
+  "side": "offense"
+ },
+ "Luke Getsy": {
+  "blurb": "Getsy runs a tempo-heavy offense \u2014 top 10 in plays per game \u2014 with notably active pre-snap motion, and the rest of his tendencies sit pretty close to league average across the board. The problem is the results: EPA/play ranks 64th of 76, and scheme value comes in at 44th, so the pace and movement aren't translating into production. There's a functional system here, but the efficiency numbers say it isn't working yet.",
+  "hash": "1cb6ab278ee2",
+  "side": "offense"
+ },
+ "Mike Kafka": {
+  "blurb": "Kafka runs a tempo-first offense in New York \u2014 9th in pace \u2014 and the rest of the profile sits firmly in the middle of the pack across passing tendency, motion, and play design. The problem is that pace alone isn't generating results: a 72nd-ranked EPA/play says the output hasn't followed the activity. Middle scheme value with bottom-tier production is a combination that tends to be hard to defend.",
+  "hash": "2a8f260181a2",
+  "side": "offense"
+ },
+ "Mike McCarthy": {
+  "blurb": "McCarthy calls his own plays in Pittsburgh and leans heavily pass \u2014 top-10 in pass rate over expectation \u2014 but without much play-action, motion, or structural creativity to support it. The scheme itself grades middle of the pack in adjusted value, and the results lag behind even that: EPA/play ranks 62nd. Calling for the ball in the air is easy; building a passing game that actually works is the harder problem, and that gap is what the numbers flag here.",
+  "hash": "a95a3141d514",
+  "side": "offense"
+ },
+ "Nick Caley": {
+  "blurb": "Nick Caley runs a conventional offense in Houston \u2014 middle of the pack across nearly every structural dimension, from pass rate to motion to tempo. The one meaningful outlier is a notably low screen rate, which isn't a stylistic flourish so much as a deliberate omission. Scheme value and EPA both sit in the middle third, so the results match the approach: functional, unassuming, and not yet distinguishing itself in either direction.",
+  "hash": "e048dcaf925d",
+  "side": "offense"
+ },
+ "Nick Holz": {
+  "blurb": "Holz runs a conventional, run-heavy offense in Tennessee \u2014 low pass rate, middle-of-the-pack motion and play-action, nothing that stands out structurally in either direction. The problem is the results: an EPA/play that ranks 71st of 76 play-callers makes it hard to argue the approach is working. Scheme value sits in the middle of the pack too, so there's no hidden efficiency propping up the raw numbers.",
+  "hash": "3cec7185e398",
+  "side": "offense"
+ },
+ "Shane Waldron": {
+  "blurb": "Waldron runs a balanced, conventionally structured offense that doesn't lean hard on any particular tendency \u2014 except screens, where he's a genuine outlier, ranking fourth in screen rate across the index. The rest of the profile is squarely middle of the pack: average creativity, average pass tendency, average motion and play-action usage. Scheme value sits at 37th and EPA/play at 49th, so the results aren't outpacing the design yet in Chicago.",
+  "hash": "73d4bc73b32f",
+  "side": "offense"
+ },
+ "Tim Kelly": {
+  "blurb": "Tim Kelly's Giants offense runs fast and stays on the ground \u2014 high tempo, heavy screens, and a top-ten play-action rate built around run-first tendencies that rank near the bottom of the league in pass rate. The structure is coherent enough, but the scheme value sits in the middle of the pack, and the EPA follows suit, which means the execution hasn't yet turned the design into a clear edge.",
+  "hash": "936fe7322f30",
+  "side": "offense"
+ },
+ "Tommy Rees": {
+  "blurb": "Rees runs a conventional, run-heavy offense in Atlanta \u2014 low pass rate, low RPO usage, deliberate tempo \u2014 and the structure is fairly standard across the board. The problem is the results don't justify the conservatism: EPA/play ranks 68th, which means the approach isn't winning on execution either. Middle-of-the-pack scheme value with bottom-tier production is a difficult combination to defend after two seasons.",
+  "hash": "f44eaaeb57ac",
+  "side": "offense"
+ },
+ "Andrew Janocko": {
+  "blurb": "Janocko runs a stripped-down offense \u2014 low motion, minimal RPO and screen usage, little play-action, and a deliberate pace \u2014 and the sample is thin enough (one season calling plays) that the middle-of-the-pack EPA result is more a data point than a verdict. He's since moved to OC without play-calling duties, so this profile reflects a moment in time rather than an established identity.",
+  "hash": "600996e92f9f",
+  "side": "offense"
+ },
+ "Brian Angelichio": {
+  "blurb": "Angelichio runs a pass-heavy offense that strips away most of the surrounding architecture \u2014 minimal play-action, motion, RPOs, and screens, at a deliberate pace. The profile is straightforward, and the results have been middling, ranking 58th in offensive EPA/play. Worth noting he doesn't call the plays himself, so how much of this scheme fingerprint is his remains an open question.",
+  "hash": "b9eb98f923eb",
+  "side": "offense"
+ },
+ "Brian Daboll": {
+  "blurb": "Daboll runs one of the most stripped-down offenses in the league \u2014 low motion, low screens, low tempo, rarely throwing more than necessary \u2014 and the results so far with Tennessee haven't justified the minimalism, with EPA/play near the bottom of the sample. The scheme value sits middle of the pack, which suggests the system itself isn't the ceiling, but the execution isn't getting there either. One season in, it's a rough picture.",
+  "hash": "747b84faf0a8",
+  "side": "offense"
+ },
+ "Brian Fleury": {
+  "blurb": "Brian Fleury runs one of the more deliberately pared-down offenses in the league \u2014 low pass rate, low motion, low RPO, slow tempo \u2014 and the data doesn't suggest it's paying off yet, with EPA/play sitting in the bottom half despite scheme value landing around average. One season in, it's too early to write him off, but the results need to catch up to the philosophy before the minimalist approach reads as a feature rather than a limitation.",
+  "hash": "a7ffa89a0540",
+  "side": "offense"
+ },
+ "Chip Kelly": {
+  "blurb": "Kelly's Raiders offense runs plenty of pre-snap motion and play-action \u2014 two hallmarks of his system that show up clearly in the data \u2014 but the results haven't followed: dead last in offensive EPA/play across the sample. The structural pieces are recognizable, the execution isn't, and scheme value sitting in the middle of the pack suggests the design itself isn't compensating for what's missing on the field.",
+  "hash": "3592e4ed5831",
+  "side": "offense"
+ },
+ "Dave Canales": {
+  "blurb": "Canales runs a balanced, conventional offense with one notable wrinkle: his RPO usage ranks sixth in the sample, which gives the run game a legitimate threat without committing to a run-heavy identity. Everything else sits in the middle third \u2014 creativity, motion, tempo, pass tendency \u2014 and the results reflect that, landing around average on EPA/play. Scheme value comes in at #21, suggesting the system itself is modestly above what the outcomes show, though not by a wide margin.",
+  "hash": "d6032ef44d66",
+  "side": "offense"
+ },
+ "David Blough": {
+  "blurb": "Blough runs a stripped-down offense in Washington \u2014 low motion, minimal RPOs and screens, almost no play-action, and a deliberately measured pace. The results land right around average, which is about where the scheme value sits too, so there's no hidden upside being obscured by bad luck or a weak roster. It's a conventional system that produces conventional outcomes, and at this point the data doesn't give you a reason to expect more from it.",
+  "hash": "2e1f4bb14dcd",
+  "side": "offense"
+ },
+ "Davis Webb": {
+  "blurb": "Webb's Denver offense was built around caution \u2014 low tempo, minimal motion, and a near-league-low screen and play-action usage that kept the ball predictable before the snap. It didn't pay off, finishing 60th in EPA/play, and he's since moved to an OC role without play-calling duties. The profile reads like a coordinator still finding his footing, not one who's established a coherent identity.",
+  "hash": "bdc321f1675c",
+  "side": "offense"
+ },
+ "Frank Reich": {
+  "blurb": "Reich runs one of the most bare-bones offenses in the league \u2014 near the bottom in motion, play-action, screens, tempo, and overall exoticness \u2014 and the production it generates sits right around average. That's a tough trade-off: the whole premise of a stripped-down system is execution efficiency, but a #27 scheme value suggests the design itself isn't adding much either. One season in New York, so the sample is limited, but the profile is consistent enough to read clearly.",
+  "hash": "d74eb4604c8b",
+  "side": "offense"
+ },
+ "John Morton": {
+  "blurb": "Morton runs a conventional offense by design \u2014 low pass tendency, nothing exotic \u2014 but the execution layer is where he separates. Elite pre-snap motion and a top-four play-action rate create the conflict; a high screen rate and fast tempo keep defenses from settling. The scheme value ranks 14th of 76 coaches, and the EPA backs it up at 11th, so the conservatism is clearly a choice, not a limitation.",
+  "hash": "aa25629068b7",
+  "side": "offense"
+ },
+ "Josh Grizzard": {
+  "blurb": "Grizzard runs a high-tempo, motion-heavy offense that leans on screens to manufacture easy completions and stress defensive alignment \u2014 two of the more aggressive process choices in the league. The results land in the middle of the pack on both scheme value and EPA, which is about where you'd expect a first-year coordinator to settle while the system finds its footing. The core identity is clear; the production just hasn't separated yet.",
+  "hash": "141dda492bb9",
+  "side": "offense"
+ },
+ "Kevin Patullo": {
+  "blurb": "Patullo runs one of the more structurally busy offenses in the league \u2014 heavy pre-snap motion, a high RPO rate, and an exotic play menu that ranks near the top \u2014 but the system value lands in the middle of the pack once you adjust for quarterback and opponent, which means the complexity isn't translating into a schematic edge. The results (EPA/play) are similarly middling. There's real activity here, just not enough proof yet that it's adding up to more than the sum of its parts.",
+  "hash": "b5fec79cd709",
+  "side": "offense"
+ },
+ "Nathan Scheelhaase": {
+  "blurb": "Scheelhaase runs a stripped-down passing offense \u2014 heavy on dropbacks, light on motion, play-action, RPOs, and screens \u2014 and doesn't dress it up much structurally. The results have been solid enough, middle of the pack on EPA/play in his one season, which suggests the approach works on execution rather than scheme complexity. Worth noting he no longer calls the plays, so how much of this fingerprint carries forward is an open question.",
+  "hash": "97491b9fba48",
+  "side": "offense"
+ },
+ "Pete Carmichael Jr.": {
+  "blurb": "Carmichael's Buffalo offense ranks first in both creativity and EPA/play, which is the combination that makes opposing defensive coordinators lose sleep \u2014 the scheme is genuinely novel and it's converting. The one caveat worth noting: nearly every individual tendency metric sits in the bottom third, so the exoticness score likely reflects structural and formation variety rather than pace or volume of specialty plays. Whatever he's doing, it's working at the highest level in the sample.",
+  "hash": "2e9be6453d05",
+  "side": "offense"
+ },
+ "Ryan Grubb": {
+  "blurb": "Grubb runs a high-tempo, screen-heavy offense that otherwise sits near the median on most structural dimensions \u2014 motion, play-action, RPO, creativity all cluster in the middle third. The pace and screen volume are real signatures, but the results haven't separated yet: a #48 EPA/play finish against a #36 scheme value suggests the system is producing about what it's worth right now, nothing more.",
+  "hash": "4a6d12dc975f",
+  "side": "offense"
+ },
+ "Sean Mannion": {
+  "blurb": "Mannion runs a conventional, low-motion offense in Philadelphia \u2014 almost no play-action, minimal screens, slow tempo, and a fairly standard pass-rate \u2014 and the results haven't justified the approach yet, with EPA/play ranking 70th. Middle-of-the-pack scheme value with bottom-tier production is the honest read here: the system isn't exotic, but the bigger issue is that it isn't working.",
+  "hash": "6f68a8a353a1",
+  "side": "offense"
+ },
+ "Tanner Engstrand": {
+  "blurb": "Engstrand runs a run-heavy offense dressed up with elite pre-snap motion \u2014 second in the league in that department \u2014 but the results haven't justified the approach yet, with offensive EPA/play ranking 69th of 76. The motion usage suggests he's trying to create conflict and leverage the run game structurally, but scheme value sits in the middle of the pack, which means the design isn't generating much of an edge either. One season in, the gap between process and production is the story.",
+  "hash": "09f575171271",
+  "side": "offense"
+ },
+ "Travis Switzer": {
+  "blurb": "Switzer runs a pass-heavy attack that ranks near the top in both pass rate and creative concept variety, but the execution layer is thin \u2014 almost no play-action, minimal pre-snap motion, and a slow pace that gives defenses time to settle. The results reflect it: middle-of-the-pack EPA despite the aggressive intent. The ideas are there; the structural support around them isn't.",
+  "hash": "e96de699d309",
+  "side": "offense"
+ },
+ "Brian Flores": {
+  "blurb": "Flores runs one of the most disruptive defenses in football, and the results back it up \u2014 his Minnesota unit ranks second in defensive EPA/play allowed while generating pressure at an elite rate through heavy blitzing and a constantly shifting menu of fronts and disguises. He's not a man-coverage heavy scheme despite the aggression; he loads the box and creates chaos up front rather than locking down on the back end. The scheme value ranks third overall, which means the system itself is producing above and beyond the personnel.",
+  "hash": "5ed4a0a8ff47",
+  "side": "defense"
+ },
+ "Ejiro Evero": {
+  "blurb": "Evero runs a middle-of-the-road defense in almost every measurable category \u2014 blitz rate, coverage tendencies, front variety \u2014 and the results land in roughly the same place, with a defensive EPA that sits in the bottom half of the sample. The scheme value number suggests he's not extracting much beyond what the personnel gives him, and four seasons in Carolina haven't produced a clear signature tendency that stands out either way.",
+  "hash": "efede21d55aa",
+  "side": "defense"
+ },
+ "Jeff Ulbrich": {
+  "blurb": "Ulbrich runs a fairly conventional defense by the numbers \u2014 middle of the pack in blitz rate, man coverage, box count, and disguise \u2014 but the scheme value sitting at #9 suggests he's getting more out of that structure than the raw inputs imply. The EPA results are solid without being elite, which tracks: this is a coordinator who earns through execution and fit rather than complexity. Four seasons in Atlanta have produced a system that holds up against quality opponents without needing to reinvent itself weekly.",
+  "hash": "a2694197cf58",
+  "side": "defense"
+ },
+ "Lou Anarumo": {
+  "blurb": "Anarumo runs a balanced defensive system in Indianapolis \u2014 middle of the pack across blitz rate, man coverage, and box counts, with enough disguise to rank in the top third on creativity. The problem is the results haven't kept pace with the schematic variety: a #46 EPA/play allowed is below where you'd want to be given the design investment, and a #49 scheme value suggests the system isn't generating much structural edge either.",
+  "hash": "0f84b54ff4c7",
+  "side": "defense"
+ },
+ "Matt Burke": {
+  "blurb": "Burke runs a conventional defense by design \u2014 middle of the pack in blitz rate, man coverage, and box deployment, with low creativity scores \u2014 and it works anyway. His scheme value ranks seventh overall and his EPA allowed ninth, which says the execution and structure are doing the heavy lifting that disguise isn't. Houston's defense doesn't need to trick anyone; it just needs to be sound, and under Burke it consistently is.",
+  "hash": "563d5b0127fc",
+  "side": "defense"
+ },
+ "Mike Macdonald": {
+  "blurb": "Macdonald runs a defense that doesn't stand out on any single structural dimension \u2014 blitz rate, man coverage, and box count all land near the middle of the pack \u2014 but the results are elite anyway, and that's the point. His scheme value ranks first among 67 coordinators, with defensive EPA/play allowed right behind at third, which means he's getting more out of his calls than almost anyone in the database. The edge isn't exotic; it's precision \u2014 getting the right look against the right offense at the right time.",
+  "hash": "282e9bf97e8d",
+  "side": "defense"
+ },
+ "Nick Rallis": {
+  "blurb": "Rallis runs a middle-of-the-road defense in Arizona \u2014 moderate blitz, moderate man, nothing that stands out schematically in either direction. The creativity numbers suggest he's willing to mix looks, but the results haven't followed: a defensive EPA that ranks 59th of 67 coordinators is hard to explain away with context. Four seasons in, the scheme value sitting at 53rd tells you the system itself isn't generating much of an edge.",
+  "hash": "278e21bd0547",
+  "side": "defense"
+ },
+ "Patrick Graham": {
+  "blurb": "Patrick Graham runs a balanced, undisguised defense in Pittsburgh \u2014 middle of the pack on blitz rate, man coverage, and front presentation, with results and scheme value that land in roughly the same tier. There's no strong schematic edge here, but no obvious liability either; what Graham offers is process-neutral football where execution carries the weight. At #29 in both scheme value and EPA allowed, the numbers are consistent, which at least means the scheme isn't the problem.",
+  "hash": "081d88cb4ac4",
+  "side": "defense"
+ },
+ "Steve Spagnuolo": {
+  "blurb": "Spagnuolo runs a pressure-heavy, man-oriented system in Kansas City \u2014 high blitz rate, high man coverage, and he calls it himself. The results land in the middle of the pack on EPA, but the scheme value grades out well above average once you adjust for quarterback and opponent quality, suggesting the system is doing more work than the raw numbers show. Not the most exotic package in the league, but it doesn't need to be.",
+  "hash": "f1277459e401",
+  "side": "defense"
+ },
+ "Todd Bowles": {
+  "blurb": "Bowles brings genuine aggression to Tampa's defense \u2014 top-four blitz rate, a heavy box, and elite disguise that makes life difficult for opposing offenses before the snap. The results are respectable but not elite, landing around the middle of the pack in both EPA allowed and scheme value, which suggests the pressure volume isn't always translating into stops. He's a coordinator who makes things complicated for quarterbacks; whether that complexity converts is the real question.",
+  "hash": "d897f1bca14c",
+  "side": "defense"
+ },
+ "Vance Joseph": {
+  "blurb": "Joseph runs one of the league's more straightforward attacking defenses \u2014 heavy blitz, heavy man, and not a lot of disguise to dress it up \u2014 and it works. Denver's scheme grades out 12th in adjusted value and 12th in EPA allowed, which means the pressure is real and the coverage behind it holds up. He's not hiding what's coming; he's just betting his personnel can execute it, and most weeks they can.",
+  "hash": "878844ff18e4",
+  "side": "defense"
+ },
+ "Vic Fangio": {
+  "blurb": "Fangio runs a coverage-first defense in Philadelphia \u2014 high man rates, conservative blitz counts, nothing exotic in the pressure package \u2014 and the scheme value numbers say it's working anyway. His EPA results sit in the middle of the pack, which is the one honest caveat here: the system grades elite, but the on-field production hasn't fully caught up. The profile is a disciplined, low-variance approach that earns its keep through structure, not creativity.",
+  "hash": "5c9aeda2bd18",
+  "side": "defense"
+ },
+ "Aaron Glenn": {
+  "blurb": "Glenn runs an aggressive, physical defense \u2014 heavy box counts, frequent blitzing, and a strong man-coverage lean that reflects genuine schematic commitment rather than circumstance. The results were solid in New York (top-half EPA), and his disguise work ranks among the better in the sample, so this isn't just volume pressure. Scheme value lands in the middle of the pack, which is the honest ceiling here \u2014 good scheme, not elite.",
+  "hash": "ccf11ca24590",
+  "side": "defense"
+ },
+ "Aden Durde": {
+  "blurb": "Durde runs a pretty conventional defense by the numbers \u2014 middle of the pack in blitz rate, man coverage, box count, and disguise \u2014 but the results are hard to argue with: fourth-best defensive EPA/play allowed among 67 coordinators in the index. It's worth noting he doesn't call the plays, so how much of the credit is his versus the scheme above him is a real question. What's clear is that Seattle's defense is getting elite production out of a straightforward approach.",
+  "hash": "4a92b5678d2f",
+  "side": "defense"
+ },
+ "Anthony Weaver": {
+  "blurb": "Anthony Weaver runs a balanced, unexceptional defense by most measures \u2014 middle of the pack in scheme value, creativity, blitz rate, coverage tendencies, and results. The one wrinkle worth noting: he doesn't call the plays, which makes it genuinely hard to know how much of this profile is his fingerprint and how much belongs to the staff around him. Three seasons into the role, the data doesn't give you a strong read in either direction.",
+  "hash": "c7799836da0b",
+  "side": "defense"
+ },
+ "Chris Shula": {
+  "blurb": "Chris Shula runs a defense that sits squarely in the middle on almost every axis \u2014 blitz rate, man coverage, box count, creativity, and results. That kind of across-the-board average can mean a coordinator who keeps everything in balance, or one who hasn't found a clear edge yet; with a scheme value of 23rd and EPA of 30th, the data doesn't fully resolve that question. Three seasons in, the profile is competent but undefined.",
+  "hash": "9e37ee4d6952",
+  "side": "defense"
+ },
+ "Dennard Wilson": {
+  "blurb": "Wilson runs a pretty standard defense by almost every measure \u2014 middle of the pack in blitz rate, man coverage, box count, and disguise \u2014 and the results sit in the same neighborhood. The deeper problem is scheme value: ranked 54th of 67, his system isn't generating much structural advantage independent of personnel or opponent. Three seasons in New York, and the profile hasn't sharpened into anything that separates him from the field.",
+  "hash": "60578d370eb2",
+  "side": "defense"
+ },
+ "Gus Bradley": {
+  "blurb": "Bradley runs a low-pressure, soft-shell defense in Tennessee \u2014 light in the box, conservative with blitzes, and not doing much to disguise what's coming. The results are middling, which is about what the scheme value predicts: nothing broken, nothing exceptional. He's not extracting more than the system offers, and the system isn't offering much.",
+  "hash": "d93d9966dc76",
+  "side": "defense"
+ },
+ "Jeff Hafley": {
+  "blurb": "Hafley's defense in Miami sits squarely in the middle on almost every axis \u2014 blitz rate, man coverage, scheme value, results \u2014 and that consistency across categories suggests a coordinator running a sound, balanced scheme rather than one leaning on any single identity. The box counts are a touch more aggressive than the rest of his profile, but nothing dramatic. At 42nd in defensive EPA allowed, the results track with the inputs: competent, not a difference-maker.",
+  "hash": "27d303d070e0",
+  "side": "defense"
+ },
+ "Jesse Minter": {
+  "blurb": "Minter runs a defense that wins through disguise more than aggression \u2014 his blitz rate is ordinary, his man coverage unremarkable, and he keeps a light box, yet Baltimore's defense consistently generates elite results. The scheme value ranks fifth overall, and the EPA numbers confirm it's not a fluke. What he does well is make offenses wrong before the snap, varying fronts and simulating pressure without committing to it.",
+  "hash": "64a6d9484a7b",
+  "side": "defense"
+ },
+ "Jim Schwartz": {
+  "blurb": "Jim Schwartz runs a physical, aggressive defense in Cleveland \u2014 high blitz rates, heavy man coverage, and a packed box are the constants. The disguise isn't exotic, but the execution is good enough that it doesn't need to be: his scheme value ranks second among all coordinators, and the results back it up with a top-five defensive EPA allowed. When the fundamentals are this sound, complexity is optional.",
+  "hash": "3f36bb53b816",
+  "side": "defense"
+ },
+ "Teryl Austin": {
+  "blurb": "Austin runs a high-disguise operation in Pittsburgh \u2014 varied fronts, simulated pressures, and a blitz rate that keeps offenses from getting comfortable \u2014 but the scheme value lands in the middle of the pack, which suggests the complexity isn't consistently converting into structural advantage. The results track similarly: decent EPA numbers, not dominant ones. Three seasons in, the design is clearly there; the efficiency is still catching up.",
+  "hash": "2191b476bf94",
+  "side": "defense"
+ },
+ "Al Golden": {
+  "blurb": "Al Golden runs a fairly conventional defense in Cincinnati \u2014 low blitz, mid-range man coverage, nothing exotic up front \u2014 and the results have been middling at best. The scheme value ranks near the bottom of the league even after adjusting for quarterback and opponent quality, which means the execution isn't covering for the lack of wrinkles. There's a version of simple that works; this isn't clearly that yet.",
+  "hash": "cfbadcb021d3",
+  "side": "defense"
+ },
+ "Anthony Campanile": {
+  "blurb": "Campanile runs a zone-heavy defense in Jacksonville that doesn't blitz much or disguise a ton, but the results are hard to argue with \u2014 top-10 in both scheme value and EPA allowed. The system's strength is execution and structure, not complexity, and that's a legitimate edge. When the schematic floor is that high, you don't need to be cute.",
+  "hash": "506d2979a1cc",
+  "side": "defense"
+ },
+ "Bobby Babich": {
+  "blurb": "Babich runs a balanced, process-oriented defense in Buffalo that doesn't lean heavily on any one lever \u2014 not the blitz, not man coverage, not loaded boxes. The scheme value sits in the middle of the pack, and the results track with that: competent but not yet elite. Two seasons in, the profile reads like a coordinator still establishing an identity rather than one who's found a signature.",
+  "hash": "e1ac3abdfb49",
+  "side": "defense"
+ },
+ "Brandon Staley": {
+  "blurb": "Staley's Saints defense is built around the box \u2014 he's one of the heaviest run-stuffers in the league by alignment, and it shows in his down-to-down positioning. The rest of the profile is more ordinary: middle-of-the-pack blitz rates, middle-of-the-pack results, and a deliberate lean away from man coverage. The scheme value sits at #30, which means the system itself isn't generating much of an edge beyond the run-defense commitment.",
+  "hash": "734fff4f5804",
+  "side": "defense"
+ },
+ "Dennis Allen": {
+  "blurb": "Allen runs a measured defense in Chicago \u2014 nothing exotic, nothing particularly simplified either, just a middle-of-the-road operation across blitz rate, coverage, and front usage. The scheme value sits at 17th, which suggests the structure is reasonably sound, but the results trail that at 34th on EPA allowed, meaning execution isn't fully cashing the design's checks. A workmanlike DC profile without a clear identity driving it.",
+  "hash": "c920bb0267c5",
+  "side": "defense"
+ },
+ "Joe Whitt Jr.": {
+  "blurb": "Whitt sends pressure at a high clip \u2014 top-10 in blitz rate \u2014 but the results haven't followed, with defensive EPA and scheme value both sitting near the bottom of the league. The coverage and front deployment are about average across the board, so this isn't a case of an exotic system that hasn't clicked yet; it's a conventional approach that hasn't been winning its matchups.",
+  "hash": "36c8f11ba1d7",
+  "side": "defense"
+ },
+ "Joe Woods": {
+  "blurb": "Woods runs a man-heavy defense \u2014 top-2 in man-coverage rate \u2014 and lets that commitment anchor everything else. The blitz and disguise numbers are unremarkable, so this isn't a system that wins through confusion; it wins through coverage discipline. Scheme value sits at 22nd and EPA at 25th, which is functional without being a real strength \u2014 a defense that holds its own but hasn't separated itself in New Orleans.",
+  "hash": "054542b5445d",
+  "side": "defense"
+ },
+ "Kelvin Sheppard": {
+  "blurb": "Sheppard runs one of the more complex disguise packages in the league \u2014 top-ten in creativity, first in box count \u2014 but the results haven't caught up yet, with Detroit's defense ranking near the bottom in EPA allowed. The schematic fingerprints are interesting: heavy box presence paired with varied fronts and sim pressures at a measured blitz rate suggests he's trying to manufacture pressure without fully committing to it. Two seasons in, the gap between design and execution is still wide.",
+  "hash": "2c4bada5e944",
+  "side": "defense"
+ },
+ "Raheem Morris": {
+  "blurb": "Morris runs one of the more disguise-heavy defenses in the league \u2014 top-four in creativity \u2014 but the results land in the middle of the pack on both scheme value and EPA allowed, which means the illusion isn't consistently converting to stops. Blitz rate, man coverage, and box count are all mid-range, so the exotic look is more about pre-snap confusion than any single structural commitment. Solid, not yet elite.",
+  "hash": "850ab5da1351",
+  "side": "defense"
+ },
+ "Ryan Nielsen": {
+  "blurb": "Nielsen runs a straightforward, man-heavy defense \u2014 top-four in man-coverage rate \u2014 that doesn't ask much from the front in terms of disguise or pressure variety. The results land in the middle of the pack on EPA, which is roughly what the scheme value projects: this isn't a system generating edges through complexity, and the numbers don't suggest it's making up for that through execution either.",
+  "hash": "2ade8a2da5ab",
+  "side": "defense"
+ },
+ "Shane Bowen": {
+  "blurb": "Bowen runs a conventional defense in New York \u2014 middle of the pack in blitz rate, man coverage, and box counts, with results that sit right around the median as well. The concern is scheme value: even after adjusting for quarterback and opponent quality, his system ranks near the bottom of the league at 59th. That gap between results and scheme value suggests the Giants aren't getting much structural edge from the design itself.",
+  "hash": "2d339fec3f37",
+  "side": "defense"
+ },
+ "Zach Orr": {
+  "blurb": "Orr runs a high-disguise operation in Baltimore \u2014 ninth in creativity despite sitting near the middle on blitz rate, man coverage, and box counts, which tells you the variety is in the looks, not just the volume of any one call. The results track about where the scheme value does: functional, not elite. Two seasons in, he's showing real sophistication in design, but the underlying numbers say there's still a gap between how complex it looks and how much it's actually costing opposing offenses.",
+  "hash": "6d1a740a3a26",
+  "side": "defense"
+ },
+ "Brian Duker": {
+  "blurb": "Duker runs a middle-of-the-road defense in New York \u2014 not a heavy blitzer, not a particularly exotic front \u2014 but the results hold up, sitting 14th in defensive EPA/play allowed. The caveat worth noting: he doesn't call the plays, so how much of that scheme identity is his is a real question. What's here is functional and productive; the fingerprints just aren't entirely clear.",
+  "hash": "5923fb271cad",
+  "side": "defense"
+ },
+ "Charlie Bullen": {
+  "blurb": "Bullen brings a high-blitz approach to New York with reasonable structural variety underneath, and the scheme itself grades out as roughly average in adjusted value \u2014 neither a drag nor an edge. The results, though, are hard to paper over: a defensive EPA allowed that ranks near the bottom of the sample suggests the execution hasn't matched the aggression, at least through one season.",
+  "hash": "8133d175995c",
+  "side": "defense"
+ },
+ "Chris Harris": {
+  "blurb": "Harris runs a heavy-box defense that commits bodies to stopping the run at a higher rate than almost anyone in the league, but the results haven't justified the approach \u2014 defensive EPA/play allowed ranks 65th of 67, and scheme value sits at 62nd. Everything else is middling: blitz rate, man coverage, disguise. There's no clear identity beyond stacking the box, and so far the data doesn't suggest it's working.",
+  "hash": "91b9034f4d79",
+  "side": "defense"
+ },
+ "Chris O'Leary": {
+  "blurb": "O'Leary runs a straightforward defense in Los Angeles \u2014 low disguise, limited blitz usage, nothing exotic in the front \u2014 and the results land in the middle of the pack on both EPA and scheme value. The honest read is that the system isn't generating an edge through deception; it's holding its own on execution. Functional, but not a scheme that's outperforming its personnel.",
+  "hash": "1d9a64b80d24",
+  "side": "defense"
+ },
+ "Christian Parker": {
+  "blurb": "Parker's Dallas defense sits near the bottom of the index in both scheme value and results \u2014 66th in EPA allowed, 63rd in adjusted system worth \u2014 which doesn't leave much room to explain away the numbers. His disguise and pressure package are middle-of-the-pack, so this isn't a case of a creative coordinator let down by personnel; the scheme itself isn't generating value, and the scoreboard confirms it.",
+  "hash": "7d7c166dfbf1",
+  "side": "defense"
+ },
+ "Dan Quinn": {
+  "blurb": "Quinn's Dallas defense was one of the best in the league by results \u2014 first in EPA/play allowed \u2014 and the structure backs it up: elite man coverage, a loaded box, and a top-ten blitz rate. The aggression is real, not decorative. Where it gets complicated is scheme value sitting at 26th, which suggests the results leaned on personnel doing the heavy lifting more than the design itself. That's not a knock on Quinn, but it's the honest read of the data.",
+  "hash": "2b9428d8c993",
+  "side": "defense"
+ },
+ "Daronte Jones": {
+  "blurb": "Jones brings elite disguise and pressure variety to Washington \u2014 top-ranked in creativity among all coordinators \u2014 but the results haven't followed yet, with defensive EPA sitting in the bottom quarter of the league. The scheme value lands mid-pack, which suggests the concepts aren't the problem so much as the execution behind them. It's early, and the infrastructure around a first-year coordinator matters, but the gap between design and production is real and worth watching.",
+  "hash": "b5eab69db077",
+  "side": "defense"
+ },
+ "DeMarcus Covington": {
+  "blurb": "Covington runs a high-blitz, heavy man-coverage defense in New England \u2014 the fingerprints are clear enough. The problem is the results: a bottom-ten EPA allowed and scheme value that ranks 60th of 67 DCs suggests the aggression isn't generating the stops to justify it. One season in, it's early, but the data doesn't yet show a system that's working.",
+  "hash": "081899f88e57",
+  "side": "defense"
+ },
+ "DeMeco Ryans": {
+  "blurb": "Ryans runs a straightforward defensive system \u2014 low disguise, minimal exotic pressure, predictable in its construction. The results have been middling too, with EPA allowed sitting right around league average. The honest read here is that his value comes from player development and execution rather than scheme design, which is fine until the talent thins out.",
+  "hash": "b8b615bc6e18",
+  "side": "defense"
+ },
+ "Eric Washington": {
+  "blurb": "Washington runs a fairly vanilla operation in Chicago \u2014 middle of the pack on scheme value, blitz rate, and coverage mix, with a light box count that suggests he's not leaning on run defense as a foundation. The results land right around average too. There's nothing in the profile that stands out in either direction, which makes him one of the harder coordinators to pin down after just one season.",
+  "hash": "ac86579d2a17",
+  "side": "defense"
+ },
+ "Jim Leonhard": {
+  "blurb": "Leonhard calls his own defense in Buffalo, and the scheme reads as functional on paper \u2014 middle-of-the-pack in both value and creativity \u2014 but the results are hard to defend: a defensive EPA/play ranking of 64th out of 67 is a real problem, not a rounding error. The scheme isn't doing anything wrong conceptually; it's just not producing stops.",
+  "hash": "ac51eae45f53",
+  "side": "defense"
+ },
+ "Jimmy Lake": {
+  "blurb": "Jimmy Lake brings elite disguise and deception to Atlanta's defense \u2014 ranked second in the league in creativity despite a blitz rate that sits squarely in the middle of the pack, which tells you the pressure comes from confusion more than volume. He plays heavy man coverage, and the scheme itself is generating results that are middling on both ends: middle of the pack in scheme value and defensive EPA allowed. The tools are legitimate; the outcomes haven't caught up yet.",
+  "hash": "e577d3b9b70e",
+  "side": "defense"
+ },
+ "Jonathan Gannon": {
+  "blurb": "Gannon runs a fairly conventional scheme by design \u2014 his disguise numbers sit in the middle of the pack \u2014 but the results argue that execution and structure are doing the work here. His scheme grades out eighth in adjusted value and 11th in EPA allowed, which is a strong return on a system that doesn't depend on exotic looks to generate it. When the scheme value and the outcomes both point the same direction, that's a coherent defensive identity, not a lucky one.",
+  "hash": "c82188b705e3",
+  "side": "defense"
+ },
+ "Matt Eberflus": {
+  "blurb": "Eberflus loads the box and plays it relatively straight \u2014 low disguise, middling blitz and man rates, nothing exotic in the pressure menu. The problem is the results: dead last in defensive EPA/play allowed, with scheme value near the bottom of the entire index. Stacking the box without the surrounding structure to make it work is a bad trade, and the numbers say it plainly.",
+  "hash": "fd9464cab996",
+  "side": "defense"
+ },
+ "Mike Rutenberg": {
+  "blurb": "Rutenberg runs a straightforward defense in Cleveland \u2014 near the bottom of the league in disguise and blitz variety, which is about as vanilla as it gets schematically. But the results hold up: middle-of-the-pack EPA allowed and scheme value suggest the Browns aren't losing ground by keeping it simple. This is a bend-don't-break, execution-first operation, and so far the tape backs that up.",
+  "hash": "1905f3e5771a",
+  "side": "defense"
+ },
+ "Mike Zimmer": {
+  "blurb": "Zimmer runs a high-blitz, heavy man-coverage defense \u2014 top-five in man rate, top-fifteen in blitz rate \u2014 which is consistent with everything he's done throughout his career. The problem in Dallas is the results: a defensive EPA/play that ranks 60th of 67 coordinators means the aggression isn't converting into stops. The scheme value sits mid-pack, so the approach isn't costing him on paper, but the on-field production is hard to defend.",
+  "hash": "0ec4f3f1854c",
+  "side": "defense"
+ },
+ "Nick Sorensen": {
+  "blurb": "Sorensen runs a straightforward, front-loaded defense \u2014 high box counts, modest blitz rates, minimal disguise \u2014 and doesn't try to dress it up. The scheme value sits mid-pack and the results (EPA/play) are a touch below that, which is worth noting in year one of a job he inherited with a lot of moving parts. The lack of creative pressure isn't a stylistic quirk to dismiss; it's the area where the data most clearly trails the rest of his profile.",
+  "hash": "977ab2fc216c",
+  "side": "defense"
+ },
+ "Rob Leonard": {
+  "blurb": "Leonard runs a straightforward defense in Las Vegas \u2014 low disguise, conventional fronts, and results that land in the middle of the pack on both scheme value and EPA allowed. There's no deception built into this system, which isn't automatically a problem, but the execution hasn't yet made the case that simplicity is a strength here. A year into the job, the profile reads as a work in progress.",
+  "hash": "650b3edf67cc",
+  "side": "defense"
+ },
+ "Robert Saleh": {
+  "blurb": "Saleh's San Francisco defense sits near the bottom on both scheme value and results \u2014 low creativity, middle-of-the-pack blitz and coverage rates, and a defensive EPA that ranks 56th. Nothing in the profile stands out as a deliberate minimalist approach that's winning on execution; the numbers just aren't working. There's no one thing to point to, which is its own kind of problem.",
+  "hash": "9f3ec2e29df0",
+  "side": "defense"
+ },
+ "Sean Duggan": {
+  "blurb": "Duggan's defense in Miami sits near the middle of the pack on disguise and pressure variety, which isn't the problem \u2014 the problem is the results. A #63 EPA/play allowed ranking is hard to explain away with context, and at one season in, the sample is thin but the number is real. He also doesn't call the plays, which complicates how much of this lands on him directly, but it doesn't change what the unit produced.",
+  "hash": "b946e9cbb420",
+  "side": "defense"
+ },
+ "Terrell Williams": {
+  "blurb": "Williams runs a pressure-heavy defense in New England \u2014 top-ten in blitz rate \u2014 but the scheme value sits mid-pack, which means the aggression isn't generating a structural edge so much as it's masking one. Coverage is mixed, fronts are varied enough, and the EPA results are respectable for where this roster is. One season in, he's functional but not yet defined.",
+  "hash": "b18b7700d2b2",
+  "side": "defense"
+ },
+ "Zak Kuhr": {
+  "blurb": "Kuhr brings a lot of activity to New England's defense \u2014 eighth in creativity means varied fronts, simulated pressures, and genuine disguise at a high rate. The results are middling so far, with EPA allowed and scheme value both sitting around the league median, which suggests the complexity isn't yet converting into consistent stops. One season in, there's real toolkit here, but the outcomes haven't caught up to the design.",
+  "hash": "371c3477f8bd",
+  "side": "defense"
+ }
+}
