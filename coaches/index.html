@@ -214,25 +214,38 @@ function identity(c){
     push('motion_rate',{elite:'a near-constant pre-snap motion offense',high:'a heavy-motion offense'});
     push('screen_rate',{elite:'a screen-heavy attack'});
     push('rpo_rate',{elite:'a heavy RPO attack'});
-    push('plays_pg',{elite:'a breakneck-tempo offense',high:'an up-tempo offense'});
-    push('off_epa',{elite:['a top-tier scoring offense','one of the league\'s most productive offenses'],high:'a productive offense',low:'a below-average offense',bottom:['a struggling offense','an offense that hasn\'t clicked']},true);
   }else{
     push('scheme_value',{elite:['an elite scheme regardless of personnel','a system that travels regardless of roster','a scheme that elevates whatever personnel it has'],high:'a scheme that travels past its talent',low:'a scheme that leans on its talent',bottom:'a scheme that underperforms its talent'},true);
     push('creativity',{elite:['one of the most exotic, disguise-heavy defenses in football','as multiple and disguise-heavy as any defense','a weekly disguise-and-pressure chess match'],high:['a multiple, disguise-leaning defense','a disguise-leaning front'],low:'a low-disguise defense',bottom:'a simple, execution-first defense with few wrinkles'});
     push('blitz_rate',{elite:['one of the league\'s heaviest blitzers','a relentless pressure defense'],high:'a pressure-leaning front',low:'a low-blitz defense',bottom:'a coverage-first, rush-four defense'});
     push('man_rate',{elite:'a man-coverage defense',high:'a man-leaning defense',low:'a zone-leaning defense',bottom:'a zone-based defense'});
-    push('box',{elite:'a stacked-box run front'});
-    push('light_box_rate',{elite:'a light-box, sub-package defense'});
-    push('nickel_plus',{elite:'a sub-package (nickel+) defense'});
-    push('def_epa',{elite:['an elite defense','one of the league\'s stingiest units'],high:'a stout unit',low:'a soft unit',bottom:'a leaky defense'},true);
   }
-  if(!items.length)return 'a balanced, middle-of-the-pack profile.';
-  items.sort((a,b)=>b.d-a.d);                      // most distinctive trait leads
+  // --- Sentence 1: identity + signature mechanics (most distinctive first) ---
+  items.sort((a,b)=>b.d-a.d);
   const join=a=>a.length>1?a.slice(0,-1).join(', ')+' and '+a[a.length-1]:a[0];
-  const pos=items.filter(x=>x.dir==='pos'), qn=items.filter(x=>x.dir==='neg'&&x.qual);
-  if(pos.length && qn.length && qn[0].d>=n*0.25)     // real strength + real QUALITY weakness -> contrast
-    return join(pos.slice(0,2).map(x=>x.t))+', but '+qn[0].t+'.';
-  return join(items.slice(0,4).map(x=>x.t))+'.';
+  const s1 = items.length ? join(items.slice(0,4).map(x=>x.t)) : 'a balanced, middle-of-the-pack profile';
+  // --- Sentence 2: how it operates (personnel/front + tempo), then whether it works (results) ---
+  const op=[]; let res;
+  if(side==='offense'){
+    const grp={p11:'11 personnel (3 WR)',p12:'12 personnel (2 TE)',p13:'13 personnel',p21:'21 personnel',p22:'22 personnel'};
+    let dom=null,mx=-1; for(const k in grp){const v=c[k]; if(v!=null&&v>mx){mx=v;dom=k;}}
+    if(dom && dom!=='p11') op.push('leans on heavier '+grp[dom]);
+    else if(dom==='p11' && band(r.p11)==='elite') op.push('spreads the field from 11 personnel');
+    const tb=band(r.plays_pg);
+    if(tb==='elite'||tb==='high') op.push('plays at '+(tb==='elite'?'a breakneck tempo':'an up-tempo pace'));
+    else if(tb==='low'||tb==='bottom') op.push('grinds it out at a deliberate pace');
+    res={elite:'The scoreboard backs it up — a top-tier scoring offense.',high:'It has graded out a productive offense.',mid:'Results have landed around league average.',low:'The results have lagged — a below-average offense.',bottom:'The results haven\'t followed — a struggling offense.'}[band(r.off_epa)];
+  }else{
+    const fb=band(r.box), lb=band(r.light_box_rate), nk=band(r.nickel_plus);
+    if(fb==='elite') op.push('stacks the box against the run');
+    else if(lb==='elite') op.push('stays in light, sub-package boxes');
+    else if(nk==='elite') op.push('lives in nickel-and-dime personnel');
+    res={elite:'The results back it up — an elite defense.',high:'It has graded out a stout unit.',mid:'Results have landed around league average.',low:'The results have slipped — a soft unit.',bottom:'The results haven\'t followed — a leaky defense.'}[band(r.def_epa)];
+  }
+  const extra=[];
+  if(op.length) extra.push('It '+join(op)+'.');
+  if(res) extra.push(res);
+  return s1+'.'+(extra.length?' '+extra.join(' '):'');
 }
 function render(){
   const C=cols(), B=board(), shown=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
