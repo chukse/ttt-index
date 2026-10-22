@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TTT API — Throw in the Towel</title>
+<meta name="description" content="Programmatic access to Throw in the Towel's QBIR + Coach Index ratings. Free key for personal use; Pro for commercial.">
+<link rel="icon" href="./logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700;800;900&family=Spline+Sans+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#101124;--panel:#171830;--panel2:#1d1e3a;--line:#2b2d4e;--ink:#EEE9DC;--dim:#A7A2BA;--faint:#8E8AA6;--gold:#D3A456;--gold-br:#ECC77F;--up:#49C98B;--disp:'Anton',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Archivo',system-ui,sans-serif;line-height:1.6;min-height:100vh}
+.wrap{max-width:860px;margin:0 auto;padding:30px 20px 60px}
+.top{display:flex;align-items:center;gap:10px;margin-bottom:28px}
+.top img{height:26px}.top a{color:var(--dim);text-decoration:none;font-size:13px;font-weight:600}
+.top .sp{margin-left:auto}
+h1{font-family:var(--disp);font-size:46px;letter-spacing:.02em;line-height:1;text-transform:uppercase}
+.lede{color:var(--dim);font-size:16px;margin-top:12px;max-width:620px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:30px}
+@media(max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:36px}}
+.tier{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+.tier.pro{border-color:var(--gold)}
+.tier h2{font-family:var(--disp);font-size:24px;letter-spacing:.03em;text-transform:uppercase}
+.price{font-family:'Spline Sans Mono',monospace;font-size:15px;color:var(--gold-br);margin:2px 0 14px}
+.feat{list-style:none;font-size:14px;color:var(--dim)}
+.feat li{padding:4px 0 4px 20px;position:relative}
+.feat li::before{content:"›";position:absolute;left:2px;color:var(--gold)}
+input{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--ink);border-radius:9px;padding:11px 13px;font-size:15px;font-family:inherit;margin-top:14px}
+.btn{width:100%;margin-top:10px;font-family:'Archivo';font-weight:800;font-size:14px;border:0;border-radius:9px;padding:12px;cursor:pointer;background:var(--gold);color:#17120a}
+.btn:hover{background:var(--gold-br)}.btn:disabled{opacity:.6;cursor:default}
+.btn.ghost{background:transparent;border:1px solid var(--gold);color:var(--gold-br)}
+.out{margin-top:14px;font-size:13px}
+.keybox{background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:13px;display:flex;gap:9px;align-items:center;margin-top:6px}
+.keybox code{font-family:'Spline Sans Mono',monospace;font-size:13px;color:var(--gold-br);word-break:break-all;flex:1}
+.kbtn{font-family:'Archivo';font-weight:700;font-size:12px;border:0;border-radius:7px;padding:7px 11px;cursor:pointer;background:var(--gold);color:#17120a}
+.warn{color:var(--faint);font-size:12px;margin-top:8px}.err{color:#e5607e}
+.docs{margin-top:34px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+.docs h3{font-family:var(--disp);font-size:20px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:12px}
+.ep{font-family:'Spline Sans Mono',monospace;font-size:13px;color:var(--ink);padding:5px 0;border-top:1px solid var(--line)}
+.ep span{color:var(--faint)}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:14px;margin-top:14px;font-family:'Spline Sans Mono',monospace;font-size:12.5px;color:var(--dim);overflow-x:auto;white-space:pre-wrap;word-break:break-word}
+pre b{color:var(--gold-br)}
+.note{color:var(--faint);font-size:12.5px;margin-top:18px}
+a{color:var(--gold-br)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><img src="./logo.png" alt="TTT"><a href="./">← TTT Index</a><span class="sp"></span><a href="https://ttt-api.chukegbuchunam.workers.dev/v1" target="_blank">API status</a></div>
+  <h1>The TTT API</h1>
+  <p class="lede">The QBIR quarterback ratings and the Coach Index — situation-adjusted, attribution-correct — delivered as clean JSON. Build on the numbers everyone else is citing.</p>
+
+  <div class="grid">
+    <div class="tier">
+      <h2>Free</h2>
+      <div class="price">$0 · personal use</div>
+      <ul class="feat">
+        <li>QBIR + Coach Index endpoints</li>
+        <li>300 requests / day</li>
+        <li>Personal / non-commercial</li>
+        <li>Attribution to Throw in the Towel required</li>
+      </ul>
+      <input id="email" type="email" placeholder="you@email.com" autocomplete="email">
+      <button class="btn" id="getfree">Get a free key</button>
+      <div class="out" id="freeout"></div>
+    </div>
+
+    <div class="tier pro">
+      <h2>Pro</h2>
+      <div class="price">$49 / year · commercial</div>
+      <ul class="feat">
+        <li>Everything in Free</li>
+        <li>10,000 requests / day</li>
+        <li>Commercial use (models, media, apps)</li>
+        <li>Full TTT membership included</li>
+      </ul>
+      <button class="btn ghost" id="getpro">Get Pro — $49/yr</button>
+      <div class="out" id="proout"></div>
+    </div>
+  </div>
+
+  <div class="docs">
+    <h3>Endpoints</h3>
+    <div class="ep">POST /v1/signup <span>— free key; send {"email":"…"}</span></div>
+    <div class="ep">GET /v1/qbir <span>— QBIR board. ?season= &limit=</span></div>
+    <div class="ep">GET /v1/qbir/{qb_id} <span>— one quarterback</span></div>
+    <div class="ep">GET /v1/coaches <span>— Coach Index. ?side=offense|defense</span></div>
+    <div class="ep">GET /v1/coaches/{name} <span>— one coach (URL-encoded)</span></div>
+    <pre>curl -H "Authorization: Bearer <b>YOUR_KEY</b>" \
+  https://ttt-api.chukegbuchunam.workers.dev/v1/qbir?limit=5</pre>
+    <div class="note">Authenticate every request with <code>Authorization: Bearer &lt;key&gt;</code>. Ratings are Throw in the Towel's own derived metrics. Attribution required on all tiers.</div>
+  </div>
+</div>
+<script>
+const API="https://ttt-api.chukegbuchunam.workers.dev";
+const PRO_CHECKOUT=""; // Stripe Checkout URL — set when billing goes live
+const fo=document.getElementById("freeout");
+document.getElementById("getfree").onclick=async()=>{
+  const email=document.getElementById("email").value.trim();
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){fo.className="out err";fo.textContent="Enter a valid email.";return;}
+  fo.className="out";fo.textContent="Generating your key…";
+  try{
+    const r=await fetch(`${API}/v1/signup`,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({email})});
+    const d=await r.json();
+    if(!r.ok||!d.api_key){fo.className="out err";fo.textContent=(d.error&&d.error.message)||"Couldn't issue a key.";return;}
+    fo.className="out";
+    fo.innerHTML=`<div class="keybox"><code id="k">${d.api_key}</code><button class="kbtn" id="cp">Copy</button></div><div class="warn">Save this key — it's your login for the API.</div>`;
+    document.getElementById("cp").onclick=()=>{navigator.clipboard.writeText(d.api_key);document.getElementById("cp").textContent="Copied";};
+  }catch(e){fo.className="out err";fo.textContent="Network error — try again.";}
+};
+document.getElementById("getpro").onclick=()=>{
+  const po=document.getElementById("proout");
+  if(PRO_CHECKOUT){location.href=PRO_CHECKOUT;return;}
+  po.className="out";po.innerHTML='Pro billing launches shortly — email <a href="mailto:throwinthetowel214@gmail.com?subject=TTT%20Pro%20API">throwinthetowel214@gmail.com</a> and we\'ll set you up now.';
+};
+</script>
+</body>
+</html>
