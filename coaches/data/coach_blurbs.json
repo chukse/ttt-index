@@ -5,23 +5,23 @@
   "side": "offense"
  },
  "Andy Reid": {
-  "blurb": "Reid throws more than almost anyone \u2014 sixth-most pass-heavy offense in the league over this stretch \u2014 and leans on RPOs (4%, double the league average) and screens (10% vs. 7%) to keep defenses honest at the line. Pre-snap motion runs a bit above average at 48% but isn't the cornerstone it is elsewhere. The scheme value sits in the middle of the pack (-0.017 vs. -0.013 league average), meaning the results (+0.07 EPA/play, top 13) are more about execution than design \u2014 which, with this roster, is a reasonable trade.",
-  "hash": "6e8abe134e3f",
+  "blurb": "Reid runs one of the more pass-heavy systems in the league \u2014 +6.0 over expected pass rate, fifth-highest among all callers \u2014 and layers in screens (10%, well above the 7% norm) and RPOs (4%, fourth-highest in the league) to keep defenses from teeing off on that tendency. Pre-snap motion sits meaningfully above average at 48%. The scheme creativity score of 58 is genuinely elevated, though the honest caveat here is that scheme value reads as middling (-0.017, indicative only), and with this quarterback, it's nearly impossible to know how much of the production belongs to the system versus the player running it.",
+  "hash": "1b15b339b62f",
   "side": "offense"
  },
  "Ben Johnson": {
-  "blurb": "Ben Johnson's system doesn't stand out for being exotic \u2014 his creativity score sits right at the league median \u2014 but the results are elite: +0.101 scheme value (fourth in the league) and +0.09 EPA/play, both well above average. The real structural signature is play-action at 25% against an 18% norm, paired with a tempo that runs about seven plays per game faster than league average. He runs a nearly run-first pass distribution and almost never uses RPOs, which makes the efficiency numbers more impressive, not less.",
-  "hash": "68e1ce361fe4",
+  "blurb": "Ben Johnson's offense sits near the top of the league in scheme value \u2014 +0.101 against a league average of -0.013, third among 76 coaches \u2014 built around two things that genuinely stand out: play-action at 25% (league average is 18%) and a fast pace at 82 plays per game (league average 75). Everything else is pretty conventional \u2014 motion, screens, pass tendency, and creativity all land right around the norm. The results back the approach: +0.09 EPA/play, tenth in the league.",
+  "hash": "8e1c70b7fcdb",
   "side": "offense"
  },
  "Brian Schottenheimer": {
-  "blurb": "Schottenheimer runs one of the more structurally conventional offenses in the league \u2014 creativity sits at 44, motion, play-action, and RPO usage are all right at league average \u2014 but the system is quietly producing. Scheme value of +0.077 ranks seventh of 76 callers, well clear of the league average of -0.013, which means the design is generating real QB- and opponent-adjusted value without leaning on exotic wrinkles to do it. The honest read: this is an execution-based system that earns its results through sound structure, not novelty.",
-  "hash": "6b569556d68d",
+  "blurb": "Schottenheimer's Dallas offense is almost entirely conventional \u2014 motion, play-action, RPOs, and screens all sit right at league average, and at 44/100 the scheme rates a little below the midpoint on structural variety. The one thing worth noting is tempo: 81 plays per game against a league norm of 75, which is a real operational choice, not a rounding error. Results came in slightly above average at +0.04 EPA/play, but this system ran with effectively one quarterback the whole window, so whether that reflects the scheme or the QB is genuinely impossible to say.",
+  "hash": "a646b93c84d8",
   "side": "offense"
  },
  "Drew Petzing": {
-  "blurb": "Petzing runs one of the more conventional schemes in the league \u2014 creativity scores at 41, well below the league average of 50, and almost every other dial sits right at the norm. What he does do is lean slightly more on play-action than most (22% vs. an 18% average), and the results are quietly solid: +0.04 EPA/play against a league average of -0.01. Nothing exotic here, but the execution has been good enough to land above average on outcomes.",
-  "hash": "a602c631c14a",
+  "blurb": "Petzing runs one of the more conventional systems in the league \u2014 creativity scores at 41 against a 50 average, and most of his other tendencies sit right at or near league norms. What separates him from a pure vanilla label is a slightly elevated play-action rate (22% vs. 18% average) and results that are modestly above average at +0.04 EPA/play. The scheme value lands in the middle of the pack at #19, which is about right: a competent, execution-first offense that doesn't ask the system to do the heavy lifting.",
+  "hash": "5ed92c0f9312",
   "side": "offense"
  },
  "Jim Bob Cooter": {
@@ -30,58 +30,58 @@
   "side": "offense"
  },
  "Kellen Moore": {
-  "blurb": "Moore's system is about as close to the middle of the distribution as you'll find \u2014 conventional pass tendency, average play-action, average creativity, average results. The one thing that genuinely stands out is pre-snap motion at 48% of dropbacks, well above the ~40% league norm, suggesting the offense does its work manipulating defenses before the snap rather than through structural wrinkles. Tempo is a modest separator too, at 80 plays per game versus a 75-play average. Otherwise, this is a system still searching for an edge.",
-  "hash": "e1430fdf1003",
+  "blurb": "Moore's offense is almost entirely average by the numbers \u2014 creativity, pass tendency, play-action, and screens all sit right at league norm \u2014 with two modest exceptions: pre-snap motion runs at 48%, meaningfully above the 40% league average, and tempo pushes to 80 plays per game versus a 75-play norm. The results land slightly below average at -0.03 EPA/play, which isn't alarming but isn't a selling point either. A middle-of-the-pack system producing middle-of-the-pack outcomes.",
+  "hash": "847b93ab3bb4",
   "side": "offense"
  },
  "Kevin O'Connell": {
-  "blurb": "O'Connell's offense is essentially average across the board \u2014 pass tendency, motion, tempo, screens, and RPOs all sit right at league norms \u2014 with one meaningful exception: play-action at 23%, well above the 18% league average. The problem is it hasn't translated into results, with EPA/play at -0.06 against a league average of -0.01, and scheme value slightly below average at -0.042. The play-action lean is real, but the system hasn't been generating much off of it.",
-  "hash": "45d4147af26f",
+  "blurb": "O'Connell's offense is largely conventional \u2014 tempo, motion, pass tendency, and creativity all sit right at league average \u2014 with one genuine outlier: he leans on play-action at a 23% rate, well above the 18% league norm. The problem is that the results haven't backed it up, with EPA/play at -0.06 against a league average of -0.01, and scheme value at -0.042, both below average. The play-action emphasis is a real identity; what it's produced in Minnesota so far is a harder sell.",
+  "hash": "a2e368dbdd20",
   "side": "offense"
  },
  "Kyle Shanahan": {
-  "blurb": "Shanahan's system sits near the top of the league in scheme value (+0.125, second of 76) and EPA (+0.14, fourth), and almost nothing about the design is exotic \u2014 creativity lands right at the league median. The one real structural tell is pre-snap motion, which he deploys on 59% of dropbacks against a ~40% league norm; that's the engine. Play-action, RPOs, tempo, and screens are all ordinary by design, which means the results come almost entirely from execution and pre-snap manipulation rather than schematic novelty.",
-  "hash": "e511581c0ddf",
+  "blurb": "Shanahan's system ranks first in scheme value over this stretch \u2014 meaning even after adjusting for quarterback quality and opponent, the structure itself is generating real offensive edge. The one thing that stands out stylistically is pre-snap motion: 59% of dropbacks, well above the 40% league norm, which is the mechanism behind a lot of what his offense creates. Everything else \u2014 play-action, tempo, pass tendency, screens \u2014 sits right at league average, which is the honest read: this isn't an exotic system, it's a precise one that happens to produce elite results.",
+  "hash": "dd1a81b6c7f6",
   "side": "offense"
  },
  "Matt LaFleur": {
-  "blurb": "LaFleur sits middle of the pack on almost every schematic dial \u2014 motion, play-action, tempo, screen rate all near league average \u2014 yet ranks third in scheme value among 76 play-callers, which means the edge is coming from execution and design quality, not exoticness. He does run RPOs at a slightly elevated rate (3% vs. 2% league norm) and leans mildly run-heavy relative to expectation, but neither is the story. The story is that a conventional-looking system is producing elite QB-adjusted value, and that's actually harder to do than it looks.",
-  "hash": "bb83a433d551",
+  "blurb": "LaFleur's system grades out near the top of the league in scheme value, though the honest caveat is that the number is hard to fully separate from the quarterback \u2014 treat it as indicative of a strong system, not a certified rank. What's notable is how unremarkable the stylistic profile looks: creativity, motion, play-action, tempo, and screens all sit right at or near league average, with a slight lean toward the run. The output has been quietly excellent regardless, which is its own kind of statement.",
+  "hash": "50f6b7b50294",
   "side": "offense"
  },
  "Matt Nagy": {
-  "blurb": "Nagy's Giants offense runs a little pass-heavy \u2014 third-highest pass rate over expectation in the league \u2014 and leans on RPOs at roughly twice the league average (4% vs. 2%). Beyond that, the profile is mostly average across the board: creativity, motion, tempo, play-action all sit right around the norm. The results are slightly positive, which is a reasonable outcome for a scheme that isn't trying to win on cleverness.",
-  "hash": "3fa1a1d2db1d",
+  "blurb": "Nagy's Giants offense sits close to league average on most structural dimensions \u2014 creativity, motion, tempo, and play-action all land in the middle of the pack \u2014 but two things stand out: he passes at a notably higher rate than expected given game script, and his RPO usage at 4% is among the highest in the league against a 2% norm. Results have been marginally positive at +0.03 EPA/play, though with effectively one quarterback running this system throughout, it's impossible to say how much of that belongs to the scheme versus the player running it.",
+  "hash": "981c28186a70",
   "side": "offense"
  },
  "Mike LaFleur": {
-  "blurb": "LaFleur's system doesn't stand out on paper \u2014 conventional creativity, ordinary tempo, no RPOs to speak of \u2014 but pre-snap motion at 52% of dropbacks is a genuine calling card, running well above the ~40% league norm and serving as the primary mechanism for creating leverage before the snap. Everything else sits close to average, and the offense has still produced above-league EPA, which suggests the motion-heavy approach is doing real work even when the rest of the scheme is unremarkable.",
-  "hash": "0bd78c1057d7",
+  "blurb": "LaFleur's Arizona offense leans heavily on pre-snap motion \u2014 52% of dropbacks, well above the ~40% league norm \u2014 while running almost no RPOs (effectively zero against a 2% average) and sitting squarely at league average on tempo, screens, and play-action. The system produced above-average EPA results, but it ran with one quarterback throughout, so there's no clean way to separate what LaFleur built from what the quarterback provided \u2014 the style is identifiable, the value isn't.",
+  "hash": "2b9b33198bd7",
   "side": "offense"
  },
  "Mike McDaniel": {
-  "blurb": "McDaniel runs one of the more structurally unusual offenses in the league \u2014 pre-snap motion on 59% of dropbacks (league norm is ~40%) and screens at roughly 10% of plays combine to make defenses move and react before the snap as much as after it. What's harder to square is that he's also one of the run-heaviest callers in the data, sitting 5.1 points below expected pass rate, which cuts against the reputation for exotic design. The scheme grades out slightly below average on adjusted value, and results bear that out.",
-  "hash": "3dcf671c9fc0",
+  "blurb": "McDaniel runs one of the more structurally distinctive offenses in the league \u2014 pre-snap motion on 59% of dropbacks (league norm is around 40%, top-4 in the NFL) and a screen rate of 10% against a 7% average signal a system built on manufactured leverage before and after the snap. The wrinkle is that it comes with a run-heavy lean (5.1 percentage points below expected pass rate) and scheme value sitting at -0.045 against a league average of -0.013, meaning the complexity isn't translating to a systemic edge \u2014 at least not yet with this roster.",
+  "hash": "dd816cc85c61",
   "side": "offense"
  },
  "Sean McVay": {
-  "blurb": "McVay's system earns its value through process, not novelty \u2014 his creativity score sits below the league average, but the scheme grades out at +0.061, well above the norm. The signature levers are pre-snap motion (53% of snaps, against a ~40% league average) and play-action (23% vs. 18%), both used well above average to manufacture leverage before the ball is snapped. RPOs are essentially absent at 1%. The results \u2014 +0.06 EPA/play \u2014 back a system built on execution and structural advantage rather than exotic design.",
-  "hash": "1b3afad0bf46",
+  "blurb": "McVay's offense runs on pre-snap motion (53% of dropbacks, well above the ~40% league norm) and play-action (23% vs. 18% average) \u2014 two levers he pulls harder than most. The creativity score sits right at the middle of the pack, so this isn't an exotic system; it's a conventional structure executed with specific, deliberate emphases. Scheme value grades out positively at +0.061, though with only moderate reliability given his quarterback situation, treat that as directionally encouraging rather than definitive.",
+  "hash": "27a26dbc1cb1",
   "side": "offense"
  },
  "Sean Payton": {
-  "blurb": "Payton runs a genuinely varied attack \u2014 screens at 10% and RPOs at 3% both sit well above league norms, and his creativity score of 58 lands in the top 15 among all play-callers \u2014 but the results so far in Denver have been middling, with EPA/play at -0.02 and scheme value only modestly above average. Pre-snap motion is actually below the league norm at 34% versus 40%, so the exoticness comes from play design and menu width rather than pre-snap manipulation. A scheme that looks more interesting on paper than it's delivered on the field, at least to this point.",
-  "hash": "6534834a37ee",
+  "blurb": "Payton's Denver offense lands in an interesting middle ground: creativity scores notably high at 58/100 against a 50/100 league average, driven largely by a screen rate (10%) and RPO usage (3%) that both run well above norm, while pre-snap motion sits below average at 34% versus the league's 40%. Everything else \u2014 pass tendency, play-action, tempo \u2014 is essentially ordinary. Scheme value comes in at +0.023 against a league average of -0.013, a modest positive, though results (-0.02 EPA/play) have been roughly league-average, suggesting the system's upside hasn't fully materialized yet.",
+  "hash": "28da65d92a77",
   "side": "offense"
  },
  "Shane Steichen": {
-  "blurb": "Steichen's offense doesn't stand out on the surface \u2014 motion, tempo, screens, and pass tendency all sit right at or near league average \u2014 but the system is generating genuine value where it counts. His scheme value of +0.051 ranks ninth in the league against a negative league average, meaning the structure itself is producing above expectations after adjusting for quarterback and opponent. The one meaningful structural lean is play-action at 22% against an 18% norm, a modest but consistent commitment. Results so far in Indianapolis are middling at -0.02 EPA/play, which is an honest caveat \u2014 the scheme has upside the outcomes haven't yet reflected.",
-  "hash": "8994bf110585",
+  "blurb": "Shane Steichen's system ranks 7th in QB- and opponent-adjusted scheme value at +0.051, a meaningful gap above the league average of -0.013, which says the design itself is generating returns beyond personnel. The stylistic profile is mostly conventional \u2014 motion, tempo, screen rate, and pass tendency all sit near league norms \u2014 with modest upticks in play-action (22% vs. 18% average) and RPOs (3% vs. 2%). Results so far are roughly average at -0.02 EPA/play, so the scheme value hasn't fully shown up in outputs yet.",
+  "hash": "bd2ff0f6d0cb",
   "side": "offense"
  },
  "Todd Monken": {
-  "blurb": "Monken's scheme in Cleveland doesn't stand out on any structural dimension \u2014 motion, tempo, play-action, RPO usage, and screen rate all sit exactly at league average. What stands out is that it works anyway: his scheme value ranks tenth among 76 play-callers at +0.051, well above the league average of -0.013, and the offense produces +0.06 EPA/play against a league average of -0.01. The read here is execution over invention \u2014 a conventional framework that's generating real value above what the personnel alone would explain.",
-  "hash": "6c4f62604e27",
+  "blurb": "Todd Monken's Cleveland offense sits almost perfectly at league average across every measurable dimension \u2014 motion, tempo, play-action, RPOs, screens, pass tendency, all of it within rounding distance of the norm. What stands out is the scheme value sitting indicatively in the top tier at +0.051 against a league average of -0.013, though with only moderate reliability it's hard to fully disentangle from the quarterback. The honest read: this is a clean, conventional system that has produced above-average results, and the style itself gives you no obvious reason why.",
+  "hash": "f0a1715c4715",
   "side": "offense"
  },
  "Wes Phillips": {
@@ -90,18 +90,18 @@
   "side": "offense"
  },
  "Zac Taylor": {
-  "blurb": "Taylor runs one of the most pass-heavy systems in the league \u2014 +8.0 over expected, second among all play-callers \u2014 and almost everything else sits right at the league norm: motion at 40%, RPOs at 2%, screens at 7%, tempo ordinary. The creativity score (40/100, well below the 50 average) confirms this isn't a scheme that tries to manufacture edges through exoticness; it leans on volume and execution. The results are solidly positive at +0.04 EPA/play, though the scheme value itself (+0.034) lands around the middle of the pack \u2014 which means the passing volume is carrying more weight than the design.",
-  "hash": "95630bd5244c",
+  "blurb": "Zac Taylor runs one of the most pass-heavy systems in the league \u2014 +8.0 over expected pass rate, second among 76 play-callers \u2014 while keeping almost everything else at or near league average: motion at 40%, tempo at 77 plays per game, play-action slightly below norm at 15%. The creativity score (40/100, 68th) confirms it: this isn't a scheme built on disguise or pre-snap complexity, it's built on volume and execution in the passing game. That approach grades out as genuinely above-average system value (+0.034 against a league mean of -0.013, 11th overall), which means the aggression through the air isn't just a tendency \u2014 it's producing real schematic worth.",
+  "hash": "5e0013c6c212",
   "side": "offense"
  },
  "Bobby Slowik": {
-  "blurb": "Slowik runs one of the more structurally creative offenses in the league \u2014 59/100 on exoticness, genuinely in the top tier \u2014 but the results haven't matched the design, with EPA/play at -0.06 against a league average of -0.01 and scheme value sitting at -0.081. The most defining quirk is how run-heavy he skews: -4.2 pass rate over expected puts him near the bottom of the league, well below the -0.8 norm. Pre-snap motion at 47% is a real commitment, but everything else \u2014 play-action, tempo, screens \u2014 is essentially average.",
-  "hash": "5f517f0b2769",
+  "blurb": "Slowik runs one of the more exotic systems in the league \u2014 creativity scores in the top 10, with pre-snap motion on 47% of dropbacks above the 40% norm \u2014 but the outputs haven't matched the design. His offense ranks 55th in EPA/play at -0.06 against a league average of -0.01, and scheme value sits at -0.081 versus -0.013 average, though with only moderate reliability that number is indicative rather than definitive. The clearest through-line is a genuine run lean: pass rate nearly four points below expectation, ranking 64th. Creative by structure, conservative by tendency, and so far underwater on results.",
+  "hash": "61b9498026e6",
   "side": "offense"
  },
  "Brad Idzik": {
-  "blurb": "Idzik runs one of the most conventional offensive systems in the league \u2014 nearly every dial sits at or within a tick of league average, from tempo and play-action to RPOs and screen rate. The one thing that does stand out is pre-snap motion at 31%, meaningfully below the 40% norm, so defenses aren't getting a lot of conflict generated before the snap. Results land just above average at +0.01 EPA/play, which is about right for a scheme that wins on execution rather than design.",
-  "hash": "d5ddc4db8331",
+  "blurb": "Idzik's system is about as conventional as it gets on paper \u2014 creativity, tempo, play-action, RPOs, and screens all sit right at or near league average. The one thing that stands out is his pre-snap motion rate: 31%, noticeably below the ~40% league norm, meaning he's running a relatively static pre-snap offense. His scheme value comes in at +0.025 against a league average of -0.013, which is a decent number, though with only moderate reliability it's hard to fully disentangle from the quarterback. Results land right around average at +0.01 EPA/play \u2014 a functional system, not a distinctive one.",
+  "hash": "728704cd9775",
   "side": "offense"
  },
  "Dan Pitcher": {
@@ -115,8 +115,8 @@
   "side": "offense"
  },
  "Joe Brady": {
-  "blurb": "Brady's system stands out for two things that don't often go together: it ranks second in creativity league-wide, with pre-snap motion on 50% of dropbacks against a 40% norm, yet nearly everything else \u2014 play-action, RPO, tempo, screen rate \u2014 sits right at league average. The exotic elements are structural, not scattered across the whole menu. Scheme value is a modest middle-of-the-pack +0.025, but the offensive EPA of +0.18 per play is second in the league, which suggests the results are real even if the system itself isn't doing all the lifting.",
-  "hash": "6e9cc48f3284",
+  "blurb": "Brady's system sits near the top of the creativity rankings \u2014 73/100 against a league average of 50 \u2014 and pre-snap motion at 50% of dropbacks (above the ~40% norm) is a big part of why defenses have trouble reading it pre-snap. Everything else is essentially average: play-action, RPO, screen rate, and tempo all land right at league norms, which means the complexity is coming from alignment and motion, not volume or pace. The +0.18 EPA/play is elite, though how much of that is scheme versus quarterback is genuinely hard to disentangle \u2014 the +0.025 scheme value is indicative of a real edge, but only moderately reliable given the context.",
+  "hash": "401bdb727442",
   "side": "offense"
  },
  "Joe Lombardi": {
@@ -125,43 +125,43 @@
   "side": "offense"
  },
  "Klint Kubiak": {
-  "blurb": "Kubiak's system is about as close to baseline as it gets \u2014 creativity, tempo, play-action, and screens all sit right at league average, and his pass tendency runs only marginally run-heavier than the norm. The one thing that stands out is pre-snap motion at 48%, meaningfully above the 40% league average, suggesting he uses formation manipulation as a primary diagnostic tool before the snap. Scheme value comes in at +0.019 against a league average of -0.013, and results land near even \u2014 a functional, if unspectacular, operation.",
-  "hash": "f56e1ddc1b9c",
+  "blurb": "Kubiak's Las Vegas offense is about as close to league-average as a system gets \u2014 pass tendency, play-action, tempo, and screens all land right at the norm. The one genuine deviation is pre-snap motion, which he uses on 48% of dropbacks against a ~40% league average, suggesting he's leaning on that tool to manufacture advantage where the rest of the scheme is deliberately conventional. Scheme value sits at +0.019 against a league average of -0.013, a modest positive, and EPA/play is effectively zero \u2014 both middle-of-the-pack reads that say this is a functional, unspectacular operation.",
+  "hash": "5bbac7d610c8",
   "side": "offense"
  },
  "Liam Coen": {
-  "blurb": "Coen's offense doesn't stand out on any single structural dimension \u2014 motion, tempo, play-action, RPO usage, and screens all land right at league average. What stands out is the output: +0.10 EPA/play and +0.098 scheme value both rank fifth in the sample, meaning he's squeezing genuine production out of a conventional framework. The case for Coen is execution and design quality, not exoticness.",
-  "hash": "0e8269327b75",
+  "blurb": "Coen's system doesn't announce itself with any particular stylistic signature \u2014 motion, tempo, play-action, and RPO usage all sit right at league average \u2014 but the results are hard to argue with: +0.10 EPA/play ranks fifth league-wide, and his QB-adjusted scheme value of +0.098 ranks fourth among 76 coaches, meaning the system itself is generating real value beyond whoever is running it. The honest read is that this is a clean, conventional offense that earns its production through execution and design quality, not exotic looks.",
+  "hash": "b561687197de",
   "side": "offense"
  },
  "Nathaniel Hackett": {
-  "blurb": "Hackett runs one of the most conventional offensive schemes in the league \u2014 pre-snap motion at 28% against a 40% norm, play-action below average, RPOs nearly nonexistent, everything else sitting at the median. The creativity score of 36/100 ranks 72nd of 76 play-callers, so there's no exotic wrinkle to point to. What makes that concerning is the results: -0.10 EPA/play against a league average of -0.01, ranking 63rd, suggests the straightforward approach isn't being executed well enough to justify its simplicity.",
-  "hash": "0e347f931657",
+  "blurb": "Hackett's Arizona tenure was about as conventional as it gets \u2014 motion at 28% against a 40% league norm, play-action and RPOs both sitting below average, screens exactly at the mean. The one thing that stands out is how little creativity the system generated (36/100, near the bottom of the league), though minimalism isn't inherently a problem. The results, though, were: -0.10 EPA/play ranked 63rd, and a QB-adjusted scheme value of -0.066 against a league average of -0.013, meaning the system itself wasn't adding much regardless of personnel.",
+  "hash": "2bc3852f069a",
   "side": "offense"
  },
  "Press Taylor": {
-  "blurb": "Taylor's system doesn't stand out on the surface \u2014 creativity, motion, play-action, and tempo all sit right around league average \u2014 but the scheme itself grades out well, +0.035 scheme value against a league average of -0.013, good for 13th among 76 callers. The one concrete outlier is pre-snap motion at 31%, notably below the ~40% league norm. The results are essentially neutral at -0.02 EPA/play, which is roughly where the league sits, so the scheme value hasn't fully translated yet.",
-  "hash": "8492e9dbd50d",
+  "blurb": "Press Taylor's system is about as close to league-average as an offense can be across the board \u2014 motion at 31% against a 40% norm is the one real deviation, and it runs notably still by modern standards. The indicative scheme value of +0.035 looks solid, but reliability is only moderate given how intertwined the results are with his quarterback situation, so that number is a signal, not a verdict. Results landed right around the middle at -0.02 EPA/play.",
+  "hash": "312c990a6861",
   "side": "offense"
  },
  "Zac Robinson": {
-  "blurb": "Robinson runs one of the more run-heavy systems in the league \u2014 passing 5.7% less than expected, well below the -0.8 league norm \u2014 but the results don't validate the approach, with EPA/play sitting below average and scheme value at -0.068 against a league average of -0.013. The one wrinkle worth noting is pre-snap motion at 48%, modestly above the 40% norm. Otherwise this is a conventional, low-creativity system that hasn't yet earned its conservatism.",
-  "hash": "8f9c126fd20c",
+  "blurb": "Robinson runs one of the more run-heavy systems in the league \u2014 nearly 6 fewer pass attempts over expected per game than the norm \u2014 and pairs that with a low-creativity approach (40/100 against a league average of 50) that leans on structure over variety. Pre-snap motion at 48% is a genuine wrinkle, sitting above the league average of 40%, but most other markers sit right at the mean. The results so far are slightly below average at -0.04 EPA/play, and the scheme value of -0.068 against a league average of -0.013 suggests the system itself isn't adding much on top of personnel.",
+  "hash": "a97c16effcde",
   "side": "offense"
  },
  "Alex Van Pelt": {
-  "blurb": "Van Pelt's New England offense runs faster than anyone in the league \u2014 86 plays per game against a 75-play average, and it's not particularly close. Everything else sits at or near league norms: conventional structure, average motion, average play-action, screens slightly elevated at 9%. The pace hasn't translated to production, though; at -0.11 EPA/play, the results rank near the bottom of the league, and scheme value comes in below average as well.",
-  "hash": "5dd533b6eb4a",
+  "blurb": "Van Pelt ran the fastest offense in the league at 86 plays per game \u2014 well above the 75-game average \u2014 and that's essentially the one distinguishing feature of his system. Everything else sits right at the norm: motion (39% vs. 40% avg), play-action (20% vs. 18%), screen rate (9% vs. 7%). The results were poor at -0.11 EPA/play, and the QB-adjusted scheme value of -0.057 ranked 31st \u2014 meaning the system itself wasn't adding much beyond volume.",
+  "hash": "67621c37259b",
   "side": "offense"
  },
  "Arthur Smith": {
-  "blurb": "Smith runs a run-heavy offense \u2014 passing 3.5 fewer times per game than expected, well below the league norm of roughly even \u2014 built around two genuine wrinkles: play-action at 23% (league avg 18%) and screens at 10% (league avg 7%). Those aren't unrelated; the run commitment creates the leverage that makes both work. The results land exactly at league average EPA/play, which is honest: this is a functional, execution-first system that generates a little above-average scheme value without doing anything exotic.",
-  "hash": "34d33b5f20b2",
+  "blurb": "Arthur Smith runs a run-heavy, play-action-forward system \u2014 pass rate is well below the league norm, but he compensates with play-action at 23% (against an 18% average) and screens at 10% (against 7%), giving the passing game structure without asking it to carry the offense. Everything else \u2014 motion, tempo, RPOs \u2014 sits right at league average. The results land exactly at the league median, which is honest: this is a functional, coherent system that doesn't ask more than it delivers.",
+  "hash": "eb29ab2f8dbb",
   "side": "offense"
  },
  "Declan Doyle": {
-  "blurb": "Doyle runs one of the more creative offensive systems in the league \u2014 63rd percentile on exoticness, fifth overall \u2014 but the surface call sheet looks conventional: play-action, motion, tempo, and RPO usage all sit right around league average. What actually sets him apart is scheme value: +0.081 against a league average of -0.013, sixth overall, meaning he's consistently generating advantages before the results even come in. The offense is delivering too, at +0.10 EPA/play, so the creativity isn't decorative \u2014 it's working.",
-  "hash": "a8a52c9863c7",
+  "blurb": "Doyle's offense scores a 63 on the creativity index \u2014 well above the 50 league average \u2014 yet the surface-level mechanics are almost entirely ordinary: motion, play-action, tempo, and RPO usage all sit right at league norms. The exoticness lives somewhere less visible, in structure and sequencing rather than raw pre-snap volume. Results are strong at +0.10 EPA/play, and the scheme value reads as a top-five system, though that number carries only moderate reliability given the quarterback situation \u2014 treat it as a real signal, not a confirmed ranking.",
+  "hash": "33e345e76aea",
   "side": "offense"
  },
  "Doug Nussmeier": {
@@ -170,8 +170,8 @@
   "side": "offense"
  },
  "Eric Bieniemy": {
-  "blurb": "Bieniemy's Washington offense passed at one of the highest rates in the league \u2014 +7.0 over expected, a top-4 mark \u2014 while running notably less pre-snap motion (28% vs. a 40% norm) and slower tempo than most. The creativity score of 57 suggests genuine structural variety despite that minimalist operation, though scheme value came in near league average and results were middling. A pass-heavy system that moved the ball adequately but didn't generate a real edge.",
-  "hash": "14d2bdab0891",
+  "blurb": "Bieniemy's Kansas City offense was among the most pass-heavy in the league \u2014 +7.0 over expected, fourth in the window \u2014 but it ran deliberately, with pre-snap motion at 28% (well below the ~40% norm) and a slower pace than most. The honest caveat here is that the system's actual worth can't be separated from Patrick Mahomes, so what reads as offensive creativity (57/100, modestly above average) may be more quarterback than coordinator. Results were positive but unremarkable at +0.03 EPA/play, which tracks: this was a competent operation built around an exceptional talent, and the scheme was a vehicle more than a driver.",
+  "hash": "4aa2eef1e268",
   "side": "offense"
  },
  "Grant Udinski": {
@@ -180,18 +180,18 @@
   "side": "offense"
  },
  "Greg Roman": {
-  "blurb": "Roman's system has two genuine signatures: play-action on 27% of dropbacks \u2014 second in the league against an 18% norm \u2014 and pre-snap motion on 52% of snaps, well above the 40% average. Everything else sits near the middle: creativity at 48 (league average is 50), screens and RPOs both negligible, tempo ordinary. The play-action volume is the defining bet, and the results so far are modest \u2014 +0.01 EPA/play, right around league average.",
-  "hash": "589ae76831d6",
+  "blurb": "Roman's system in Los Angeles is defined most clearly by its play-action volume \u2014 27% of dropbacks, second in the league against an 18% norm \u2014 paired with pre-snap motion on 52% of plays, well above the 40% average. Everything else sits close to league typical: creativity, tempo, RPO and screen usage are all middle of the pack. The scheme-value number is positive and above average, but reliability is only moderate given the quarterback context, so treat it as a directional read rather than a firm verdict.",
+  "hash": "f37bbb54f184",
   "side": "offense"
  },
  "Josh McDaniels": {
-  "blurb": "McDaniels runs one of the most conventional-looking offenses in the league \u2014 near-average motion, play-action, and tempo, almost no screens or RPOs \u2014 and yet his scheme value ranks first among 76 play-callers after adjusting for quarterback and opponent. The gap between how unremarkable the profile looks and how much the system actually produces is the whole story: this is execution-based offense, and the results (+0.10 EPA/play, sixth overall) back it up.",
-  "hash": "3ae2dd195afe",
+  "blurb": "McDaniels ran a notably stripped-down offense in New England \u2014 almost no screens (4% against a 7% league norm), virtually no RPOs (1% vs. 2%), and below-average motion and play-action across the board. By structure, it's about as conventional as it gets. The results were strong (+0.10 EPA/play, sixth in the sample), but this scheme ran almost entirely through one quarterback, so there's no clean way to separate what the system produced from what the QB produced.",
+  "hash": "a1de56564f30",
   "side": "offense"
  },
  "Ken Dorsey": {
-  "blurb": "Dorsey's clearest fingerprint is pace \u2014 85 plays per game ranks second in the league against a norm of 75, and he pairs that with a pass-lean that sits comfortably above average. Everything else is genuinely ordinary: motion, play-action, screens, and RPOs all land right at the league mean. The problem is the results don't vindicate the tempo emphasis \u2014 scheme value comes in at -0.093 against a league average of -0.013, and EPA/play is negative, suggesting the volume isn't generating much.",
-  "hash": "c28155b3130a",
+  "blurb": "Dorsey runs one of the fastest offenses in the league \u2014 85 plays per game against a 75-play norm, which puts him second overall \u2014 and pairs that pace with a pass tendency that runs meaningfully above average. Everything else sits right at the league mean: motion, play-action, RPOs, screens, creativity. The results have been below average at -0.04 EPA/play, and the scheme value lands similarly, which makes the volume a reasonable question: pushing the pace this aggressively while the underlying numbers trail isn't obviously a winning formula.",
+  "hash": "4614430c3c6b",
   "side": "offense"
  },
  "Klay Kubiak": {
@@ -205,48 +205,48 @@
   "side": "offense"
  },
  "Kliff Kingsbury": {
-  "blurb": "Kingsbury's system in Washington runs at genuine volume \u2014 82 plays per game against a league average of 75 \u2014 and layers in play-action at 26% (league average is 18%, top-3 in the sample) and RPOs at 4% (nearly double the norm), which together explain most of the elite creativity score of 64/100. The scheme value sits at +0.048 against a league average of -0.013, and the offense has produced +0.07 EPA/play, so the exoticness isn't just cosmetic. Pre-snap motion is above average but not a defining feature; the identity is really built on structural deception before and after the snap, run at a high clip.",
-  "hash": "f5fc9b2bc457",
+  "blurb": "Kingsbury's Washington offense is built around pre-snap manipulation \u2014 play-action on 26% of dropbacks (league average is 18%, top-3 leaguewide) and RPOs on 4% (double the norm, also top-3), giving defenses a lot to account to before the ball is snapped. The system rates as genuinely exotic by structure, scoring 64/100 on creativity against a league average of 50. Scheme value comes in at +0.048 (indicative, not precise \u2014 the sample is tied enough to one quarterback that clean separation is difficult), and results have been strong at +0.07 EPA/play, though the same caveat applies.",
+  "hash": "b4538ef50637",
   "side": "offense"
  },
  "Luke Getsy": {
-  "blurb": "Getsy runs a genuinely up-tempo offense \u2014 83 plays per game ranks eighth in the league against an average of 75 \u2014 and pairs that with pre-snap motion on 51% of dropbacks, well above the ~40% norm, suggesting a system built around creating defensive conflict before the snap. Everything else sits near league average: play-action, screens, RPOs, pass tendency. The problem is the results: -0.10 EPA/play against a league average of -0.01 is a real gap, and scheme value of -0.052 versus -0.013 average means the system itself isn't generating much edge independent of personnel.",
-  "hash": "45dd1c6ecbb1",
+  "blurb": "Getsy runs a genuinely up-tempo operation \u2014 83 plays per game ranks eighth across the sample, and he pairs that pace with pre-snap motion on 51% of dropbacks, well above the 40% league norm. The rest of the scheme is ordinary: play-action, RPOs, screens, and pass tendency all sit near league average. The results, though, are hard to overlook: -0.10 EPA/play against a league average of -0.01, ranking 64th of 76, and a scheme value of -0.052 against an average of -0.013 \u2014 suggesting the system itself isn't generating value, not just the personnel.",
+  "hash": "da2397c77990",
   "side": "offense"
  },
  "Mike Kafka": {
-  "blurb": "Kafka's scheme reads as almost perfectly average across the board \u2014 creativity, motion, play-action, RPOs, and screens all sit right at league norms \u2014 with one real outlier: he runs fast, ranking 9th in tempo at 83 plays per game against a league average of 75. The problem is that pace hasn't produced anything; at -0.14 EPA/play, the offense ranks 72nd of 76, and his scheme value of -0.138 sits well below the league average of -0.013. More snaps, worse results.",
-  "hash": "2d100339892c",
+  "blurb": "Kafka's system is almost entirely average across the board \u2014 motion, play-action, screens, RPO usage, and creativity all sit right at league norms \u2014 with one genuine outlier: he pushes tempo hard, running 83 plays per game against a league average of 75, good for 9th overall. The problem is that pace hasn't produced anything; the Giants ranked 72nd of 76 in EPA/play at -0.14, and even after adjusting for quarterback and opponent, the scheme itself graded out below average. More snaps, worse results.",
+  "hash": "3972c3b34255",
   "side": "offense"
  },
  "Mike McCarthy": {
-  "blurb": "McCarthy passes more than almost any play-caller in the league \u2014 +3.6 over expected, ninth-highest \u2014 but does so with almost no play-action (12%, against an 18% league norm), which is an unusual combination. The rest of the scheme is conventional across the board: average motion, tempo, screens, and creativity scores all cluster near the mean. The results haven't justified the approach: -0.09 EPA/play ranks 62nd, a meaningful gap below average even after adjusting for quarterback and opponent.",
-  "hash": "f6d2a23342d0",
+  "blurb": "McCarthy's Pittsburgh offense passes more than almost anyone \u2014 +3.6 over expected, ninth-highest in the league \u2014 but does so without the play-action that typically makes passing attacks work, running it on just 12% of dropbacks against an 18% league norm. Everything else sits at or near average: tempo, motion, screens, RPO usage. The results have been poor (-0.09 EPA/play, 62nd of 76), and the scheme value lands below average too, so the style isn't hiding anything the numbers aren't already saying.",
+  "hash": "d5a655dcfff7",
   "side": "offense"
  },
  "Nick Caley": {
-  "blurb": "Caley's Houston offense is about as close to league-average as it gets across nearly every structural dimension \u2014 motion, tempo, play-action, and pass tendency all land within a point or two of the norm. The one real outlier is screens, where he calls them at 3% against a 7% league average, one of the lowest rates in the league. Results are modestly positive at +0.01 EPA/play, though scheme value sits just below average at -0.025, suggesting the production is more player-driven than system-driven.",
-  "hash": "3c1265eae3c2",
+  "blurb": "Nick Caley's Houston offense is almost entirely average by the numbers \u2014 motion, tempo, play-action, and pass tendency all sit right at or within a hair of league norm. The one real outlier is screens, where he runs them at roughly half the league rate (3% vs. 7%), suggesting a deliberate preference for structured routes over short-area releases. Results land just above league average at +0.01 EPA/play, though with moderate reliability on scheme value, how much of that belongs to the system versus the quarterback remains genuinely unclear.",
+  "hash": "629c33dcb88f",
   "side": "offense"
  },
  "Nick Holz": {
-  "blurb": "Holz runs a run-heavy, conventional offense \u2014 nearly everything here sits at league average except his pass rate, which is 6.5 points below expected, the fourth-lowest in the league. That's a philosophical commitment, not an accident. The problem is it isn't working: -0.14 EPA/play ranks 71st of 76, and his scheme value of -0.110 against a league average of -0.013 suggests the design itself isn't generating much lift beyond the personnel.",
-  "hash": "aa54e1f04443",
+  "blurb": "Holz runs a conventional system \u2014 motion, play-action, tempo, and personnel usage all sit right around league norms \u2014 with one real outlier: he calls pass plays at a significantly lower rate than almost anyone in the league, running 6.5 percentage points below expectation, third-lowest among the 76 coaches tracked. The scheme value lands below average at -0.110, and the results back that up with an EPA/play of -0.14, both ranking near the bottom of the league. The run-heavy philosophy isn't inherently wrong, but right now the execution isn't making the case for it.",
+  "hash": "990f34b282d5",
   "side": "offense"
  },
  "Shane Waldron": {
-  "blurb": "Waldron's scheme is unremarkable in almost every dimension \u2014 creativity, motion, play-action, and pass tendency all sit right at or near league average \u2014 with one real outlier: a screen rate of 12%, nearly double the league norm of 7% and fourth-highest among all play-callers. That's a deliberate strategic lean, not noise. The results have been below average (-0.03 EPA/play against a league norm of -0.01), though how much of that is scheme versus roster is a fair question.",
-  "hash": "70d0d61cb75f",
+  "blurb": "Waldron's system is mostly conventional \u2014 creativity, motion, play-action, and tempo all sit near league average \u2014 but one thing stands out: screens on 12% of dropbacks, well above the 7% league norm and a top-4 rate in the sample. Beyond that signature, the results have been modest, with scheme value at -0.028 against a league average of -0.013, and overall EPA/play slightly below average, suggesting the screen-heavy approach hasn't moved the needle enough on its own.",
+  "hash": "c0dc05f4bfaf",
   "side": "offense"
  },
  "Tim Kelly": {
-  "blurb": "Kelly runs a run-heavy attack \u2014 4.3 points below expected passing rate, well below the league norm of -0.8 \u2014 built around play-action (24% vs. 18% league average) and screens (10% vs. 7%) to manufacture easy throws off that run commitment. He plays fast, pushing 82 plays per game against a 75-play norm, which compounds the volume. The results are middling (-0.02 EPA/play, roughly league average), and the scheme value is similarly unremarkable, so the identity is clear even if the outcomes aren't yet convincing.",
-  "hash": "63e242cc745e",
+  "blurb": "Kelly's Giants offense runs fast \u2014 82 plays per game against a league average of 75 \u2014 and leans heavily on play-action (24% vs. 18% average) and screens (10% vs. 7%), which together suggest a system built around manufacturing easy throws rather than beating defenses with complexity. He runs the ball more than almost anyone, sitting 4.3 points below expected pass rate, though the results so far are middling at -0.02 EPA/play. Scheme value comes in at -0.009, slightly better than the league average of -0.013 \u2014 functional, not impressive.",
+  "hash": "6377512acd24",
   "side": "offense"
  },
  "Tommy Rees": {
-  "blurb": "Rees runs one of the most run-heavy offenses in the league \u2014 passing nearly 7 fewer times per game than expected, with zero RPO usage against a 2% league norm \u2014 and the pace reflects that same conservatism at 70 plays per game versus a league average of 75. The rest of the scheme sits squarely at league average across motion, play-action, and creativity. The problem is the results: -0.12 EPA/play ranks 68th of 76, which is the kind of number that doesn't hide behind a philosophical commitment to the run.",
-  "hash": "772de72b56d8",
+  "blurb": "Rees runs one of the more run-heavy systems in the league \u2014 passing 6.8 percentage points below expected, with essentially no RPO usage against a 2% league norm \u2014 and does it at a slow pace (70 plays per game versus the 75-play average). The rest of the scheme is unremarkable: motion, play-action, and screen rates all sit near league average. What's harder to ignore is that the results haven't followed: -0.12 EPA/play ranks 68th of 76, and QB-adjusted scheme value lands below average at -0.172, suggesting the system itself isn't generating much.",
+  "hash": "6d694c2037ee",
   "side": "offense"
  },
  "Andrew Janocko": {
@@ -260,28 +260,28 @@
   "side": "offense"
  },
  "Brian Daboll": {
-  "blurb": "Daboll's offense in Tennessee runs about as lean as any in the league \u2014 17% pre-snap motion against a ~40% norm, screens on just 2% of plays versus a 7% average, and a pace of 53 plays per game that ranked dead last. The stripped-down approach might be a philosophical choice, but the results don't give it cover: -0.15 EPA/play against a league average of -0.01, near the bottom of all tracked coordinators.",
-  "hash": "5b1f0d8d99c2",
+  "blurb": "Daboll's Tennessee offense sits at the extreme low end of nearly every structural measure \u2014 17% pre-snap motion against a 40% league norm, play-action at 8% versus 18%, screens at 2% versus 7%, and a pace of just 53 plays per game, last in the league. The results have been poor at -0.15 EPA/play, though because the system has run with effectively one quarterback, there's no clean way to separate the scheme's contribution from the QB's. What's clear is the style: slow, run-heavy, and stripped down \u2014 whether that's a choice or a constraint is the open question.",
+  "hash": "6861dbb8b7d6",
   "side": "offense"
  },
  "Brian Fleury": {
-  "blurb": "Fleury runs one of the slowest, most stripped-down offenses in the league \u2014 62 plays per game against a 75-play norm, no RPOs, 12% play-action against an 18% average, and pre-snap motion at 25% when most teams are near 40%. The creativity score sits right at league average, which makes sense: this isn't an exotic system, it's a deliberately minimal one. The problem is the results don't yet justify the restraint \u2014 scheme value and EPA/play are both below average.",
-  "hash": "57eb83d64c78",
+  "blurb": "Fleury runs one of the more deliberately stripped-down offenses in the league \u2014 below average in nearly every wrinkle category, from play-action at 12% (league avg 18%) to pre-snap motion at 25% (league avg 40%), with tempo sitting at just 62 plays per game against a league norm of 75. The system also leans run more than almost anyone, with pass rate nearly five points below expectation. Whether that minimalism is working is genuinely hard to say: this scheme has run with effectively one quarterback, so the -0.08 EPA/play can't be cleanly separated from the QB's own contribution.",
+  "hash": "252495ed0401",
   "side": "offense"
  },
  "Chip Kelly": {
-  "blurb": "Kelly's offense in Las Vegas runs heavy pre-snap motion (56%, against a ~40% league norm) and leans on play-action at one of the highest rates in the league (25% vs. 18% average) \u2014 the structural hallmarks of his system are genuinely there. The problem is the results: -0.21 EPA/play ranked dead last among the 76 coaches in this sample, and a scheme value of -0.177 confirms the system itself isn't generating edge independent of personnel. The motion and play-action are real, but they aren't working.",
-  "hash": "e830f2be469e",
+  "blurb": "Kelly's Las Vegas offense had two real signatures: pre-snap motion on 56% of dropbacks (league norm is around 40%) and play-action on 25% of snaps (league avg 18%), both well above average and consistent with his long-standing preference for pre-snap manipulation. Everything else \u2014 tempo, RPO usage, screen rate, pass tendency \u2014 sat right at league average. The scheme-value number is indicative at best given the QB situation, but the results were unambiguous: dead last in EPA/play at -0.21 against a league average of -0.01.",
+  "hash": "a6e7b7c1e76d",
   "side": "offense"
  },
  "Dave Canales": {
-  "blurb": "Canales runs a largely conventional offense \u2014 creativity, motion, pass tendency, and screens all sit right at league average \u2014 with one notable outlier: RPOs on 4% of plays, well above the 2% norm and a top-ten rate league-wide. Play-action at 22% is a modest uptick from average, and his tempo is slightly up-tempo at 81 plays per game. The scheme value is positive but modest, and the results land just below average at -0.02 EPA/play \u2014 a middle-of-the-road picture overall.",
-  "hash": "b0aca19d4127",
+  "blurb": "Dave Canales runs a broadly conventional offense \u2014 motion, screens, pass tendency, and creativity all sit right around league average \u2014 with two real distinguishing marks: an RPO rate of 4%, well above the ~2% norm, and a pace that trends toward the faster end at 81 plays per game. Play-action at 22% is a modest uptick from the 18% average. The EPA sits at -0.02, essentially league average, but this system ran with one quarterback throughout, so how much of that reflects the scheme versus the QB is genuinely hard to separate.",
+  "hash": "782b417b5d20",
   "side": "offense"
  },
  "David Blough": {
-  "blurb": "Blough's offense is one of the most stripped-down in the league \u2014 virtually no RPOs, almost no screens (2% against a 7% norm), and pre-snap motion at 20% when most teams are running it on 40% of snaps. Play-action is similarly absent at 8% versus an 18% average. The results land right at league average EPA, so the minimalism isn't hurting him, but the scheme value sits in the middle of the pack \u2014 this is execution-dependent football with very few schematic levers built in.",
-  "hash": "414e1187af7d",
+  "blurb": "Blough's offense is defined more by what it doesn't do than what it does: play-action at 8% against an 18% league norm, pre-snap motion at 20% against 40%, screens near zero, RPOs completely absent. It's a stripped-down system that asks the quarterback to process and throw with minimal pre-snap manipulation. Results land right at league average (-0.01 EPA/play), and scheme value is marginally above average but only moderately reliable given the limited sample \u2014 so the honest read is that this is an unadorned system that hasn't hurt, but hasn't clearly added much either.",
+  "hash": "3e379504d2f6",
   "side": "offense"
  },
  "Davis Webb": {
@@ -290,23 +290,23 @@
   "side": "offense"
  },
  "Frank Reich": {
-  "blurb": "Reich's Jets offense is about as bare-bones as it gets \u2014 pre-snap motion at 14% (league average is 40%), play-action at 8% (league average 18%), and screens at 2% (league average 7%) all rank near the dead bottom of the league, making this one of the most static, unadorned systems in football. That's not inherently a problem, but the results don't vindicate the minimalism either: -0.03 EPA/play sits below the league average, and scheme value is essentially neutral at -0.002.",
-  "hash": "16842e74b2e5",
+  "blurb": "Reich's Jets offense in 2023 was about as stripped-down as it gets: pre-snap motion on just 14% of dropbacks (league average is around 40%), play-action on 8% (league average 18%), and one of the slowest tempos in the league at 58 plays per game. Nearly every schematic dial was turned down, not just one. The results landed near league average at -0.03 EPA/play, but this system ran essentially on one quarterback, so there's no reliable way to separate Reich's effect from his QB's \u2014 the style is clear, the value isn't.",
+  "hash": "b9379c49e85d",
   "side": "offense"
  },
  "John Morton": {
-  "blurb": "Morton runs one of the least exotic offenses in the league \u2014 38th percentile on creativity, rarely passes over expectation \u2014 but the underlying structure is anything but vanilla. He leans heavily on pre-snap motion (59% of dropbacks, against a ~40% league norm) and play-action (26%, fourth in the league vs. an 18% average), runs screens at a high clip, and keeps tempo up near the top of the league. The results back it up: +0.08 EPA/play and a scheme value well above average, built on execution and structure rather than complexity.",
-  "hash": "3b66709a3300",
+  "blurb": "Morton runs one of the league's more structurally distinctive offenses even if its true value can't be separated from his quarterback: play-action on 26% of dropbacks (league average is 18%, fourth in the league) and pre-snap motion on 59% (third, against a ~40% norm) are the load-bearing pieces, layered over a screen game that runs well above average at 10%. The scheme is otherwise conventional \u2014 low creativity rating, below-average pass tendency, almost no RPOs \u2014 so the results (+0.08 EPA/play, 11th) look like a system that wins through a few well-developed tools run at high tempo, not breadth.",
+  "hash": "a9a85f64b657",
   "side": "offense"
  },
  "Josh Grizzard": {
-  "blurb": "Grizzard runs a high-volume, motion-heavy offense that separates itself from the pack in a few specific ways: pre-snap motion on 58% of dropbacks (league norm is around 40%) and screens at nearly double the average rate (10% vs. 7%) pair with a pace of 84 plays per game, sixth-fastest in the sample. Beyond those three levers, though, it's a conventional operation \u2014 pass tendency, play-action, and RPOs all sit right at league average. The results reflect that: EPA/play is league-average, and scheme value comes in slightly below it.",
-  "hash": "bbfc8044d89d",
+  "blurb": "Grizzard's system has three genuine outliers: pre-snap motion on 58% of dropbacks (league average is around 40%), screens at 10% (league average 7%), and a tempo that pushes 84 plays per game against a league average of 75. Everything else \u2014 play-action, RPO usage, pass tendency, creativity \u2014 sits right at the middle of the league. The results land at exactly average EPA/play, though with one quarterback running this the entire window, there's no clean way to separate what the scheme is worth from what the quarterback brought to it.",
+  "hash": "5eb7638b3d5e",
   "side": "offense"
  },
  "Kevin Patullo": {
-  "blurb": "Patullo runs one of the more structurally active offenses in the league \u2014 pre-snap motion on 52% of dropbacks (league avg ~40%) and a creativity score of 62/100 that ranks sixth overall \u2014 without leaning on tempo or screens to manufacture it. The rest of the profile is fairly conventional: pass tendency, play-action, and pace all sit near league average. Results are modestly positive at +0.03 EPA/play, though scheme value comes in below average at -0.031, meaning the complexity is generating outcomes more than the system itself is.",
-  "hash": "e6599d7d13e4",
+  "blurb": "Patullo's offense runs with noticeably more pre-snap motion than the league \u2014 52% of snaps versus a ~40% norm \u2014 and scores above average on overall scheme creativity, ranking sixth among 76 play-callers. Play-action and tempo sit right at league average, and pass tendency is unremarkable. The results were modestly positive at +0.03 EPA/play, but this system ran with one quarterback throughout, so how much of that belongs to the scheme versus the quarterback genuinely can't be separated.",
+  "hash": "13988bae038c",
   "side": "offense"
  },
  "Nathan Scheelhaase": {
@@ -320,18 +320,18 @@
   "side": "offense"
  },
  "Ryan Grubb": {
-  "blurb": "Grubb runs a notably up-tempo offense \u2014 82 plays per game against a league average of 75 \u2014 and leans on screens at nearly 10%, well above the 7% norm. Everything else sits right at league average: motion, play-action, RPO rate, and creativity are all squarely middle of the pack. The scheme value comes in at -0.028, a touch below the -0.013 average, and results back that up with a -0.03 EPA/play that ranks 48th. Speed and screens are the levers; so far, they haven't moved the needle.",
-  "hash": "39b3345b01c5",
+  "blurb": "Grubb runs a fast, screen-heavy offense \u2014 82 plays per game against a league norm of 75, and screens on 10% of dropbacks against the 7% average, both genuine deviations from the pack. Everything else sits right at the middle: motion, play-action, RPO usage, and creativity are all effectively league average. Results were slightly below average at -0.03 EPA/play, but with one quarterback driving the whole window, there's no clean way to know how much of that is scheme and how much is quarterback.",
+  "hash": "ad00fe7a6185",
   "side": "offense"
  },
  "Sean Mannion": {
-  "blurb": "Mannion's Eagles offense sits below average on nearly every structural dimension \u2014 minimal play-action (8% against an 18% league norm), almost no pre-snap motion (20% vs. 40%), and one of the slowest tempos in the league at 58 plays per game. The scheme-value number (-0.058 vs. a -0.013 average) and a -0.14 EPA/play both land near the bottom of the league, so this isn't a case of a conservative system executing well \u2014 the results aren't there either.",
-  "hash": "8e405200e258",
+  "blurb": "Mannion's offense in Philadelphia was one of the most stripped-down in the league \u2014 almost no play-action (8% against an 18% norm), minimal pre-snap motion (20% vs. 40%), and a pace of just 58 plays per game that ranked near the bottom. The results were poor at -0.14 EPA/play, though the scheme ran with effectively one quarterback, so how much of that belongs to the system versus the personnel can't be cleanly separated from the data.",
+  "hash": "cefe103df833",
   "side": "offense"
  },
  "Tanner Engstrand": {
-  "blurb": "Engstrand runs one of the heaviest pre-snap motion offenses in football \u2014 64% of dropbacks, against a league norm around 40% \u2014 which gives the scheme a genuinely distinctive look. The problem is that it hasn't translated: his -0.13 EPA/play ranks 69th of 76, and a scheme value of -0.151 against a league average of -0.013 suggests the system itself is underperforming even after adjusting for personnel. The other notable fact is a pass rate nearly 10 points below expectation, the lowest in the sample, in a league that has largely moved the other direction.",
-  "hash": "0e6db2d1d0fd",
+  "blurb": "Engstrand's signature is pre-snap motion \u2014 64% of dropbacks, second in the league against a 40% norm \u2014 but the bigger story is that he runs one of the most run-heavy systems anywhere, nearly 10 percentage points below expected pass rate, dead last among the 76 coaches tracked. Everything else \u2014 play-action, RPOs, screens, tempo \u2014 sits right at league average. Results were poor (-0.13 EPA/play, 69th of 76), and the scheme value reads as slightly below average, though with only moderate reliability, it's hard to know how much of that is the system and how much is the quarterback.",
+  "hash": "11d1c8dd8929",
   "side": "offense"
  },
  "Travis Switzer": {
@@ -340,8 +340,8 @@
   "side": "offense"
  },
  "Andy Reid|2023": {
-  "blurb": "Reid's 2023 offense leaned heavily pass (third in pass rate over expected at +6.5, against a league average near zero) and built around two signature habits: pre-snap motion on 59% of dropbacks (league norm is 43%) and screens on 14% of plays, the highest rate in the league. What's notable is what he traded away \u2014 play-action sat at 15%, well below the 20% average and 29th in the league. Scheme value landed 18th and EPA/play 10th, so the results were fine but not exceptional for a team with his personnel.",
-  "hash": "9a0f4540bf81",
+  "blurb": "Reid's 2023 offense had three clear signatures: pre-snap motion on 59% of dropbacks (league norm is 43%), screens at a 14% rate that led the league, and a pass tendency running nearly seven points over expected \u2014 third in the NFL. What he almost never did was use play-action, at 15% against a 20% league average, which is a deliberate choice that runs against conventional wisdom. Scheme value came in slightly below average at \u20130.017, though with Mahomes in the building that number is hard to trust as a clean read on the system itself.",
+  "hash": "cea36df4ed80",
   "side": "offense"
  },
  "Ben Johnson|2023": {
@@ -350,8 +350,8 @@
   "side": "offense"
  },
  "Brian Schottenheimer|2023": {
-  "blurb": "Schottenheimer's 2023 Dallas offense ranked fourth in scheme value and third in EPA/play, which is the kind of back-to-back that demands attention. The clearest structural signatures were a pass-heavy lean (PROE of +4.2, well above the league norm of -0.6) and an aggressive pace (86 plays per game, second in the league), supplemented by a play-action rate of 24% against a 20% average. The design itself was fairly conventional \u2014 creativity sitting right at the middle of the pack \u2014 which makes the output more a testament to execution and structural fit than to exotic scheming.",
-  "hash": "f7525c42ca3c",
+  "blurb": "Schottenheimer's 2023 Dallas offense was built around passing volume and pace \u2014 fourth in the league in pass rate over expected (+4.2 vs. a league average of -0.6) and second in plays per game at 86. Play-action came in at 24%, a few ticks above the 20% norm, while motion and RPO usage were both ordinary. The offense finished third in EPA/play at +0.11, but with effectively one quarterback driving the system, there's no clean way to separate what Schottenheimer built from what Dak Prescott executed.",
+  "hash": "935bc33eb47b",
   "side": "offense"
  },
  "Drew Petzing|2023": {
@@ -375,8 +375,8 @@
   "side": "offense"
  },
  "Matt LaFleur|2023": {
-  "blurb": "LaFleur's 2023 offense was quietly one of the most efficient in the league \u2014 +0.119 scheme value ranked second among all 32 teams, meaning the system itself was generating real value independent of personnel. What's striking is how conventional the blueprint looks on the surface: creativity, motion, play-action, and pass tendency all sit right around league average. The edge came from execution and design quality, not exotic wrinkles \u2014 screens were used sparingly (8% vs. 10% league average) and he played at a deliberately slower pace, but neither was a liability.",
-  "hash": "7ced33d48aff",
+  "blurb": "LaFleur's 2023 offense didn't do anything exotic \u2014 creativity, pass tendency, play-action, and RPO rate all sat right at league average \u2014 but the results were genuinely strong at +0.06 EPA/play against a league average of -0.03. The scheme value reads as indicative rather than precise given Jordan Love's role, so take the +0.119 figure as a signal worth noting, not a settled verdict. What stands out stylistically is what he avoided: screens at 8% (league average is 10%) and a deliberately unhurried pace at 80 plays per game, among the slowest in the league.",
+  "hash": "c11410471180",
   "side": "offense"
  },
  "Mike McDaniel|2023": {
@@ -385,8 +385,8 @@
   "side": "offense"
  },
  "Sean McVay|2023": {
-  "blurb": "McVay's 2023 offense wasn't built on complexity \u2014 his creativity score of 41 sits well below the league average of 48, with RPOs essentially removed from the menu (1% vs. a 3% norm). What it was built on is pre-snap motion: 60% of dropbacks, third in the league and nearly 20 points above average. That relentless shifting before the snap is the engine, and it produced genuine scheme value of +0.061 against a league average of -0.007 \u2014 a simple system that earns its results.",
-  "hash": "7e8d8ee3f091",
+  "blurb": "McVay's 2023 offense ran pre-snap motion on 60% of dropbacks \u2014 third in the league against a ~43% norm \u2014 and almost never touched RPOs (1%, well below the 3% average). That's the core of his identity that season: manipulate the defense before the snap, not after. The system itself was only a moderate scheme-value read (+0.061, indicative but hard to fully untangle from the quarterback), though the offense produced at +0.04 EPA/play. Everything else \u2014 tempo, play-action, pass tendency \u2014 sat right at league average.",
+  "hash": "65d049b206e2",
   "side": "offense"
  },
  "Sean Payton|2023": {
@@ -400,8 +400,8 @@
   "side": "offense"
  },
  "Todd Monken|2023": {
-  "blurb": "Monken's Ravens offense in 2023 ran a bit pass-heavy relative to expectation \u2014 +4.2 PROE against a league norm of -0.6 \u2014 which is notable given Baltimore's historical identity, and the results backed it up at +0.07 EPA/play (fifth in the league). Most of the other dials sat right at league average: tempo, motion, play-action, and screens were all ordinary. The scheme value of +0.051 was solidly above average, and the mild creativity score (54 vs. a 48 norm) suggests this wasn't an exotic system \u2014 it was a well-executed one.",
-  "hash": "0e8b9570996e",
+  "blurb": "Monken's 2023 Baltimore offense was notably pass-heavy \u2014 a +4.2 PROE against a league norm of -0.6 \u2014 while nearly everything else sat at or near average: play-action at 19%, motion at 41%, tempo at 82 plays per game, all within a few ticks of the median. The results were strong (+0.07 EPA/play, fifth in the league), and scheme value grades out as a positive indicator, though only moderately reliable given how much Lamar Jackson shapes any read of the system. The honest summary: a conventional structure that leaned on the pass more than most, and produced.",
+  "hash": "7b2af3c1977c",
   "side": "offense"
  },
  "Zac Taylor|2023": {
@@ -410,8 +410,8 @@
   "side": "offense"
  },
  "Bobby Slowik|2023": {
-  "blurb": "Slowik's 2023 Houston offense had one real distinguishing feature: pre-snap motion on 52% of dropbacks, well above the 43% league norm, suggesting a genuine commitment to creating conflict before the snap. Everything else sat close to average \u2014 play-action, tempo, screens, and overall creativity all right at the midpoint. The number that matters most, though, is scheme value at -0.081 against a league average of -0.007, ranking 28th \u2014 meaning the system itself wasn't generating much structural advantage, even with the motion volume.",
-  "hash": "5a06601d0a53",
+  "blurb": "Slowik's 2023 Houston offense was built around pre-snap motion \u2014 52% of dropbacks, well above the 43% league norm \u2014 while nearly everything else sat at or near average: creativity, tempo, play-action, and screens all middle of the pack. The one clear departure beyond motion was an almost complete avoidance of RPOs (1%, against a 3% norm). Scheme value came in at -0.081, below the league average of -0.007, though with moderate reliability given C.J. Stroud's rookie season running through this system, separating the scheme's worth from the quarterback's impact isn't straightforward \u2014 so that number is indicative, not a verdict.",
+  "hash": "3306b87c6c89",
   "side": "offense"
  },
  "Nathaniel Hackett|2023": {
@@ -420,8 +420,8 @@
   "side": "offense"
  },
  "Press Taylor|2023": {
-  "blurb": "Press Taylor's 2023 Jacksonville offense was largely conventional \u2014 creativity, play-action, motion, and RPOs all clustered right at league average \u2014 with the one real outlier being tempo: 85 plays per game against a league norm of 82, a top-five pace. The scheme generated slightly positive value (+0.035, ninth overall) in a year where the average coordinator was actually underwater, but the results didn't follow: Jacksonville finished 21st in EPA/play at -0.07, well below the -0.03 league mean. Solid scheme, subpar execution.",
-  "hash": "c5cce652370c",
+  "blurb": "Press Taylor's 2023 Jacksonville offense ran at a notably fast tempo \u2014 85 plays per game against a league average of 82 \u2014 and leaned slightly pass-heavy relative to situation, but almost everything else sat right at the league mean: play-action, motion, RPOs, screens, and creativity all clustered around average. The scheme value reads as modestly positive (+0.035 against a league average of -0.007), though that number is only moderately reliable given how much of it may trace back to the quarterback. What's harder to explain away is the results: -0.07 EPA/play ranked 21st, below a league average that was itself negative.",
+  "hash": "7a4c0a978028",
   "side": "offense"
  },
  "Alex Van Pelt|2023": {
@@ -430,8 +430,8 @@
   "side": "offense"
  },
  "Eric Bieniemy|2023": {
-  "blurb": "Bieniemy's 2023 Washington offense had one defining tendency: he called passes at the highest rate in the league, sitting roughly 10 percentage points above expected given game situations. Everything else around that was stripped down \u2014 play-action at 17% and pre-snap motion at 34% were both well below the league norms of 20% and 43%, making this one of the more static, pass-heavy offenses in football. The results didn't hold up; Washington finished 27th in EPA/play at -0.11, and scheme value came in below average at -0.019.",
-  "hash": "8ee6c124ed40",
+  "blurb": "Bieniemy's 2023 Washington offense was built around passing \u2014 the league's highest pass rate over expectation at +9.5, compared to a near-zero league average \u2014 but without the pre-snap complexity that often accompanies aggressive aerial attacks: motion at 34% and play-action at 17% both sat well below league norms of 43% and 20%. The results were poor at -0.11 EPA/play versus a league average of -0.03, though how much of that belongs to the scheme versus the quarterback situation can't be cleanly separated from the data.",
+  "hash": "fe660e9ac679",
   "side": "offense"
  },
  "Ken Dorsey|2023": {
@@ -460,48 +460,48 @@
   "side": "offense"
  },
  "Bill O'Brien|2023": {
-  "blurb": "O'Brien's 2023 New England offense ranked 31st in EPA/play and 30th in scheme value, so there's no way to dress this up. The one genuine structural signature was screens \u2014 13% of plays versus a 10% league average \u2014 but he almost never used play-action (15% against a 20% norm), ran one of the slowest tempos in the league, and landed in the middle of the pack everywhere else. The scheme wasn't exotic; it just didn't work.",
-  "hash": "5231fac390f6",
+  "blurb": "Bill O'Brien's 2023 Patriots offense sat near the bottom of the league in results \u2014 -0.19 EPA/play against a league average of -0.03 \u2014 and the scheme leaned on screens (13%, vs. a 10% norm) while pulling back sharply on play-action (15%, vs. 20% league average) and running one of the slowest tempos in football (78 plays/game, 31st). Everything else \u2014 motion, RPOs, pass tendency \u2014 was ordinary. The scheme-value number is indicative rather than precise given the quarterback situation, but it's hard to look at this season and find a dimension that was working.",
+  "hash": "62a722ff6b5c",
   "side": "offense"
  },
  "Brian Johnson|2023": {
-  "blurb": "Johnson's 2023 Philadelphia offense was genuinely creative \u2014 ranked second in the league on that dimension \u2014 but almost none of it came from pre-snap motion, which he used on just 24% of dropbacks against a league norm of 43%, near the bottom of the NFL. Instead, the exoticness came through RPOs, where his 7% rate was second in the league and more than double the average. Scheme value landed at +0.043 against a league average of -0.007, and the offense produced +0.05 EPA/play \u2014 both solidly above water, if not spectacular.",
-  "hash": "e8d48d28ea04",
+  "blurb": "Johnson's 2023 Philadelphia offense ranked second in the league on the creativity index \u2014 a genuinely unusual number \u2014 built largely on an RPO rate of 7% against a league norm of 3%, and a scheme structure that leaned well above average in exoticness by most measurable dimensions. What it almost never did was use pre-snap motion: 24% against a league norm of 43%, dead last territory. The results were solid (+0.05 EPA/play, eighth overall), but because this system ran with effectively one quarterback, there's no clean way to separate what Johnson built from what that quarterback produced.",
+  "hash": "590ae070479d",
   "side": "offense"
  },
  "Dave Canales|2023": {
-  "blurb": "Canales's 2023 Tampa Bay offense was almost entirely middle-of-the-pack: creativity, pass tendency, play-action, tempo, and RPO usage all sat right at or within a rounding error of league average. The one thing he actually de-emphasized was screens \u2014 8% against a 10% league norm, one of the lower rates in the league \u2014 and his pre-snap motion (38%) was a few ticks below the 43% average. Scheme value came in at +0.020 against a league average of -0.007, so the system produced modestly above expectations, just without many exotic inputs to point to.",
-  "hash": "6254f8b4c103",
+  "blurb": "Canales ran a conventional offense in Tampa in 2023 \u2014 creativity, pass tendency, play-action, and tempo all sat within a point or two of league average. The one real departure was screens, used on just 8% of plays against a league norm of 10%, ranking 27th. Results landed in the middle of the pack at -0.02 EPA/play, essentially average. With Baker Mayfield as the singular quarterback, the system's actual worth can't be separated from the QB, so what's here is a style read, not a scheme verdict.",
+  "hash": "712e81cd96ca",
   "side": "offense"
  },
  "Dave Ragone|2023": {
-  "blurb": "Ragone's 2023 Atlanta offense had one real signature: play-action on 27% of dropbacks, second in the league against a 20% norm, which makes sense given how aggressively run-heavy the scheme was \u2014 dead last in pass rate over expected at -8.7, versus a league average of -0.6. Everything else sat close to normal. The problem is the results didn't justify the approach: -0.10 EPA/play ranked 26th, well below a league average already in negative territory.",
-  "hash": "e045d67e6d36",
+  "blurb": "Ragone's 2023 Atlanta offense ran play-action on 27% of dropbacks \u2014 second in the league against a 20% norm \u2014 while leaning heavily run, finishing dead last in pass rate over expected at -8.7 against a near-neutral league average. The rest of the profile was pretty ordinary: motion, tempo, and RPO usage all sat close to league norms. Scheme value came in around league average, though with only moderate reliability given the quarterback situation, so that number is indicative at best. The results were poor regardless \u2014 -0.10 EPA/play against a -0.03 norm \u2014 and the play-action volume didn't translate to production.",
+  "hash": "d5f35cb19260",
   "side": "offense"
  },
  "Matt Canada|2023": {
-  "blurb": "Matt Canada's 2023 Pittsburgh offense was defined above all by an extreme aversion to passing \u2014 a -8.4 PROE ranked 31st in the league against an average of -0.6, meaning this was one of the run-heaviest systems in football by a wide margin. Play-action (16%) and RPOs (1%) were both low, which is notable given how much run-heavy offenses typically lean on those tools. Everything else \u2014 motion, screens, tempo \u2014 sat right at league average, and scheme value came in at a middling -0.008. The results were below average at -0.07 EPA/play, though how much of that belongs to the scheme versus the personnel is a fair question.",
-  "hash": "9ef12cee8969",
+  "blurb": "Canada's 2023 Pittsburgh offense ran among the league's most run-heavy schemes \u2014 pass rate over expected of -8.4 against a league norm of -0.6, ranking 31st \u2014 and paired that with below-average play-action (16% vs. 20% league average) and almost no RPOs (1% vs. 3%). Motion and tempo were ordinary. The scheme value sits near league average, though that number is only moderately reliable given the quarterback situation. The results were below average at -0.07 EPA/play, and the style gave defenses little to solve.",
+  "hash": "7de30bf0ac05",
   "side": "offense"
  },
  "Mick Lombardi|2023": {
-  "blurb": "Lombardi's 2023 Raiders offense was defined by two things that stuck out from the rest of the league: a creativity score of 35 \u2014 well below the league average of 48 and 29th overall \u2014 and the slowest tempo in football at 77 plays per game against a league norm of 82. Everything else sat near the middle: play-action at 21%, motion at 49%, run-heavier than average but not dramatically so. The scheme didn't generate much, posting -0.10 EPA/play against a league average of -0.03, and the -0.042 scheme value suggests the system itself wasn't doing the offense any favors independent of personnel.",
-  "hash": "f143d6802321",
+  "blurb": "Lombardi's 2023 Raiders offense was defined by two things that stood out from the league: a historically slow pace (77 plays per game, dead last among all 32 teams against a league average of 82) and a notably vanilla playbook (creativity score of 35 against a league average of 48, 29th in the league). Everything else \u2014 play-action, motion, RPO, screen rate \u2014 sat right around the norm. The scheme value came in at -0.042, worse than the league average of -0.007, though with only moderate reliability given the quarterback situation, so it's indicative rather than definitive; what's harder to dismiss is the -0.10 EPA/play, a results number that reflects a system that didn't generate much no matter how you account for it.",
+  "hash": "67c5a8ac0b28",
   "side": "offense"
  },
  "Pete Carmichael|2023": {
-  "blurb": "Carmichael ran one of the most stripped-down offenses in the league in 2023 \u2014 play-action at 12% and pre-snap motion at 21% were both dead last, against league norms of 20% and 43% respectively, and a creativity score of 27/100 (league avg 48) matched that picture. The one outlier was tempo, where New Orleans ran 85 plays per game, among the fastest in the league. Results landed middle of the pack at -0.01 EPA/play, which clears the league average, but scheme value came in at -0.040 against a norm of -0.007 \u2014 meaning the system itself wasn't generating much edge.",
-  "hash": "93ad110e2056",
+  "blurb": "Carmichael's 2023 Saints offense was about as structurally bare as it gets: play-action on just 12% of dropbacks and pre-snap motion on 21% of snaps both ranked dead last in the league, against averages of 20% and 43% respectively, making this one of the most pre-snap-static systems in football. The one outlier was tempo \u2014 85 plays per game, sixth-highest in the league. The results landed around average at -0.01 EPA/play, but because this scheme ran with effectively one quarterback, there's no clean way to know how much of that belongs to the system versus the player running it.",
+  "hash": "2cc3887c4b0b",
   "side": "offense"
  },
  "Thomas Brown|2023": {
-  "blurb": "Thomas Brown's 2023 Carolina offense was about as bare-bones as it gets \u2014 creativity at 33 (league avg 48), play-action at 13% against a 20% norm, and pre-snap motion at 26% when most offenses are running it on nearly half their snaps. The run-heaviness (7.1 percentage points below expected pass rate) wasn't a strength hiding behind conservatism; scheme value ranked dead last and EPA/play came in at -0.18 against a -0.03 average. Tempo was fine, but there wasn't much working underneath it.",
-  "hash": "4314ab1b2ccf",
+  "blurb": "Thomas Brown's 2023 Carolina offense was about as stripped-down as it gets \u2014 run-heavy (7.1 percentage points below expected pass rate), almost no play-action (13% against a 20% league norm), and very little pre-snap motion (26% versus 43% league average). The results were poor at -0.18 EPA/play, but with effectively one quarterback running the system all season, there's no clean way to separate what the scheme was worth from what the quarterback contributed \u2014 or cost.",
+  "hash": "730295a2a5a9",
   "side": "offense"
  },
  "Andy Reid|2024": {
-  "blurb": "Reid's 2024 Kansas City offense leaned heavily on passing \u2014 +6.8 over expected pass rate, second in the league against a league average of -1.4 \u2014 and layered in pre-snap motion on 62% of dropbacks (league norm is 50%) and screens at an above-average 11%. Play-action sat right at the league average and overall scheme creativity was squarely middle of the pack, so the identity wasn't exotic; it was a pass-heavy, motion-driven system that generated solid results (+0.07 EPA/play, ninth overall) despite scheme value coming in slightly below average at -0.017.",
-  "hash": "0db3d41c0f0c",
+  "blurb": "Reid's 2024 KC offense stood out most in two places: pass tendency and pre-snap motion. He called passes at the second-highest rate above expectation in the league (+6.8 PROE vs. a league average of -1.4), and ran motion on 62% of dropbacks against a 50% norm. Play-action and tempo sat right at league average, which makes the motion usage the real pre-snap signature. Scheme value came in slightly below average at -0.017, though with Mahomes under center that number is indicative at best \u2014 you can't cleanly separate the system from the quarterback.",
+  "hash": "463ace7f0cec",
   "side": "offense"
  },
  "Ben Johnson|2024": {
@@ -530,8 +530,8 @@
   "side": "offense"
  },
  "Matt LaFleur|2024": {
-  "blurb": "LaFleur's 2024 offense was among the most run-heavy in the league \u2014 dead last in pass rate over expected at -12.2, compared to a league average of -1.4 \u2014 and he built real value around that commitment, finishing second in scheme value at +0.119. The RPO rate of 4% (double the league norm) fits that identity: keeping defenses honest without abandoning the run. Pre-snap motion at 58% adds a layer of complexity above the league's 50% average, and the results held up at +0.08 EPA/play.",
-  "hash": "cd1d9f125b36",
+  "blurb": "LaFleur's 2024 offense ran further from the pass than anyone in the league \u2014 minus-12.2 over expected, dead last at 32nd \u2014 while leaning on RPOs at a 4% rate, double the league norm and tops in the NFL. Pre-snap motion at 58% added a layer of structural complexity that pushed his creativity score to 60, above average but not extreme. Scheme value reads as elite-range (+0.119, second overall), though with Jordan Love running the show that number is indicative rather than definitive \u2014 you can't cleanly separate the system from the quarterback.",
+  "hash": "91a65d932d26",
   "side": "offense"
  },
  "Mike McDaniel|2024": {
@@ -540,8 +540,8 @@
   "side": "offense"
  },
  "Sean McVay|2024": {
-  "blurb": "McVay's 2024 offense is built on two levers pulled harder than almost anyone in the league: pre-snap motion on 72% of dropbacks (league average is 50%, and no team used it more) and play-action on 31% of passes (second in the NFL against a 23% norm). The structure is conventional otherwise \u2014 creativity sits at league average, RPOs are nearly nonexistent, tempo and pass rate are both middle of the pack. The scheme value is genuinely strong at +0.061 (fifth in the league), even if the results landed right at the league-average EPA line.",
-  "hash": "932bdd1a1d2f",
+  "blurb": "McVay's 2024 offense runs on pre-snap motion \u2014 72% of dropbacks, well above the ~50% league norm and the highest rate in the league \u2014 paired with play-action at 31% against a 23% average, second in the NFL. Everything else sits roughly at the mean: pass tendency, screens, creativity all league-average, tempo slightly below. The scheme-value estimate comes in at +0.061 (indicative, not precise \u2014 it's genuinely difficult to separate from the quarterback), and results landed right at the league average offensively, which is the honest caveat behind an otherwise distinctive stylistic profile.",
+  "hash": "525671975c05",
   "side": "offense"
  },
  "Sean Payton|2024": {
@@ -555,8 +555,8 @@
   "side": "offense"
  },
  "Todd Monken|2024": {
-  "blurb": "Monken's 2024 Baltimore offense was genuinely unusual in one key way: a creativity score of 65 against a league average of 50 put him third in the NFL in schematic exoticness, suggesting the variety and unpredictability of his designs went well beyond typical. Nearly everything else \u2014 motion, tempo, play-action, RPO, screen rate \u2014 sat right at the league mean, which makes that creativity number more meaningful, not less; it wasn't volume or gimmickry driving it. The scheme value was a legitimate plus-7 (seventh overall), and the results were the best in the league at +0.22 EPA/play.",
-  "hash": "52c7778c6874",
+  "blurb": "Monken's Baltimore offense was the most productive in the league in 2024 at +0.22 EPA/play, and almost nothing about the surface structure explains why \u2014 motion, tempo, play-action, RPO, and screen rates all sat right at league average. What actually separated it was schematic creativity scored at 65/100, third in the league, suggesting the diversity and unpredictability came from design rather than volume or tendency. The scheme value of +0.051 is indicative of a real edge but can't be cleanly separated from Lamar Jackson, so take it as a signal, not a verdict.",
+  "hash": "48e60bfa035e",
   "side": "offense"
  },
  "Zac Taylor|2024": {
@@ -565,18 +565,18 @@
   "side": "offense"
  },
  "Bobby Slowik|2024": {
-  "blurb": "Slowik's 2024 Houston offense was almost entirely middle-of-the-pack: pass tendency, play-action, tempo, screens, and creativity all sat right at league average. The one genuine wrinkle was pre-snap motion on 59% of dropbacks, well above the ~50% norm, but that didn't translate into results \u2014 scheme value ranked 29th, and the offense came in below average on EPA/play. Motion as a calling card is fine; motion as the only calling card, less so.",
-  "hash": "13e14368f1a7",
+  "blurb": "Slowik's 2024 Houston offense had one real distinguishing feature: pre-snap motion on 59% of dropbacks, meaningfully above the 50% league norm, suggesting a system built around creating conflict before the snap. Everything else \u2014 pass tendency, play-action, tempo, screens \u2014 sat right at league average. The scheme-value number came in at -0.081, near the bottom of the league, though with moderate reliability that makes it indicative rather than a firm verdict; separating Slowik's system from his quarterback situation isn't clean enough to be precise about fault.",
+  "hash": "8a5e7d70646a",
   "side": "offense"
  },
  "Brad Idzik|2024": {
-  "blurb": "Idzik's 2024 Carolina offense was about as plain as it gets structurally \u2014 pre-snap motion on just 31% of dropbacks against a league norm of 50% (last in the league), almost no screens (7% vs. 9% average), and a below-average tempo. Pass tendency, play-action, and RPOs all sat right at the middle. The scheme value came in at a modest +0.025, which is fine given the roster, but the results (-0.05 EPA/play) reflect how little margin a low-movement, low-deception offense leaves when the talent isn't there to compensate.",
-  "hash": "80c3ed31f93a",
+  "blurb": "Idzik's 2024 Carolina offense had a clear signature: almost no pre-snap motion (31%, against a league norm of around 50%) and a slow pace (80 plays per game, near the bottom of the league), which made it one of the more static, deliberate systems in the NFL that season. Play-action, RPOs, and screens were all at or below average, so there wasn't much layering to the design. Scheme value came in slightly positive at indicative of middle-of-the-pack quality, though with only moderate reliability given the quarterback situation. The results \u2014 -0.05 EPA/play, below the league average of +0.01 \u2014 reflect an offense that didn't have much margin for a plain approach.",
+  "hash": "af8d8f77eaf5",
   "side": "offense"
  },
  "Joe Brady|2024": {
-  "blurb": "Brady's Buffalo offense in 2024 ranked first in the league in scheme creativity, built around pre-snap motion on 63% of dropbacks (well above the ~50% norm) and screens at nearly double the league rate \u2014 a design philosophy centered on manufacturing easy decisions and manufactured space before the snap. Play-action and tempo sat right at league average, so the exoticness is concentrated in formation and movement, not pace or trickery. The results were real: +0.19 EPA/play, second in the league.",
-  "hash": "8b966ffe60bc",
+  "blurb": "Brady's 2024 Buffalo offense was the most structurally unusual in the league \u2014 a creativity score of 68 against a league average of 50, ranked first of 32 \u2014 built on pre-snap motion (63% of dropbacks, well above the ~50% norm) and an above-average screen rate (11% vs. 9% league average). Play-action and tempo sat right at ordinary. The results were elite (+0.19 EPA/play, second in the league), though the scheme's standalone value is only moderately separable from Josh Allen, so treat the system as genuinely inventive in style while holding the scheme-value number loosely.",
+  "hash": "a49706f80724",
   "side": "offense"
  },
  "Klint Kubiak|2024": {
@@ -595,8 +595,8 @@
   "side": "offense"
  },
  "Press Taylor|2024": {
-  "blurb": "Press Taylor's Jacksonville offense in 2024 was about as stripped-down as it gets: pre-snap motion on just 36% of dropbacks (league average is 50%) and the slowest pace in the league at 77 plays per game put this squarely among the most static, deliberate systems in football. Everything else \u2014 pass tendency, play-action, RPOs, screens \u2014 sat right at league average, which is its own kind of signal. The scheme value came in at +0.035, ninth in the league, so the approach wasn't costing them anything schematically, even if the results (-0.02 EPA/play) were slightly below average overall.",
-  "hash": "ddff2b708761",
+  "blurb": "Press Taylor's Jacksonville offense in 2024 was about as stripped-down as it gets: motion on just 36% of dropbacks (league norm is 50%, 30th in the league) and the slowest pace in the NFL at 77 plays per game against an 82-play average. Pre-snap complexity wasn't the point. The scheme value reads as modestly positive \u2014 around +0.035, indicative but not precise given how intertwined it was with the quarterback \u2014 and results landed right around average at -0.02 EPA/play. This was a minimalist system that neither hurt nor helped much; the scheme just didn't ask a lot of questions.",
+  "hash": "e21683c308a4",
   "side": "offense"
  },
  "Zac Robinson|2024": {
@@ -615,8 +615,8 @@
   "side": "offense"
  },
  "Greg Roman|2024": {
-  "blurb": "Roman's 2024 Chargers offense was defined by one thing above nearly everything else: play-action at 30%, third in the league against a 23% norm. Everything else sat close to average \u2014 motion, RPO usage, creativity all near the midpoint \u2014 except screens, which he almost entirely abandoned (6% against a 9% league average). The result was a slightly above-average offense by EPA, built on a narrow but genuine identity rather than schematic variety.",
-  "hash": "2e4f249304ee",
+  "blurb": "Roman's 2024 Chargers offense was defined by one thing above all else: play-action at 30%, a rate that ranked third in the league against a 23% norm. Everything else sat close to average \u2014 motion, RPO usage, creativity all near the midpoint \u2014 except screens, which he almost never called (6% vs. a 9% league average). The offense produced a modest +0.04 EPA/play, and scheme value grades out as a slight positive, though with only one season of data it's hard to fully separate Roman's system from Justin Herbert's quarterback play.",
+  "hash": "5b4f33e28884",
   "side": "offense"
  },
  "Ken Dorsey|2024": {
@@ -625,8 +625,8 @@
   "side": "offense"
  },
  "Kliff Kingsbury|2024": {
-  "blurb": "Kingsbury's one season in Washington was genuinely unusual: a creativity score of 66 ranked second in the league against a norm of 50, and he pushed tempo to 86 plays per game, third-highest in the NFL. The motion rate sat below average, so the exotic tag isn't about pre-snap window dressing \u2014 it came from play design and structure. The results backed it up: +0.14 EPA/play, fourth in the league, and scheme value of +0.048, meaning the system itself was adding wins independent of personnel.",
-  "hash": "e4c1507aacdb",
+  "blurb": "Kingsbury's 2024 Washington offense was genuinely exotic \u2014 a creativity score of 66 against a league average of 50 puts it second in the league \u2014 built around elite pace (86 plays per game, third-fastest), a high screen rate (11% vs. a 9% norm), and active RPO usage. Pre-snap motion was actually below average at 45%, so the variety came from structure and tempo, not just window dressing. The offense produced +0.14 EPA/play, fourth-best in the league, though with only moderate scheme-value reliability, how much credit belongs to the system versus the quarterback stays genuinely open.",
+  "hash": "24317478fee1",
   "side": "offense"
  },
  "Luke Getsy|2024": {
@@ -655,13 +655,13 @@
   "side": "offense"
  },
  "Ryan Grubb|2024": {
-  "blurb": "Grubb ran one of the more pass-heavy offenses in the league in 2024, sitting at +2.5 over expected pass rate against a league average of -1.4 \u2014 a genuine gap. What's notable is what he *didn't* pair with it: play-action at just 18% against a 23% league norm, one of the lower rates in the league, which is an unusual combination for a pass-first system. Everything else \u2014 motion, tempo, RPOs, screens \u2014 sat right at league average, and the results were middling: -0.03 EPA/play against a +0.01 norm, with scheme value in the same unremarkable range.",
-  "hash": "473d828a0b09",
+  "blurb": "Grubb's Seattle offense in 2024 had one real signature: it passed more than expected, sitting sixth in the league on pass rate over expected while most teams were leaning run. Almost everything else sat at or near league average \u2014 tempo, motion, RPOs, screens all conventional. The notable absence was play-action, used on just 18% of dropbacks against a 23% league norm, which is an odd choice for a run-leaning roster. Results were a slight negative at -0.03 EPA/play, but with one quarterback running the whole system, there's no clean way to separate what Grubb built from what his QB produced \u2014 the style is clear, the scheme's independent value isn't.",
+  "hash": "6fa879e47940",
   "side": "offense"
  },
  "Andy Reid|2025": {
-  "blurb": "Reid ran the most pass-heavy offense in the league in 2025 \u2014 +6.0 over expected, well clear of the field \u2014 while almost completely abandoning play-action at just 15% against a 23% league norm. He also leaned on RPOs at a 9% clip, a rate that dwarfs the 2% league average. The results were solid but unspectacular (+0.04 EPA/play, 11th), and scheme value came in below average at -0.017 \u2014 meaning the system itself wasn't generating much margin beyond what the personnel delivered.",
-  "hash": "d5c4ee87ce37",
+  "blurb": "Reid's 2025 Kansas City offense passed more than anyone in the league \u2014 +6.0 over expected, the highest pass rate over expectation of all 32 teams \u2014 while almost completely abandoning play-action at 15%, less than half the 23% league average. He compensated with RPOs at a 9% clip, far above the 2% norm, essentially substituting one pre-snap constraint mechanism for another. Everything else \u2014 motion, tempo, screens \u2014 sat right at league average, and the offense produced a respectable +0.04 EPA/play, though scheme value comes in below average at a moderate-reliability -0.017, making it hard to know how much of that output was Reid's system versus his quarterback.",
+  "hash": "c6a4fd26828b",
   "side": "offense"
  },
  "Ben Johnson|2025": {
@@ -670,8 +670,8 @@
   "side": "offense"
  },
  "Brian Schottenheimer|2025": {
-  "blurb": "Schottenheimer ran one of the fastest offenses in the league in 2025 \u2014 88 plays per game, seven more than the average team \u2014 and paired that tempo with a play-action rate of 27% (against a 23% norm), a combination that produced a scheme value of +0.077 against a league average of +0.008. The structure itself was otherwise fairly conventional: motion, pass tendency, and RPOs all sat near the middle of the pack, and he screened less than almost anyone. The results bore it out anyway \u2014 +0.10 EPA/play, fifth in the league.",
-  "hash": "a1d2369cda25",
+  "blurb": "Schottenheimer's Dallas offense in 2025 ran at the fastest tempo in the league \u2014 88 plays per game against a norm of 81 \u2014 and leaned on play-action at a 27% rate, fifth-highest in the league and well above the 23% average, while keeping everything else close to standard: motion, pass tendency, and RPO usage all sat near league average. The results were strong at +0.10 EPA/play, fifth in the league, but the scheme ran behind one quarterback the entire season, so how much of that belongs to the system and how much to the QB simply can't be separated from the data.",
+  "hash": "f28067387cc2",
   "side": "offense"
  },
  "Drew Petzing|2025": {
@@ -695,8 +695,8 @@
   "side": "offense"
  },
  "Matt LaFleur|2025": {
-  "blurb": "LaFleur's 2025 offense ranked third in scheme value and fourth in EPA/play, and almost nothing about the surface numbers explains why \u2014 motion, play-action, RPOs, screens, and tempo all sit right at league average. That's the point: this is a system that produces elite results through execution and design quality rather than volume tricks or exoticness, with a creativity score of 57 that barely edges the norm. He ran the ball a touch more than expected, but the real edge was just doing ordinary things better than almost everyone else.",
-  "hash": "d4301801f6dc",
+  "blurb": "LaFleur's 2025 offense landed fourth in EPA/play and carries an indicative scheme value near the top of the league \u2014 but almost every structural dial sits at or near league average: motion at 53% (norm: 54%), play-action at 25% (norm: 23%), tempo, RPOs, screens, all middle of the pack. The honest read is that this was a conventionally constructed offense that produced elite results, and because the scheme value is only moderately separable from the quarterback, how much credit belongs to the system versus the talent running it remains genuinely open.",
+  "hash": "fde95a55024c",
   "side": "offense"
  },
  "Mike McDaniel|2025": {
@@ -705,8 +705,8 @@
   "side": "offense"
  },
  "Sean McVay|2025": {
-  "blurb": "McVay's 2025 offense ran play-action on 32% of dropbacks \u2014 easily the highest rate in the league against a 23% norm \u2014 and paired it with a pass-heavy lean (fourth-most pass-over-expected at +4.2) and a faster-than-average pace. Everything else sits close to league average: motion at exactly 54%, screens below the norm, RPOs essentially nonexistent. The result was the second-best offensive EPA/play in the league at +0.14, which is as clean a validation of a specific identity as you'll find.",
-  "hash": "cd7b8dca1bca",
+  "blurb": "McVay's 2025 offense was built on two things above all: play-action at 32% of dropbacks \u2014 the highest rate in the league, well above the 23% norm \u2014 and a clear pass-lean of +4.2 over expected, fifth in the league. The results were elite, +0.14 EPA/play, second overall, though with moderate separation from the QB baked into that number, it's indicative rather than definitive. Everything else \u2014 motion, tempo, screens \u2014 ran close to league average, which is a reminder that the scheme's identity came from specific commitments, not broad exoticness.",
+  "hash": "11afe7ef4992",
   "side": "offense"
  },
  "Sean Payton|2025": {
@@ -720,8 +720,8 @@
   "side": "offense"
  },
  "Todd Monken|2025": {
-  "blurb": "Monken's Baltimore offense in 2025 was almost aggressively conventional \u2014 creativity, motion, play-action, screens, and RPOs all sitting within a rounding error of league average. The real signature was the run-heaviness: a pass rate 6.8 points below expectation, second-lowest in the league, and a deliberately slow pace (77 plays per game against an 81-game norm). The scheme value came in above average at +0.051, and the offense finished 12th in EPA/play, so the approach worked \u2014 it just didn't look like much from the outside.",
-  "hash": "dd0bf2b7e921",
+  "blurb": "Monken's Baltimore offense in 2025 was built around the run to a degree almost no team in the league matched \u2014 a pass rate 8.1 points below expectation placed him 31st of 32, and a slow tempo (77 plays per game, near the bottom) kept the game controlled and the clock moving. Everything else \u2014 motion, play-action, RPOs, screens \u2014 sat right at league average, which means the run-heaviness was the actual scheme identity, not a symptom of any one exotic tendency. The results were fine (+0.03 EPA/play, 12th), though with Lamar Jackson running this system, the scheme value reads as only indicative \u2014 you can't cleanly separate what Monken drew up from what the quarterback made possible.",
+  "hash": "50abdef7d8c4",
   "side": "offense"
  },
  "Zac Taylor|2025": {
@@ -730,13 +730,13 @@
   "side": "offense"
  },
  "Brad Idzik|2025": {
-  "blurb": "Idzik's Carolina offense in 2025 was defined by what it didn't do: motion on just 40% of dropbacks against a league norm of 54% put him second-to-last in the league, and a run-heavier approach \u2014 nearly five points below expected pass rate \u2014 compounded a generally static pre-snap look. Scheme value came in at a respectable +0.025 against a league average of +0.008, so the system itself wasn't the problem. The results were: -0.04 EPA/play, 26th in the league, suggests the execution wasn't there to make the conservative approach work.",
-  "hash": "80494dd5ca5f",
+  "blurb": "Idzik's 2025 Carolina offense ran deliberately and close to the ground \u2014 pass rate nearly five points below expectation (27th) and pace at 78 plays per game (31st in motion at 40%, well below the 54% norm). The creativity score sat right at league average, and so did play-action and RPOs, so there's nothing structurally exotic here. The scheme value comes in at +0.025, modestly above average, but with only moderate reliability given the quarterback context \u2014 take that number as directional. The results, -0.04 EPA/play against a league average of +0.01, were poor.",
+  "hash": "8e20e23b9f84",
   "side": "offense"
  },
  "Joe Brady|2025": {
-  "blurb": "Brady ran one of the more structurally active offenses in the league in 2025 \u2014 pre-snap motion on 63% of dropbacks and play-action on 26% of passes, both well above average, and a creativity score of 67 that ranked second in the NFL against a league norm of 52. The results backed it up: +0.14 EPA/play, third in the league. His scheme value landed in the middle of the pack at +0.025, which is an honest signal that the production owed something to the roster, but the structural choices were genuinely distinctive.",
-  "hash": "3a80d1411994",
+  "blurb": "Brady's Buffalo offense was one of the most structurally unusual in the league in 2025 \u2014 a creativity score of 67 against a league average of 52 puts him second of 32, and that shows up in the pre-snap work: motion on 63% of dropbacks, well above the ~54% norm, paired with a play-action rate of 26% (league average 23%). Tempo, pass tendency, and RPOs all sat right at league average, so the complexity was deliberate, not just volume. The offense finished third in EPA/play at +0.14, though with only moderate scheme-value separability from the quarterback, how much of that belongs to the system versus the signal-caller is a fair question.",
+  "hash": "a96fb8d06137",
   "side": "offense"
  },
  "Klint Kubiak|2025": {
@@ -760,23 +760,23 @@
   "side": "offense"
  },
  "Greg Roman|2025": {
-  "blurb": "Roman's 2025 LAC offense was quietly conventional in most respects \u2014 play-action, tempo, and RPO usage all sat right at league average \u2014 but two things stand out: he used pre-snap motion on just 50% of dropbacks (league norm is 54%) and screens on only 6% of passes (league norm 8%), making this one of the more static, pre-set offenses in the league. Pass tendency leaned slightly heavier than expected, which is notable given Roman's run-heavy reputation. Scheme value landed at +0.023 against a league average of +0.008, a quietly above-average number, though the offense posted -0.02 EPA/play, below the league mean, meaning the results didn't fully reflect the schematic contribution.",
-  "hash": "d97db84fe880",
+  "blurb": "Roman's 2025 Chargers offense was conventional in most respects \u2014 play-action, RPOs, and tempo all sat right at league average \u2014 but stood out for how little it leaned on pre-snap motion (50%, against a ~54% norm) and screens (6%, against ~8%), keeping the approach notably static before the snap. Pass tendency ran slightly above expectation, one of the few genuine departures from the middle of the pack. Scheme value came in marginally above average, though with moderate reliability given the quarterback's influence, and the results themselves were below average at -0.02 EPA/play, which is where the honest read lands.",
+  "hash": "1208fc645979",
   "side": "offense"
  },
  "Josh McDaniels|2025": {
-  "blurb": "McDaniels ran a conventional structure in 2025 \u2014 motion, play-action, and tempo all sitting right at league average, with almost no screens (5%, against an 8% norm) and virtually no RPOs. What stands out is the gap between how ordinary the scheme looked on paper and what it produced: +0.151 scheme value ranked first among all 32 coordinators, and the offense finished at +0.16 EPA/play, also first. The execution, not the design, was the story.",
-  "hash": "8f1f2926dd24",
+  "blurb": "McDaniels ran a thoroughly conventional scheme in 2025 \u2014 motion, play-action, and tempo all sitting right at league average, with almost no screens (5%, vs. 8% league average) and essentially no RPOs (1%). What stood out was the offense's results: +0.16 EPA/play, first in the league against a league average of +0.01. Whether that reflects the system or the quarterback running it can't be untangled here \u2014 this operation was built around one player, so the scheme's own contribution remains genuinely unclear.",
+  "hash": "bf1d7530c320",
   "side": "offense"
  },
  "Kliff Kingsbury|2025": {
-  "blurb": "Kingsbury's 2025 Washington offense was built around two things that genuinely stood out: an RPO rate of 5% \u2014 more than double the league average of 2% and second in the league \u2014 and a creativity score of 62, well above the 52 norm and fourth overall. Everything else was pretty conventional: play-action, pass tendency, and screens all sat near league average, tempo was actually a tick slow, and the results landed exactly at the league mean (+0.01 EPA/play). The scheme had real structural novelty; it just didn't translate into an edge in outcomes.",
-  "hash": "a25358c3a0cd",
+  "blurb": "Kingsbury ran one of the more structurally unusual offenses in the league in 2025 \u2014 his RPO rate of 5% was more than double the league average of 2% and ranked second among all 32 teams, and his creativity score of 62 placed him fourth overall against a league norm of 52. Pre-snap motion and tempo were both below average, so the exoticness wasn't coming from pace or movement \u2014 it was baked into the play design itself. Scheme value came in at +0.048 against a league average of +0.008, though with only moderate reliability given the quarterback involved, that number is directionally promising rather than settled. Results landed exactly at the league mean.",
+  "hash": "95089b551618",
   "side": "offense"
  },
  "Nick Caley|2025": {
-  "blurb": "Caley's Houston offense in 2025 ran fast \u2014 85 plays per game, third in the league against an average of 81 \u2014 but that's essentially where the distinctiveness ends. Everything else sat at or near league average: play-action at 22%, motion at 54%, pass tendency right in the middle. The one other outlier was screens, where Houston ranked dead last at 4% against a league norm of 8%, a choice that looks more like a philosophical gap than an oversight. The scheme produced slightly negative EPA/play and ranked 24th in adjusted value, so the tempo wasn't translating into results.",
-  "hash": "53258039e65b",
+  "blurb": "Caley's Houston offense in 2025 ran fast \u2014 85 plays per game ranked third in the league against an 81-play average \u2014 but the tempo wasn't masking anything exotic underneath it. Motion, play-action, and pass tendency all sat right at league norms, and the screen game was essentially absent (4% against an 8% league average, dead last). The system's creativity score of 39 against a 52 league average tells the same story: this was a straightforward, high-volume approach. Scheme value came in at -0.025 against a league average of +0.008, though that number is only moderately reliable \u2014 hard to fully separate from the quarterback \u2014 so call it indicative of a system that didn't generate much structural edge rather than a precise verdict. The results landed at -0.01 EPA/play, just below average and consistent with a scheme that leaned on pace over wrinkle.",
+  "hash": "650dc9e2ebf0",
   "side": "offense"
  },
  "Nick Holz|2025": {
@@ -795,33 +795,33 @@
   "side": "offense"
  },
  "Chip Kelly|2025": {
-  "blurb": "Kelly's 2025 Las Vegas offense ranked last in the league in both scheme value and EPA/play, and almost nothing in the data explains it away \u2014 pass tendency, play-action, motion, RPO rate, and screen rate all sit right at league average. The one thing that stands out is tempo: 74 plays per game against a league norm of 81, second-slowest in the NFL. A slow, conventional offense that didn't generate value is about as straightforward a read as the numbers allow.",
-  "hash": "295abb81f8b7",
+  "blurb": "Kelly's 2025 Las Vegas offense was notably slow \u2014 74 plays per game against a league average of 81, second-fewest in the league \u2014 which runs counter to everything his reputation suggests, and nearly every other dimension sat right at the norm: motion, play-action, RPO, screen rate, pass tendency all middle of the pack. The scheme-value number (-0.177, dead last) is only moderately reliable given the quarterback situation, but the results aren't ambiguous: -0.21 EPA/play, worst in the league by a wide margin.",
+  "hash": "02dfc0bc6350",
   "side": "offense"
  },
  "John Morton|2025": {
-  "blurb": "Morton ran the least exotic offense in the league in 2025 \u2014 a creativity score of 38 against a league average of 52, dead last among 32 teams \u2014 and leaned heavily run with a pass rate 5.1 points below expectation, one of the lowest tendencies in football. What he did do was screen the ball at a notably high clip (10%, vs. an 8% norm) and generate above-average scheme value (+0.034 vs. +0.008 league average), suggesting the simplicity was a feature, not a limitation. Detroit moved the ball efficiently on the back of clean execution, not pre-snap complexity.",
-  "hash": "fecc87656625",
+  "blurb": "Morton ran one of the least exotic offenses in the league in 2025 \u2014 creativity scored 38 out of 100 against a league average of 52, ranking last among all 32 teams \u2014 and he was notably run-heavy, sitting 5.1 percentage points below expected pass rate when the league average was already tilted slightly run. What he did lean on were screens (10%, above the 8% norm) and a solid play-action rate of 26%. The offense produced +0.08 EPA/play, good for seventh in the league, but because this system ran with effectively one quarterback, how much of that belongs to Morton's scheme and how much to his QB simply can't be separated.",
+  "hash": "e9cbcbb875e1",
   "side": "offense"
  },
  "Josh Grizzard|2025": {
-  "blurb": "Grizzard's 2025 Tampa offense was mostly unremarkable on paper \u2014 creativity, pass tendency, motion, and tempo all sat within a few ticks of league average. The one genuine outlier was play-action: he used it on just 17% of dropbacks against a 23% league norm, putting him 30th in the league, while leaning on screens at a 10% rate (league average is 8%) as a partial substitute. The results were slightly below water at -0.01 EPA/play, and the scheme value came in below average at -0.017 \u2014 not a disaster, but not a system generating edge either.",
-  "hash": "05a3ddfff581",
+  "blurb": "Grizzard's Tampa offense in 2025 ran at a slightly uptempo pace and leaned on screens \u2014 10% screen rate ranked fifth in the league against an 8% norm \u2014 while almost completely abandoning play-action, using it on just 17% of dropbacks when the league average was 23%, the second-lowest rate in the NFL. Everything else sat close to league average: motion, creativity, RPO usage, and pass tendency were all unremarkable. Results were marginal at -0.01 EPA/play, but with one quarterback running the whole system, there's no clean way to separate what Grizzard built from what his QB brought.",
+  "hash": "dd041090e15d",
   "side": "offense"
  },
  "Kevin Patullo|2025": {
-  "blurb": "Patullo's Eagles offense in 2025 was genuinely creative \u2014 a 62 creativity score ranked fifth in the league against a norm of 52 \u2014 but that inventiveness didn't translate into scheme value, which came in at -0.031 against a league average of +0.008. The most distinctive structural choice was nearly abandoning screens (5% vs. an 8% league norm, 31st of 32), while leaning modestly on RPOs at 3% (above the 2% average). Everything else \u2014 motion, play-action, tempo, pass tendency \u2014 sat right at the middle of the league, making this a system that was creative in design but ordinary in most of its mechanics and only average in results.",
-  "hash": "58a783db586f",
+  "blurb": "Patullo's 2025 Philadelphia offense ranked fifth in creativity despite sitting near the middle of the pack on motion, tempo, play-action, and pass tendency \u2014 all of which hovered right around league average. The real fingerprints are elsewhere: an RPO rate of 3% (well above the 2% norm) and an almost nonexistent screen game at 5% (the league averaged 8%, and only one team used them less). Results landed at +0.03 EPA/play, slightly above average, but this offense ran through effectively one quarterback, so how much of that belongs to the scheme versus the quarterback is genuinely unclear.",
+  "hash": "1d2399a819ba",
   "side": "offense"
  },
  "Tanner Engstrand|2025": {
-  "blurb": "Engstrand's Jets offense ran pre-snap motion on 64% of dropbacks \u2014 well above the 54% league norm and a top-4 rate \u2014 but the rest of the profile tells a harder story. He was the most run-heavy play-caller in the league at -9.8 PROE versus a -1.3 average, avoided play-action at a 18% clip against a 23% norm, and the system generated a -0.151 scheme value (#30) with results to match at -0.13 EPA/play. The motion was real; the surrounding design didn't convert it into production.",
-  "hash": "c3f319ae694a",
+  "blurb": "Engstrand's Jets offense was defined by two things pulling in opposite directions: elite pre-snap motion (64% of dropbacks, well above the 54% league norm) layered over one of the run-heaviest tendencies in the league (-9.8 pass rate over expected, dead last). Play-action was rare at 18% despite all that motion, which is an odd combination \u2014 you're moving bodies before the snap but not selling the fake after it. Scheme value came in at -0.151 against a league average of +0.008, though with moderate reliability given the quarterback situation, so treat that as indicative. The results were real: -0.13 EPA/play, 29th in the league.",
+  "hash": "4cb0da18cbcf",
   "side": "offense"
  },
  "Andy Reid|2026": {
-  "blurb": "Reid's 2026 offense was one of the more structurally distinct in the league \u2014 screens at 6% (double the 3% norm), play-action at 13% (well above the 9% average), and a creativity score of 74 against a league average of 51, all pointing to a system that generated genuine stress through design rather than volume. He pushed the pass rate +4.5 over expected, and the results backed it up: +0.15 EPA/play, fourth in the league. Scheme value landed at -0.017, below the +0.011 average, meaning the production came more from execution than from built-in structural edge \u2014 but at that EPA output, it's hard to call that a real problem.",
-  "hash": "1097b38f2f80",
+  "blurb": "Reid's 2026 offense was genuinely unusual in a few specific ways: play-action on 13% of dropbacks (league avg 9%, second in the league) and screens on 6% (double the 3% league norm, and the highest rate in the NFL), while passing at well above the typical rate. The creativity score of 74 \u2014 against a league average of 51 \u2014 reflects a system that layers a lot of structural variety into the design. Pre-snap motion and tempo sat right at league average, so the exoticness wasn't coming from pace or motion volume. The offense produced +0.15 EPA/play, fourth in the league, though scheme value grades out only indicatively given how difficult it is to disentangle the system from the quarterback behind it.",
+  "hash": "e070c4a39fd5",
   "side": "offense"
  },
  "Ben Johnson|2026": {
@@ -830,8 +830,8 @@
   "side": "offense"
  },
  "Brian Schottenheimer|2026": {
-  "blurb": "Schottenheimer's Dallas offense in 2026 was about as conventional as it gets structurally \u2014 motion at 23%, play-action at 10%, tempo at 63 plays per game, all sitting right at the league norm \u2014 but the results were quietly solid, with +0.08 EPA/play and a scheme value of +0.077 against a league average of +0.011. The creativity score of 35 out of 100 ranked 29th, so this wasn't a system winning on design complexity; it was winning on execution within a stripped-down framework. Sometimes the most unadorned read is the most honest one: Dallas ran a conventional offense and it worked.",
-  "hash": "5fe954cde6f4",
+  "blurb": "Schottenheimer's 2026 Dallas offense was about as conventional as it gets structurally \u2014 motion at 23%, play-action at 10%, tempo at 63 plays per game, all sitting right at league average \u2014 with a creativity score of 35/100 that ranked 29th in the league, well below the norm of 51. The one modest lean was a slightly pass-heavy tendency at +2.9 over expected. The offense posted +0.08 EPA/play, good for eighth in the league, but because this system ran with effectively one quarterback, there's no reliable way to separate what the scheme contributed from what the QB did on his own.",
+  "hash": "6d8595a0d931",
   "side": "offense"
  },
  "Drew Petzing|2026": {
@@ -855,18 +855,18 @@
   "side": "offense"
  },
  "Matt LaFleur|2026": {
-  "blurb": "LaFleur's 2026 Green Bay offense is about as conventional as it gets on the surface \u2014 creativity, motion, play-action, and tempo all sit right around league average \u2014 but the results the scheme generated were elite regardless: third in the league in scheme value at +0.119, against a league norm of +0.011. The one genuine outlier is RPO usage at 2%, second-highest in the league against a 1% norm, though the overall EPA landed right at zero, meaning execution didn't quite match what the system created.",
-  "hash": "d20f79e3e5ef",
+  "blurb": "LaFleur's 2026 offense was broadly conventional \u2014 creativity, motion, play-action, and tempo all clustered near league average \u2014 with one real outlier: an RPO rate of 2%, second in the league against a norm of 1%, suggesting a deliberate commitment to that element of the run game. Scheme value came in at +0.119 against a league average of +0.011, which looks elite but carries only moderate reliability given the quarterback involved, so the honest read is that it's indicative of a functional system rather than a confirmed top-three operation. Results landed at -0.01 EPA/play, right at the middle of the league.",
+  "hash": "f5d1eb21dd04",
   "side": "offense"
  },
  "Matt Nagy|2026": {
-  "blurb": "Nagy's 2026 Giants offense was about as stripped-down as it gets: pre-snap motion on just 13% of snaps (league average was 22%, and no team used it less), a run-lean tendency well below the field, and a creativity score of 36 out of 100 against a league norm of 51. The system generated roughly average results \u2014 minus-0.03 EPA/play, close enough to zero to call it a wash \u2014 but there wasn't much underneath it driving that outcome, with scheme value sitting at essentially zero and below the league mean.",
-  "hash": "bb7fc9ab9a1d",
+  "blurb": "Nagy's 2026 Giants offense was about as stripped-down as it gets: pre-snap motion on just 13% of dropbacks against a league norm of 22% \u2014 dead last in the league \u2014 and a pass rate well below expected at -5.4 over average, ranking 27th. The system leaned run-heavy and kept the pre-snap presentation minimal. Whether that reflects a genuine philosophical choice or an adaptation to his quarterback, the results landed right around league average at -0.03 EPA/play, and with effectively one quarterback running the whole operation, the scheme's actual value can't be cleanly separated from the player behind center.",
+  "hash": "7dc3d7b75af6",
   "side": "offense"
  },
  "Mike LaFleur|2026": {
-  "blurb": "LaFleur's Arizona offense in 2026 was about as stripped-down as it gets \u2014 play-action at 7% (league avg 9%), screens at 2% (avg 3%), and an RPO rate of essentially zero put him at or near the bottom of the league on almost every pre-snap wrinkle. The one genuine outlier was tempo: 66 plays per game against a league average of 62, suggesting the design was to run more plays rather than create advantages within them. Scheme value came in below average at -0.003, though results landed right at the middle of the pack at -0.02 EPA/play \u2014 functional, but without much margin.",
-  "hash": "8cc382d96863",
+  "blurb": "LaFleur's Arizona offense in 2026 was about as conventional as it gets \u2014 creativity scored 32 out of 100 against a league average of 51, play-action at 7% and screens at 2% both sitting near the bottom of the league, and essentially zero RPOs. The one genuine outlier was pace: 66 plays per game ranked fifth in the league. Whether that tempo masked limitations or just reflected a style preference is hard to know, because the scheme ran behind one quarterback all year and the -0.02 EPA/play result can't be cleanly separated from what that player brought to it.",
+  "hash": "7acd53ed9219",
   "side": "offense"
  },
  "Mike McDaniel|2026": {
@@ -875,8 +875,8 @@
   "side": "offense"
  },
  "Sean McVay|2026": {
-  "blurb": "McVay's 2026 offense was conventional in structure but pushed the pace harder than almost anyone \u2014 67 plays per game ranked third in the league against a 62-play average, and pre-snap motion at 25% ran a few ticks above norm. Everything else sat close to league average: play-action at 11%, pass tendency slightly elevated, RPOs and screens essentially absent. The result was a scheme that generated real value (+0.061, eighth overall) through execution and volume rather than structural exoticness (38/100 creativity, 25th).",
-  "hash": "c9dad229e3eb",
+  "blurb": "McVay's 2026 offense ran fast \u2014 67 plays per game ranked third in the league against a 62-play average \u2014 and leaned pass-heavy, sitting seven points above expected pass rate when the league was trending slightly run. Pre-snap motion showed up on a quarter of dropbacks, modestly above the league norm, while RPOs and screens were essentially absent. The scheme value reads as above-average at +0.061 against a +0.011 mean, though with only moderate reliability given the quarterback dependency, that number is indicative rather than definitive.",
+  "hash": "1baba3d6534f",
   "side": "offense"
  },
  "Sean Payton|2026": {
@@ -890,8 +890,8 @@
   "side": "offense"
  },
  "Todd Monken|2026": {
-  "blurb": "Monken's 2026 Cleveland offense was an unusual combination: one of the more pass-heavy, creative systems in the league \u2014 sitting sixth in both pass rate over expectation (+4.5 vs. a league average of -0.9) and scheme exoticness \u2014 but almost none of the pre-snap machinery that usually supports that kind of attack. Motion on just 16% of dropbacks and play-action on 7% both ranked 30th, well below the 22% and 9% league norms. The scheme value landed a respectable tenth, but the results didn't follow \u2014 a -0.09 EPA/play finish ranked 26th.",
-  "hash": "b9cf7aaecddd",
+  "blurb": "Monken's 2026 Cleveland offense was an unusual mix: a creativity score of 58 \u2014 sixth in the league against a norm of 51 \u2014 and a strong pass tendency running well above average, yet almost no pre-snap motion (16%, near the bottom at 30th) and minimal play-action (7%, also 30th). The scheme-value estimate sits at a mildly above-average +0.051, though with moderate reliability, so treat that as directional. What's hard to argue with is the output: -0.09 EPA/play ranked 26th, meaning the creative tendencies didn't translate to results.",
+  "hash": "97b77b161634",
   "side": "offense"
  },
  "Zac Taylor|2026": {
@@ -900,18 +900,18 @@
   "side": "offense"
  },
  "Bobby Slowik|2026": {
-  "blurb": "Slowik ran one of the most structurally unusual offenses in the league that season \u2014 pre-snap motion on 30% of snaps (league avg 22%, top of the league) and a creativity score of 78 out of 100 against a league average of 51, so the design was genuinely exotic. The problem is that the outcomes didn't follow: -0.12 EPA/play and a scheme value of -0.081 against a league average of +0.011 suggest the complexity wasn't translating. Miami also ran the ball at one of the highest rates in the league (pass rate 8.2 points below expectation, #30), at one of the slowest tempos (55 plays/game vs. a 62-play average), which is a pretty specific set of choices that didn't pay off in 2026.",
-  "hash": "ee5ae499c088",
+  "blurb": "Slowik's 2026 Miami offense was one of the most structurally unusual in the league \u2014 pre-snap motion on 30% of dropbacks (league-best, versus a 22% norm) and a creativity score of 78 out of 100 that ranked second of 32 teams \u2014 but the results didn't follow. The offense ran at near-league-minimum tempo (55 plays per game, second-slowest), skewed heavily run (pass rate nearly 8 points below expectation, 30th of 32), and posted -0.12 EPA/play, well below the league average of zero. The scheme-value number (-0.081, indicative rather than precise given moderate reliability) suggests the design itself wasn't generating much edge either, though how much of that belongs to Slowik versus the quarterback situation remains genuinely hard to untangle.",
+  "hash": "e83dd737be51",
   "side": "offense"
  },
  "Brad Idzik|2026": {
-  "blurb": "Idzik's 2026 Carolina offense was defined by two things above almost everything else: pace and aggression through the air. At 68 plays per game \u2014 second in the league against an average of 62 \u2014 and a pass rate over expected of +9.7 (first in the league, with the average sitting just below zero), he pushed volume and threw it constantly. RPO usage at 3% was also first in the league against a 1% norm, a small but real wrinkle. The results backed it up: +0.12 EPA/play, sixth overall, well clear of the league average of zero.",
-  "hash": "975ae0289684",
+  "blurb": "Idzik's 2026 Carolina offense had two defining traits: it threw the ball at the league's highest rate and played at the second-fastest tempo in the league at 68 plays per game, well above the 62-play average. RPO usage was also notably high at 3% against a 1% norm, while screens were almost entirely absent. Everything else \u2014 motion, play-action, creativity \u2014 sat right at the middle of the pack. The scheme value reads as a solid +0.025 against a +0.011 average, though the QB dependency here is real enough that the number should be taken as directional. The +0.12 EPA/play is the harder fact: Carolina moved the ball effectively, whatever the cause.",
+  "hash": "8007d7f51272",
   "side": "offense"
  },
  "Joe Brady|2026": {
-  "blurb": "Brady's system ranked first in creativity that season \u2014 an 83 out of 100 against a league average of 51 \u2014 yet nearly every structural lever sat right at the norm: play-action at 10%, motion at 23%, RPOs and screens both at 1% and 3% respectively. The exoticism was in the design, not the usage rates. Whatever he was drawing up, it worked: Buffalo finished second in the league at +0.20 EPA/play, and his scheme value came in above average at +0.025, even after adjusting for quarterback and opponent.",
-  "hash": "02caaadfefed",
+  "blurb": "Brady's 2026 Buffalo offense ranked first in the league on creativity at 83/100 \u2014 well above the 51/100 norm \u2014 yet almost everything else in the profile sat right at league average: motion, play-action, RPO, screen rate, and pass tendency were all ordinary. The intrigue is in that gap: a system that registered as genuinely exotic in its design but conventional across every individual dial. Results were elite (+0.20 EPA/play, second in the league), and scheme value came in above average at +0.025, though the moderate reliability on that number means it's indicative rather than precise \u2014 hard to fully disentangle from the quarterback. What Brady built in 2026 was structurally creative in ways the standard categories don't fully capture, and it produced.",
+  "hash": "5d60afeffa43",
   "side": "offense"
  },
  "Klint Kubiak|2026": {
@@ -930,13 +930,13 @@
   "side": "offense"
  },
  "Declan Doyle|2026": {
-  "blurb": "Doyle's 2026 Baltimore offense ran closer to the ground than most \u2014 run-heavy at 3.7 percentage points below the expected pass rate, with almost no RPOs or screens to speak of \u2014 yet the scheme posted a +0.081 system value, sixth in the league against a +0.011 average, and +0.11 EPA/play to match. The creativity score (58/100) was modestly above the 51 norm, but nothing else in the profile reads exotic: motion, play-action, and tempo all sat right at league average. This was a conventional structure that just worked.",
-  "hash": "647cd9915bae",
+  "blurb": "Doyle's 2026 Baltimore offense ran lean \u2014 no RPOs, minimal screens, slightly below-average motion, and a run-heavier tendency than most \u2014 and still finished seventh in EPA/play. The scheme value reads as indicative rather than precise given how much of it is tied to the quarterback, but the style itself was coherent: fewer moving parts than most coordinators near that tier, with results that held up regardless. Nothing exotic, just a system that didn't need to be.",
+  "hash": "4baef4388f17",
   "side": "offense"
  },
  "Josh McDaniels|2026": {
-  "blurb": "McDaniels's 2026 New England offense looked almost deliberately conventional on the surface \u2014 motion, play-action, tempo, and screen rate all sitting right at league average \u2014 yet it ranked first in scheme value at +0.151, against a league average of +0.011. That gap is the story: the structure wasn't exotic, but the design was extracting real value from ordinary tools, and the +0.04 EPA/play result backed it up. Sometimes the most interesting thing about a system is how little it needs to stand out to work.",
-  "hash": "cb5186ab6d08",
+  "blurb": "McDaniels ran a thoroughly conventional offense in 2026 \u2014 motion at 22%, play-action at 9%, screens at 3%, tempo at 63 plays per game, all essentially at league average. The one thing that stands out is a near-complete absence of RPOs, though at 1% league-wide that gap is marginal. Results landed at +0.04 EPA/play, slightly above average, but the system ran with effectively one quarterback the entire season, so there's no clean way to separate what the scheme produced from what the quarterback produced.",
+  "hash": "68acc74a2133",
   "side": "offense"
  },
  "Mike McCarthy|2026": {
@@ -945,8 +945,8 @@
   "side": "offense"
  },
  "Nick Caley|2026": {
-  "blurb": "Caley's 2026 Houston offense was about as close to league-average as a system gets \u2014 creativity, motion, play-action, tempo, and RPO usage all land within a percentage point or two of the norm. The one thing worth noting is how little he leaned on screens (2%, against a 3% average), keeping the offense relatively downfield in its distribution. Scheme value came in below average at -0.025, though the offense still produced a modest positive EPA/play, suggesting the results outran the system's structural contribution.",
-  "hash": "a1e23120b51c",
+  "blurb": "Nick Caley's 2026 Houston offense was about as close to league-average as a system gets \u2014 creativity, tempo, play-action, and RPO usage all sitting right at the norm \u2014 with the one modest deviation being a below-average screen rate (2% vs. a 3% league norm). The offense produced a slightly positive EPA/play at +0.04, decent but not separable from quarterback contribution given only moderate reliability on the scheme-value estimate of -0.025. One season, one quarterback context: the style was conventional, the results were fine, and that's about as far as the data honestly goes.",
+  "hash": "fbe3e02794f7",
   "side": "offense"
  },
  "Tommy Rees|2026": {
@@ -955,28 +955,28 @@
   "side": "offense"
  },
  "Brian Daboll|2026": {
-  "blurb": "Daboll's 2026 Tennessee offense was defined by what it didn't do: run the ball far more than almost anyone (7.1 percentage points below expected pass rate, 29th), move players pre-snap (17% motion vs. a 22% norm), or play fast (53 plays per game, last in the league). The scheme itself graded out near the bottom in adjusted value (-0.085, 31st), and the results followed \u2014 -0.15 EPA/play, also 31st. A minimalist approach can work; this one didn't.",
-  "hash": "28f3124ce36d",
+  "blurb": "Daboll's Tennessee offense in 2026 was defined by what it didn't do: run-heavy well below league pass tendency norms (\u20137.1 over expected vs. a \u20130.9 average), almost no pre-snap motion (17% against a 22% league average), and the slowest tempo in the league at 53 plays per game. The results were poor \u2014 \u20130.15 EPA/play, 31st in the league \u2014 though whether that reflects the scheme or the quarterback running it can't be cleanly separated.",
+  "hash": "f514c3435583",
   "side": "offense"
  },
  "Brian Fleury|2026": {
-  "blurb": "Fleury ran one of the more run-heavy offenses in the league in 2026, passing nearly 5 fewer times per game than expected against a -0.9 league norm \u2014 that's a genuine philosophical commitment, not a game-script artifact. Where he did pass, he leaned heavily on play-action (12%, top four) and screens (5%, top four), which fits a system built around keeping defenses honest after the run. The results didn't validate the approach: -0.08 EPA/play ranked 24th, and scheme value came in below average at -0.040.",
-  "hash": "786a8e7607d1",
+  "blurb": "Fleury's 2026 Seattle offense was built around pre-snap deception and quick throws underneath \u2014 motion on 25% of dropbacks (top 4 in the league), play-action on 12% (also top 4), and screens on 5% (top 4) \u2014 all while running the ball at an unusually high rate (4.8 percentage points below expected passing). The results were below average at -0.08 EPA/play, but the system ran with one quarterback throughout, so how much of that belongs to Fleury's design versus his QB is genuinely unclear.",
+  "hash": "0f1e12a2e79c",
   "side": "offense"
  },
  "David Blough|2026": {
-  "blurb": "Blough's Washington offense in 2026 was about as middle-of-the-road as it gets \u2014 creativity, pass tendency, play-action, motion, and tempo all sitting within a rounding error of league average. The one thing that genuinely stood out was what he didn't use: essentially no RPOs and almost no screens, both near the bottom of the league. That's a deliberate choice away from quick-release safety valves, though it didn't cost him much \u2014 results landed right at the league median too.",
-  "hash": "b1c1ae48ae19",
+  "blurb": "Blough's 2026 Washington offense was almost entirely middle-of-the-pack \u2014 creativity, pass tendency, motion, play-action, and tempo all sat within a point or two of league average. The one real signature was what he didn't use: essentially no RPOs and no screen game, both near the bottom of the league. Scheme value came in slightly below average, though with only moderate reliability it's better read as indicative than definitive. Results landed right at the league median.",
+  "hash": "74852c5757fb",
   "side": "offense"
  },
  "Frank Reich|2026": {
-  "blurb": "Reich's Jets offense in 2026 was about as stripped-down as it gets \u2014 last in the league in creativity, pre-snap motion at 14% against a 22% norm, and a deliberate pace of 58 plays per game when most teams ran four more. Play-action and screens were both below average too, so this wasn't a system built on deception or misdirection. The results landed at -0.03 EPA/play, middling but not a disaster, which at least suggests the execution held the floor that the scheme wasn't raising.",
-  "hash": "a19fab6dea3c",
+  "blurb": "Reich's Jets offense in 2026 was about as stripped-down as it gets \u2014 a creativity score of 32 out of 100 ranked dead last in the league, pre-snap motion at 14% against a 22% norm, and one of the slowest tempos in football at 58 plays per game. Play-action and screens were both below average too, so there wasn't much disguise anywhere. Results landed at -0.03 EPA/play, roughly league-average, though with effectively one quarterback running the system all season, it's impossible to know how much of that belongs to the scheme and how much to the quarterback carrying it.",
+  "hash": "2b29bee4a5ea",
   "side": "offense"
  },
  "Sean Mannion|2026": {
-  "blurb": "Mannion's one season calling plays in Philadelphia didn't distinguish itself in any particular direction \u2014 conventional pass tendency, average motion and screen usage, almost no RPO presence \u2014 but the numbers that matter came out poorly. Scheme value landed at -0.058 against a league average of +0.011, and the offense produced -0.14 EPA/play, 30th in the league. The system wasn't unusual enough to explain the results; it just didn't generate much.",
-  "hash": "d222fa299a6a",
+  "blurb": "Mannion's 2026 Philadelphia offense was conventional by nearly every measure \u2014 motion, RPOs, screens, and play-action all sat at or below league average, and at 58 plays per game it was one of the slower-paced units in the league. The results were poor: -0.14 EPA/play ranked 30th. Whether that reflects the system or the quarterback running it can't be cleanly answered with one season of data, and that's the honest read here.",
+  "hash": "2e71338e7676",
   "side": "offense"
  },
  "Brian Flores": {
@@ -1165,13 +1165,13 @@
   "side": "defense"
  },
  "Chris O'Leary": {
-  "blurb": "O'Leary runs one of the more straightforward defensive systems in the league \u2014 creativity at 41/100 sits well below the 49 average, ranking near the bottom in blitz variety and disguise. What's notable is that it doesn't seem to hurt: his -0.04 EPA/play allowed is solidly better than the league average of +0.01, suggesting the Chargers defense is winning on execution rather than confusion. Scheme value is modest at +0.017, but positive.",
-  "hash": "2fdb96558e70",
+  "blurb": "Chris O'Leary runs a low-disguise defense \u2014 a creativity score of 41 against a league norm of 49 puts him near the bottom third in blitz variety and front variation \u2014 but the results are quietly respectable: -0.04 EPA/play allowed against a league average of +0.01. The scheme value reads as marginally above average, though with only moderate reliability it's better treated as a directional signal than a firm verdict. This is a system that earns its outcomes through execution, not deception.",
+  "hash": "f55a7f0e52f2",
   "side": "defense"
  },
  "Christian Parker": {
-  "blurb": "Parker's Dallas defense sits near the bottom of the league in both results and scheme value \u2014 +0.16 EPA/play allowed ranks 66th of 67, and his -0.144 scheme value suggests the system itself isn't generating much structural advantage. The disguise and complexity numbers are essentially average at 45/100, so this isn't a case of creative playcalling failing to produce; the approach is conventional and the outcomes reflect it.",
-  "hash": "3bcd9d611afb",
+  "blurb": "Christian Parker's Dallas defense has been one of the worst-performing units in the league by results \u2014 +0.16 EPA/play allowed against a league average of +0.01, which is near the bottom of all coordinators tracked. The scheme itself isn't particularly distinctive: creativity sits right at the pack average (45 vs. 49 league norm), with no notable lean toward pressure, disguise, or front variation. Scheme value comes in at -0.144 against a league average of -0.012, though with only moderate reliability, that number is indicative rather than precise \u2014 still, nothing in the profile suggests the results are hiding a sound system.",
+  "hash": "339caecfee6f",
   "side": "defense"
  },
  "Dan Quinn": {
@@ -1180,8 +1180,8 @@
   "side": "defense"
  },
  "Daronte Jones": {
-  "blurb": "Jones runs one of the most aggressively disguised defenses in the league \u2014 a creativity score of 90 out of 100 against a league average of 49, ranking first among 67 coordinators, meaning he's generating more blitz looks, simulated pressures, and front variation than almost anyone. The problem is the results don't back it up: Washington allowed +0.07 EPA per play, well below average, while scheme value sits at -0.007, roughly middle of the pack. The complexity is real; the production isn't there yet.",
-  "hash": "f1e25878c9bc",
+  "blurb": "Daronte Jones runs one of the most disguise-heavy defenses in the league \u2014 a creativity score of 90 out of 100 against a league average of 49 puts him at the top of all 67 coordinators in blitz looks, simulated pressures, and front variation. The problem is the results haven't matched the complexity: a defensive EPA allowed of +0.07 per play ranks 54th, well below the league average of +0.01. Scheme value sits in the middle of the pack at -0.007, though that number is only moderately reliable given the roster context. The schematic ambition is real; the execution hasn't justified it yet.",
+  "hash": "0385c2871f4b",
   "side": "defense"
  },
  "DeMarcus Covington": {
@@ -1190,8 +1190,8 @@
   "side": "defense"
  },
  "DeMeco Ryans": {
-  "blurb": "Ryans runs one of the most straightforward defensive schemes in the league \u2014 creativity score of 38 against a league average of 49, ranking 65th of 67 coordinators. What's notable is that the results are fine anyway: EPA/play allowed sits at -0.01 against a league average of +0.01, meaning the defense held its own without disguise or exotic pressure packages. The scheme value is essentially neutral, hovering right at league average. This is a system that wins, if it wins, on execution and personnel rather than schematic complexity.",
-  "hash": "bb0cc8b0b84d",
+  "blurb": "Ryans runs one of the most structurally conventional defensive schemes in the league \u2014 a creativity score of 38 against a league average of 49 puts him near the bottom in blitz variety, disguise, and front versatility. The results are roughly average (\u22120.01 EPA/play allowed vs. a league norm of +0.01), and scheme value sits in the middle of the pack at \u22120.001, though that number carries only moderate reliability given how much his Houston defense leaned on a single quarterback situation. The honest read: this is a system that bets on execution and alignment over confusion, and so far the outcomes have matched the approach \u2014 competent, not dominant.",
+  "hash": "a3182308394b",
   "side": "defense"
  },
  "Eric Washington": {
@@ -1200,8 +1200,8 @@
   "side": "defense"
  },
  "Jim Leonhard": {
-  "blurb": "Leonhard's Buffalo defense sits near the middle of the league in both creativity and scheme value \u2014 nothing that stands out structurally, and no exotic pressure or disguise tendencies to point to. The results, though, are the real problem: a +0.13 EPA/play allowed ranks 64th of 67, well off the league average of +0.01, meaning opposing offenses are consistently winning on a per-play basis. The scheme isn't unusually risky or unconventional; it's just not working.",
-  "hash": "3e89d5c2e347",
+  "blurb": "Leonhard's Buffalo defense sits close to league average on both creativity and disguise \u2014 nothing unusual in how often he blitzes or varies his fronts \u2014 and his scheme value registers slightly below the middle of the pack, though with only moderate reliability given the personnel context. What's harder to explain away is the results: +0.13 EPA/play allowed against a league average of +0.01 puts the unit near the bottom of the league, and that gap is large enough that scheme adjustments alone won't close it.",
+  "hash": "fddd89b916e0",
   "side": "defense"
  },
  "Jimmy Lake": {
@@ -1210,8 +1210,8 @@
   "side": "defense"
  },
  "Jonathan Gannon": {
-  "blurb": "Gannon's defense in Green Bay sits in an interesting spot: perfectly average in terms of disguise and pressure creativity \u2014 right at the league norm of 49 \u2014 but the results and underlying scheme value tell a different story. His unit allows -0.06 EPA/play against a league average of +0.01, and his QB- and opponent-adjusted scheme value ranks eighth among 67 coordinators. This is a defense winning on execution and sound structure, not exotic looks.",
-  "hash": "b7c1ff9a3171",
+  "blurb": "Gannon's defense in Green Bay lands in the top third of the league on EPA allowed \u2014 -0.06 per play against a league average of +0.01 \u2014 and the scheme value reads as a legitimate positive at +0.050, though with moderate reliability it's worth treating as indicative rather than a precise rank. What's notable is that he gets there without much disguise or pressure creativity: his blitz and front variety sits exactly at the league median, 49 out of 100. This is a system that earns its results through execution and soundness, not complexity.",
+  "hash": "ab15ce5d29c8",
   "side": "defense"
  },
  "Matt Eberflus": {
@@ -1220,8 +1220,8 @@
   "side": "defense"
  },
  "Mike Rutenberg": {
-  "blurb": "Rutenberg runs one of the simplest defensive systems in the league \u2014 a creativity score of 38 against a league average of 49 puts him second-to-last in disguise and pressure variety \u2014 but the results are respectable: -0.03 EPA/play allowed against a league average of +0.01, good for 22nd. The scheme value sits at +0.021, modestly above average. Cleveland's defense isn't winning with complexity; it's winning with execution of a stripped-down base.",
-  "hash": "e4b50b002194",
+  "blurb": "Rutenberg runs one of the least disguised defenses in the league \u2014 a creativity score of 38 against a league norm of 49 puts him near the bottom of all coordinators, meaning Cleveland shows its hand more often than almost anyone. What's notable is that the results don't obviously suffer for it: the Browns allowed -0.03 EPA/play against a league average of +0.01, a respectable outcome that suggests the scheme leans on execution over deception. Scheme value sits at +0.021, modestly above the league average of -0.012, though with only moderate reliability it's better read as directionally positive than a firm grade.",
+  "hash": "8154029d85f8",
   "side": "defense"
  },
  "Mike Zimmer": {
@@ -1235,8 +1235,8 @@
   "side": "defense"
  },
  "Rob Leonard": {
-  "blurb": "Rob Leonard's Raiders defense runs one of the most conventionally structured schemes in the league \u2014 creativity sits at 39/100 against a league norm of 49, placing him 64th of 67 coordinators in blitz variety, sim pressure, and front disguise. The results are middling to match: scheme value at -0.050 trails the average of -0.012, and defensive EPA allowed (+0.03) lands 43rd. This is a system that asks players to execute rather than deceive, and right now it isn't generating enough value either way.",
-  "hash": "03e1a25b51d9",
+  "blurb": "Rob Leonard runs one of the more conventional defensive schemes in the league \u2014 a creativity score of 39 against a league average of 49 puts him near the bottom in blitz variety, disguise, and front diversity. The results land roughly in the middle of the pack at +0.03 EPA/play allowed, and scheme value comes in at -0.050 against a league average of -0.012, though that number is only moderately reliable given the sample. The honest read here is a defense that doesn't manufacture much schematically and hasn't yet shown it can win on execution alone.",
+  "hash": "ae8b37580c3b",
   "side": "defense"
  },
  "Robert Saleh": {
@@ -1255,8 +1255,8 @@
   "side": "defense"
  },
  "Zak Kuhr": {
-  "blurb": "Kuhr runs one of the more creative pressure packages in the league \u2014 a creativity score of 58 out of 100 ranks eighth among 67 coordinators, well above the league average of 49, meaning he's consistently mixing blitz looks, simulated pressures, and varied fronts to create confusion at the line. The results are modest but real: -0.01 EPA/play allowed sits better than the league average of +0.01, and his scheme value of +0.010 beats a league mean of -0.012. The disguise is genuinely above average; the outcomes are middle of the pack \u2014 a defense that's doing more right than the standings might suggest.",
-  "hash": "41c42b75b7a5",
+  "blurb": "Kuhr runs one of the more disguise-heavy defenses in the league \u2014 a creativity score of 58 against a league norm of 49 puts him in the top tier for blitz variety and front manipulation. The results are middle-of-the-pack: -0.01 EPA/play allowed ranks 31st, marginally better than a league average sitting at +0.01. Scheme value comes in at +0.010, above the league average of -0.012, though with only moderate reliability it's better read as a directional signal than a firm grade.",
+  "hash": "8db15c9002ad",
   "side": "defense"
  },
  "Brian Flores|2023": {
@@ -1855,48 +1855,48 @@
   "side": "defense"
  },
  "Chris O'Leary|2026": {
-  "blurb": "Chris O'Leary's 2026 Chargers defense ran a straightforward operation \u2014 below-average in creativity and disguise at 41 out of 100 against a league norm of 49, with blitz and sim-pressure usage that sat clearly in the lower tier. What he got for it was solid: a -0.04 EPA/play allowed ranked 12th, and scheme value of +0.017 against a league average near zero. The takeaway is a defense that didn't need to be exotic to hold up.",
-  "hash": "5dacdaea4c61",
+  "blurb": "Chris O'Leary's 2026 LAC defense sat in the middle of the league across the board \u2014 scheme value around +0.017 (indicative, not precise, given how difficult it is to separate from the personnel), creativity well below the league norm at 41 versus an average of 49, and a -0.04 EPA/play allowed that landed 12th. Nothing here signals an exotic or disguise-heavy system; this was a conventional, execution-oriented defense that held its own without asking much from the blitz sheet.",
+  "hash": "c0f41919bec7",
   "side": "defense"
  },
  "Christian Parker|2026": {
-  "blurb": "Christian Parker's Dallas defense in 2026 was about as bad as it gets by the numbers \u2014 dead last in both scheme value and EPA/play allowed, and not particularly exotic in how it got there. The creativity score sits right at the middle of the league (45 vs. a 49 average), so this wasn't a case of an aggressive scheme backfiring; it was a conventional approach that simply didn't work, giving up well above the league-average +0.00 EPA/play at +0.16.",
-  "hash": "f5fdecc3451b",
+  "blurb": "Christian Parker's Dallas defense in 2026 was one of the worst-performing units in the league by the numbers \u2014 +0.16 EPA/play allowed ranks dead last, against a league average of essentially zero. The scheme itself wasn't notably aggressive or disguised, sitting right at the league norm in creativity. Scheme value came in at -0.144 (last in the league), though with only moderate reliability, so some of that reflects factors beyond Parker's system. The results, though, are harder to contextualize away.",
+  "hash": "2c1d5a38e8f4",
   "side": "defense"
  },
  "Daronte Jones|2026": {
-  "blurb": "Daronte Jones ran one of the most aggressive, disguised defenses in the league in 2026 \u2014 a creativity score of 90 against a league average of 49 put him at the top of all 32 coordinators in blitz usage, simulated pressures, and front variety. The problem is the results didn't follow: +0.07 EPA/play allowed ranked 25th, and his scheme value sat slightly below league average at -0.007. The complexity was real; the production wasn't.",
-  "hash": "af189bcb3560",
+  "blurb": "Jones ran the most disguised, pressure-varied defense in the league in 2026 \u2014 a creativity score of 90 against a league average of 49 puts him in a category by himself on blitz looks and front manipulation. The problem is that didn't translate to stops: Washington allowed +0.07 EPA/play, 25th in the league, while the average defense was essentially break-even. Scheme value sits at -0.007, below the league mean, though with only moderate reliability \u2014 hard to fully separate the system from the personnel in front of it. The identity is there; the results weren't.",
+  "hash": "29e5fcc42024",
   "side": "defense"
  },
  "DeMeco Ryans|2026": {
-  "blurb": "Ryans ran one of the league's most straightforward defensive schemes in 2026 \u2014 a creativity score of 38 against a league average of 49 puts him near the bottom of the league in blitz variety, simulated pressure, and front disguise. The results were middling to match: scheme value and EPA/play both landed right around the league average, neither costing Houston nor generating much of an edge. It was a vanilla operation that broke roughly even.",
-  "hash": "0063559dbf7d",
+  "blurb": "Ryans ran one of the least varied defensive schemes in the league in 2026 \u2014 a creativity score of 38 against a league average of 49 puts him at 31st of 32 in blitz usage, simulated pressures, and front diversity. The results were middling too: -0.01 EPA/play allowed, good for 20th. Scheme value came in near the middle at 19th, though that number is only moderately reliable given the quarterback context. This was a base-heavy, low-disguise operation that asked players to execute a simple structure rather than manufacture confusion \u2014 and in 2026, it didn't generate much of an edge either way.",
+  "hash": "cae65ab29c16",
   "side": "defense"
  },
  "Jim Leonhard|2026": {
-  "blurb": "Leonhard's 2026 Buffalo defense landed near the middle of the league in both scheme value and creativity \u2014 nothing that deviated much from the norm in either direction. The results, though, were rough: +0.13 EPA/play allowed ranks 30th, well below the league average of 0.00. A conventional scheme can work, but this one didn't produce stops.",
-  "hash": "f55f73fa2e8c",
+  "blurb": "Leonhard's defense in Buffalo in 2026 was conventional by design \u2014 creativity at 45 sits just below the league average of 49, blitz and disguise usage nothing that stood out \u2014 but the results were genuinely bad: +0.13 EPA/play allowed ranked 30th in the league against a league average of essentially zero. Scheme value comes in at -0.034, though that number is only moderately reliable given how difficult it is to separate defensive performance from the quarterback situation. The style wasn't the problem; the outcomes were.",
+  "hash": "170747dc2b3c",
   "side": "defense"
  },
  "Jonathan Gannon|2026": {
-  "blurb": "Gannon's 2026 season in Green Bay was quietly one of the better defensive coordinator jobs in the league \u2014 a +0.050 scheme value ranked fifth overall, well clear of the league average near zero, meaning the system itself was generating real structural advantages. What's notable is how he got there: creativity and disguise sat exactly at the league midpoint (49/100), so this wasn't built on exotic pressure packages or front variation. The results backed it up, holding a -0.06 EPA/play allowed while the league averaged zero.",
-  "hash": "a79600862df4",
+  "blurb": "Gannon's 2026 defense in Green Bay posted a -0.06 EPA/play allowed, a solid margin below the league average of 0.00, and the scheme value reads as a genuine top-ten unit \u2014 though with only moderate reliability, given how hard it is to fully separate the system from the quarterback it played behind. What stands out is how conventional the approach was: creativity and disguise sat exactly at the league median (49/100), meaning Gannon earned those results through execution rather than exotic design.",
+  "hash": "624fad75d3fb",
   "side": "defense"
  },
  "Mike Rutenberg|2026": {
-  "blurb": "Rutenberg ran one of the least disguised defenses in the league in 2026 \u2014 a creativity score of 38 against a league average of 49, dead last among all 32 coordinators. What's notable is that it didn't hurt him: Cleveland held opponents to -0.03 EPA/play (league average was essentially zero) and his scheme value came in at +0.021 against a near-zero baseline, both middle-of-the-pack results. The read here is a coordinator who leaned almost entirely on alignment and execution rather than deception, and got functional results doing it.",
-  "hash": "5e95542cc5dd",
+  "blurb": "Rutenberg's 2026 Cleveland defense was about as vanilla as it gets schematically \u2014 a creativity score of 38 against a league average of 49 puts him dead last in disguise, blitz variety, and front diversity. What's notable is that it didn't hurt: the unit held opponents to -0.03 EPA/play, right in the middle of the league, and scheme value came in slightly above average at +0.021, though that number is indicative at best given the quarterback dependency. This was a defense built on execution over complexity, and the results were adequate.",
+  "hash": "72d5612b456e",
   "side": "defense"
  },
  "Rob Leonard|2026": {
-  "blurb": "Rob Leonard's 2026 Las Vegas defense was conventional in approach and below average in results. His creativity score of 39 sits well below the league norm of 49, ranking 29th \u2014 minimal blitz variation, limited front diversity, few disguise elements. Scheme value came in at -0.050 against a league average near zero, 28th overall, and the defense allowed a positive EPA/play (+0.03 vs. league average of 0.00). The execution didn't compensate for the lack of schematic stress.",
-  "hash": "d62768072b25",
+  "blurb": "Leonard's 2026 defense in Las Vegas was about as vanilla as it gets schematically \u2014 a creativity score of 39 out of 100 against a league average of 49, ranking 29th, meaning minimal blitz variation, little disguise, and largely predictable fronts. The results were middling: +0.03 EPA/play allowed put the unit 22nd, worse than average but not catastrophically so. The scheme value reads as indicative rather than definitive given the moderate reliability, but the direction isn't flattering at -0.050 against a near-zero league average.",
+  "hash": "dd5127e726d6",
   "side": "defense"
  },
  "Zak Kuhr|2026": {
-  "blurb": "Kuhr ran one of the more creative defensive schemes in the league in 2026 \u2014 a creativity score of 58 against a league average of 49 put him fifth overall, built on active blitz usage, simulated pressures, and varied fronts. The results were middling: scheme value sat right at the middle of the pack and defensive EPA/play was unremarkable at -0.01. The disguise was genuinely unusual; the production it generated, less so.",
-  "hash": "e8b005147f79",
+  "blurb": "Kuhr ran one of the more creative defensive schemes in the league in 2026 \u2014 a creativity score of 58 against a league average of 49 put him fifth among all coordinators, built on active blitz packages, simulated pressures, and varied front presentations. The results landed in the middle: EPA/play allowed sat at -0.01 against a league average of -0.00, and scheme value came in at roughly +0.010 (league average +0.001), though that number is only moderately reliable given the personnel context. The honest read is a coordinator who brought genuine schematic complexity but whose bottom-line value is still an open question.",
+  "hash": "47c6ad086974",
   "side": "defense"
  }
 }
