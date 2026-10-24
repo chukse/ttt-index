@@ -108,25 +108,25 @@ section.blk{padding:30px 0; border-top:1px solid var(--line2)}
 <div class="hero">
   <div class="kick">The TTT Index · Methodology</div>
   <h1>How the ratings work</h1>
-  <p>Every number we publish is trying to answer one question honestly: <b>how much of what happened is actually this guy?</b> Not his supporting cast, not his schedule, not his quarterback. Here is how we get there in plain English — and, just as important, where we tell you the number can't be trusted.</p>
+  <p>Every rating we put out is chasing one question: how much of what happened on the field was actually the guy, and how much was everything around him, the scheme and the schedule and the quarterback throwing him open. Surface stats won't tell you. They add up what happened and hand the whole bill to whoever's name is on the box score. So here's how we try to split that bill honestly, in plain English, <b>including the spots where we'll be the first to tell you the number isn't worth much.</b></p>
 </div>
 
 <div class="wrap">
 
   <section class="blk">
-    <h2>The one idea behind all of it</h2>
+    <h2>The one question behind all of it</h2>
     <div class="sub">Assigning credit, not counting production</div>
-    <p class="lede">When an offense scores a lot of points, who gets the credit — the play-caller, the quarterback, an easy schedule, a great line? Raw stats can't tell you. They just say the team scored. Our ratings exist to <b>pull those threads apart</b> and hand the credit to the right person.</p>
-    <div class="analogy"><p>Picture two chefs and two ovens. A dish comes out great — the chef or the oven? From one dish you can't know. But watch each chef cook in <b>both</b> ovens many times and the math separates out how much is the chef and how much is the oven. That is the whole trick: we watch quarterbacks in different schemes, and coaches with different quarterbacks, and let the overlaps do the separating.</p></div>
-    <p>That makes these <b>fairness metrics</b> first. They are built to be fair about credit, which is a different and harder job than predicting next week's box score.</p>
+    <p class="lede">When an offense hangs 30, who earned it? The play-caller, the quarterback, a soft schedule, a great line? The box score shrugs and tells you the team scored 30. That's the problem we're actually trying to solve: pulling those threads apart and handing the credit to whoever it belongs to.</p>
+    <div class="analogy"><p>Picture two chefs and two ovens. A dish comes out great, and you want to know: the chef, or the oven? Off one plate you've got no idea. But let each chef cook in <b>both</b> ovens a few dozen times and the pattern sorts itself out, and you can finally see how much was the cook and how much was the equipment. That's the whole trick. It's the same one labor economists use to tell a worker's skill apart from the company that hired him, and we just point it at football: the same quarterback in different schemes, the same coach with different quarterbacks, and we let the overlap do the work.</p></div>
+    <p>So these are <b>fairness metrics</b> before they're anything else. Being fair about credit is a different job than guessing next Sunday's box score, and a harder one. We think it's the more honest one too.</p>
   </section>
 
   <section class="blk">
     <h2>QBIR — the quarterback rating</h2>
     <div class="sub">The QB Independent Rating</div>
-    <p>Most ratings grade what happened on the field. QBIR estimates <b>what the quarterback himself is worth</b>, regardless of where he plays. A play-by-play model strips out the opponent defense, the game situation and the supporting cast, and what's left over is the quarterback's own signal.</p>
-    <p>Scheme gets special handling, because a passer who has only ever played in one system is statistically fused with it. We borrow the <b>two-way model labor economists use</b> to separate a worker's skill from the company that employs him — here, quarterback from scheme — anchored by the QBs who actually <b>changed teams</b>. A friendly system's lift is then netted back out, so a generous scheme gets credited to the scheme, not the passer.</p>
-    <p>That isolated value is fused with charting, classic production and a multi-year track record into one <b>0–100 number</b>. Nothing hides behind the total — it breaks into seven ranked, sortable factors on every card.</p>
+    <p>Most quarterback ratings grade what happened. Passer rating, QBR, the Sunday-night graphic, they all tell you how the offense did with him on the field, which quietly credits the guy for his line, his receivers, and a dome in September. QBIR asks the narrower question: <b>what's the quarterback himself worth, wherever you drop him?</b> We run the season play by play and pull out the opponent, the situation, and the help around him. Whatever's left is as close to the quarterback alone as we can get.</p>
+    <p>Scheme is the tricky part, because a passer who's only ever run one system is statistically welded to it, and you can't tell the offense from the guy running it if he's never run anything else. So we lean on the quarterbacks who actually <b>changed teams</b> to pry the two apart, then hand a generous system's lift back to the system instead of the passer. Every card shows that tax.</p>
+    <p>From there the isolated value gets folded in with charting, plain old production, and a multi-year track record into one number from <b>0 to 100</b>. Nothing hides behind the total; it breaks into seven ranked factors right on the card. And early in the year, when the sample is thin, we lean on the track record and say so rather than pretend four games mean more than they do.</p>
     <div class="twocol">
       <div>
         <ul class="flist">
@@ -150,27 +150,28 @@ section.blk{padding:30px 0; border-top:1px solid var(--line2)}
   <section class="blk">
     <h2>The Coach Index — scheme value</h2>
     <div class="sub">What the system is worth, apart from the players</div>
-    <p><b>Scheme value</b> is the chef-and-oven idea aimed at coaches. It asks what a play-caller's or coordinator's system is worth once you adjust for the quarterback he had and the opponents he faced — the same two-way model as QBIR, run the other direction.</p>
-    <p>The catch is that the trick only works when the chefs actually switch ovens. We measure exactly that for every coach and call it <b>reliability</b> — how much his record overlaps with other quarterbacks and situations. High reliability means we saw him with enough different personnel to trust the split. Low reliability means his record is still welded to one quarterback, so the "scheme" number is really half quarterback.</p>
+    <p><b>Scheme value</b> is the same chef-and-oven idea, aimed at the coaches. What's a play-caller's system actually worth once you account for the quarterback he had and the defenses he drew? It's the same model as QBIR, run the other direction, with the coach as the firm and the quarterback as the worker.</p>
+    <p>The catch, again, is that it only works when the chefs switch ovens. So we measure exactly that for every coach and call it <b>reliability</b>: how much of his record overlaps with other quarterbacks and other situations. Plenty of overlap, and we trust the split. Almost none, and the "scheme" number is really just his quarterback wearing a coach's name tag.</p>
     <div class="tags">
       <span class="tag ok">Strong — ranked normally</span>
-      <span class="tag low">◦ Moderate — shown, read as indicative</span>
-      <span class="tag nr">NR — can't separate from the QB, unranked</span>
+      <span class="tag low">◦ Moderate — shown, read it as a lean not a verdict</span>
+      <span class="tag nr">NR — can't be pried off the QB, so unranked</span>
     </div>
-    <p>This is why <b>defense tends to be more trustworthy than offense</b>. Defenses face a new offense every single week — lots of oven-switching — so a coordinator's effect separates cleanly. An offensive play-caller runs nearly every snap with the same quarterback, so many offensive systems are only partly identified, and a few can't be separated at all. When that happens we mark the coach <b>NR (not rated)</b> and refuse to rank him, rather than hand you a confident number we don't believe. We'd rather show less than fake precision.</p>
-    <p class="lede"><b>Creativity</b> is a separate, simpler thing. It just counts how often a team does unusual stuff — motion, play-action, RPOs, exotic blitzes, odd fronts — and scores it 0–100 against the league. It's a <b>description of style, not a grade of quality</b>. A minimalist who wins on execution is a compliment, not a knock.</p>
+    <p>This is why <b>defense reads cleaner than offense here</b>, and we won't pretend otherwise. A defensive coordinator draws a new offense every week, plenty of oven-swapping, so his fingerprint comes through. An offensive play-caller runs nearly every snap with the same quarterback, so a lot of offensive systems only half-separate and a few don't separate at all. When a coach's record can't be pried loose from his quarterback, we tag him <b>NR, not rated,</b> and leave him off the ranking rather than invent a number for him.</p>
+    <p class="lede"><b>Creativity</b> is a different animal, and a simpler one. We count how often a team does something unusual, motion and play-action and RPOs and oddball blitzes and weird fronts, and grade it against the league from 0 to 100. It's a <b>description of style, not a verdict on quality</b>. A minimalist who wins on execution scores low, and that's no insult; sometimes boring is the whole point.</p>
   </section>
 
   <section class="blk">
     <div class="honest">
       <h2>What these numbers are not</h2>
-      <p>The fastest way to lose trust is to oversell. So, plainly:</p>
+      <p>The fastest way to lose your trust is to oversell, so here's the honest version.</p>
       <ul>
-        <li><b>Not a crystal ball.</b> QBIR is built to assign credit fairly, not to forecast next week. On pure prediction it performs about like any good public stat — its value is the fairness, not an edge over the Vegas line.</li>
-        <li><b>Offensive scheme value is our softest number.</b> Because a caller and his quarterback are joined at the hip, for many offensive coaches it tracks close to raw production. We flag the reliability instead of hiding it.</li>
-        <li><b>NR is a feature, not missing data.</b> A coach reads NR because we <b>can</b> see his production — we just can't honestly separate it from his quarterback. Saying so is the point.</li>
-        <li><b>Creativity ≠ quality.</b> Exotic isn't better. It's a fingerprint of style, and on offense it correlates only mildly with scoring.</li>
+        <li><b>QBIR isn't a crystal ball.</b> It's built to hand out credit fairly, not to call next Sunday. On straight prediction it does about as well as any decent public stat and no better. The fairness is the point, not an edge over the number in Vegas.</li>
+        <li><b>Offensive scheme value is our softest number, full stop.</b> Caller and quarterback are joined at the hip, so for a lot of coaches it drifts close to raw production. We'd rather flag how shaky it is than quietly bury it.</li>
+        <li><b>NR isn't a hole in the data.</b> We can see the coach's production fine. We just can't honestly peel it off his quarterback, and saying that out loud is the whole idea behind the tag.</li>
+        <li><b>Creative isn't the same as good.</b> Exotic is a fingerprint, not a grade, and on offense it barely moves with scoring anyway.</li>
       </ul>
+      <p style="margin-top:14px">None of this makes the numbers less useful. It just means we'd rather you trust the ones we stand behind than all of them equally.</p>
     </div>
     <div class="prov"><b>Rated by</b> Throw in the Towel &nbsp;·&nbsp; a proprietary scheme-and-player model built on public play-by-play &nbsp;·&nbsp; updated through the current week.</div>
     <div class="cta">
