@@ -131,7 +131,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
   <a class="mlink" href="#method">How ↓</a>
 </div>
 <div class="scroll"><table class="kp"><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
-<p class="note" id="boardnote">Every coach shown once — at his <b>current team</b>, or tagged <b style="color:var(--gold)">FA</b> if a free agent — with his <b>overall</b> (career) scheme; every value carries its <span class="rk-ex">rank<sup>1</sup></span>. Click a row for the <b>year-by-year</b> drill-down. (A coach's scheme can predate his current job — e.g. a coordinator now a head coach.) <b>PROE</b> pass-rate over expected · <b>PA/SCRN/RPO/MOT</b> play-action / screen / RPO / motion rate · <b>11P/12P/13P/21P/22P</b> personnel usage (RB-TE, e.g. 12P = 1 RB 2 TE) · <b>BLZ/MAN</b> blitz / man-coverage rate · <b>BOX</b> defenders in box · <b>pEPA/rEPA</b> pass / designed-run EPA per play · <b>dpEPA/drEPA</b> pass / run EPA allowed (defense). <b>Defense</b> is credited to the defensive coordinator, <b>offense</b> to the play-caller (the OC, or the HC when he calls plays, tagged HC/OC). <b>SCH VAL</b> is QB- and opponent-adjusted; where a coach's record can't be reliably separated from one quarterback it reads <b style="font-style:italic">NR</b> (not rated) or carries a <span class="lcmark" style="position:static">◦</span> for moderate reliability — click the row for the exact figure. <b style="color:var(--gold-br)">2026:</b> offense is live-2026 and 2026 EPA is folded in; the <b>defensive</b> scheme (blitz/man/box) runs through 2025, since 2026 snap-participation data isn't available yet.</p>
+<p class="note" id="boardnote">Every coach shown once — at his <b>current team</b>, or tagged <b style="color:var(--gold)">FA</b> if a free agent — with his <b>overall</b> (career) scheme; every value carries its <span class="rk-ex">rank<sup>1</sup></span>. Click a row for the <b>year-by-year</b> drill-down. (A coach's scheme can predate his current job — e.g. a coordinator now a head coach.) <b>PROE</b> pass-rate over expected · <b>PA/SCRN/RPO/MOT</b> play-action / screen / RPO / motion rate · <b>11P/12P/13P/21P/22P</b> personnel usage (RB-TE, e.g. 12P = 1 RB 2 TE) · <b>BLZ/MAN</b> blitz / man-coverage rate · <b>BOX</b> defenders in box · <b>pEPA/rEPA</b> pass / designed-run EPA per play · <b>dpEPA/drEPA</b> pass / run EPA allowed (defense). <b>Defense</b> is credited to the defensive coordinator, <b>offense</b> to the play-caller (the OC, or the HC when he calls plays, tagged HC/OC). <b>VALUE</b> is the headline: net <b>points per game</b> the staff adds vs an average one — for a <b>head coach</b> it's his whole program (offense + defense + special teams + 4th-down decisions); for a <b>coordinator</b> it's just his unit. Head coaches who call neither unit still appear (tagged <b>HC · doesn't call</b>). <b>SCH VAL</b> is the QB- and opponent-adjusted scheme piece; where a record can't be separated from one quarterback it reads <b style="font-style:italic">NR</b> (not rated) or carries a <span class="lcmark" style="position:static">◦</span> for moderate reliability — click any row for the full points breakdown. <b style="color:var(--gold-br)">2026:</b> offense is live-2026 and 2026 EPA is folded in; the <b>defensive</b> scheme (blitz/man/box) runs through 2025, since 2026 snap-participation data isn't available yet.</p>
 
 <section class="method" id="method">
   <h2>How the Coach Index is built</h2>
@@ -152,13 +152,13 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 <script>
 const X='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
 const f1=v=>v==null?'—':v.toFixed(1), fp=v=>v==null?'—':(v>=0?'+':'')+v.toFixed(1), fe=v=>v==null?'—':(v>=0?'+':'')+v.toFixed(2);
-const OFF_COLS=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'creativity',ab:'CRTV',fmt:v=>v.toFixed(0),grp:1},{id:'proe',ab:'PROE',fmt:fp},{id:'pa_rate',ab:'PA%',fmt:f1},{id:'screen_rate',ab:'SCRN',fmt:f1},{id:'rpo_rate',ab:'RPO',fmt:f1},{id:'motion_rate',ab:'MOT',fmt:f1},{id:'p11',ab:'11P',fmt:f1,grp:1},{id:'p12',ab:'12P',fmt:f1},{id:'p13',ab:'13P',fmt:f1},{id:'p21',ab:'21P',fmt:f1},{id:'p22',ab:'22P',fmt:f1},{id:'pass_epa',ab:'pEPA',fmt:fe,grp:1,ep:1},{id:'rush_epa',ab:'rEPA',fmt:fe,ep:1}];
-const DEF_COLS=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'creativity',ab:'CRTV',fmt:v=>v.toFixed(0),grp:1},{id:'blitz_rate',ab:'BLZ',fmt:f1},{id:'man_rate',ab:'MAN',fmt:f1},{id:'box',ab:'BOX',fmt:f1},{id:'light_box_rate',ab:'LtBX',fmt:f1},{id:'nickel_plus',ab:'NKL+',fmt:f1},{id:'def_pass_epa',ab:'dpEPA',fmt:fe,grp:1,ep:1,inv:1},{id:'def_rush_epa',ab:'drEPA',fmt:fe,ep:1,inv:1}];
+const OFF_COLS=[{id:'value',ab:'VALUE',fmt:fp,ep:1,grp:1},{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'creativity',ab:'CRTV',fmt:v=>v.toFixed(0),grp:1},{id:'proe',ab:'PROE',fmt:fp},{id:'pa_rate',ab:'PA%',fmt:f1},{id:'screen_rate',ab:'SCRN',fmt:f1},{id:'rpo_rate',ab:'RPO',fmt:f1},{id:'motion_rate',ab:'MOT',fmt:f1},{id:'p11',ab:'11P',fmt:f1,grp:1},{id:'p12',ab:'12P',fmt:f1},{id:'p13',ab:'13P',fmt:f1},{id:'p21',ab:'21P',fmt:f1},{id:'p22',ab:'22P',fmt:f1},{id:'pass_epa',ab:'pEPA',fmt:fe,grp:1,ep:1},{id:'rush_epa',ab:'rEPA',fmt:fe,ep:1}];
+const DEF_COLS=[{id:'value',ab:'VALUE',fmt:fp,ep:1,grp:1},{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'creativity',ab:'CRTV',fmt:v=>v.toFixed(0),grp:1},{id:'blitz_rate',ab:'BLZ',fmt:f1},{id:'man_rate',ab:'MAN',fmt:f1},{id:'box',ab:'BOX',fmt:f1},{id:'light_box_rate',ab:'LtBX',fmt:f1},{id:'nickel_plus',ab:'NKL+',fmt:f1},{id:'def_pass_epa',ab:'dpEPA',fmt:fe,grp:1,ep:1,inv:1},{id:'def_rush_epa',ab:'drEPA',fmt:fe,ep:1,inv:1}];
 // College boards (CFBD, FBS) — no charting/scheme-value/personnel at college scale, so tendencies + efficiency only.
 const fz=v=>v==null?'—':v.toFixed(0);
 const CO_OFF=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'off_creativity',ab:'CRTV',fmt:fz,grp:1},{id:'off_epa',ab:'oEPA',fmt:fe,ep:1},{id:'over_exp',ab:'OvEx',fmt:fp},{id:'proe',ab:'PROE',fmt:fp},{id:'success_rate',ab:'SR%',fmt:f1},{id:'explosive_rate',ab:'EXP%',fmt:f1},{id:'plays_pg',ab:'TEMPO',fmt:fz}];
 const CO_DEF=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'def_epa',ab:'dEPA',fmt:fe,ep:1,inv:1,grp:1},{id:'over_exp',ab:'OvEx',fmt:fp},{id:'def_pass_epa',ab:'dpEPA',fmt:fe,ep:1,inv:1},{id:'def_rush_epa',ab:'drEPA',fmt:fe,ep:1,inv:1},{id:'havoc',ab:'HVC%',fmt:f1},{id:'stuff_rate',ab:'STF%',fmt:f1}];
-const LABELS={scheme_value:'Scheme value — system worth, adjusted for the quarterback and the opponent (higher = better). NR = not reliably separable from a single QB; ◦ = moderate reliability',creativity:'Creativity — how exotic/varied the design is (offense: motion, play-action, RPO, empty sets, deep shots, QB runs; defense: blitz, simulated pressure, rush-count & box variety, drop-8 coverage). 50 = average. Descriptive, not a quality grade',proe:'Pass over expected',pa_rate:'Play-action %',screen_rate:'Screen %',rpo_rate:'RPO %',motion_rate:'Motion %',p11:'11 personnel (1 RB, 1 TE, 3 WR)',p12:'12 personnel (1 RB, 2 TE)',p13:'13 personnel (1 RB, 3 TE)',p21:'21 personnel (2 RB, 1 TE)',p22:'22 personnel (2 RB, 2 TE)',p10:'10 personnel (1 RB, 0 TE)',plays_pg:'Plays per game',blitz_rate:'Blitz %',man_rate:'Man coverage %',box:'Defenders in box',light_box_rate:'Light box %',nickel_plus:'Nickel+ %',off_epa:'Offensive EPA/play (all)',pass_epa:'Pass EPA/play',rush_epa:'Rush EPA/play (designed)',pass_sr:'Pass success %',rush_sr:'Rush success %',def_epa:'Defensive EPA/play (all)',def_pass_epa:'Pass EPA/play allowed',def_rush_epa:'Rush EPA/play allowed',over_exp:'Over-expectation — SP+ rating vs recruiting-talent rank (higher = beating the talent on hand). College only',success_rate:'Success rate %',explosive_rate:'Explosive-play rate %',havoc:'Havoc rate % (TFLs + forced fumbles + passes defensed)',stuff_rate:'Stuff rate % (runs stopped at or behind the line)',havoc_front7:'Havoc from the front seven %',havoc_db:'Havoc from the secondary %',off_creativity:'Play-calling creativity (college) — situational unpredictability, 4th-down aggression, QB-run share & gadget rate from play-by-play. NOT the NFL formation index (no charting at college scale). 50 = average, descriptive not a grade'};
+const LABELS={value:'Coach value — net points/game this staff adds vs an average one. A head coach shows his FULL program (offense + defense + special teams + 4th-down decisions); a coordinator shows his UNIT. Scheme value + situational + discipline + innovation (creativity). NR = scheme core not separable from the QB; ◦ = moderate reliability',scheme_value:'Scheme value — system worth, adjusted for the quarterback and the opponent (higher = better). NR = not reliably separable from a single QB; ◦ = moderate reliability',creativity:'Creativity — how exotic/varied the design is (offense: motion, play-action, RPO, empty sets, deep shots, QB runs; defense: blitz, simulated pressure, rush-count & box variety, drop-8 coverage). 50 = average. Descriptive, not a quality grade',proe:'Pass over expected',pa_rate:'Play-action %',screen_rate:'Screen %',rpo_rate:'RPO %',motion_rate:'Motion %',p11:'11 personnel (1 RB, 1 TE, 3 WR)',p12:'12 personnel (1 RB, 2 TE)',p13:'13 personnel (1 RB, 3 TE)',p21:'21 personnel (2 RB, 1 TE)',p22:'22 personnel (2 RB, 2 TE)',p10:'10 personnel (1 RB, 0 TE)',plays_pg:'Plays per game',blitz_rate:'Blitz %',man_rate:'Man coverage %',box:'Defenders in box',light_box_rate:'Light box %',nickel_plus:'Nickel+ %',off_epa:'Offensive EPA/play (all)',pass_epa:'Pass EPA/play',rush_epa:'Rush EPA/play (designed)',pass_sr:'Pass success %',rush_sr:'Rush success %',def_epa:'Defensive EPA/play (all)',def_pass_epa:'Pass EPA/play allowed',def_rush_epa:'Rush EPA/play allowed',over_exp:'Over-expectation — SP+ rating vs recruiting-talent rank (higher = beating the talent on hand). College only',success_rate:'Success rate %',explosive_rate:'Explosive-play rate %',havoc:'Havoc rate % (TFLs + forced fumbles + passes defensed)',stuff_rate:'Stuff rate % (runs stopped at or behind the line)',havoc_front7:'Havoc from the front seven %',havoc_db:'Havoc from the secondary %',off_creativity:'Play-calling creativity (college) — situational unpredictability, 4th-down aggression, QB-run share & gadget rate from play-by-play. NOT the NFL formation index (no charting at college scale). 50 = average, descriptive not a grade'};
 const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7BD8',DET:'#0076B6',DAL:'#8993A0',NE:'#88A4C4',HOU:'#9AB',LV:'#C9C9C9',GB:'#2E8B57',KC:'#E31837',LA:'#4F7FD4',CAR:'#0085CA',NO:'#D3BC8D',NYJ:'#2E8B57',MIN:'#9A7BD8',DEN:'#FB4F14',SEA:'#69BE28',MIA:'#00A3A3',ARI:'#C14965',LAC:'#2CA0E0',PIT:'#FFB612',CLE:'#C0712B',NYG:'#5577C0',IND:'#5588C8',TEN:'#4B92DB',TB:'#D50A0A',PHI:'#1A9E7A',ATL:'#D14B5A',WAS:'#C68A5A',CHI:'#C8743A'};
 let DATA=null, DATA_NFL=null, DATA_COLLEGE=null, BLURBS={}, scope='nfl', side='offense', sortKey='proe', sortDir=-1, YEAR='all';
 const LOWER_BETTER=new Set(['def_epa','def_pass_epa','def_rush_epa']);
@@ -167,6 +167,7 @@ function rkClass(r,n){return r==null?'r-mid':r<=Math.max(3,n*0.12)?'r-top':r<=n*
 function pcChip(c){if(scope==='college')return '';const sr=c.role||'',calls=!!c.called_latest;
   if(sr==='HC'&&calls)return `<span class="pc yes" title="Calls the plays as head coach">HC · PLAY-CALLER</span>`;
   if(sr==='PC')return `<span class="pc yes" title="Play-caller">PLAY-CALLER</span>`;
+  if(sr==='HC'&&!calls)return `<span class="pc no" title="Head coach — doesn't call either unit; value shown is his full program">HC · DOESN'T CALL</span>`;
   if((sr==='OC'||sr==='DC')&&!calls)return `<span class="pc no" title="On staff but does not call the plays">${sr} · DOESN'T CALL</span>`;
   return `<span class="pc">${sr||''}</span>`;}
 function cols(){if(scope==='college')return side==='offense'?CO_OFF:CO_DEF;return side==='offense'?OFF_COLS:DEF_COLS}
@@ -199,9 +200,9 @@ function board(){
   });
   // Re-rank EVERY metric over the collapsed field (incl. scheme_value, which has no per-season value)
   // so the rank superscripts AND identity's bands share ONE scale (n = teams shown this season).
-  const mkeys=new Set(['scheme_value']); view.forEach(c=>Object.keys(c._bs).forEach(k=>{if(!META.has(k))mkeys.add(k);}));
+  const mkeys=new Set(['scheme_value','value']); view.forEach(c=>Object.keys(c._bs).forEach(k=>{if(!META.has(k))mkeys.add(k);}));
   mkeys.forEach(m=>{
-    const vals=view.filter(c=>c[m]!=null && !(m==='scheme_value'&&c.scheme_value_conf==='nr')).sort((a,b)=>LOWER_BETTER.has(m)?a[m]-b[m]:b[m]-a[m]);
+    const vals=view.filter(c=>c[m]!=null && !(m==='scheme_value'&&c.scheme_value_conf==='nr') && !(m==='value'&&c.value_conf==='nr')).sort((a,b)=>LOWER_BETTER.has(m)?a[m]-b[m]:b[m]-a[m]);
     vals.forEach((c,i)=>{c.ranks[m]=i+1;});
   });
   return view;
@@ -327,18 +328,18 @@ function render(){
   let cs=[...shown];
   // scheme_value for an unreliable (nr) coach is NOT a real ranking — sort it to the bottom so a
   // weakly-identified system never tops the board on a number we can't stand behind.
-  const sval=(c,k)=>(k==='scheme_value'&&c.scheme_value_conf==='nr')?-1e9:(c[k]??-1e9);
+  const sval=(c,k)=>((k==='scheme_value'&&c.scheme_value_conf==='nr')||(k==='value'&&c.value_conf==='nr'))?-1e9:(c[k]??-1e9);
   if(sortKey==='name')cs.sort((a,b)=>a.coach.localeCompare(b.coach)*sortDir);
   else if(sortKey==='rank')cs.sort((a,b)=>(sval(b,C[0].id)-sval(a,C[0].id)));
   else cs.sort((a,b)=>((sval(a,sortKey)-sval(b,sortKey))*sortDir));
   let rows=cs.map((c,i)=>{
     const emp=c.status==='team', dteam=emp?c.cur_team:c.team, col=TEAMCOL[dteam]||'#888', role=emp?c.cur_role:'FA';
     let cells=C.map(cc=>{const v=c[cc.id];
-      if(cc.id==='scheme_value'){
+      if(cc.id==='scheme_value'||cc.id==='value'){
+        const conf=cc.id==='value'?c.value_conf:c.scheme_value_conf;
         if(v==null)return `<td class="${cc.grp?'grp':''}"><span class="val sm">—</span></td>`;
-        const conf=c.scheme_value_conf;
-        if(conf==='nr')return `<td class="${cc.grp?'grp':''}"><span class="val nr" title="Not reliably separable from the quarterback — this scheme ran with effectively one QB over the window, so the model can't isolate the coach's own effect. Shown, but we won't rank it.">NR</span></td>`;
-        const rk0=(c.ranks||{}).scheme_value, ep0=v>=0?'c-ep pos':'c-ep neg', lc=conf==='low'?' lowconf':'';
+        if(conf==='nr')return `<td class="${cc.grp?'grp':''}"><span class="val nr" title="The scheme core can't be reliably separated from the quarterback (ran with effectively one QB over the window). Shown, but we won't rank it.">NR</span></td>`;
+        const rk0=(c.ranks||{})[cc.id], ep0=v>=0?'c-ep pos':'c-ep neg', lc=conf==='low'?' lowconf':'';
         const tt=conf==='low'?' title="Lower reliability — only partly separable from the quarterback. Treat as indicative, not exact."':'';
         return `<td class="${cc.grp?'grp':''}"${tt}><span class="val ${ep0}${lc}">${cc.fmt(v)}${conf==='low'?'<span class="lcmark">◦</span>':''}</span><sup class="rk ${rkClass(rk0,cs.length)}">${rk0||'—'}</sup></td>`;
       }
@@ -385,10 +386,26 @@ function openSheet(nm){
                       :`BLZ ${f1(s.blitz_rate)} · passD ${fe(s.def_pass_epa)} · rushD ${fe(s.def_rush_epa)}`);
   let traj=(c._byseason||[]).map(s=>{const who=scope==='college'?'':(s.called?s.role:`${s.role} · scheme by ${(s.caller||'HC').split(' ').slice(-1)[0]}`);
     return `<div class="tr"><span class="ty">${s.season} · ${s.team}${who?' · '+who:''}</span><span class="td2 num">${tcell(s)}</span></div>`;}).join('');
-  sh.innerHTML=`<div class="shead"><div><div class="snm">${c.coach}</div><div class="smeta num">${now} · scheme ${c._byseason[0].season}–${c.latest_season} (${c.teams.join('/')})</div></div><button class="sx" id="sx" aria-label="Close">${X}</button></div>
-    <div class="sec"><h3>Scheme identity</h3><div class="ident">${schemeBlurb(c)}</div></div>
-    <div class="sec"><h3>Fingerprint · value + rank</h3><div class="fgrid">${fg}</div>${relnote}</div>
-    <div class="sec"><h3>Year by year</h3><div class="traj">${traj}</div></div>`;
+  // Coach VALUE block (role-aware: head coach = full program breakdown; coordinator = unit value)
+  let valueBlock='';
+  if(scope!=='college' && c.value!=null){
+    const sgn=x=>(x>=0?'+':'')+Number(x).toFixed(2), cl=x=>x>=0?'pos':'neg';
+    const head=`Coach value · <b class="${cl(c.value)}">${(c.value>=0?'+':'')+c.value.toFixed(1)}</b> pts/game`;
+    const vp=c.value_parts;
+    if(vp){ // head coach — full program
+      const row=(lab,x)=>`<div><span class="k">${lab}</span><span class="v num ${cl(x)}">${sgn(x)}</span></div>`;
+      valueBlock=`<div class="sec"><h3>${head}</h3><div class="fgrid">${row('Offense',vp.off)+row('Defense',vp.def)+row('Special teams',vp.st)+row('4th-down decisions',vp.decisions)}</div>
+        <div class="relnote">Net points/game this <b>full program</b> adds vs an average staff — the four lines sum to the total. Folded inside offense &amp; defense: situational ${sgn(vp.situational)}, discipline ${sgn(vp.discipline)}, innovation ${sgn(vp.innovation)} (creativity — a small, deliberate credit, not a proven value driver).${c.value_conf==='nr'?' <b>Scheme core is not separable from the QB here — shown, not ranked.</b>':c.value_conf==='low'?' Moderate reliability.':''}</div></div>`;
+    } else { // coordinator — unit value
+      valueBlock=`<div class="sec"><h3>${head.replace('Coach value','Unit value')}</h3><div class="relnote">Net points/game his <b>${side==='offense'?'offense':'defense'}</b> adds vs an average unit — QB-adjusted scheme value + situational + discipline + innovation.${c.value_conf==='nr'?' <b>Scheme core is not separable from the QB here — shown, not ranked.</b>':''}</div></div>`;
+    }
+  }
+  const span=c._byseason.length?`scheme ${c._byseason[0].season}–${c.latest_season} (${c.teams.join('/')})`:`${c.teams.join('/')} · head coach`;
+  sh.innerHTML=`<div class="shead"><div><div class="snm">${c.coach}</div><div class="smeta num">${now} · ${span}</div></div><button class="sx" id="sx" aria-label="Close">${X}</button></div>
+    ${valueBlock}
+    ${c.ceo_hc?`<div class="sec"><div class="relnote">A head coach who doesn't call either unit — his number is the <b>whole program</b> (offense, defense, special teams, in-game decisions), not a single scheme.</div></div>`:`<div class="sec"><h3>Scheme identity</h3><div class="ident">${schemeBlurb(c)}</div></div>`}
+    ${c._byseason.length?`<div class="sec"><h3>Fingerprint · value + rank</h3><div class="fgrid">${fg}</div>${relnote}</div>
+    <div class="sec"><h3>Year by year</h3><div class="traj">${traj}</div></div>`:''}`;
   document.getElementById('sx').onclick=closeSheet;
   lastFocus=document.activeElement;
   sh.onkeydown=(e)=>{if(e.key!=='Tab')return;const f=sh.querySelectorAll('button');if(!f.length)return;const fi=f[0],la=f[f.length-1];if(e.shiftKey&&document.activeElement===fi){e.preventDefault();la.focus()}else if(!e.shiftKey&&document.activeElement===la){e.preventDefault();fi.focus()}};

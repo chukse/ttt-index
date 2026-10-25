@@ -7,8 +7,8 @@
    2024,
    2025
   ],
-  "n_off": 76,
-  "n_def": 67,
+  "n_off": 82,
+  "n_def": 73,
   "attribution": "every coordinator is a permanent record; each row tags role (HC/OC/DC) + whether he CALLED the plays. Unit metrics reflect his tenure; the play-caller owns the calls (HC override for known play-calling HCs, per-season overrides).",
   "playcaller_hcs": [
    "Andy Reid",
@@ -186,9 +186,13 @@
     "rush_epa": 44,
     "pass_sr": 28,
     "rush_sr": 35,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Andy Reid",
@@ -341,9 +345,23 @@
     "rush_epa": 16,
     "pass_sr": 14,
     "rush_sr": 21,
-    "scheme_value": 24
+    "scheme_value": 24,
+    "value": 11
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 2.02,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.55,
+   "value_parts": {
+    "off": -0.16,
+    "def": 1.68,
+    "st": -0.0,
+    "decisions": 0.51,
+    "situational": 0.36,
+    "discipline": 0.05,
+    "innovation": 0.19
+   }
   },
   {
    "coach": "Ben Johnson",
@@ -497,9 +515,23 @@
     "rush_epa": 6,
     "pass_sr": 5,
     "rush_sr": 11,
-    "scheme_value": 3
+    "scheme_value": 3,
+    "value": 2
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 5.89,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.66,
+   "value_parts": {
+    "off": 4.18,
+    "def": 1.6,
+    "st": 0.29,
+    "decisions": -0.18,
+    "situational": 0.27,
+    "discipline": 0.66,
+    "innovation": 0.29
+   }
   },
   {
    "coach": "Brian Schottenheimer",
@@ -652,9 +684,23 @@
     "rush_epa": 28,
     "pass_sr": 24,
     "rush_sr": 18,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": 40
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -3.6,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.26,
+   "value_parts": {
+    "off": 2.77,
+    "def": -7.75,
+    "st": 1.02,
+    "decisions": 0.37,
+    "situational": -0.43,
+    "discipline": -0.85,
+    "innovation": -0.25
+   }
   },
   {
    "coach": "Drew Petzing",
@@ -808,9 +854,14 @@
     "rush_epa": 19,
     "pass_sr": 32,
     "rush_sr": 19,
-    "scheme_value": 19
+    "scheme_value": 19,
+    "value": 19
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.41,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.72
   },
   {
    "coach": "Jim Bob Cooter",
@@ -963,9 +1014,13 @@
     "rush_epa": 12,
     "pass_sr": 55,
     "rush_sr": 25,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Kellen Moore",
@@ -1120,9 +1175,23 @@
     "rush_epa": 51,
     "pass_sr": 36,
     "rush_sr": 66,
-    "scheme_value": 18
+    "scheme_value": 18,
+    "value": 33
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.93,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.7,
+   "value_parts": {
+    "off": 0.5,
+    "def": 0.22,
+    "st": -2.2,
+    "decisions": -0.45,
+    "situational": 0.25,
+    "discipline": -0.11,
+    "innovation": -0.16
+   }
   },
   {
    "coach": "Kevin O'Connell",
@@ -1275,9 +1344,23 @@
     "rush_epa": 56,
     "pass_sr": 52,
     "rush_sr": 42,
-    "scheme_value": 27
+    "scheme_value": 27,
+    "value": 8
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 2.41,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.8,
+   "value_parts": {
+    "off": -1.61,
+    "def": 4.33,
+    "st": -0.42,
+    "decisions": 0.12,
+    "situational": 0.27,
+    "discipline": 0.44,
+    "innovation": 0.47
+   }
   },
   {
    "coach": "Kyle Shanahan",
@@ -1430,9 +1513,23 @@
     "rush_epa": 8,
     "pass_sr": 3,
     "rush_sr": 7,
-    "scheme_value": 1
+    "scheme_value": 1,
+    "value": 3
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 4.98,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.56,
+   "value_parts": {
+    "off": 5.05,
+    "def": 0.18,
+    "st": -0.21,
+    "decisions": -0.04,
+    "situational": 0.67,
+    "discipline": 0.29,
+    "innovation": -0.15
+   }
   },
   {
    "coach": "Matt LaFleur",
@@ -1585,9 +1682,23 @@
     "rush_epa": 45,
     "pass_sr": 29,
     "rush_sr": 36,
-    "scheme_value": 2
+    "scheme_value": 2,
+    "value": 10
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 2.25,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.41,
+   "value_parts": {
+    "off": 4.29,
+    "def": -1.55,
+    "st": -0.42,
+    "decisions": -0.08,
+    "situational": 0.04,
+    "discipline": -0.15,
+    "innovation": 0.0
+   }
   },
   {
    "coach": "Matt Nagy",
@@ -1741,9 +1852,14 @@
     "rush_epa": 41,
     "pass_sr": 22,
     "rush_sr": 48,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -0.35,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.12
   },
   {
    "coach": "Mike LaFleur",
@@ -1897,9 +2013,14 @@
     "rush_epa": 20,
     "pass_sr": 10,
     "rush_sr": 5,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -0.09,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.0
   },
   {
    "coach": "Mike McDaniel",
@@ -2053,9 +2174,23 @@
     "rush_epa": 54,
     "pass_sr": 43,
     "rush_sr": 41,
-    "scheme_value": 29
+    "scheme_value": 29,
+    "value": 24
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.69,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.66,
+   "value_parts": {
+    "off": -1.52,
+    "def": 0.3,
+    "st": 0.83,
+    "decisions": -0.3,
+    "situational": 0.01,
+    "discipline": -0.1,
+    "innovation": 0.21
+   }
   },
   {
    "coach": "Sean McVay",
@@ -2208,9 +2343,23 @@
     "rush_epa": 15,
     "pass_sr": 8,
     "rush_sr": 4,
-    "scheme_value": 6
+    "scheme_value": 6,
+    "value": 12
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 1.94,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.48,
+   "value_parts": {
+    "off": 2.13,
+    "def": 1.46,
+    "st": -1.96,
+    "decisions": 0.31,
+    "situational": 0.51,
+    "discipline": 0.22,
+    "innovation": -0.09
+   }
   },
   {
    "coach": "Sean Payton",
@@ -2363,9 +2512,23 @@
     "rush_epa": 36,
     "pass_sr": 62,
     "rush_sr": 38,
-    "scheme_value": 15
+    "scheme_value": 15,
+    "value": 5
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 3.17,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.71,
+   "value_parts": {
+    "off": 0.99,
+    "def": 1.74,
+    "st": 0.09,
+    "decisions": 0.35,
+    "situational": 0.48,
+    "discipline": -0.23,
+    "innovation": 0.22
+   }
   },
   {
    "coach": "Shane Steichen",
@@ -2518,9 +2681,23 @@
     "rush_epa": 13,
     "pass_sr": 56,
     "rush_sr": 26,
-    "scheme_value": 7
+    "scheme_value": 7,
+    "value": 22
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.19,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.78,
+   "value_parts": {
+    "off": 1.52,
+    "def": -1.59,
+    "st": 0.19,
+    "decisions": 0.07,
+    "situational": -0.12,
+    "discipline": -0.09,
+    "innovation": 0.04
+   }
   },
   {
    "coach": "Todd Monken",
@@ -2674,9 +2851,23 @@
     "rush_epa": 21,
     "pass_sr": 20,
     "rush_sr": 17,
-    "scheme_value": 8
+    "scheme_value": 8,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 2.56,
+   "value_scope": "program",
+   "value_conf": "nr",
+   "value_rel": 0.39,
+   "value_parts": {
+    "off": 1.29,
+    "def": 0.23,
+    "st": 1.56,
+    "decisions": -0.53,
+    "situational": -0.48,
+    "discipline": -0.37,
+    "innovation": -0.08
+   }
   },
   {
    "coach": "Wes Phillips",
@@ -2829,9 +3020,13 @@
     "rush_epa": 57,
     "pass_sr": 54,
     "rush_sr": 43,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Zac Taylor",
@@ -2984,9 +3179,23 @@
     "rush_epa": 34,
     "pass_sr": 12,
     "rush_sr": 39,
-    "scheme_value": 11
+    "scheme_value": 11,
+    "value": 23
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.1,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.68,
+   "value_parts": {
+    "off": 1.03,
+    "def": -1.89,
+    "st": 0.57,
+    "decisions": 0.19,
+    "situational": 0.19,
+    "discipline": 0.07,
+    "innovation": -0.22
+   }
   },
   {
    "coach": "Bobby Slowik",
@@ -3116,9 +3325,14 @@
     "rush_epa": 60,
     "pass_sr": 63,
     "rush_sr": 72,
-    "scheme_value": 35
+    "scheme_value": 35,
+    "value": 37
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -2.82,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.42
   },
   {
    "coach": "Brad Idzik",
@@ -3247,9 +3461,14 @@
     "rush_epa": 27,
     "pass_sr": 50,
     "rush_sr": 20,
-    "scheme_value": 12
+    "scheme_value": 12,
+    "value": 17
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.74,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.35
   },
   {
    "coach": "Dan Pitcher",
@@ -3378,9 +3597,13 @@
     "rush_epa": 26,
     "pass_sr": 6,
     "rush_sr": 27,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Frank Smith",
@@ -3509,9 +3732,13 @@
     "rush_epa": 40,
     "pass_sr": 26,
     "rush_sr": 34,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Joe Brady",
@@ -3640,9 +3867,14 @@
     "rush_epa": 2,
     "pass_sr": 9,
     "rush_sr": 2,
-    "scheme_value": 13
+    "scheme_value": 13,
+    "value": 13
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 1.77,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.16
   },
   {
    "coach": "Joe Lombardi",
@@ -3771,9 +4003,13 @@
     "rush_epa": 38,
     "pass_sr": 44,
     "rush_sr": 28,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Klint Kubiak",
@@ -3904,9 +4140,14 @@
     "rush_epa": 47,
     "pass_sr": 25,
     "rush_sr": 57,
-    "scheme_value": 17
+    "scheme_value": 17,
+    "value": 20
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.39,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.67
   },
   {
    "coach": "Liam Coen",
@@ -4036,9 +4277,23 @@
     "rush_epa": 10,
     "pass_sr": 4,
     "rush_sr": 14,
-    "scheme_value": 4
+    "scheme_value": 4,
+    "value": 1
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 6.7,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.64,
+   "value_parts": {
+    "off": 4.12,
+    "def": 1.09,
+    "st": 1.79,
+    "decisions": -0.3,
+    "situational": 0.39,
+    "discipline": -0.11,
+    "innovation": 0.09
+   }
   },
   {
    "coach": "Nathaniel Hackett",
@@ -4168,9 +4423,14 @@
     "rush_epa": 55,
     "pass_sr": 59,
     "rush_sr": 47,
-    "scheme_value": 32
+    "scheme_value": 32,
+    "value": 39
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -3.1,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.63
   },
   {
    "coach": "Press Taylor",
@@ -4300,9 +4560,14 @@
     "rush_epa": 48,
     "pass_sr": 31,
     "rush_sr": 50,
-    "scheme_value": 10
+    "scheme_value": 10,
+    "value": 18
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.56,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.46
   },
   {
    "coach": "Zac Robinson",
@@ -4432,9 +4697,14 @@
     "rush_epa": 22,
     "pass_sr": 47,
     "rush_sr": 15,
-    "scheme_value": 33
+    "scheme_value": 33,
+    "value": 36
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.76,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.61
   },
   {
    "coach": "Alex Van Pelt",
@@ -4540,9 +4810,14 @@
     "rush_epa": 65,
     "pass_sr": 60,
     "rush_sr": 60,
-    "scheme_value": 31
+    "scheme_value": 31,
+    "value": 34
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.53,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.69
   },
   {
    "coach": "Arthur Smith",
@@ -4647,9 +4922,23 @@
     "rush_epa": 30,
     "pass_sr": 49,
     "rush_sr": 32,
-    "scheme_value": 16
+    "scheme_value": 16,
+    "value": 44
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -5.19,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.5,
+   "value_parts": {
+    "off": -0.85,
+    "def": -2.09,
+    "st": -1.62,
+    "decisions": -0.62,
+    "situational": 0.44,
+    "discipline": -0.23,
+    "innovation": -0.06
+   }
   },
   {
    "coach": "Declan Doyle",
@@ -4755,9 +5044,14 @@
     "rush_epa": 5,
     "pass_sr": 18,
     "rush_sr": 6,
-    "scheme_value": 5
+    "scheme_value": 5,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 3.65,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.17
   },
   {
    "coach": "Doug Nussmeier",
@@ -4862,9 +5156,13 @@
     "rush_epa": 62,
     "pass_sr": 38,
     "rush_sr": 67,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Eric Bieniemy",
@@ -4970,9 +5268,14 @@
     "rush_epa": 7,
     "pass_sr": 35,
     "rush_sr": 13,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -0.92,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.06
   },
   {
    "coach": "Grant Udinski",
@@ -5077,9 +5380,13 @@
     "rush_epa": 18,
     "pass_sr": 11,
     "rush_sr": 16,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Greg Roman",
@@ -5184,9 +5491,14 @@
     "rush_epa": 37,
     "pass_sr": 37,
     "rush_sr": 53,
-    "scheme_value": 14
+    "scheme_value": 14,
+    "value": 21
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.38,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.15
   },
   {
    "coach": "Josh McDaniels",
@@ -5291,9 +5603,23 @@
     "rush_epa": 53,
     "pass_sr": 2,
     "rush_sr": 61,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": 41
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -3.84,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.59,
+   "value_parts": {
+    "off": -2.64,
+    "def": -0.2,
+    "st": -1.19,
+    "decisions": 0.19,
+    "situational": -0.79,
+    "discipline": -0.29,
+    "innovation": -0.5
+   }
   },
   {
    "coach": "Ken Dorsey",
@@ -5399,9 +5725,14 @@
     "rush_epa": 32,
     "pass_sr": 46,
     "rush_sr": 23,
-    "scheme_value": 36
+    "scheme_value": 36,
+    "value": 38
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.93,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.65
   },
   {
    "coach": "Klay Kubiak",
@@ -5506,9 +5837,13 @@
     "rush_epa": 11,
     "pass_sr": 1,
     "rush_sr": 3,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Klayton Adams",
@@ -5613,9 +5948,13 @@
     "rush_epa": 14,
     "pass_sr": 17,
     "rush_sr": 12,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Kliff Kingsbury",
@@ -5720,9 +6059,14 @@
     "rush_epa": 4,
     "pass_sr": 16,
     "rush_sr": 8,
-    "scheme_value": 9
+    "scheme_value": 9,
+    "value": 9
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 2.34,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.46
   },
   {
    "coach": "Luke Getsy",
@@ -5828,9 +6172,14 @@
     "rush_epa": 67,
     "pass_sr": 53,
     "rush_sr": 64,
-    "scheme_value": 30
+    "scheme_value": 30,
+    "value": 32
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.83,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.68
   },
   {
    "coach": "Mike Kafka",
@@ -5935,9 +6284,14 @@
     "rush_epa": 69,
     "pass_sr": 69,
     "rush_sr": 62,
-    "scheme_value": 39
+    "scheme_value": 39,
+    "value": 46
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -5.52,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.63
   },
   {
    "coach": "Mike McCarthy",
@@ -6043,9 +6397,23 @@
     "rush_epa": 23,
     "pass_sr": 67,
     "rush_sr": 31,
-    "scheme_value": 34
+    "scheme_value": 34,
+    "value": 15
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.91,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.54,
+   "value_parts": {
+    "off": -0.36,
+    "def": 0.21,
+    "st": 1.33,
+    "decisions": -0.27,
+    "situational": -0.1,
+    "discipline": 0.2,
+    "innovation": -0.04
+   }
   },
   {
    "coach": "Nick Caley",
@@ -6150,9 +6518,14 @@
     "rush_epa": 64,
     "pass_sr": 30,
     "rush_sr": 69,
-    "scheme_value": 25
+    "scheme_value": 25,
+    "value": 25
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -0.78,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.3
   },
   {
    "coach": "Nick Holz",
@@ -6257,9 +6630,14 @@
     "rush_epa": 59,
     "pass_sr": 71,
     "rush_sr": 58,
-    "scheme_value": 37
+    "scheme_value": 37,
+    "value": 42
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -4.14,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.61
   },
   {
    "coach": "Shane Waldron",
@@ -6365,9 +6743,14 @@
     "rush_epa": 46,
     "pass_sr": 51,
     "rush_sr": 46,
-    "scheme_value": 26
+    "scheme_value": 26,
+    "value": 31
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.23,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.61
   },
   {
    "coach": "Tim Kelly",
@@ -6473,9 +6856,14 @@
     "rush_epa": 29,
     "pass_sr": 64,
     "rush_sr": 44,
-    "scheme_value": 23
+    "scheme_value": 23,
+    "value": 30
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.21,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.65
   },
   {
    "coach": "Tommy Rees",
@@ -6581,9 +6969,14 @@
     "rush_epa": 17,
     "pass_sr": 73,
     "rush_sr": 33,
-    "scheme_value": 41
+    "scheme_value": 41,
+    "value": 47
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -6.07,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.58
   },
   {
    "coach": "Andrew Janocko",
@@ -6664,9 +7057,13 @@
     "rush_epa": 73,
     "pass_sr": 7,
     "rush_sr": 74,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Bill O'Brien",
@@ -6747,9 +7144,14 @@
     "rush_epa": 58,
     "pass_sr": 72,
     "rush_sr": 52,
-    "scheme_value": 38
+    "scheme_value": 38,
+    "value": 43
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -4.82,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.37
   },
   {
    "coach": "Brian Angelichio",
@@ -6830,9 +7232,13 @@
     "rush_epa": 1,
     "pass_sr": 68,
     "rush_sr": 22,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Brian Callahan",
@@ -6913,9 +7319,23 @@
     "rush_epa": 43,
     "pass_sr": 23,
     "rush_sr": 63,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": 50
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": -7.55,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.68,
+   "value_parts": {
+    "off": -4.14,
+    "def": -3.3,
+    "st": 0.17,
+    "decisions": -0.28,
+    "situational": -0.56,
+    "discipline": -0.52,
+    "innovation": -0.21
+   }
   },
   {
    "coach": "Brian Daboll",
@@ -6996,9 +7416,23 @@
     "rush_epa": 50,
     "pass_sr": 66,
     "rush_sr": 49,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": 45
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -5.36,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.63,
+   "value_parts": {
+    "off": -4.05,
+    "def": -0.13,
+    "st": -0.97,
+    "decisions": -0.21,
+    "situational": -0.65,
+    "discipline": -0.13,
+    "innovation": 0.11
+   }
   },
   {
    "coach": "Brian Fleury",
@@ -7079,9 +7513,14 @@
     "rush_epa": 74,
     "pass_sr": 39,
     "rush_sr": 68,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -1.19,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.11
   },
   {
    "coach": "Brian Johnson",
@@ -7162,9 +7601,14 @@
     "rush_epa": 9,
     "pass_sr": 27,
     "rush_sr": 10,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": 2.0,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.07
   },
   {
    "coach": "Chip Kelly",
@@ -7245,9 +7689,14 @@
     "rush_epa": 76,
     "pass_sr": 65,
     "rush_sr": 76,
-    "scheme_value": 42
+    "scheme_value": 42,
+    "value": 49
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -6.65,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.16
   },
   {
    "coach": "Dave Canales",
@@ -7328,9 +7777,23 @@
     "rush_epa": 70,
     "pass_sr": 42,
     "rush_sr": 75,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": 26
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -0.81,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.58,
+   "value_parts": {
+    "off": 0.74,
+    "def": -2.25,
+    "st": 0.25,
+    "decisions": 0.46,
+    "situational": -0.8,
+    "discipline": 0.19,
+    "innovation": -0.17
+   }
   },
   {
    "coach": "Dave Ragone",
@@ -7411,9 +7874,14 @@
     "rush_epa": 71,
     "pass_sr": 33,
     "rush_sr": 70,
-    "scheme_value": 21
+    "scheme_value": 21,
+    "value": 27
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -0.85,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.27
   },
   {
    "coach": "David Blough",
@@ -7494,9 +7962,14 @@
     "rush_epa": 66,
     "pass_sr": 61,
     "rush_sr": 51,
-    "scheme_value": 20
+    "scheme_value": 20,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -0.61,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.18
   },
   {
    "coach": "Davis Webb",
@@ -7577,9 +8050,13 @@
     "rush_epa": 31,
     "pass_sr": 74,
     "rush_sr": 55,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Frank Reich",
@@ -7660,9 +8137,23 @@
     "rush_epa": 68,
     "pass_sr": 21,
     "rush_sr": 54,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": 51
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -8.07,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.47,
+   "value_parts": {
+    "off": -5.63,
+    "def": -1.72,
+    "st": -0.47,
+    "decisions": -0.26,
+    "situational": -0.66,
+    "discipline": 0.1,
+    "innovation": -0.42
+   }
   },
   {
    "coach": "John Morton",
@@ -7743,9 +8234,14 @@
     "rush_epa": 33,
     "pass_sr": 15,
     "rush_sr": 37,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": 0.99,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.01
   },
   {
    "coach": "Josh Grizzard",
@@ -7826,9 +8322,14 @@
     "rush_epa": 39,
     "pass_sr": 45,
     "rush_sr": 40,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -0.61,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.04
   },
   {
    "coach": "Kevin Patullo",
@@ -7909,9 +8410,14 @@
     "rush_epa": 24,
     "pass_sr": 41,
     "rush_sr": 29,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -0.88,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.1
   },
   {
    "coach": "Matt Canada",
@@ -7992,9 +8498,14 @@
     "rush_epa": 35,
     "pass_sr": 58,
     "rush_sr": 30,
-    "scheme_value": 22
+    "scheme_value": 22,
+    "value": 29
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -1.13,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.33
   },
   {
    "coach": "Mick Lombardi",
@@ -8075,9 +8586,14 @@
     "rush_epa": 61,
     "pass_sr": 48,
     "rush_sr": 65,
-    "scheme_value": 28
+    "scheme_value": 28,
+    "value": 35
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -2.64,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.37
   },
   {
    "coach": "Nathan Scheelhaase",
@@ -8158,9 +8674,13 @@
     "rush_epa": 25,
     "pass_sr": 13,
     "rush_sr": 9,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Pete Carmichael",
@@ -8241,9 +8761,14 @@
     "rush_epa": 42,
     "pass_sr": 40,
     "rush_sr": 56,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -1.84,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.13
   },
   {
    "coach": "Pete Carmichael Jr.",
@@ -8324,9 +8849,13 @@
     "rush_epa": 3,
     "pass_sr": 19,
     "rush_sr": 1,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Ryan Grubb",
@@ -8407,9 +8936,14 @@
     "rush_epa": 52,
     "pass_sr": 34,
     "rush_sr": 45,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -1.06,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.05
   },
   {
    "coach": "Sean Mannion",
@@ -8490,9 +9024,14 @@
     "rush_epa": 72,
     "pass_sr": 75,
     "rush_sr": 73,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -1.62,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.11
   },
   {
    "coach": "Tanner Engstrand",
@@ -8573,9 +9112,14 @@
     "rush_epa": 49,
     "pass_sr": 70,
     "rush_sr": 24,
-    "scheme_value": 40
+    "scheme_value": 40,
+    "value": 48
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -6.13,
+   "value_scope": "unit",
+   "value_conf": "low",
+   "value_rel": 0.45
   },
   {
    "coach": "Thomas Brown",
@@ -8656,9 +9200,14 @@
     "rush_epa": 63,
     "pass_sr": 76,
     "rush_sr": 59,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": "nr"
+   "scheme_value_conf": "nr",
+   "value": -5.63,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.13
   },
   {
    "coach": "Travis Switzer",
@@ -8739,9 +9288,243 @@
     "rush_epa": 75,
     "pass_sr": 57,
     "rush_sr": 71,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
+  },
+  {
+   "coach": "Dan Campbell",
+   "team": "DET",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "DET"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "DET",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 3.67,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.62,
+   "value_parts": {
+    "off": 2.53,
+    "def": 0.2,
+    "st": 0.4,
+    "decisions": 0.54,
+    "situational": 0.59,
+    "discipline": -0.74,
+    "innovation": -0.01
+   },
+   "ranks": {
+    "value": 4
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Jim Harbaugh",
+   "team": "LAC",
+   "latest_season": 2026,
+   "seasons": 2,
+   "teams": [
+    "LAC"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "LAC",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 2.84,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.44,
+   "value_parts": {
+    "off": 0.22,
+    "def": 2.67,
+    "st": -0.04,
+    "decisions": -0.02,
+    "situational": 0.7,
+    "discipline": -0.35,
+    "innovation": 0.19
+   },
+   "ranks": {
+    "value": 6
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "John Harbaugh",
+   "team": "NYG",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "BAL",
+    "NYG"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "NYG",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 2.75,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.58,
+   "value_parts": {
+    "off": 2.02,
+    "def": 0.48,
+    "st": 0.12,
+    "decisions": 0.13,
+    "situational": 0.61,
+    "discipline": -0.24,
+    "innovation": 0.13
+   },
+   "ranks": {
+    "value": 7
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Nick Sirianni",
+   "team": "PHI",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "PHI"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "PHI",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 1.6,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.52,
+   "value_parts": {
+    "off": 0.32,
+    "def": 1.12,
+    "st": -0.17,
+    "decisions": 0.32,
+    "situational": 0.19,
+    "discipline": -0.29,
+    "innovation": 0.06
+   },
+   "ranks": {
+    "value": 14
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Mike Vrabel",
+   "team": "NE",
+   "latest_season": 2026,
+   "seasons": 2,
+   "teams": [
+    "NE",
+    "TEN"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "NE",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 0.9,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.39,
+   "value_parts": {
+    "off": 2.48,
+    "def": -1.62,
+    "st": -0.4,
+    "decisions": 0.44,
+    "situational": -0.16,
+    "discipline": -0.22,
+    "innovation": 0.0
+   },
+   "ranks": {
+    "value": 16
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Kevin Stefanski",
+   "team": "ATL",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "CLE"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "ATL",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": -0.99,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.72,
+   "value_parts": {
+    "off": -4.31,
+    "def": 4.4,
+    "st": -0.89,
+    "decisions": -0.19,
+    "situational": -0.46,
+    "discipline": 0.64,
+    "innovation": -0.14
+   },
+   "ranks": {
+    "value": 28
+   },
+   "_byseason": []
   }
  ],
  "defense": [
@@ -8848,9 +9631,14 @@
     "def_epa": 2,
     "def_pass_epa": 3,
     "def_rush_epa": 8,
-    "scheme_value": 3
+    "scheme_value": 3,
+    "value": 3
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 4.33,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.82
   },
   {
    "coach": "Ejiro Evero",
@@ -8955,9 +9743,14 @@
     "def_epa": 52,
     "def_pass_epa": 48,
     "def_rush_epa": 64,
-    "scheme_value": 47
+    "scheme_value": 47,
+    "value": 46
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.09,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.8
   },
   {
    "coach": "Jeff Ulbrich",
@@ -9063,9 +9856,14 @@
     "def_epa": 24,
     "def_pass_epa": 19,
     "def_rush_epa": 30,
-    "scheme_value": 9
+    "scheme_value": 9,
+    "value": 18
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.26,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.82
   },
   {
    "coach": "Lou Anarumo",
@@ -9171,9 +9969,14 @@
     "def_epa": 46,
     "def_pass_epa": 44,
     "def_rush_epa": 56,
-    "scheme_value": 49
+    "scheme_value": 49,
+    "value": 38
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.31,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.83
   },
   {
    "coach": "Matt Burke",
@@ -9278,9 +10081,14 @@
     "def_epa": 9,
     "def_pass_epa": 17,
     "def_rush_epa": 6,
-    "scheme_value": 7
+    "scheme_value": 7,
+    "value": 9
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 2.18,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.8
   },
   {
    "coach": "Mike Macdonald",
@@ -9386,9 +10194,23 @@
     "def_epa": 3,
     "def_pass_epa": 4,
     "def_rush_epa": 10,
-    "scheme_value": 1
+    "scheme_value": 1,
+    "value": 1
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 5.04,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.55,
+   "value_parts": {
+    "off": -0.58,
+    "def": 4.47,
+    "st": 1.22,
+    "decisions": -0.07,
+    "situational": -0.08,
+    "discipline": 0.23,
+    "innovation": 0.05
+   }
   },
   {
    "coach": "Nick Rallis",
@@ -9493,9 +10315,14 @@
     "def_epa": 59,
     "def_pass_epa": 61,
     "def_rush_epa": 46,
-    "scheme_value": 53
+    "scheme_value": 53,
+    "value": 48
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.4,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.81
   },
   {
    "coach": "Patrick Graham",
@@ -9601,9 +10428,14 @@
     "def_epa": 29,
     "def_pass_epa": 32,
     "def_rush_epa": 22,
-    "scheme_value": 29
+    "scheme_value": 29,
+    "value": 29
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.01,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.82
   },
   {
    "coach": "Steve Spagnuolo",
@@ -9708,9 +10540,14 @@
     "def_epa": 15,
     "def_pass_epa": 13,
     "def_rush_epa": 23,
-    "scheme_value": 11
+    "scheme_value": 11,
+    "value": 13
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.68,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.81
   },
   {
    "coach": "Todd Bowles",
@@ -9815,9 +10652,23 @@
     "def_epa": 26,
     "def_pass_epa": 35,
     "def_rush_epa": 7,
-    "scheme_value": 46
+    "scheme_value": 46,
+    "value": 28
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.0,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.57,
+   "value_parts": {
+    "off": 0.79,
+    "def": -0.63,
+    "st": -0.17,
+    "decisions": 0.01,
+    "situational": 0.21,
+    "discipline": 0.46,
+    "innovation": 0.22
+   }
   },
   {
    "coach": "Vance Joseph",
@@ -9922,9 +10773,14 @@
     "def_epa": 12,
     "def_pass_epa": 10,
     "def_rush_epa": 25,
-    "scheme_value": 12
+    "scheme_value": 12,
+    "value": 12
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.74,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.83
   },
   {
    "coach": "Vic Fangio",
@@ -10030,9 +10886,14 @@
     "def_epa": 21,
     "def_pass_epa": 21,
     "def_rush_epa": 24,
-    "scheme_value": 4
+    "scheme_value": 4,
+    "value": 7
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 2.46,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.83
   },
   {
    "coach": "Aaron Glenn",
@@ -10122,9 +10983,23 @@
     "def_epa": 16,
     "def_pass_epa": 25,
     "def_rush_epa": 5,
-    "scheme_value": 21
+    "scheme_value": 21,
+    "value": 60
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -6.81,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.44,
+   "value_parts": {
+    "off": -4.94,
+    "def": -4.06,
+    "st": 2.58,
+    "decisions": -0.4,
+    "situational": -0.99,
+    "discipline": -0.88,
+    "innovation": -0.11
+   }
   },
   {
    "coach": "Aden Durde",
@@ -10213,9 +11088,13 @@
     "def_epa": 4,
     "def_pass_epa": 8,
     "def_rush_epa": 3,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Anthony Weaver",
@@ -10305,9 +11184,14 @@
     "def_epa": 40,
     "def_pass_epa": 38,
     "def_rush_epa": 41,
-    "scheme_value": 40
+    "scheme_value": 40,
+    "value": 34
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.74,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.72
   },
   {
    "coach": "Chris Shula",
@@ -10396,9 +11280,14 @@
     "def_epa": 30,
     "def_pass_epa": 31,
     "def_rush_epa": 29,
-    "scheme_value": 23
+    "scheme_value": 23,
+    "value": 16
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.33,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.76
   },
   {
    "coach": "Dennard Wilson",
@@ -10488,9 +11377,14 @@
     "def_epa": 50,
     "def_pass_epa": 50,
     "def_rush_epa": 52,
-    "scheme_value": 54
+    "scheme_value": 54,
+    "value": 52
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -3.17,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.75
   },
   {
    "coach": "Gus Bradley",
@@ -10580,9 +11474,14 @@
     "def_epa": 39,
     "def_pass_epa": 49,
     "def_rush_epa": 20,
-    "scheme_value": 48
+    "scheme_value": 48,
+    "value": 42
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.76,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.75
   },
   {
    "coach": "Jeff Hafley",
@@ -10672,9 +11571,23 @@
     "def_epa": 42,
     "def_pass_epa": 51,
     "def_rush_epa": 19,
-    "scheme_value": 45
+    "scheme_value": 45,
+    "value": null
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -7.13,
+   "value_scope": "program",
+   "value_conf": "nr",
+   "value_rel": 0.58,
+   "value_parts": {
+    "off": -1.67,
+    "def": -2.52,
+    "st": -1.72,
+    "decisions": -1.22,
+    "situational": -1.28,
+    "discipline": 0.89,
+    "innovation": 0.42
+   }
   },
   {
    "coach": "Jesse Minter",
@@ -10764,9 +11677,23 @@
     "def_epa": 10,
     "def_pass_epa": 12,
     "def_rush_epa": 18,
-    "scheme_value": 5
+    "scheme_value": 5,
+    "value": null
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 4.84,
+   "value_scope": "program",
+   "value_conf": "nr",
+   "value_rel": 0.46,
+   "value_parts": {
+    "off": 3.65,
+    "def": 1.62,
+    "st": 0.07,
+    "decisions": -0.5,
+    "situational": 0.26,
+    "discipline": -0.0,
+    "innovation": 0.1
+   }
   },
   {
    "coach": "Jim Schwartz",
@@ -10855,9 +11782,14 @@
     "def_epa": 5,
     "def_pass_epa": 5,
     "def_rush_epa": 21,
-    "scheme_value": 2
+    "scheme_value": 2,
+    "value": 2
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 4.4,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.79
   },
   {
    "coach": "Teryl Austin",
@@ -10946,9 +11878,14 @@
     "def_epa": 27,
     "def_pass_epa": 23,
     "def_rush_epa": 34,
-    "scheme_value": 19
+    "scheme_value": 19,
+    "value": 15
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.57,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.81
   },
   {
    "coach": "Al Golden",
@@ -11021,9 +11958,14 @@
     "def_epa": 49,
     "def_pass_epa": 46,
     "def_rush_epa": 60,
-    "scheme_value": 55
+    "scheme_value": 55,
+    "value": 51
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.87,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.63
   },
   {
    "coach": "Anthony Campanile",
@@ -11096,9 +12038,14 @@
     "def_epa": 8,
     "def_pass_epa": 9,
     "def_rush_epa": 9,
-    "scheme_value": 10
+    "scheme_value": 10,
+    "value": 20
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.09,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.67
   },
   {
    "coach": "Bobby Babich",
@@ -11171,9 +12118,14 @@
     "def_epa": 32,
     "def_pass_epa": 22,
     "def_rush_epa": 47,
-    "scheme_value": 14
+    "scheme_value": 14,
+    "value": 17
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.32,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.72
   },
   {
    "coach": "Brandon Staley",
@@ -11246,9 +12198,23 @@
     "def_epa": 36,
     "def_pass_epa": 36,
     "def_rush_epa": 44,
-    "scheme_value": 30
+    "scheme_value": 30,
+    "value": 40
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.6,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.69,
+   "value_parts": {
+    "off": 0.47,
+    "def": -1.5,
+    "st": -0.29,
+    "decisions": -0.27,
+    "situational": 0.28,
+    "discipline": -0.27,
+    "innovation": -0.18
+   }
   },
   {
    "coach": "Dennis Allen",
@@ -11321,9 +12287,23 @@
     "def_epa": 34,
     "def_pass_epa": 28,
     "def_rush_epa": 50,
-    "scheme_value": 17
+    "scheme_value": 17,
+    "value": 37
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.1,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.56,
+   "value_parts": {
+    "off": -0.55,
+    "def": 1.12,
+    "st": -1.56,
+    "decisions": -0.11,
+    "situational": 0.05,
+    "discipline": 0.36,
+    "innovation": -0.28
+   }
   },
   {
    "coach": "Joe Whitt Jr.",
@@ -11396,9 +12376,14 @@
     "def_epa": 58,
     "def_pass_epa": 56,
     "def_rush_epa": 59,
-    "scheme_value": 57
+    "scheme_value": 57,
+    "value": 55
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -3.52,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.73
   },
   {
    "coach": "Joe Woods",
@@ -11471,9 +12456,14 @@
     "def_epa": 25,
     "def_pass_epa": 16,
     "def_rush_epa": 42,
-    "scheme_value": 22
+    "scheme_value": 22,
+    "value": 19
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 1.12,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.73
   },
   {
    "coach": "Kelvin Sheppard",
@@ -11546,9 +12536,14 @@
     "def_epa": 57,
     "def_pass_epa": 52,
     "def_rush_epa": 51,
-    "scheme_value": 34
+    "scheme_value": 34,
+    "value": 31
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.59,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.66
   },
   {
    "coach": "Raheem Morris",
@@ -11622,9 +12617,23 @@
     "def_epa": 23,
     "def_pass_epa": 27,
     "def_rush_epa": 16,
-    "scheme_value": 15
+    "scheme_value": 15,
+    "value": 57
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -4.41,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.67,
+   "value_parts": {
+    "off": -3.16,
+    "def": 0.13,
+    "st": -1.46,
+    "decisions": 0.08,
+    "situational": -0.37,
+    "discipline": 0.29,
+    "innovation": -0.08
+   }
   },
   {
    "coach": "Ryan Nielsen",
@@ -11698,9 +12707,14 @@
     "def_epa": 44,
     "def_pass_epa": 54,
     "def_rush_epa": 17,
-    "scheme_value": 56
+    "scheme_value": 56,
+    "value": 49
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.65,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.73
   },
   {
    "coach": "Shane Bowen",
@@ -11774,9 +12788,14 @@
     "def_epa": 45,
     "def_pass_epa": 53,
     "def_rush_epa": 26,
-    "scheme_value": 59
+    "scheme_value": 59,
+    "value": 53
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -3.33,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.73
   },
   {
    "coach": "Zach Orr",
@@ -11849,9 +12868,14 @@
     "def_epa": 33,
     "def_pass_epa": 34,
     "def_rush_epa": 13,
-    "scheme_value": 39
+    "scheme_value": 39,
+    "value": 35
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.93,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.74
   },
   {
    "coach": "Al Holcomb",
@@ -11908,9 +12932,14 @@
     "def_epa": 7,
     "def_pass_epa": 6,
     "def_rush_epa": 33,
-    "scheme_value": 27
+    "scheme_value": 27,
+    "value": 25
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.26,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.57
   },
   {
    "coach": "Alan Williams",
@@ -11967,9 +12996,14 @@
     "def_epa": 18,
     "def_pass_epa": 26,
     "def_rush_epa": 4,
-    "scheme_value": 36
+    "scheme_value": 36,
+    "value": 33
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.68,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.59
   },
   {
    "coach": "Bill Belichick",
@@ -12026,9 +13060,23 @@
     "def_epa": 13,
     "def_pass_epa": 30,
     "def_rush_epa": 2,
-    "scheme_value": 37
+    "scheme_value": 37,
+    "value": 61
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -7.93,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.47,
+   "value_parts": {
+    "off": -4.82,
+    "def": 0.58,
+    "st": -2.92,
+    "decisions": -0.76,
+    "situational": 0.16,
+    "discipline": 0.22,
+    "innovation": 0.0
+   }
   },
   {
    "coach": "Brian Duker",
@@ -12085,9 +13133,13 @@
     "def_epa": 14,
     "def_pass_epa": 33,
     "def_rush_epa": 1,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Charlie Bullen",
@@ -12144,9 +13196,14 @@
     "def_epa": 62,
     "def_pass_epa": 40,
     "def_rush_epa": 67,
-    "scheme_value": 20
+    "scheme_value": 20,
+    "value": 23
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.48,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.57
   },
   {
    "coach": "Chris Harris",
@@ -12203,9 +13260,14 @@
     "def_epa": 65,
     "def_pass_epa": 65,
     "def_rush_epa": 54,
-    "scheme_value": 62
+    "scheme_value": 62,
+    "value": 59
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -5.52,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.55
   },
   {
    "coach": "Chris O'Leary",
@@ -12262,9 +13324,14 @@
     "def_epa": 19,
     "def_pass_epa": 20,
     "def_rush_epa": 28,
-    "scheme_value": 25
+    "scheme_value": 25,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.74,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.26
   },
   {
    "coach": "Christian Parker",
@@ -12321,9 +13388,14 @@
     "def_epa": 66,
     "def_pass_epa": 67,
     "def_rush_epa": 39,
-    "scheme_value": 63
+    "scheme_value": 63,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -7.77,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.26
   },
   {
    "coach": "Clint Hurtt",
@@ -12380,9 +13452,14 @@
     "def_epa": 51,
     "def_pass_epa": 47,
     "def_rush_epa": 63,
-    "scheme_value": 42
+    "scheme_value": 42,
+    "value": 44
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.9,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.58
   },
   {
    "coach": "Dan Quinn",
@@ -12439,9 +13516,23 @@
     "def_epa": 1,
     "def_pass_epa": 1,
     "def_rush_epa": 12,
-    "scheme_value": 26
+    "scheme_value": 26,
+    "value": 24
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.39,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.48,
+   "value_parts": {
+    "off": 1.9,
+    "def": -2.98,
+    "st": 0.64,
+    "decisions": 0.83,
+    "situational": -0.14,
+    "discipline": -0.12,
+    "innovation": 0.34
+   }
   },
   {
    "coach": "Daronte Jones",
@@ -12498,9 +13589,14 @@
     "def_epa": 54,
     "def_pass_epa": 58,
     "def_rush_epa": 32,
-    "scheme_value": 33
+    "scheme_value": 33,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.09,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.3
   },
   {
    "coach": "DeMarcus Covington",
@@ -12557,9 +13653,14 @@
     "def_epa": 55,
     "def_pass_epa": 60,
     "def_rush_epa": 53,
-    "scheme_value": 60
+    "scheme_value": 60,
+    "value": 56
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -3.98,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.55
   },
   {
    "coach": "DeMeco Ryans",
@@ -12616,9 +13717,23 @@
     "def_epa": 35,
     "def_pass_epa": 39,
     "def_rush_epa": 14,
-    "scheme_value": 31
+    "scheme_value": 31,
+    "value": 27
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.07,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.52,
+   "value_parts": {
+    "off": -2.09,
+    "def": 1.88,
+    "st": 0.62,
+    "decisions": -0.34,
+    "situational": -0.08,
+    "discipline": 0.32,
+    "innovation": -0.2
+   }
   },
   {
    "coach": "Derrick Ansley",
@@ -12675,9 +13790,14 @@
     "def_epa": 41,
     "def_pass_epa": 42,
     "def_rush_epa": 31,
-    "scheme_value": 44
+    "scheme_value": 44,
+    "value": 39
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.5,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.59
   },
   {
    "coach": "Don Martindale",
@@ -12734,9 +13854,14 @@
     "def_epa": 28,
     "def_pass_epa": 15,
     "def_rush_epa": 57,
-    "scheme_value": 13
+    "scheme_value": 13,
+    "value": 8
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 2.22,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.56
   },
   {
    "coach": "Eric Washington",
@@ -12793,9 +13918,14 @@
     "def_epa": 37,
     "def_pass_epa": 29,
     "def_rush_epa": 58,
-    "scheme_value": 32
+    "scheme_value": 32,
+    "value": 26
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.15,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.54
   },
   {
    "coach": "Jack Del Rio",
@@ -12852,9 +13982,14 @@
     "def_epa": 61,
     "def_pass_epa": 62,
     "def_rush_epa": 38,
-    "scheme_value": 61
+    "scheme_value": 61,
+    "value": 58
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -4.47,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.58
   },
   {
    "coach": "Jim Leonhard",
@@ -12911,9 +14046,14 @@
     "def_epa": 64,
     "def_pass_epa": 63,
     "def_rush_epa": 35,
-    "scheme_value": 41
+    "scheme_value": 41,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -2.9,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.33
   },
   {
    "coach": "Jimmy Lake",
@@ -12970,9 +14110,14 @@
     "def_epa": 53,
     "def_pass_epa": 55,
     "def_rush_epa": 43,
-    "scheme_value": 52
+    "scheme_value": 52,
+    "value": 45
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.9,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.57
   },
   {
    "coach": "Joe Barry",
@@ -13029,9 +14174,14 @@
     "def_epa": 38,
     "def_pass_epa": 37,
     "def_rush_epa": 40,
-    "scheme_value": 50
+    "scheme_value": 50,
+    "value": 43
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.76,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.55
   },
   {
    "coach": "Jonathan Gannon",
@@ -13088,9 +14238,23 @@
     "def_epa": 11,
     "def_pass_epa": 7,
     "def_rush_epa": 55,
-    "scheme_value": 8
+    "scheme_value": 8,
+    "value": 50
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -2.66,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.68,
+   "value_parts": {
+    "off": 0.37,
+    "def": -2.4,
+    "st": -0.25,
+    "decisions": -0.38,
+    "situational": -0.35,
+    "discipline": 0.56,
+    "innovation": -0.1
+   }
   },
   {
    "coach": "Matt Eberflus",
@@ -13147,9 +14311,23 @@
     "def_epa": 67,
     "def_pass_epa": 64,
     "def_rush_epa": 65,
-    "scheme_value": 64
+    "scheme_value": 64,
+    "value": 41
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -1.69,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.6,
+   "value_parts": {
+    "off": -1.11,
+    "def": -0.26,
+    "st": -0.55,
+    "decisions": 0.24,
+    "situational": -0.04,
+    "discipline": 0.3,
+    "innovation": 0.07
+   }
   },
   {
    "coach": "Mike Caldwell",
@@ -13206,9 +14384,14 @@
     "def_epa": 20,
     "def_pass_epa": 14,
     "def_rush_epa": 37,
-    "scheme_value": 18
+    "scheme_value": 18,
+    "value": 11
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 2.07,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.6
   },
   {
    "coach": "Mike Rutenberg",
@@ -13265,9 +14448,14 @@
     "def_epa": 22,
     "def_pass_epa": 18,
     "def_rush_epa": 27,
-    "scheme_value": 24
+    "scheme_value": 24,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.23,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.3
   },
   {
    "coach": "Mike Zimmer",
@@ -13324,9 +14512,14 @@
     "def_epa": 60,
     "def_pass_epa": 41,
     "def_rush_epa": 66,
-    "scheme_value": 35
+    "scheme_value": 35,
+    "value": 30
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.4,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.56
   },
   {
    "coach": "Nick Sorensen",
@@ -13383,9 +14576,14 @@
     "def_epa": 47,
     "def_pass_epa": 43,
     "def_rush_epa": 62,
-    "scheme_value": 16
+    "scheme_value": 16,
+    "value": 22
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 0.79,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.54
   },
   {
    "coach": "Rob Leonard",
@@ -13442,9 +14640,14 @@
     "def_epa": 43,
     "def_pass_epa": 57,
     "def_rush_epa": 15,
-    "scheme_value": 51
+    "scheme_value": 51,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": -2.8,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.29
   },
   {
    "coach": "Robert Saleh",
@@ -13501,9 +14704,23 @@
     "def_epa": 56,
     "def_pass_epa": 59,
     "def_rush_epa": 49,
-    "scheme_value": 58
+    "scheme_value": 58,
+    "value": 54
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -3.36,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.61,
+   "value_parts": {
+    "off": -3.14,
+    "def": 0.56,
+    "st": -0.61,
+    "decisions": -0.16,
+    "situational": -0.7,
+    "discipline": -0.25,
+    "innovation": -0.37
+   }
   },
   {
    "coach": "Sean Desai",
@@ -13560,9 +14777,14 @@
     "def_epa": 48,
     "def_pass_epa": 45,
     "def_rush_epa": 61,
-    "scheme_value": 43
+    "scheme_value": 43,
+    "value": 47
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -2.11,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.6
   },
   {
    "coach": "Sean Duggan",
@@ -13619,9 +14841,13 @@
     "def_epa": 63,
     "def_pass_epa": 66,
     "def_rush_epa": 11,
-    "scheme_value": null
+    "scheme_value": null,
+    "value": null
    },
-   "scheme_value_conf": null
+   "scheme_value_conf": null,
+   "value": null,
+   "value_scope": null,
+   "value_conf": null
   },
   {
    "coach": "Steve Wilks",
@@ -13678,9 +14904,14 @@
     "def_epa": 6,
     "def_pass_epa": 2,
     "def_rush_epa": 48,
-    "scheme_value": 6
+    "scheme_value": 6,
+    "value": 10
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": 2.17,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.61
   },
   {
    "coach": "Terrell Williams",
@@ -13737,9 +14968,14 @@
     "def_epa": 17,
     "def_pass_epa": 11,
     "def_rush_epa": 36,
-    "scheme_value": 38
+    "scheme_value": 38,
+    "value": 32
    },
-   "scheme_value_conf": "ok"
+   "scheme_value_conf": "ok",
+   "value": -0.65,
+   "value_scope": "unit",
+   "value_conf": "ok",
+   "value_rel": 0.56
   },
   {
    "coach": "Zak Kuhr",
@@ -13796,9 +15032,244 @@
     "def_epa": 31,
     "def_pass_epa": 24,
     "def_rush_epa": 45,
-    "scheme_value": 28
+    "scheme_value": 28,
+    "value": null
    },
-   "scheme_value_conf": "low"
+   "scheme_value_conf": "low",
+   "value": 0.79,
+   "value_scope": "unit",
+   "value_conf": "nr",
+   "value_rel": 0.29
+  },
+  {
+   "coach": "Dan Campbell",
+   "team": "DET",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "DET"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "DET",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 3.67,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.62,
+   "value_parts": {
+    "off": 2.53,
+    "def": 0.2,
+    "st": 0.4,
+    "decisions": 0.54,
+    "situational": 0.59,
+    "discipline": -0.74,
+    "innovation": -0.01
+   },
+   "ranks": {
+    "value": 4
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Jim Harbaugh",
+   "team": "LAC",
+   "latest_season": 2026,
+   "seasons": 2,
+   "teams": [
+    "LAC"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "LAC",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 2.84,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.44,
+   "value_parts": {
+    "off": 0.22,
+    "def": 2.67,
+    "st": -0.04,
+    "decisions": -0.02,
+    "situational": 0.7,
+    "discipline": -0.35,
+    "innovation": 0.19
+   },
+   "ranks": {
+    "value": 5
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "John Harbaugh",
+   "team": "NYG",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "BAL",
+    "NYG"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "NYG",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 2.75,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.58,
+   "value_parts": {
+    "off": 2.02,
+    "def": 0.48,
+    "st": 0.12,
+    "decisions": 0.13,
+    "situational": 0.61,
+    "discipline": -0.24,
+    "innovation": 0.13
+   },
+   "ranks": {
+    "value": 6
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Nick Sirianni",
+   "team": "PHI",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "PHI"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "PHI",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 1.6,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.52,
+   "value_parts": {
+    "off": 0.32,
+    "def": 1.12,
+    "st": -0.17,
+    "decisions": 0.32,
+    "situational": 0.19,
+    "discipline": -0.29,
+    "innovation": 0.06
+   },
+   "ranks": {
+    "value": 14
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Mike Vrabel",
+   "team": "NE",
+   "latest_season": 2026,
+   "seasons": 2,
+   "teams": [
+    "NE",
+    "TEN"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "NE",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": 0.9,
+   "value_scope": "program",
+   "value_conf": "low",
+   "value_rel": 0.39,
+   "value_parts": {
+    "off": 2.48,
+    "def": -1.62,
+    "st": -0.4,
+    "decisions": 0.44,
+    "situational": -0.16,
+    "discipline": -0.22,
+    "innovation": 0.0
+   },
+   "ranks": {
+    "value": 21
+   },
+   "_byseason": []
+  },
+  {
+   "coach": "Kevin Stefanski",
+   "team": "ATL",
+   "latest_season": 2026,
+   "seasons": 3,
+   "teams": [
+    "CLE"
+   ],
+   "role": "HC",
+   "called_latest": false,
+   "ever_called": false,
+   "as_hc": true,
+   "last_season": 2026,
+   "status": "team",
+   "cur_team": "ATL",
+   "cur_role": "HC",
+   "ceo_hc": true,
+   "scheme_value": null,
+   "scheme_rel": null,
+   "scheme_value_conf": null,
+   "value": -0.99,
+   "value_scope": "program",
+   "value_conf": "ok",
+   "value_rel": 0.72,
+   "value_parts": {
+    "off": -4.31,
+    "def": 4.4,
+    "st": -0.89,
+    "decisions": -0.19,
+    "situational": -0.46,
+    "discipline": 0.64,
+    "innovation": -0.14
+   },
+   "ranks": {
+    "value": 36
+   },
+   "_byseason": []
   }
  ]
 }
