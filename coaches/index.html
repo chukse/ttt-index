@@ -44,6 +44,8 @@ a{color:inherit;text-decoration:none}
 .toggle{margin-left:auto;display:flex;border:1px solid var(--line2);border-radius:6px;overflow:hidden}
 .tg{background:transparent;border:0;color:var(--dim);font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:6px 15px;cursor:pointer}
 .tg.on{background:var(--gold);color:#17120a} .tg:not(.on):hover{color:var(--ink)}
+.self{background:var(--panel);border:1px solid var(--line2);border-radius:6px;color:var(--ink);font-family:var(--sans);font-size:12px;font-weight:600;padding:6px 9px;cursor:pointer;max-width:180px}
+.self:hover{border-color:var(--gold)}
 .c-coach .role{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.05em;color:var(--faint);border:1px solid var(--line2);border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:middle}
 .c-coach .role.fa{color:var(--gold);border-color:var(--gold)}
 .c-coach .pc{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.04em;border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:middle;border:1px solid var(--line2);color:var(--faint)}
@@ -153,6 +155,10 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
   <div class="toggle" id="scopesel"><button class="tg on" data-scope="nfl">NFL</button><button class="tg" data-scope="college">College</button></div>
   <div class="toggle" id="toggle"><button class="tg on" data-side="offense">Offense</button><button class="tg" data-side="defense">Defense</button></div>
   <div class="toggle" id="yearsel"><button class="tg on" data-year="all">2023–26</button><button class="tg" data-year="2026">2026</button><button class="tg" data-year="2025">2025</button><button class="tg" data-year="2024">2024</button><button class="tg" data-year="2023">2023</button></div>
+  <select id="typesel" class="self" title="Filter by coach type">
+    <option value="all">All coaches</option><option value="hc">Head coaches</option>
+    <option value="coord">Coordinators</option><option value="caller">Play-callers</option></select>
+  <select id="teamsel" class="self" title="Filter by team"><option value="all">All teams</option></select>
   <a class="mlink" href="#method">How ↓</a>
   <button class="xbtn" id="exportBtn" title="Download the current board as CSV">Export CSV</button>
 </div>
@@ -188,7 +194,7 @@ const CO_OFF=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'off_creati
 const CO_DEF=[{id:'scheme_value',ab:'SCH VAL',fmt:fe,ep:1,grp:1},{id:'def_epa',ab:'dEPA',fmt:fe,ep:1,inv:1,grp:1},{id:'over_exp',ab:'OvEx',fmt:fp},{id:'def_pass_epa',ab:'dpEPA',fmt:fe,ep:1,inv:1},{id:'def_rush_epa',ab:'drEPA',fmt:fe,ep:1,inv:1},{id:'havoc',ab:'HVC%',fmt:f1},{id:'stuff_rate',ab:'STF%',fmt:f1}];
 const LABELS={value:'Coach value — net points/game this staff adds vs an average one. A head coach shows his FULL program (offense + defense + special teams + 4th-down decisions); a coordinator shows his UNIT. Scheme value + situational + discipline + innovation (creativity). NR = scheme core not separable from the QB; ◦ = moderate reliability',scheme_value:'Scheme value — system worth, adjusted for the quarterback and the opponent (higher = better). NR = not reliably separable from a single QB; ◦ = moderate reliability',creativity:'Creativity — how exotic/varied the design is (offense: motion, play-action, RPO, empty sets, deep shots, QB runs; defense: blitz, simulated pressure, rush-count & box variety, drop-8 coverage). 50 = average. Descriptive, not a quality grade',proe:'Pass over expected',pa_rate:'Play-action %',screen_rate:'Screen %',rpo_rate:'RPO %',motion_rate:'Motion %',p11:'11 personnel (1 RB, 1 TE, 3 WR)',p12:'12 personnel (1 RB, 2 TE)',p13:'13 personnel (1 RB, 3 TE)',p21:'21 personnel (2 RB, 1 TE)',p22:'22 personnel (2 RB, 2 TE)',p10:'10 personnel (1 RB, 0 TE)',plays_pg:'Plays per game',blitz_rate:'Blitz %',man_rate:'Man coverage %',box:'Defenders in box',light_box_rate:'Light box %',nickel_plus:'Nickel+ %',off_epa:'Offensive EPA/play (all)',pass_epa:'Pass EPA/play',rush_epa:'Rush EPA/play (designed)',pass_sr:'Pass success %',rush_sr:'Rush success %',def_epa:'Defensive EPA/play (all)',def_pass_epa:'Pass EPA/play allowed',def_rush_epa:'Rush EPA/play allowed',over_exp:'Over-expectation — SP+ rating vs recruiting-talent rank (higher = beating the talent on hand). College only',success_rate:'Success rate %',explosive_rate:'Explosive-play rate %',havoc:'Havoc rate % (TFLs + forced fumbles + passes defensed)',stuff_rate:'Stuff rate % (runs stopped at or behind the line)',havoc_front7:'Havoc from the front seven %',havoc_db:'Havoc from the secondary %',off_creativity:'Play-calling creativity (college) — situational unpredictability, 4th-down aggression, QB-run share & gadget rate from play-by-play. NOT the NFL formation index (no charting at college scale). 50 = average, descriptive not a grade'};
 const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7BD8',DET:'#0076B6',DAL:'#8993A0',NE:'#88A4C4',HOU:'#9AB',LV:'#C9C9C9',GB:'#2E8B57',KC:'#E31837',LA:'#4F7FD4',CAR:'#0085CA',NO:'#D3BC8D',NYJ:'#2E8B57',MIN:'#9A7BD8',DEN:'#FB4F14',SEA:'#69BE28',MIA:'#00A3A3',ARI:'#C14965',LAC:'#2CA0E0',PIT:'#FFB612',CLE:'#C0712B',NYG:'#5577C0',IND:'#5588C8',TEN:'#4B92DB',TB:'#D50A0A',PHI:'#1A9E7A',ATL:'#D14B5A',WAS:'#C68A5A',CHI:'#C8743A'};
-let DATA=null, DATA_NFL=null, DATA_COLLEGE=null, BLURBS={}, scope='nfl', side='offense', sortKey='proe', sortDir=-1, YEAR='all';
+let DATA=null, DATA_NFL=null, DATA_COLLEGE=null, BLURBS={}, scope='nfl', side='offense', sortKey='proe', sortDir=-1, YEAR='all', TEAMF='all', TYPEF='all';
 const LOWER_BETTER=new Set(['def_epa','def_pass_epa','def_rush_epa']);
 function rkClass(r,n){return r==null?'r-mid':r<=Math.max(3,n*0.12)?'r-top':r<=n*0.4?'r-good':r>=n*0.82?'r-low':'r-mid'}
 // play-calling chip: who actually calls the unit (system of record)
@@ -251,6 +257,8 @@ function setScope(s){
 }
 function setSide(s){side=s;sortKey=cols()[0].id;sortDir=LOWER_BETTER.has(sortKey)?1:-1;document.querySelectorAll('#toggle .tg').forEach(b=>b.classList.toggle('on',b.getAttribute('data-side')===s));document.getElementById('boardtitle').textContent=(scope==='college'?'College ':'')+(s==='offense'?(scope==='college'?'Play-Callers':'Offensive Play-Callers'):(scope==='college'?'Coordinators':'Defensive Coordinators'));render();}
 function setYear(y){YEAR=y;document.querySelectorAll('#yearsel .tg').forEach(b=>b.classList.toggle('on',b.getAttribute('data-year')===y));render();}
+document.getElementById('typesel').addEventListener('change',e=>{TYPEF=e.target.value;render();});
+document.getElementById('teamsel').addEventListener('change',e=>{TEAMF=e.target.value;render();});
 document.getElementById('scopesel').addEventListener('click',e=>{const b=e.target.closest('[data-scope]');if(b)setScope(b.getAttribute('data-scope'));});
 document.getElementById('toggle').addEventListener('click',e=>{const b=e.target.closest('[data-side]');if(b)setSide(b.getAttribute('data-side'));});
 document.getElementById('yearsel').addEventListener('click',e=>{const b=e.target.closest('[data-year]');if(b)setYear(b.getAttribute('data-year'));});
@@ -344,9 +352,24 @@ function identity(c){
   return s1+'.'+(extra.length?' '+extra.join(' '):'');
 }
 function render(){
-  const C=cols(), B=board(), shown=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
-  const scope=(YEAR==='all')?'today + free agents · overall scheme, 2023–26':('season '+YEAR+' only');
-  document.getElementById('ctxd').innerHTML=`<b>${shown.length}</b> ${side==='offense'?'play-callers':'coordinators'} · ${scope}`;
+  const C=cols(), B=board(), base=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
+  // team dropdown reflects the current board; keep the selection if it still exists
+  const teams=[...new Set(base.map(c=>c.status==='team'?c.cur_team:c.team).filter(Boolean))].sort();
+  const tsel=document.getElementById('teamsel');
+  if(tsel){tsel.innerHTML='<option value="all">All teams</option>'+teams.map(t=>`<option value="${t}">${t}</option>`).join('');
+    if(!teams.includes(TEAMF))TEAMF='all'; tsel.value=TEAMF;}
+  const tyl=document.getElementById('typesel'); if(tyl)tyl.value=TYPEF;
+  // apply the type + team filters
+  let shown=base;
+  if(TYPEF!=='all')shown=shown.filter(c=>{const role=c.role||c.cur_role||'';
+    if(TYPEF==='hc')return role==='HC'||c.as_hc||c.ceo_hc;
+    if(TYPEF==='coord')return (role==='OC'||role==='DC')&&!c.ceo_hc;
+    if(TYPEF==='caller')return !!c.called_latest;
+    return true;});
+  if(TEAMF!=='all')shown=shown.filter(c=>{const tm=c.status==='team'?c.cur_team:c.team;return tm===TEAMF||(c.teams&&c.teams.indexOf(TEAMF)>=0);});
+  const scopeTxt=(YEAR==='all')?'today + free agents · overall scheme, 2023–26':('season '+YEAR+' only');
+  const filt=(TYPEF!=='all'||TEAMF!=='all')?` · filtered`:'';
+  document.getElementById('ctxd').innerHTML=`<b>${shown.length}</b> ${side==='offense'?'play-callers':'coordinators'} · ${scopeTxt}${filt}`;
   let th=`<tr><th class="lt" data-s="rank">#</th><th class="lt" data-s="name">${side==='offense'?'Play-caller':'Coordinator'}</th>`+
     C.map(c=>`<th class="${c.grp?'grp':''}" data-s="${c.id}" title="${LABELS[c.id]}">${c.ab}</th>`).join('')+`</tr>`;
   document.getElementById('thead').innerHTML=th;
@@ -484,7 +507,12 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
   }
   function paintExport(){if(!xbtn)return;const ex=xbtn.querySelector('.lock');if(ex)ex.remove();if(!(window.TTT&&TTT.has('index_depth')))xbtn.insertAdjacentHTML('beforeend',' <span class="lock">Member</span>');}
   function toCSV(){
-    const C=cols(), B=board(), shown=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
+    const C=cols(), B=board(); let shown=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
+    if(TYPEF!=='all')shown=shown.filter(c=>{const role=c.role||c.cur_role||'';
+      if(TYPEF==='hc')return role==='HC'||c.as_hc||c.ceo_hc;
+      if(TYPEF==='coord')return (role==='OC'||role==='DC')&&!c.ceo_hc;
+      if(TYPEF==='caller')return !!c.called_latest; return true;});
+    if(TEAMF!=='all')shown=shown.filter(c=>{const tm=c.status==='team'?c.cur_team:c.team;return tm===TEAMF||(c.teams&&c.teams.indexOf(TEAMF)>=0);});
     const esc=v=>v==null?'':(/[",\n]/.test(''+v)?'"'+(''+v).replace(/"/g,'""')+'"':''+v);
     const extra=C.filter(c=>c.id!=='value'&&c.id!=='scheme_value');   // metric cols minus the two in the prefix
     const head=['rank_value','coach','team','role','value','value_scope','value_conf','scheme_value','scheme_rel']
