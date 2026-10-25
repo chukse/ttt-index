@@ -1,0 +1,1850 @@
+{
+ "nodes": {
+  "Marty Schottenheimer": {
+   "name": "Marty Schottenheimer",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Brian Schottenheimer",
+     "role": "asst/QB under him (HC)",
+     "team": "KC/WAS/SD",
+     "years": "1998-2005"
+    },
+    {
+     "name": "Mike McCarthy",
+     "role": "off. QC/QB under him (HC)",
+     "team": "KC",
+     "years": "1993-98"
+    }
+   ]
+  },
+  "Jack Del Rio": {
+   "name": "Jack Del Rio",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Todd Monken",
+     "role": "WR coach under him (HC)",
+     "team": "JAX",
+     "years": "2007-10"
+    }
+   ]
+  },
+  "Tony Sparano": {
+   "name": "Tony Sparano",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Dan Campbell",
+     "role": "intern/TE under him (HC)",
+     "team": "MIA",
+     "years": "2010-11"
+    }
+   ]
+  },
+  "Urban Meyer": {
+   "name": "Urban Meyer",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Mike Vrabel",
+     "role": "DL coach under him (HC)",
+     "team": "Ohio State",
+     "years": "2012-13"
+    }
+   ]
+  },
+  "Joe Brady": {
+   "name": "Joe Brady",
+   "team": "BUF",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Sean McDermott",
+     "role": "QB coach/OC under him (HC)",
+     "team": "BUF",
+     "years": "2022-25"
+    },
+    {
+     "name": "Matt Rhule",
+     "role": "OC under him (HC)",
+     "team": "CAR",
+     "years": "2020-21"
+    },
+    {
+     "name": "Ed Orgeron",
+     "role": "pass-game coord/WR (HC)",
+     "team": "LSU",
+     "years": "2019"
+    },
+    {
+     "name": "Sean Payton",
+     "role": "off. assistant under him (HC)",
+     "team": "NO",
+     "years": "2017-18"
+    }
+   ],
+   "proteges": []
+  },
+  "Shane Steichen": {
+   "name": "Shane Steichen",
+   "team": "IND",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Nick Sirianni",
+     "role": "OC under him (HC)",
+     "team": "PHI",
+     "years": "2021-22"
+    },
+    {
+     "name": "Anthony Lynn",
+     "role": "asst/OC under him (HC)",
+     "team": "LAC",
+     "years": "2017-20"
+    },
+    {
+     "name": "Mike McCoy",
+     "role": "assistant under him (HC)",
+     "team": "SD/LAC",
+     "years": "2013-16"
+    }
+   ],
+   "proteges": []
+  },
+  "Sean McDermott": {
+   "name": "Sean McDermott",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Joe Brady",
+     "role": "QB coach/OC under him (HC)",
+     "team": "BUF",
+     "years": "2022-25"
+    }
+   ]
+  },
+  "Ed Orgeron": {
+   "name": "Ed Orgeron",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Joe Brady",
+     "role": "pass-game coord/WR (HC)",
+     "team": "LSU",
+     "years": "2019"
+    }
+   ]
+  },
+  "Sean McVay": {
+   "name": "Sean McVay",
+   "team": "LAR",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Jay Gruden",
+     "role": "OC under him (HC)",
+     "team": "WAS",
+     "years": "2014-16"
+    },
+    {
+     "name": "Mike Shanahan",
+     "role": "TE coach under him (HC)",
+     "team": "WAS",
+     "years": "2010-13"
+    },
+    {
+     "name": "Jon Gruden",
+     "role": "asst WR under him (HC)",
+     "team": "TB",
+     "years": "2008"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Matt LaFleur",
+     "role": "OC under him (HC)",
+     "team": "LAR",
+     "years": "2017"
+    },
+    {
+     "name": "Mike LaFleur",
+     "role": "OC under him (HC)",
+     "team": "LAR",
+     "years": "2023-25"
+    },
+    {
+     "name": "Kevin O'Connell",
+     "role": "OC under him (HC)",
+     "team": "LAR",
+     "years": "2020-21"
+    },
+    {
+     "name": "Zac Taylor",
+     "role": "WR/QB coach under him (HC)",
+     "team": "LAR",
+     "years": "2017-18"
+    },
+    {
+     "name": "Liam Coen",
+     "role": "asst/OC under him (HC)",
+     "team": "LAR",
+     "years": "2018-22"
+    }
+   ]
+  },
+  "Eric Mangini": {
+   "name": "Eric Mangini",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Brian Schottenheimer",
+     "role": "OC under him (HC)",
+     "team": "NYJ",
+     "years": "2006-08"
+    }
+   ]
+  },
+  "Todd Bowles": {
+   "name": "Todd Bowles",
+   "team": "TB",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Bruce Arians",
+     "role": "DC under him (HC)",
+     "team": "ARI/TB",
+     "years": "2013-14, 2019-21"
+    },
+    {
+     "name": "Andy Reid",
+     "role": "secondary/interim DC under him (HC)",
+     "team": "PHI",
+     "years": "2012"
+    },
+    {
+     "name": "Bill Parcells",
+     "role": "secondary coach under him (HC)",
+     "team": "DAL",
+     "years": "2005-06"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Liam Coen",
+     "role": "OC under him (HC)",
+     "team": "TB",
+     "years": "2024"
+    },
+    {
+     "name": "Dave Canales",
+     "role": "OC under him (HC)",
+     "team": "TB",
+     "years": "2023"
+    }
+   ]
+  },
+  "Mike LaFleur": {
+   "name": "Mike LaFleur",
+   "team": "ARI",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Sean McVay",
+     "role": "OC under him (HC)",
+     "team": "LAR",
+     "years": "2023-25"
+    },
+    {
+     "name": "Robert Saleh",
+     "role": "OC under him (HC)",
+     "team": "NYJ",
+     "years": "2021-22"
+    },
+    {
+     "name": "Kyle Shanahan",
+     "role": "pass-game coord (HC)",
+     "team": "SF",
+     "years": "2017-20"
+    }
+   ],
+   "proteges": []
+  },
+  "Les Miles": {
+   "name": "Les Miles",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Todd Monken",
+     "role": "pass-game coord/WR (HC)",
+     "team": "LSU",
+     "years": "2005-06"
+    }
+   ]
+  },
+  "Mike Shanahan": {
+   "name": "Mike Shanahan",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kyle Shanahan",
+     "role": "OC under him (HC)",
+     "team": "WAS",
+     "years": "2010-13"
+    },
+    {
+     "name": "Sean McVay",
+     "role": "TE coach under him (HC)",
+     "team": "WAS",
+     "years": "2010-13"
+    }
+   ]
+  },
+  "Jeff Hafley": {
+   "name": "Jeff Hafley",
+   "team": "MIA",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Matt LaFleur",
+     "role": "DC under him (HC)",
+     "team": "GB",
+     "years": "2024-25"
+    },
+    {
+     "name": "Kyle Shanahan",
+     "role": "DB coach under him (HC)",
+     "team": "SF",
+     "years": "2017-18"
+    },
+    {
+     "name": "Chip Kelly",
+     "role": "DB coach under him (HC)",
+     "team": "SF",
+     "years": "2016"
+    },
+    {
+     "name": "Greg Schiano",
+     "role": "asst DB under him (HC)",
+     "team": "TB",
+     "years": "2012-13"
+    }
+   ],
+   "proteges": []
+  },
+  "Mike Nolan": {
+   "name": "Mike Nolan",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Mike McCarthy",
+     "role": "OC under him (HC)",
+     "team": "SF",
+     "years": "2005"
+    }
+   ]
+  },
+  "Todd Haley": {
+   "name": "Todd Haley",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Nick Sirianni",
+     "role": "QC/WR under him (HC)",
+     "team": "KC",
+     "years": "2009-11"
+    }
+   ]
+  },
+  "Bruce Arians": {
+   "name": "Bruce Arians",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Todd Bowles",
+     "role": "DC under him (HC)",
+     "team": "ARI/TB",
+     "years": "2013-14, 2019-21"
+    }
+   ]
+  },
+  "Adam Gase": {
+   "name": "Adam Gase",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Ben Johnson",
+     "role": "assistant under him (HC)",
+     "team": "MIA",
+     "years": "2016-18"
+    }
+   ]
+  },
+  "Frank Reich": {
+   "name": "Frank Reich",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Nick Sirianni",
+     "role": "QB coach/OC under him",
+     "team": "LAC/IND",
+     "years": "2014-15, 2018-20"
+    }
+   ]
+  },
+  "Bill Callahan": {
+   "name": "Bill Callahan",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Jim Harbaugh",
+     "role": "QB coach under him (HC)",
+     "team": "OAK",
+     "years": "2002-03"
+    }
+   ]
+  },
+  "Darrell Bevell": {
+   "name": "Darrell Bevell",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Ben Johnson",
+     "role": "QC/TE coach (OC)",
+     "team": "DET",
+     "years": "2019-20"
+    }
+   ]
+  },
+  "Joe Philbin": {
+   "name": "Joe Philbin",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Zac Taylor",
+     "role": "QB coach/interim OC (HC)",
+     "team": "MIA",
+     "years": "2012-15"
+    },
+    {
+     "name": "Dan Campbell",
+     "role": "TE coach under him (HC)",
+     "team": "MIA",
+     "years": "2012-15"
+    }
+   ]
+  },
+  "Klint Kubiak": {
+   "name": "Klint Kubiak",
+   "team": "LV",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Kyle Shanahan",
+     "role": "pass-game coord (HC)",
+     "team": "SF",
+     "years": "2023"
+    },
+    {
+     "name": "Mike Zimmer",
+     "role": "QB/OC under him (HC)",
+     "team": "MIN",
+     "years": "2019-21"
+    },
+    {
+     "name": "Gary Kubiak",
+     "role": "off. asst/QB under him (HC)",
+     "team": "DEN",
+     "years": "2016-18"
+    }
+   ],
+   "proteges": []
+  },
+  "Jeff Fisher": {
+   "name": "Jeff Fisher",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Brian Schottenheimer",
+     "role": "OC under him (HC)",
+     "team": "STL",
+     "years": "2012-14"
+    }
+   ]
+  },
+  "Jay Gruden": {
+   "name": "Jay Gruden",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Sean McVay",
+     "role": "OC under him (HC)",
+     "team": "WAS",
+     "years": "2014-16"
+    },
+    {
+     "name": "Kevin O'Connell",
+     "role": "QB/pass-game coord (HC)",
+     "team": "WAS",
+     "years": "2017-18"
+    }
+   ]
+  },
+  "Mike McCarthy": {
+   "name": "Mike McCarthy",
+   "team": "PIT",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Mike Nolan",
+     "role": "OC under him (HC)",
+     "team": "SF",
+     "years": "2005"
+    },
+    {
+     "name": "Jim Haslett",
+     "role": "OC under him (HC)",
+     "team": "NO",
+     "years": "2000-04"
+    },
+    {
+     "name": "Marty Schottenheimer",
+     "role": "off. QC/QB under him (HC)",
+     "team": "KC",
+     "years": "1993-98"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Kellen Moore",
+     "role": "OC under him (HC)",
+     "team": "DAL",
+     "years": "2020-22"
+    },
+    {
+     "name": "Brian Schottenheimer",
+     "role": "OC under him (HC)",
+     "team": "DAL",
+     "years": "2022-24"
+    },
+    {
+     "name": "Dan Quinn",
+     "role": "DC under him (HC)",
+     "team": "DAL",
+     "years": "2021-23"
+    }
+   ]
+  },
+  "Gary Kubiak": {
+   "name": "Gary Kubiak",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kyle Shanahan",
+     "role": "WR/QB/OC under him (HC)",
+     "team": "HOU",
+     "years": "2006-09"
+    },
+    {
+     "name": "Klint Kubiak",
+     "role": "off. asst/QB under him (HC)",
+     "team": "DEN",
+     "years": "2016-18"
+    },
+    {
+     "name": "Robert Saleh",
+     "role": "asst LB under him (HC)",
+     "team": "HOU",
+     "years": "2006-10"
+    }
+   ]
+  },
+  "Kyle Shanahan": {
+   "name": "Kyle Shanahan",
+   "team": "SF",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Mike Shanahan",
+     "role": "OC under him (HC)",
+     "team": "WAS",
+     "years": "2010-13"
+    },
+    {
+     "name": "Gary Kubiak",
+     "role": "WR/QB/OC under him (HC)",
+     "team": "HOU",
+     "years": "2006-09"
+    },
+    {
+     "name": "Jon Gruden",
+     "role": "off. QC under him (HC)",
+     "team": "TB",
+     "years": "2004-05"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Matt LaFleur",
+     "role": "QB coach (OC)",
+     "team": "ATL",
+     "years": "2015-16"
+    },
+    {
+     "name": "Mike LaFleur",
+     "role": "pass-game coord (HC)",
+     "team": "SF",
+     "years": "2017-20"
+    },
+    {
+     "name": "Kevin O'Connell",
+     "role": "QB coach (OC)",
+     "team": "SF",
+     "years": "2016"
+    },
+    {
+     "name": "Klint Kubiak",
+     "role": "pass-game coord (HC)",
+     "team": "SF",
+     "years": "2023"
+    },
+    {
+     "name": "DeMeco Ryans",
+     "role": "LB coach under him (HC)",
+     "team": "SF",
+     "years": "2017-20"
+    },
+    {
+     "name": "Robert Saleh",
+     "role": "DC under him (HC)",
+     "team": "SF",
+     "years": "2017-20"
+    },
+    {
+     "name": "Jeff Hafley",
+     "role": "DB coach under him (HC)",
+     "team": "SF",
+     "years": "2017-18"
+    }
+   ]
+  },
+  "Dirk Koetter": {
+   "name": "Dirk Koetter",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Todd Monken",
+     "role": "OC under him (HC)",
+     "team": "TB",
+     "years": "2016-18"
+    }
+   ]
+  },
+  "Mark Richt": {
+   "name": "Mark Richt",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Mike Macdonald",
+     "role": "grad assistant (HC)",
+     "team": "Georgia",
+     "years": "2010-13"
+    }
+   ]
+  },
+  "Kirby Smart": {
+   "name": "Kirby Smart",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Todd Monken",
+     "role": "OC/QB under him (HC)",
+     "team": "Georgia",
+     "years": "2020-22"
+    }
+   ]
+  },
+  "Jack Harbaugh": {
+   "name": "Jack Harbaugh",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Jim Harbaugh",
+     "role": "off. assistant under him (HC)",
+     "team": "Western Kentucky",
+     "years": "1994-2001"
+    }
+   ]
+  },
+  "Rex Ryan": {
+   "name": "Rex Ryan",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Brian Schottenheimer",
+     "role": "OC under him (HC)",
+     "team": "NYJ",
+     "years": "2009-11"
+    }
+   ]
+  },
+  "Zac Taylor": {
+   "name": "Zac Taylor",
+   "team": "CIN",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Sean McVay",
+     "role": "WR/QB coach under him (HC)",
+     "team": "LAR",
+     "years": "2017-18"
+    },
+    {
+     "name": "Joe Philbin",
+     "role": "QB coach/interim OC (HC)",
+     "team": "MIA",
+     "years": "2012-15"
+    }
+   ],
+   "proteges": []
+  },
+  "Mike McCoy": {
+   "name": "Mike McCoy",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Nick Sirianni",
+     "role": "assistant under him (HC)",
+     "team": "SD/LAC",
+     "years": "2013-16"
+    },
+    {
+     "name": "Shane Steichen",
+     "role": "assistant under him (HC)",
+     "team": "SD/LAC",
+     "years": "2013-16"
+    }
+   ]
+  },
+  "Brian Schottenheimer": {
+   "name": "Brian Schottenheimer",
+   "team": "DAL",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Mike McCarthy",
+     "role": "OC under him (HC)",
+     "team": "DAL",
+     "years": "2022-24"
+    },
+    {
+     "name": "Pete Carroll",
+     "role": "OC under him (HC)",
+     "team": "SEA",
+     "years": "2018-20"
+    },
+    {
+     "name": "Jeff Fisher",
+     "role": "OC under him (HC)",
+     "team": "STL",
+     "years": "2012-14"
+    },
+    {
+     "name": "Rex Ryan",
+     "role": "OC under him (HC)",
+     "team": "NYJ",
+     "years": "2009-11"
+    },
+    {
+     "name": "Eric Mangini",
+     "role": "OC under him (HC)",
+     "team": "NYJ",
+     "years": "2006-08"
+    },
+    {
+     "name": "Marty Schottenheimer",
+     "role": "asst/QB under him (HC)",
+     "team": "KC/WAS/SD",
+     "years": "1998-2005"
+    }
+   ],
+   "proteges": []
+  },
+  "Anthony Lynn": {
+   "name": "Anthony Lynn",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Shane Steichen",
+     "role": "asst/OC under him (HC)",
+     "team": "LAC",
+     "years": "2017-20"
+    }
+   ]
+  },
+  "Gus Bradley": {
+   "name": "Gus Bradley",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Robert Saleh",
+     "role": "LB coach under him (HC)",
+     "team": "JAX",
+     "years": "2014-16"
+    }
+   ]
+  },
+  "Ben Johnson": {
+   "name": "Ben Johnson",
+   "team": "CHI",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Dan Campbell",
+     "role": "pass-game coord/OC under him (HC)",
+     "team": "DET",
+     "years": "2021-24"
+    },
+    {
+     "name": "Darrell Bevell",
+     "role": "QC/TE coach (OC)",
+     "team": "DET",
+     "years": "2019-20"
+    },
+    {
+     "name": "Adam Gase",
+     "role": "assistant under him (HC)",
+     "team": "MIA",
+     "years": "2016-18"
+    }
+   ],
+   "proteges": []
+  },
+  "Mike Holmgren": {
+   "name": "Mike Holmgren",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Andy Reid",
+     "role": "off. assistant under him (HC)",
+     "team": "GB",
+     "years": "1992-98"
+    }
+   ]
+  },
+  "Brad Childress": {
+   "name": "Brad Childress",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kevin Stefanski",
+     "role": "asst to HC under him (HC)",
+     "team": "MIN",
+     "years": "2006-10"
+    }
+   ]
+  },
+  "Dan Quinn": {
+   "name": "Dan Quinn",
+   "team": "WAS",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Mike McCarthy",
+     "role": "DC under him (HC)",
+     "team": "DAL",
+     "years": "2021-23"
+    },
+    {
+     "name": "Pete Carroll",
+     "role": "DL coach/DC under him (HC)",
+     "team": "SEA",
+     "years": "2009-10, 2013-14"
+    },
+    {
+     "name": "Nick Saban",
+     "role": "DL coach under him (HC)",
+     "team": "MIA",
+     "years": "2005-06"
+    }
+   ],
+   "proteges": []
+  },
+  "Ray Rhodes": {
+   "name": "Ray Rhodes",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Sean Payton",
+     "role": "QB coach under him (HC)",
+     "team": "PHI",
+     "years": "1997-98"
+    }
+   ]
+  },
+  "Mike Zimmer": {
+   "name": "Mike Zimmer",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kevin Stefanski",
+     "role": "position/OC under him (HC)",
+     "team": "MIN",
+     "years": "2014-19"
+    },
+    {
+     "name": "Klint Kubiak",
+     "role": "QB/OC under him (HC)",
+     "team": "MIN",
+     "years": "2019-21"
+    }
+   ]
+  },
+  "Aaron Glenn": {
+   "name": "Aaron Glenn",
+   "team": "NYJ",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Dan Campbell",
+     "role": "DC under him (HC)",
+     "team": "DET",
+     "years": "2021-24"
+    },
+    {
+     "name": "Dennis Allen",
+     "role": "DB under DC him",
+     "team": "NO",
+     "years": "2016-20"
+    },
+    {
+     "name": "Sean Payton",
+     "role": "DB coach under him (HC)",
+     "team": "NO",
+     "years": "2016-20"
+    },
+    {
+     "name": "Mike Pettine",
+     "role": "asst DB under him (HC)",
+     "team": "CLE",
+     "years": "2014-15"
+    }
+   ],
+   "proteges": []
+  },
+  "Andy Reid": {
+   "name": "Andy Reid",
+   "team": "KC",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Mike Holmgren",
+     "role": "off. assistant under him (HC)",
+     "team": "GB",
+     "years": "1992-98"
+    },
+    {
+     "name": "LaVell Edwards",
+     "role": "grad assistant (HC)",
+     "team": "BYU",
+     "years": "1982"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "John Harbaugh",
+     "role": "ST coord/DB coach under him (HC)",
+     "team": "PHI",
+     "years": "1998-2007"
+    },
+    {
+     "name": "Todd Bowles",
+     "role": "secondary/interim DC under him (HC)",
+     "team": "PHI",
+     "years": "2012"
+    }
+   ]
+  },
+  "DeMeco Ryans": {
+   "name": "DeMeco Ryans",
+   "team": "HOU",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Robert Saleh",
+     "role": "DC he reported to",
+     "team": "SF",
+     "years": "2017-20"
+    },
+    {
+     "name": "Kyle Shanahan",
+     "role": "LB coach under him (HC)",
+     "team": "SF",
+     "years": "2017-20"
+    }
+   ],
+   "proteges": []
+  },
+  "Nick Sirianni": {
+   "name": "Nick Sirianni",
+   "team": "PHI",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Frank Reich",
+     "role": "QB coach/OC under him",
+     "team": "LAC/IND",
+     "years": "2014-15, 2018-20"
+    },
+    {
+     "name": "Mike McCoy",
+     "role": "assistant under him (HC)",
+     "team": "SD/LAC",
+     "years": "2013-16"
+    },
+    {
+     "name": "Todd Haley",
+     "role": "QC/WR under him (HC)",
+     "team": "KC",
+     "years": "2009-11"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Kellen Moore",
+     "role": "OC under him (HC)",
+     "team": "PHI",
+     "years": "2024"
+    },
+    {
+     "name": "Shane Steichen",
+     "role": "OC under him (HC)",
+     "team": "PHI",
+     "years": "2021-22"
+    }
+   ]
+  },
+  "Kevin O'Connell": {
+   "name": "Kevin O'Connell",
+   "team": "MIN",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Sean McVay",
+     "role": "OC under him (HC)",
+     "team": "LAR",
+     "years": "2020-21"
+    },
+    {
+     "name": "Jay Gruden",
+     "role": "QB/pass-game coord (HC)",
+     "team": "WAS",
+     "years": "2017-18"
+    },
+    {
+     "name": "Kyle Shanahan",
+     "role": "QB coach (OC)",
+     "team": "SF",
+     "years": "2016"
+    }
+   ],
+   "proteges": []
+  },
+  "Dennis Allen": {
+   "name": "Dennis Allen",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Aaron Glenn",
+     "role": "DB under DC him",
+     "team": "NO",
+     "years": "2016-20"
+    }
+   ]
+  },
+  "Todd Monken": {
+   "name": "Todd Monken",
+   "team": "CLE",
+   "active": true,
+   "mentors": [
+    {
+     "name": "John Harbaugh",
+     "role": "OC under him (HC)",
+     "team": "BAL",
+     "years": "2023-25"
+    },
+    {
+     "name": "Kirby Smart",
+     "role": "OC/QB under him (HC)",
+     "team": "Georgia",
+     "years": "2020-22"
+    },
+    {
+     "name": "Dirk Koetter",
+     "role": "OC under him (HC)",
+     "team": "TB",
+     "years": "2016-18"
+    },
+    {
+     "name": "Jack Del Rio",
+     "role": "WR coach under him (HC)",
+     "team": "JAX",
+     "years": "2007-10"
+    },
+    {
+     "name": "Les Miles",
+     "role": "pass-game coord/WR (HC)",
+     "team": "LSU",
+     "years": "2005-06"
+    }
+   ],
+   "proteges": []
+  },
+  "Kellen Moore": {
+   "name": "Kellen Moore",
+   "team": "NO",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Nick Sirianni",
+     "role": "OC under him (HC)",
+     "team": "PHI",
+     "years": "2024"
+    },
+    {
+     "name": "Brandon Staley",
+     "role": "OC under him (HC)",
+     "team": "LAC",
+     "years": "2023"
+    },
+    {
+     "name": "Mike McCarthy",
+     "role": "OC under him (HC)",
+     "team": "DAL",
+     "years": "2020-22"
+    },
+    {
+     "name": "Jason Garrett",
+     "role": "QB/OC under him (HC)",
+     "team": "DAL",
+     "years": "2018-19"
+    }
+   ],
+   "proteges": []
+  },
+  "Don Martindale": {
+   "name": "Don Martindale",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Jesse Minter",
+     "role": "DB under DC him",
+     "team": "BAL",
+     "years": "2018-20"
+    }
+   ]
+  },
+  "Jason Garrett": {
+   "name": "Jason Garrett",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kellen Moore",
+     "role": "QB/OC under him (HC)",
+     "team": "DAL",
+     "years": "2018-19"
+    }
+   ]
+  },
+  "Sean Payton": {
+   "name": "Sean Payton",
+   "team": "DEN",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Bill Parcells",
+     "role": "asst HC/QB under him (HC)",
+     "team": "DAL",
+     "years": "2003-05"
+    },
+    {
+     "name": "Jim Fassel",
+     "role": "QB/OC under him (HC)",
+     "team": "NYG",
+     "years": "1999-2002"
+    },
+    {
+     "name": "Ray Rhodes",
+     "role": "QB coach under him (HC)",
+     "team": "PHI",
+     "years": "1997-98"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Dan Campbell",
+     "role": "asst HC/TE under him (HC)",
+     "team": "NO",
+     "years": "2016-20"
+    },
+    {
+     "name": "Aaron Glenn",
+     "role": "DB coach under him (HC)",
+     "team": "NO",
+     "years": "2016-20"
+    },
+    {
+     "name": "Joe Brady",
+     "role": "off. assistant under him (HC)",
+     "team": "NO",
+     "years": "2017-18"
+    }
+   ]
+  },
+  "Jesse Minter": {
+   "name": "Jesse Minter",
+   "team": "BAL",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Jim Harbaugh",
+     "role": "DC under him (HC)",
+     "team": "Michigan",
+     "years": "2022-23"
+    },
+    {
+     "name": "Don Martindale",
+     "role": "DB under DC him",
+     "team": "BAL",
+     "years": "2018-20"
+    },
+    {
+     "name": "John Harbaugh",
+     "role": "asst/DB under him (HC)",
+     "team": "BAL",
+     "years": "2017-20"
+    }
+   ],
+   "proteges": []
+  },
+  "Jim Fassel": {
+   "name": "Jim Fassel",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Sean Payton",
+     "role": "QB/OC under him (HC)",
+     "team": "NYG",
+     "years": "1999-2002"
+    }
+   ]
+  },
+  "LaVell Edwards": {
+   "name": "LaVell Edwards",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Andy Reid",
+     "role": "grad assistant (HC)",
+     "team": "BYU",
+     "years": "1982"
+    }
+   ]
+  },
+  "Matt Rhule": {
+   "name": "Matt Rhule",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Joe Brady",
+     "role": "OC under him (HC)",
+     "team": "CAR",
+     "years": "2020-21"
+    }
+   ]
+  },
+  "Jon Gruden": {
+   "name": "Jon Gruden",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kyle Shanahan",
+     "role": "off. QC under him (HC)",
+     "team": "TB",
+     "years": "2004-05"
+    },
+    {
+     "name": "Sean McVay",
+     "role": "asst WR under him (HC)",
+     "team": "TB",
+     "years": "2008"
+    }
+   ]
+  },
+  "Dan Campbell": {
+   "name": "Dan Campbell",
+   "team": "DET",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Sean Payton",
+     "role": "asst HC/TE under him (HC)",
+     "team": "NO",
+     "years": "2016-20"
+    },
+    {
+     "name": "Joe Philbin",
+     "role": "TE coach under him (HC)",
+     "team": "MIA",
+     "years": "2012-15"
+    },
+    {
+     "name": "Tony Sparano",
+     "role": "intern/TE under him (HC)",
+     "team": "MIA",
+     "years": "2010-11"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Ben Johnson",
+     "role": "pass-game coord/OC under him (HC)",
+     "team": "DET",
+     "years": "2021-24"
+    },
+    {
+     "name": "Aaron Glenn",
+     "role": "DC under him (HC)",
+     "team": "DET",
+     "years": "2021-24"
+    }
+   ]
+  },
+  "Mike Pettine": {
+   "name": "Mike Pettine",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Aaron Glenn",
+     "role": "asst DB under him (HC)",
+     "team": "CLE",
+     "years": "2014-15"
+    }
+   ]
+  },
+  "Greg Schiano": {
+   "name": "Greg Schiano",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Jeff Hafley",
+     "role": "asst DB under him (HC)",
+     "team": "TB",
+     "years": "2012-13"
+    }
+   ]
+  },
+  "Robert Saleh": {
+   "name": "Robert Saleh",
+   "team": "TEN",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Kyle Shanahan",
+     "role": "DC under him (HC)",
+     "team": "SF",
+     "years": "2017-20"
+    },
+    {
+     "name": "Gus Bradley",
+     "role": "LB coach under him (HC)",
+     "team": "JAX",
+     "years": "2014-16"
+    },
+    {
+     "name": "Pete Carroll",
+     "role": "def. QC under him (HC)",
+     "team": "SEA",
+     "years": "2011-13"
+    },
+    {
+     "name": "Gary Kubiak",
+     "role": "asst LB under him (HC)",
+     "team": "HOU",
+     "years": "2006-10"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Mike LaFleur",
+     "role": "OC under him (HC)",
+     "team": "NYJ",
+     "years": "2021-22"
+    },
+    {
+     "name": "DeMeco Ryans",
+     "role": "DC he reported to",
+     "team": "SF",
+     "years": "2017-20"
+    }
+   ]
+  },
+  "Nick Saban": {
+   "name": "Nick Saban",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Dan Quinn",
+     "role": "DL coach under him (HC)",
+     "team": "MIA",
+     "years": "2005-06"
+    }
+   ]
+  },
+  "Jim Harbaugh": {
+   "name": "Jim Harbaugh",
+   "team": "LAC",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Bill Callahan",
+     "role": "QB coach under him (HC)",
+     "team": "OAK",
+     "years": "2002-03"
+    },
+    {
+     "name": "Jack Harbaugh",
+     "role": "off. assistant under him (HC)",
+     "team": "Western Kentucky",
+     "years": "1994-2001"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Mike Macdonald",
+     "role": "DC under him (HC)",
+     "team": "Michigan",
+     "years": "2021"
+    },
+    {
+     "name": "Jesse Minter",
+     "role": "DC under him (HC)",
+     "team": "Michigan",
+     "years": "2022-23"
+    }
+   ]
+  },
+  "Jim Haslett": {
+   "name": "Jim Haslett",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Mike McCarthy",
+     "role": "OC under him (HC)",
+     "team": "NO",
+     "years": "2000-04"
+    }
+   ]
+  },
+  "Brandon Staley": {
+   "name": "Brandon Staley",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kellen Moore",
+     "role": "OC under him (HC)",
+     "team": "LAC",
+     "years": "2023"
+    }
+   ]
+  },
+  "Leslie Frazier": {
+   "name": "Leslie Frazier",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Kevin Stefanski",
+     "role": "assistant under him (HC)",
+     "team": "MIN",
+     "years": "2011-13"
+    }
+   ]
+  },
+  "Kevin Stefanski": {
+   "name": "Kevin Stefanski",
+   "team": "CLE",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Mike Zimmer",
+     "role": "position/OC under him (HC)",
+     "team": "MIN",
+     "years": "2014-19"
+    },
+    {
+     "name": "Leslie Frazier",
+     "role": "assistant under him (HC)",
+     "team": "MIN",
+     "years": "2011-13"
+    },
+    {
+     "name": "Brad Childress",
+     "role": "asst to HC under him (HC)",
+     "team": "MIN",
+     "years": "2006-10"
+    }
+   ],
+   "proteges": []
+  },
+  "Matt LaFleur": {
+   "name": "Matt LaFleur",
+   "team": "GB",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Mike Vrabel",
+     "role": "OC under him (HC)",
+     "team": "TEN",
+     "years": "2018"
+    },
+    {
+     "name": "Sean McVay",
+     "role": "OC under him (HC)",
+     "team": "LAR",
+     "years": "2017"
+    },
+    {
+     "name": "Kyle Shanahan",
+     "role": "QB coach (OC)",
+     "team": "ATL",
+     "years": "2015-16"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Jeff Hafley",
+     "role": "DC under him (HC)",
+     "team": "GB",
+     "years": "2024-25"
+    }
+   ]
+  },
+  "Pete Carroll": {
+   "name": "Pete Carroll",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Dave Canales",
+     "role": "assistant under him (HC)",
+     "team": "SEA",
+     "years": "2010-22"
+    },
+    {
+     "name": "Brian Schottenheimer",
+     "role": "OC under him (HC)",
+     "team": "SEA",
+     "years": "2018-20"
+    },
+    {
+     "name": "Robert Saleh",
+     "role": "def. QC under him (HC)",
+     "team": "SEA",
+     "years": "2011-13"
+    },
+    {
+     "name": "Dan Quinn",
+     "role": "DL coach/DC under him (HC)",
+     "team": "SEA",
+     "years": "2009-10, 2013-14"
+    }
+   ]
+  },
+  "Bill O'Brien": {
+   "name": "Bill O'Brien",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Mike Vrabel",
+     "role": "LB coach/DC under him (HC)",
+     "team": "HOU",
+     "years": "2014-17"
+    }
+   ]
+  },
+  "Bill Parcells": {
+   "name": "Bill Parcells",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Sean Payton",
+     "role": "asst HC/QB under him (HC)",
+     "team": "DAL",
+     "years": "2003-05"
+    },
+    {
+     "name": "Todd Bowles",
+     "role": "secondary coach under him (HC)",
+     "team": "DAL",
+     "years": "2005-06"
+    }
+   ]
+  },
+  "Liam Coen": {
+   "name": "Liam Coen",
+   "team": "JAX",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Todd Bowles",
+     "role": "OC under him (HC)",
+     "team": "TB",
+     "years": "2024"
+    },
+    {
+     "name": "Sean McVay",
+     "role": "asst/OC under him (HC)",
+     "team": "LAR",
+     "years": "2018-22"
+    }
+   ],
+   "proteges": []
+  },
+  "Dave Canales": {
+   "name": "Dave Canales",
+   "team": "CAR",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Todd Bowles",
+     "role": "OC under him (HC)",
+     "team": "TB",
+     "years": "2023"
+    },
+    {
+     "name": "Pete Carroll",
+     "role": "assistant under him (HC)",
+     "team": "SEA",
+     "years": "2010-22"
+    }
+   ],
+   "proteges": []
+  },
+  "Luke Fickell": {
+   "name": "Luke Fickell",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Mike Vrabel",
+     "role": "LB coach under him (HC)",
+     "team": "Ohio State",
+     "years": "2011"
+    }
+   ]
+  },
+  "Mike Macdonald": {
+   "name": "Mike Macdonald",
+   "team": "SEA",
+   "active": true,
+   "mentors": [
+    {
+     "name": "John Harbaugh",
+     "role": "asst/DB/LB/DC under him (HC)",
+     "team": "BAL",
+     "years": "2014-20, 2022-23"
+    },
+    {
+     "name": "Jim Harbaugh",
+     "role": "DC under him (HC)",
+     "team": "Michigan",
+     "years": "2021"
+    },
+    {
+     "name": "Mark Richt",
+     "role": "grad assistant (HC)",
+     "team": "Georgia",
+     "years": "2010-13"
+    }
+   ],
+   "proteges": []
+  },
+  "Mike Vrabel": {
+   "name": "Mike Vrabel",
+   "team": "NE",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Bill O'Brien",
+     "role": "LB coach/DC under him (HC)",
+     "team": "HOU",
+     "years": "2014-17"
+    },
+    {
+     "name": "Urban Meyer",
+     "role": "DL coach under him (HC)",
+     "team": "Ohio State",
+     "years": "2012-13"
+    },
+    {
+     "name": "Luke Fickell",
+     "role": "LB coach under him (HC)",
+     "team": "Ohio State",
+     "years": "2011"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Matt LaFleur",
+     "role": "OC under him (HC)",
+     "team": "TEN",
+     "years": "2018"
+    }
+   ]
+  },
+  "John Harbaugh": {
+   "name": "John Harbaugh",
+   "team": "NYG",
+   "active": true,
+   "mentors": [
+    {
+     "name": "Andy Reid",
+     "role": "ST coord/DB coach under him (HC)",
+     "team": "PHI",
+     "years": "1998-2007"
+    }
+   ],
+   "proteges": [
+    {
+     "name": "Mike Macdonald",
+     "role": "asst/DB/LB/DC under him (HC)",
+     "team": "BAL",
+     "years": "2014-20, 2022-23"
+    },
+    {
+     "name": "Jesse Minter",
+     "role": "asst/DB under him (HC)",
+     "team": "BAL",
+     "years": "2017-20"
+    },
+    {
+     "name": "Todd Monken",
+     "role": "OC under him (HC)",
+     "team": "BAL",
+     "years": "2023-25"
+    }
+   ]
+  },
+  "Chip Kelly": {
+   "name": "Chip Kelly",
+   "team": null,
+   "active": false,
+   "mentors": [],
+   "proteges": [
+    {
+     "name": "Jeff Hafley",
+     "role": "DB coach under him (HC)",
+     "team": "SF",
+     "years": "2016"
+    }
+   ]
+  }
+ },
+ "generated": "verified mentor chains for the 32 current NFL head coaches"
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coaching Tree · The Coach Index — Throw in the Towel</title>
+<meta name="description" content="The NFL coaching tree — click any coach to see who he learned under and who he produced. Verified lineage for all 32 current head coaches.">
+<link rel="icon" href="../ttt_index/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#101124;--panel:#171830;--row:#14152B;--line:#272943;--line2:#353755;--ink:#EEE9DC;--dim:#A7A2BA;--faint:#8E8AA6;--gold:#D3A456;--gold-br:#ECC77F;--cool:#7E8CBC;--disp:'Anton','Arial Narrow',system-ui,sans-serif;--sans:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45;min-height:100vh}
+a{color:inherit;text-decoration:none}
+.top{border-bottom:1px solid var(--line2);background:var(--bg)}
+.topin{max-width:1320px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:12px}
+.topin img{height:26px;display:block}
+.topin .wm{font-family:var(--disp);font-weight:800;font-size:21px;letter-spacing:.04em}.topin .wm span{color:var(--gold)}
+.topin .exp{font-size:12.5px;color:var(--dim);border-left:1px solid var(--line2);padding-left:12px}
+.topin nav{margin-left:auto;display:flex;gap:2px}
+.topin nav a{font-size:12px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:var(--faint);padding:5px 10px}
+.topin nav a:hover{color:var(--ink)}.topin nav a.on{color:var(--gold)}
+.ctx{max-width:1320px;margin:0 auto;padding:16px 20px 6px;display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px}
+.ctx h1{font-family:var(--disp);font-weight:800;font-size:22px;letter-spacing:.03em;text-transform:uppercase}
+.ctx .d{font-size:13px;color:var(--dim)}
+#pick{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink);background:var(--row);border:1px solid var(--line2);border-radius:7px;padding:6px 10px;margin-left:auto;cursor:pointer;max-width:240px}
+.hint{max-width:1320px;margin:0 auto;padding:2px 20px 8px;font-size:12px;color:var(--faint)}
+.treewrap{position:relative;max-width:1320px;margin:0 auto;padding:16px 20px 60px;overflow-x:auto}
+svg.wires{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.tree{position:relative;z-index:1;display:flex;flex-direction:column;gap:38px;min-width:min-content}
+.rowlab{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);text-align:center;margin-bottom:-26px}
+.rowlab.up{color:var(--cool)}.rowlab.down{color:var(--gold)}
+.trow{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.cnode{background:var(--panel);border:1px solid var(--line2);border-radius:10px;padding:9px 13px;cursor:pointer;transition:border-color .13s,transform .1s;min-width:120px;text-align:center}
+.cnode:hover{border-color:var(--gold);transform:translateY(-1px)}
+.cnode .nm{font-weight:700;font-size:13.5px;white-space:nowrap}
+.cnode .mt{font-size:10.5px;color:var(--faint);margin-top:1px}
+.cnode .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:5px;vertical-align:middle}
+.cnode.focus{border-color:var(--gold);background:#1d1a2e;box-shadow:0 0 0 1px var(--gold)}
+.cnode.focus .nm{color:var(--gold-br);font-size:15px}
+.cnode.active .nm{color:var(--ink)}.cnode.anc .nm{color:var(--dim)}
+.cnode.patr{border-style:dashed}
+.foot{border-top:1px solid var(--line2);background:var(--panel);margin-top:20px}
+.footin{max-width:1320px;margin:0 auto;padding:20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;font-size:12px;color:var(--faint)}
+.footin .fb{font-family:var(--disp);font-weight:800;letter-spacing:.06em;font-size:15px;text-transform:uppercase;color:var(--ink)}
+.footin nav{margin-left:auto;display:flex;gap:16px;text-transform:uppercase;font-weight:600}
+.footin nav a:hover{color:var(--gold)}
+.empty{color:var(--faint);text-align:center;padding:40px}
+</style>
+</head>
+<body>
+<header class="top"><div class="topin">
+  <img src="../ttt_index/logo.png" alt="Throw in the Towel" onerror="this.style.display='none'">
+  <span class="wm">COACH <span>INDEX</span></span>
+  <span class="exp">The coaching tree</span>
+  <nav><a href="../ttt_index/">Home</a><a href="../ttt_index/qbir/">QBIR</a><a href="./">Coaches</a><a class="on" href="./tree.html">Tree</a></nav>
+</div></header>
+
+<div class="ctx">
+  <h1>The Coaching Tree</h1>
+  <span class="d">Click any coach to re-center — see who he learned under, and who he produced.</span>
+  <select id="pick" title="Jump to a coach"></select>
+</div>
+<div class="hint" id="hint"></div>
+
+<div class="treewrap"><svg class="wires" id="wires"></svg><div class="tree" id="tree"></div></div>
+
+<footer class="foot"><div class="footin">
+  <span class="fb">Throw in the Towel</span><span>Verified lineage for all 32 current NFL head coaches · mentor chains compiled from public reporting.</span>
+  <nav><a href="./">Coach Index</a><a href="../ttt_index/method.html">Method</a></nav>
+</div></footer>
+
+<script>
+const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7BD8',DET:'#0076B6',DAL:'#8993A0',NE:'#88A4C4',HOU:'#9AB',LV:'#C9C9C9',GB:'#2E8B57',KC:'#E31837',LAR:'#4F7FD4',CAR:'#0085CA',NO:'#D3BC8D',NYJ:'#2E8B57',MIN:'#9A7BD8',DEN:'#FB4F14',SEA:'#69BE28',MIA:'#00A3A3',ARI:'#C14965',LAC:'#2CA0E0',PIT:'#FFB612',CLE:'#C0712B',NYG:'#5577C0',IND:'#5588C8',TEN:'#4B92DB',TB:'#D50A0A',PHI:'#1A9E7A',WAS:'#C68A5A',CHI:'#C8743A'};
+let NODES={}, focus='Kyle Shanahan';
+const tree=document.getElementById('tree'), wires=document.getElementById('wires'), pick=document.getElementById('pick');
+
+function ancestorLevels(f){
+  const depth={};
+  (function visit(nm,d,seen){
+    if(d>8||seen.has(nm))return; seen.add(nm);
+    ((NODES[nm]||{}).mentors||[]).forEach(m=>{
+      if(depth[m.name]===undefined||d>depth[m.name])depth[m.name]=d;
+      visit(m.name,d+1,new Set(seen));
+    });
+  })(f,1,new Set());
+  const maxD=Math.max(0,...Object.values(depth)), levels=[];
+  for(let d=maxD;d>=1;d--)levels.push(Object.keys(depth).filter(n=>depth[n]===d));
+  return levels;
+}
+function chip(nm,cls){
+  const n=NODES[nm]||{name:nm,active:false};
+  const col=n.team?TEAMCOL[n.team]||'#888':null;
+  const sub=n.active?`${n.team} · head coach`:(n.proteges&&n.proteges.length?`${n.proteges.length} in the tree`:'');
+  const kind=nm===focus?'focus':(cls==='down'?'active':(n.active?'active':(n.proteges&&n.proteges.length?'patr anc':'anc')));
+  return `<div class="cnode ${kind}" data-n="${encodeURIComponent(nm)}">
+    <div class="nm">${col?`<span class="dot" style="background:${col}"></span>`:''}${nm}</div>
+    ${sub?`<div class="mt">${sub}</div>`:''}</div>`;
+}
+function render(){
+  const anc=ancestorLevels(focus);
+  const prot=[...new Set(((NODES[focus]||{}).proteges||[]).map(p=>p.name))];
+  let html='';
+  if(anc.length){html+=`<div class="rowlab up">↑ coached under</div>`;
+    anc.forEach(lv=>html+=`<div class="trow">${lv.map(n=>chip(n,'up')).join('')}</div>`);}
+  html+=`<div class="trow">${chip(focus,'focus')}</div>`;
+  if(prot.length){html+=`<div class="rowlab down">↓ coaches he produced</div>
+    <div class="trow">${prot.map(n=>chip(n,'down')).join('')}</div>`;}
+  if(!anc.length&&!prot.length)html+='<div class="empty">No lineage on record for this coach yet.</div>';
+  tree.innerHTML=html;
+  tree.querySelectorAll('.cnode').forEach(el=>el.onclick=()=>{focus=decodeURIComponent(el.getAttribute('data-n'));pick.value=focus;render();window.scrollTo({top:0,behavior:'smooth'});});
+  const n=NODES[focus]||{};
+  document.getElementById('hint').innerHTML = n.active
+    ? `<b style="color:var(--dim)">${focus}</b> — ${n.team} head coach. Worked under ${ (n.mentors||[]).length } · produced ${ (n.proteges||[]).length }.`
+    : `<b style="color:var(--dim)">${focus}</b> — produced ${ (n.proteges||[]).length } coaches in this tree.`;
+  requestAnimationFrame(drawWires);
+}
+function drawWires(){
+  const wrap=tree.getBoundingClientRect();
+  wires.setAttribute('viewBox',`0 0 ${tree.offsetWidth} ${tree.offsetHeight}`);
+  wires.style.height=tree.offsetHeight+'px';
+  const pos={};
+  tree.querySelectorAll('.cnode').forEach(el=>{const r=el.getBoundingClientRect();
+    pos[decodeURIComponent(el.getAttribute('data-n'))]={x:r.left-wrap.left+r.width/2,top:r.top-wrap.top,bot:r.top-wrap.top+r.height};});
+  let paths='';
+  Object.keys(pos).forEach(child=>{
+    ((NODES[child]||{}).mentors||[]).forEach(m=>{
+      if(!pos[m.name])return;
+      const c=pos[child], p=pos[m.name];
+      const x1=c.x,y1=c.top,x2=p.x,y2=p.bot, my=(y1+y2)/2;
+      paths+=`<path d="M${x1},${y1} C${x1},${my} ${x2},${my} ${x2},${y2}" fill="none" stroke="#353755" stroke-width="1.5"/>`;
+    });
+  });
+  wires.innerHTML=paths;
+}
+window.addEventListener('resize',()=>requestAnimationFrame(drawWires));
+
+fetch('data/coaching_tree.json?t='+Date.now()).then(r=>r.json()).then(d=>{
+  NODES=d.nodes||{};
+  const names=Object.keys(NODES).sort((a,b)=>{
+    const aa=NODES[a].active,ba=NODES[b].active;
+    if(aa!==ba)return aa?-1:1; return a.localeCompare(b);});
+  pick.innerHTML=names.map(n=>`<option value="${n}"${n===focus?' selected':''}>${n}${NODES[n].active?' ('+NODES[n].team+')':''}</option>`).join('');
+  pick.onchange=()=>{focus=pick.value;render();};
+  render();
+}).catch(()=>{tree.innerHTML='<div class="empty">Coaching tree unavailable.</div>';});
+</script>
+</body>
+</html>
