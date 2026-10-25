@@ -8,6 +8,8 @@
 <link rel="icon" href="../ttt_index/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../ttt-entitlements.js"></script>
 <style>
 :root{
   --bg:#101124; --panel:#171830; --row:#14152B; --rowalt:#181935; --line:#272943; --line2:#353755;
@@ -107,6 +109,28 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
   .c-coach{position:sticky;left:0;background:var(--bg);z-index:2}.kp tbody tr:nth-child(even) .c-coach{background:var(--rowalt)}.kp tbody tr:hover .c-coach{background:#1E2042}}
 @media (max-width:560px){.topin,.ctx,.scroll,.note,.method,.footin{padding-left:13px;padding-right:13px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+/* membership account + gated CSV export + upgrade modal */
+.acct{display:flex;align-items:center;gap:8px;margin-left:10px}
+.acct .who{font-size:11.5px;color:var(--faint);max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btnk{font-family:inherit;font-size:12px;font-weight:700;color:var(--ink);background:var(--panel);border:1px solid var(--line2);border-radius:7px;padding:6px 11px;cursor:pointer}
+.btnk:hover{border-color:var(--gold)} .btnk.solid{background:var(--gold);color:#17120a;border-color:var(--gold)}
+.tierbadge{font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:5px;background:var(--line);color:var(--dim)}
+.tierbadge.member,.tierbadge.pro,.tierbadge.allaccess,.tierbadge.core{background:var(--gold);color:#17120a}
+.xbtn{font-family:inherit;font-size:12px;font-weight:700;color:var(--gold-br);background:transparent;border:1px solid var(--gold);border-radius:7px;padding:6px 12px;cursor:pointer;margin-left:auto}
+.xbtn:hover{background:var(--gold);color:#17120a} .xbtn .lock{font-size:9px;background:var(--line2);color:var(--ink);padding:1px 5px;border-radius:4px;margin-left:5px;vertical-align:middle}
+.amscrim{position:fixed;inset:0;background:rgba(6,6,16,.64);opacity:0;pointer-events:none;transition:opacity .2s;z-index:60}
+.amscrim.on{opacity:1;pointer-events:auto}
+.amcard{position:fixed;top:50%;left:50%;transform:translate(-50%,-46%) scale(.98);opacity:0;pointer-events:none;width:min(420px,92vw);background:var(--panel);border:1px solid var(--line2);border-radius:14px;padding:24px;z-index:61;transition:opacity .2s,transform .2s}
+.amcard.on{opacity:1;pointer-events:auto;transform:translate(-50%,-50%) scale(1)}
+.amcard h3{font-family:var(--disp);font-size:22px;text-transform:uppercase;letter-spacing:.03em;margin-bottom:8px}
+.amcard p{color:var(--dim);font-size:13.5px;line-height:1.55;margin-bottom:12px} .amcard p b{color:var(--ink)}
+.amx{position:absolute;top:12px;right:12px;width:28px;height:28px;background:transparent;border:0;color:var(--faint);cursor:pointer}.amx svg{width:18px;height:18px}
+.amin{width:100%;background:var(--bg);border:1px solid var(--line2);color:var(--ink);border-radius:8px;padding:10px 12px;font-size:14px;margin-bottom:10px}
+.amrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.ammsg{font-size:12.5px;color:var(--faint);margin-top:10px}
+.amfeat{list-style:none;margin:4px 0 14px;font-size:13px;color:var(--dim)} .amfeat li{padding:3px 0 3px 18px;position:relative} .amfeat li::before{content:"\\203A";position:absolute;left:0;color:var(--gold)}
+/* light copy-deterrent on the data table — a speed bump, not a real lock */
+.scroll{user-select:none;-webkit-user-select:none}
 </style>
 </head>
 <body>
@@ -121,6 +145,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
     <a href="https://chukse.github.io/ttt-fantasy/" target="_blank" rel="noopener">Fantasy</a>
     <a href="#method">Method</a>
   </nav>
+  <div class="acct" id="acct"></div>
 </div></header>
 <div class="ctx">
   <h1 id="boardtitle">Offensive Play-Callers</h1>
@@ -129,6 +154,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
   <div class="toggle" id="toggle"><button class="tg on" data-side="offense">Offense</button><button class="tg" data-side="defense">Defense</button></div>
   <div class="toggle" id="yearsel"><button class="tg on" data-year="all">2023–26</button><button class="tg" data-year="2026">2026</button><button class="tg" data-year="2025">2025</button><button class="tg" data-year="2024">2024</button><button class="tg" data-year="2023">2023</button></div>
   <a class="mlink" href="#method">How ↓</a>
+  <button class="xbtn" id="exportBtn" title="Download the current board as CSV">Export CSV</button>
 </div>
 <div class="scroll"><table class="kp"><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
 <p class="note" id="boardnote">Every coach shown once — at his <b>current team</b>, or tagged <b style="color:var(--gold)">FA</b> if a free agent — with his <b>overall</b> (career) scheme; every value carries its <span class="rk-ex">rank<sup>1</sup></span>. Click a row for the <b>year-by-year</b> drill-down. (A coach's scheme can predate his current job — e.g. a coordinator now a head coach.) <b>PROE</b> pass-rate over expected · <b>PA/SCRN/RPO/MOT</b> play-action / screen / RPO / motion rate · <b>11P/12P/13P/21P/22P</b> personnel usage (RB-TE, e.g. 12P = 1 RB 2 TE) · <b>BLZ/MAN</b> blitz / man-coverage rate · <b>BOX</b> defenders in box · <b>pEPA/rEPA</b> pass / designed-run EPA per play · <b>dpEPA/drEPA</b> pass / run EPA allowed (defense). <b>Defense</b> is credited to the defensive coordinator, <b>offense</b> to the play-caller (the OC, or the HC when he calls plays, tagged HC/OC). <b>VALUE</b> is the headline: net <b>points per game</b> the staff adds vs an average one — for a <b>head coach</b> it's his whole program (offense + defense + special teams + 4th-down decisions); for a <b>coordinator</b> it's just his unit. Head coaches who call neither unit still appear (tagged <b>HC · doesn't call</b>). <b>SCH VAL</b> is the QB- and opponent-adjusted scheme piece; where a record can't be separated from one quarterback it reads <b style="font-style:italic">NR</b> (not rated) or carries a <span class="lcmark" style="position:static">◦</span> for moderate reliability — click any row for the full points breakdown. <b style="color:var(--gold-br)">2026:</b> offense is live-2026 and 2026 EPA is folded in; the <b>defensive</b> scheme (blitz/man/box) runs through 2025, since 2026 snap-participation data isn't available yet.</p>
@@ -149,6 +175,8 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 
 <div class="scrim" id="scrim"></div>
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Coach profile" tabindex="-1"></div>
+<div class="amscrim" id="amscrim"></div>
+<div class="amcard" id="amcard" role="dialog" aria-modal="true"></div>
 <script>
 const X='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
 const f1=v=>v==null?'—':v.toFixed(1), fp=v=>v==null?'—':(v>=0?'+':'')+v.toFixed(1), fe=v=>v==null?'—':(v>=0?'+':'')+v.toFixed(2);
@@ -415,6 +443,72 @@ function openSheet(nm){
 function closeSheet(){document.getElementById('scrim').classList.remove('on');document.getElementById('sheet').classList.remove('on');document.body.style.overflow='';if(lastFocus){lastFocus.focus();lastFocus=null}}
 document.getElementById('scrim').addEventListener('click',closeSheet);
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
+</script>
+<script>
+/* Membership: one TTT account (Supabase) + CSV export locked to members (an index-depth feature). */
+(function(){
+  const SB_URL="https://gpcydpgsgburxozdgylf.supabase.co";
+  const SB_ANON="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdwY3lkcGdzZ2J1cnhvemRneWxmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA1Mzc3NTUsImV4cCI6MjEwNjExMzc1NX0.o01OU4S8wdPdYNXJ-lDwJI_EDjfdY2XgJHS3OLz2xfU";
+  if(!window.supabase){return;}
+  const sb=window.supabase.createClient(SB_URL,SB_ANON);
+  const acct=document.getElementById('acct'), scrim=document.getElementById('amscrim'), card=document.getElementById('amcard'), xbtn=document.getElementById('exportBtn');
+  const Xsvg='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
+  function openModal(html){card.innerHTML=html;scrim.classList.add('on');card.classList.add('on');const x=card.querySelector('.amx');if(x)x.onclick=closeModal;const i=card.querySelector('input');if(i)i.focus();}
+  function closeModal(){scrim.classList.remove('on');card.classList.remove('on');}
+  scrim.onclick=closeModal; document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+  function signInModal(ctx){
+    openModal(`<button class="amx" aria-label="Close">${Xsvg}</button><h3>Sign in</h3>
+      <p>${ctx||'One Throw in the Towel account across the Index, the Fantasy app and the Draft room.'}</p>
+      <input class="amin" id="amEmail" type="email" placeholder="you@email.com" autocomplete="email">
+      <div class="amrow"><button class="btnk solid" id="amSend">Email me a link</button></div><div class="ammsg" id="amMsg"></div>`);
+    const send=document.getElementById('amSend');
+    send.onclick=async()=>{const em=(document.getElementById('amEmail').value||'').trim(),msg=document.getElementById('amMsg');
+      if(!/.+@.+\..+/.test(em)){msg.textContent='Enter a valid email.';return;}
+      send.disabled=true;send.textContent='Sending…';
+      const {error}=await sb.auth.signInWithOtp({email:em,options:{emailRedirectTo:location.href.split('#')[0]}});
+      msg.textContent=error?('Couldn’t send — '+error.message):'Check your inbox for the sign-in link.';
+      send.disabled=false;send.textContent='Email me a link';};
+  }
+  function upsellModal(){
+    openModal(`<button class="amx" aria-label="Close">${Xsvg}</button><h3>A membership feature</h3>
+      <p><b>CSV export</b> of the Coach Index is part of <b>membership</b>. The boards stay free to read; membership unlocks the downloads, the apps and the writing.</p>
+      <ul class="amfeat"><li>The full board — value, scheme &amp; every metric — as CSV</li><li>Full Fantasy + Draft apps</li><li>Premium Substack data-stories</li></ul>
+      <div class="amrow"><a class="btnk solid" href="../#membership">See membership</a><button class="btnk" id="amSignin">I have an account</button></div>`);
+    document.getElementById('amSignin').onclick=()=>signInModal('Sign in to use your membership.');
+  }
+  function renderAcct(session){
+    if(!session){acct.innerHTML='<button class="btnk" id="siBtn">Sign in</button>';document.getElementById('siBtn').onclick=()=>signInModal();return;}
+    const tier=(window.TTT&&TTT.tier)||'free', label=(tier==='free')?'Free':(tier.charAt(0).toUpperCase()+tier.slice(1));
+    acct.innerHTML=`<span class="who">${session.user.email||''}</span><span class="tierbadge ${tier}">${label}</span><button class="btnk" id="soBtn">Sign out</button>`;
+    document.getElementById('soBtn').onclick=async()=>{await sb.auth.signOut();location.reload();};
+  }
+  function paintExport(){if(!xbtn)return;const ex=xbtn.querySelector('.lock');if(ex)ex.remove();if(!(window.TTT&&TTT.has('index_depth')))xbtn.insertAdjacentHTML('beforeend',' <span class="lock">Member</span>');}
+  function toCSV(){
+    const C=cols(), B=board(), shown=(YEAR==='all')?B.filter(c=>c.status!=='inactive'):B;
+    const esc=v=>v==null?'':(/[",\n]/.test(''+v)?'"'+(''+v).replace(/"/g,'""')+'"':''+v);
+    const extra=C.filter(c=>c.id!=='value'&&c.id!=='scheme_value');   // metric cols minus the two in the prefix
+    const head=['rank_value','coach','team','role','value','value_scope','value_conf','scheme_value','scheme_rel']
+      .concat(extra.map(c=>c.id)).concat(C.filter(c=>c.id!=='value').map(c=>c.id+'_rank'));
+    const rows=[...shown].sort((a,b)=>((b.value??-1e9)-(a.value??-1e9))).map(c=>[
+      (c.ranks||{}).value,c.coach,(c.status==='team'?c.cur_team:c.team),(c.status==='team'?c.cur_role:'FA'),
+      c.value,c.value_scope,c.value_conf,c.scheme_value,c.scheme_rel]
+      .concat(extra.map(cc=>c[cc.id])).concat(C.filter(cc=>cc.id!=='value').map(cc=>(c.ranks||{})[cc.id])).map(esc).join(','));
+    return [head.join(','),...rows].join('\n');
+  }
+  function download(){
+    const blob=new Blob([toCSV()],{type:'text/csv;charset=utf-8'}), a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);a.download=`ttt-coach-index-${scope}-${side}${YEAR!=='all'?'-'+YEAR:''}.csv`;
+    document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(a.href);
+  }
+  if(xbtn)xbtn.onclick=()=>{ if(window.TTT&&TTT.has('index_depth')){ if(typeof DATA!=='undefined'&&DATA)download(); else alert('The board is still loading — one moment.'); } else upsellModal(); };
+  async function refresh(session){ if(window.TTT)await TTT.init(sb); renderAcct(session); paintExport(); }
+  sb.auth.onAuthStateChange((_e,session)=>{refresh(session);});
+  sb.auth.getSession().then(({data})=>refresh(data.session));
+})();
+/* light copy-deterrent: block right-click + drag on the data table (a speed bump, not a real lock) */
+(function(){const el=document.querySelector('.scroll');if(!el)return;
+  el.addEventListener('contextmenu',e=>e.preventDefault());
+  el.addEventListener('dragstart',e=>e.preventDefault());})();
 </script>
 </body>
 </html>
