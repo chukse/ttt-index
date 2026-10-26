@@ -43,6 +43,8 @@ a{color:inherit; text-decoration:none}
 .topin nav a:hover{color:var(--ink)} .topin nav a.on{color:var(--gold)}
 .topin nav a.soon{cursor:default} .topin nav a.soon::after{content:" soon"; font-size:.8em; opacity:.55}
 #yearsel{font-family:var(--mono); font-size:12.5px; font-weight:600; color:var(--ink); background:var(--card,#141629); border:1px solid var(--line2); border-radius:7px; padding:5px 10px; margin-left:12px; cursor:pointer; vertical-align:middle}
+#qsearch{font-family:var(--sans); font-size:12.5px; color:var(--ink); background:var(--card,#141629); border:1px solid var(--line2); border-radius:7px; padding:5px 10px; margin-left:10px; min-width:180px; vertical-align:middle}
+#qsearch::placeholder{color:var(--faint)} #qsearch:focus{outline:none; border-color:var(--gold)}
 #yearsel:hover{border-color:var(--gold,#C9A227)}
 
 /* context line */
@@ -202,6 +204,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
     <option value="2023">2023</option>
     <option value="2022">2022</option>
   </select>
+  <input id="qsearch" type="search" placeholder="Search QB or team…" autocomplete="off">
   <span class="d" id="ctxd"></span>
   <a class="mlink" href="#method">How it's built ↓</a>
   <button class="xbtn" id="exportBtn" title="Download the full board as CSV">Export CSV</button>
@@ -263,7 +266,7 @@ const COLS=[
   {id:"ANY/A",ab:"ANY/A",t:"s",fmt:v=>v.toFixed(2)},
 ];
 const TEAMCOL={SF:'#AA0000',BUF:'#00338D',CIN:'#FB4F14',JAX:'#9F792C',BAL:'#8A7BD8',DET:'#0076B6',DAL:'#8993A0',NE:'#88A4C4',HOU:'#9AB',LV:'#C9C9C9',GB:'#2E8B57',KC:'#E31837',LA:'#4F7FD4',CAR:'#0085CA',NO:'#D3BC8D',NYJ:'#2E8B57',MIN:'#9A7BD8',DEN:'#FB4F14',SEA:'#69BE28',MIA:'#00A3A3',ARI:'#C14965',LAC:'#2CA0E0',PIT:'#FFB612',CLE:'#C0712B',NYG:'#5577C0',IND:'#5588C8',TEN:'#4B92DB',TB:'#D50A0A',PHI:'#1A9E7A',ATL:'#D14B5A',WAS:'#C68A5A',CHI:'#C8743A'};
-let DATA=null, RANK={}, sortKey="rank", sortDir=1;
+let DATA=null, RANK={}, sortKey="rank", sortDir=1, QSEARCH="";
 document.getElementById('footstars').innerHTML=STAR+STAR+STAR+STAR+STAR;
 
 function tierClass(g){return g>=87?'t-elite':g>=79?'t-good':g>=72?'t-mid':'t-low'}
@@ -284,6 +287,7 @@ function loadSeason(year){
   });
 }
 document.getElementById('yearsel').addEventListener('change',e=>loadSeason(e.target.value));
+document.getElementById('qsearch').addEventListener('input',e=>{QSEARCH=e.target.value.trim();if(DATA)render();});
 loadSeason('2026');
 
 // VALUE = situation-stripped expected points of offense per game vs an average starter
@@ -316,6 +320,7 @@ function render(){
   });
 
   let qbs=[...DATA.qbs];
+  if(QSEARCH){const q=QSEARCH.toLowerCase();qbs=qbs.filter(x=>x.name.toLowerCase().includes(q)||(x.team&&x.team.toLowerCase().includes(q)));}
   qbs.sort((a,b)=>{
     let av,bv;
     if(sortKey==='rank'){av=a.rank;bv=b.rank;}
@@ -344,7 +349,7 @@ function render(){
       <td class="c-val ${q._val>=0?'pos':'neg'} num">${q._val==null?'—':(q._val>=0?'+':'')+q._val.toFixed(1)}${q._val==null?'':`<sup class="rk ${rkClass(RANK.val[q.id])}">${RANK.val[q.id]}</sup>`}</td>
       <td class="colg num">${q.games}</td>${cells}${luckCell}</tr>`;
   }).join('');
-  document.getElementById('tbody').innerHTML=rows;
+  document.getElementById('tbody').innerHTML=rows||`<tr><td colspan="16" style="padding:40px;text-align:center;color:var(--faint)">No quarterback matches${QSEARCH?' “'+QSEARCH+'”':''}.</td></tr>`;
   document.querySelectorAll('#tbody tr[data-id]').forEach(tr=>tr.onclick=e=>{if(!e.target.closest('a'))openSheet(tr.getAttribute('data-id'))});
 }
 function qb(id){return DATA.qbs.find(q=>q.id===id)}
