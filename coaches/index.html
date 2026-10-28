@@ -403,7 +403,7 @@ function render(){
       }
       if(v==null)return `<td class="${cc.grp?'grp':''}"><span class="val sm">—</span></td>`;
       const rk=(c.ranks||{})[cc.id], epcls=cc.ep?(cc.inv?(v<=0?'c-ep pos':'c-ep neg'):(v>=0?'c-ep pos':'c-ep neg')):'';
-      return `<td class="${cc.grp?'grp':''}"><span class="val ${epcls}">${cc.fmt(v)}</span><sup class="rk ${rkClass(rk,cs.length)}">${rk}</sup></td>`;}).join('');
+      return `<td class="${cc.grp?'grp':''}"><span class="val ${epcls}">${cc.fmt(v)}</span><sup class="rk ${rkClass(rk,cs.length)}">${rk||'—'}</sup></td>`;}).join('');
     const sameTeam=c.teams.length===1&&c.teams[0]===c.cur_team;
     const meta=emp?(sameTeam?`${c.cur_team} · ${c.seasons} season${c.seasons>1?'s':''}`:`${c.cur_team} · scheme from ${c.teams.join('/')}`):`Free agent · last ${c.team} '${String(c.last_season).slice(2)}`;
     return `<tr data-c="${encodeURIComponent(c.coach)}">
