@@ -225,6 +225,7 @@ function board(){
     // per-season, so blank them in a single-season view rather than show a stale career figure.
     if(scope==='college') cols().forEach(cc=>{ if(cc.id!=='scheme_value' && !(cc.id in bs)) o[cc.id]=null; });  // scheme_value is a career figure — keep it across year views
     Object.keys(bs).forEach(k=>{ if(!META.has(k) && bs[k]!=null) o[k]=bs[k]; });   // season values for ALL metrics
+    if(side==='offense'&&scope!=='college') o.yac_oe=('yac_oe' in bs)?bs.yac_oe:null;  // NGS is per-season now; a season with no NGS shows '—', not the stale career figure
     return o;
   }).filter(Boolean);
   // ONE row per team in a single-season view: the play-caller leads; the coordinator(s) of
