@@ -360,12 +360,13 @@ function openSheet(id){
   const lk=q.luck, twp=q.twp, ai=q.ints;
   const luckTxt=lk==null?'—':lk>=1.5?'living dangerously — the picks are coming':lk<=-1.5?'snakebit — positive regression due':'about right';
   let fdet=FULL.map(fk=>{
-    const v=q.factors[fk], above=v>=50, mag=Math.min(Math.abs(v-50)/40,1)*50, cc=above?'var(--gold)':'var(--cool)', r=RANK[fk][q.id];
-    return `<div class="fdet"><span class="fl">${fk}</span><span class="ft"><i style="${above?'left:50%':'right:50%'};width:${mag}%;background:${cc}"></i></span><span class="fv num" style="color:${above?'var(--gold-br)':v<42?'var(--brick)':'var(--ink)'}">${v}<sup>${r}</sup></span></div>`;
+    const v=q.factors[fk]; if(v==null) return '';
+    const above=v>=50, mag=Math.min(Math.abs(v-50)/40,1)*50, cc=above?'var(--gold)':'var(--cool)', r=(RANK[fk]||{})[q.id];
+    return `<div class="fdet"><span class="fl">${fk}</span><span class="ft"><i style="${above?'left:50%':'right:50%'};width:${mag}%;background:${cc}"></i></span><span class="fv num" style="color:${above?'var(--gold-br)':v<42?'var(--brick)':'var(--ink)'}">${v}<sup>${r||'—'}</sup></span></div>`;
   }).join('');
   let stats=Object.entries(q.stats).filter(([k,v])=>v!=null).map(([k,v])=>`<div><div class="sk">${k}</div><div class="sv num">${v}</div></div>`).join('');
   const sc=q.scheme, sctax=q.stats["Scheme tax (EPA/play)"];
-  const schemeHtml = sc ? `<div class="sec"><h3>Scheme context · QB vs system</h3><div style="font-size:13.5px;color:var(--dim);line-height:1.55">Plays in <b style="color:var(--ink)">${q.team}</b>'s offense — the <b style="color:${sc.lift>=0?'var(--gold-br)':'var(--cool)'}">#${sc.rank}</b> most QB-friendly scheme of ${sc.of} <span style="color:var(--faint)">(${sc.lift>=0?'+':''}${sc.lift} EPA/play a league-average QB gains here)</span>. QBIR nets out <b style="color:var(--ink)">${sctax==null?'—':(sctax>=0?'+':'')+sctax}</b> EPA/play of that system help from his isolated value${sc.reliability<0.3?', <span style="color:var(--faint)">lightly — this scheme is weakly identified (few non-starter snaps)</span>':''}.</div></div>` : '';
+  const schemeHtml = (sc && sc.rank!=null && sc.lift!=null) ? `<div class="sec"><h3>Scheme context · QB vs system</h3><div style="font-size:13.5px;color:var(--dim);line-height:1.55">Plays in <b style="color:var(--ink)">${q.team}</b>'s offense — the <b style="color:${sc.lift>=0?'var(--gold-br)':'var(--cool)'}">#${sc.rank}</b> most QB-friendly scheme of ${sc.of??'—'} <span style="color:var(--faint)">(${sc.lift>=0?'+':''}${sc.lift} EPA/play a league-average QB gains here)</span>. QBIR nets out <b style="color:var(--ink)">${sctax==null?'—':(sctax>=0?'+':'')+sctax}</b> EPA/play of that system help from his isolated value${(sc.reliability!=null&&sc.reliability<0.3)?', <span style="color:var(--faint)">lightly — this scheme is weakly identified (few non-starter snaps)</span>':''}.</div></div>` : '';
   sh.innerHTML=`
     <div class="shead">
       <div class="sg num ${tierClass(q.grade)}" style="color:${q.grade>=87?'var(--gold-br)':q.grade<72?'var(--brick)':'var(--ink)'}">${q.grade.toFixed(1)}</div>

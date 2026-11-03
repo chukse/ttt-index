@@ -179,7 +179,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 </section>
 <footer class="foot"><div class="footin">
   <span class="fb">Throw in the Towel</span><span class="ft2">Sports stories told through data.</span>
-  <nav class="fr2"><a href="../ttt_index/">QBIR Index</a><a href="#method">Methodology</a><a href="https://throwinthetowel214.substack.com" target="_blank" rel="noopener">Substack</a></nav>
+  <nav class="fr2"><a href="../qbir/">QBIR Index</a><a href="#method">Methodology</a><a href="https://throwinthetowel214.substack.com" target="_blank" rel="noopener">Substack</a></nav>
 </div></footer>
 
 <div class="scrim" id="scrim"></div>
@@ -448,7 +448,7 @@ function openSheet(nm){
   // Coach VALUE block (role-aware: head coach = full program breakdown; coordinator = unit value)
   let valueBlock='';
   if(c.value!=null){
-    const sgn=x=>(x>=0?'+':'')+Number(x).toFixed(2), cl=x=>x>=0?'pos':'neg';
+    const sgn=x=>x==null?'—':(x>=0?'+':'')+Number(x).toFixed(2), cl=x=>x>=0?'pos':'neg';
     const head=`Coach value · <b class="${cl(c.value)}">${(c.value>=0?'+':'')+c.value.toFixed(1)}</b> pts/game`;
     const vp=c.value_parts;
     if(vp){ // head coach — full program
