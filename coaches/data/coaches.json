@@ -192,7 +192,7 @@
     "rush_sr": 36,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 18
+    "yac_oe": 19
    },
    "scheme_value_conf": null,
    "value": null,
@@ -363,7 +363,7 @@
     "rush_sr": 28,
     "scheme_value": 25,
     "value": 12,
-    "yac_oe": 53
+    "yac_oe": 56
    },
    "scheme_value_conf": "low",
    "value": 1.59,
@@ -545,7 +545,7 @@
     "rush_sr": 12,
     "scheme_value": 3,
     "value": 2,
-    "yac_oe": 15
+    "yac_oe": 16
    },
    "scheme_value_conf": "ok",
    "value": 5.86,
@@ -726,7 +726,7 @@
     "rush_sr": 17,
     "scheme_value": null,
     "value": 40,
-    "yac_oe": 22
+    "yac_oe": 24
    },
    "scheme_value_conf": "nr",
    "value": -3.14,
@@ -908,7 +908,7 @@
     "rush_sr": 19,
     "scheme_value": 20,
     "value": 18,
-    "yac_oe": 45
+    "yac_oe": 48
    },
    "scheme_value_conf": "ok",
    "value": 0.73,
@@ -1080,7 +1080,7 @@
     "rush_sr": 26,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 47
+    "yac_oe": 50
    },
    "scheme_value_conf": null,
    "value": null,
@@ -1253,7 +1253,7 @@
     "rush_sr": 68,
     "scheme_value": 15,
     "value": 32,
-    "yac_oe": 51
+    "yac_oe": 54
    },
    "scheme_value_conf": "ok",
    "value": -1.84,
@@ -1434,7 +1434,7 @@
     "rush_sr": 46,
     "scheme_value": 29,
     "value": 8,
-    "yac_oe": 37
+    "yac_oe": 40
    },
    "scheme_value_conf": "ok",
    "value": 2.44,
@@ -1796,7 +1796,7 @@
     "rush_sr": 38,
     "scheme_value": 2,
     "value": 11,
-    "yac_oe": 19
+    "yac_oe": 20
    },
    "scheme_value_conf": "low",
    "value": 2.03,
@@ -1978,7 +1978,7 @@
     "rush_sr": 43,
     "scheme_value": 16,
     "value": null,
-    "yac_oe": 62
+    "yac_oe": 64
    },
    "scheme_value_conf": "low",
    "value": 0.47,
@@ -2036,7 +2036,7 @@
      "role": "OC",
      "called": false,
      "caller": "Sean McVay",
-     "yac_oe": null,
+     "yac_oe": 1.06,
      "proe": 1.5,
      "pa_rate": 17.7,
      "screen_rate": 9.9,
@@ -2061,7 +2061,7 @@
      "role": "OC",
      "called": false,
      "caller": "Sean McVay",
-     "yac_oe": null,
+     "yac_oe": 0.36,
      "proe": -1.1,
      "pa_rate": 30.8,
      "screen_rate": 8.6,
@@ -2086,7 +2086,7 @@
      "role": "OC",
      "called": false,
      "caller": "Sean McVay",
-     "yac_oe": null,
+     "yac_oe": 0.54,
      "proe": 4.2,
      "pa_rate": 32.4,
      "screen_rate": 6.4,
@@ -2151,7 +2151,7 @@
     "rush_sr": 8,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 61
+    "yac_oe": 34
    },
    "scheme_value_conf": "nr",
    "value": -0.52,
@@ -2159,12 +2159,12 @@
    "value_conf": "nr",
    "value_rel": 0.05,
    "ngs": {
-    "yac_oe": 0.22,
-    "time_to_throw": 2.66,
-    "air_to_sticks": -0.89,
-    "separation": 2.56
+    "yac_oe": 0.55,
+    "time_to_throw": 2.73,
+    "air_to_sticks": -0.36,
+    "separation": 2.9
    },
-   "yac_oe": 0.22
+   "yac_oe": 0.55
   },
   {
    "coach": "Mike McDaniel",
@@ -2324,7 +2324,7 @@
     "rush_sr": 44,
     "scheme_value": 30,
     "value": 26,
-    "yac_oe": 49
+    "yac_oe": 52
    },
    "scheme_value_conf": "ok",
    "value": -0.85,
@@ -2390,7 +2390,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 1.06,
      "proe": 1.5,
      "pa_rate": 17.7,
      "screen_rate": 9.9,
@@ -2415,7 +2415,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 0.36,
      "proe": -1.1,
      "pa_rate": 30.8,
      "screen_rate": 8.6,
@@ -2440,7 +2440,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 0.54,
      "proe": 4.2,
      "pa_rate": 32.4,
      "screen_rate": 6.4,
@@ -2465,7 +2465,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 1.18,
      "proe": 4.6,
      "pa_rate": 12.5,
      "screen_rate": 3.4,
@@ -2505,7 +2505,7 @@
     "rush_sr": 5,
     "scheme_value": 5,
     "value": 9,
-    "yac_oe": null
+    "yac_oe": 21
    },
    "scheme_value_conf": "low",
    "value": 2.41,
@@ -2520,7 +2520,14 @@
     "situational": 0.58,
     "discipline": 0.17,
     "innovation": 0.04
-   }
+   },
+   "ngs": {
+    "yac_oe": 0.79,
+    "time_to_throw": 2.74,
+    "air_to_sticks": -0.42,
+    "separation": 2.95
+   },
+   "yac_oe": 0.79
   },
   {
    "coach": "Sean Payton",
@@ -2679,7 +2686,7 @@
     "rush_sr": 35,
     "scheme_value": 13,
     "value": 6,
-    "yac_oe": 60
+    "yac_oe": 63
    },
    "scheme_value_conf": "ok",
    "value": 3.11,
@@ -2860,7 +2867,7 @@
     "rush_sr": 27,
     "scheme_value": 9,
     "value": 23,
-    "yac_oe": 48
+    "yac_oe": 51
    },
    "scheme_value_conf": "ok",
    "value": -0.35,
@@ -3042,7 +3049,7 @@
     "rush_sr": 15,
     "scheme_value": 8,
     "value": null,
-    "yac_oe": 24
+    "yac_oe": 26
    },
    "scheme_value_conf": "ok",
    "value": 0.9,
@@ -3223,7 +3230,7 @@
     "rush_sr": 49,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 38
+    "yac_oe": 41
    },
    "scheme_value_conf": null,
    "value": null,
@@ -3394,7 +3401,7 @@
     "rush_sr": 34,
     "scheme_value": 10,
     "value": 22,
-    "yac_oe": 7
+    "yac_oe": 8
    },
    "scheme_value_conf": "ok",
    "value": -0.21,
@@ -3551,7 +3558,7 @@
     "rush_sr": 71,
     "scheme_value": 35,
     "value": 34,
-    "yac_oe": 16
+    "yac_oe": 17
    },
    "scheme_value_conf": "low",
    "value": -2.25,
@@ -3698,7 +3705,7 @@
     "rush_sr": 21,
     "scheme_value": 19,
     "value": 19,
-    "yac_oe": 66
+    "yac_oe": 68
    },
    "scheme_value_conf": "low",
    "value": 0.6,
@@ -3845,7 +3852,7 @@
     "rush_sr": 22,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 8
+    "yac_oe": 9
    },
    "scheme_value_conf": null,
    "value": null,
@@ -3991,7 +3998,7 @@
     "rush_sr": 33,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 34
+    "yac_oe": 37
    },
    "scheme_value_conf": null,
    "value": null,
@@ -4137,7 +4144,7 @@
     "rush_sr": 2,
     "scheme_value": 14,
     "value": 13,
-    "yac_oe": 17
+    "yac_oe": 18
    },
    "scheme_value_conf": "low",
    "value": 1.53,
@@ -4284,7 +4291,7 @@
     "rush_sr": 29,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 44
+    "yac_oe": 47
    },
    "scheme_value_conf": null,
    "value": null,
@@ -4432,7 +4439,7 @@
     "rush_sr": 59,
     "scheme_value": 18,
     "value": 20,
-    "yac_oe": 31
+    "yac_oe": 33
    },
    "scheme_value_conf": "ok",
    "value": 0.57,
@@ -4580,7 +4587,7 @@
     "rush_sr": 14,
     "scheme_value": 4,
     "value": 1,
-    "yac_oe": 29
+    "yac_oe": 31
    },
    "scheme_value_conf": "ok",
    "value": 7.16,
@@ -4737,7 +4744,7 @@
     "rush_sr": 52,
     "scheme_value": 34,
     "value": 39,
-    "yac_oe": 52
+    "yac_oe": 55
    },
    "scheme_value_conf": "ok",
    "value": -3.08,
@@ -4885,7 +4892,7 @@
     "rush_sr": 55,
     "scheme_value": 11,
     "value": 21,
-    "yac_oe": 39
+    "yac_oe": 42
    },
    "scheme_value_conf": "low",
    "value": 0.38,
@@ -5033,7 +5040,7 @@
     "rush_sr": 10,
     "scheme_value": 36,
     "value": 37,
-    "yac_oe": 59
+    "yac_oe": 62
    },
    "scheme_value_conf": "ok",
    "value": -2.69,
@@ -5156,7 +5163,7 @@
     "rush_sr": 61,
     "scheme_value": 31,
     "value": 35,
-    "yac_oe": 12
+    "yac_oe": 13
    },
    "scheme_value_conf": "ok",
    "value": -2.53,
@@ -5410,7 +5417,7 @@
     "rush_sr": 13,
     "scheme_value": 6,
     "value": null,
-    "yac_oe": 10
+    "yac_oe": 11
    },
    "scheme_value_conf": "low",
    "value": 2.2,
@@ -5532,7 +5539,7 @@
     "rush_sr": 72,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 71
+    "yac_oe": 73
    },
    "scheme_value_conf": null,
    "value": null,
@@ -5654,7 +5661,7 @@
     "rush_sr": 20,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 35
+    "yac_oe": 38
    },
    "scheme_value_conf": "nr",
    "value": -1.1,
@@ -5776,7 +5783,7 @@
     "rush_sr": 18,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 36
+    "yac_oe": 39
    },
    "scheme_value_conf": null,
    "value": null,
@@ -5897,7 +5904,7 @@
     "rush_sr": 54,
     "scheme_value": 12,
     "value": 16,
-    "yac_oe": 13
+    "yac_oe": 14
    },
    "scheme_value_conf": "low",
    "value": 0.82,
@@ -6019,7 +6026,7 @@
     "rush_sr": 66,
     "scheme_value": null,
     "value": 41,
-    "yac_oe": 63
+    "yac_oe": 65
    },
    "scheme_value_conf": "nr",
    "value": -3.68,
@@ -6151,7 +6158,7 @@
     "rush_sr": 24,
     "scheme_value": 38,
     "value": 38,
-    "yac_oe": 41
+    "yac_oe": 44
    },
    "scheme_value_conf": "ok",
    "value": -3.01,
@@ -6273,7 +6280,7 @@
     "rush_sr": 3,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 30
+    "yac_oe": 32
    },
    "scheme_value_conf": null,
    "value": null,
@@ -6394,7 +6401,7 @@
     "rush_sr": 11,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 28
+    "yac_oe": 30
    },
    "scheme_value_conf": null,
    "value": null,
@@ -6515,7 +6522,7 @@
     "rush_sr": 7,
     "scheme_value": 7,
     "value": 10,
-    "yac_oe": 57
+    "yac_oe": 60
    },
    "scheme_value_conf": "low",
    "value": 2.19,
@@ -6638,7 +6645,7 @@
     "rush_sr": 64,
     "scheme_value": 32,
     "value": 33,
-    "yac_oe": 20
+    "yac_oe": 22
    },
    "scheme_value_conf": "ok",
    "value": -2.07,
@@ -6760,7 +6767,7 @@
     "rush_sr": 62,
     "scheme_value": 41,
     "value": 46,
-    "yac_oe": 23
+    "yac_oe": 25
    },
    "scheme_value_conf": "ok",
    "value": -5.44,
@@ -6883,7 +6890,7 @@
     "rush_sr": 23,
     "scheme_value": 37,
     "value": 17,
-    "yac_oe": 14
+    "yac_oe": 15
    },
    "scheme_value_conf": "ok",
    "value": 0.75,
@@ -7014,7 +7021,7 @@
     "rush_sr": 70,
     "scheme_value": 26,
     "value": 24,
-    "yac_oe": 56
+    "yac_oe": 59
    },
    "scheme_value_conf": "low",
    "value": -0.36,
@@ -7136,7 +7143,7 @@
     "rush_sr": 58,
     "scheme_value": 40,
     "value": 42,
-    "yac_oe": 32
+    "yac_oe": 35
    },
    "scheme_value_conf": "ok",
    "value": -4.51,
@@ -7259,7 +7266,7 @@
     "rush_sr": 48,
     "scheme_value": 27,
     "value": 31,
-    "yac_oe": 42
+    "yac_oe": 45
    },
    "scheme_value_conf": "ok",
    "value": -1.63,
@@ -7382,7 +7389,7 @@
     "rush_sr": 45,
     "scheme_value": 24,
     "value": 30,
-    "yac_oe": 67
+    "yac_oe": 69
    },
    "scheme_value_conf": "ok",
    "value": -1.48,
@@ -7602,7 +7609,7 @@
     "rush_sr": 74,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 40
+    "yac_oe": 43
    },
    "scheme_value_conf": null,
    "value": null,
@@ -7698,7 +7705,7 @@
     "rush_sr": 53,
     "scheme_value": 39,
     "value": 43,
-    "yac_oe": 65
+    "yac_oe": 67
    },
    "scheme_value_conf": "low",
    "value": -4.97,
@@ -7795,7 +7802,7 @@
     "rush_sr": 16,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 21
+    "yac_oe": 23
    },
    "scheme_value_conf": null,
    "value": null,
@@ -7997,7 +8004,7 @@
     "rush_sr": 40,
     "scheme_value": null,
     "value": 45,
-    "yac_oe": 54
+    "yac_oe": 57
    },
    "scheme_value_conf": "nr",
    "value": -5.36,
@@ -8103,7 +8110,7 @@
     "rush_sr": 67,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 50
+    "yac_oe": 53
    },
    "scheme_value_conf": "nr",
    "value": -0.32,
@@ -8200,7 +8207,7 @@
     "rush_sr": 9,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 9
+    "yac_oe": 10
    },
    "scheme_value_conf": "nr",
    "value": 1.5,
@@ -8297,7 +8304,7 @@
     "rush_sr": 76,
     "scheme_value": 43,
     "value": 49,
-    "yac_oe": 55
+    "yac_oe": 58
    },
    "scheme_value_conf": "low",
    "value": -6.65,
@@ -8394,7 +8401,7 @@
     "rush_sr": 75,
     "scheme_value": null,
     "value": 28,
-    "yac_oe": 43
+    "yac_oe": 46
    },
    "scheme_value_conf": "nr",
    "value": -1.22,
@@ -8500,7 +8507,7 @@
     "rush_sr": 73,
     "scheme_value": 22,
     "value": 25,
-    "yac_oe": 27
+    "yac_oe": 29
    },
    "scheme_value_conf": "low",
    "value": -0.81,
@@ -8597,7 +8604,7 @@
     "rush_sr": 51,
     "scheme_value": 21,
     "value": null,
-    "yac_oe": 73
+    "yac_oe": 75
    },
    "scheme_value_conf": "low",
    "value": -0.39,
@@ -8694,7 +8701,7 @@
     "rush_sr": 50,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 72
+    "yac_oe": 74
    },
    "scheme_value_conf": null,
    "value": null,
@@ -8790,7 +8797,7 @@
     "rush_sr": 41,
     "scheme_value": null,
     "value": 51,
-    "yac_oe": 70
+    "yac_oe": 72
    },
    "scheme_value_conf": "nr",
    "value": -8.2,
@@ -8896,7 +8903,7 @@
     "rush_sr": 37,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 11
+    "yac_oe": 12
    },
    "scheme_value_conf": "nr",
    "value": 1.38,
@@ -8993,7 +9000,7 @@
     "rush_sr": 42,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 25
+    "yac_oe": 27
    },
    "scheme_value_conf": "nr",
    "value": -0.46,
@@ -9090,7 +9097,7 @@
     "rush_sr": 30,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 46
+    "yac_oe": 49
    },
    "scheme_value_conf": "nr",
    "value": -0.97,
@@ -9284,7 +9291,7 @@
     "rush_sr": 65,
     "scheme_value": 28,
     "value": 36,
-    "yac_oe": 64
+    "yac_oe": 66
    },
    "scheme_value_conf": "low",
    "value": -2.56,
@@ -9341,7 +9348,7 @@
      "role": "OC",
      "called": false,
      "caller": "Sean McVay",
-     "yac_oe": null,
+     "yac_oe": 1.18,
      "proe": 4.6,
      "pa_rate": 12.5,
      "screen_rate": 3.4,
@@ -9381,12 +9388,19 @@
     "rush_sr": 4,
     "scheme_value": null,
     "value": null,
-    "yac_oe": null
+    "yac_oe": 7
    },
    "scheme_value_conf": null,
    "value": null,
    "value_scope": null,
-   "value_conf": null
+   "value_conf": null,
+   "ngs": {
+    "yac_oe": 1.18,
+    "time_to_throw": 2.7,
+    "air_to_sticks": -1.15,
+    "separation": 2.74
+   },
+   "yac_oe": 1.18
   },
   {
    "coach": "Pete Carmichael",
@@ -9470,7 +9484,7 @@
     "rush_sr": 56,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 69
+    "yac_oe": 71
    },
    "scheme_value_conf": "nr",
    "value": -1.8,
@@ -9567,7 +9581,7 @@
     "rush_sr": 1,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 26
+    "yac_oe": 28
    },
    "scheme_value_conf": null,
    "value": null,
@@ -9663,7 +9677,7 @@
     "rush_sr": 47,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 58
+    "yac_oe": 61
    },
    "scheme_value_conf": "nr",
    "value": -1.3,
@@ -9760,7 +9774,7 @@
     "rush_sr": 69,
     "scheme_value": 33,
     "value": null,
-    "yac_oe": 33
+    "yac_oe": 36
    },
    "scheme_value_conf": "low",
    "value": -2.03,
@@ -9857,7 +9871,7 @@
     "rush_sr": 25,
     "scheme_value": 42,
     "value": 47,
-    "yac_oe": 68
+    "yac_oe": 70
    },
    "scheme_value_conf": "low",
    "value": -6.16,
@@ -9954,7 +9968,7 @@
     "rush_sr": 60,
     "scheme_value": null,
     "value": null,
-    "yac_oe": 74
+    "yac_oe": 76
    },
    "scheme_value_conf": "nr",
    "value": -5.68,
@@ -12053,7 +12067,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 0.36,
      "creativity": 52.0,
      "blitz_rate": 24.2,
      "man_rate": 49.1,
@@ -12070,7 +12084,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 0.54,
      "creativity": 48.0,
      "blitz_rate": 20.2,
      "man_rate": 25.8,
@@ -12087,7 +12101,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 1.18,
      "creativity": 45.0,
      "blitz_rate": null,
      "man_rate": null,
@@ -13443,7 +13457,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": null,
+     "yac_oe": 1.06,
      "creativity": 53.0,
      "blitz_rate": 25.2,
      "man_rate": 47.5,
