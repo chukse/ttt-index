@@ -500,6 +500,10 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
   const SB_ANON="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdwY3lkcGdzZ2J1cnhvemRneWxmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA1Mzc3NTUsImV4cCI6MjEwNjExMzc1NX0.o01OU4S8wdPdYNXJ-lDwJI_EDjfdY2XgJHS3OLz2xfU";
   if(!window.supabase){return;}
   const sb=window.supabase.createClient(SB_URL,SB_ANON);
+  const PROXY='https://ttt-espn-proxy.chukegbuchunam.workers.dev/';   // existing billing worker (checkout + Stripe webhook)
+  let SESSION=null;
+  const _pj=new URLSearchParams(location.search).get('join');          // landing deep-link: coaches/?join=monthly|season
+  let PENDING_JOIN=(_pj==='monthly'||_pj==='season')?_pj:null;
   const acct=document.getElementById('acct'), scrim=document.getElementById('amscrim'), card=document.getElementById('amcard'), xbtn=document.getElementById('exportBtn');
   const Xsvg='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
   function openModal(html){card.innerHTML=html;scrim.classList.add('on');card.classList.add('on');const x=card.querySelector('.amx');if(x)x.onclick=closeModal;const i=card.querySelector('input');if(i)i.focus();}
@@ -518,12 +522,31 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
       msg.textContent=error?('Couldn’t send — '+error.message):'Check your inbox for the sign-in link.';
       send.disabled=false;send.textContent='Email me a link';};
   }
-  function upsellModal(){
-    openModal(`<button class="amx" aria-label="Close">${Xsvg}</button><h3>A membership feature</h3>
-      <p><b>CSV export</b> of the Coach Index is part of <b>membership</b>. The boards stay free to read; membership unlocks the downloads, the apps and the writing.</p>
+  // Start a Stripe Checkout via the existing billing worker. Sign-in-gated (we need the user id).
+  async function startCheckout(kind){
+    if(!SESSION){ signInModal('Create an account (or sign in) to subscribe — one membership unlocks every TTT app.'); return; }
+    const msg=card.querySelector('#amMsg2'); if(msg)msg.textContent='Starting checkout…';
+    card.querySelectorAll('.btnk').forEach(b=>b.disabled=true);
+    const ret=location.href.split('#')[0].split('?')[0];
+    try{
+      const r=await fetch(PROXY+'?stripe_checkout=1',{method:'POST',headers:{'content-type':'application/json'},
+        body:JSON.stringify({user_id:SESSION.user.id,email:SESSION.user.email,kind:kind,return_url:ret})});
+      const d=await r.json();
+      if(d&&d.url){location.href=d.url;return;}
+      if(msg)msg.textContent='Could not start checkout — please try again.';
+    }catch(e){ if(msg)msg.textContent='Could not reach checkout — please try again.'; }
+    card.querySelectorAll('.btnk').forEach(b=>b.disabled=false);
+  }
+  function upsellModal(ctx){
+    openModal(`<button class="amx" aria-label="Close">${Xsvg}</button><h3>Unlock with membership</h3>
+      <p>${ctx||'<b>CSV export</b> of the Coach Index is a <b>membership</b> feature. The boards stay free to read — membership unlocks the downloads &amp; archive, the full apps, and the writing.'}</p>
       <ul class="amfeat"><li>The full board — value, scheme &amp; every metric — as CSV</li><li>Full Fantasy + Draft apps</li><li>Premium Substack data-stories</li></ul>
-      <div class="amrow"><a class="btnk solid" href="../#membership">See membership</a><button class="btnk" id="amSignin">I have an account</button></div>`);
-    document.getElementById('amSignin').onclick=()=>signInModal('Sign in to use your membership.');
+      <div class="amrow"><button class="btnk solid" id="amMonthly">$4.99 / month</button><button class="btnk solid" id="amSeason">$19.99 / season</button></div>
+      <div class="ammsg" id="amMsg2">${SESSION?('Signed in as '+SESSION.user.email+' — you’ll go straight to checkout.'):'You’ll sign in first, then checkout.'}</div>
+      ${SESSION?'':'<div class="amrow"><button class="btnk" id="amSignin">I already have an account</button></div>'}`);
+    document.getElementById('amMonthly').onclick=()=>startCheckout('monthly');
+    document.getElementById('amSeason').onclick=()=>startCheckout('season');
+    const si=document.getElementById('amSignin'); if(si)si.onclick=()=>signInModal('Sign in to use your membership.');
   }
   function renderAcct(session){
     if(!session){acct.innerHTML='<button class="btnk" id="siBtn">Sign in</button>';document.getElementById('siBtn').onclick=()=>signInModal();return;}
@@ -555,9 +578,16 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
     document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(a.href);
   }
   if(xbtn)xbtn.onclick=()=>{ if(window.TTT&&TTT.has('index_depth')){ if(typeof DATA!=='undefined'&&DATA)download(); else alert('The board is still loading — one moment.'); } else upsellModal(); };
-  async function refresh(session){ if(window.TTT)await TTT.init(sb); renderAcct(session); paintExport(); }
+  async function refresh(session){ SESSION=session; if(window.TTT)await TTT.init(sb); renderAcct(session); paintExport();
+    if(PENDING_JOIN){ const k=PENDING_JOIN; PENDING_JOIN=null; startCheckout(k); }   // landing deep-link / post-sign-in resume
+  }
   sb.auth.onAuthStateChange((_e,session)=>{refresh(session);});
   sb.auth.getSession().then(({data})=>refresh(data.session));
+  // Returned from a completed Stripe checkout: webhook writes the plan server-side; re-check a few times.
+  if(new URLSearchParams(location.search).get('sub')==='ok'){
+    let n=0; const iv=setInterval(async()=>{ if(window.TTT)await TTT.init(sb); paintExport();
+      renderAcct(SESSION); if((window.TTT&&TTT.has('index_depth'))||++n>5)clearInterval(iv); }, 1500);
+  }
 })();
 /* light copy-deterrent: block right-click + drag on the data table (a speed bump, not a real lock) */
 (function(){const el=document.querySelector('.scroll');if(!el)return;
