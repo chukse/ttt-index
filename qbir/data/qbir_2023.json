@@ -48,7 +48,15 @@
     "Isolated EPA/play": 0.032,
     "Situation credit": 0.166,
     "Scheme tax (EPA/play)": 0.109,
-    "Rush EPA (total)": 13.0
+    "Rush EPA (total)": 13.0,
+    "Time to throw (NGS)": 2.88,
+    "Aggressiveness % (NGS)": 12.8,
+    "Air to sticks (NGS)": -0.8
+   },
+   "lenses": {
+    "Pure Thrower": 61,
+    "Ball Placement": 56,
+    "Make It Happen": 56
    },
    "twp": 17.0,
    "ints": 11,
@@ -67,8 +75,8 @@
    "reliability": 0.61,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.055,
-    "rank": 5,
+    "lift": 0.058,
+    "rank": 4,
     "of": 32,
     "reliability": 0.59
    },
@@ -89,7 +97,15 @@
     "Isolated EPA/play": 0.04,
     "Situation credit": 0.087,
     "Scheme tax (EPA/play)": 0.064,
-    "Rush EPA (total)": 16.2
+    "Rush EPA (total)": 16.2,
+    "Time to throw (NGS)": 2.71,
+    "Aggressiveness % (NGS)": 18.3,
+    "Air to sticks (NGS)": -0.6
+   },
+   "lenses": {
+    "Pure Thrower": 66,
+    "Ball Placement": 62,
+    "Make It Happen": 58
    },
    "twp": 16.0,
    "ints": 9,
@@ -109,7 +125,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": 0.015,
-    "rank": 13,
+    "rank": 14,
     "of": 32,
     "reliability": 0.29
    },
@@ -130,7 +146,15 @@
     "Isolated EPA/play": 0.025,
     "Situation credit": 0.031,
     "Scheme tax (EPA/play)": 0.026,
-    "Rush EPA (total)": 31.4
+    "Rush EPA (total)": 31.4,
+    "Time to throw (NGS)": 2.97,
+    "Aggressiveness % (NGS)": 9.7,
+    "Air to sticks (NGS)": -2.4
+   },
+   "lenses": {
+    "Pure Thrower": 38,
+    "Ball Placement": 60,
+    "Make It Happen": 58
    },
    "twp": 21.0,
    "ints": 14,
@@ -149,7 +173,7 @@
    "reliability": 0.6,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.091,
+    "lift": 0.089,
     "rank": 3,
     "of": 32,
     "reliability": 0.17
@@ -171,7 +195,15 @@
     "Isolated EPA/play": 0.005,
     "Situation credit": 0.084,
     "Scheme tax (EPA/play)": 0.063,
-    "Rush EPA (total)": 50.7
+    "Rush EPA (total)": 50.7,
+    "Time to throw (NGS)": 2.88,
+    "Aggressiveness % (NGS)": 14.8,
+    "Air to sticks (NGS)": -0.2
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 63,
+    "Make It Happen": 63
    },
    "twp": 25.0,
    "ints": 18,
@@ -190,10 +222,10 @@
    "reliability": 0.6,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.012,
-    "rank": 14,
+    "lift": 0.02,
+    "rank": 11,
     "of": 32,
-    "reliability": 0.63
+    "reliability": 0.65
    },
    "factors": {
     "Efficiency": 69.4,
@@ -212,7 +244,15 @@
     "Isolated EPA/play": 0.062,
     "Situation credit": 0.083,
     "Scheme tax (EPA/play)": 0.061,
-    "Rush EPA (total)": -22.4
+    "Rush EPA (total)": -22.4,
+    "Time to throw (NGS)": 2.36,
+    "Aggressiveness % (NGS)": 12.5,
+    "Air to sticks (NGS)": -0.9
+   },
+   "lenses": {
+    "Pure Thrower": 55,
+    "Ball Placement": 57,
+    "Make It Happen": 51
    },
    "twp": 21.0,
    "ints": 14,
@@ -231,10 +271,10 @@
    "reliability": 0.59,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.058,
-    "rank": 4,
+    "lift": 0.022,
+    "rank": 10,
     "of": 32,
-    "reliability": 0.43
+    "reliability": 0.48
    },
    "factors": {
     "Efficiency": 59.5,
@@ -253,7 +293,15 @@
     "Isolated EPA/play": 0.006,
     "Situation credit": 0.065,
     "Scheme tax (EPA/play)": 0.037,
-    "Rush EPA (total)": 32.8
+    "Rush EPA (total)": 32.8,
+    "Time to throw (NGS)": 3.03,
+    "Aggressiveness % (NGS)": 15.4,
+    "Air to sticks (NGS)": -0.1
+   },
+   "lenses": {
+    "Pure Thrower": 61,
+    "Ball Placement": 56,
+    "Make It Happen": 60
    },
    "twp": 20.0,
    "ints": 15,
@@ -273,7 +321,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": -0.055,
-    "rank": 27,
+    "rank": 28,
     "of": 32,
     "reliability": 0.7
    },
@@ -294,7 +342,15 @@
     "Isolated EPA/play": 0.043,
     "Situation credit": 0.067,
     "Scheme tax (EPA/play)": 0.006,
-    "Rush EPA (total)": 6.8
+    "Rush EPA (total)": 6.8,
+    "Time to throw (NGS)": 3.04,
+    "Aggressiveness % (NGS)": 13.8,
+    "Air to sticks (NGS)": 0.3
+   },
+   "lenses": {
+    "Pure Thrower": 59,
+    "Ball Placement": 53,
+    "Make It Happen": 56
    },
    "twp": 16.0,
    "ints": 5,
@@ -313,10 +369,10 @@
    "reliability": 0.55,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.044,
-    "rank": 9,
+    "lift": 0.038,
+    "rank": 8,
     "of": 32,
-    "reliability": 0.51
+    "reliability": 0.55
    },
    "factors": {
     "Efficiency": 59.9,
@@ -335,7 +391,15 @@
     "Isolated EPA/play": 0.005,
     "Situation credit": 0.083,
     "Scheme tax (EPA/play)": 0.031,
-    "Rush EPA (total)": 18.2
+    "Rush EPA (total)": 18.2,
+    "Time to throw (NGS)": 2.95,
+    "Aggressiveness % (NGS)": 11.4,
+    "Air to sticks (NGS)": -0.5
+   },
+   "lenses": {
+    "Pure Thrower": 56,
+    "Ball Placement": 54,
+    "Make It Happen": 49
    },
    "twp": 13.0,
    "ints": 7,
@@ -354,8 +418,8 @@
    "reliability": 0.58,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.003,
-    "rank": 16,
+    "lift": 0.004,
+    "rank": 15,
     "of": 32,
     "reliability": 0.48
    },
@@ -376,7 +440,15 @@
     "Isolated EPA/play": 0.024,
     "Situation credit": 0.05,
     "Scheme tax (EPA/play)": 0.024,
-    "Rush EPA (total)": 4.2
+    "Rush EPA (total)": 4.2,
+    "Time to throw (NGS)": 2.68,
+    "Aggressiveness % (NGS)": 12.9,
+    "Air to sticks (NGS)": -0.8
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 50,
+    "Make It Happen": 53
    },
    "twp": 13.0,
    "ints": 11,
@@ -395,7 +467,7 @@
    "reliability": 0.55,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.001,
+    "lift": -0.0,
     "rank": 17,
     "of": 32,
     "reliability": 0.4
@@ -417,7 +489,15 @@
     "Isolated EPA/play": 0.018,
     "Situation credit": 0.02,
     "Scheme tax (EPA/play)": 0.02,
-    "Rush EPA (total)": 10.4
+    "Rush EPA (total)": 10.4,
+    "Time to throw (NGS)": 2.8,
+    "Aggressiveness % (NGS)": 16.7,
+    "Air to sticks (NGS)": -0.8
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 52,
+    "Make It Happen": 52
    },
    "twp": 18.0,
    "ints": 7,
@@ -436,8 +516,8 @@
    "reliability": 0.45,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.028,
-    "rank": 22,
+    "lift": -0.035,
+    "rank": 25,
     "of": 32,
     "reliability": 0.81
    },
@@ -458,7 +538,15 @@
     "Isolated EPA/play": 0.013,
     "Situation credit": 0.103,
     "Scheme tax (EPA/play)": -0.001,
-    "Rush EPA (total)": 1.9
+    "Rush EPA (total)": 1.9,
+    "Time to throw (NGS)": 2.86,
+    "Aggressiveness % (NGS)": 13.8,
+    "Air to sticks (NGS)": -1.3
+   },
+   "lenses": {
+    "Pure Thrower": 58,
+    "Ball Placement": 60,
+    "Make It Happen": 52
    },
    "twp": 8.0,
    "ints": 5,
@@ -499,7 +587,15 @@
     "Isolated EPA/play": 0.006,
     "Situation credit": 0.059,
     "Scheme tax (EPA/play)": 0.064,
-    "Rush EPA (total)": -7.0
+    "Rush EPA (total)": -7.0,
+    "Time to throw (NGS)": 2.72,
+    "Aggressiveness % (NGS)": 12.9,
+    "Air to sticks (NGS)": -1.6
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 55,
+    "Make It Happen": 52
    },
    "twp": 18.0,
    "ints": 12,
@@ -518,8 +614,8 @@
    "reliability": 0.59,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.033,
-    "rank": 24,
+    "lift": -0.028,
+    "rank": 23,
     "of": 32,
     "reliability": 0.82
    },
@@ -540,7 +636,15 @@
     "Isolated EPA/play": 0.021,
     "Situation credit": 0.034,
     "Scheme tax (EPA/play)": -0.007,
-    "Rush EPA (total)": -6.3
+    "Rush EPA (total)": -6.3,
+    "Time to throw (NGS)": 2.69,
+    "Aggressiveness % (NGS)": 14.8,
+    "Air to sticks (NGS)": -0.7
+   },
+   "lenses": {
+    "Pure Thrower": 60,
+    "Ball Placement": 59,
+    "Make It Happen": 51
    },
    "twp": 11.0,
    "ints": 8,
@@ -559,8 +663,8 @@
    "reliability": 0.6,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.045,
-    "rank": 8,
+    "lift": 0.047,
+    "rank": 7,
     "of": 32,
     "reliability": 0.64
    },
@@ -581,7 +685,15 @@
     "Isolated EPA/play": 0.03,
     "Situation credit": 0.061,
     "Scheme tax (EPA/play)": 0.054,
-    "Rush EPA (total)": 0.2
+    "Rush EPA (total)": 0.2,
+    "Time to throw (NGS)": 2.77,
+    "Aggressiveness % (NGS)": 16.2,
+    "Air to sticks (NGS)": -0.0
+   },
+   "lenses": {
+    "Pure Thrower": 55,
+    "Ball Placement": 57,
+    "Make It Happen": 57
    },
    "twp": 20.0,
    "ints": 11,
@@ -600,8 +712,8 @@
    "reliability": 0.55,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.013,
-    "rank": 18,
+    "lift": -0.011,
+    "rank": 19,
     "of": 32,
     "reliability": 0.75
    },
@@ -622,7 +734,15 @@
     "Isolated EPA/play": -0.0,
     "Situation credit": -0.023,
     "Scheme tax (EPA/play)": -0.007,
-    "Rush EPA (total)": 20.4
+    "Rush EPA (total)": 20.4,
+    "Time to throw (NGS)": 3.06,
+    "Aggressiveness % (NGS)": 12.3,
+    "Air to sticks (NGS)": -1.5
+   },
+   "lenses": {
+    "Pure Thrower": 45,
+    "Ball Placement": 56,
+    "Make It Happen": 54
    },
    "twp": 16.0,
    "ints": 8,
@@ -641,8 +761,8 @@
    "reliability": 0.4,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.034,
-    "rank": 10,
+    "lift": 0.036,
+    "rank": 9,
     "of": 32,
     "reliability": 0.63
    },
@@ -663,7 +783,15 @@
     "Isolated EPA/play": 0.016,
     "Situation credit": 0.031,
     "Scheme tax (EPA/play)": 0.041,
-    "Rush EPA (total)": 8.4
+    "Rush EPA (total)": 8.4,
+    "Time to throw (NGS)": 2.73,
+    "Aggressiveness % (NGS)": 16.5,
+    "Air to sticks (NGS)": -2.5
+   },
+   "lenses": {
+    "Pure Thrower": 53,
+    "Ball Placement": 54,
+    "Make It Happen": 48
    },
    "twp": 10.0,
    "ints": 7,
@@ -682,8 +810,8 @@
    "reliability": 0.49,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.034,
-    "rank": 10,
+    "lift": 0.036,
+    "rank": 9,
     "of": 32,
     "reliability": 0.63
    },
@@ -704,7 +832,15 @@
     "Isolated EPA/play": -0.002,
     "Situation credit": -0.0,
     "Scheme tax (EPA/play)": 0.018,
-    "Rush EPA (total)": 4.1
+    "Rush EPA (total)": 4.1,
+    "Time to throw (NGS)": 2.54,
+    "Aggressiveness % (NGS)": 11.5,
+    "Air to sticks (NGS)": -1.8
+   },
+   "lenses": {
+    "Pure Thrower": 46,
+    "Ball Placement": 55,
+    "Make It Happen": 54
    },
    "twp": 11.0,
    "ints": 6,
@@ -724,7 +860,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": 0.051,
-    "rank": 6,
+    "rank": 5,
     "of": 32,
     "reliability": 0.69
    },
@@ -745,7 +881,15 @@
     "Isolated EPA/play": -0.012,
     "Situation credit": 0.076,
     "Scheme tax (EPA/play)": 0.018,
-    "Rush EPA (total)": 8.0
+    "Rush EPA (total)": 8.0,
+    "Time to throw (NGS)": 2.71,
+    "Aggressiveness % (NGS)": 16.8,
+    "Air to sticks (NGS)": -0.1
+   },
+   "lenses": {
+    "Pure Thrower": 55,
+    "Ball Placement": 50,
+    "Make It Happen": 53
    },
    "twp": 22.0,
    "ints": 10,
@@ -764,10 +908,10 @@
    "reliability": 0.57,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.023,
-    "rank": 11,
+    "lift": 0.019,
+    "rank": 13,
     "of": 32,
-    "reliability": 0.67
+    "reliability": 0.68
    },
    "factors": {
     "Efficiency": 56.7,
@@ -786,7 +930,15 @@
     "Isolated EPA/play": 0.018,
     "Situation credit": 0.014,
     "Scheme tax (EPA/play)": 0.032,
-    "Rush EPA (total)": 1.9
+    "Rush EPA (total)": 1.9,
+    "Time to throw (NGS)": 2.84,
+    "Aggressiveness % (NGS)": 14.6,
+    "Air to sticks (NGS)": -1.1
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 50,
+    "Make It Happen": 50
    },
    "twp": 20.0,
    "ints": 9,
@@ -805,8 +957,8 @@
    "reliability": 0.57,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.01,
-    "rank": 15,
+    "lift": 0.003,
+    "rank": 16,
     "of": 32,
     "reliability": 0.83
    },
@@ -827,7 +979,15 @@
     "Isolated EPA/play": -0.003,
     "Situation credit": -0.017,
     "Scheme tax (EPA/play)": 0.007,
-    "Rush EPA (total)": 5.8
+    "Rush EPA (total)": 5.8,
+    "Time to throw (NGS)": 2.73,
+    "Aggressiveness % (NGS)": 15.7,
+    "Air to sticks (NGS)": -1.2
+   },
+   "lenses": {
+    "Pure Thrower": 48,
+    "Ball Placement": 51,
+    "Make It Happen": 53
    },
    "twp": 23.0,
    "ints": 9,
@@ -847,7 +1007,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": 0.051,
-    "rank": 7,
+    "rank": 6,
     "of": 32,
     "reliability": 0.47
    },
@@ -868,7 +1028,15 @@
     "Isolated EPA/play": -0.02,
     "Situation credit": 0.003,
     "Scheme tax (EPA/play)": 0.017,
-    "Rush EPA (total)": -5.8
+    "Rush EPA (total)": -5.8,
+    "Time to throw (NGS)": 2.51,
+    "Aggressiveness % (NGS)": 14.0,
+    "Air to sticks (NGS)": -0.5
+   },
+   "lenses": {
+    "Pure Thrower": 53,
+    "Ball Placement": 53,
+    "Make It Happen": 53
    },
    "twp": 22.0,
    "ints": 14,
@@ -887,10 +1055,10 @@
    "reliability": 0.42,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.034,
-    "rank": 25,
+    "lift": -0.03,
+    "rank": 24,
     "of": 32,
-    "reliability": 0.78
+    "reliability": 0.79
    },
    "factors": {
     "Efficiency": 49.1,
@@ -909,7 +1077,15 @@
     "Isolated EPA/play": -0.005,
     "Situation credit": -0.027,
     "Scheme tax (EPA/play)": -0.025,
-    "Rush EPA (total)": 10.2
+    "Rush EPA (total)": 10.2,
+    "Time to throw (NGS)": 2.8,
+    "Aggressiveness % (NGS)": 15.3,
+    "Air to sticks (NGS)": -2.3
+   },
+   "lenses": {
+    "Pure Thrower": 44,
+    "Ball Placement": 44,
+    "Make It Happen": 56
    },
    "twp": 8.0,
    "ints": 5,
@@ -928,8 +1104,8 @@
    "reliability": 0.31,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.062,
-    "rank": 28,
+    "lift": -0.063,
+    "rank": 29,
     "of": 32,
     "reliability": 0.84
    },
@@ -950,7 +1126,15 @@
     "Isolated EPA/play": -0.01,
     "Situation credit": -0.049,
     "Scheme tax (EPA/play)": -0.038,
-    "Rush EPA (total)": -0.4
+    "Rush EPA (total)": -0.4,
+    "Time to throw (NGS)": 2.94,
+    "Aggressiveness % (NGS)": 16.0,
+    "Air to sticks (NGS)": -0.9
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 53,
+    "Make It Happen": 53
    },
    "twp": 11.0,
    "ints": 9,
@@ -969,8 +1153,8 @@
    "reliability": 0.39,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.095,
-    "rank": 31,
+    "lift": -0.088,
+    "rank": 30,
     "of": 32,
     "reliability": 0.81
    },
@@ -991,7 +1175,15 @@
     "Isolated EPA/play": 0.001,
     "Situation credit": -0.053,
     "Scheme tax (EPA/play)": -0.035,
-    "Rush EPA (total)": 4.0
+    "Rush EPA (total)": 4.0,
+    "Time to throw (NGS)": 2.69,
+    "Aggressiveness % (NGS)": 13.9,
+    "Air to sticks (NGS)": -1.1
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 47,
+    "Make It Happen": 53
    },
    "twp": 15.0,
    "ints": 7,
@@ -1010,8 +1202,8 @@
    "reliability": 0.28,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.028,
-    "rank": 22,
+    "lift": -0.035,
+    "rank": 25,
     "of": 32,
     "reliability": 0.81
    },
@@ -1032,7 +1224,15 @@
     "Isolated EPA/play": 0.003,
     "Situation credit": 0.079,
     "Scheme tax (EPA/play)": -0.004,
-    "Rush EPA (total)": -1.3
+    "Rush EPA (total)": -1.3,
+    "Time to throw (NGS)": 3.07,
+    "Aggressiveness % (NGS)": 16.9,
+    "Air to sticks (NGS)": 0.4
+   },
+   "lenses": {
+    "Pure Thrower": 58,
+    "Ball Placement": 57,
+    "Make It Happen": 60
    },
    "twp": 11.0,
    "ints": 8,
@@ -1051,10 +1251,10 @@
    "reliability": 0.32,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.062,
-    "rank": 29,
+    "lift": -0.051,
+    "rank": 27,
     "of": 32,
-    "reliability": 0.79
+    "reliability": 0.8
    },
    "factors": {
     "Efficiency": 54.7,
@@ -1073,7 +1273,15 @@
     "Isolated EPA/play": 0.007,
     "Situation credit": 0.015,
     "Scheme tax (EPA/play)": -0.013,
-    "Rush EPA (total)": -1.0
+    "Rush EPA (total)": -1.0,
+    "Time to throw (NGS)": 2.8,
+    "Aggressiveness % (NGS)": 11.1,
+    "Air to sticks (NGS)": -0.7
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 49,
+    "Make It Happen": 48
    },
    "twp": 4.0,
    "ints": 3,
@@ -1092,7 +1300,7 @@
    "reliability": 0.32,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.124,
+    "lift": -0.121,
     "rank": 32,
     "of": 32,
     "reliability": 0.83
@@ -1114,7 +1322,15 @@
     "Isolated EPA/play": -0.017,
     "Situation credit": -0.02,
     "Scheme tax (EPA/play)": -0.067,
-    "Rush EPA (total)": 5.0
+    "Rush EPA (total)": 5.0,
+    "Time to throw (NGS)": 3.06,
+    "Aggressiveness % (NGS)": 15.8,
+    "Air to sticks (NGS)": -0.4
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 51,
+    "Make It Happen": 47
    },
    "twp": 7.0,
    "ints": 4,
@@ -1133,7 +1349,7 @@
    "reliability": 0.35,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.124,
+    "lift": -0.121,
     "rank": 32,
     "of": 32,
     "reliability": 0.83
@@ -1155,7 +1371,15 @@
     "Isolated EPA/play": 0.013,
     "Situation credit": 0.013,
     "Scheme tax (EPA/play)": -0.028,
-    "Rush EPA (total)": 1.3
+    "Rush EPA (total)": 1.3,
+    "Time to throw (NGS)": 3.01,
+    "Aggressiveness % (NGS)": 19.1,
+    "Air to sticks (NGS)": 0.4
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 58,
+    "Make It Happen": 60
    },
    "twp": 14.0,
    "ints": 8,
@@ -1174,10 +1398,10 @@
    "reliability": 0.51,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.015,
-    "rank": 20,
+    "lift": -0.02,
+    "rank": 21,
     "of": 32,
-    "reliability": 0.8
+    "reliability": 0.81
    },
    "factors": {
     "Efficiency": 46.1,
@@ -1196,7 +1420,15 @@
     "Isolated EPA/play": -0.025,
     "Situation credit": -0.013,
     "Scheme tax (EPA/play)": -0.039,
-    "Rush EPA (total)": -3.3
+    "Rush EPA (total)": -3.3,
+    "Time to throw (NGS)": 2.7,
+    "Aggressiveness % (NGS)": 14.9,
+    "Air to sticks (NGS)": -0.7
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 50,
+    "Make It Happen": 51
    },
    "twp": 22.0,
    "ints": 12,
@@ -1215,8 +1447,8 @@
    "reliability": 0.51,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.014,
-    "rank": 19,
+    "lift": -0.009,
+    "rank": 18,
     "of": 32,
     "reliability": 0.74
    },
@@ -1237,7 +1469,15 @@
     "Isolated EPA/play": -0.006,
     "Situation credit": -0.071,
     "Scheme tax (EPA/play)": -0.015,
-    "Rush EPA (total)": 26.1
+    "Rush EPA (total)": 26.1,
+    "Time to throw (NGS)": 3.23,
+    "Aggressiveness % (NGS)": 12.2,
+    "Air to sticks (NGS)": -0.8
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 42,
+    "Make It Happen": 53
    },
    "twp": 15.0,
    "ints": 9,
@@ -1256,8 +1496,8 @@
    "reliability": 0.27,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.014,
-    "rank": 19,
+    "lift": -0.009,
+    "rank": 18,
     "of": 32,
     "reliability": 0.74
    },
@@ -1278,7 +1518,15 @@
     "Isolated EPA/play": -0.015,
     "Situation credit": -0.135,
     "Scheme tax (EPA/play)": -0.028,
-    "Rush EPA (total)": 11.7
+    "Rush EPA (total)": 11.7,
+    "Time to throw (NGS)": 2.89,
+    "Aggressiveness % (NGS)": 12.6,
+    "Air to sticks (NGS)": -2.2
+   },
+   "lenses": {
+    "Pure Thrower": 40,
+    "Ball Placement": 48,
+    "Make It Happen": 53
    },
    "twp": 8.0,
    "ints": 6,
@@ -1297,10 +1545,10 @@
    "reliability": 0.35,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.062,
-    "rank": 29,
+    "lift": -0.051,
+    "rank": 27,
     "of": 32,
-    "reliability": 0.79
+    "reliability": 0.8
    },
    "factors": {
     "Efficiency": 48.8,
@@ -1319,7 +1567,15 @@
     "Isolated EPA/play": -0.018,
     "Situation credit": -0.16,
     "Scheme tax (EPA/play)": -0.051,
-    "Rush EPA (total)": -4.6
+    "Rush EPA (total)": -4.6,
+    "Time to throw (NGS)": 2.99,
+    "Aggressiveness % (NGS)": 10.1,
+    "Air to sticks (NGS)": -3.8
+   },
+   "lenses": {
+    "Pure Thrower": 40,
+    "Ball Placement": 42,
+    "Make It Happen": 44
    },
    "twp": 4.0,
    "ints": 3,
@@ -1338,7 +1594,7 @@
    "reliability": 0.47,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.018,
+    "lift": 0.02,
     "rank": 12,
     "of": 32,
     "reliability": 0.81
@@ -1360,7 +1616,15 @@
     "Isolated EPA/play": -0.021,
     "Situation credit": -0.087,
     "Scheme tax (EPA/play)": -0.009,
-    "Rush EPA (total)": 4.9
+    "Rush EPA (total)": 4.9,
+    "Time to throw (NGS)": 2.81,
+    "Aggressiveness % (NGS)": 20.1,
+    "Air to sticks (NGS)": -1.5
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 48,
+    "Make It Happen": 48
    },
    "twp": 12.0,
    "ints": 4,
@@ -1379,8 +1643,8 @@
    "reliability": 0.48,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.062,
-    "rank": 28,
+    "lift": -0.063,
+    "rank": 29,
     "of": 32,
     "reliability": 0.84
    },
@@ -1401,7 +1665,15 @@
     "Isolated EPA/play": -0.017,
     "Situation credit": 0.02,
     "Scheme tax (EPA/play)": -0.051,
-    "Rush EPA (total)": 0.6
+    "Rush EPA (total)": 0.6,
+    "Time to throw (NGS)": 2.8,
+    "Aggressiveness % (NGS)": 15.7,
+    "Air to sticks (NGS)": -1.6
+   },
+   "lenses": {
+    "Pure Thrower": 45,
+    "Ball Placement": 48,
+    "Make It Happen": 44
    },
    "twp": 12.0,
    "ints": 7,
@@ -1420,8 +1692,8 @@
    "reliability": 0.6,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.093,
-    "rank": 30,
+    "lift": -0.095,
+    "rank": 31,
     "of": 32,
     "reliability": 0.66
    },
@@ -1442,7 +1714,15 @@
     "Isolated EPA/play": -0.053,
     "Situation credit": -0.107,
     "Scheme tax (EPA/play)": -0.108,
-    "Rush EPA (total)": 24.2
+    "Rush EPA (total)": 24.2,
+    "Time to throw (NGS)": 2.9,
+    "Aggressiveness % (NGS)": 11.6,
+    "Air to sticks (NGS)": -1.5
+   },
+   "lenses": {
+    "Pure Thrower": 44,
+    "Ball Placement": 42,
+    "Make It Happen": 48
    },
    "twp": 20.0,
    "ints": 10,
@@ -1461,8 +1741,8 @@
    "reliability": 0.41,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.095,
-    "rank": 31,
+    "lift": -0.088,
+    "rank": 30,
     "of": 32,
     "reliability": 0.81
    },
@@ -1483,7 +1763,15 @@
     "Isolated EPA/play": -0.011,
     "Situation credit": 0.026,
     "Scheme tax (EPA/play)": -0.061,
-    "Rush EPA (total)": -3.3
+    "Rush EPA (total)": -3.3,
+    "Time to throw (NGS)": 2.85,
+    "Aggressiveness % (NGS)": 15.7,
+    "Air to sticks (NGS)": 1.4
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 50,
+    "Make It Happen": 47
    },
    "twp": 16.0,
    "ints": 4,
@@ -1502,8 +1790,8 @@
    "reliability": 0.37,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.029,
-    "rank": 23,
+    "lift": -0.026,
+    "rank": 22,
     "of": 32,
     "reliability": 0.78
    },
@@ -1524,7 +1812,15 @@
     "Isolated EPA/play": -0.049,
     "Situation credit": -0.222,
     "Scheme tax (EPA/play)": -0.077,
-    "Rush EPA (total)": 6.2
+    "Rush EPA (total)": 6.2,
+    "Time to throw (NGS)": 2.74,
+    "Aggressiveness % (NGS)": 19.8,
+    "Air to sticks (NGS)": -1.3
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 45,
+    "Make It Happen": 42
    },
    "twp": 11.0,
    "ints": 9,
@@ -1543,10 +1839,10 @@
    "reliability": 0.26,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.015,
-    "rank": 20,
+    "lift": -0.02,
+    "rank": 21,
     "of": 32,
-    "reliability": 0.8
+    "reliability": 0.81
    },
    "factors": {
     "Efficiency": 40.2,
@@ -1565,7 +1861,15 @@
     "Isolated EPA/play": -0.006,
     "Situation credit": 0.015,
     "Scheme tax (EPA/play)": -0.019,
-    "Rush EPA (total)": 7.5
+    "Rush EPA (total)": 7.5,
+    "Time to throw (NGS)": 2.88,
+    "Aggressiveness % (NGS)": 13.2,
+    "Air to sticks (NGS)": -0.4
+   },
+   "lenses": {
+    "Pure Thrower": 41,
+    "Ball Placement": 45,
+    "Make It Happen": 42
    },
    "twp": 10.0,
    "ints": 4,
@@ -1584,8 +1888,8 @@
    "reliability": 0.48,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.029,
-    "rank": 23,
+    "lift": -0.026,
+    "rank": 22,
     "of": 32,
     "reliability": 0.78
    },
@@ -1606,7 +1910,15 @@
     "Isolated EPA/play": -0.03,
     "Situation credit": -0.068,
     "Scheme tax (EPA/play)": -0.051,
-    "Rush EPA (total)": -3.7
+    "Rush EPA (total)": -3.7,
+    "Time to throw (NGS)": 2.46,
+    "Aggressiveness % (NGS)": 18.6,
+    "Air to sticks (NGS)": -1.7
+   },
+   "lenses": {
+    "Pure Thrower": 44,
+    "Ball Placement": 52,
+    "Make It Happen": 46
    },
    "twp": 26.0,
    "ints": 12,
@@ -1625,10 +1937,10 @@
    "reliability": 0.53,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.034,
-    "rank": 25,
+    "lift": -0.03,
+    "rank": 24,
     "of": 32,
-    "reliability": 0.78
+    "reliability": 0.79
    },
    "factors": {
     "Efficiency": 40.2,
@@ -1647,7 +1959,15 @@
     "Isolated EPA/play": -0.048,
     "Situation credit": -0.064,
     "Scheme tax (EPA/play)": -0.069,
-    "Rush EPA (total)": 16.3
+    "Rush EPA (total)": 16.3,
+    "Time to throw (NGS)": 2.95,
+    "Aggressiveness % (NGS)": 15.6,
+    "Air to sticks (NGS)": -1.3
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 47,
+    "Make It Happen": 51
    },
    "twp": 22.0,
    "ints": 10,
@@ -1666,7 +1986,7 @@
    "reliability": 0.23,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.124,
+    "lift": -0.121,
     "rank": 32,
     "of": 32,
     "reliability": 0.83
@@ -1690,6 +2010,11 @@
     "Scheme tax (EPA/play)": -0.048,
     "Rush EPA (total)": 2.5
    },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 43,
+    "Make It Happen": 47
+   },
    "twp": 8.0,
    "ints": 4,
    "luck": 0.6
@@ -1707,7 +2032,7 @@
    "reliability": 0.22,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.018,
+    "lift": 0.02,
     "rank": 12,
     "of": 32,
     "reliability": 0.81
@@ -1731,6 +2056,11 @@
     "Scheme tax (EPA/play)": -0.044,
     "Rush EPA (total)": -1.0
    },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 49,
+    "Make It Happen": 44
+   },
    "twp": 9.0,
    "ints": 5,
    "luck": 0.2
@@ -1748,10 +2078,10 @@
    "reliability": 0.32,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.062,
-    "rank": 29,
+    "lift": -0.051,
+    "rank": 27,
     "of": 32,
-    "reliability": 0.79
+    "reliability": 0.8
    },
    "factors": {
     "Efficiency": 39.9,
@@ -1770,7 +2100,15 @@
     "Isolated EPA/play": -0.038,
     "Situation credit": -0.2,
     "Scheme tax (EPA/play)": -0.084,
-    "Rush EPA (total)": 3.0
+    "Rush EPA (total)": 3.0,
+    "Time to throw (NGS)": 2.73,
+    "Aggressiveness % (NGS)": 10.0,
+    "Air to sticks (NGS)": -2.6
+   },
+   "lenses": {
+    "Pure Thrower": 43,
+    "Ball Placement": 47,
+    "Make It Happen": 53
    },
    "twp": 8.0,
    "ints": 6,
@@ -1789,8 +2127,8 @@
    "reliability": 0.63,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.017,
-    "rank": 21,
+    "lift": -0.016,
+    "rank": 20,
     "of": 32,
     "reliability": 0.81
    },
@@ -1811,7 +2149,15 @@
     "Isolated EPA/play": -0.033,
     "Situation credit": -0.076,
     "Scheme tax (EPA/play)": -0.044,
-    "Rush EPA (total)": 22.4
+    "Rush EPA (total)": 22.4,
+    "Time to throw (NGS)": 2.82,
+    "Aggressiveness % (NGS)": 15.0,
+    "Air to sticks (NGS)": -1.3
+   },
+   "lenses": {
+    "Pure Thrower": 47,
+    "Ball Placement": 47,
+    "Make It Happen": 52
    },
    "twp": 32.0,
    "ints": 21,
@@ -1830,7 +2176,7 @@
    "reliability": 0.51,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.051,
+    "lift": -0.04,
     "rank": 26,
     "of": 32,
     "reliability": 0.84
@@ -1852,7 +2198,15 @@
     "Isolated EPA/play": -0.044,
     "Situation credit": -0.125,
     "Scheme tax (EPA/play)": -0.077,
-    "Rush EPA (total)": -10.1
+    "Rush EPA (total)": -10.1,
+    "Time to throw (NGS)": 2.91,
+    "Aggressiveness % (NGS)": 18.8,
+    "Air to sticks (NGS)": -1.9
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 45,
+    "Make It Happen": 40
    },
    "twp": 8.0,
    "ints": 7,
@@ -1871,7 +2225,7 @@
    "reliability": 0.32,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.001,
+    "lift": -0.0,
     "rank": 17,
     "of": 32,
     "reliability": 0.4
@@ -1893,7 +2247,15 @@
     "Isolated EPA/play": -0.025,
     "Situation credit": -0.107,
     "Scheme tax (EPA/play)": -0.04,
-    "Rush EPA (total)": 6.7
+    "Rush EPA (total)": 6.7,
+    "Time to throw (NGS)": 2.82,
+    "Aggressiveness % (NGS)": 16.1,
+    "Air to sticks (NGS)": -1.9
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 44,
+    "Make It Happen": 34
    },
    "twp": 5.0,
    "ints": 1,
@@ -1912,7 +2274,7 @@
    "reliability": 0.29,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.051,
+    "lift": -0.04,
     "rank": 26,
     "of": 32,
     "reliability": 0.84
@@ -1934,7 +2296,15 @@
     "Isolated EPA/play": -0.024,
     "Situation credit": -0.258,
     "Scheme tax (EPA/play)": -0.057,
-    "Rush EPA (total)": -2.0
+    "Rush EPA (total)": -2.0,
+    "Time to throw (NGS)": 2.53,
+    "Aggressiveness % (NGS)": 17.0,
+    "Air to sticks (NGS)": -3.8
+   },
+   "lenses": {
+    "Pure Thrower": 36,
+    "Ball Placement": 41,
+    "Make It Happen": 39
    },
    "twp": 5.0,
    "ints": 4,
@@ -1953,7 +2323,7 @@
    "reliability": 0.23,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.124,
+    "lift": -0.121,
     "rank": 32,
     "of": 32,
     "reliability": 0.83
@@ -1976,6 +2346,11 @@
     "Situation credit": -0.206,
     "Scheme tax (EPA/play)": -0.065,
     "Rush EPA (total)": -3.3
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 35,
+    "Make It Happen": 41
    },
    "twp": 7.0,
    "ints": 5,

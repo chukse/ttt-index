@@ -203,6 +203,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
     <option value="2024">2024</option>
     <option value="2023">2023</option>
     <option value="2022">2022</option>
+    <option value="all">All · 2022–26 (career)</option>
   </select>
   <input id="qsearch" type="search" placeholder="Search QB or team…" autocomplete="off">
   <span class="d" id="ctxd"></span>
@@ -279,7 +280,7 @@ function val(q,c){return c.t==='f'?q.factors[c.id]:c.t==='l'?(q.lenses?q.lenses[
 
 function loadSeason(year){
   // 2026 = live board (data/qbir.json); past seasons = backfilled data/qbir_<year>.json
-  const path = (year==='2026') ? 'data/qbir.json' : 'data/qbir_'+year+'.json';
+  const path = (year==='2026') ? 'data/qbir.json' : (year==='all') ? 'data/qbir_all.json' : 'data/qbir_'+year+'.json';
   fetch(path+'?t='+Date.now()).then(r=>r.json()).then(d=>{
     DATA=d;
     document.getElementById('boardh1').textContent=(d.meta.season)+' Quarterbacks';
@@ -310,7 +311,9 @@ function computeRanks(){
 
 function render(){
   const m=DATA.meta;
-  document.getElementById('ctxd').innerHTML=`<b>${m.n}</b> qualifiers · ≥100 dropbacks · leader <span class="go">${m.leader.replace(/^.*\./,'')} ${m.leader_grade}</span> · pool avg ${m.pool_avg_grade} · through Wk ${m.through_week}`;
+  document.getElementById('ctxd').innerHTML = m.rollup
+    ? `<b>${m.n}</b> quarterbacks · <b>2022–26 career</b>, dropback-weighted · ≥${m.min_career_db} career db · leader <span class="go">${m.leader.replace(/^.*\./,'')} ${m.leader_grade}</span> · pool avg ${m.pool_avg_grade}`
+    : `<b>${m.n}</b> qualifiers · ≥100 dropbacks · leader <span class="go">${m.leader.replace(/^.*\./,'')} ${m.leader_grade}</span> · pool avg ${m.pool_avg_grade} · through Wk ${m.through_week}`;
 
   let th=`<tr><th class="lt" data-s="rank">#</th><th class="lt" data-s="rank">Quarterback</th><th data-s="grade">QBIR</th><th data-s="val" title="Expected points of offense per game vs an average starter — situation-stripped. QBIR's AdjEM.">PTS/G</th><th class="colg" data-s="G">G</th>`+
     COLS.map(c=>`<th class="${c.grp?'grp':''}" data-s="${c.id}" title="${c.ti||c.id}">${c.ab}</th>`).join('')+
