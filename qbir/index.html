@@ -262,6 +262,9 @@ const FULL=["Efficiency","Mobility","Pressure","Carry","Track record","Availabil
 const COLS=[
   {id:"Efficiency",ab:"EFF",t:"f"},{id:"Mobility",ab:"MOB",t:"f"},{id:"Pressure",ab:"PRS",t:"f"},
   {id:"Carry",ab:"CAR",t:"f"},{id:"Track record",ab:"TRK",t:"f"},{id:"Availability",ab:"AVL",t:"f"},{id:"Env. help",ab:"ENV",t:"f"},
+  {id:"Pure Thrower",ab:"PURE",t:"l",grp:1,ti:"Pure Thrower — air-game passing skill: accuracy (CPOE) + value through the air before YAC + tight-window throws, minus turnover-worthy risk. Legs & receiver YAC stripped out. 50 = pool average. Proprietary, free data."},
+  {id:"Ball Placement",ab:"PLACE",t:"l",ti:"Ball Placement — did he put a CATCHABLE ball on the man (FTN catchable-ball rate), rewarded for doing it downfield. Independent of drops/expectation. 50 = pool average."},
+  {id:"Make It Happen",ab:"MIH",t:"l",ti:"Make It Happen — value created when the play breaks down: out-of-pocket throws, scrambles, money-down conversions & clutch, minus self-inflicted sacks. 50 = pool average."},
   {id:"Passer rating",ab:"RTG",t:"s",grp:1,fmt:v=>v.toFixed(1)},
   {id:"ANY/A",ab:"ANY/A",t:"s",fmt:v=>v.toFixed(2)},
 ];
@@ -272,7 +275,7 @@ document.getElementById('footstars').innerHTML=STAR+STAR+STAR+STAR+STAR;
 function tierClass(g){return g>=87?'t-elite':g>=79?'t-good':g>=72?'t-mid':'t-low'}
 function relLabel(r){return r>=.45?'solid':r>=.33?'fair':'small'}
 function rkClass(r){return r<=5?'r-top':r<=12?'r-good':r>=23?'r-low':'r-mid'}
-function val(q,c){return c.t==='f'?q.factors[c.id]:q.stats[c.id]}
+function val(q,c){return c.t==='f'?q.factors[c.id]:c.t==='l'?(q.lenses?q.lenses[c.id]:null):q.stats[c.id]}
 
 function loadSeason(year){
   // 2026 = live board (data/qbir.json); past seasons = backfilled data/qbir_<year>.json
@@ -283,7 +286,7 @@ function loadSeason(year){
     document.title=d.meta.season+' QBIR · Throw in the Towel';
     prep();computeRanks();render();
   }).catch(()=>{
-    document.getElementById('tbody').innerHTML='<tr><td colspan="16" style="padding:46px;text-align:center"><div style="font-family:var(--disp);font-weight:700;font-size:20px;text-transform:uppercase;color:var(--ink)">The board is off the air</div><div style="margin-top:6px;font-size:13px;color:var(--dim)">Couldn’t load the ratings — refresh in a moment.</div></td></tr>';
+    document.getElementById('tbody').innerHTML='<tr><td colspan="20" style="padding:46px;text-align:center"><div style="font-family:var(--disp);font-weight:700;font-size:20px;text-transform:uppercase;color:var(--ink)">The board is off the air</div><div style="margin-top:6px;font-size:13px;color:var(--dim)">Couldn’t load the ratings — refresh in a moment.</div></td></tr>';
   });
 }
 document.getElementById('yearsel').addEventListener('change',e=>loadSeason(e.target.value));
@@ -310,7 +313,7 @@ function render(){
   document.getElementById('ctxd').innerHTML=`<b>${m.n}</b> qualifiers · ≥100 dropbacks · leader <span class="go">${m.leader.replace(/^.*\./,'')} ${m.leader_grade}</span> · pool avg ${m.pool_avg_grade} · through Wk ${m.through_week}`;
 
   let th=`<tr><th class="lt" data-s="rank">#</th><th class="lt" data-s="rank">Quarterback</th><th data-s="grade">QBIR</th><th data-s="val" title="Expected points of offense per game vs an average starter — situation-stripped. QBIR's AdjEM.">PTS/G</th><th class="colg" data-s="G">G</th>`+
-    COLS.map(c=>`<th class="${c.grp?'grp':''}" data-s="${c.id}" title="${c.id}">${c.ab}</th>`).join('')+
+    COLS.map(c=>`<th class="${c.grp?'grp':''}" data-s="${c.id}" title="${c.ti||c.id}">${c.ab}</th>`).join('')+
     `<th class="grp" data-s="luck" title="Turnover luck — expected picks from his turnover-worthy throws minus actual picks. + = lucky (regression coming), − = unlucky (bounce-back due).">LUCK</th></tr>`;
   document.getElementById('thead').innerHTML=th;
   document.querySelectorAll('#thead th').forEach(h=>{
@@ -349,7 +352,7 @@ function render(){
       <td class="c-val ${q._val>=0?'pos':'neg'} num">${q._val==null?'—':(q._val>=0?'+':'')+q._val.toFixed(1)}${q._val==null?'':`<sup class="rk ${rkClass(RANK.val[q.id])}">${RANK.val[q.id]}</sup>`}</td>
       <td class="colg num">${q.games}</td>${cells}${luckCell}</tr>`;
   }).join('');
-  document.getElementById('tbody').innerHTML=rows||`<tr><td colspan="16" style="padding:40px;text-align:center;color:var(--faint)">No quarterback matches${QSEARCH?' “'+QSEARCH+'”':''}.</td></tr>`;
+  document.getElementById('tbody').innerHTML=rows||`<tr><td colspan="20" style="padding:40px;text-align:center;color:var(--faint)">No quarterback matches${QSEARCH?' “'+QSEARCH+'”':''}.</td></tr>`;
   document.querySelectorAll('#tbody tr[data-id]').forEach(tr=>tr.onclick=e=>{if(!e.target.closest('a'))openSheet(tr.getAttribute('data-id'))});
 }
 function qb(id){return DATA.qbs.find(q=>q.id===id)}
