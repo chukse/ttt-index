@@ -1,0 +1,2782 @@
+{
+ "meta": {
+  "title": "QBIR",
+  "subtitle": "QB Independent Rating",
+  "season": "2022\u201326",
+  "rollup": true,
+  "seasons": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "n": 61,
+  "leader": "P.Mahomes",
+  "leader_grade": 91.2,
+  "pool_avg_grade": 75.2,
+  "min_career_db": 300,
+  "rating_by": "Throw in the Towel"
+ },
+ "qbs": [
+  {
+   "id": "00-0033873",
+   "name": "P.Mahomes",
+   "last": "Mahomes",
+   "team": "KC",
+   "games": 70,
+   "db": 2695,
+   "grade": 91.2,
+   "qbir": 67.0,
+   "reliability": 0.87,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 61.2,
+    "Mobility": 62.9,
+    "Pressure": 60.2,
+    "Carry": 59.9,
+    "Track record": 65.1,
+    "Availability": 58.7,
+    "Env. help": 53.1
+   },
+   "stats": {
+    "Passer rating": 96.0,
+    "ANY/A": 7.36,
+    "CPOE": 2.3,
+    "TWP rate (FTN)": 0.031,
+    "Isolated EPA/play": 0.067,
+    "Scheme tax (EPA/play)": 0.017,
+    "Rush EPA (total)": 136.0
+   },
+   "lenses": {
+    "Pure Thrower": 43,
+    "Ball Placement": 54,
+    "Make It Happen": 59
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 1
+  },
+  {
+   "id": "00-0037834",
+   "name": "B.Purdy",
+   "last": "Purdy",
+   "team": "SF",
+   "games": 54,
+   "db": 1647,
+   "grade": 89.7,
+   "qbir": 64.7,
+   "reliability": 0.8,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 61.8,
+    "Mobility": 57.0,
+    "Pressure": 54.1,
+    "Carry": 56.4,
+    "Track record": 66.1,
+    "Availability": 52.8,
+    "Env. help": 58.1
+   },
+   "stats": {
+    "Passer rating": 104.8,
+    "ANY/A": 8.5,
+    "CPOE": 3.9,
+    "TWP rate (FTN)": 0.035,
+    "Isolated EPA/play": 0.01,
+    "Scheme tax (EPA/play)": 0.071,
+    "Rush EPA (total)": 69.7
+   },
+   "lenses": {
+    "Pure Thrower": 59,
+    "Ball Placement": 56,
+    "Make It Happen": 56
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 2
+  },
+  {
+   "id": "00-0034857",
+   "name": "J.Allen",
+   "last": "Allen",
+   "team": "BUF",
+   "games": 72,
+   "db": 2429,
+   "grade": 89.4,
+   "qbir": 64.4,
+   "reliability": 0.86,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 57.3,
+    "Mobility": 72.9,
+    "Pressure": 55.3,
+    "Carry": 56.5,
+    "Track record": 61.4,
+    "Availability": 59.7,
+    "Env. help": 56.5
+   },
+   "stats": {
+    "Passer rating": 98.1,
+    "ANY/A": 7.74,
+    "CPOE": 2.8,
+    "TWP rate (FTN)": 0.04,
+    "Isolated EPA/play": 0.009,
+    "Scheme tax (EPA/play)": 0.06,
+    "Rush EPA (total)": 216.8
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 57,
+    "Make It Happen": 61
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 3
+  },
+  {
+   "id": "00-0036442",
+   "name": "J.Burrow",
+   "last": "Burrow",
+   "team": "CIN",
+   "games": 58,
+   "db": 2299,
+   "grade": 88.8,
+   "qbir": 63.8,
+   "reliability": 0.85,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 64.0,
+    "Mobility": 52.3,
+    "Pressure": 56.8,
+    "Carry": 57.0,
+    "Track record": 58.8,
+    "Availability": 55.1,
+    "Env. help": 48.2
+   },
+   "stats": {
+    "Passer rating": 102.8,
+    "ANY/A": 7.61,
+    "CPOE": 4.7,
+    "TWP rate (FTN)": 0.023,
+    "Isolated EPA/play": 0.038,
+    "Scheme tax (EPA/play)": 0.029,
+    "Rush EPA (total)": 55.9
+   },
+   "lenses": {
+    "Pure Thrower": 56,
+    "Ball Placement": 59,
+    "Make It Happen": 59
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 4
+  },
+  {
+   "id": "00-0034796",
+   "name": "L.Jackson",
+   "last": "Jackson",
+   "team": "BAL",
+   "games": 63,
+   "db": 1780,
+   "grade": 86.7,
+   "qbir": 61.7,
+   "reliability": 0.82,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 60.1,
+    "Mobility": 59.7,
+    "Pressure": 56.0,
+    "Carry": 53.4,
+    "Track record": 58.0,
+    "Availability": 56.0,
+    "Env. help": 56.1
+   },
+   "stats": {
+    "Passer rating": 106.2,
+    "ANY/A": 8.62,
+    "CPOE": 2.9,
+    "TWP rate (FTN)": 0.029,
+    "Isolated EPA/play": 0.015,
+    "Scheme tax (EPA/play)": 0.043,
+    "Rush EPA (total)": 108.1
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 53,
+    "Make It Happen": 54
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 5
+  },
+  {
+   "id": "00-0033077",
+   "name": "D.Prescott",
+   "last": "Prescott",
+   "team": "DAL",
+   "games": 62,
+   "db": 2298,
+   "grade": 85.7,
+   "qbir": 60.7,
+   "reliability": 0.85,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 60.1,
+    "Mobility": 48.7,
+    "Pressure": 50.6,
+    "Carry": 55.0,
+    "Track record": 59.4,
+    "Availability": 56.9,
+    "Env. help": 51.8
+   },
+   "stats": {
+    "Passer rating": 97.1,
+    "ANY/A": 7.36,
+    "CPOE": 1.6,
+    "TWP rate (FTN)": 0.034,
+    "Isolated EPA/play": 0.028,
+    "Scheme tax (EPA/play)": 0.037,
+    "Rush EPA (total)": 37.1
+   },
+   "lenses": {
+    "Pure Thrower": 58,
+    "Ball Placement": 58,
+    "Make It Happen": 56
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 6
+  },
+  {
+   "id": "00-0036212",
+   "name": "T.Tagovailoa",
+   "last": "Tagovailoa",
+   "team": "MIA",
+   "games": 55,
+   "db": 1846,
+   "grade": 85.4,
+   "qbir": 60.4,
+   "reliability": 0.82,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 62.8,
+    "Mobility": 38.0,
+    "Pressure": 57.1,
+    "Carry": 59.0,
+    "Track record": 58.0,
+    "Availability": 55.1,
+    "Env. help": 51.7
+   },
+   "stats": {
+    "Passer rating": 99.3,
+    "ANY/A": 7.73,
+    "CPOE": 3.1,
+    "TWP rate (FTN)": 0.043,
+    "Isolated EPA/play": 0.046,
+    "Scheme tax (EPA/play)": 0.032,
+    "Rush EPA (total)": -25.7
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 58,
+    "Make It Happen": 54
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 7
+  },
+  {
+   "id": "00-0039851",
+   "name": "D.Maye",
+   "last": "Maye",
+   "team": "NE",
+   "games": 38,
+   "db": 1163,
+   "grade": 85.3,
+   "qbir": 60.3,
+   "reliability": 0.74,
+   "seasons_played": [
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 63.6,
+    "Mobility": 55.0,
+    "Pressure": 55.1,
+    "Carry": 57.4,
+    "Track record": 46.9,
+    "Availability": 58.3,
+    "Env. help": 62.2
+   },
+   "stats": {
+    "Passer rating": 102.5,
+    "ANY/A": 7.93,
+    "CPOE": 7.5,
+    "TWP rate (FTN)": 0.033,
+    "Isolated EPA/play": 0.072,
+    "Scheme tax (EPA/play)": -0.023,
+    "Rush EPA (total)": 48.0
+   },
+   "lenses": {
+    "Pure Thrower": 61,
+    "Ball Placement": 57,
+    "Make It Happen": 57
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 8
+  },
+  {
+   "id": "00-0036389",
+   "name": "J.Hurts",
+   "last": "Hurts",
+   "team": "PHI",
+   "games": 68,
+   "db": 2126,
+   "grade": 85.2,
+   "qbir": 60.2,
+   "reliability": 0.84,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 58.8,
+    "Mobility": 66.9,
+    "Pressure": 45.5,
+    "Carry": 55.1,
+    "Track record": 54.3,
+    "Availability": 57.7,
+    "Env. help": 57.2
+   },
+   "stats": {
+    "Passer rating": 96.6,
+    "ANY/A": 7.51,
+    "CPOE": 3.6,
+    "TWP rate (FTN)": 0.028,
+    "Isolated EPA/play": -0.003,
+    "Scheme tax (EPA/play)": 0.03,
+    "Rush EPA (total)": 170.8
+   },
+   "lenses": {
+    "Pure Thrower": 57,
+    "Ball Placement": 55,
+    "Make It Happen": 57
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 9
+  },
+  {
+   "id": "00-0036264",
+   "name": "J.Love",
+   "last": "Love",
+   "team": "GB",
+   "games": 55,
+   "db": 1839,
+   "grade": 84.7,
+   "qbir": 59.7,
+   "reliability": 0.82,
+   "seasons_played": [
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 59.8,
+    "Mobility": 47.3,
+    "Pressure": 57.0,
+    "Carry": 54.4,
+    "Track record": 54.5,
+    "Availability": 59.2,
+    "Env. help": 48.4
+   },
+   "stats": {
+    "Passer rating": 96.8,
+    "ANY/A": 7.72,
+    "CPOE": 1.7,
+    "TWP rate (FTN)": 0.032,
+    "Isolated EPA/play": 0.039,
+    "Scheme tax (EPA/play)": 0.035,
+    "Rush EPA (total)": 24.8
+   },
+   "lenses": {
+    "Pure Thrower": 55,
+    "Ball Placement": 58,
+    "Make It Happen": 55
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 10
+  },
+  {
+   "id": "00-0033106",
+   "name": "J.Goff",
+   "last": "Goff",
+   "team": "DET",
+   "games": 75,
+   "db": 2692,
+   "grade": 84.6,
+   "qbir": 59.6,
+   "reliability": 0.87,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 61.3,
+    "Mobility": 40.3,
+    "Pressure": 56.4,
+    "Carry": 51.5,
+    "Track record": 56.4,
+    "Availability": 61.1,
+    "Env. help": 57.1
+   },
+   "stats": {
+    "Passer rating": 104.1,
+    "ANY/A": 8.25,
+    "CPOE": 1.7,
+    "TWP rate (FTN)": 0.026,
+    "Isolated EPA/play": 0.011,
+    "Scheme tax (EPA/play)": 0.064,
+    "Rush EPA (total)": -19.6
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 55,
+    "Make It Happen": 53
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 11
+  },
+  {
+   "id": "00-0039163",
+   "name": "C.Stroud",
+   "last": "Stroud",
+   "team": "HOU",
+   "games": 53,
+   "db": 1822,
+   "grade": 82.0,
+   "qbir": 57.0,
+   "reliability": 0.82,
+   "seasons_played": [
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 56.7,
+    "Mobility": 48.9,
+    "Pressure": 53.7,
+    "Carry": 59.3,
+    "Track record": 52.9,
+    "Availability": 57.5,
+    "Env. help": 56.4
+   },
+   "stats": {
+    "Passer rating": 94.5,
+    "ANY/A": 7.68,
+    "CPOE": -0.1,
+    "TWP rate (FTN)": 0.028,
+    "Isolated EPA/play": 0.03,
+    "Scheme tax (EPA/play)": -0.022,
+    "Rush EPA (total)": 28.5
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 50,
+    "Make It Happen": 53
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 12
+  },
+  {
+   "id": "00-0036355",
+   "name": "J.Herbert",
+   "last": "Herbert",
+   "team": "LAC",
+   "games": 70,
+   "db": 2566,
+   "grade": 81.9,
+   "qbir": 56.9,
+   "reliability": 0.87,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 53.6,
+    "Mobility": 53.0,
+    "Pressure": 51.5,
+    "Carry": 57.4,
+    "Track record": 56.4,
+    "Availability": 59.0,
+    "Env. help": 49.5
+   },
+   "stats": {
+    "Passer rating": 93.0,
+    "ANY/A": 7.03,
+    "CPOE": 0.7,
+    "TWP rate (FTN)": 0.03,
+    "Isolated EPA/play": -0.001,
+    "Scheme tax (EPA/play)": 0.007,
+    "Rush EPA (total)": 64.6
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 52,
+    "Make It Happen": 53
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 13
+  },
+  {
+   "id": "00-0039910",
+   "name": "J.Daniels",
+   "last": "Daniels",
+   "team": "WAS",
+   "games": 29,
+   "db": 889,
+   "grade": 81.6,
+   "qbir": 56.6,
+   "reliability": 0.69,
+   "seasons_played": [
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 55.1,
+    "Mobility": 69.6,
+    "Pressure": 48.5,
+    "Carry": 49.0,
+    "Track record": 51.9,
+    "Availability": 52.1,
+    "Env. help": 49.8
+   },
+   "stats": {
+    "Passer rating": 96.6,
+    "ANY/A": 7.24,
+    "CPOE": 2.5,
+    "TWP rate (FTN)": 0.017,
+    "Isolated EPA/play": -0.007,
+    "Scheme tax (EPA/play)": -0.004,
+    "Rush EPA (total)": 81.6
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 53,
+    "Make It Happen": 55
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 14
+  },
+  {
+   "id": "00-0031280",
+   "name": "D.Carr",
+   "last": "Carr",
+   "team": "NO",
+   "games": 42,
+   "db": 1403,
+   "grade": 81.4,
+   "qbir": 56.4,
+   "reliability": 0.78,
+   "seasons_played": [
+    2022,
+    2023,
+    2024
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 56.7,
+    "Mobility": 43.4,
+    "Pressure": 57.4,
+    "Carry": 53.6,
+    "Track record": 54.7,
+    "Availability": 57.0,
+    "Env. help": 55.9
+   },
+   "stats": {
+    "Passer rating": 94.1,
+    "ANY/A": 7.22,
+    "CPOE": 0.8,
+    "TWP rate (FTN)": 0.033,
+    "Isolated EPA/play": 0.031,
+    "Scheme tax (EPA/play)": -0.015,
+    "Rush EPA (total)": -2.6
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 58,
+    "Make It Happen": 53
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 15
+  },
+  {
+   "id": "00-0019596",
+   "name": "T.Brady",
+   "last": "Brady",
+   "team": "TB",
+   "games": 17,
+   "db": 758,
+   "grade": 81.0,
+   "qbir": 56.0,
+   "reliability": 0.65,
+   "seasons_played": [
+    2022
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 51.3,
+    "Mobility": 40.5,
+    "Pressure": 52.7,
+    "Carry": 60.7,
+    "Track record": 59.4,
+    "Availability": 62.6,
+    "Env. help": 49.0
+   },
+   "stats": {
+    "Passer rating": 90.7,
+    "ANY/A": 6.55,
+    "CPOE": 0.5,
+    "TWP rate (FTN)": 0.043,
+    "Isolated EPA/play": -0.012,
+    "Scheme tax (EPA/play)": 0.032,
+    "Rush EPA (total)": -10.1
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 55,
+    "Make It Happen": 49
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 16
+  },
+  {
+   "id": "00-0026498",
+   "name": "M.Stafford",
+   "last": "Stafford",
+   "team": "LA",
+   "games": 65,
+   "db": 2360,
+   "grade": 80.9,
+   "qbir": 55.9,
+   "reliability": 0.86,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 56.1,
+    "Mobility": 41.6,
+    "Pressure": 54.7,
+    "Carry": 49.3,
+    "Track record": 55.5,
+    "Availability": 57.6,
+    "Env. help": 49.7
+   },
+   "stats": {
+    "Passer rating": 96.5,
+    "ANY/A": 7.57,
+    "CPOE": -0.3,
+    "TWP rate (FTN)": 0.029,
+    "Isolated EPA/play": 0.02,
+    "Scheme tax (EPA/play)": 0.005,
+    "Rush EPA (total)": -5.5
+   },
+   "lenses": {
+    "Pure Thrower": 53,
+    "Ball Placement": 52,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 17
+  },
+  {
+   "id": "00-0029701",
+   "name": "R.Tannehill",
+   "last": "Tannehill",
+   "team": "TEN",
+   "games": 21,
+   "db": 618,
+   "grade": 80.9,
+   "qbir": 55.9,
+   "reliability": 0.61,
+   "seasons_played": [
+    2022,
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 54.5,
+    "Mobility": 49.2,
+    "Pressure": 49.5,
+    "Carry": 53.1,
+    "Track record": 59.3,
+    "Availability": 48.5,
+    "Env. help": 44.7
+   },
+   "stats": {
+    "Passer rating": 87.8,
+    "ANY/A": 7.06,
+    "CPOE": 0.8,
+    "TWP rate (FTN)": 0.053,
+    "Isolated EPA/play": 0.042,
+    "Scheme tax (EPA/play)": -0.045,
+    "Rush EPA (total)": 10.8
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 49,
+    "Make It Happen": 50
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 18
+  },
+  {
+   "id": "00-0029604",
+   "name": "K.Cousins",
+   "last": "Cousins",
+   "team": "LV",
+   "games": 57,
+   "db": 2071,
+   "grade": 80.4,
+   "qbir": 55.4,
+   "reliability": 0.84,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 56.0,
+    "Mobility": 43.5,
+    "Pressure": 49.1,
+    "Carry": 52.4,
+    "Track record": 55.5,
+    "Availability": 54.7,
+    "Env. help": 51.4
+   },
+   "stats": {
+    "Passer rating": 93.6,
+    "ANY/A": 7.17,
+    "CPOE": 0.9,
+    "TWP rate (FTN)": 0.035,
+    "Isolated EPA/play": 0.011,
+    "Scheme tax (EPA/play)": -0.012,
+    "Rush EPA (total)": -0.8
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 54,
+    "Make It Happen": 49
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 19
+  },
+  {
+   "id": "00-0039732",
+   "name": "B.Nix",
+   "last": "Nix",
+   "team": "DEN",
+   "games": 42,
+   "db": 1492,
+   "grade": 79.7,
+   "qbir": 54.7,
+   "reliability": 0.79,
+   "seasons_played": [
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 51.8,
+    "Mobility": 53.0,
+    "Pressure": 59.3,
+    "Carry": 50.6,
+    "Track record": 51.0,
+    "Availability": 61.4,
+    "Env. help": 50.3
+   },
+   "stats": {
+    "Passer rating": 89.3,
+    "ANY/A": 6.5,
+    "CPOE": -0.8,
+    "TWP rate (FTN)": 0.033,
+    "Isolated EPA/play": 0.032,
+    "Scheme tax (EPA/play)": -0.004,
+    "Rush EPA (total)": 43.6
+   },
+   "lenses": {
+    "Pure Thrower": 43,
+    "Ball Placement": 51,
+    "Make It Happen": 55
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 20
+  },
+  {
+   "id": "00-0031345",
+   "name": "J.Garoppolo",
+   "last": "Garoppolo",
+   "team": "LV",
+   "games": 18,
+   "db": 509,
+   "grade": 79.4,
+   "qbir": 54.5,
+   "reliability": 0.56,
+   "seasons_played": [
+    2022,
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 52.2,
+    "Mobility": 43.7,
+    "Pressure": 54.4,
+    "Carry": 52.5,
+    "Track record": 63.0,
+    "Availability": 45.9,
+    "Env. help": 56.4
+   },
+   "stats": {
+    "Passer rating": 93.9,
+    "ANY/A": 7.3,
+    "CPOE": -1.4,
+    "TWP rate (FTN)": 0.055,
+    "Isolated EPA/play": 0.012,
+    "Scheme tax (EPA/play)": 0.027,
+    "Rush EPA (total)": -2.0
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 52,
+    "Make It Happen": 54
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 21
+  },
+  {
+   "id": "00-0034869",
+   "name": "S.Darnold",
+   "last": "Darnold",
+   "team": "SEA",
+   "games": 46,
+   "db": 1432,
+   "grade": 79.0,
+   "qbir": 54.1,
+   "reliability": 0.78,
+   "seasons_played": [
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 58.4,
+    "Mobility": 46.4,
+    "Pressure": 46.9,
+    "Carry": 53.5,
+    "Track record": 46.7,
+    "Availability": 57.2,
+    "Env. help": 54.6
+   },
+   "stats": {
+    "Passer rating": 97.3,
+    "ANY/A": 7.86,
+    "CPOE": 4.0,
+    "TWP rate (FTN)": 0.035,
+    "Isolated EPA/play": 0.019,
+    "Scheme tax (EPA/play)": 0.001,
+    "Rush EPA (total)": 18.2
+   },
+   "lenses": {
+    "Pure Thrower": 57,
+    "Ball Placement": 53,
+    "Make It Happen": 50
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 22
+  },
+  {
+   "id": "00-0040691",
+   "name": "J.Dart",
+   "last": "Dart",
+   "team": "NYG",
+   "games": 12,
+   "db": 375,
+   "grade": 78.0,
+   "qbir": 53.0,
+   "reliability": 0.48,
+   "seasons_played": [
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 50.2,
+    "Mobility": 71.5,
+    "Pressure": 39.2,
+    "Carry": 54.1,
+    "Track record": 50.0,
+    "Availability": 49.9,
+    "Env. help": 46.9
+   },
+   "stats": {
+    "Passer rating": 91.7,
+    "ANY/A": 6.68,
+    "CPOE": -0.2,
+    "TWP rate (FTN)": 0.027,
+    "Isolated EPA/play": 0.028,
+    "Scheme tax (EPA/play)": -0.033,
+    "Rush EPA (total)": 31.2
+   },
+   "lenses": {
+    "Pure Thrower": 46,
+    "Ball Placement": 47,
+    "Make It Happen": 50
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 23
+  },
+  {
+   "id": "00-0030565",
+   "name": "G.Smith",
+   "last": "Smith",
+   "team": "NYJ",
+   "games": 72,
+   "db": 2543,
+   "grade": 77.6,
+   "qbir": 52.6,
+   "reliability": 0.86,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 54.0,
+    "Mobility": 43.6,
+    "Pressure": 48.4,
+    "Carry": 50.7,
+    "Track record": 49.6,
+    "Availability": 59.9,
+    "Env. help": 53.3
+   },
+   "stats": {
+    "Passer rating": 94.3,
+    "ANY/A": 7.18,
+    "CPOE": 4.0,
+    "TWP rate (FTN)": 0.038,
+    "Isolated EPA/play": -0.011,
+    "Scheme tax (EPA/play)": 0.002,
+    "Rush EPA (total)": 3.9
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 53,
+    "Make It Happen": 49
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 24
+  },
+  {
+   "id": "00-0036971",
+   "name": "T.Lawrence",
+   "last": "Lawrence",
+   "team": "JAX",
+   "games": 67,
+   "db": 2333,
+   "grade": 77.0,
+   "qbir": 52.0,
+   "reliability": 0.85,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 51.8,
+    "Mobility": 46.1,
+    "Pressure": 54.8,
+    "Carry": 51.3,
+    "Track record": 47.3,
+    "Availability": 58.5,
+    "Env. help": 42.4
+   },
+   "stats": {
+    "Passer rating": 92.6,
+    "ANY/A": 7.23,
+    "CPOE": 0.4,
+    "TWP rate (FTN)": 0.036,
+    "Isolated EPA/play": -0.012,
+    "Scheme tax (EPA/play)": 0.021,
+    "Rush EPA (total)": 16.7
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 53,
+    "Make It Happen": 53
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 25
+  },
+  {
+   "id": "00-0023459",
+   "name": "A.Rodgers",
+   "last": "Rodgers",
+   "team": "PIT",
+   "games": 58,
+   "db": 2037,
+   "grade": 76.7,
+   "qbir": 51.7,
+   "reliability": 0.84,
+   "seasons_played": [
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 48.8,
+    "Mobility": 45.7,
+    "Pressure": 51.2,
+    "Carry": 44.4,
+    "Track record": 55.4,
+    "Availability": 61.1,
+    "Env. help": 50.5
+   },
+   "stats": {
+    "Passer rating": 91.1,
+    "ANY/A": 6.83,
+    "CPOE": -0.9,
+    "TWP rate (FTN)": 0.025,
+    "Isolated EPA/play": -0.018,
+    "Scheme tax (EPA/play)": 0.005,
+    "Rush EPA (total)": 17.4
+   },
+   "lenses": {
+    "Pure Thrower": 47,
+    "Ball Placement": 51,
+    "Make It Happen": 50
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 26
+  },
+  {
+   "id": "00-0034855",
+   "name": "B.Mayfield",
+   "last": "Mayfield",
+   "team": "TB",
+   "games": 68,
+   "db": 2300,
+   "grade": 76.6,
+   "qbir": 51.6,
+   "reliability": 0.85,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 49.2,
+    "Mobility": 53.6,
+    "Pressure": 51.1,
+    "Carry": 47.5,
+    "Track record": 50.6,
+    "Availability": 58.9,
+    "Env. help": 48.6
+   },
+   "stats": {
+    "Passer rating": 93.5,
+    "ANY/A": 7.04,
+    "CPOE": -0.7,
+    "TWP rate (FTN)": 0.036,
+    "Isolated EPA/play": -0.029,
+    "Scheme tax (EPA/play)": 0.022,
+    "Rush EPA (total)": 59.8
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 46,
+    "Make It Happen": 52
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 27
+  },
+  {
+   "id": "00-0035228",
+   "name": "K.Murray",
+   "last": "Murray",
+   "team": "MIN",
+   "games": 47,
+   "db": 1623,
+   "grade": 76.2,
+   "qbir": 51.2,
+   "reliability": 0.8,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 49.8,
+    "Mobility": 57.1,
+    "Pressure": 48.7,
+    "Carry": 52.8,
+    "Track record": 50.9,
+    "Availability": 50.2,
+    "Env. help": 51.9
+   },
+   "stats": {
+    "Passer rating": 89.9,
+    "ANY/A": 6.53,
+    "CPOE": 0.3,
+    "TWP rate (FTN)": 0.028,
+    "Isolated EPA/play": -0.002,
+    "Scheme tax (EPA/play)": -0.011,
+    "Rush EPA (total)": 68.4
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 53,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 28
+  },
+  {
+   "id": "00-0040743",
+   "name": "T.Shough",
+   "last": "Shough",
+   "team": "NO",
+   "games": 18,
+   "db": 644,
+   "grade": 76.1,
+   "qbir": 51.1,
+   "reliability": 0.62,
+   "seasons_played": [
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 52.0,
+    "Mobility": 50.0,
+    "Pressure": 50.4,
+    "Carry": 60.2,
+    "Track record": 47.7,
+    "Availability": 49.8,
+    "Env. help": 54.0
+   },
+   "stats": {
+    "Passer rating": 91.1,
+    "ANY/A": 6.71,
+    "CPOE": 0.8,
+    "TWP rate (FTN)": 0.028,
+    "Isolated EPA/play": 0.008,
+    "Scheme tax (EPA/play)": -0.014,
+    "Rush EPA (total)": 15.0
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 54,
+    "Make It Happen": 52
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 29
+  },
+  {
+   "id": "00-0029263",
+   "name": "R.Wilson",
+   "last": "Wilson",
+   "team": "NYG",
+   "games": 47,
+   "db": 1526,
+   "grade": 75.2,
+   "qbir": 50.2,
+   "reliability": 0.79,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 50.0,
+    "Mobility": 52.0,
+    "Pressure": 44.1,
+    "Carry": 48.8,
+    "Track record": 50.5,
+    "Availability": 53.5,
+    "Env. help": 53.9
+   },
+   "stats": {
+    "Passer rating": 90.9,
+    "ANY/A": 7.08,
+    "CPOE": 2.1,
+    "TWP rate (FTN)": 0.035,
+    "Isolated EPA/play": -0.029,
+    "Scheme tax (EPA/play)": -0.007,
+    "Rush EPA (total)": 37.5
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 50,
+    "Make It Happen": 47
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 30
+  },
+  {
+   "id": "00-0039918",
+   "name": "C.Williams",
+   "last": "Williams",
+   "team": "CHI",
+   "games": 38,
+   "db": 1366,
+   "grade": 74.0,
+   "qbir": 49.0,
+   "reliability": 0.77,
+   "seasons_played": [
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 49.2,
+    "Mobility": 49.5,
+    "Pressure": 49.4,
+    "Carry": 46.7,
+    "Track record": 44.7,
+    "Availability": 58.7,
+    "Env. help": 50.0
+   },
+   "stats": {
+    "Passer rating": 90.5,
+    "ANY/A": 7.07,
+    "CPOE": -0.7,
+    "TWP rate (FTN)": 0.023,
+    "Isolated EPA/play": -0.005,
+    "Scheme tax (EPA/play)": -0.028,
+    "Rush EPA (total)": 26.7
+   },
+   "lenses": {
+    "Pure Thrower": 47,
+    "Ball Placement": 47,
+    "Make It Happen": 52
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 31
+  },
+  {
+   "id": "00-0027973",
+   "name": "A.Dalton",
+   "last": "Dalton",
+   "team": "CAR",
+   "games": 20,
+   "db": 572,
+   "grade": 73.8,
+   "qbir": 48.8,
+   "reliability": 0.59,
+   "seasons_played": [
+    2022,
+    2024
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 53.3,
+    "Mobility": 43.5,
+    "Pressure": 49.5,
+    "Carry": 49.5,
+    "Track record": 44.4,
+    "Availability": 49.9,
+    "Env. help": 53.0
+   },
+   "stats": {
+    "Passer rating": 91.4,
+    "ANY/A": 6.86,
+    "CPOE": 0.1,
+    "TWP rate (FTN)": 0.038,
+    "Isolated EPA/play": 0.009,
+    "Scheme tax (EPA/play)": -0.026,
+    "Rush EPA (total)": -2.9
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 53,
+    "Make It Happen": 45
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 32
+  },
+  {
+   "id": "00-0038102",
+   "name": "K.Pickett",
+   "last": "Pickett",
+   "team": "PIT",
+   "games": 25,
+   "db": 764,
+   "grade": 73.8,
+   "qbir": 48.8,
+   "reliability": 0.66,
+   "seasons_played": [
+    2022,
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 47.8,
+    "Mobility": 52.6,
+    "Pressure": 47.7,
+    "Carry": 44.5,
+    "Track record": 48.4,
+    "Availability": 52.5,
+    "Env. help": 40.7
+   },
+   "stats": {
+    "Passer rating": 78.8,
+    "ANY/A": 5.9,
+    "CPOE": -0.5,
+    "TWP rate (FTN)": 0.035,
+    "Isolated EPA/play": -0.013,
+    "Scheme tax (EPA/play)": -0.0,
+    "Rush EPA (total)": 23.3
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 51,
+    "Make It Happen": 52
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 33
+  },
+  {
+   "id": "00-0035100",
+   "name": "J.Browning",
+   "last": "Browning",
+   "team": "CIN",
+   "games": 14,
+   "db": 402,
+   "grade": 73.3,
+   "qbir": 48.3,
+   "reliability": 0.5,
+   "seasons_played": [
+    2023,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 50.4,
+    "Mobility": 53.0,
+    "Pressure": 40.4,
+    "Carry": 42.1,
+    "Track record": 51.7,
+    "Availability": 40.6,
+    "Env. help": 39.1
+   },
+   "stats": {
+    "Passer rating": 89.3,
+    "ANY/A": 6.54,
+    "CPOE": 2.7,
+    "TWP rate (FTN)": 0.047,
+    "Isolated EPA/play": -0.025,
+    "Scheme tax (EPA/play)": 0.03,
+    "Rush EPA (total)": 12.2
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 53,
+    "Make It Happen": 45
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 34
+  },
+  {
+   "id": "00-0035289",
+   "name": "G.Minshew",
+   "last": "Minshew",
+   "team": "LV",
+   "games": 26,
+   "db": 860,
+   "grade": 73.2,
+   "qbir": 48.2,
+   "reliability": 0.68,
+   "seasons_played": [
+    2023,
+    2024
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 45.8,
+    "Mobility": 44.2,
+    "Pressure": 46.3,
+    "Carry": 47.1,
+    "Track record": 53.3,
+    "Availability": 54.0,
+    "Env. help": 45.6
+   },
+   "stats": {
+    "Passer rating": 83.2,
+    "ANY/A": 6.17,
+    "CPOE": -1.8,
+    "TWP rate (FTN)": 0.038,
+    "Isolated EPA/play": -0.011,
+    "Scheme tax (EPA/play)": -0.015,
+    "Rush EPA (total)": -0.7
+   },
+   "lenses": {
+    "Pure Thrower": 48,
+    "Ball Placement": 48,
+    "Make It Happen": 50
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 35
+  },
+  {
+   "id": "00-0026143",
+   "name": "M.Ryan",
+   "last": "Ryan",
+   "team": "IND",
+   "games": 12,
+   "db": 502,
+   "grade": 73.1,
+   "qbir": 48.1,
+   "reliability": 0.56,
+   "seasons_played": [
+    2022
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 48.9,
+    "Mobility": 40.3,
+    "Pressure": 34.1,
+    "Carry": 62.8,
+    "Track record": 51.1,
+    "Availability": 51.6,
+    "Env. help": 46.6
+   },
+   "stats": {
+    "Passer rating": 83.9,
+    "ANY/A": 6.09,
+    "CPOE": -0.1,
+    "TWP rate (FTN)": 0.064,
+    "Isolated EPA/play": -0.013,
+    "Scheme tax (EPA/play)": 0.004,
+    "Rush EPA (total)": -7.4
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 53,
+    "Make It Happen": 44
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 36
+  },
+  {
+   "id": "00-0035710",
+   "name": "D.Jones",
+   "last": "Jones",
+   "team": "IND",
+   "games": 53,
+   "db": 1774,
+   "grade": 72.9,
+   "qbir": 47.9,
+   "reliability": 0.82,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 49.1,
+    "Mobility": 56.1,
+    "Pressure": 46.4,
+    "Carry": 50.0,
+    "Track record": 42.4,
+    "Availability": 52.7,
+    "Env. help": 45.2
+   },
+   "stats": {
+    "Passer rating": 85.3,
+    "ANY/A": 6.27,
+    "CPOE": 0.9,
+    "TWP rate (FTN)": 0.037,
+    "Isolated EPA/play": -0.002,
+    "Scheme tax (EPA/play)": -0.031,
+    "Rush EPA (total)": 75.9
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 50,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 37
+  },
+  {
+   "id": "00-0032268",
+   "name": "M.Mariota",
+   "last": "Mariota",
+   "team": "WAS",
+   "games": 23,
+   "db": 570,
+   "grade": 72.6,
+   "qbir": 47.6,
+   "reliability": 0.59,
+   "seasons_played": [
+    2022,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 48.0,
+    "Mobility": 53.5,
+    "Pressure": 36.4,
+    "Carry": 48.4,
+    "Track record": 49.2,
+    "Availability": 50.1,
+    "Env. help": 50.4
+   },
+   "stats": {
+    "Passer rating": 87.3,
+    "ANY/A": 7.0,
+    "CPOE": 1.0,
+    "TWP rate (FTN)": 0.04,
+    "Isolated EPA/play": -0.022,
+    "Scheme tax (EPA/play)": -0.009,
+    "Rush EPA (total)": 25.9
+   },
+   "lenses": {
+    "Pure Thrower": 54,
+    "Ball Placement": 50,
+    "Make It Happen": 45
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 38
+  },
+  {
+   "id": "00-0033119",
+   "name": "J.Brissett",
+   "last": "Brissett",
+   "team": "ARI",
+   "games": 40,
+   "db": 1422,
+   "grade": 72.4,
+   "qbir": 47.4,
+   "reliability": 0.78,
+   "seasons_played": [
+    2022,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 48.8,
+    "Mobility": 51.3,
+    "Pressure": 47.2,
+    "Carry": 46.3,
+    "Track record": 45.3,
+    "Availability": 52.0,
+    "Env. help": 49.2
+   },
+   "stats": {
+    "Passer rating": 86.9,
+    "ANY/A": 6.43,
+    "CPOE": 1.0,
+    "TWP rate (FTN)": 0.026,
+    "Isolated EPA/play": -0.009,
+    "Scheme tax (EPA/play)": -0.035,
+    "Rush EPA (total)": 40.3
+   },
+   "lenses": {
+    "Pure Thrower": 52,
+    "Ball Placement": 50,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 39
+  },
+  {
+   "id": "00-0039917",
+   "name": "M.Penix",
+   "last": "Penix",
+   "team": "ATL",
+   "games": 20,
+   "db": 578,
+   "grade": 72.2,
+   "qbir": 47.2,
+   "reliability": 0.59,
+   "seasons_played": [
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 46.8,
+    "Mobility": 49.0,
+    "Pressure": 48.2,
+    "Carry": 50.0,
+    "Track record": 53.9,
+    "Availability": 41.8,
+    "Env. help": 55.7
+   },
+   "stats": {
+    "Passer rating": 87.4,
+    "ANY/A": 7.19,
+    "CPOE": -4.0,
+    "TWP rate (FTN)": 0.036,
+    "Isolated EPA/play": -0.022,
+    "Scheme tax (EPA/play)": -0.01,
+    "Rush EPA (total)": 11.7
+   },
+   "lenses": {
+    "Pure Thrower": 48,
+    "Ball Placement": 48,
+    "Make It Happen": 49
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 40
+  },
+  {
+   "id": "00-0028118",
+   "name": "T.Taylor",
+   "last": "Taylor",
+   "team": "NYJ",
+   "games": 16,
+   "db": 339,
+   "grade": 72.0,
+   "qbir": 46.9,
+   "reliability": 0.46,
+   "seasons_played": [
+    2023,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 49.1,
+    "Mobility": 46.2,
+    "Pressure": 51.7,
+    "Carry": 63.2,
+    "Track record": 44.9,
+    "Availability": 41.8,
+    "Env. help": 50.0
+   },
+   "stats": {
+    "Passer rating": 82.1,
+    "ANY/A": 6.18,
+    "CPOE": 2.1,
+    "TWP rate (FTN)": 0.027,
+    "Isolated EPA/play": -0.021,
+    "Scheme tax (EPA/play)": -0.014,
+    "Rush EPA (total)": 4.0
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 48,
+    "Make It Happen": 48
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 41
+  },
+  {
+   "id": "00-0038122",
+   "name": "D.Ridder",
+   "last": "Ridder",
+   "team": "ATL",
+   "games": 19,
+   "db": 544,
+   "grade": 71.9,
+   "qbir": 46.9,
+   "reliability": 0.58,
+   "seasons_played": [
+    2022,
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 47.6,
+    "Mobility": 38.1,
+    "Pressure": 50.5,
+    "Carry": 46.7,
+    "Track record": 51.1,
+    "Availability": 52.2,
+    "Env. help": 57.1
+   },
+   "stats": {
+    "Passer rating": 84.1,
+    "ANY/A": 6.47,
+    "CPOE": -1.3,
+    "TWP rate (FTN)": 0.048,
+    "Isolated EPA/play": -0.018,
+    "Scheme tax (EPA/play)": -0.031,
+    "Rush EPA (total)": -13.1
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 49,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 42
+  },
+  {
+   "id": "00-0036972",
+   "name": "M.Jones",
+   "last": "Jones",
+   "team": "SF",
+   "games": 43,
+   "db": 1429,
+   "grade": 71.5,
+   "qbir": 46.5,
+   "reliability": 0.78,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 45.7,
+    "Mobility": 46.6,
+    "Pressure": 50.6,
+    "Carry": 49.8,
+    "Track record": 48.6,
+    "Availability": 48.6,
+    "Env. help": 48.1
+   },
+   "stats": {
+    "Passer rating": 84.6,
+    "ANY/A": 6.14,
+    "CPOE": -0.2,
+    "TWP rate (FTN)": 0.045,
+    "Isolated EPA/play": -0.025,
+    "Scheme tax (EPA/play)": -0.006,
+    "Rush EPA (total)": 12.8
+   },
+   "lenses": {
+    "Pure Thrower": 48,
+    "Ball Placement": 51,
+    "Make It Happen": 49
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 43
+  },
+  {
+   "id": "00-0038579",
+   "name": "A.O'Connell",
+   "last": "O'Connell",
+   "team": "LV",
+   "games": 20,
+   "db": 621,
+   "grade": 70.2,
+   "qbir": 45.2,
+   "reliability": 0.61,
+   "seasons_played": [
+    2023,
+    2024
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 45.9,
+    "Mobility": 42.7,
+    "Pressure": 49.0,
+    "Carry": 52.9,
+    "Track record": 47.4,
+    "Availability": 46.1,
+    "Env. help": 49.7
+   },
+   "stats": {
+    "Passer rating": 85.0,
+    "ANY/A": 6.44,
+    "CPOE": -3.8,
+    "TWP rate (FTN)": 0.031,
+    "Isolated EPA/play": -0.012,
+    "Scheme tax (EPA/play)": -0.041,
+    "Rush EPA (total)": -3.6
+   },
+   "lenses": {
+    "Pure Thrower": 47,
+    "Ball Placement": 51,
+    "Make It Happen": 48
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 44
+  },
+  {
+   "id": "00-0033869",
+   "name": "M.Trubisky",
+   "last": "Trubisky",
+   "team": "PIT",
+   "games": 12,
+   "db": 305,
+   "grade": 69.9,
+   "qbir": 44.8,
+   "reliability": 0.43,
+   "seasons_played": [
+    2022,
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 47.3,
+    "Mobility": 44.4,
+    "Pressure": 50.7,
+    "Carry": 41.0,
+    "Track record": 49.3,
+    "Availability": 38.6,
+    "Env. help": 45.3
+   },
+   "stats": {
+    "Passer rating": 77.6,
+    "ANY/A": 5.59,
+    "CPOE": 0.2,
+    "TWP rate (FTN)": 0.066,
+    "Isolated EPA/play": -0.019,
+    "Scheme tax (EPA/play)": -0.014,
+    "Rush EPA (total)": -0.2
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 54,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 45
+  },
+  {
+   "id": "00-0031503",
+   "name": "J.Winston",
+   "last": "Winston",
+   "team": "NYG",
+   "games": 17,
+   "db": 625,
+   "grade": 69.7,
+   "qbir": 44.7,
+   "reliability": 0.61,
+   "seasons_played": [
+    2022,
+    2024,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 43.4,
+    "Mobility": 54.8,
+    "Pressure": 54.3,
+    "Carry": 50.6,
+    "Track record": 47.9,
+    "Availability": 39.1,
+    "Env. help": 42.8
+   },
+   "stats": {
+    "Passer rating": 79.2,
+    "ANY/A": 5.97,
+    "CPOE": -2.5,
+    "TWP rate (FTN)": 0.053,
+    "Isolated EPA/play": -0.034,
+    "Scheme tax (EPA/play)": -0.042,
+    "Rush EPA (total)": 21.0
+   },
+   "lenses": {
+    "Pure Thrower": 51,
+    "Ball Placement": 46,
+    "Make It Happen": 52
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 46
+  },
+  {
+   "id": "00-0040676",
+   "name": "C.Ward",
+   "last": "Ward",
+   "team": "TEN",
+   "games": 25,
+   "db": 855,
+   "grade": 69.5,
+   "qbir": 44.5,
+   "reliability": 0.68,
+   "seasons_played": [
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 42.8,
+    "Mobility": 46.9,
+    "Pressure": 47.7,
+    "Carry": 47.1,
+    "Track record": 43.3,
+    "Availability": 61.2,
+    "Env. help": 38.1
+   },
+   "stats": {
+    "Passer rating": 79.8,
+    "ANY/A": 5.89,
+    "CPOE": -2.3,
+    "TWP rate (FTN)": 0.023,
+    "Isolated EPA/play": -0.039,
+    "Scheme tax (EPA/play)": -0.05,
+    "Rush EPA (total)": 15.1
+   },
+   "lenses": {
+    "Pure Thrower": 43,
+    "Ball Placement": 43,
+    "Make It Happen": 47
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 47
+  },
+  {
+   "id": "00-0039150",
+   "name": "B.Young",
+   "last": "Young",
+   "team": "CAR",
+   "games": 53,
+   "db": 1801,
+   "grade": 69.3,
+   "qbir": 44.4,
+   "reliability": 0.82,
+   "seasons_played": [
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 47.4,
+    "Mobility": 52.4,
+    "Pressure": 48.1,
+    "Carry": 45.8,
+    "Track record": 34.8,
+    "Availability": 57.3,
+    "Env. help": 47.9
+   },
+   "stats": {
+    "Passer rating": 82.1,
+    "ANY/A": 6.05,
+    "CPOE": -0.1,
+    "TWP rate (FTN)": 0.024,
+    "Isolated EPA/play": -0.003,
+    "Scheme tax (EPA/play)": -0.067,
+    "Rush EPA (total)": 47.0
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 46,
+    "Make It Happen": 49
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 48
+  },
+  {
+   "id": "00-0036945",
+   "name": "J.Fields",
+   "last": "Fields",
+   "team": "NYJ",
+   "games": 44,
+   "db": 1203,
+   "grade": 69.2,
+   "qbir": 44.2,
+   "reliability": 0.75,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 46.3,
+    "Mobility": 67.6,
+    "Pressure": 47.5,
+    "Carry": 53.1,
+    "Track record": 31.5,
+    "Availability": 50.4,
+    "Env. help": 53.8
+   },
+   "stats": {
+    "Passer rating": 87.6,
+    "ANY/A": 6.73,
+    "CPOE": -0.5,
+    "TWP rate (FTN)": 0.037,
+    "Isolated EPA/play": -0.045,
+    "Scheme tax (EPA/play)": -0.012,
+    "Rush EPA (total)": 118.5
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 42,
+    "Make It Happen": 50
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 49
+  },
+  {
+   "id": "00-0033662",
+   "name": "C.Rush",
+   "last": "Rush",
+   "team": "DAL",
+   "games": 19,
+   "db": 489,
+   "grade": 68.7,
+   "qbir": 43.7,
+   "reliability": 0.55,
+   "seasons_played": [
+    2022,
+    2024
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 42.3,
+    "Mobility": 36.2,
+    "Pressure": 56.4,
+    "Carry": 44.9,
+    "Track record": 50.7,
+    "Availability": 45.7,
+    "Env. help": 43.0
+   },
+   "stats": {
+    "Passer rating": 82.5,
+    "ANY/A": 6.16,
+    "CPOE": -7.6,
+    "TWP rate (FTN)": 0.041,
+    "Isolated EPA/play": -0.021,
+    "Scheme tax (EPA/play)": 0.005,
+    "Rush EPA (total)": -15.2
+   },
+   "lenses": {
+    "Pure Thrower": 44,
+    "Ball Placement": 43,
+    "Make It Happen": 48
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 50
+  },
+  {
+   "id": "00-0026158",
+   "name": "J.Flacco",
+   "last": "Flacco",
+   "team": "CLE",
+   "games": 29,
+   "db": 1113,
+   "grade": 67.5,
+   "qbir": 42.6,
+   "reliability": 0.74,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 44.1,
+    "Mobility": 44.5,
+    "Pressure": 51.6,
+    "Carry": 56.0,
+    "Track record": 43.3,
+    "Availability": 41.7,
+    "Env. help": 50.9
+   },
+   "stats": {
+    "Passer rating": 83.3,
+    "ANY/A": 6.21,
+    "CPOE": -2.1,
+    "TWP rate (FTN)": 0.042,
+    "Isolated EPA/play": -0.048,
+    "Scheme tax (EPA/play)": -0.025,
+    "Rush EPA (total)": 3.7
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 53,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 51
+  },
+  {
+   "id": "00-0033537",
+   "name": "D.Watson",
+   "last": "Watson",
+   "team": "CLE",
+   "games": 27,
+   "db": 908,
+   "grade": 67.4,
+   "qbir": 42.3,
+   "reliability": 0.69,
+   "seasons_played": [
+    2022,
+    2023,
+    2024,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 44.6,
+    "Mobility": 47.1,
+    "Pressure": 46.2,
+    "Carry": 43.8,
+    "Track record": 44.2,
+    "Availability": 44.7,
+    "Env. help": 51.6
+   },
+   "stats": {
+    "Passer rating": 83.9,
+    "ANY/A": 6.13,
+    "CPOE": -1.4,
+    "TWP rate (FTN)": 0.035,
+    "Isolated EPA/play": -0.008,
+    "Scheme tax (EPA/play)": -0.065,
+    "Rush EPA (total)": 12.6
+   },
+   "lenses": {
+    "Pure Thrower": 45,
+    "Ball Placement": 44,
+    "Make It Happen": 45
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 52
+  },
+  {
+   "id": "00-0031800",
+   "name": "T.Heinicke",
+   "last": "Heinicke",
+   "team": "ATL",
+   "games": 14,
+   "db": 418,
+   "grade": 67.1,
+   "qbir": 42.1,
+   "reliability": 0.51,
+   "seasons_played": [
+    2022,
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 44.1,
+    "Mobility": 49.2,
+    "Pressure": 43.5,
+    "Carry": 54.9,
+    "Track record": 43.5,
+    "Availability": 41.7,
+    "Env. help": 60.1
+   },
+   "stats": {
+    "Passer rating": 84.5,
+    "ANY/A": 6.7,
+    "CPOE": -2.0,
+    "TWP rate (FTN)": 0.079,
+    "Isolated EPA/play": -0.022,
+    "Scheme tax (EPA/play)": -0.014,
+    "Rush EPA (total)": 5.2
+   },
+   "lenses": {
+    "Pure Thrower": 47,
+    "Ball Placement": 46,
+    "Make It Happen": 43
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 53
+  },
+  {
+   "id": "00-0033949",
+   "name": "J.Dobbs",
+   "last": "Dobbs",
+   "team": "ARI",
+   "games": 13,
+   "db": 450,
+   "grade": 65.0,
+   "qbir": 40.0,
+   "reliability": 0.53,
+   "seasons_played": [
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 40.2,
+    "Mobility": 58.3,
+    "Pressure": 47.2,
+    "Carry": 31.9,
+    "Track record": 36.0,
+    "Availability": 53.2,
+    "Env. help": 40.2
+   },
+   "stats": {
+    "Passer rating": 79.5,
+    "ANY/A": 5.57,
+    "CPOE": -1.8,
+    "TWP rate (FTN)": 0.049,
+    "Isolated EPA/play": -0.048,
+    "Scheme tax (EPA/play)": -0.069,
+    "Rush EPA (total)": 16.3
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 47,
+    "Make It Happen": 51
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 54
+  },
+  {
+   "id": "00-0039152",
+   "name": "W.Levis",
+   "last": "Levis",
+   "team": "TEN",
+   "games": 21,
+   "db": 626,
+   "grade": 63.7,
+   "qbir": 38.8,
+   "reliability": 0.61,
+   "seasons_played": [
+    2023,
+    2024
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 40.8,
+    "Mobility": 36.0,
+    "Pressure": 36.4,
+    "Carry": 33.8,
+    "Track record": 46.6,
+    "Availability": 47.2,
+    "Env. help": 43.8
+   },
+   "stats": {
+    "Passer rating": 82.7,
+    "ANY/A": 6.42,
+    "CPOE": -0.4,
+    "TWP rate (FTN)": 0.057,
+    "Isolated EPA/play": -0.031,
+    "Scheme tax (EPA/play)": -0.082,
+    "Rush EPA (total)": -17.7
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 46,
+    "Make It Happen": 42
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 55
+  },
+  {
+   "id": "00-0036898",
+   "name": "D.Mills",
+   "last": "Mills",
+   "team": "HOU",
+   "games": 21,
+   "db": 680,
+   "grade": 62.9,
+   "qbir": 37.9,
+   "reliability": 0.63,
+   "seasons_played": [
+    2022,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 37.1,
+    "Mobility": 45.1,
+    "Pressure": 52.5,
+    "Carry": 49.9,
+    "Track record": 37.1,
+    "Availability": 52.6,
+    "Env. help": 48.6
+   },
+   "stats": {
+    "Passer rating": 79.5,
+    "ANY/A": 5.99,
+    "CPOE": -4.5,
+    "TWP rate (FTN)": 0.054,
+    "Isolated EPA/play": -0.074,
+    "Scheme tax (EPA/play)": -0.031,
+    "Rush EPA (total)": 2.5
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 45,
+    "Make It Happen": 48
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 56
+  },
+  {
+   "id": "00-0032950",
+   "name": "C.Wentz",
+   "last": "Wentz",
+   "team": "MIN",
+   "games": 13,
+   "db": 497,
+   "grade": 61.8,
+   "qbir": 36.8,
+   "reliability": 0.55,
+   "seasons_played": [
+    2022,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 41.7,
+    "Mobility": 41.3,
+    "Pressure": 27.7,
+    "Carry": 46.2,
+    "Track record": 42.1,
+    "Availability": 39.1,
+    "Env. help": 42.1
+   },
+   "stats": {
+    "Passer rating": 82.3,
+    "ANY/A": 6.05,
+    "CPOE": -1.9,
+    "TWP rate (FTN)": 0.052,
+    "Isolated EPA/play": -0.044,
+    "Scheme tax (EPA/play)": -0.011,
+    "Rush EPA (total)": -1.3
+   },
+   "lenses": {
+    "Pure Thrower": 50,
+    "Ball Placement": 48,
+    "Make It Happen": 40
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 57
+  },
+  {
+   "id": "00-0035993",
+   "name": "T.Huntley",
+   "last": "Huntley",
+   "team": "BAL",
+   "games": 15,
+   "db": 388,
+   "grade": 61.8,
+   "qbir": 36.8,
+   "reliability": 0.49,
+   "seasons_played": [
+    2022,
+    2024,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 44.6,
+    "Mobility": 39.5,
+    "Pressure": 48.3,
+    "Carry": 32.5,
+    "Track record": 38.1,
+    "Availability": 35.6,
+    "Env. help": 50.3
+   },
+   "stats": {
+    "Passer rating": 84.0,
+    "ANY/A": 5.85,
+    "CPOE": 2.4,
+    "TWP rate (FTN)": 0.052,
+    "Isolated EPA/play": -0.024,
+    "Scheme tax (EPA/play)": -0.017,
+    "Rush EPA (total)": -6.4
+   },
+   "lenses": {
+    "Pure Thrower": 48,
+    "Ball Placement": 48,
+    "Make It Happen": 48
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 58
+  },
+  {
+   "id": "00-0037077",
+   "name": "S.Howell",
+   "last": "Howell",
+   "team": "WAS",
+   "games": 17,
+   "db": 679,
+   "grade": 61.8,
+   "qbir": 36.8,
+   "reliability": 0.63,
+   "seasons_played": [
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 41.8,
+    "Mobility": 59.0,
+    "Pressure": 47.4,
+    "Carry": 43.8,
+    "Track record": 17.8,
+    "Availability": 62.1,
+    "Env. help": 52.8
+   },
+   "stats": {
+    "Passer rating": 78.9,
+    "ANY/A": 5.72,
+    "CPOE": -0.4,
+    "TWP rate (FTN)": 0.047,
+    "Isolated EPA/play": -0.033,
+    "Scheme tax (EPA/play)": -0.044,
+    "Rush EPA (total)": 22.4
+   },
+   "lenses": {
+    "Pure Thrower": 47,
+    "Ball Placement": 47,
+    "Make It Happen": 52
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 59
+  },
+  {
+   "id": "00-0039376",
+   "name": "S.Rattler",
+   "last": "Rattler",
+   "team": "NO",
+   "games": 16,
+   "db": 522,
+   "grade": 60.8,
+   "qbir": 35.8,
+   "reliability": 0.57,
+   "seasons_played": [
+    2024,
+    2025
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 38.3,
+    "Mobility": 53.9,
+    "Pressure": 47.3,
+    "Carry": 38.9,
+    "Track record": 33.2,
+    "Availability": 40.3,
+    "Env. help": 37.9
+   },
+   "stats": {
+    "Passer rating": 78.8,
+    "ANY/A": 5.58,
+    "CPOE": -3.1,
+    "TWP rate (FTN)": 0.042,
+    "Isolated EPA/play": -0.04,
+    "Scheme tax (EPA/play)": -0.037,
+    "Rush EPA (total)": 17.7
+   },
+   "lenses": {
+    "Pure Thrower": 41,
+    "Ball Placement": 50,
+    "Make It Happen": 47
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 60
+  },
+  {
+   "id": "00-0037013",
+   "name": "Z.Wilson",
+   "last": "Wilson",
+   "team": "NYJ",
+   "games": 21,
+   "db": 678,
+   "grade": 57.7,
+   "qbir": 32.7,
+   "reliability": 0.63,
+   "seasons_played": [
+    2022,
+    2023
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 38.2,
+    "Mobility": 40.8,
+    "Pressure": 35.3,
+    "Carry": 44.9,
+    "Track record": 30.3,
+    "Availability": 48.6,
+    "Env. help": 51.6
+   },
+   "stats": {
+    "Passer rating": 75.5,
+    "ANY/A": 6.07,
+    "CPOE": -4.1,
+    "TWP rate (FTN)": 0.038,
+    "Isolated EPA/play": -0.049,
+    "Scheme tax (EPA/play)": -0.058,
+    "Rush EPA (total)": -3.6
+   },
+   "lenses": {
+    "Pure Thrower": 49,
+    "Ball Placement": 41,
+    "Make It Happen": 40
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 61
+  }
+ ]
+}
