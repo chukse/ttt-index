@@ -211,7 +211,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": 0.02,
-    "rank": 11,
+    "rank": 12,
     "of": 32,
     "reliability": 0.65
    },
@@ -394,7 +394,7 @@
    "reliability": 0.63,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.035,
+    "lift": -0.034,
     "rank": 25,
     "of": 32,
     "reliability": 0.81
@@ -440,10 +440,10 @@
    "reliability": 0.61,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.019,
+    "lift": 0.016,
     "rank": 13,
     "of": 32,
-    "reliability": 0.68
+    "reliability": 0.69
    },
    "factors": {
     "Efficiency": 60.6,
@@ -716,7 +716,7 @@
    "reliability": 0.57,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.063,
+    "lift": -0.064,
     "rank": 29,
     "of": 32,
     "reliability": 0.84
@@ -808,7 +808,7 @@
    "reliability": 0.59,
    "prev_rank": null,
    "scheme": {
-    "lift": 0.047,
+    "lift": 0.048,
     "rank": 7,
     "of": 32,
     "reliability": 0.64
@@ -901,7 +901,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": 0.02,
-    "rank": 12,
+    "rank": 11,
     "of": 32,
     "reliability": 0.81
    },
@@ -1222,7 +1222,7 @@
    "reliability": 0.27,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.095,
+    "lift": -0.094,
     "rank": 31,
     "of": 32,
     "reliability": 0.66
@@ -1269,7 +1269,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": 0.02,
-    "rank": 12,
+    "rank": 11,
     "of": 32,
     "reliability": 0.81
    },
@@ -1636,7 +1636,7 @@
    "reliability": 0.48,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.009,
+    "lift": -0.008,
     "rank": 18,
     "of": 32,
     "reliability": 0.74
@@ -1820,7 +1820,7 @@
    "reliability": 0.48,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.095,
+    "lift": -0.094,
     "rank": 31,
     "of": 32,
     "reliability": 0.66
@@ -2051,7 +2051,7 @@
    "prev_rank": null,
    "scheme": {
     "lift": 0.02,
-    "rank": 11,
+    "rank": 12,
     "of": 32,
     "reliability": 0.65
    },
@@ -2142,7 +2142,7 @@
    "reliability": 0.22,
    "prev_rank": null,
    "scheme": {
-    "lift": -0.095,
+    "lift": -0.094,
     "rank": 31,
     "of": 32,
     "reliability": 0.66

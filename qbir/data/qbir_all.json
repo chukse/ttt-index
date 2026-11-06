@@ -45,7 +45,7 @@
     "Carry": 59.9,
     "Track record": 65.1,
     "Availability": 58.7,
-    "Env. help": 53.1
+    "Env. help": 53.2
    },
    "stats": {
     "Passer rating": 96.0,
@@ -57,7 +57,7 @@
     "Rush EPA (total)": 136.0
    },
    "lenses": {
-    "Pure Thrower": 43,
+    "Pure Thrower": 45,
     "Ball Placement": 54,
     "Make It Happen": 59
    },
@@ -92,19 +92,19 @@
     "Carry": 56.4,
     "Track record": 66.1,
     "Availability": 52.8,
-    "Env. help": 58.1
+    "Env. help": 58.2
    },
    "stats": {
     "Passer rating": 104.8,
     "ANY/A": 8.5,
     "CPOE": 3.9,
     "TWP rate (FTN)": 0.035,
-    "Isolated EPA/play": 0.01,
+    "Isolated EPA/play": 0.009,
     "Scheme tax (EPA/play)": 0.071,
     "Rush EPA (total)": 69.7
    },
    "lenses": {
-    "Pure Thrower": 59,
+    "Pure Thrower": 60,
     "Ball Placement": 56,
     "Make It Happen": 56
    },
@@ -138,7 +138,7 @@
     "Pressure": 55.3,
     "Carry": 56.5,
     "Track record": 61.4,
-    "Availability": 59.7,
+    "Availability": 59.6,
     "Env. help": 56.5
    },
    "stats": {
@@ -151,7 +151,7 @@
     "Rush EPA (total)": 216.8
    },
    "lenses": {
-    "Pure Thrower": 51,
+    "Pure Thrower": 52,
     "Ball Placement": 57,
     "Make It Happen": 61
    },
@@ -183,9 +183,9 @@
     "Efficiency": 64.0,
     "Mobility": 52.3,
     "Pressure": 56.8,
-    "Carry": 57.0,
+    "Carry": 57.1,
     "Track record": 58.8,
-    "Availability": 55.1,
+    "Availability": 55.0,
     "Env. help": 48.2
    },
    "stats": {
@@ -229,7 +229,7 @@
    "factors": {
     "Efficiency": 60.1,
     "Mobility": 59.7,
-    "Pressure": 56.0,
+    "Pressure": 55.9,
     "Carry": 53.4,
     "Track record": 58.0,
     "Availability": 56.0,
@@ -245,7 +245,7 @@
     "Rush EPA (total)": 108.1
    },
    "lenses": {
-    "Pure Thrower": 52,
+    "Pure Thrower": 54,
     "Ball Placement": 53,
     "Make It Happen": 54
    },
@@ -292,7 +292,7 @@
     "Rush EPA (total)": 37.1
    },
    "lenses": {
-    "Pure Thrower": 58,
+    "Pure Thrower": 55,
     "Ball Placement": 58,
     "Make It Happen": 56
    },
@@ -338,7 +338,7 @@
     "Rush EPA (total)": -25.7
    },
    "lenses": {
-    "Pure Thrower": 50,
+    "Pure Thrower": 52,
     "Ball Placement": 58,
     "Make It Happen": 54
    },
@@ -368,10 +368,10 @@
     "Efficiency": 63.6,
     "Mobility": 55.0,
     "Pressure": 55.1,
-    "Carry": 57.4,
+    "Carry": 57.5,
     "Track record": 46.9,
-    "Availability": 58.3,
-    "Env. help": 62.2
+    "Availability": 58.2,
+    "Env. help": 62.3
    },
    "stats": {
     "Passer rating": 102.5,
@@ -399,7 +399,7 @@
    "team": "PHI",
    "games": 68,
    "db": 2126,
-   "grade": 85.2,
+   "grade": 85.1,
    "qbir": 60.2,
    "reliability": 0.84,
    "seasons_played": [
@@ -415,10 +415,10 @@
     "Efficiency": 58.8,
     "Mobility": 66.9,
     "Pressure": 45.5,
-    "Carry": 55.1,
+    "Carry": 55.2,
     "Track record": 54.3,
-    "Availability": 57.7,
-    "Env. help": 57.2
+    "Availability": 57.6,
+    "Env. help": 57.1
    },
    "stats": {
     "Passer rating": 96.6,
@@ -458,13 +458,13 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 59.8,
+    "Efficiency": 59.9,
     "Mobility": 47.3,
-    "Pressure": 57.0,
-    "Carry": 54.4,
+    "Pressure": 56.9,
+    "Carry": 54.5,
     "Track record": 54.5,
-    "Availability": 59.2,
-    "Env. help": 48.4
+    "Availability": 59.1,
+    "Env. help": 48.3
    },
    "stats": {
     "Passer rating": 96.8,
@@ -476,7 +476,7 @@
     "Rush EPA (total)": 24.8
    },
    "lenses": {
-    "Pure Thrower": 55,
+    "Pure Thrower": 54,
     "Ball Placement": 58,
     "Make It Happen": 55
    },
@@ -523,7 +523,7 @@
     "Rush EPA (total)": -19.6
    },
    "lenses": {
-    "Pure Thrower": 52,
+    "Pure Thrower": 53,
     "Ball Placement": 55,
     "Make It Happen": 53
    },
@@ -556,7 +556,7 @@
     "Pressure": 53.7,
     "Carry": 59.3,
     "Track record": 52.9,
-    "Availability": 57.5,
+    "Availability": 57.4,
     "Env. help": 56.4
    },
    "stats": {
@@ -569,7 +569,7 @@
     "Rush EPA (total)": 28.5
    },
    "lenses": {
-    "Pure Thrower": 54,
+    "Pure Thrower": 55,
     "Ball Placement": 50,
     "Make It Happen": 53
    },
@@ -598,13 +598,13 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 53.6,
+    "Efficiency": 53.7,
     "Mobility": 53.0,
     "Pressure": 51.5,
-    "Carry": 57.4,
+    "Carry": 57.5,
     "Track record": 56.4,
     "Availability": 59.0,
-    "Env. help": 49.5
+    "Env. help": 49.6
    },
    "stats": {
     "Passer rating": 93.0,
@@ -643,12 +643,12 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 55.1,
+    "Efficiency": 55.2,
     "Mobility": 69.6,
     "Pressure": 48.5,
-    "Carry": 49.0,
+    "Carry": 49.1,
     "Track record": 51.9,
-    "Availability": 52.1,
+    "Availability": 51.9,
     "Env. help": 49.8
    },
    "stats": {
@@ -661,7 +661,7 @@
     "Rush EPA (total)": 81.6
    },
    "lenses": {
-    "Pure Thrower": 54,
+    "Pure Thrower": 55,
     "Ball Placement": 53,
     "Make It Happen": 55
    },
@@ -706,7 +706,7 @@
     "Rush EPA (total)": -2.6
    },
    "lenses": {
-    "Pure Thrower": 54,
+    "Pure Thrower": 55,
     "Ball Placement": 58,
     "Make It Happen": 53
    },
@@ -872,7 +872,7 @@
     "Efficiency": 56.0,
     "Mobility": 43.5,
     "Pressure": 49.1,
-    "Carry": 52.4,
+    "Carry": 52.5,
     "Track record": 55.5,
     "Availability": 54.7,
     "Env. help": 51.4
@@ -887,7 +887,7 @@
     "Rush EPA (total)": -0.8
    },
    "lenses": {
-    "Pure Thrower": 54,
+    "Pure Thrower": 53,
     "Ball Placement": 54,
     "Make It Happen": 49
    },
@@ -920,7 +920,7 @@
     "Carry": 50.6,
     "Track record": 51.0,
     "Availability": 61.4,
-    "Env. help": 50.3
+    "Env. help": 50.5
    },
    "stats": {
     "Passer rating": 89.3,
@@ -932,7 +932,7 @@
     "Rush EPA (total)": 43.6
    },
    "lenses": {
-    "Pure Thrower": 43,
+    "Pure Thrower": 45,
     "Ball Placement": 51,
     "Make It Happen": 55
    },
@@ -990,11 +990,11 @@
    "name": "S.Darnold",
    "last": "Darnold",
    "team": "SEA",
-   "games": 46,
-   "db": 1432,
-   "grade": 79.0,
-   "qbir": 54.1,
-   "reliability": 0.78,
+   "games": 47,
+   "db": 1470,
+   "grade": 78.9,
+   "qbir": 53.9,
+   "reliability": 0.79,
    "seasons_played": [
     2022,
     2024,
@@ -1004,27 +1004,27 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 58.4,
-    "Mobility": 46.4,
-    "Pressure": 46.9,
-    "Carry": 53.5,
-    "Track record": 46.7,
-    "Availability": 57.2,
-    "Env. help": 54.6
+    "Efficiency": 57.9,
+    "Mobility": 46.2,
+    "Pressure": 46.7,
+    "Carry": 53.3,
+    "Track record": 46.9,
+    "Availability": 57.9,
+    "Env. help": 54.8
    },
    "stats": {
-    "Passer rating": 97.3,
-    "ANY/A": 7.86,
-    "CPOE": 4.0,
-    "TWP rate (FTN)": 0.035,
-    "Isolated EPA/play": 0.019,
+    "Passer rating": 96.8,
+    "ANY/A": 7.82,
+    "CPOE": 3.5,
+    "TWP rate (FTN)": 0.034,
+    "Isolated EPA/play": 0.017,
     "Scheme tax (EPA/play)": 0.001,
-    "Rush EPA (total)": 18.2
+    "Rush EPA (total)": 17.6
    },
    "lenses": {
     "Pure Thrower": 57,
-    "Ball Placement": 53,
-    "Make It Happen": 50
+    "Ball Placement": 52,
+    "Make It Happen": 49
    },
    "twp": null,
    "ints": null,
@@ -1065,7 +1065,7 @@
     "Rush EPA (total)": 31.2
    },
    "lenses": {
-    "Pure Thrower": 46,
+    "Pure Thrower": 47,
     "Ball Placement": 47,
     "Make It Happen": 50
    },
@@ -1100,7 +1100,7 @@
     "Carry": 50.7,
     "Track record": 49.6,
     "Availability": 59.9,
-    "Env. help": 53.3
+    "Env. help": 53.2
    },
    "stats": {
     "Passer rating": 94.3,
@@ -1142,9 +1142,9 @@
    "scheme": null,
    "factors": {
     "Efficiency": 51.8,
-    "Mobility": 46.1,
+    "Mobility": 46.2,
     "Pressure": 54.8,
-    "Carry": 51.3,
+    "Carry": 51.4,
     "Track record": 47.3,
     "Availability": 58.5,
     "Env. help": 42.4
@@ -1188,9 +1188,9 @@
    "scheme": null,
    "factors": {
     "Efficiency": 48.8,
-    "Mobility": 45.7,
+    "Mobility": 45.8,
     "Pressure": 51.2,
-    "Carry": 44.4,
+    "Carry": 44.3,
     "Track record": 55.4,
     "Availability": 61.1,
     "Env. help": 50.5
@@ -1205,7 +1205,7 @@
     "Rush EPA (total)": 17.4
    },
    "lenses": {
-    "Pure Thrower": 47,
+    "Pure Thrower": 46,
     "Ball Placement": 51,
     "Make It Happen": 50
    },
@@ -1234,7 +1234,7 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 49.2,
+    "Efficiency": 49.3,
     "Mobility": 53.6,
     "Pressure": 51.1,
     "Carry": 47.5,
@@ -1252,8 +1252,8 @@
     "Rush EPA (total)": 59.8
    },
    "lenses": {
-    "Pure Thrower": 50,
-    "Ball Placement": 46,
+    "Pure Thrower": 51,
+    "Ball Placement": 47,
     "Make It Happen": 52
    },
    "twp": null,
@@ -1284,9 +1284,9 @@
     "Efficiency": 49.8,
     "Mobility": 57.1,
     "Pressure": 48.7,
-    "Carry": 52.8,
+    "Carry": 52.9,
     "Track record": 50.9,
-    "Availability": 50.2,
+    "Availability": 50.1,
     "Env. help": 51.9
    },
    "stats": {
@@ -1299,7 +1299,7 @@
     "Rush EPA (total)": 68.4
    },
    "lenses": {
-    "Pure Thrower": 50,
+    "Pure Thrower": 49,
     "Ball Placement": 53,
     "Make It Happen": 51
    },
@@ -1325,13 +1325,13 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 52.0,
+    "Efficiency": 52.1,
     "Mobility": 50.0,
     "Pressure": 50.4,
-    "Carry": 60.2,
+    "Carry": 60.3,
     "Track record": 47.7,
-    "Availability": 49.8,
-    "Env. help": 54.0
+    "Availability": 49.7,
+    "Env. help": 53.9
    },
    "stats": {
     "Passer rating": 91.1,
@@ -1343,7 +1343,7 @@
     "Rush EPA (total)": 15.0
    },
    "lenses": {
-    "Pure Thrower": 50,
+    "Pure Thrower": 51,
     "Ball Placement": 54,
     "Make It Happen": 52
    },
@@ -1389,7 +1389,7 @@
     "Rush EPA (total)": 37.5
    },
    "lenses": {
-    "Pure Thrower": 50,
+    "Pure Thrower": 51,
     "Ball Placement": 50,
     "Make It Happen": 47
    },
@@ -1403,11 +1403,11 @@
    "name": "C.Williams",
    "last": "Williams",
    "team": "CHI",
-   "games": 38,
-   "db": 1366,
-   "grade": 74.0,
-   "qbir": 49.0,
-   "reliability": 0.77,
+   "games": 39,
+   "db": 1401,
+   "grade": 74.3,
+   "qbir": 49.3,
+   "reliability": 0.78,
    "seasons_played": [
     2024,
     2025,
@@ -1416,25 +1416,25 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 49.2,
-    "Mobility": 49.5,
-    "Pressure": 49.4,
+    "Efficiency": 49.6,
+    "Mobility": 49.3,
+    "Pressure": 50.0,
     "Carry": 46.7,
     "Track record": 44.7,
-    "Availability": 58.7,
-    "Env. help": 50.0
+    "Availability": 58.8,
+    "Env. help": 49.6
    },
    "stats": {
-    "Passer rating": 90.5,
-    "ANY/A": 7.07,
-    "CPOE": -0.7,
-    "TWP rate (FTN)": 0.023,
-    "Isolated EPA/play": -0.005,
+    "Passer rating": 90.8,
+    "ANY/A": 7.11,
+    "CPOE": -0.6,
+    "TWP rate (FTN)": 0.022,
+    "Isolated EPA/play": -0.002,
     "Scheme tax (EPA/play)": -0.028,
-    "Rush EPA (total)": 26.7
+    "Rush EPA (total)": 26.4
    },
    "lenses": {
-    "Pure Thrower": 47,
+    "Pure Thrower": 49,
     "Ball Placement": 47,
     "Make It Happen": 52
    },
@@ -1522,7 +1522,7 @@
     "Rush EPA (total)": 23.3
    },
    "lenses": {
-    "Pure Thrower": 51,
+    "Pure Thrower": 49,
     "Ball Placement": 51,
     "Make It Happen": 52
    },
@@ -1566,7 +1566,7 @@
     "Rush EPA (total)": 12.2
    },
    "lenses": {
-    "Pure Thrower": 52,
+    "Pure Thrower": 51,
     "Ball Placement": 53,
     "Make It Happen": 45
    },
@@ -1610,7 +1610,7 @@
     "Rush EPA (total)": -0.7
    },
    "lenses": {
-    "Pure Thrower": 48,
+    "Pure Thrower": 46,
     "Ball Placement": 48,
     "Make It Happen": 50
    },
@@ -1683,12 +1683,12 @@
    "scheme": null,
    "factors": {
     "Efficiency": 49.1,
-    "Mobility": 56.1,
-    "Pressure": 46.4,
+    "Mobility": 56.2,
+    "Pressure": 46.5,
     "Carry": 50.0,
     "Track record": 42.4,
     "Availability": 52.7,
-    "Env. help": 45.2
+    "Env. help": 45.1
    },
    "stats": {
     "Passer rating": 85.3,
@@ -1744,7 +1744,7 @@
     "Rush EPA (total)": 25.9
    },
    "lenses": {
-    "Pure Thrower": 54,
+    "Pure Thrower": 53,
     "Ball Placement": 50,
     "Make It Happen": 45
    },
@@ -1778,7 +1778,7 @@
     "Carry": 46.3,
     "Track record": 45.3,
     "Availability": 52.0,
-    "Env. help": 49.2
+    "Env. help": 49.3
    },
    "stats": {
     "Passer rating": 86.9,
@@ -1790,7 +1790,7 @@
     "Rush EPA (total)": 40.3
    },
    "lenses": {
-    "Pure Thrower": 52,
+    "Pure Thrower": 50,
     "Ball Placement": 50,
     "Make It Happen": 51
    },
@@ -1806,8 +1806,8 @@
    "team": "ATL",
    "games": 20,
    "db": 578,
-   "grade": 72.2,
-   "qbir": 47.2,
+   "grade": 72.3,
+   "qbir": 47.3,
    "reliability": 0.59,
    "seasons_played": [
     2024,
@@ -1817,13 +1817,13 @@
    "prev_rank": null,
    "scheme": null,
    "factors": {
-    "Efficiency": 46.8,
+    "Efficiency": 46.9,
     "Mobility": 49.0,
     "Pressure": 48.2,
     "Carry": 50.0,
     "Track record": 53.9,
-    "Availability": 41.8,
-    "Env. help": 55.7
+    "Availability": 41.6,
+    "Env. help": 55.2
    },
    "stats": {
     "Passer rating": 87.4,
@@ -1879,7 +1879,7 @@
     "Rush EPA (total)": 4.0
    },
    "lenses": {
-    "Pure Thrower": 51,
+    "Pure Thrower": 52,
     "Ball Placement": 48,
     "Make It Happen": 48
    },
@@ -1969,7 +1969,7 @@
     "Rush EPA (total)": 12.8
    },
    "lenses": {
-    "Pure Thrower": 48,
+    "Pure Thrower": 47,
     "Ball Placement": 51,
     "Make It Happen": 49
    },
@@ -2013,7 +2013,7 @@
     "Rush EPA (total)": -3.6
    },
    "lenses": {
-    "Pure Thrower": 47,
+    "Pure Thrower": 45,
     "Ball Placement": 51,
     "Make It Happen": 48
    },
@@ -2073,7 +2073,7 @@
    "team": "NYG",
    "games": 17,
    "db": 625,
-   "grade": 69.7,
+   "grade": 69.6,
    "qbir": 44.7,
    "reliability": 0.61,
    "seasons_played": [
@@ -2085,12 +2085,12 @@
    "scheme": null,
    "factors": {
     "Efficiency": 43.4,
-    "Mobility": 54.8,
-    "Pressure": 54.3,
-    "Carry": 50.6,
+    "Mobility": 54.9,
+    "Pressure": 54.2,
+    "Carry": 50.5,
     "Track record": 47.9,
-    "Availability": 39.1,
-    "Env. help": 42.8
+    "Availability": 38.9,
+    "Env. help": 42.7
    },
    "stats": {
     "Passer rating": 79.2,
@@ -2102,7 +2102,7 @@
     "Rush EPA (total)": 21.0
    },
    "lenses": {
-    "Pure Thrower": 51,
+    "Pure Thrower": 50,
     "Ball Placement": 46,
     "Make It Happen": 52
    },
@@ -2129,7 +2129,7 @@
    "scheme": null,
    "factors": {
     "Efficiency": 42.8,
-    "Mobility": 46.9,
+    "Mobility": 47.0,
     "Pressure": 47.7,
     "Carry": 47.1,
     "Track record": 43.3,
@@ -2146,7 +2146,7 @@
     "Rush EPA (total)": 15.1
    },
    "lenses": {
-    "Pure Thrower": 43,
+    "Pure Thrower": 44,
     "Ball Placement": 43,
     "Make It Happen": 47
    },
@@ -2180,7 +2180,7 @@
     "Carry": 45.8,
     "Track record": 34.8,
     "Availability": 57.3,
-    "Env. help": 47.9
+    "Env. help": 47.8
    },
    "stats": {
     "Passer rating": 82.1,
@@ -2192,7 +2192,7 @@
     "Rush EPA (total)": 47.0
    },
    "lenses": {
-    "Pure Thrower": 50,
+    "Pure Thrower": 51,
     "Ball Placement": 46,
     "Make It Happen": 49
    },
@@ -2238,7 +2238,7 @@
     "Rush EPA (total)": 118.5
    },
    "lenses": {
-    "Pure Thrower": 50,
+    "Pure Thrower": 51,
     "Ball Placement": 42,
     "Make It Happen": 50
    },
@@ -2282,7 +2282,7 @@
     "Rush EPA (total)": -15.2
    },
    "lenses": {
-    "Pure Thrower": 44,
+    "Pure Thrower": 41,
     "Ball Placement": 43,
     "Make It Happen": 48
    },
@@ -2345,7 +2345,7 @@
    "games": 27,
    "db": 908,
    "grade": 67.4,
-   "qbir": 42.3,
+   "qbir": 42.4,
    "reliability": 0.69,
    "seasons_played": [
     2022,
@@ -2357,9 +2357,9 @@
    "scheme": null,
    "factors": {
     "Efficiency": 44.6,
-    "Mobility": 47.1,
+    "Mobility": 47.2,
     "Pressure": 46.2,
-    "Carry": 43.8,
+    "Carry": 43.9,
     "Track record": 44.2,
     "Availability": 44.7,
     "Env. help": 51.6
@@ -2505,7 +2505,7 @@
     "Rush EPA (total)": -17.7
    },
    "lenses": {
-    "Pure Thrower": 50,
+    "Pure Thrower": 48,
     "Ball Placement": 46,
     "Make It Happen": 42
    },
@@ -2603,51 +2603,6 @@
    "rank": 57
   },
   {
-   "id": "00-0035993",
-   "name": "T.Huntley",
-   "last": "Huntley",
-   "team": "BAL",
-   "games": 15,
-   "db": 388,
-   "grade": 61.8,
-   "qbir": 36.8,
-   "reliability": 0.49,
-   "seasons_played": [
-    2022,
-    2024,
-    2026
-   ],
-   "prev_rank": null,
-   "scheme": null,
-   "factors": {
-    "Efficiency": 44.6,
-    "Mobility": 39.5,
-    "Pressure": 48.3,
-    "Carry": 32.5,
-    "Track record": 38.1,
-    "Availability": 35.6,
-    "Env. help": 50.3
-   },
-   "stats": {
-    "Passer rating": 84.0,
-    "ANY/A": 5.85,
-    "CPOE": 2.4,
-    "TWP rate (FTN)": 0.052,
-    "Isolated EPA/play": -0.024,
-    "Scheme tax (EPA/play)": -0.017,
-    "Rush EPA (total)": -6.4
-   },
-   "lenses": {
-    "Pure Thrower": 48,
-    "Ball Placement": 48,
-    "Make It Happen": 48
-   },
-   "twp": null,
-   "ints": null,
-   "luck": null,
-   "rank": 58
-  },
-  {
    "id": "00-0037077",
    "name": "S.Howell",
    "last": "Howell",
@@ -2684,6 +2639,51 @@
     "Pure Thrower": 47,
     "Ball Placement": 47,
     "Make It Happen": 52
+   },
+   "twp": null,
+   "ints": null,
+   "luck": null,
+   "rank": 58
+  },
+  {
+   "id": "00-0035993",
+   "name": "T.Huntley",
+   "last": "Huntley",
+   "team": "BAL",
+   "games": 15,
+   "db": 388,
+   "grade": 61.7,
+   "qbir": 36.8,
+   "reliability": 0.49,
+   "seasons_played": [
+    2022,
+    2024,
+    2026
+   ],
+   "prev_rank": null,
+   "scheme": null,
+   "factors": {
+    "Efficiency": 44.7,
+    "Mobility": 39.6,
+    "Pressure": 48.2,
+    "Carry": 32.4,
+    "Track record": 38.1,
+    "Availability": 35.3,
+    "Env. help": 50.3
+   },
+   "stats": {
+    "Passer rating": 84.0,
+    "ANY/A": 5.85,
+    "CPOE": 2.4,
+    "TWP rate (FTN)": 0.052,
+    "Isolated EPA/play": -0.024,
+    "Scheme tax (EPA/play)": -0.017,
+    "Rush EPA (total)": -6.4
+   },
+   "lenses": {
+    "Pure Thrower": 48,
+    "Ball Placement": 48,
+    "Make It Happen": 48
    },
    "twp": null,
    "ints": null,
@@ -2725,7 +2725,7 @@
     "Rush EPA (total)": 17.7
    },
    "lenses": {
-    "Pure Thrower": 41,
+    "Pure Thrower": 42,
     "Ball Placement": 50,
     "Make It Happen": 47
    },
@@ -2769,7 +2769,7 @@
     "Rush EPA (total)": -3.6
    },
    "lenses": {
-    "Pure Thrower": 49,
+    "Pure Thrower": 47,
     "Ball Placement": 41,
     "Make It Happen": 40
    },
