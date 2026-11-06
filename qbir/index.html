@@ -417,17 +417,33 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
     openModal(`<button class="amx" aria-label="Close">${Xsvg}</button>
       <h3>Sign in</h3>
       <p>${ctx||'One Throw in the Towel account across the Index, the Fantasy app and the Draft room.'}</p>
+      <button class="btnk solid" id="amGoogle" style="width:100%;margin-bottom:12px">Continue with Google</button>
+      <div style="display:flex;align-items:center;gap:10px;color:var(--faint);font-size:12px;margin:4px 0 12px"><span style="flex:1;height:1px;background:var(--line2)"></span>or<span style="flex:1;height:1px;background:var(--line2)"></span></div>
       <input class="amin" id="amEmail" type="email" placeholder="you@email.com" autocomplete="email">
-      <div class="amrow"><button class="btnk solid" id="amSend">Email me a link</button></div>
+      <input class="amin" id="amPass" type="password" placeholder="password" autocomplete="current-password" style="margin-top:8px">
+      <div class="amrow" style="margin-top:10px"><button class="btnk solid" id="amSignin">Sign in</button><button class="btnk" id="amCreate">Create account</button></div>
+      <div class="amrow" style="margin-top:8px"><button id="amLink" style="background:none;border:none;color:var(--gold);padding:0;font-size:12.5px;cursor:pointer">Email me a link instead</button></div>
       <div class="ammsg" id="amMsg"></div>`);
-    const send=document.getElementById('amSend');
-    send.onclick=async()=>{
-      const em=(document.getElementById('amEmail').value||'').trim(), msg=document.getElementById('amMsg');
-      if(!/.+@.+\..+/.test(em)){msg.textContent='Enter a valid email.';return;}
-      send.disabled=true;send.textContent='Sending…';
-      const {error}=await sb.auth.signInWithOtp({email:em,options:{emailRedirectTo:location.href.split('#')[0]}});
+    const E=()=>(document.getElementById('amEmail').value||'').trim(), P=()=>document.getElementById('amPass').value||'';
+    const msg=document.getElementById('amMsg'), ret=location.href.split('#')[0];
+    const okEmail=e=>/.+@.+\..+/.test(e);
+    document.getElementById('amGoogle').onclick=()=>sb.auth.signInWithOAuth({provider:'google',options:{redirectTo:ret}});
+    document.getElementById('amSignin').onclick=async()=>{
+      if(!okEmail(E())){msg.textContent='Enter a valid email.';return;}
+      msg.textContent='Signing in…';
+      const {error}=await sb.auth.signInWithPassword({email:E(),password:P()});
+      if(error){msg.textContent=error.message;} else {closeModal();}
+    };
+    document.getElementById('amCreate').onclick=async()=>{
+      if(!okEmail(E())){msg.textContent='Enter a valid email.';return;}
+      if(P().length<8){msg.textContent='Password must be at least 8 characters.';return;}
+      const {data,error}=await sb.auth.signUp({email:E(),password:P(),options:{emailRedirectTo:ret}});
+      if(error){msg.textContent=error.message;} else if(data.session){closeModal();} else {msg.textContent='Account created — check your email to confirm, then come back and sign in.';}
+    };
+    document.getElementById('amLink').onclick=async()=>{
+      if(!okEmail(E())){msg.textContent='Enter a valid email.';return;}
+      const {error}=await sb.auth.signInWithOtp({email:E(),options:{emailRedirectTo:ret}});
       msg.textContent=error?('Couldn’t send — '+error.message):'Check your inbox for the sign-in link.';
-      send.disabled=false;send.textContent='Email me a link';
     };
   }
   // Start a Stripe Checkout via the existing billing worker. Sign-in-gated (we need the user id).
