@@ -417,8 +417,6 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
     openModal(`<button class="amx" aria-label="Close">${Xsvg}</button>
       <h3>Sign in</h3>
       <p>${ctx||'One Throw in the Towel account across the Index, the Fantasy app and the Draft room.'}</p>
-      <button class="btnk solid" id="amGoogle" style="width:100%;margin-bottom:12px">Continue with Google</button>
-      <div style="display:flex;align-items:center;gap:10px;color:var(--faint);font-size:12px;margin:4px 0 12px"><span style="flex:1;height:1px;background:var(--line2)"></span>or<span style="flex:1;height:1px;background:var(--line2)"></span></div>
       <input class="amin" id="amEmail" type="email" placeholder="you@email.com" autocomplete="email">
       <input class="amin" id="amPass" type="password" placeholder="password" autocomplete="current-password" style="margin-top:8px">
       <div class="amrow" style="margin-top:10px"><button class="btnk solid" id="amSignin">Sign in</button><button class="btnk" id="amCreate">Create account</button></div>
@@ -427,7 +425,6 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
     const E=()=>(document.getElementById('amEmail').value||'').trim(), P=()=>document.getElementById('amPass').value||'';
     const msg=document.getElementById('amMsg'), ret=location.href.split('#')[0];
     const okEmail=e=>/.+@.+\..+/.test(e);
-    document.getElementById('amGoogle').onclick=()=>sb.auth.signInWithOAuth({provider:'google',options:{redirectTo:ret}});
     document.getElementById('amSignin').onclick=async()=>{
       if(!okEmail(E())){msg.textContent='Enter a valid email.';return;}
       msg.textContent='Signing in…';
