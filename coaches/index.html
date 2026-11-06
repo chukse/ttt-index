@@ -550,7 +550,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
   }
   function renderAcct(session){
     if(!session){acct.innerHTML='<button class="btnk" id="siBtn">Sign in</button>';document.getElementById('siBtn').onclick=()=>signInModal();return;}
-    const tier=(window.TTT&&TTT.tier)||'free', label=(tier==='free')?'Free':(tier.charAt(0).toUpperCase()+tier.slice(1));
+    const tier=(window.TTT&&TTT.tier)||'free', label=(tier==='free')?'Free':'Member';
     acct.innerHTML=`<span class="who">${session.user.email||''}</span><span class="tierbadge ${tier}">${label}</span><button class="btnk" id="soBtn">Sign out</button>`;
     document.getElementById('soBtn').onclick=async()=>{await sb.auth.signOut();location.reload();};
   }
@@ -584,7 +584,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
   sb.auth.onAuthStateChange((_e,session)=>{refresh(session);});
   sb.auth.getSession().then(({data})=>refresh(data.session));
   // Returned from a completed Stripe checkout: webhook writes the plan server-side; re-check a few times.
-  if(new URLSearchParams(location.search).get('sub')==='ok'){
+  const _q=new URLSearchParams(location.search); if(_q.get('upgraded')==='1'||_q.get('sub')==='ok'){
     let n=0; const iv=setInterval(async()=>{ if(window.TTT)await TTT.init(sb); paintExport();
       renderAcct(SESSION); if((window.TTT&&TTT.has('index_depth'))||++n>5)clearInterval(iv); }, 1500);
   }
