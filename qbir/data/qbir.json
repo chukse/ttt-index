@@ -32,7 +32,7 @@
     "reliability": 0.63
    },
    "factors": {
-    "Efficiency": 68.6,
+    "Efficiency": 68.7,
     "Mobility": 48.5,
     "Pressure": 62.1,
     "Carry": 61.4,
@@ -70,8 +70,8 @@
    "team": "NE",
    "games": 8,
    "db": 250,
-   "grade": 91.8,
-   "qbir": 66.8,
+   "grade": 91.9,
+   "qbir": 66.9,
    "reliability": 0.39,
    "prev_rank": null,
    "scheme": {
@@ -326,7 +326,7 @@
     "reliability": 0.84
    },
    "factors": {
-    "Efficiency": 61.3,
+    "Efficiency": 61.4,
     "Mobility": 42.1,
     "Pressure": 56.5,
     "Carry": 60.3,
@@ -511,8 +511,8 @@
    "team": "JAX",
    "games": 7,
    "db": 211,
-   "grade": 81.6,
-   "qbir": 56.6,
+   "grade": 81.5,
+   "qbir": 56.5,
    "reliability": 0.34,
    "prev_rank": null,
    "scheme": {
@@ -522,7 +522,7 @@
     "reliability": 0.47
    },
    "factors": {
-    "Efficiency": 61.4,
+    "Efficiency": 61.2,
     "Mobility": 45.1,
     "Pressure": 57.4,
     "Carry": 49.9,
@@ -531,8 +531,8 @@
     "Env. help": 53.3
    },
    "stats": {
-    "Passer rating": 112.6,
-    "ANY/A": 9.27,
+    "Passer rating": 111.7,
+    "ANY/A": 9.36,
     "CPOE": 3.9,
     "TWP rate (FTN)": 0.033,
     "Isolated EPA/play": 0.049,
@@ -540,12 +540,12 @@
     "Scheme tax (EPA/play)": 0.019,
     "Rush EPA (total)": 2.5,
     "Time to throw (NGS)": 2.75,
-    "Aggressiveness % (NGS)": 16.2,
-    "Air to sticks (NGS)": -0.6
+    "Aggressiveness % (NGS)": 14.7,
+    "Air to sticks (NGS)": -0.5
    },
    "lenses": {
-    "Pure Thrower": 56,
-    "Ball Placement": 54,
+    "Pure Thrower": 54,
+    "Ball Placement": 53,
     "Make It Happen": 53
    },
    "twp": 7.0,
@@ -571,7 +571,7 @@
     "reliability": 0.65
    },
    "factors": {
-    "Efficiency": 39.7,
+    "Efficiency": 39.6,
     "Mobility": 61.2,
     "Pressure": 42.2,
     "Carry": 45.4,
@@ -1328,7 +1328,7 @@
     "Air to sticks (NGS)": -1.9
    },
    "lenses": {
-    "Pure Thrower": 44,
+    "Pure Thrower": 45,
     "Ball Placement": 48,
     "Make It Happen": 45
    },
