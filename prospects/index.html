@@ -49,6 +49,11 @@ a{color:inherit; text-decoration:none}
 .tab{font-family:var(--disp); font-weight:700; font-size:15px; letter-spacing:.05em; text-transform:uppercase; color:var(--faint); background:transparent; border:1px solid var(--line2); border-radius:9px; padding:8px 18px; cursor:pointer; transition:color .13s,border-color .13s,background .13s}
 .tab:hover{color:var(--ink); border-color:var(--line2)}
 .tab.on{color:#17120a; background:var(--gold); border-color:var(--gold)}
+.segit{display:inline-flex; border:1px solid var(--line2); border-radius:8px; overflow:hidden; vertical-align:middle}
+.segit .seg{font-family:var(--sans); font-size:12px; font-weight:600; letter-spacing:.02em; color:var(--faint); background:transparent; border:0; padding:6px 13px; cursor:pointer; transition:color .12s,background .12s}
+.segit .seg.on{background:var(--gold); color:#17120a}
+.segit .seg:not(.on):hover{color:var(--ink)}
+.cls{color:var(--faint)} .cls.ug{color:var(--cool)}
 
 /* context line */
 .ctx{max-width:1320px; margin:0 auto; padding:13px 20px 11px; display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 16px}
@@ -200,6 +205,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 
 <div class="ctx">
   <h1 id="boardh1">2026 Prospects</h1>
+  <div class="segit" id="eligseg" title="Draft-eligible = 3+ college seasons (can declare for the 2027 draft)"><button class="seg on" data-e="all">All</button><button class="seg" data-e="elig">Draft-eligible</button></div>
   <input id="qsearch" type="search" placeholder="Search player or team…" autocomplete="off">
   <span class="d" id="ctxd"></span>
   <a class="mlink" href="#method">How it's built ↓</a>
@@ -209,7 +215,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 <div class="scroll">
   <table class="kp"><thead id="thead"></thead><tbody id="tbody"></tbody></table>
 </div>
-<p class="note"><span class="rk-ex">SCORE</span> = production-ceiling ranking (validated out-of-sample as a ranking, not a yardage prediction). <b style="color:var(--dim)">MAKE%</b> = calibrated probability the player becomes a real NFL contributor at his position's bar — pace-adjusted to a full season. <b style="color:var(--dim)">DRIVER</b> = the stats carrying his MAKE%. Click a column to sort · click a row for the full card. Every value carries its <span class="rk-ex">rank<sup>1</sup></span> within the position.</p>
+<p class="note"><span class="rk-ex">SCORE</span> = production-ceiling ranking (validated out-of-sample as a ranking, not a yardage prediction). <b style="color:var(--dim)">MAKE%</b> = calibrated probability the player becomes a real NFL contributor at his position's bar — pace-adjusted to a full season. <b style="color:var(--dim)">DRIVER</b> = the stats carrying his MAKE%. Click a column to sort · click a row for the full card. Every value carries its <span class="rk-ex">rank<sup>1</sup></span> within the position. <b style="color:var(--dim)">Class</b> (FR/SO/JR/SR) and the <b style="color:var(--dim)">Draft-eligible</b> filter are estimated from a player's first season of production — a redshirt who broke out late can read a year young.</p>
 
 <section class="method" id="method">
   <div class="mgrid">
@@ -251,7 +257,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 const STAR='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2l2.95 6.3 6.85.72-5.1 4.64 1.43 6.74L12 17.6l-6.13 3-1.43-6.74-5.1-4.64 6.85-.72z"/></svg>';
 const X='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
 const POS=["QB","WR","RB","TE"], POSNAME={QB:"Quarterbacks",WR:"Wide Receivers",RB:"Running Backs",TE:"Tight Ends"};
-let DATA=null, CUR="QB", RANK={}, sortKey="rank", sortDir=1, QSEARCH="";
+let DATA=null, CUR="QB", RANK={}, sortKey="rank", sortDir=1, QSEARCH="", ELIG="all";
 document.getElementById('footstars').innerHTML=STAR+STAR+STAR+STAR+STAR;
 
 function scoreTier(s){return s>=80?'t-elite':s>=65?'t-good':s>=50?'t-mid':'t-low'}
@@ -273,6 +279,7 @@ function buildTabs(){
   document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{CUR=t.getAttribute('data-p');sortKey="rank";sortDir=1;buildTabs();render();});
 }
 document.getElementById('qsearch').addEventListener('input',e=>{QSEARCH=e.target.value.trim();if(DATA)render();});
+document.getElementById('eligseg').addEventListener('click',e=>{const bt=e.target.closest('.seg');if(!bt)return;ELIG=bt.getAttribute('data-e');document.querySelectorAll('#eligseg .seg').forEach(s=>s.classList.toggle('on',s===bt));if(DATA)render();});
 loadData();
 
 function computeRanks(){
@@ -301,6 +308,7 @@ function render(){
     if(k!=='none')h.onclick=()=>{if(sortKey===k){sortDir*=-1}else{sortKey=k;sortDir=(k==='rank')?1:-1;}render();};});
 
   let ps=[...b.players];
+  if(ELIG==='elig')ps=ps.filter(p=>p.eligible);
   if(QSEARCH){const q=QSEARCH.toLowerCase();ps=ps.filter(x=>x.player.toLowerCase().includes(q)||(x.team&&x.team.toLowerCase().includes(q)));}
   ps.sort((a,b2)=>{let av,bv;
     if(sortKey==='rank'){av=a.rank;bv=b2.rank;}
@@ -317,7 +325,7 @@ function render(){
     const drv=p.driver&&p.driver!=='—'?p.driver.split('+').map(s=>`<span class="chip">${s}</span>`).join(' '):'<span style="color:var(--faint)">—</span>';
     return `<tr data-r="${p.rank}">
       <td class="lt c-rk num">${p.rank}</td>
-      <td class="lt c-qb"><div class="nm">${p.player}</div><div class="mt"><span class="dot" style="background:var(--gold)"></span>${p.team}</div></td>
+      <td class="lt c-qb"><div class="nm">${p.player}</div><div class="mt"><span class="dot" style="background:var(--gold)"></span>${p.team} · <span class="cls ${p.eligible?'':'ug'}"${p.eligible?'':' title="Not yet draft-eligible"'}>${p.cls}</span></div></td>
       <td class="c-gr ${scoreTier(p.score)} num">${p.score.toFixed(1)}</td>
       <td class="c-make grp ${makeTier(p.make_it)} num">${p.make_it}%<sup class="rk ${rkClass(RANK.make_it[p.rank],n)}">${RANK.make_it[p.rank]}</sup></td>
       ${cells}<td class="c-drv grp">${drv}</td></tr>`;
@@ -336,7 +344,7 @@ function openSheet(rank){
   sh.innerHTML=`
     <div class="shead">
       <div class="sg num ${scoreTier(p.score)}" style="color:${p.score>=80?'var(--gold-br)':p.score<50?'var(--brick)':'var(--ink)'}">${p.score.toFixed(0)}</div>
-      <div><div class="snm">${p.player}</div><div class="smeta num">#${p.rank} ${CUR} · ${p.team}</div></div>
+      <div><div class="snm">${p.player}</div><div class="smeta num">#${p.rank} ${CUR} · ${p.team} · ${p.cls}${p.eligible?'':' · not yet draft-eligible'}</div></div>
       <button class="sx" id="sheetx" aria-label="Close">${X}</button>
     </div>
     <div class="sec sval"><div class="svk">Make-It · will he become a pro</div><div class="svv"><b>${p.make_it}%</b> chance of a ${b.bar.toLocaleString()}+yd NFL career &nbsp;<span style="color:var(--faint)">(base rate ${b.base_rate}% · this profile's drivers: ${p.driver})</span></div></div>
@@ -408,9 +416,9 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
   function paintExport(){const ex=xbtn.querySelector('.lock');if(ex)ex.remove();if(!(window.TTT&&TTT.has('index_depth')))xbtn.insertAdjacentHTML('beforeend',' <span class="lock">Core</span>');}
   function toCSV(){
     const b=DATA.boards[CUR], cols=b.columns.map(c=>c.key);
-    const head=["rank","player","team","score","make_it_pct","driver","sos_opp_def"].concat(cols.map(k=>"stat_"+k.toLowerCase()));
+    const head=["rank","player","team","class","draft_eligible","score","make_it_pct","driver","sos_opp_def"].concat(cols.map(k=>"stat_"+k.toLowerCase()));
     const esc=v=>v==null?'':(/[",\n]/.test(''+v)?'"'+(''+v).replace(/"/g,'""')+'"':''+v);
-    const rows=[...b.players].sort((a,b2)=>a.rank-b2.rank).map(p=>[p.rank,p.player,p.team,p.score,p.make_it,p.driver,p.sos==null?'':p.sos].concat(cols.map(k=>p.stats[k]==null?'':p.stats[k])).map(esc).join(','));
+    const rows=[...b.players].sort((a,b2)=>a.rank-b2.rank).map(p=>[p.rank,p.player,p.team,p.cls,p.eligible?'yes':'no',p.score,p.make_it,p.driver,p.sos==null?'':p.sos].concat(cols.map(k=>p.stats[k]==null?'':p.stats[k])).map(esc).join(','));
     return [head.join(','),...rows].join('\n');
   }
   function download(){const blob=new Blob([toCSV()],{type:'text/csv;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`ttt-prospects-${DATA.meta.season}-${CUR}.csv`;document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(a.href);}
