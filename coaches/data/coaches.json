@@ -249,7 +249,7 @@
    "rush_sr": 41.475,
    "scheme_value": 0.003,
    "scheme_rel": 0.43,
-   "scheme_value_pass": -0.016,
+   "scheme_value_pass": -0.009,
    "scheme_rel_pass": 0.28,
    "scheme_value_rush": 0.024,
    "scheme_rel_rush": 0.68,
@@ -374,9 +374,9 @@
     "pass_sr": 17,
     "rush_sr": 29,
     "scheme_value": 20,
-    "scheme_value_pass": 25,
+    "scheme_value_pass": 37,
     "scheme_value_rush": 11,
-    "value": 11,
+    "value": 12,
     "yac_oe": 57
    },
    "scheme_value_conf": "low",
@@ -564,7 +564,7 @@
     "pass_sr": 8,
     "rush_sr": 12,
     "scheme_value": 1,
-    "scheme_value_pass": 3,
+    "scheme_value_pass": 2,
     "scheme_value_rush": 1,
     "value": 2,
     "yac_oe": 12
@@ -628,7 +628,7 @@
    "rush_sr": 42.25,
    "scheme_value": 0.024,
    "scheme_rel": 0.3,
-   "scheme_value_pass": 0.079,
+   "scheme_value_pass": 0.0174,
    "scheme_rel_pass": 0.11,
    "scheme_value_rush": 0.034,
    "scheme_rel_rush": 0.61,
@@ -753,9 +753,9 @@
     "pass_sr": 22,
     "rush_sr": 19,
     "scheme_value": 11,
-    "scheme_value_pass": null,
+    "scheme_value_pass": 15,
     "scheme_value_rush": 9,
-    "value": 12,
+    "value": 13,
     "yac_oe": 21
    },
    "scheme_value_conf": "low",
@@ -943,9 +943,9 @@
     "pass_sr": 31,
     "rush_sr": 18,
     "scheme_value": 14,
-    "scheme_value_pass": 20,
-    "scheme_value_rush": 17,
-    "value": 14,
+    "scheme_value_pass": 17,
+    "scheme_value_rush": 16,
+    "value": 15,
     "yac_oe": 48
    },
    "scheme_value_conf": "ok",
@@ -1303,10 +1303,10 @@
     "rush_epa": 56,
     "pass_sr": 34,
     "rush_sr": 68,
-    "scheme_value": 26,
-    "scheme_value_pass": 15,
-    "scheme_value_rush": 39,
-    "value": 44,
+    "scheme_value": 28,
+    "scheme_value_pass": 12,
+    "scheme_value_rush": 49,
+    "value": 54,
     "yac_oe": 55
    },
    "scheme_value_conf": "ok",
@@ -1492,10 +1492,10 @@
     "rush_epa": 60,
     "pass_sr": 50,
     "rush_sr": 43,
-    "scheme_value": 41,
-    "scheme_value_pass": 29,
-    "scheme_value_rush": 44,
-    "value": 29,
+    "scheme_value": 48,
+    "scheme_value_pass": 45,
+    "scheme_value_rush": 54,
+    "value": 36,
     "yac_oe": 40
    },
    "scheme_value_conf": "ok",
@@ -1746,7 +1746,7 @@
    "rush_sr": 40.8,
    "scheme_value": 0.042,
    "scheme_rel": 0.44,
-   "scheme_value_pass": 0.116,
+   "scheme_value_pass": 0.0557,
    "scheme_rel_pass": 0.24,
    "scheme_value_rush": 0.023,
    "scheme_rel_rush": 0.7,
@@ -1871,9 +1871,9 @@
     "pass_sr": 28,
     "rush_sr": 36,
     "scheme_value": 5,
-    "scheme_value_pass": 2,
-    "scheme_value_rush": 13,
-    "value": 13,
+    "scheme_value_pass": 4,
+    "scheme_value_rush": 12,
+    "value": 14,
     "yac_oe": 23
    },
    "scheme_value_conf": "low",
@@ -1936,9 +1936,9 @@
    "rush_sr": 39.75,
    "scheme_value": 0.003,
    "scheme_rel": 0.18,
-   "scheme_value_pass": 0.02,
+   "scheme_value_pass": 0.0072,
    "scheme_rel_pass": 0.18,
-   "scheme_value_rush": -0.008,
+   "scheme_value_rush": -0.0029,
    "scheme_rel_rush": 0.18,
    "_byseason": [
     {
@@ -2061,9 +2061,9 @@
     "pass_sr": 23,
     "rush_sr": 42,
     "scheme_value": 21,
-    "scheme_value_pass": 18,
-    "scheme_value_rush": 31,
-    "value": null,
+    "scheme_value_pass": 21,
+    "scheme_value_rush": 29,
+    "value": 27,
     "yac_oe": 66
    },
    "scheme_value_conf": "low",
@@ -2117,9 +2117,9 @@
    "rush_sr": 44.825,
    "scheme_value": -0.001,
    "scheme_rel": 0.12,
-   "scheme_value_pass": -0.011,
+   "scheme_value_pass": -0.0011,
    "scheme_rel_pass": 0.05,
-   "scheme_value_rush": 0.001,
+   "scheme_value_rush": 0.0005,
    "scheme_rel_rush": 0.23,
    "_byseason": [
     {
@@ -2241,10 +2241,10 @@
     "rush_epa": 19,
     "pass_sr": 19,
     "rush_sr": 9,
-    "scheme_value": null,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 24,
-    "value": null,
+    "scheme_value": 26,
+    "scheme_value_pass": 30,
+    "scheme_value_rush": 25,
+    "value": 28,
     "yac_oe": 39
    },
    "scheme_value_conf": "nr",
@@ -2422,10 +2422,10 @@
     "rush_epa": 57,
     "pass_sr": 44,
     "rush_sr": 52,
-    "scheme_value": 48,
-    "scheme_value_pass": 30,
-    "scheme_value_rush": 56,
-    "value": 34,
+    "scheme_value": 55,
+    "scheme_value_pass": 46,
+    "scheme_value_rush": 58,
+    "value": 44,
     "yac_oe": 35
    },
    "scheme_value_conf": "ok",
@@ -2487,7 +2487,7 @@
    "rush_sr": 46.25,
    "scheme_value": 0.031,
    "scheme_rel": 0.38,
-   "scheme_value_pass": 0.06,
+   "scheme_value_pass": 0.0276,
    "scheme_rel_pass": 0.23,
    "scheme_value_rush": 0.035,
    "scheme_rel_rush": 0.6,
@@ -2612,9 +2612,9 @@
     "pass_sr": 9,
     "rush_sr": 4,
     "scheme_value": 9,
-    "scheme_value_pass": 5,
+    "scheme_value_pass": 10,
     "scheme_value_rush": 7,
-    "value": 21,
+    "value": 23,
     "yac_oe": 26
    },
    "scheme_value_conf": "low",
@@ -2801,8 +2801,8 @@
     "pass_sr": 60,
     "rush_sr": 37,
     "scheme_value": 12,
-    "scheme_value_pass": 13,
-    "scheme_value_rush": 20,
+    "scheme_value_pass": 11,
+    "scheme_value_rush": 19,
     "value": 9,
     "yac_oe": 64
    },
@@ -2990,9 +2990,9 @@
     "pass_sr": 58,
     "rush_sr": 25,
     "scheme_value": 7,
-    "scheme_value_pass": 8,
+    "scheme_value_pass": 7,
     "scheme_value_rush": 10,
-    "value": 10,
+    "value": 11,
     "yac_oe": 53
    },
    "scheme_value_conf": "ok",
@@ -3180,9 +3180,9 @@
     "pass_sr": 16,
     "rush_sr": 16,
     "scheme_value": 4,
-    "scheme_value_pass": 7,
+    "scheme_value_pass": 6,
     "scheme_value_rush": 2,
-    "value": null,
+    "value": 10,
     "yac_oe": 18
    },
    "scheme_value_conf": "ok",
@@ -3548,7 +3548,7 @@
     "pass_sr": 7,
     "rush_sr": 39,
     "scheme_value": 6,
-    "scheme_value_pass": 9,
+    "scheme_value_pass": 8,
     "scheme_value_rush": 6,
     "value": 6,
     "yac_oe": 7
@@ -3613,7 +3613,7 @@
    "rush_sr": 34.533,
    "scheme_value": -0.054,
    "scheme_rel": 0.53,
-   "scheme_value_pass": -0.069,
+   "scheme_value_pass": -0.0635,
    "scheme_rel_pass": 0.46,
    "scheme_value_rush": -0.04,
    "scheme_rel_rush": 0.64,
@@ -3712,10 +3712,10 @@
     "rush_epa": 63,
     "pass_sr": 52,
     "rush_sr": 73,
-    "scheme_value": 44,
-    "scheme_value_pass": 36,
-    "scheme_value_rush": 42,
-    "value": 38,
+    "scheme_value": 51,
+    "scheme_value_pass": 50,
+    "scheme_value_rush": 52,
+    "value": 48,
     "yac_oe": 11
    },
    "scheme_value_conf": "ok",
@@ -3768,7 +3768,7 @@
    "rush_sr": 41.733,
    "scheme_value": 0.014,
    "scheme_rel": 0.42,
-   "scheme_value_pass": 0.017,
+   "scheme_value_pass": 0.0122,
    "scheme_rel_pass": 0.36,
    "scheme_value_rush": 0.018,
    "scheme_rel_rush": 0.51,
@@ -3869,8 +3869,8 @@
     "rush_sr": 22,
     "scheme_value": 13,
     "scheme_value_pass": 19,
-    "scheme_value_rush": 14,
-    "value": 17,
+    "scheme_value_rush": 13,
+    "value": 18,
     "yac_oe": 69
    },
    "scheme_value_conf": "low",
@@ -4231,7 +4231,7 @@
    "rush_sr": 47.833,
    "scheme_value": 0.033,
    "scheme_rel": 0.32,
-   "scheme_value_pass": 0.022,
+   "scheme_value_pass": 0.007,
    "scheme_rel_pass": 0.16,
    "scheme_value_rush": 0.063,
    "scheme_rel_rush": 0.52,
@@ -4331,7 +4331,7 @@
     "pass_sr": 12,
     "rush_sr": 2,
     "scheme_value": 8,
-    "scheme_value_pass": 14,
+    "scheme_value_pass": 22,
     "scheme_value_rush": 4,
     "value": 7,
     "yac_oe": 19
@@ -4642,9 +4642,9 @@
     "pass_sr": 29,
     "rush_sr": 56,
     "scheme_value": 17,
-    "scheme_value_pass": 17,
+    "scheme_value_pass": 14,
     "scheme_value_rush": 27,
-    "value": 20,
+    "value": 22,
     "yac_oe": 34
    },
    "scheme_value_conf": "ok",
@@ -4798,7 +4798,7 @@
     "pass_sr": 5,
     "rush_sr": 15,
     "scheme_value": 3,
-    "scheme_value_pass": 4,
+    "scheme_value_pass": 3,
     "scheme_value_rush": 3,
     "value": 1,
     "yac_oe": 27
@@ -4865,7 +4865,7 @@
    "scheme_rel": 0.55,
    "scheme_value_pass": -0.066,
    "scheme_rel_pass": 0.63,
-   "scheme_value_rush": -0.046,
+   "scheme_value_rush": -0.0359,
    "scheme_rel_rush": 0.39,
    "_byseason": [
     {
@@ -4962,10 +4962,10 @@
     "rush_epa": 52,
     "pass_sr": 65,
     "rush_sr": 57,
-    "scheme_value": 45,
-    "scheme_value_pass": 34,
-    "scheme_value_rush": 45,
-    "value": 45,
+    "scheme_value": 52,
+    "scheme_value_pass": 51,
+    "scheme_value_rush": 48,
+    "value": 55,
     "yac_oe": 56
    },
    "scheme_value_conf": "ok",
@@ -5019,9 +5019,9 @@
    "rush_sr": 38.933,
    "scheme_value": -0.001,
    "scheme_rel": 0.46,
-   "scheme_value_pass": 0.03,
+   "scheme_value_pass": 0.0276,
    "scheme_rel_pass": 0.46,
-   "scheme_value_rush": -0.05,
+   "scheme_value_rush": -0.047,
    "scheme_rel_rush": 0.47,
    "_byseason": [
     {
@@ -5118,10 +5118,10 @@
     "rush_epa": 47,
     "pass_sr": 30,
     "rush_sr": 50,
-    "scheme_value": 25,
-    "scheme_value_pass": 12,
-    "scheme_value_rush": 48,
-    "value": 30,
+    "scheme_value": 27,
+    "scheme_value_pass": 9,
+    "scheme_value_rush": 56,
+    "value": 39,
     "yac_oe": 36
    },
    "scheme_value_conf": "low",
@@ -5274,10 +5274,10 @@
     "rush_epa": 17,
     "pass_sr": 49,
     "rush_sr": 10,
-    "scheme_value": 34,
-    "scheme_value_pass": 35,
+    "scheme_value": 41,
+    "scheme_value_pass": 52,
     "scheme_value_rush": 8,
-    "value": 32,
+    "value": 42,
     "yac_oe": 61
    },
    "scheme_value_conf": "ok",
@@ -5405,10 +5405,10 @@
     "rush_epa": 66,
     "pass_sr": 62,
     "rush_sr": 61,
-    "scheme_value": 43,
-    "scheme_value_pass": 31,
-    "scheme_value_rush": 46,
-    "value": 43,
+    "scheme_value": 50,
+    "scheme_value_pass": 47,
+    "scheme_value_rush": 55,
+    "value": 53,
     "yac_oe": 15
    },
    "scheme_value_conf": "ok",
@@ -5536,9 +5536,9 @@
     "pass_sr": 53,
     "rush_sr": 33,
     "scheme_value": 15,
-    "scheme_value_pass": 16,
+    "scheme_value_pass": 13,
     "scheme_value_rush": 26,
-    "value": 47,
+    "value": 57,
     "yac_oe": 3
    },
    "scheme_value_conf": "ok",
@@ -5601,9 +5601,9 @@
    "rush_sr": 44.05,
    "scheme_value": 0.005,
    "scheme_rel": 0.2,
-   "scheme_value_pass": 0.031,
+   "scheme_value_pass": 0.0167,
    "scheme_rel_pass": 0.27,
-   "scheme_value_rush": -0.028,
+   "scheme_value_rush": -0.0073,
    "scheme_rel_rush": 0.13,
    "_byseason": [
     {
@@ -5676,9 +5676,9 @@
     "pass_sr": 24,
     "rush_sr": 13,
     "scheme_value": 19,
-    "scheme_value_pass": 11,
-    "scheme_value_rush": null,
-    "value": null,
+    "scheme_value_pass": 16,
+    "scheme_value_rush": 33,
+    "value": 19,
     "yac_oe": 14
    },
    "scheme_value_conf": "low",
@@ -5861,9 +5861,9 @@
    "rush_sr": 42.1,
    "scheme_value": -0.004,
    "scheme_rel": 0.12,
-   "scheme_value_pass": -0.019,
+   "scheme_value_pass": -0.0023,
    "scheme_rel_pass": 0.06,
-   "scheme_value_rush": -0.018,
+   "scheme_value_rush": -0.0094,
    "scheme_rel_rush": 0.26,
    "_byseason": [
     {
@@ -5935,10 +5935,10 @@
     "rush_epa": 15,
     "pass_sr": 37,
     "rush_sr": 20,
-    "scheme_value": null,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 33,
-    "value": null,
+    "scheme_value": 32,
+    "scheme_value_pass": 31,
+    "scheme_value_rush": 36,
+    "value": 33,
     "yac_oe": 46
    },
    "scheme_value_conf": "nr",
@@ -6120,7 +6120,7 @@
    "rush_sr": 38.55,
    "scheme_value": 0.008,
    "scheme_rel": 0.33,
-   "scheme_value_pass": 0.032,
+   "scheme_value_pass": 0.0096,
    "scheme_rel_pass": 0.15,
    "scheme_value_rush": 0.006,
    "scheme_rel_rush": 0.6,
@@ -6195,9 +6195,9 @@
     "pass_sr": 39,
     "rush_sr": 54,
     "scheme_value": 18,
-    "scheme_value_pass": 10,
+    "scheme_value_pass": 20,
     "scheme_value_rush": 21,
-    "value": 22,
+    "value": 25,
     "yac_oe": 16
    },
    "scheme_value_conf": "low",
@@ -6250,9 +6250,9 @@
    "rush_sr": 37.8,
    "scheme_value": 0.0,
    "scheme_rel": 0.23,
-   "scheme_value_pass": 0.159,
+   "scheme_value_pass": 0.0127,
    "scheme_rel_pass": 0.04,
-   "scheme_value_rush": -0.018,
+   "scheme_value_rush": -0.0173,
    "scheme_rel_rush": 0.48,
    "_byseason": [
     {
@@ -6325,9 +6325,9 @@
     "pass_sr": 1,
     "rush_sr": 59,
     "scheme_value": 23,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 34,
-    "value": 48,
+    "scheme_value_pass": 18,
+    "scheme_value_rush": 39,
+    "value": 58,
     "yac_oe": 63
    },
    "scheme_value_conf": "low",
@@ -6464,10 +6464,10 @@
     "rush_epa": 29,
     "pass_sr": 47,
     "rush_sr": 24,
-    "scheme_value": 47,
-    "scheme_value_pass": 38,
-    "scheme_value_rush": 30,
-    "value": 40,
+    "scheme_value": 54,
+    "scheme_value_pass": 55,
+    "scheme_value_rush": 35,
+    "value": 50,
     "yac_oe": 42
    },
    "scheme_value_conf": "ok",
@@ -6778,7 +6778,7 @@
    "rush_sr": 45.2,
    "scheme_value": 0.03,
    "scheme_rel": 0.53,
-   "scheme_value_pass": 0.046,
+   "scheme_value_pass": 0.0423,
    "scheme_rel_pass": 0.46,
    "scheme_value_rush": 0.015,
    "scheme_rel_rush": 0.62,
@@ -6853,7 +6853,7 @@
     "pass_sr": 15,
     "rush_sr": 8,
     "scheme_value": 10,
-    "scheme_value_pass": 6,
+    "scheme_value_pass": 5,
     "scheme_value_rush": 15,
     "value": 8,
     "yac_oe": 60
@@ -6983,10 +6983,10 @@
     "rush_epa": 68,
     "pass_sr": 55,
     "rush_sr": 64,
-    "scheme_value": 42,
-    "scheme_value_pass": 32,
-    "scheme_value_rush": 40,
-    "value": 39,
+    "scheme_value": 49,
+    "scheme_value_pass": 48,
+    "scheme_value_rush": 50,
+    "value": 49,
     "yac_oe": 22
    },
    "scheme_value_conf": "ok",
@@ -7113,10 +7113,10 @@
     "rush_epa": 70,
     "pass_sr": 69,
     "rush_sr": 62,
-    "scheme_value": 52,
-    "scheme_value_pass": 41,
-    "scheme_value_rush": 57,
-    "value": 56,
+    "scheme_value": 59,
+    "scheme_value_pass": 57,
+    "scheme_value_rush": 59,
+    "value": 66,
     "yac_oe": 28
    },
    "scheme_value_conf": "ok",
@@ -7172,7 +7172,7 @@
    "scheme_rel": 0.55,
    "scheme_value_pass": -0.071,
    "scheme_rel_pass": 0.62,
-   "scheme_value_rush": 0.009,
+   "scheme_value_rush": 0.0077,
    "scheme_rel_rush": 0.43,
    "_byseason": [
     {
@@ -7244,10 +7244,10 @@
     "rush_epa": 11,
     "pass_sr": 67,
     "rush_sr": 17,
-    "scheme_value": 39,
-    "scheme_value_pass": 37,
-    "scheme_value_rush": 19,
-    "value": 16,
+    "scheme_value": 46,
+    "scheme_value_pass": 53,
+    "scheme_value_rush": 20,
+    "value": 17,
     "yac_oe": 17
    },
    "scheme_value_conf": "ok",
@@ -7309,9 +7309,9 @@
    "rush_sr": 35.45,
    "scheme_value": -0.019,
    "scheme_rel": 0.36,
-   "scheme_value_pass": -0.02,
+   "scheme_value_pass": -0.012,
    "scheme_rel_pass": 0.3,
-   "scheme_value_rush": -0.035,
+   "scheme_value_rush": -0.0308,
    "scheme_rel_rush": 0.44,
    "_byseason": [
     {
@@ -7383,10 +7383,10 @@
     "rush_epa": 65,
     "pass_sr": 35,
     "rush_sr": 69,
-    "scheme_value": 33,
-    "scheme_value_pass": 26,
-    "scheme_value_rush": 38,
-    "value": 26,
+    "scheme_value": 40,
+    "scheme_value_pass": 40,
+    "scheme_value_rush": 45,
+    "value": 31,
     "yac_oe": 52
    },
    "scheme_value_conf": "low",
@@ -7441,7 +7441,7 @@
    "scheme_rel": 0.52,
    "scheme_value_pass": -0.119,
    "scheme_rel_pass": 0.61,
-   "scheme_value_rush": -0.053,
+   "scheme_value_rush": -0.0413,
    "scheme_rel_rush": 0.39,
    "_byseason": [
     {
@@ -7513,10 +7513,10 @@
     "rush_epa": 59,
     "pass_sr": 71,
     "rush_sr": 58,
-    "scheme_value": 49,
-    "scheme_value_pass": 40,
-    "scheme_value_rush": 52,
-    "value": 50,
+    "scheme_value": 56,
+    "scheme_value_pass": 56,
+    "scheme_value_rush": 53,
+    "value": 60,
     "yac_oe": 37
    },
    "scheme_value_conf": "ok",
@@ -7644,10 +7644,10 @@
     "rush_epa": 50,
     "pass_sr": 54,
     "rush_sr": 48,
-    "scheme_value": 38,
-    "scheme_value_pass": 27,
-    "scheme_value_rush": 41,
-    "value": 37,
+    "scheme_value": 45,
+    "scheme_value_pass": 44,
+    "scheme_value_rush": 51,
+    "value": 47,
     "yac_oe": 44
    },
    "scheme_value_conf": "ok",
@@ -7775,10 +7775,10 @@
     "rush_epa": 27,
     "pass_sr": 64,
     "rush_sr": 45,
-    "scheme_value": 29,
-    "scheme_value_pass": 24,
-    "scheme_value_rush": 25,
-    "value": 33,
+    "scheme_value": 34,
+    "scheme_value_pass": 39,
+    "scheme_value_rush": 24,
+    "value": 43,
     "yac_oe": 70
    },
    "scheme_value_conf": "ok",
@@ -7834,7 +7834,7 @@
    "scheme_rel": 0.56,
    "scheme_value_pass": -0.182,
    "scheme_rel_pass": 0.61,
-   "scheme_value_rush": 0.011,
+   "scheme_value_rush": 0.0106,
    "scheme_rel_rush": 0.48,
    "_byseason": [
     {
@@ -7906,10 +7906,10 @@
     "rush_epa": 32,
     "pass_sr": 73,
     "rush_sr": 46,
-    "scheme_value": 51,
-    "scheme_value_pass": 43,
-    "scheme_value_rush": 18,
-    "value": 52,
+    "scheme_value": 58,
+    "scheme_value_pass": 59,
+    "scheme_value_rush": 17,
+    "value": 62,
     "yac_oe": 5
    },
    "scheme_value_conf": "ok",
@@ -8066,9 +8066,9 @@
    "rush_sr": 38.6,
    "scheme_value": -0.056,
    "scheme_rel": 0.36,
-   "scheme_value_pass": -0.119,
+   "scheme_value_pass": -0.0881,
    "scheme_rel_pass": 0.37,
-   "scheme_value_rush": -0.007,
+   "scheme_value_rush": -0.0048,
    "scheme_rel_rush": 0.34,
    "_byseason": [
     {
@@ -8115,10 +8115,10 @@
     "rush_epa": 58,
     "pass_sr": 72,
     "rush_sr": 53,
-    "scheme_value": 46,
-    "scheme_value_pass": 39,
-    "scheme_value_rush": 29,
-    "value": 46,
+    "scheme_value": 53,
+    "scheme_value_pass": 54,
+    "scheme_value_rush": 31,
+    "value": 56,
     "yac_oe": 68
    },
    "scheme_value_conf": "low",
@@ -8327,7 +8327,7 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 54,
+    "value": 64,
     "yac_oe": 6
    },
    "scheme_value_conf": null,
@@ -8389,9 +8389,9 @@
    "rush_sr": 40.1,
    "scheme_value": -0.001,
    "scheme_rel": 0.04,
-   "scheme_value_pass": -0.046,
+   "scheme_value_pass": -0.0,
    "scheme_rel_pass": 0.0,
-   "scheme_value_rush": -0.016,
+   "scheme_value_rush": -0.0029,
    "scheme_rel_rush": 0.09,
    "_byseason": [
     {
@@ -8438,10 +8438,10 @@
     "rush_epa": 40,
     "pass_sr": 56,
     "rush_sr": 40,
-    "scheme_value": null,
-    "scheme_value_pass": null,
-    "scheme_value_rush": null,
-    "value": 55,
+    "scheme_value": 24,
+    "scheme_value_pass": 26,
+    "scheme_value_rush": 28,
+    "value": 65,
     "yac_oe": 58
    },
    "scheme_value_conf": "nr",
@@ -8503,9 +8503,9 @@
    "rush_sr": 35.4,
    "scheme_value": -0.016,
    "scheme_rel": 0.15,
-   "scheme_value_pass": -0.022,
+   "scheme_value_pass": -0.0048,
    "scheme_rel_pass": 0.11,
-   "scheme_value_rush": -0.079,
+   "scheme_value_rush": -0.0316,
    "scheme_rel_rush": 0.2,
    "_byseason": [
     {
@@ -8552,10 +8552,10 @@
     "rush_epa": 75,
     "pass_sr": 40,
     "rush_sr": 70,
-    "scheme_value": 31,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 55,
-    "value": null,
+    "scheme_value": 38,
+    "scheme_value_pass": 34,
+    "scheme_value_rush": 46,
+    "value": 37,
     "yac_oe": 47
    },
    "scheme_value_conf": "low",
@@ -8608,9 +8608,9 @@
    "rush_sr": 44.6,
    "scheme_value": 0.011,
    "scheme_rel": 0.19,
-   "scheme_value_pass": 0.042,
+   "scheme_value_pass": 0.0059,
    "scheme_rel_pass": 0.07,
-   "scheme_value_rush": 0.024,
+   "scheme_value_rush": 0.0173,
    "scheme_rel_rush": 0.36,
    "_byseason": [
     {
@@ -8658,9 +8658,9 @@
     "pass_sr": 26,
     "rush_sr": 11,
     "scheme_value": 16,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 12,
-    "value": 19,
+    "scheme_value_pass": 23,
+    "scheme_value_rush": 14,
+    "value": 21,
     "yac_oe": 9
    },
    "scheme_value_conf": "low",
@@ -8713,9 +8713,9 @@
    "rush_sr": 31.3,
    "scheme_value": -0.045,
    "scheme_rel": 0.16,
-   "scheme_value_pass": -0.183,
+   "scheme_value_pass": -0.0586,
    "scheme_rel_pass": 0.16,
-   "scheme_value_rush": -0.07,
+   "scheme_value_rush": -0.0224,
    "scheme_rel_rush": 0.16,
    "_byseason": [
     {
@@ -8762,10 +8762,10 @@
     "rush_epa": 76,
     "pass_sr": 66,
     "rush_sr": 76,
-    "scheme_value": 40,
-    "scheme_value_pass": 44,
-    "scheme_value_rush": 53,
-    "value": 41,
+    "scheme_value": 47,
+    "scheme_value_pass": 49,
+    "scheme_value_rush": 42,
+    "value": 51,
     "yac_oe": 59
    },
    "scheme_value_conf": "low",
@@ -8818,9 +8818,9 @@
    "rush_sr": 31.8,
    "scheme_value": -0.008,
    "scheme_rel": 0.09,
-   "scheme_value_pass": 0.024,
+   "scheme_value_pass": 0.0,
    "scheme_rel_pass": 0.0,
-   "scheme_value_rush": -0.046,
+   "scheme_value_rush": -0.0202,
    "scheme_rel_rush": 0.22,
    "_byseason": [
     {
@@ -8867,10 +8867,10 @@
     "rush_epa": 71,
     "pass_sr": 43,
     "rush_sr": 75,
-    "scheme_value": null,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 43,
-    "value": 18,
+    "scheme_value": 36,
+    "scheme_value_pass": 27,
+    "scheme_value_rush": 40,
+    "value": 20,
     "yac_oe": 45
    },
    "scheme_value_conf": "nr",
@@ -8932,9 +8932,9 @@
    "rush_sr": 34.7,
    "scheme_value": -0.028,
    "scheme_rel": 0.33,
-   "scheme_value_pass": -0.008,
+   "scheme_value_pass": -0.0043,
    "scheme_rel_pass": 0.27,
-   "scheme_value_rush": -0.07,
+   "scheme_value_rush": -0.056,
    "scheme_rel_rush": 0.4,
    "_byseason": [
     {
@@ -8981,10 +8981,10 @@
     "rush_epa": 72,
     "pass_sr": 32,
     "rush_sr": 72,
-    "scheme_value": 35,
-    "scheme_value_pass": 22,
-    "scheme_value_rush": 54,
-    "value": 35,
+    "scheme_value": 42,
+    "scheme_value_pass": 33,
+    "scheme_value_rush": 57,
+    "value": 45,
     "yac_oe": 32
    },
    "scheme_value_conf": "low",
@@ -9037,9 +9037,9 @@
    "rush_sr": 38.9,
    "scheme_value": -0.001,
    "scheme_rel": 0.18,
-   "scheme_value_pass": 0.013,
+   "scheme_value_pass": 0.0047,
    "scheme_rel_pass": 0.18,
-   "scheme_value_rush": -0.025,
+   "scheme_value_rush": -0.0095,
    "scheme_rel_rush": 0.19,
    "_byseason": [
     {
@@ -9086,10 +9086,10 @@
     "rush_epa": 55,
     "pass_sr": 63,
     "rush_sr": 51,
-    "scheme_value": 24,
-    "scheme_value_pass": 21,
-    "scheme_value_rush": 37,
-    "value": null,
+    "scheme_value": 25,
+    "scheme_value_pass": 24,
+    "scheme_value_rush": 38,
+    "value": 40,
     "yac_oe": 74
    },
    "scheme_value_conf": "low",
@@ -9246,9 +9246,9 @@
    "rush_sr": 41.5,
    "scheme_value": -0.003,
    "scheme_rel": 0.07,
-   "scheme_value_pass": 0.022,
+   "scheme_value_pass": 0.0,
    "scheme_rel_pass": 0.0,
-   "scheme_value_rush": -0.021,
+   "scheme_value_rush": -0.0067,
    "scheme_rel_rush": 0.16,
    "_byseason": [
     {
@@ -9295,10 +9295,10 @@
     "rush_epa": 43,
     "pass_sr": 11,
     "rush_sr": 28,
-    "scheme_value": null,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 36,
-    "value": 49,
+    "scheme_value": 29,
+    "scheme_value_pass": 28,
+    "scheme_value_rush": 32,
+    "value": 59,
     "yac_oe": 65
    },
    "scheme_value_conf": "nr",
@@ -9360,9 +9360,9 @@
    "rush_sr": 40.6,
    "scheme_value": -0.003,
    "scheme_rel": 0.14,
-   "scheme_value_pass": 0.037,
+   "scheme_value_pass": 0.0007,
    "scheme_rel_pass": 0.01,
-   "scheme_value_rush": -0.012,
+   "scheme_value_rush": -0.0077,
    "scheme_rel_rush": 0.32,
    "_byseason": [
     {
@@ -9409,10 +9409,10 @@
     "rush_epa": 31,
     "pass_sr": 14,
     "rush_sr": 38,
-    "scheme_value": null,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 32,
-    "value": null,
+    "scheme_value": 30,
+    "scheme_value_pass": 25,
+    "scheme_value_rush": 34,
+    "value": 24,
     "yac_oe": 13
    },
    "scheme_value_conf": "nr",
@@ -9465,9 +9465,9 @@
    "rush_sr": 39.9,
    "scheme_value": -0.003,
    "scheme_rel": 0.18,
-   "scheme_value_pass": -0.011,
+   "scheme_value_pass": -0.0009,
    "scheme_rel_pass": 0.04,
-   "scheme_value_rush": -0.006,
+   "scheme_value_rush": -0.0046,
    "scheme_rel_rush": 0.38,
    "_byseason": [
     {
@@ -9514,10 +9514,10 @@
     "rush_epa": 41,
     "pass_sr": 46,
     "rush_sr": 41,
-    "scheme_value": 27,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 28,
-    "value": 23,
+    "scheme_value": 31,
+    "scheme_value_pass": 29,
+    "scheme_value_rush": 30,
+    "value": 26,
     "yac_oe": 29
    },
    "scheme_value_conf": "low",
@@ -9570,9 +9570,9 @@
    "rush_sr": 41.2,
    "scheme_value": -0.007,
    "scheme_rel": 0.17,
-   "scheme_value_pass": -0.03,
+   "scheme_value_pass": -0.006,
    "scheme_rel_pass": 0.1,
-   "scheme_value_rush": -0.018,
+   "scheme_value_rush": -0.0094,
    "scheme_rel_rush": 0.26,
    "_byseason": [
     {
@@ -9619,10 +9619,10 @@
     "rush_epa": 23,
     "pass_sr": 42,
     "rush_sr": 31,
-    "scheme_value": 30,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 35,
-    "value": 24,
+    "scheme_value": 35,
+    "scheme_value_pass": 36,
+    "scheme_value_rush": 37,
+    "value": 29,
     "yac_oe": 50
    },
    "scheme_value_conf": "low",
@@ -9675,9 +9675,9 @@
    "rush_sr": 41.2,
    "scheme_value": 0.001,
    "scheme_rel": 0.33,
-   "scheme_value_pass": -0.009,
+   "scheme_value_pass": -0.0059,
    "scheme_rel_pass": 0.33,
-   "scheme_value_rush": 0.015,
+   "scheme_value_rush": 0.0096,
    "scheme_rel_rush": 0.32,
    "_byseason": [
     {
@@ -9725,9 +9725,9 @@
     "pass_sr": 59,
     "rush_sr": 32,
     "scheme_value": 22,
-    "scheme_value_pass": 23,
-    "scheme_value_rush": 16,
-    "value": 31,
+    "scheme_value_pass": 35,
+    "scheme_value_rush": 18,
+    "value": 41,
     "yac_oe": 2
    },
    "scheme_value_conf": "low",
@@ -9780,9 +9780,9 @@
    "rush_sr": 37.3,
    "scheme_value": -0.019,
    "scheme_rel": 0.33,
-   "scheme_value_pass": -0.043,
+   "scheme_value_pass": -0.0318,
    "scheme_rel_pass": 0.37,
-   "scheme_value_rush": 0.004,
+   "scheme_value_rush": 0.0022,
    "scheme_rel_rush": 0.28,
    "_byseason": [
     {
@@ -9829,10 +9829,10 @@
     "rush_epa": 62,
     "pass_sr": 48,
     "rush_sr": 65,
-    "scheme_value": 32,
-    "scheme_value_pass": 28,
-    "scheme_value_rush": 22,
-    "value": 36,
+    "scheme_value": 39,
+    "scheme_value_pass": 42,
+    "scheme_value_rush": 23,
+    "value": 46,
     "yac_oe": 67
    },
    "scheme_value_conf": "low",
@@ -9989,9 +9989,9 @@
    "rush_sr": 38.3,
    "scheme_value": -0.005,
    "scheme_rel": 0.24,
-   "scheme_value_pass": -0.039,
+   "scheme_value_pass": -0.0101,
    "scheme_rel_pass": 0.13,
-   "scheme_value_rush": 0.004,
+   "scheme_value_rush": 0.0032,
    "scheme_rel_rush": 0.4,
    "_byseason": [
     {
@@ -10038,10 +10038,10 @@
     "rush_epa": 44,
     "pass_sr": 41,
     "rush_sr": 55,
-    "scheme_value": 28,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 23,
-    "value": 28,
+    "scheme_value": 33,
+    "scheme_value_pass": 38,
+    "scheme_value_rush": 22,
+    "value": 34,
     "yac_oe": 72
    },
    "scheme_value_conf": "low",
@@ -10198,9 +10198,9 @@
    "rush_sr": 39.4,
    "scheme_value": -0.013,
    "scheme_rel": 0.14,
-   "scheme_value_pass": -0.034,
+   "scheme_value_pass": -0.0034,
    "scheme_rel_pass": 0.05,
-   "scheme_value_rush": -0.05,
+   "scheme_value_rush": -0.032,
    "scheme_rel_rush": 0.32,
    "_byseason": [
     {
@@ -10247,10 +10247,10 @@
     "rush_epa": 54,
     "pass_sr": 33,
     "rush_sr": 47,
-    "scheme_value": null,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 49,
-    "value": null,
+    "scheme_value": 37,
+    "scheme_value_pass": 32,
+    "scheme_value_rush": 47,
+    "value": 35,
     "yac_oe": 62
    },
    "scheme_value_conf": "nr",
@@ -10303,9 +10303,9 @@
    "rush_sr": 36.7,
    "scheme_value": -0.028,
    "scheme_rel": 0.23,
-   "scheme_value_pass": -0.065,
+   "scheme_value_pass": -0.0312,
    "scheme_rel_pass": 0.24,
-   "scheme_value_rush": -0.049,
+   "scheme_value_rush": -0.0216,
    "scheme_rel_rush": 0.22,
    "_byseason": [
     {
@@ -10352,10 +10352,10 @@
     "rush_epa": 67,
     "pass_sr": 75,
     "rush_sr": 67,
-    "scheme_value": 36,
-    "scheme_value_pass": 33,
-    "scheme_value_rush": 47,
-    "value": null,
+    "scheme_value": 43,
+    "scheme_value_pass": 41,
+    "scheme_value_rush": 41,
+    "value": 38,
     "yac_oe": 54
    },
    "scheme_value_conf": "low",
@@ -10408,9 +10408,9 @@
    "rush_sr": 41.7,
    "scheme_value": -0.092,
    "scheme_rel": 0.38,
-   "scheme_value_pass": -0.151,
+   "scheme_value_pass": -0.1359,
    "scheme_rel_pass": 0.45,
-   "scheme_value_rush": -0.052,
+   "scheme_value_rush": -0.0291,
    "scheme_rel_rush": 0.28,
    "_byseason": [
     {
@@ -10457,10 +10457,10 @@
     "rush_epa": 53,
     "pass_sr": 70,
     "rush_sr": 26,
-    "scheme_value": 50,
-    "scheme_value_pass": 42,
-    "scheme_value_rush": 51,
-    "value": 53,
+    "scheme_value": 57,
+    "scheme_value_pass": 58,
+    "scheme_value_rush": 43,
+    "value": 63,
     "yac_oe": 71
    },
    "scheme_value_conf": "low",
@@ -10513,9 +10513,9 @@
    "rush_sr": 37.7,
    "scheme_value": -0.033,
    "scheme_rel": 0.2,
-   "scheme_value_pass": -0.137,
+   "scheme_value_pass": -0.0356,
    "scheme_rel_pass": 0.13,
-   "scheme_value_rush": -0.05,
+   "scheme_value_rush": -0.03,
    "scheme_rel_rush": 0.3,
    "_byseason": [
     {
@@ -10562,10 +10562,10 @@
     "rush_epa": 64,
     "pass_sr": 76,
     "rush_sr": 60,
-    "scheme_value": 37,
-    "scheme_value_pass": null,
-    "scheme_value_rush": 50,
-    "value": 42,
+    "scheme_value": 44,
+    "scheme_value_pass": 43,
+    "scheme_value_rush": 44,
+    "value": 52,
     "yac_oe": 76
    },
    "scheme_value_conf": "low",
@@ -11060,7 +11060,7 @@
     "innovation": 0.35
    },
    "ranks": {
-    "value": 15
+    "value": 16
    },
    "_byseason": [
     {
@@ -11202,7 +11202,7 @@
     "innovation": -0.18
    },
    "ranks": {
-    "value": 25
+    "value": 30
    },
    "_byseason": [
     {
@@ -11370,7 +11370,7 @@
     "innovation": -0.07
    },
    "ranks": {
-    "value": 27
+    "value": 32
    },
    "_byseason": [
     {
@@ -11512,7 +11512,7 @@
     "innovation": -0.23
    },
    "ranks": {
-    "value": 51
+    "value": 61
    },
    "_byseason": [
     {
@@ -11781,7 +11781,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 1.36,
    "value_scope": "unit",
    "value_conf": "low",
@@ -11921,11 +11923,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 48
+    "value": 52
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.59,
    "value_scope": "unit",
    "value_conf": "low",
@@ -12066,11 +12070,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 40
+    "value": 42
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.25,
    "value_scope": "unit",
    "value_conf": "low",
@@ -12211,11 +12217,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 13
+    "value": 14
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.38,
    "value_scope": "unit",
    "value_conf": "low",
@@ -12355,11 +12363,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 18
+    "value": 20
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.18,
    "value_scope": "unit",
    "value_conf": "low",
@@ -12504,7 +12514,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 1.06,
    "value_scope": "program",
    "value_conf": "low",
@@ -12653,11 +12665,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 29
+    "value": 31
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.04,
    "value_scope": "unit",
    "value_conf": "low",
@@ -12798,11 +12812,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 36
+    "value": 38
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.13,
    "value_scope": "unit",
    "value_conf": "low",
@@ -12942,11 +12958,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 19
+    "value": 21
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.16,
    "value_scope": "unit",
    "value_conf": "low",
@@ -13090,7 +13108,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 1.7,
    "value_scope": "program",
    "value_conf": "low",
@@ -13239,11 +13259,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 17
+    "value": 19
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.23,
    "value_scope": "unit",
    "value_conf": "low",
@@ -13384,11 +13406,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 30
+    "value": 32
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.04,
    "value_scope": "unit",
    "value_conf": "low",
@@ -13508,11 +13532,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 57
+    "value": 64
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -1.93,
    "value_scope": "program",
    "value_conf": "low",
@@ -13644,7 +13670,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": null,
    "value_scope": null,
    "value_conf": null
@@ -13763,11 +13791,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 20
+    "value": 22
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.16,
    "value_scope": "unit",
    "value_conf": "low",
@@ -13890,7 +13920,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.58,
    "value_scope": "unit",
    "value_conf": "low",
@@ -14010,11 +14042,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 51
+    "value": 55
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.74,
    "value_scope": "unit",
    "value_conf": "low",
@@ -14134,11 +14168,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 39
+    "value": 41
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.2,
    "value_scope": "unit",
    "value_conf": "low",
@@ -14258,11 +14294,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 69
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -3.8,
    "value_scope": "program",
    "value_conf": "nr",
@@ -14391,11 +14429,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 60
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -1.29,
    "value_scope": "program",
    "value_conf": "nr",
@@ -14527,7 +14567,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.62,
    "value_scope": "unit",
    "value_conf": "low",
@@ -14646,11 +14688,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 12
+    "value": 13
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.46,
    "value_scope": "unit",
    "value_conf": "low",
@@ -14748,11 +14792,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 37
+    "value": 39
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.14,
    "value_scope": "unit",
    "value_conf": "low",
@@ -14850,11 +14896,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 41
+    "value": 43
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.27,
    "value_scope": "unit",
    "value_conf": "low",
@@ -14952,11 +15000,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 21
+    "value": 23
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.16,
    "value_scope": "unit",
    "value_conf": "low",
@@ -15054,11 +15104,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 50
+    "value": 54
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.68,
    "value_scope": "program",
    "value_conf": "ok",
@@ -15165,11 +15217,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 55
+    "value": 61
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -1.35,
    "value_scope": "program",
    "value_conf": "low",
@@ -15276,11 +15330,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 47
+    "value": 50
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.58,
    "value_scope": "unit",
    "value_conf": "low",
@@ -15378,11 +15434,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 15
+    "value": 17
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.27,
    "value_scope": "unit",
    "value_conf": "low",
@@ -15480,11 +15538,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 33
+    "value": 35
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.08,
    "value_scope": "unit",
    "value_conf": "low",
@@ -15583,11 +15643,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 58
+    "value": 65
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -2.61,
    "value_scope": "program",
    "value_conf": "ok",
@@ -15695,11 +15757,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 22
+    "value": 24
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.15,
    "value_scope": "unit",
    "value_conf": "low",
@@ -15798,11 +15862,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 34
+    "value": 36
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.09,
    "value_scope": "unit",
    "value_conf": "low",
@@ -15900,11 +15966,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 35
+    "value": 37
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.11,
    "value_scope": "unit",
    "value_conf": "low",
@@ -15981,11 +16049,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 28
+    "value": 30
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.03,
    "value_scope": "unit",
    "value_conf": "low",
@@ -16062,11 +16132,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 38
+    "value": 40
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.14,
    "value_scope": "unit",
    "value_conf": "low",
@@ -16143,11 +16215,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 61
+    "value": 70
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -5.16,
    "value_scope": "program",
    "value_conf": "low",
@@ -16237,7 +16311,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": null,
    "value_scope": null,
    "value_conf": null
@@ -16313,11 +16389,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 46
+    "value": 49
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.52,
    "value_scope": "unit",
    "value_conf": "low",
@@ -16394,11 +16472,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 54
+    "value": 58
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.9,
    "value_scope": "unit",
    "value_conf": "low",
@@ -16475,11 +16555,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 12
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.47,
    "value_scope": "unit",
    "value_conf": "nr",
@@ -16556,11 +16638,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 66
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -2.95,
    "value_scope": "unit",
    "value_conf": "nr",
@@ -16637,11 +16721,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 49
+    "value": 53
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.67,
    "value_scope": "unit",
    "value_conf": "low",
@@ -16722,7 +16808,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 2.27,
    "value_scope": "program",
    "value_conf": "low",
@@ -16808,11 +16896,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 45
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.36,
    "value_scope": "unit",
    "value_conf": "nr",
@@ -16889,11 +16979,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 45
+    "value": 48
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.48,
    "value_scope": "unit",
    "value_conf": "low",
@@ -16970,11 +17062,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 52
+    "value": 56
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.8,
    "value_scope": "program",
    "value_conf": "low",
@@ -17060,11 +17154,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 27
+    "value": 29
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.01,
    "value_scope": "unit",
    "value_conf": "low",
@@ -17145,7 +17241,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.78,
    "value_scope": "unit",
    "value_conf": "low",
@@ -17222,11 +17320,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 14
+    "value": 15
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.31,
    "value_scope": "unit",
    "value_conf": "low",
@@ -17303,11 +17403,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 25
+    "value": 27
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.04,
    "value_scope": "unit",
    "value_conf": "low",
@@ -17384,11 +17486,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 62
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -1.54,
    "value_scope": "unit",
    "value_conf": "nr",
@@ -17465,11 +17569,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 16
+    "value": 18
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.26,
    "value_scope": "unit",
    "value_conf": "low",
@@ -17546,11 +17652,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 31
+    "value": 33
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.04,
    "value_scope": "unit",
    "value_conf": "low",
@@ -17627,11 +17735,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 32
+    "value": 34
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.04,
    "value_scope": "program",
    "value_conf": "ok",
@@ -17717,11 +17827,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 56
+    "value": 63
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -1.6,
    "value_scope": "program",
    "value_conf": "ok",
@@ -17811,7 +17923,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 1.04,
    "value_scope": "unit",
    "value_conf": "low",
@@ -17888,11 +18002,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 51
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.58,
    "value_scope": "unit",
    "value_conf": "nr",
@@ -17969,11 +18085,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 26
+    "value": 28
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.0,
    "value_scope": "unit",
    "value_conf": "low",
@@ -18050,11 +18168,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 43
+    "value": 46
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.4,
    "value_scope": "unit",
    "value_conf": "low",
@@ -18131,11 +18251,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 59
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -1.23,
    "value_scope": "unit",
    "value_conf": "nr",
@@ -18212,11 +18334,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 59
+    "value": 67
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -3.38,
    "value_scope": "program",
    "value_conf": "low",
@@ -18302,11 +18426,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 53
+    "value": 57
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": -0.8,
    "value_scope": "unit",
    "value_conf": "low",
@@ -18387,7 +18513,9 @@
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": null,
    "value_scope": null,
    "value_conf": null
@@ -18463,11 +18591,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 23
+    "value": 25
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.14,
    "value_scope": "unit",
    "value_conf": "low",
@@ -18544,11 +18674,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 24
+    "value": 26
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.06,
    "value_scope": "unit",
    "value_conf": "low",
@@ -18625,11 +18757,13 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": null
+    "value": 16
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
+   "scheme_value_pass": null,
    "scheme_value_rush_conf": null,
+   "scheme_value_rush": null,
    "value": 0.31,
    "value_scope": "unit",
    "value_conf": "nr",
@@ -19073,7 +19207,7 @@
     "innovation": -0.18
    },
    "ranks": {
-    "value": 42
+    "value": 44
    },
    "_byseason": [
     {
@@ -19214,7 +19348,7 @@
     "innovation": -0.07
    },
    "ranks": {
-    "value": 44
+    "value": 47
    },
    "_byseason": [
     {
@@ -19333,7 +19467,7 @@
     "innovation": -0.23
    },
    "ranks": {
-    "value": 60
+    "value": 68
    },
    "_byseason": [
     {
