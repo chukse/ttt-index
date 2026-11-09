@@ -53,6 +53,7 @@ a{color:inherit; text-decoration:none}
 .segit .seg{font-family:var(--sans); font-size:12px; font-weight:600; letter-spacing:.02em; color:var(--faint); background:transparent; border:0; padding:6px 13px; cursor:pointer; transition:color .12s,background .12s}
 .segit .seg.on{background:var(--gold); color:#17120a}
 .segit .seg:not(.on):hover{color:var(--ink)}
+.tabdiv{width:1px; align-self:stretch; background:var(--line2); margin:2px 7px}
 .cls{color:var(--faint)} .cls.ug{color:var(--cool)}
 
 /* context line */
@@ -233,7 +234,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
         <li><span class="w">MAKE%</span><span class="d"><b>Will he hit?</b> &nbsp;<span>calibrated P(real NFL contributor). When it says 40%, ~40% of such profiles made it.</span></span></li>
         <li><span class="w">DRIVER</span><span class="d"><b>Why</b> &nbsp;<span>which college stats carry his probability — click the row for the full breakdown.</span></span></li>
       </ul>
-      <p style="margin-top:16px"><b>Trust by position:</b> the model is strongest at WR and QB, solid at RB, and <b>weakest at TE</b> — the numbers can't see blocking, testing or the late TE development curve, so treat that board with the most caution. Each board states its out-of-sample AUC and base rate up top.</p>
+      <p style="margin-top:16px"><b>Beyond production:</b> each player's recruiting pedigree is folded in — the one scouting signal measurable without charting, and it sharpens every board, most of all on defense where box-score production is noisiest. <b>Trust by position:</b> strongest at receiver, then the secondary and linebackers; solid at QB, back and the defensive line; <b>weakest at tight end</b>, where the numbers can't see blocking, testing or late development. Each board states its out-of-sample AUC and base rate up top.</p>
     </div>
   </div>
 </section>
@@ -256,7 +257,7 @@ sup.r-top{color:var(--gold)} sup.r-good{color:var(--cool)} sup.r-mid{color:var(-
 <script>
 const STAR='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2l2.95 6.3 6.85.72-5.1 4.64 1.43 6.74L12 17.6l-6.13 3-1.43-6.74-5.1-4.64 6.85-.72z"/></svg>';
 const X='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>';
-const POS=["QB","WR","RB","TE"], POSNAME={QB:"Quarterbacks",WR:"Wide Receivers",RB:"Running Backs",TE:"Tight Ends"};
+const POS=["QB","WR","RB","TE","EDGE","IDL","LB","DB"], POSNAME={QB:"Quarterbacks",WR:"Wide Receivers",RB:"Running Backs",TE:"Tight Ends",EDGE:"Edge Rushers",IDL:"Interior D-Line",LB:"Linebackers",DB:"Defensive Backs"};
 let DATA=null, CUR="QB", RANK={}, sortKey="rank", sortDir=1, QSEARCH="", ELIG="all";
 document.getElementById('footstars').innerHTML=STAR+STAR+STAR+STAR+STAR;
 
@@ -268,14 +269,14 @@ function fmtStat(key,v){ if(v==null)return '—';
   if(key==='PCT')return (v<=1.5?(v*100):v).toFixed(1); // completion % stored as a fraction
   if(key==='ppa_total_pass'||key==='ppa_total_all')return v.toFixed(0);
   if(key==='YPC'||key==='YPR')return v.toFixed(1);
-  return Math.round(v).toString(); }
+  return Number.isInteger(v)?v.toString():v.toFixed(1); }   // defensive sacks/TFL come in halves
 
 function loadData(){
   fetch('data/prospects.json?t='+Date.now()).then(r=>r.json()).then(d=>{DATA=d;buildTabs();render();})
   .catch(()=>{document.getElementById('tbody').innerHTML='<tr><td colspan="12" style="padding:46px;text-align:center"><div style="font-family:var(--disp);font-weight:700;font-size:20px;text-transform:uppercase;color:var(--ink)">The board is off the air</div><div style="margin-top:6px;font-size:13px;color:var(--dim)">Couldn’t load the prospects — refresh in a moment.</div></td></tr>';});
 }
 function buildTabs(){
-  document.getElementById('tabs').innerHTML=POS.map(p=>`<button class="tab ${p===CUR?'on':''}" data-p="${p}">${p}</button>`).join('');
+  document.getElementById('tabs').innerHTML=POS.map((p,i)=>`${i===4?'<span class="tabdiv" aria-hidden="true" title="Defense"></span>':''}<button class="tab ${p===CUR?'on':''}" data-p="${p}">${p}</button>`).join('');
   document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{CUR=t.getAttribute('data-p');sortKey="rank";sortDir=1;buildTabs();render();});
 }
 document.getElementById('qsearch').addEventListener('input',e=>{QSEARCH=e.target.value.trim();if(DATA)render();});
@@ -347,7 +348,7 @@ function openSheet(rank){
       <div><div class="snm">${p.player}</div><div class="smeta num">#${p.rank} ${CUR} · ${p.team} · ${p.cls}${p.eligible?'':' · not yet draft-eligible'}</div></div>
       <button class="sx" id="sheetx" aria-label="Close">${X}</button>
     </div>
-    <div class="sec sval"><div class="svk">Make-It · will he become a pro</div><div class="svv"><b>${p.make_it}%</b> chance of a ${b.bar.toLocaleString()}+yd NFL career &nbsp;<span style="color:var(--faint)">(base rate ${b.base_rate}% · this profile's drivers: ${p.driver})</span></div></div>
+    <div class="sec sval"><div class="svk">Make-It · will he become a pro</div><div class="svv"><b>${p.make_it}%</b> chance of ${b.bar.toLocaleString()}+ ${b.bar_unit} in the NFL &nbsp;<span style="color:var(--faint)">(base rate ${b.base_rate}% · this profile's drivers: ${p.driver})</span></div></div>
     <div class="sec"><h3>What predicts making it · ${CUR}</h3><div style="font-size:12.5px;color:var(--dim);line-height:1.5;margin-bottom:13px">Standardized weight each college stat carries in the make-it model (gold = helps, blue = hurts).</div>${drv}</div>
     <div class="sec"><h3>College production · 2026</h3><div class="stt">${stats}</div></div>
     <div class="sec"><div style="font-size:12px;color:var(--faint);line-height:1.5">SCORE is a production ranking, not a yardage prediction — validated out-of-sample as an order only. Model AUC ${b.auc.toFixed(2)}; trained on ${b.n_pool} past ${CUR} prospects (busts included). In-season stats are pace-adjusted to a full season.</div></div>`;
