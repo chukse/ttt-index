@@ -156,7 +156,7 @@
      "role": "OC",
      "called": false,
      "caller": "Matt LaFleur",
-     "yac_oe": 0.85,
+     "yac_oe": 0.82,
      "proe": 3.1,
      "pa_rate": 8.5,
      "screen_rate": 4.5,
@@ -198,7 +198,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 19
+    "yac_oe": 20
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -207,12 +207,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": 0.79,
+    "yac_oe": 0.78,
     "time_to_throw": 2.78,
-    "air_to_sticks": 0.11,
+    "air_to_sticks": 0.19,
     "separation": 2.86
    },
-   "yac_oe": 0.79
+   "yac_oe": 0.78
   },
   {
    "coach": "Andy Reid",
@@ -230,7 +230,7 @@
    "status": "team",
    "cur_team": "KC",
    "cur_role": "HC",
-   "proe": 6.075,
+   "proe": 6.2,
    "pa_rate": 16.55,
    "screen_rate": 10.475,
    "rpo_rate": 4.05,
@@ -251,7 +251,7 @@
    "scheme_rel": 0.43,
    "scheme_value_pass": -0.016,
    "scheme_rel_pass": 0.28,
-   "scheme_value_rush": 0.023,
+   "scheme_value_rush": 0.024,
    "scheme_rel_rush": 0.68,
    "_byseason": [
     {
@@ -335,8 +335,8 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.78,
-     "proe": 5.0,
+     "yac_oe": 0.69,
+     "proe": 5.5,
      "pa_rate": 14.1,
      "screen_rate": 7.6,
      "rpo_rate": 2.3,
@@ -375,7 +375,7 @@
     "rush_sr": 29,
     "scheme_value": 24,
     "scheme_value_pass": 25,
-    "scheme_value_rush": 12,
+    "scheme_value_rush": 11,
     "value": 16,
     "yac_oe": 57
    },
@@ -387,7 +387,7 @@
    "value_conf": "low",
    "value_rel": 0.43,
    "value_parts": {
-    "off": 0.3,
+    "off": 0.31,
     "def": 0.16,
     "st": -0.03,
     "decisions": 0.49,
@@ -396,12 +396,12 @@
     "innovation": 0.17
    },
    "ngs": {
-    "yac_oe": 0.33,
-    "time_to_throw": 2.83,
-    "air_to_sticks": -1.98,
-    "separation": 3.57
+    "yac_oe": 0.31,
+    "time_to_throw": 2.82,
+    "air_to_sticks": -2.05,
+    "separation": 3.58
    },
-   "yac_oe": 0.33
+   "yac_oe": 0.31
   },
   {
    "coach": "Ben Johnson",
@@ -525,7 +525,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.72,
+     "yac_oe": 0.95,
      "proe": -1.1,
      "pa_rate": 14.9,
      "screen_rate": 4.5,
@@ -567,7 +567,7 @@
     "scheme_value_pass": 3,
     "scheme_value_rush": 1,
     "value": 2,
-    "yac_oe": 16
+    "yac_oe": 12
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -586,12 +586,12 @@
     "innovation": 0.24
    },
    "ngs": {
-    "yac_oe": 0.82,
-    "time_to_throw": 2.99,
-    "air_to_sticks": -1.55,
-    "separation": 3.28
+    "yac_oe": 0.88,
+    "time_to_throw": 2.97,
+    "air_to_sticks": -1.35,
+    "separation": 3.3
    },
-   "yac_oe": 0.82
+   "yac_oe": 0.88
   },
   {
    "coach": "Brian Schottenheimer",
@@ -714,7 +714,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.33,
+     "yac_oe": 0.54,
      "proe": 1.1,
      "pa_rate": 11.0,
      "screen_rate": 3.2,
@@ -756,7 +756,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 9,
     "value": 8,
-    "yac_oe": 24
+    "yac_oe": 21
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "nr",
@@ -775,12 +775,12 @@
     "innovation": -0.12
    },
    "ngs": {
-    "yac_oe": 0.73,
-    "time_to_throw": 2.74,
-    "air_to_sticks": -0.64,
-    "separation": 2.82
+    "yac_oe": 0.78,
+    "time_to_throw": 2.75,
+    "air_to_sticks": -0.52,
+    "separation": 2.81
    },
-   "yac_oe": 0.73
+   "yac_oe": 0.78
   },
   {
    "coach": "Drew Petzing",
@@ -799,7 +799,7 @@
    "status": "team",
    "cur_team": "DET",
    "cur_role": "OC",
-   "proe": -0.9,
+   "proe": -0.925,
    "pa_rate": 21.55,
    "screen_rate": 6.825,
    "rpo_rate": 1.175,
@@ -820,7 +820,7 @@
    "scheme_rel": 0.72,
    "scheme_value_pass": 0.016,
    "scheme_rel_pass": 0.74,
-   "scheme_value_rush": 0.012,
+   "scheme_value_rush": 0.011,
    "scheme_rel_rush": 0.69,
    "_byseason": [
     {
@@ -904,8 +904,8 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.08,
-     "proe": -5.4,
+     "yac_oe": 0.09,
+     "proe": -5.5,
      "pa_rate": 13.9,
      "screen_rate": 3.4,
      "rpo_rate": 0.2,
@@ -925,7 +925,7 @@
     }
    ],
    "ranks": {
-    "proe": 37,
+    "proe": 38,
     "pa_rate": 21,
     "screen_rate": 46,
     "rpo_rate": 52,
@@ -946,22 +946,22 @@
     "scheme_value_pass": 20,
     "scheme_value_rush": 17,
     "value": 19,
-    "yac_oe": 49
+    "yac_oe": 48
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
    "scheme_value_rush_conf": "ok",
-   "value": 0.69,
+   "value": 0.7,
    "value_scope": "unit",
    "value_conf": "ok",
    "value_rel": 0.72,
    "ngs": {
-    "yac_oe": 0.43,
+    "yac_oe": 0.44,
     "time_to_throw": 2.83,
-    "air_to_sticks": -1.62,
-    "separation": 2.97
+    "air_to_sticks": -1.65,
+    "separation": 3.01
    },
-   "yac_oe": 0.43
+   "yac_oe": 0.44
   },
   {
    "coach": "Jim Bob Cooter",
@@ -979,7 +979,7 @@
    "status": "team",
    "cur_team": "IND",
    "cur_role": "OC",
-   "proe": -3.075,
+   "proe": -3.05,
    "pa_rate": 22.775,
    "screen_rate": 6.3,
    "rpo_rate": 3.45,
@@ -1085,7 +1085,7 @@
      "called": false,
      "caller": "Shane Steichen",
      "yac_oe": 0.28,
-     "proe": -3.9,
+     "proe": -3.8,
      "pa_rate": 12.6,
      "screen_rate": 3.3,
      "rpo_rate": 0.6,
@@ -1105,7 +1105,7 @@
     }
    ],
    "ranks": {
-    "proe": 58,
+    "proe": 57,
     "pa_rate": 13,
     "screen_rate": 52,
     "rpo_rate": 8,
@@ -1136,9 +1136,9 @@
    "value_conf": null,
    "ngs": {
     "yac_oe": 0.4,
-    "time_to_throw": 2.76,
-    "air_to_sticks": -0.52,
-    "separation": 2.9
+    "time_to_throw": 2.77,
+    "air_to_sticks": -0.55,
+    "separation": 2.89
    },
    "yac_oe": 0.4
   },
@@ -1160,7 +1160,7 @@
    "status": "team",
    "cur_team": "NO",
    "cur_role": "HC",
-   "proe": -0.65,
+   "proe": -0.85,
    "pa_rate": 17.325,
    "screen_rate": 5.65,
    "rpo_rate": 2.7,
@@ -1179,7 +1179,7 @@
    "rush_sr": 36.525,
    "scheme_value": -0.002,
    "scheme_rel": 0.76,
-   "scheme_value_pass": 0.023,
+   "scheme_value_pass": 0.022,
    "scheme_rel_pass": 0.78,
    "scheme_value_rush": -0.036,
    "scheme_rel_rush": 0.74,
@@ -1266,7 +1266,7 @@
      "called": true,
      "caller": null,
      "yac_oe": 0.06,
-     "proe": 1.1,
+     "proe": 0.3,
      "pa_rate": 7.2,
      "screen_rate": 1.8,
      "rpo_rate": 1.2,
@@ -1286,7 +1286,7 @@
     }
    ],
    "ranks": {
-    "proe": 35,
+    "proe": 36,
     "pa_rate": 44,
     "screen_rate": 57,
     "rpo_rate": 16,
@@ -1304,10 +1304,10 @@
     "pass_sr": 34,
     "rush_sr": 68,
     "scheme_value": 26,
-    "scheme_value_pass": 14,
+    "scheme_value_pass": 15,
     "scheme_value_rush": 39,
     "value": 42,
-    "yac_oe": 53
+    "yac_oe": 55
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -1317,7 +1317,7 @@
    "value_conf": "ok",
    "value_rel": 0.76,
    "value_parts": {
-    "off": -0.15,
+    "off": -0.16,
     "def": -0.01,
     "st": -2.22,
     "decisions": -0.33,
@@ -1328,8 +1328,8 @@
    "ngs": {
     "yac_oe": 0.37,
     "time_to_throw": 2.83,
-    "air_to_sticks": -1.19,
-    "separation": 2.94
+    "air_to_sticks": -1.05,
+    "separation": 2.91
    },
    "yac_oe": 0.37
   },
@@ -1643,7 +1643,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.59,
+     "yac_oe": 0.62,
      "proe": 4.3,
      "pa_rate": 9.4,
      "screen_rate": 3.9,
@@ -1706,8 +1706,8 @@
    "ngs": {
     "yac_oe": 1.31,
     "time_to_throw": 2.94,
-    "air_to_sticks": -0.76,
-    "separation": 2.9
+    "air_to_sticks": -0.68,
+    "separation": 2.93
    },
    "yac_oe": 1.31
   },
@@ -1832,7 +1832,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.85,
+     "yac_oe": 0.82,
      "proe": 3.1,
      "pa_rate": 8.5,
      "screen_rate": 4.5,
@@ -1874,7 +1874,7 @@
     "scheme_value_pass": 2,
     "scheme_value_rush": 13,
     "value": 9,
-    "yac_oe": 20
+    "yac_oe": 23
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -1893,12 +1893,12 @@
     "innovation": -0.02
    },
    "ngs": {
-    "yac_oe": 0.79,
+    "yac_oe": 0.78,
     "time_to_throw": 2.78,
-    "air_to_sticks": 0.11,
+    "air_to_sticks": 0.19,
     "separation": 2.86
    },
-   "yac_oe": 0.79
+   "yac_oe": 0.78
   },
   {
    "coach": "Matt Nagy",
@@ -1917,7 +1917,7 @@
    "status": "team",
    "cur_team": "NYG",
    "cur_role": "OC",
-   "proe": 3.325,
+   "proe": 3.425,
    "pa_rate": 15.175,
    "screen_rate": 9.275,
    "rpo_rate": 3.8,
@@ -1938,7 +1938,7 @@
    "scheme_rel": 0.18,
    "scheme_value_pass": 0.02,
    "scheme_rel_pass": 0.18,
-   "scheme_value_rush": -0.009,
+   "scheme_value_rush": -0.008,
    "scheme_rel_rush": 0.18,
    "_byseason": [
     {
@@ -2022,8 +2022,8 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.39,
-     "proe": -6.0,
+     "yac_oe": 0.1,
+     "proe": -5.6,
      "pa_rate": 8.6,
      "screen_rate": 2.8,
      "rpo_rate": 1.3,
@@ -2064,7 +2064,7 @@
     "scheme_value_pass": 18,
     "scheme_value_rush": 31,
     "value": null,
-    "yac_oe": 65
+    "yac_oe": 66
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -2074,12 +2074,12 @@
    "value_conf": "nr",
    "value_rel": 0.18,
    "ngs": {
-    "yac_oe": 0.23,
-    "time_to_throw": 2.8,
-    "air_to_sticks": -1.55,
-    "separation": 3.31
+    "yac_oe": 0.16,
+    "time_to_throw": 2.82,
+    "air_to_sticks": -1.37,
+    "separation": 3.34
    },
-   "yac_oe": 0.23
+   "yac_oe": 0.16
   },
   {
    "coach": "Mike LaFleur",
@@ -2098,7 +2098,7 @@
    "status": "team",
    "cur_team": "ARI",
    "cur_role": "HC",
-   "proe": 0.85,
+   "proe": 0.875,
    "pa_rate": 22.175,
    "screen_rate": 6.925,
    "rpo_rate": 0.525,
@@ -2203,8 +2203,8 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.22,
-     "proe": -1.2,
+     "yac_oe": 0.14,
+     "proe": -1.1,
      "pa_rate": 7.8,
      "screen_rate": 2.8,
      "rpo_rate": 0.1,
@@ -2245,7 +2245,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 24,
     "value": null,
-    "yac_oe": 35
+    "yac_oe": 39
    },
    "scheme_value_conf": "nr",
    "scheme_value_pass_conf": "nr",
@@ -2255,12 +2255,12 @@
    "value_conf": "nr",
    "value_rel": 0.12,
    "ngs": {
-    "yac_oe": 0.55,
+    "yac_oe": 0.53,
     "time_to_throw": 2.75,
     "air_to_sticks": -0.18,
-    "separation": 2.9
+    "separation": 2.92
    },
-   "yac_oe": 0.55
+   "yac_oe": 0.53
   },
   {
    "coach": "Mike McDaniel",
@@ -2298,7 +2298,7 @@
    "rush_sr": 38.9,
    "scheme_value": -0.071,
    "scheme_rel": 0.63,
-   "scheme_value_pass": -0.056,
+   "scheme_value_pass": -0.055,
    "scheme_rel_pass": 0.58,
    "scheme_value_rush": -0.092,
    "scheme_rel_rush": 0.69,
@@ -2384,7 +2384,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.16,
+     "yac_oe": 0.6,
      "proe": -11.6,
      "pa_rate": 11.3,
      "screen_rate": 4.5,
@@ -2423,10 +2423,10 @@
     "pass_sr": 44,
     "rush_sr": 52,
     "scheme_value": 45,
-    "scheme_value_pass": 31,
+    "scheme_value_pass": 30,
     "scheme_value_rush": 56,
     "value": 34,
-    "yac_oe": 54
+    "yac_oe": 35
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -2445,12 +2445,12 @@
     "innovation": 0.41
    },
    "ngs": {
-    "yac_oe": 0.36,
+    "yac_oe": 0.55,
     "time_to_throw": 2.56,
-    "air_to_sticks": -1.89,
+    "air_to_sticks": -1.82,
     "separation": 3.24
    },
-   "yac_oe": 0.36
+   "yac_oe": 0.55
   },
   {
    "coach": "Sean McVay",
@@ -2573,7 +2573,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.14,
+     "yac_oe": 0.95,
      "proe": 4.2,
      "pa_rate": 12.1,
      "screen_rate": 3.7,
@@ -2615,7 +2615,7 @@
     "scheme_value_pass": 5,
     "scheme_value_rush": 7,
     "value": 17,
-    "yac_oe": 22
+    "yac_oe": 26
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -2634,12 +2634,12 @@
     "innovation": 0.04
    },
    "ngs": {
-    "yac_oe": 0.77,
+    "yac_oe": 0.73,
     "time_to_throw": 2.74,
-    "air_to_sticks": -0.42,
-    "separation": 2.95
+    "air_to_sticks": -0.43,
+    "separation": 3.0
    },
-   "yac_oe": 0.77
+   "yac_oe": 0.73
   },
   {
    "coach": "Sean Payton",
@@ -2762,7 +2762,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.34,
+     "yac_oe": -0.54,
      "proe": 0.6,
      "pa_rate": 9.5,
      "screen_rate": 4.6,
@@ -2823,12 +2823,12 @@
     "innovation": 0.04
    },
    "ngs": {
-    "yac_oe": 0.24,
+    "yac_oe": 0.19,
     "time_to_throw": 2.95,
-    "air_to_sticks": -1.82,
+    "air_to_sticks": -1.72,
     "separation": 3.28
    },
-   "yac_oe": 0.24
+   "yac_oe": 0.19
   },
   {
    "coach": "Shane Steichen",
@@ -2846,7 +2846,7 @@
    "status": "team",
    "cur_team": "IND",
    "cur_role": "HC",
-   "proe": -3.075,
+   "proe": -3.05,
    "pa_rate": 22.775,
    "screen_rate": 6.3,
    "rpo_rate": 3.45,
@@ -2952,7 +2952,7 @@
      "called": true,
      "caller": null,
      "yac_oe": 0.28,
-     "proe": -3.9,
+     "proe": -3.8,
      "pa_rate": 12.6,
      "screen_rate": 3.3,
      "rpo_rate": 0.6,
@@ -2972,7 +2972,7 @@
     }
    ],
    "ranks": {
-    "proe": 59,
+    "proe": 58,
     "pa_rate": 14,
     "screen_rate": 53,
     "rpo_rate": 9,
@@ -2993,7 +2993,7 @@
     "scheme_value_pass": 8,
     "scheme_value_rush": 10,
     "value": 13,
-    "yac_oe": 52
+    "yac_oe": 53
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -3013,9 +3013,9 @@
    },
    "ngs": {
     "yac_oe": 0.4,
-    "time_to_throw": 2.76,
-    "air_to_sticks": -0.52,
-    "separation": 2.9
+    "time_to_throw": 2.77,
+    "air_to_sticks": -0.55,
+    "separation": 2.89
    },
    "yac_oe": 0.4
   },
@@ -3053,7 +3053,7 @@
    "rush_epa": -0.011,
    "pass_sr": 48.325,
    "rush_sr": 43.1,
-   "scheme_value": 0.056,
+   "scheme_value": 0.055,
    "scheme_rel": 0.61,
    "scheme_value_pass": 0.042,
    "scheme_rel_pass": 0.53,
@@ -3141,7 +3141,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.45,
+     "yac_oe": 1.84,
      "proe": 3.6,
      "pa_rate": 8.3,
      "screen_rate": 5.0,
@@ -3183,17 +3183,17 @@
     "scheme_value_pass": 7,
     "scheme_value_rush": 2,
     "value": null,
-    "yac_oe": 27
+    "yac_oe": 18
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
    "scheme_value_rush_conf": "ok",
-   "value": 1.25,
+   "value": 1.24,
    "value_scope": "program",
    "value_conf": "nr",
    "value_rel": 0.61,
    "value_parts": {
-    "off": 1.53,
+    "off": 1.52,
     "def": -0.58,
     "st": 0.93,
     "decisions": -0.63,
@@ -3202,12 +3202,12 @@
     "innovation": -0.34
    },
    "ngs": {
-    "yac_oe": 0.71,
+    "yac_oe": 0.81,
     "time_to_throw": 2.98,
     "air_to_sticks": -0.68,
     "separation": 3.42
    },
-   "yac_oe": 0.71
+   "yac_oe": 0.81
   },
   {
    "coach": "Wes Phillips",
@@ -3404,7 +3404,7 @@
    "status": "team",
    "cur_team": "CIN",
    "cur_role": "HC",
-   "proe": 8.775,
+   "proe": 8.75,
    "pa_rate": 14.65,
    "screen_rate": 6.875,
    "rpo_rate": 2.025,
@@ -3509,8 +3509,8 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.25,
-     "proe": 10.8,
+     "yac_oe": 1.35,
+     "proe": 10.7,
      "pa_rate": 7.7,
      "screen_rate": 3.3,
      "rpo_rate": 0.9,
@@ -3551,7 +3551,7 @@
     "scheme_value_pass": 9,
     "scheme_value_rush": 6,
     "value": 7,
-    "yac_oe": 8
+    "yac_oe": 7
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -3570,12 +3570,12 @@
     "innovation": -0.22
    },
    "ngs": {
-    "yac_oe": 1.11,
+    "yac_oe": 1.13,
     "time_to_throw": 2.69,
-    "air_to_sticks": -1.24,
+    "air_to_sticks": -1.25,
     "separation": 2.84
    },
-   "yac_oe": 1.11
+   "yac_oe": 1.13
   },
   {
    "coach": "Bobby Slowik",
@@ -3674,7 +3674,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.1,
+     "yac_oe": 1.46,
      "proe": -8.0,
      "pa_rate": 10.0,
      "screen_rate": 4.0,
@@ -3716,7 +3716,7 @@
     "scheme_value_pass": 36,
     "scheme_value_rush": 42,
     "value": 38,
-    "yac_oe": 17
+    "yac_oe": 11
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "low",
@@ -3726,12 +3726,12 @@
    "value_conf": "ok",
    "value_rel": 0.53,
    "ngs": {
-    "yac_oe": 0.81,
+    "yac_oe": 0.93,
     "time_to_throw": 3.02,
-    "air_to_sticks": -0.15,
-    "separation": 2.98
+    "air_to_sticks": -0.26,
+    "separation": 3.0
    },
-   "yac_oe": 0.81
+   "yac_oe": 0.93
   },
   {
    "coach": "Brad Idzik",
@@ -3829,7 +3829,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.26,
+     "yac_oe": 0.17,
      "proe": 9.5,
      "pa_rate": 12.5,
      "screen_rate": 2.3,
@@ -3871,7 +3871,7 @@
     "scheme_value_pass": 19,
     "scheme_value_rush": 14,
     "value": 20,
-    "yac_oe": 66
+    "yac_oe": 69
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -3881,12 +3881,12 @@
    "value_conf": "low",
    "value_rel": 0.42,
    "ngs": {
-    "yac_oe": 0.16,
-    "time_to_throw": 2.81,
+    "yac_oe": 0.13,
+    "time_to_throw": 2.8,
     "air_to_sticks": -0.87,
     "separation": 2.72
    },
-   "yac_oe": 0.16
+   "yac_oe": 0.13
   },
   {
    "coach": "Dan Pitcher",
@@ -3904,7 +3904,7 @@
    "status": "team",
    "cur_team": "CIN",
    "cur_role": "OC",
-   "proe": 8.933,
+   "proe": 8.9,
    "pa_rate": 13.867,
    "screen_rate": 4.667,
    "rpo_rate": 1.4,
@@ -3984,8 +3984,8 @@
      "role": "OC",
      "called": false,
      "caller": "Zac Taylor",
-     "yac_oe": 1.25,
-     "proe": 10.8,
+     "yac_oe": 1.35,
+     "proe": 10.7,
      "pa_rate": 7.7,
      "screen_rate": 3.3,
      "rpo_rate": 0.9,
@@ -4026,7 +4026,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 9
+    "yac_oe": 8
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -4035,12 +4035,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": 1.08,
+    "yac_oe": 1.11,
     "time_to_throw": 2.71,
-    "air_to_sticks": -0.97,
-    "separation": 2.79
+    "air_to_sticks": -0.99,
+    "separation": 2.8
    },
-   "yac_oe": 1.08
+   "yac_oe": 1.11
   },
   {
    "coach": "Frank Smith",
@@ -4212,7 +4212,7 @@
    "status": "team",
    "cur_team": "BUF",
    "cur_role": "HC",
-   "proe": -1.5,
+   "proe": -1.433,
    "pa_rate": 18.833,
    "screen_rate": 8.2,
    "rpo_rate": 2.067,
@@ -4293,7 +4293,7 @@
      "called": true,
      "caller": null,
      "yac_oe": 0.65,
-     "proe": -1.8,
+     "proe": -1.6,
      "pa_rate": 11.1,
      "screen_rate": 3.9,
      "rpo_rate": 1.0,
@@ -4313,7 +4313,7 @@
     }
    ],
    "ranks": {
-    "proe": 42,
+    "proe": 41,
     "pa_rate": 36,
     "screen_rate": 28,
     "rpo_rate": 24,
@@ -4331,15 +4331,15 @@
     "pass_sr": 12,
     "rush_sr": 2,
     "scheme_value": 9,
-    "scheme_value_pass": 15,
+    "scheme_value_pass": 14,
     "scheme_value_rush": 4,
     "value": 6,
-    "yac_oe": 18
+    "yac_oe": 19
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
    "scheme_value_rush_conf": "ok",
-   "value": 2.14,
+   "value": 2.15,
    "value_scope": "unit",
    "value_conf": "low",
    "value_rel": 0.32,
@@ -4489,7 +4489,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 48
+    "yac_oe": 49
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -4540,7 +4540,7 @@
    "rush_epa": -0.098,
    "pass_sr": 46.767,
    "rush_sr": 38.233,
-   "scheme_value": 0.011,
+   "scheme_value": 0.01,
    "scheme_rel": 0.69,
    "scheme_value_pass": 0.02,
    "scheme_rel_pass": 0.69,
@@ -4603,7 +4603,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.5,
+     "yac_oe": 0.49,
      "proe": -1.5,
      "pa_rate": 11.3,
      "screen_rate": 4.0,
@@ -4624,7 +4624,7 @@
     }
    ],
    "ranks": {
-    "proe": 57,
+    "proe": 59,
     "pa_rate": 34,
     "screen_rate": 54,
     "rpo_rate": 62,
@@ -4655,12 +4655,12 @@
    "value_conf": "ok",
    "value_rel": 0.69,
    "ngs": {
-    "yac_oe": 0.57,
-    "time_to_throw": 2.85,
-    "air_to_sticks": -0.77,
-    "separation": 3.04
+    "yac_oe": 0.56,
+    "time_to_throw": 2.84,
+    "air_to_sticks": -0.81,
+    "separation": 3.06
    },
-   "yac_oe": 0.57
+   "yac_oe": 0.56
   },
   {
    "coach": "Liam Coen",
@@ -4801,7 +4801,7 @@
     "scheme_value_pass": 4,
     "scheme_value_rush": 3,
     "value": 1,
-    "yac_oe": 25
+    "yac_oe": 27
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -4844,7 +4844,7 @@
    "status": "team",
    "cur_team": "ARI",
    "cur_role": "OC",
-   "proe": -0.433,
+   "proe": -0.4,
    "pa_rate": 16.333,
    "screen_rate": 7.133,
    "rpo_rate": 1.2,
@@ -4924,8 +4924,8 @@
      "role": "OC",
      "called": false,
      "caller": "Mike LaFleur",
-     "yac_oe": 0.22,
-     "proe": -1.2,
+     "yac_oe": 0.14,
+     "proe": -1.1,
      "pa_rate": 7.8,
      "screen_rate": 2.8,
      "rpo_rate": 0.1,
@@ -4976,12 +4976,12 @@
    "value_conf": "ok",
    "value_rel": 0.55,
    "ngs": {
-    "yac_oe": 0.35,
+    "yac_oe": 0.33,
     "time_to_throw": 2.74,
     "air_to_sticks": -2.14,
-    "separation": 2.87
+    "separation": 2.89
    },
-   "yac_oe": 0.35
+   "yac_oe": 0.33
   },
   {
    "coach": "Press Taylor",
@@ -5080,7 +5080,7 @@
      "role": "OC",
      "called": false,
      "caller": "Ben Johnson",
-     "yac_oe": 0.72,
+     "yac_oe": 0.95,
      "proe": -1.1,
      "pa_rate": 14.9,
      "screen_rate": 4.5,
@@ -5101,7 +5101,7 @@
     }
    ],
    "ranks": {
-    "proe": 32,
+    "proe": 34,
     "pa_rate": 39,
     "screen_rate": 29,
     "rpo_rate": 34,
@@ -5122,7 +5122,7 @@
     "scheme_value_pass": 12,
     "scheme_value_rush": 48,
     "value": 28,
-    "yac_oe": 46
+    "yac_oe": 36
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -5132,12 +5132,12 @@
    "value_conf": "low",
    "value_rel": 0.46,
    "ngs": {
-    "yac_oe": 0.48,
-    "time_to_throw": 2.82,
-    "air_to_sticks": -1.18,
-    "separation": 3.05
+    "yac_oe": 0.55,
+    "time_to_throw": 2.8,
+    "air_to_sticks": -0.92,
+    "separation": 3.08
    },
-   "yac_oe": 0.48
+   "yac_oe": 0.55
   },
   {
    "coach": "Zac Robinson",
@@ -5156,7 +5156,7 @@
    "status": "team",
    "cur_team": "TB",
    "cur_role": "OC",
-   "proe": -8.0,
+   "proe": -8.067,
    "pa_rate": 14.133,
    "screen_rate": 6.767,
    "rpo_rate": 0.733,
@@ -5236,8 +5236,8 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.22,
-     "proe": -10.8,
+     "yac_oe": 0.27,
+     "proe": -11.0,
      "pa_rate": 8.1,
      "screen_rate": 3.4,
      "rpo_rate": 1.2,
@@ -5278,7 +5278,7 @@
     "scheme_value_pass": 35,
     "scheme_value_rush": 8,
     "value": 31,
-    "yac_oe": 63
+    "yac_oe": 61
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -5288,12 +5288,12 @@
    "value_conf": "ok",
    "value_rel": 0.6,
    "ngs": {
-    "yac_oe": 0.25,
+    "yac_oe": 0.27,
     "time_to_throw": 2.79,
-    "air_to_sticks": -1.51,
-    "separation": 3.07
+    "air_to_sticks": -1.45,
+    "separation": 3.06
    },
-   "yac_oe": 0.25
+   "yac_oe": 0.27
   },
   {
    "coach": "Alex Van Pelt",
@@ -5329,11 +5329,11 @@
    "rush_epa": -0.142,
    "pass_sr": 42.5,
    "rush_sr": 37.55,
-   "scheme_value": -0.053,
+   "scheme_value": -0.052,
    "scheme_rel": 0.66,
    "scheme_value_pass": -0.056,
    "scheme_rel_pass": 0.69,
-   "scheme_value_rush": -0.048,
+   "scheme_value_rush": -0.047,
    "scheme_rel_rush": 0.62,
    "_byseason": [
     {
@@ -5388,7 +5388,7 @@
     }
    ],
    "ranks": {
-    "proe": 44,
+    "proe": 45,
     "pa_rate": 31,
     "screen_rate": 21,
     "rpo_rate": 45,
@@ -5406,10 +5406,10 @@
     "pass_sr": 62,
     "rush_sr": 61,
     "scheme_value": 40,
-    "scheme_value_pass": 30,
+    "scheme_value_pass": 31,
     "scheme_value_rush": 46,
     "value": 41,
-    "yac_oe": 13
+    "yac_oe": 15
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -5582,7 +5582,7 @@
    "status": "team",
    "cur_team": "BAL",
    "cur_role": "OC",
-   "proe": -2.05,
+   "proe": -2.1,
    "pa_rate": 20.45,
    "screen_rate": 5.6,
    "rpo_rate": 0.65,
@@ -5599,11 +5599,11 @@
    "rush_epa": -0.022,
    "pass_sr": 47.0,
    "rush_sr": 44.05,
-   "scheme_value": 0.004,
+   "scheme_value": 0.003,
    "scheme_rel": 0.2,
-   "scheme_value_pass": 0.03,
+   "scheme_value_pass": 0.031,
    "scheme_rel_pass": 0.27,
-   "scheme_value_rush": -0.026,
+   "scheme_value_rush": -0.028,
    "scheme_rel_rush": 0.13,
    "_byseason": [
     {
@@ -5638,7 +5638,7 @@
      "called": true,
      "caller": null,
      "yac_oe": 1.21,
-     "proe": -2.0,
+     "proe": -2.1,
      "pa_rate": 10.5,
      "screen_rate": 2.7,
      "rpo_rate": 0.2,
@@ -5679,12 +5679,12 @@
     "scheme_value_pass": 11,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 12
+    "yac_oe": 14
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
    "scheme_value_rush_conf": "nr",
-   "value": 0.41,
+   "value": 0.39,
    "value_scope": "unit",
    "value_conf": "nr",
    "value_rel": 0.2,
@@ -5712,7 +5712,7 @@
    "status": "team",
    "cur_team": "NO",
    "cur_role": "OC",
-   "proe": 0.1,
+   "proe": -0.3,
    "pa_rate": 12.85,
    "screen_rate": 3.65,
    "rpo_rate": 1.4,
@@ -5768,7 +5768,7 @@
      "called": false,
      "caller": "Kellen Moore",
      "yac_oe": 0.06,
-     "proe": 1.1,
+     "proe": 0.3,
      "pa_rate": 7.2,
      "screen_rate": 1.8,
      "rpo_rate": 1.2,
@@ -5788,7 +5788,7 @@
     }
    ],
    "ranks": {
-    "proe": 28,
+    "proe": 32,
     "pa_rate": 63,
     "screen_rate": 73,
     "rpo_rate": 44,
@@ -5809,7 +5809,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 72
+    "yac_oe": 73
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -5819,9 +5819,9 @@
    "value_conf": null,
    "ngs": {
     "yac_oe": -0.15,
-    "time_to_throw": 2.69,
-    "air_to_sticks": -1.41,
-    "separation": 3.02
+    "time_to_throw": 2.7,
+    "air_to_sticks": -1.11,
+    "separation": 2.97
    },
    "yac_oe": -0.15
   },
@@ -5842,7 +5842,7 @@
    "status": "team",
    "cur_team": "KC",
    "cur_role": "OC",
-   "proe": 7.25,
+   "proe": 7.5,
    "pa_rate": 15.4,
    "screen_rate": 8.7,
    "rpo_rate": 2.25,
@@ -5897,8 +5897,8 @@
      "role": "OC",
      "called": false,
      "caller": "Andy Reid",
-     "yac_oe": 0.78,
-     "proe": 5.0,
+     "yac_oe": 0.69,
+     "proe": 5.5,
      "pa_rate": 14.1,
      "screen_rate": 7.6,
      "rpo_rate": 2.3,
@@ -5939,7 +5939,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 33,
     "value": null,
-    "yac_oe": 39
+    "yac_oe": 46
    },
    "scheme_value_conf": "nr",
    "scheme_value_pass_conf": "nr",
@@ -5949,12 +5949,12 @@
    "value_conf": "nr",
    "value_rel": 0.12,
    "ngs": {
-    "yac_oe": 0.52,
-    "time_to_throw": 2.78,
-    "air_to_sticks": -1.87,
-    "separation": 3.35
+    "yac_oe": 0.47,
+    "time_to_throw": 2.77,
+    "air_to_sticks": -2.01,
+    "separation": 3.38
    },
-   "yac_oe": 0.52
+   "yac_oe": 0.47
   },
   {
    "coach": "Grant Udinski",
@@ -6069,7 +6069,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 29
+    "yac_oe": 30
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -6198,7 +6198,7 @@
     "scheme_value_pass": 10,
     "scheme_value_rush": 21,
     "value": 22,
-    "yac_oe": 14
+    "yac_oe": 16
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -6286,7 +6286,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.41,
+     "yac_oe": 0.18,
      "proe": -0.1,
      "pa_rate": 9.1,
      "screen_rate": 3.4,
@@ -6328,7 +6328,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 34,
     "value": 45,
-    "yac_oe": 55
+    "yac_oe": 63
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "nr",
@@ -6347,12 +6347,12 @@
     "innovation": -0.28
    },
    "ngs": {
-    "yac_oe": 0.35,
-    "time_to_throw": 3.06,
-    "air_to_sticks": 0.25,
-    "separation": 3.44
+    "yac_oe": 0.23,
+    "time_to_throw": 3.07,
+    "air_to_sticks": 0.44,
+    "separation": 3.21
    },
-   "yac_oe": 0.35
+   "yac_oe": 0.23
   },
   {
    "coach": "Ken Dorsey",
@@ -6468,7 +6468,7 @@
     "scheme_value_pass": 38,
     "scheme_value_rush": 30,
     "value": 40,
-    "yac_oe": 44
+    "yac_oe": 42
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -6556,7 +6556,7 @@
      "role": "OC",
      "called": false,
      "caller": "Kyle Shanahan",
-     "yac_oe": 0.59,
+     "yac_oe": 0.62,
      "proe": 4.3,
      "pa_rate": 9.4,
      "screen_rate": 3.9,
@@ -6607,12 +6607,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": 0.58,
+    "yac_oe": 0.6,
     "time_to_throw": 2.97,
-    "air_to_sticks": -0.97,
-    "separation": 2.72
+    "air_to_sticks": -0.83,
+    "separation": 2.8
    },
-   "yac_oe": 0.58
+   "yac_oe": 0.6
   },
   {
    "coach": "Klayton Adams",
@@ -6685,7 +6685,7 @@
      "role": "OC",
      "called": false,
      "caller": "Brian Schottenheimer",
-     "yac_oe": 0.33,
+     "yac_oe": 0.54,
      "proe": 1.1,
      "pa_rate": 11.0,
      "screen_rate": 3.2,
@@ -6727,7 +6727,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 32
+    "yac_oe": 24
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -6736,12 +6736,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": 0.64,
-    "time_to_throw": 2.8,
-    "air_to_sticks": -0.25,
-    "separation": 2.79
+    "yac_oe": 0.75,
+    "time_to_throw": 2.81,
+    "air_to_sticks": -0.02,
+    "separation": 2.77
    },
-   "yac_oe": 0.64
+   "yac_oe": 0.75
   },
   {
    "coach": "Kliff Kingsbury",
@@ -6907,9 +6907,9 @@
    "rush_epa": -0.15,
    "pass_sr": 43.05,
    "rush_sr": 37.4,
-   "scheme_value": -0.049,
+   "scheme_value": -0.05,
    "scheme_rel": 0.66,
-   "scheme_value_pass": -0.057,
+   "scheme_value_pass": -0.058,
    "scheme_rel_pass": 0.68,
    "scheme_value_rush": -0.037,
    "scheme_rel_rush": 0.62,
@@ -6966,7 +6966,7 @@
     }
    ],
    "ranks": {
-    "proe": 43,
+    "proe": 44,
     "pa_rate": 23,
     "screen_rate": 23,
     "rpo_rate": 33,
@@ -6987,7 +6987,7 @@
     "scheme_value_pass": 32,
     "scheme_value_rush": 40,
     "value": 37,
-    "yac_oe": 21
+    "yac_oe": 22
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -7117,7 +7117,7 @@
     "scheme_value_pass": 41,
     "scheme_value_rush": 57,
     "value": 54,
-    "yac_oe": 26
+    "yac_oe": 28
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -7151,7 +7151,7 @@
    "status": "team",
    "cur_team": "PIT",
    "cur_role": "HC",
-   "proe": 2.7,
+   "proe": 2.65,
    "pa_rate": 12.55,
    "screen_rate": 7.65,
    "rpo_rate": 1.25,
@@ -7207,7 +7207,7 @@
      "called": true,
      "caller": null,
      "yac_oe": 0.74,
-     "proe": 3.6,
+     "proe": 3.5,
      "pa_rate": 7.8,
      "screen_rate": 6.3,
      "rpo_rate": 1.2,
@@ -7248,7 +7248,7 @@
     "scheme_value_pass": 37,
     "scheme_value_rush": 19,
     "value": 15,
-    "yac_oe": 15
+    "yac_oe": 17
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -7345,7 +7345,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.02,
+     "yac_oe": 0.24,
      "proe": -0.3,
      "pa_rate": 9.7,
      "screen_rate": 2.9,
@@ -7366,7 +7366,7 @@
     }
    ],
    "ranks": {
-    "proe": 38,
+    "proe": 37,
     "pa_rate": 50,
     "screen_rate": 72,
     "rpo_rate": 46,
@@ -7387,7 +7387,7 @@
     "scheme_value_pass": 26,
     "scheme_value_rush": 38,
     "value": 26,
-    "yac_oe": 61
+    "yac_oe": 52
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -7397,12 +7397,12 @@
    "value_conf": "low",
    "value_rel": 0.36,
    "ngs": {
-    "yac_oe": 0.27,
-    "time_to_throw": 2.82,
-    "air_to_sticks": -0.2,
-    "separation": 2.87
+    "yac_oe": 0.4,
+    "time_to_throw": 2.81,
+    "air_to_sticks": -0.02,
+    "separation": 2.79
    },
-   "yac_oe": 0.27
+   "yac_oe": 0.4
   },
   {
    "coach": "Nick Holz",
@@ -7517,7 +7517,7 @@
     "scheme_value_pass": 40,
     "scheme_value_rush": 52,
     "value": 48,
-    "yac_oe": 36
+    "yac_oe": 37
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -7648,7 +7648,7 @@
     "scheme_value_pass": 27,
     "scheme_value_rush": 41,
     "value": 35,
-    "yac_oe": 45
+    "yac_oe": 44
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -7779,7 +7779,7 @@
     "scheme_value_pass": 24,
     "scheme_value_rush": 25,
     "value": 33,
-    "yac_oe": 69
+    "yac_oe": 70
    },
    "scheme_value_conf": "ok",
    "scheme_value_pass_conf": "ok",
@@ -7813,7 +7813,7 @@
    "status": "team",
    "cur_team": "ATL",
    "cur_role": "OC",
-   "proe": -7.1,
+   "proe": -7.15,
    "pa_rate": 15.45,
    "screen_rate": 6.9,
    "rpo_rate": 0.55,
@@ -7868,8 +7868,8 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.94,
-     "proe": -10.3,
+     "yac_oe": 1.83,
+     "proe": -10.4,
      "pa_rate": 8.9,
      "screen_rate": 5.2,
      "rpo_rate": 0.3,
@@ -7920,12 +7920,12 @@
    "value_conf": "ok",
    "value_rel": 0.56,
    "ngs": {
-    "yac_oe": 1.31,
-    "time_to_throw": 2.79,
-    "air_to_sticks": -2.09,
-    "separation": 2.8
+    "yac_oe": 1.26,
+    "time_to_throw": 2.81,
+    "air_to_sticks": -2.29,
+    "separation": 2.82
    },
-   "yac_oe": 1.31
+   "yac_oe": 1.26
   },
   {
    "coach": "Andrew Janocko",
@@ -7973,7 +7973,7 @@
      "role": "OC",
      "called": false,
      "caller": "Klint Kubiak",
-     "yac_oe": 0.5,
+     "yac_oe": 0.49,
      "proe": -1.5,
      "pa_rate": 11.3,
      "screen_rate": 4.0,
@@ -7994,7 +7994,7 @@
     }
    ],
    "ranks": {
-    "proe": 41,
+    "proe": 42,
     "pa_rate": 68,
     "screen_rate": 68,
     "rpo_rate": 74,
@@ -8024,12 +8024,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": 0.5,
-    "time_to_throw": 2.9,
-    "air_to_sticks": -0.54,
-    "separation": 2.58
+    "yac_oe": 0.49,
+    "time_to_throw": 2.88,
+    "air_to_sticks": -0.64,
+    "separation": 2.64
    },
-   "yac_oe": 0.5
+   "yac_oe": 0.49
   },
   {
    "coach": "Bill O'Brien",
@@ -8068,7 +8068,7 @@
    "scheme_rel": 0.36,
    "scheme_value_pass": -0.119,
    "scheme_rel_pass": 0.37,
-   "scheme_value_rush": -0.008,
+   "scheme_value_rush": -0.007,
    "scheme_rel_rush": 0.34,
    "_byseason": [
     {
@@ -8152,7 +8152,7 @@
    "status": "team",
    "cur_team": "PIT",
    "cur_role": "OC",
-   "proe": 3.6,
+   "proe": 3.5,
    "pa_rate": 7.8,
    "screen_rate": 6.3,
    "rpo_rate": 1.2,
@@ -8183,7 +8183,7 @@
      "called": false,
      "caller": "Mike McCarthy",
      "yac_oe": 0.74,
-     "proe": 3.6,
+     "proe": 3.5,
      "pa_rate": 7.8,
      "screen_rate": 6.3,
      "rpo_rate": 1.2,
@@ -8203,7 +8203,7 @@
     }
    ],
    "ranks": {
-    "proe": 7,
+    "proe": 8,
     "pa_rate": 76,
     "screen_rate": 51,
     "rpo_rate": 48,
@@ -8224,7 +8224,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 23
+    "yac_oe": 25
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -8370,7 +8370,7 @@
    "status": "team",
    "cur_team": "TEN",
    "cur_role": "OC",
-   "proe": -4.7,
+   "proe": -4.8,
    "pa_rate": 10.2,
    "screen_rate": 3.7,
    "rpo_rate": 1.7,
@@ -8401,7 +8401,7 @@
      "called": true,
      "caller": null,
      "yac_oe": 0.28,
-     "proe": -4.7,
+     "proe": -4.8,
      "pa_rate": 10.2,
      "screen_rate": 3.7,
      "rpo_rate": 1.7,
@@ -8514,7 +8514,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.51,
+     "yac_oe": 0.44,
      "proe": -6.4,
      "pa_rate": 11.4,
      "screen_rate": 5.1,
@@ -8556,7 +8556,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 55,
     "value": null,
-    "yac_oe": 42
+    "yac_oe": 47
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "nr",
@@ -8566,12 +8566,12 @@
    "value_conf": "nr",
    "value_rel": 0.15,
    "ngs": {
-    "yac_oe": 0.51,
-    "time_to_throw": 2.98,
-    "air_to_sticks": -1.51,
-    "separation": 2.87
+    "yac_oe": 0.44,
+    "time_to_throw": 2.89,
+    "air_to_sticks": -1.63,
+    "separation": 2.86
    },
-   "yac_oe": 0.51
+   "yac_oe": 0.44
   },
   {
    "coach": "Brian Johnson",
@@ -8659,9 +8659,9 @@
     "rush_sr": 11,
     "scheme_value": 11,
     "scheme_value_pass": null,
-    "scheme_value_rush": 11,
+    "scheme_value_rush": 12,
     "value": 14,
-    "yac_oe": 10
+    "yac_oe": 9
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "nr",
@@ -8871,7 +8871,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 43,
     "value": 21,
-    "yac_oe": 47
+    "yac_oe": 45
    },
    "scheme_value_conf": "nr",
    "scheme_value_pass_conf": "nr",
@@ -8985,7 +8985,7 @@
     "scheme_value_pass": 22,
     "scheme_value_rush": 54,
     "value": 36,
-    "yac_oe": 31
+    "yac_oe": 32
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -9018,7 +9018,7 @@
    "status": "team",
    "cur_team": "WAS",
    "cur_role": "OC",
-   "proe": -0.7,
+   "proe": 0.1,
    "pa_rate": 10.1,
    "screen_rate": 2.0,
    "rpo_rate": 0.2,
@@ -9048,8 +9048,8 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.48,
-     "proe": -0.7,
+     "yac_oe": -0.16,
+     "proe": 0.1,
      "pa_rate": 10.1,
      "screen_rate": 2.0,
      "rpo_rate": 0.2,
@@ -9069,7 +9069,7 @@
     }
    ],
    "ranks": {
-    "proe": 36,
+    "proe": 28,
     "pa_rate": 71,
     "screen_rate": 76,
     "rpo_rate": 76,
@@ -9090,22 +9090,22 @@
     "scheme_value_pass": 21,
     "scheme_value_rush": 37,
     "value": null,
-    "yac_oe": 75
+    "yac_oe": 74
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
    "scheme_value_rush_conf": "low",
-   "value": -0.84,
+   "value": -0.83,
    "value_scope": "unit",
    "value_conf": "nr",
    "value_rel": 0.18,
    "ngs": {
-    "yac_oe": -0.48,
-    "time_to_throw": 2.89,
-    "air_to_sticks": 0.18,
-    "separation": 2.89
+    "yac_oe": -0.16,
+    "time_to_throw": 2.81,
+    "air_to_sticks": -0.23,
+    "separation": 2.95
    },
-   "yac_oe": -0.48
+   "yac_oe": -0.16
   },
   {
    "coach": "Davis Webb",
@@ -9153,7 +9153,7 @@
      "role": "OC",
      "called": false,
      "caller": "Sean Payton",
-     "yac_oe": -0.34,
+     "yac_oe": -0.54,
      "proe": 0.6,
      "pa_rate": 9.5,
      "screen_rate": 4.6,
@@ -9195,7 +9195,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 74
+    "yac_oe": 75
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -9204,12 +9204,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": -0.34,
-    "time_to_throw": 2.95,
-    "air_to_sticks": -2.84,
-    "separation": 3.31
+    "yac_oe": -0.54,
+    "time_to_throw": 2.98,
+    "air_to_sticks": -2.47,
+    "separation": 3.32
    },
-   "yac_oe": -0.34
+   "yac_oe": -0.54
   },
   {
    "coach": "Frank Reich",
@@ -9257,7 +9257,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.19,
+     "yac_oe": 0.16,
      "proe": -2.9,
      "pa_rate": 9.2,
      "screen_rate": 3.6,
@@ -9299,7 +9299,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 36,
     "value": 56,
-    "yac_oe": 73
+    "yac_oe": 65
    },
    "scheme_value_conf": "nr",
    "scheme_value_pass_conf": "nr",
@@ -9318,12 +9318,12 @@
     "innovation": -0.6
    },
    "ngs": {
-    "yac_oe": -0.19,
-    "time_to_throw": 2.96,
-    "air_to_sticks": -1.19,
-    "separation": 2.92
+    "yac_oe": 0.16,
+    "time_to_throw": 2.92,
+    "air_to_sticks": -1.48,
+    "separation": 3.04
    },
-   "yac_oe": -0.19
+   "yac_oe": 0.16
   },
   {
    "coach": "John Morton",
@@ -9358,9 +9358,9 @@
    "rush_epa": -0.049,
    "pass_sr": 48.4,
    "rush_sr": 40.6,
-   "scheme_value": 0.018,
+   "scheme_value": 0.017,
    "scheme_rel": 0.14,
-   "scheme_value_pass": 0.038,
+   "scheme_value_pass": 0.037,
    "scheme_rel_pass": 0.01,
    "scheme_value_rush": -0.012,
    "scheme_rel_rush": 0.32,
@@ -9413,12 +9413,12 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 32,
     "value": null,
-    "yac_oe": 11
+    "yac_oe": 13
    },
    "scheme_value_conf": "nr",
    "scheme_value_pass_conf": "nr",
    "scheme_value_rush_conf": "low",
-   "value": 0.76,
+   "value": 0.75,
    "value_scope": "unit",
    "value_conf": "nr",
    "value_rel": 0.14,
@@ -9518,12 +9518,12 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 28,
     "value": 24,
-    "yac_oe": 28
+    "yac_oe": 29
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "nr",
    "scheme_value_rush_conf": "low",
-   "value": -0.35,
+   "value": -0.34,
    "value_scope": "unit",
    "value_conf": "low",
    "value_rel": 0.18,
@@ -9602,7 +9602,7 @@
     }
    ],
    "ranks": {
-    "proe": 34,
+    "proe": 35,
     "pa_rate": 16,
     "screen_rate": 63,
     "rpo_rate": 11,
@@ -9728,7 +9728,7 @@
     "scheme_value_pass": 23,
     "scheme_value_rush": 16,
     "value": 30,
-    "yac_oe": 1
+    "yac_oe": 2
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -9896,7 +9896,7 @@
      "role": "OC",
      "called": false,
      "caller": "Sean McVay",
-     "yac_oe": 1.14,
+     "yac_oe": 0.95,
      "proe": 4.2,
      "pa_rate": 12.1,
      "screen_rate": 3.7,
@@ -9938,7 +9938,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 7
+    "yac_oe": 10
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -9947,12 +9947,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": 1.14,
-    "time_to_throw": 2.7,
-    "air_to_sticks": -1.15,
-    "separation": 2.77
+    "yac_oe": 0.95,
+    "time_to_throw": 2.69,
+    "air_to_sticks": -1.19,
+    "separation": 2.97
    },
-   "yac_oe": 1.14
+   "yac_oe": 0.95
   },
   {
    "coach": "Pete Carmichael",
@@ -10042,7 +10042,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": 23,
     "value": 32,
-    "yac_oe": 71
+    "yac_oe": 72
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "nr",
@@ -10075,7 +10075,7 @@
    "status": "team",
    "cur_team": "BUF",
    "cur_role": "OC",
-   "proe": -1.8,
+   "proe": -1.6,
    "pa_rate": 11.1,
    "screen_rate": 3.9,
    "rpo_rate": 1.0,
@@ -10106,7 +10106,7 @@
      "called": false,
      "caller": "Joe Brady",
      "yac_oe": 0.65,
-     "proe": -1.8,
+     "proe": -1.6,
      "pa_rate": 11.1,
      "screen_rate": 3.9,
      "rpo_rate": 1.0,
@@ -10126,7 +10126,7 @@
     }
    ],
    "ranks": {
-    "proe": 45,
+    "proe": 43,
     "pa_rate": 69,
     "screen_rate": 69,
     "rpo_rate": 55,
@@ -10147,7 +10147,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 30
+    "yac_oe": 31
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -10196,7 +10196,7 @@
    "rush_epa": -0.108,
    "pass_sr": 46.2,
    "rush_sr": 39.4,
-   "scheme_value": -0.039,
+   "scheme_value": -0.04,
    "scheme_rel": 0.14,
    "scheme_value_pass": -0.034,
    "scheme_rel_pass": 0.05,
@@ -10314,7 +10314,7 @@
      "role": "OC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.54,
+     "yac_oe": 0.39,
      "proe": -3.4,
      "pa_rate": 8.7,
      "screen_rate": 2.5,
@@ -10356,7 +10356,7 @@
     "scheme_value_pass": 33,
     "scheme_value_rush": 47,
     "value": null,
-    "yac_oe": 37
+    "yac_oe": 54
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -10366,12 +10366,12 @@
    "value_conf": "nr",
    "value_rel": 0.23,
    "ngs": {
-    "yac_oe": 0.54,
+    "yac_oe": 0.39,
     "time_to_throw": 2.87,
     "air_to_sticks": -2.05,
-    "separation": 2.82
+    "separation": 2.83
    },
-   "yac_oe": 0.54
+   "yac_oe": 0.39
   },
   {
    "coach": "Tanner Engstrand",
@@ -10461,7 +10461,7 @@
     "scheme_value_pass": 42,
     "scheme_value_rush": 51,
     "value": 52,
-    "yac_oe": 70
+    "yac_oe": 71
    },
    "scheme_value_conf": "low",
    "scheme_value_pass_conf": "low",
@@ -10629,7 +10629,7 @@
      "role": "OC",
      "called": false,
      "caller": "Todd Monken",
-     "yac_oe": 1.45,
+     "yac_oe": 1.84,
      "proe": 3.6,
      "pa_rate": 8.3,
      "screen_rate": 5.0,
@@ -10650,7 +10650,7 @@
     }
    ],
    "ranks": {
-    "proe": 8,
+    "proe": 7,
     "pa_rate": 75,
     "screen_rate": 61,
     "rpo_rate": 59,
@@ -10671,7 +10671,7 @@
     "scheme_value_pass": null,
     "scheme_value_rush": null,
     "value": null,
-    "yac_oe": 2
+    "yac_oe": 1
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -10680,12 +10680,12 @@
    "value_scope": null,
    "value_conf": null,
    "ngs": {
-    "yac_oe": 1.45,
+    "yac_oe": 1.84,
     "time_to_throw": 2.82,
     "air_to_sticks": -1.89,
     "separation": 3.37
    },
-   "yac_oe": 1.45
+   "yac_oe": 1.84
   },
   {
    "coach": "Dan Campbell",
@@ -10711,7 +10711,7 @@
    "scheme_value_rush": null,
    "scheme_value_pass_conf": null,
    "scheme_value_rush_conf": null,
-   "value": 3.04,
+   "value": 3.03,
    "value_scope": "program",
    "value_conf": "ok",
    "value_rel": 0.57,
@@ -10809,8 +10809,8 @@
      "role": "HC",
      "called": false,
      "caller": "Drew Petzing",
-     "yac_oe": 0.08,
-     "proe": -5.4,
+     "yac_oe": 0.09,
+     "proe": -5.5,
      "pa_rate": 13.9,
      "screen_rate": 3.4,
      "rpo_rate": 0.2,
@@ -10829,7 +10829,7 @@
      "rush_sr": 47.7
     }
    ],
-   "proe": -3.975,
+   "proe": -4.0,
    "pa_rate": 24.2,
    "screen_rate": 8.4,
    "rpo_rate": 0.5,
@@ -10849,8 +10849,8 @@
    "ngs": {
     "yac_oe": 0.75,
     "time_to_throw": 2.76,
-    "air_to_sticks": -1.48,
-    "separation": 3.14
+    "air_to_sticks": -1.5,
+    "separation": 3.17
    },
    "yac_oe": 0.75
   },
@@ -10977,8 +10977,8 @@
      "role": "HC",
      "called": false,
      "caller": "Matt Nagy",
-     "yac_oe": 0.39,
-     "proe": -6.0,
+     "yac_oe": 0.1,
+     "proe": -5.6,
      "pa_rate": 8.6,
      "screen_rate": 2.8,
      "rpo_rate": 1.3,
@@ -10997,7 +10997,7 @@
      "rush_sr": 38.3
     }
    ],
-   "proe": -3.65,
+   "proe": -3.55,
    "pa_rate": 18.825,
    "screen_rate": 6.725,
    "rpo_rate": 2.375,
@@ -11015,12 +11015,12 @@
    "pass_sr": 48.15,
    "rush_sr": 43.45,
    "ngs": {
-    "yac_oe": 0.45,
-    "time_to_throw": 2.94,
-    "air_to_sticks": -0.38,
-    "separation": 3.27
+    "yac_oe": 0.38,
+    "time_to_throw": 2.96,
+    "air_to_sticks": -0.21,
+    "separation": 3.3
    },
-   "yac_oe": 0.45
+   "yac_oe": 0.38
   },
   {
    "coach": "Mike Vrabel",
@@ -11120,7 +11120,7 @@
      "role": "HC",
      "called": false,
      "caller": "Josh McDaniels",
-     "yac_oe": 0.41,
+     "yac_oe": 0.18,
      "proe": -0.1,
      "pa_rate": 9.1,
      "screen_rate": 3.4,
@@ -11158,12 +11158,12 @@
    "pass_sr": 49.233,
    "rush_sr": 37.933,
    "ngs": {
-    "yac_oe": 0.23,
-    "time_to_throw": 2.96,
-    "air_to_sticks": 0.23,
-    "separation": 3.23
+    "yac_oe": 0.15,
+    "time_to_throw": 2.97,
+    "air_to_sticks": 0.36,
+    "separation": 3.08
    },
-   "yac_oe": 0.23
+   "yac_oe": 0.15
   },
   {
    "coach": "Jim Harbaugh",
@@ -11262,7 +11262,7 @@
      "role": "HC",
      "called": false,
      "caller": "Mike McDaniel",
-     "yac_oe": -0.16,
+     "yac_oe": 0.6,
      "proe": -11.6,
      "pa_rate": 11.3,
      "screen_rate": 4.5,
@@ -11300,12 +11300,12 @@
    "pass_sr": 42.067,
    "rush_sr": 36.733,
    "ngs": {
-    "yac_oe": 0.52,
-    "time_to_throw": 2.88,
-    "air_to_sticks": -0.96,
-    "separation": 3.04
+    "yac_oe": 0.77,
+    "time_to_throw": 2.87,
+    "air_to_sticks": -0.86,
+    "separation": 3.03
    },
-   "yac_oe": 0.52
+   "yac_oe": 0.77
   },
   {
    "coach": "Nick Sirianni",
@@ -11429,7 +11429,7 @@
      "role": "HC",
      "called": false,
      "caller": "Sean Mannion",
-     "yac_oe": 0.54,
+     "yac_oe": 0.39,
      "proe": -3.4,
      "pa_rate": 8.7,
      "screen_rate": 2.5,
@@ -11467,12 +11467,12 @@
    "pass_sr": 44.15,
    "rush_sr": 41.375,
    "ngs": {
-    "yac_oe": 0.85,
+    "yac_oe": 0.81,
     "time_to_throw": 3.0,
     "air_to_sticks": -0.71,
     "separation": 2.72
    },
-   "yac_oe": 0.85
+   "yac_oe": 0.81
   },
   {
    "coach": "Kevin Stefanski",
@@ -11596,8 +11596,8 @@
      "role": "HC",
      "called": false,
      "caller": "Tommy Rees",
-     "yac_oe": 1.94,
-     "proe": -10.3,
+     "yac_oe": 1.83,
+     "proe": -10.4,
      "pa_rate": 8.9,
      "screen_rate": 5.2,
      "rpo_rate": 0.3,
@@ -11616,7 +11616,7 @@
      "rush_sr": 44.0
     }
    ],
-   "proe": -3.05,
+   "proe": -3.075,
    "pa_rate": 18.7,
    "screen_rate": 7.575,
    "rpo_rate": 0.75,
@@ -11634,12 +11634,12 @@
    "pass_sr": 38.05,
    "rush_sr": 38.725,
    "ngs": {
-    "yac_oe": 1.04,
-    "time_to_throw": 2.87,
-    "air_to_sticks": -1.28,
-    "separation": 2.94
+    "yac_oe": 1.01,
+    "time_to_throw": 2.88,
+    "air_to_sticks": -1.39,
+    "separation": 2.95
    },
-   "yac_oe": 1.04
+   "yac_oe": 1.01
   }
  ],
  "defense": [
@@ -11888,7 +11888,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.26,
+     "yac_oe": 0.17,
      "creativity": 43.0,
      "blitz_rate": 38.7,
      "man_rate": null,
@@ -12033,7 +12033,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.94,
+     "yac_oe": 1.83,
      "creativity": 37.0,
      "blitz_rate": 25.2,
      "man_rate": null,
@@ -12322,7 +12322,7 @@
      "role": "DC",
      "called": false,
      "caller": "DeMeco Ryans",
-     "yac_oe": -0.02,
+     "yac_oe": 0.24,
      "creativity": 39.0,
      "blitz_rate": 25.5,
      "man_rate": null,
@@ -12467,7 +12467,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.51,
+     "yac_oe": 0.44,
      "creativity": 39.0,
      "blitz_rate": 23.1,
      "man_rate": null,
@@ -12510,7 +12510,7 @@
    "value_conf": "low",
    "value_rel": 0.33,
    "value_parts": {
-    "off": -0.94,
+    "off": -0.95,
     "def": 0.42,
     "st": 1.14,
     "decisions": -0.11,
@@ -12620,7 +12620,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.22,
+     "yac_oe": 0.14,
      "creativity": 42.0,
      "blitz_rate": 32.3,
      "man_rate": null,
@@ -12909,7 +12909,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.78,
+     "yac_oe": 0.69,
      "creativity": 45.0,
      "blitz_rate": 25.8,
      "man_rate": null,
@@ -13053,7 +13053,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.22,
+     "yac_oe": 0.27,
      "creativity": 83.0,
      "blitz_rate": 40.5,
      "man_rate": null,
@@ -13206,7 +13206,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.34,
+     "yac_oe": -0.54,
      "creativity": 44.0,
      "blitz_rate": 35.3,
      "man_rate": null,
@@ -13351,7 +13351,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.54,
+     "yac_oe": 0.39,
      "creativity": 42.0,
      "blitz_rate": 27.7,
      "man_rate": null,
@@ -13475,7 +13475,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.19,
+     "yac_oe": 0.16,
      "creativity": 55.0,
      "blitz_rate": 39.4,
      "man_rate": null,
@@ -13607,7 +13607,7 @@
      "role": "DC",
      "called": false,
      "caller": "Mike Macdonald",
-     "yac_oe": 0.51,
+     "yac_oe": 0.44,
      "creativity": 39.0,
      "blitz_rate": 23.1,
      "man_rate": null,
@@ -13853,7 +13853,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.14,
+     "yac_oe": 0.95,
      "creativity": 44.0,
      "blitz_rate": 29.3,
      "man_rate": null,
@@ -13977,7 +13977,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.39,
+     "yac_oe": 0.1,
      "creativity": 54.0,
      "blitz_rate": 41.8,
      "man_rate": null,
@@ -14225,7 +14225,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.1,
+     "yac_oe": 1.46,
      "creativity": 40.0,
      "blitz_rate": 24.0,
      "man_rate": null,
@@ -14396,12 +14396,12 @@
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
    "scheme_value_rush_conf": null,
-   "value": -1.34,
+   "value": -1.36,
    "value_scope": "program",
    "value_conf": "nr",
    "value_rel": 0.2,
    "value_parts": {
-    "off": 0.41,
+    "off": 0.39,
     "def": -0.63,
     "st": -0.17,
     "decisions": -0.95,
@@ -14715,7 +14715,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.25,
+     "yac_oe": 1.35,
      "creativity": 39.0,
      "blitz_rate": 18.1,
      "man_rate": null,
@@ -15054,17 +15054,17 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 49
+    "value": 50
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
    "scheme_value_rush_conf": null,
-   "value": -0.67,
+   "value": -0.68,
    "value_scope": "program",
    "value_conf": "ok",
    "value_rel": 0.76,
    "value_parts": {
-    "off": -0.16,
+    "off": -0.17,
     "def": -0.01,
     "st": -0.23,
     "decisions": -0.27,
@@ -15132,7 +15132,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.72,
+     "yac_oe": 0.95,
      "creativity": 54.0,
      "blitz_rate": 39.7,
      "man_rate": null,
@@ -15447,7 +15447,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.08,
+     "yac_oe": 0.09,
      "creativity": 55.0,
      "blitz_rate": 26.8,
      "man_rate": null,
@@ -15550,7 +15550,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.59,
+     "yac_oe": 0.62,
      "creativity": 43.0,
      "blitz_rate": 31.7,
      "man_rate": null,
@@ -15593,7 +15593,7 @@
    "value_conf": "ok",
    "value_rel": 0.59,
    "value_parts": {
-    "off": -1.52,
+    "off": -1.51,
     "def": 0.18,
     "st": -1.33,
     "decisions": 0.06,
@@ -16200,7 +16200,7 @@
      "role": "DC",
      "called": false,
      "caller": "Aaron Glenn",
-     "yac_oe": -0.19,
+     "yac_oe": 0.16,
      "creativity": 55.0,
      "blitz_rate": 39.4,
      "man_rate": null,
@@ -16442,7 +16442,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.16,
+     "yac_oe": 0.6,
      "creativity": 42.0,
      "blitz_rate": 26.5,
      "man_rate": null,
@@ -16523,7 +16523,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.33,
+     "yac_oe": 0.54,
      "creativity": 42.0,
      "blitz_rate": 24.6,
      "man_rate": null,
@@ -16637,7 +16637,7 @@
     "scheme_value": null,
     "scheme_value_pass": null,
     "scheme_value_rush": null,
-    "value": 50
+    "value": 49
    },
    "scheme_value_conf": null,
    "scheme_value_pass_conf": null,
@@ -16775,7 +16775,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.48,
+     "yac_oe": -0.16,
      "creativity": 55.0,
      "blitz_rate": 43.6,
      "man_rate": null,
@@ -16937,7 +16937,7 @@
      "role": "HC",
      "called": true,
      "caller": null,
-     "yac_oe": -0.02,
+     "yac_oe": 0.24,
      "creativity": 39.0,
      "blitz_rate": 25.5,
      "man_rate": null,
@@ -17594,7 +17594,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.85,
+     "yac_oe": 0.82,
      "creativity": 47.0,
      "blitz_rate": 33.8,
      "man_rate": null,
@@ -17855,7 +17855,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 1.45,
+     "yac_oe": 1.84,
      "creativity": 39.0,
      "blitz_rate": 25.1,
      "man_rate": null,
@@ -18098,7 +18098,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.5,
+     "yac_oe": 0.49,
      "creativity": 42.0,
      "blitz_rate": 27.3,
      "man_rate": null,
@@ -18350,7 +18350,7 @@
      "role": "DC",
      "called": false,
      "caller": "Jeff Hafley",
-     "yac_oe": 1.1,
+     "yac_oe": 1.46,
      "creativity": 40.0,
      "blitz_rate": 24.0,
      "man_rate": null,
@@ -18592,7 +18592,7 @@
      "role": "DC",
      "called": true,
      "caller": null,
-     "yac_oe": 0.41,
+     "yac_oe": 0.18,
      "creativity": 57.0,
      "blitz_rate": 37.2,
      "man_rate": null,
@@ -18659,7 +18659,7 @@
    "scheme_value_rush": null,
    "scheme_value_pass_conf": null,
    "scheme_value_rush_conf": null,
-   "value": 3.04,
+   "value": 3.03,
    "value_scope": "program",
    "value_conf": "ok",
    "value_rel": 0.57,
