@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "QBIR",
-  "twp_int_conversion": 0.706,
+  "twp_int_conversion": 0.81,
   "subtitle": "QB Independent Rating",
   "season": 2026,
   "through_week": 8,
@@ -55,12 +55,12 @@
    },
    "lenses": {
     "Pure Thrower": 60,
-    "Ball Placement": 60,
+    "Ball Placement": 62,
     "Make It Happen": 61
    },
    "twp": 6.0,
    "ints": 6,
-   "luck": -1.8
+   "luck": -1.1
   },
   {
    "rank": 2,
@@ -104,12 +104,12 @@
    },
    "lenses": {
     "Pure Thrower": 58,
-    "Ball Placement": 54,
+    "Ball Placement": 53,
     "Make It Happen": 57
    },
    "twp": 9.0,
-   "ints": 8,
-   "luck": -1.6
+   "ints": 11,
+   "luck": -3.7
   },
   {
    "rank": 3,
@@ -157,8 +157,8 @@
     "Make It Happen": 56
    },
    "twp": 6.0,
-   "ints": 4,
-   "luck": 0.2
+   "ints": 5,
+   "luck": -0.1
   },
   {
    "rank": 4,
@@ -196,9 +196,9 @@
     "Situation credit": 0.196,
     "Scheme tax (EPA/play)": 0.035,
     "Rush EPA (total)": 24.9,
-    "Time to throw (NGS)": 2.91,
-    "Aggressiveness % (NGS)": 13.7,
-    "Air to sticks (NGS)": 0.4
+    "Time to throw (NGS)": 2.89,
+    "Aggressiveness % (NGS)": 13.1,
+    "Air to sticks (NGS)": 0.2
    },
    "lenses": {
     "Pure Thrower": 52,
@@ -206,8 +206,8 @@
     "Make It Happen": 57
    },
    "twp": 7.0,
-   "ints": 5,
-   "luck": -0.1
+   "ints": 6,
+   "luck": -0.3
   },
   {
    "rank": 5,
@@ -251,12 +251,12 @@
    },
    "lenses": {
     "Pure Thrower": 58,
-    "Ball Placement": 57,
+    "Ball Placement": 58,
     "Make It Happen": 60
    },
    "twp": 3.0,
    "ints": 1,
-   "luck": 1.1
+   "luck": 1.4
   },
   {
    "rank": 6,
@@ -301,11 +301,11 @@
    "lenses": {
     "Pure Thrower": 52,
     "Ball Placement": 57,
-    "Make It Happen": 58
+    "Make It Happen": 57
    },
    "twp": 1.0,
-   "ints": 1,
-   "luck": -0.3
+   "ints": 5,
+   "luck": -4.2
   },
   {
    "rank": 7,
@@ -353,8 +353,8 @@
     "Make It Happen": 55
    },
    "twp": 7.0,
-   "ints": 5,
-   "luck": -0.1
+   "ints": 8,
+   "luck": -2.3
   },
   {
    "rank": 8,
@@ -402,8 +402,8 @@
     "Make It Happen": 54
    },
    "twp": 3.0,
-   "ints": 1,
-   "luck": 1.1
+   "ints": 2,
+   "luck": 0.4
   },
   {
    "rank": 9,
@@ -447,12 +447,12 @@
    },
    "lenses": {
     "Pure Thrower": 55,
-    "Ball Placement": 56,
-    "Make It Happen": 54
+    "Ball Placement": 55,
+    "Make It Happen": 55
    },
    "twp": 7.0,
    "ints": 5,
-   "luck": -0.1
+   "luck": 0.7
   },
   {
    "rank": 10,
@@ -496,12 +496,12 @@
    },
    "lenses": {
     "Pure Thrower": 54,
-    "Ball Placement": 51,
+    "Ball Placement": 50,
     "Make It Happen": 50
    },
    "twp": 4.0,
-   "ints": 1,
-   "luck": 1.8
+   "ints": 2,
+   "luck": 1.2
   },
   {
    "rank": 11,
@@ -545,12 +545,12 @@
    },
    "lenses": {
     "Pure Thrower": 53,
-    "Ball Placement": 52,
+    "Ball Placement": 55,
     "Make It Happen": 49
    },
    "twp": 13.0,
    "ints": 6,
-   "luck": 3.2
+   "luck": 4.5
   },
   {
    "rank": 12,
@@ -599,7 +599,7 @@
    },
    "twp": 7.0,
    "ints": 4,
-   "luck": 0.9
+   "luck": 1.7
   },
   {
    "rank": 13,
@@ -647,8 +647,8 @@
     "Make It Happen": 49
    },
    "twp": 5.0,
-   "ints": 5,
-   "luck": -1.5
+   "ints": 6,
+   "luck": -2.0
   },
   {
    "rank": 14,
@@ -692,12 +692,12 @@
    },
    "lenses": {
     "Pure Thrower": 45,
-    "Ball Placement": 51,
+    "Ball Placement": 50,
     "Make It Happen": 51
    },
    "twp": 6.0,
    "ints": 4,
-   "luck": 0.2
+   "luck": 0.9
   },
   {
    "rank": 15,
@@ -741,12 +741,12 @@
    },
    "lenses": {
     "Pure Thrower": 55,
-    "Ball Placement": 61,
+    "Ball Placement": 58,
     "Make It Happen": 53
    },
    "twp": 5.0,
    "ints": 3,
-   "luck": 0.5
+   "luck": 1.0
   },
   {
    "rank": 16,
@@ -791,7 +791,7 @@
    "lenses": {
     "Pure Thrower": 55,
     "Ball Placement": 52,
-    "Make It Happen": 50
+    "Make It Happen": 49
    },
    "twp": 0.0,
    "ints": 0,
@@ -839,12 +839,12 @@
    },
    "lenses": {
     "Pure Thrower": 48,
-    "Ball Placement": 53,
+    "Ball Placement": 52,
     "Make It Happen": 51
    },
    "twp": 13.0,
-   "ints": 8,
-   "luck": 1.2
+   "ints": 9,
+   "luck": 1.5
   },
   {
    "rank": 18,
@@ -889,11 +889,11 @@
    "lenses": {
     "Pure Thrower": 49,
     "Ball Placement": 54,
-    "Make It Happen": 49
+    "Make It Happen": 50
    },
    "twp": 4.0,
    "ints": 3,
-   "luck": -0.2
+   "luck": 0.2
   },
   {
    "rank": 19,
@@ -937,12 +937,12 @@
    },
    "lenses": {
     "Pure Thrower": 50,
-    "Ball Placement": 56,
-    "Make It Happen": 54
+    "Ball Placement": 55,
+    "Make It Happen": 53
    },
    "twp": 9.0,
    "ints": 6,
-   "luck": 0.4
+   "luck": 1.3
   },
   {
    "rank": 20,
@@ -986,12 +986,12 @@
    },
    "lenses": {
     "Pure Thrower": 41,
-    "Ball Placement": 45,
+    "Ball Placement": 47,
     "Make It Happen": 48
    },
    "twp": 8.0,
-   "ints": 3,
-   "luck": 2.6
+   "ints": 4,
+   "luck": 2.5
   },
   {
    "rank": 21,
@@ -1040,7 +1040,7 @@
    },
    "twp": 8.0,
    "ints": 9,
-   "luck": -3.4
+   "luck": -2.5
   },
   {
    "rank": 22,
@@ -1084,12 +1084,12 @@
    },
    "lenses": {
     "Pure Thrower": 54,
-    "Ball Placement": 45,
-    "Make It Happen": 50
+    "Ball Placement": 48,
+    "Make It Happen": 51
    },
    "twp": 4.0,
-   "ints": 5,
-   "luck": -2.2
+   "ints": 6,
+   "luck": -2.8
   },
   {
    "rank": 23,
@@ -1138,7 +1138,7 @@
    },
    "twp": 4.0,
    "ints": 3,
-   "luck": -0.2
+   "luck": 0.2
   },
   {
    "rank": 24,
@@ -1186,8 +1186,8 @@
     "Make It Happen": 45
    },
    "twp": 7.0,
-   "ints": 5,
-   "luck": -0.1
+   "ints": 6,
+   "luck": -0.3
   },
   {
    "rank": 25,
@@ -1236,7 +1236,7 @@
    },
    "twp": 8.0,
    "ints": 7,
-   "luck": -1.4
+   "luck": -0.5
   },
   {
    "rank": 26,
@@ -1285,7 +1285,7 @@
    },
    "twp": 6.0,
    "ints": 3,
-   "luck": 1.2
+   "luck": 1.9
   },
   {
    "rank": 27,
@@ -1334,7 +1334,7 @@
    },
    "twp": 5.0,
    "ints": 6,
-   "luck": -2.5
+   "luck": -2.0
   },
   {
    "rank": 28,
@@ -1383,7 +1383,7 @@
    },
    "twp": 4.0,
    "ints": 1,
-   "luck": 1.8
+   "luck": 2.2
   },
   {
    "rank": 29,
@@ -1432,7 +1432,7 @@
    },
    "twp": 5.0,
    "ints": 5,
-   "luck": -1.5
+   "luck": -1.0
   },
   {
    "rank": 30,
@@ -1481,7 +1481,7 @@
    },
    "twp": 6.0,
    "ints": 5,
-   "luck": -0.8
+   "luck": -0.1
   },
   {
    "rank": 31,
@@ -1530,7 +1530,7 @@
    },
    "twp": 3.0,
    "ints": 2,
-   "luck": 0.1
+   "luck": 0.4
   },
   {
    "rank": 32,
@@ -1579,7 +1579,7 @@
    },
    "twp": 6.0,
    "ints": 5,
-   "luck": -0.8
+   "luck": -0.1
   },
   {
    "rank": 33,
@@ -1623,12 +1623,12 @@
    },
    "lenses": {
     "Pure Thrower": 47,
-    "Ball Placement": 47,
-    "Make It Happen": 38
+    "Ball Placement": 46,
+    "Make It Happen": 39
    },
    "twp": 2.0,
-   "ints": 2,
-   "luck": -0.6
+   "ints": 4,
+   "luck": -2.4
   },
   {
    "rank": 34,
@@ -1672,12 +1672,12 @@
    },
    "lenses": {
     "Pure Thrower": 42,
-    "Ball Placement": 44,
+    "Ball Placement": 42,
     "Make It Happen": 44
    },
    "twp": 13.0,
-   "ints": 10,
-   "luck": -0.8
+   "ints": 11,
+   "luck": -0.5
   },
   {
    "rank": 35,
@@ -1721,12 +1721,12 @@
    },
    "lenses": {
     "Pure Thrower": 42,
-    "Ball Placement": 43,
+    "Ball Placement": 42,
     "Make It Happen": 46
    },
    "twp": 17.0,
-   "ints": 9,
-   "luck": 3.0
+   "ints": 10,
+   "luck": 3.8
   }
  ]
 }

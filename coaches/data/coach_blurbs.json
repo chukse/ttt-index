@@ -349,11 +349,6 @@
   "hash": "7f845819f774",
   "side": "defense"
  },
- "Mike Vrabel": {
-  "blurb": "Vrabel ran New England's defense for two seasons, but the sample is thin enough \u2014 and the roster context stark enough \u2014 that isolating a clean scheme fingerprint is harder than it looks. What's clear is the style: a base 4-3 with situational flexibility, heavy on disguised coverage and pressure packages. Treat any scheme-value numbers from this stint as descriptive of a difficult situation, not a verdict on the system itself.",
-  "hash": "6c29c3590b47",
-  "side": "defense"
- },
  "Jim Harbaugh": {
   "blurb": "There isn't enough here to write a meaningful scheme identity. The facts provided cover Harbaugh's role as head coach with the Chargers but don't include any scheme data \u2014 no motion rates, personnel groupings, tempo, play-action usage, or EPA figures to work from. A scheme card needs actual numbers to be honest about what this defense does and doesn't do.",
   "hash": "8d2893ba6e3d",
@@ -362,6 +357,11 @@
  "Nick Sirianni": {
   "blurb": "Nick Sirianni doesn't call the defensive plays, so there's no scheme identity to pin to him here \u2014 that belongs to his coordinator. As head coach, his fingerprints are on roster construction and culture, not the play-by-play schematic decisions that this index tracks.",
   "hash": "5ac1b0ce07f6",
+  "side": "defense"
+ },
+ "Mike Vrabel": {
+  "blurb": "Vrabel ran New England's defense for two seasons, but the sample is thin enough \u2014 and the roster context stark enough \u2014 that isolating a clean scheme fingerprint is harder than it looks. What's clear is the style: a base 4-3 with situational flexibility, heavy on disguised coverage and pressure packages. Treat any scheme-value numbers from this stint as descriptive of a difficult situation, not a verdict on the system itself.",
+  "hash": "6c29c3590b47",
   "side": "defense"
  },
  "Kevin Stefanski": {
