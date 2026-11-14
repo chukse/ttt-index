@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "QBIR",
-  "twp_int_conversion": 0.702,
+  "twp_int_conversion": 0.71,
   "subtitle": "QB Independent Rating",
   "season": 2026,
   "through_week": 9,
@@ -24,7 +24,7 @@
    "grade": 94.0,
    "qbir": 69.0,
    "reliability": 0.44,
-   "prev_rank": 1,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.037,
     "rank": 8,
@@ -60,7 +60,7 @@
    },
    "twp": 6.0,
    "ints": 6,
-   "luck": -1.8
+   "luck": -1.7
   },
   {
    "rank": 2,
@@ -73,7 +73,7 @@
    "grade": 91.7,
    "qbir": 66.7,
    "reliability": 0.38,
-   "prev_rank": 3,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.14,
     "rank": 1,
@@ -109,7 +109,7 @@
    },
    "twp": 7.0,
    "ints": 5,
-   "luck": -0.1
+   "luck": -0.0
   },
   {
    "rank": 3,
@@ -122,7 +122,7 @@
    "grade": 90.1,
    "qbir": 65.1,
    "reliability": 0.39,
-   "prev_rank": 4,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.088,
     "rank": 3,
@@ -158,7 +158,7 @@
    },
    "twp": 8.0,
    "ints": 6,
-   "luck": -0.4
+   "luck": -0.3
   },
   {
    "rank": 4,
@@ -171,7 +171,7 @@
    "grade": 89.1,
    "qbir": 64.1,
    "reliability": 0.42,
-   "prev_rank": 2,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.027,
     "rank": 22,
@@ -207,7 +207,7 @@
    },
    "twp": 14.0,
    "ints": 11,
-   "luck": -1.2
+   "luck": -1.1
   },
   {
    "rank": 5,
@@ -220,7 +220,7 @@
    "grade": 88.4,
    "qbir": 63.4,
    "reliability": 0.2,
-   "prev_rank": 5,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.028,
     "rank": 9,
@@ -269,7 +269,7 @@
    "grade": 86.6,
    "qbir": 61.6,
    "reliability": 0.42,
-   "prev_rank": 8,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.052,
     "rank": 28,
@@ -318,7 +318,7 @@
    "grade": 84.9,
    "qbir": 59.9,
    "reliability": 0.47,
-   "prev_rank": 11,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.051,
     "rank": 6,
@@ -354,7 +354,7 @@
    },
    "twp": 13.0,
    "ints": 6,
-   "luck": 3.1
+   "luck": 3.2
   },
   {
    "rank": 8,
@@ -367,7 +367,7 @@
    "grade": 83.8,
    "qbir": 58.8,
    "reliability": 0.47,
-   "prev_rank": 9,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.059,
     "rank": 4,
@@ -403,7 +403,7 @@
    },
    "twp": 8.0,
    "ints": 5,
-   "luck": 0.6
+   "luck": 0.7
   },
   {
    "rank": 9,
@@ -416,7 +416,7 @@
    "grade": 82.5,
    "qbir": 57.5,
    "reliability": 0.45,
-   "prev_rank": 7,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.064,
     "rank": 29,
@@ -452,7 +452,7 @@
    },
    "twp": 11.0,
    "ints": 8,
-   "luck": -0.3
+   "luck": -0.2
   },
   {
    "rank": 10,
@@ -465,7 +465,7 @@
    "grade": 82.1,
    "qbir": 57.1,
    "reliability": 0.34,
-   "prev_rank": 6,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.009,
     "rank": 18,
@@ -514,7 +514,7 @@
    "grade": 81.7,
    "qbir": 56.7,
    "reliability": 0.37,
-   "prev_rank": 12,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.052,
     "rank": 5,
@@ -550,7 +550,7 @@
    },
    "twp": 8.0,
    "ints": 4,
-   "luck": 1.6
+   "luck": 1.7
   },
   {
    "rank": 12,
@@ -563,7 +563,7 @@
    "grade": 80.0,
    "qbir": 55.0,
    "reliability": 0.42,
-   "prev_rank": 10,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.102,
     "rank": 2,
@@ -612,7 +612,7 @@
    "grade": 79.5,
    "qbir": 54.5,
    "reliability": 0.41,
-   "prev_rank": 14,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.015,
     "rank": 13,
@@ -648,7 +648,7 @@
    },
    "twp": 6.0,
    "ints": 4,
-   "luck": 0.2
+   "luck": 0.3
   },
   {
    "rank": 14,
@@ -661,7 +661,7 @@
    "grade": 78.9,
    "qbir": 53.9,
    "reliability": 0.37,
-   "prev_rank": 13,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.02,
     "rank": 10,
@@ -697,7 +697,7 @@
    },
    "twp": 6.0,
    "ints": 6,
-   "luck": -1.8
+   "luck": -1.7
   },
   {
    "rank": 15,
@@ -710,7 +710,7 @@
    "grade": 76.9,
    "qbir": 51.9,
    "reliability": 0.43,
-   "prev_rank": 15,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.041,
     "rank": 26,
@@ -759,7 +759,7 @@
    "grade": 76.8,
    "qbir": 51.8,
    "reliability": 0.33,
-   "prev_rank": 16,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.013,
     "rank": 20,
@@ -767,7 +767,7 @@
     "reliability": 0.81
    },
    "factors": {
-    "Efficiency": 51.3,
+    "Efficiency": 51.2,
     "Mobility": 66.7,
     "Pressure": 39.7,
     "Carry": 56.5,
@@ -789,13 +789,13 @@
     "Air to sticks (NGS)": -0.4
    },
    "lenses": {
-    "Pure Thrower": 53,
-    "Ball Placement": 53,
+    "Pure Thrower": 52,
+    "Ball Placement": 52,
     "Make It Happen": 48
    },
    "twp": 4.0,
-   "ints": 0,
-   "luck": 2.8
+   "ints": 2,
+   "luck": 0.8
   },
   {
    "rank": 17,
@@ -808,7 +808,7 @@
    "grade": 76.5,
    "qbir": 51.5,
    "reliability": 0.47,
-   "prev_rank": 17,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.005,
     "rank": 15,
@@ -844,7 +844,7 @@
    },
    "twp": 14.0,
    "ints": 9,
-   "luck": 0.8
+   "luck": 0.9
   },
   {
    "rank": 18,
@@ -857,7 +857,7 @@
    "grade": 75.3,
    "qbir": 50.3,
    "reliability": 0.3,
-   "prev_rank": 18,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.04,
     "rank": 25,
@@ -906,7 +906,7 @@
    "grade": 75.0,
    "qbir": 50.0,
    "reliability": 0.43,
-   "prev_rank": 20,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.009,
     "rank": 19,
@@ -942,7 +942,7 @@
    },
    "twp": 9.0,
    "ints": 4,
-   "luck": 2.3
+   "luck": 2.4
   },
   {
    "rank": 20,
@@ -955,7 +955,7 @@
    "grade": 74.7,
    "qbir": 49.7,
    "reliability": 0.45,
-   "prev_rank": 19,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.028,
     "rank": 23,
@@ -991,7 +991,7 @@
    },
    "twp": 9.0,
    "ints": 6,
-   "luck": 0.3
+   "luck": 0.4
   },
   {
    "rank": 21,
@@ -1004,7 +1004,7 @@
    "grade": 72.3,
    "qbir": 47.3,
    "reliability": 0.46,
-   "prev_rank": 22,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.092,
     "rank": 31,
@@ -1053,7 +1053,7 @@
    "grade": 70.1,
    "qbir": 45.1,
    "reliability": 0.29,
-   "prev_rank": 23,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.011,
     "rank": 14,
@@ -1102,7 +1102,7 @@
    "grade": 69.8,
    "qbir": 44.8,
    "reliability": 0.36,
-   "prev_rank": 21,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.018,
     "rank": 12,
@@ -1138,7 +1138,7 @@
    },
    "twp": 8.0,
    "ints": 9,
-   "luck": -3.4
+   "luck": -3.3
   },
   {
    "rank": 24,
@@ -1151,7 +1151,7 @@
    "grade": 69.3,
    "qbir": 44.3,
    "reliability": 0.34,
-   "prev_rank": 24,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.02,
     "rank": 21,
@@ -1187,7 +1187,7 @@
    },
    "twp": 9.0,
    "ints": 6,
-   "luck": 0.3
+   "luck": 0.4
   },
   {
    "rank": 25,
@@ -1200,7 +1200,7 @@
    "grade": 66.6,
    "qbir": 41.6,
    "reliability": 0.45,
-   "prev_rank": 25,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.032,
     "rank": 24,
@@ -1236,7 +1236,7 @@
    },
    "twp": 8.0,
    "ints": 7,
-   "luck": -1.4
+   "luck": -1.3
   },
   {
    "rank": 26,
@@ -1249,7 +1249,7 @@
    "grade": 66.4,
    "qbir": 41.4,
    "reliability": 0.31,
-   "prev_rank": 30,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.043,
     "rank": 27,
@@ -1285,7 +1285,7 @@
    },
    "twp": 6.0,
    "ints": 5,
-   "luck": -0.8
+   "luck": -0.7
   },
   {
    "rank": 27,
@@ -1298,7 +1298,7 @@
    "grade": 65.7,
    "qbir": 40.7,
    "reliability": 0.23,
-   "prev_rank": 28,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.028,
     "rank": 9,
@@ -1347,7 +1347,7 @@
    "grade": 65.4,
    "qbir": 40.4,
    "reliability": 0.41,
-   "prev_rank": 26,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.119,
     "rank": 32,
@@ -1383,7 +1383,7 @@
    },
    "twp": 6.0,
    "ints": 3,
-   "luck": 1.2
+   "luck": 1.3
   },
   {
    "rank": 29,
@@ -1396,7 +1396,7 @@
    "grade": 65.3,
    "qbir": 40.3,
    "reliability": 0.43,
-   "prev_rank": 27,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.019,
     "rank": 11,
@@ -1445,7 +1445,7 @@
    "grade": 63.5,
    "qbir": 38.5,
    "reliability": 0.4,
-   "prev_rank": 29,
+   "prev_rank": null,
    "scheme": {
     "lift": -0.087,
     "rank": 30,
@@ -1494,7 +1494,7 @@
    "grade": 62.4,
    "qbir": 37.4,
    "reliability": 0.24,
-   "prev_rank": 31,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.011,
     "rank": 14,
@@ -1543,7 +1543,7 @@
    "grade": 61.8,
    "qbir": 36.8,
    "reliability": 0.21,
-   "prev_rank": 32,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.048,
     "rank": 7,
@@ -1579,7 +1579,7 @@
    },
    "twp": 6.0,
    "ints": 5,
-   "luck": -0.8
+   "luck": -0.7
   },
   {
    "rank": 33,
@@ -1592,7 +1592,7 @@
    "grade": 60.2,
    "qbir": 35.2,
    "reliability": 0.4,
-   "prev_rank": 34,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.0,
     "rank": 17,
@@ -1628,7 +1628,7 @@
    },
    "twp": 15.0,
    "ints": 11,
-   "luck": -0.5
+   "luck": -0.4
   },
   {
    "rank": 34,
@@ -1641,7 +1641,7 @@
    "grade": 59.8,
    "qbir": 34.8,
    "reliability": 0.29,
-   "prev_rank": 33,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.048,
     "rank": 7,
@@ -1690,7 +1690,7 @@
    "grade": 57.7,
    "qbir": 32.7,
    "reliability": 0.45,
-   "prev_rank": 35,
+   "prev_rank": null,
    "scheme": {
     "lift": 0.002,
     "rank": 16,
@@ -1726,7 +1726,7 @@
    },
    "twp": 18.0,
    "ints": 10,
-   "luck": 2.6
+   "luck": 2.8
   }
  ]
 }
