@@ -130,7 +130,7 @@
     "reliability": 0.17
    },
    "factors": {
-    "Efficiency": 57.7,
+    "Efficiency": 57.6,
     "Mobility": 75.1,
     "Pressure": 56.4,
     "Carry": 57.3,
@@ -718,7 +718,7 @@
     "reliability": 0.84
    },
    "factors": {
-    "Efficiency": 57.3,
+    "Efficiency": 57.4,
     "Mobility": 34.6,
     "Pressure": 57.1,
     "Carry": 47.4,
@@ -776,8 +776,8 @@
     "Env. help": 52.0
    },
    "stats": {
-    "Passer rating": 97.2,
-    "ANY/A": 7.59,
+    "Passer rating": 97.1,
+    "ANY/A": 7.48,
     "CPOE": 4.9,
     "TWP rate (FTN)": 0.021,
     "Isolated EPA/play": -0.027,
@@ -1404,7 +1404,7 @@
     "reliability": 0.81
    },
    "factors": {
-    "Efficiency": 40.4,
+    "Efficiency": 40.5,
     "Mobility": 44.8,
     "Pressure": 47.7,
     "Carry": 30.3,
@@ -1600,7 +1600,7 @@
     "reliability": 0.41
    },
    "factors": {
-    "Efficiency": 28.9,
+    "Efficiency": 28.8,
     "Mobility": 36.8,
     "Pressure": 50.1,
     "Carry": 48.4,
