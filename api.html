@@ -53,29 +53,29 @@ a{color:var(--gold-br)}
 
   <div class="grid">
     <div class="tier">
-      <h2>Free</h2>
-      <div class="price">$0 · personal use</div>
+      <h2>Free trial</h2>
+      <div class="price">$0 · 14 days</div>
       <ul class="feat">
         <li>QBIR + Coach Index endpoints</li>
         <li>100 requests / day</li>
         <li>Personal / non-commercial</li>
-        <li>Attribution to Throw in the Towel required</li>
+        <li>Expires after 14 days — upgrade to keep going</li>
       </ul>
       <input id="email" type="email" placeholder="you@email.com" autocomplete="email">
-      <button class="btn" id="getfree">Get a free key</button>
+      <button class="btn" id="getfree">Start free trial</button>
       <div class="out" id="freeout"></div>
     </div>
 
     <div class="tier pro">
       <h2>Pro</h2>
-      <div class="price">$49 / year · commercial</div>
+      <div class="price">$49.99 / year · commercial</div>
       <ul class="feat">
         <li>Everything in Free</li>
         <li>10,000 requests / day</li>
         <li>Commercial use (models, media, apps)</li>
         <li>Full TTT membership included</li>
       </ul>
-      <button class="btn ghost" id="getpro">Get Pro — $49/yr</button>
+      <button class="btn ghost" id="getpro">Get Pro — $49.99/yr</button>
       <div class="out" id="proout"></div>
     </div>
   </div>
@@ -94,7 +94,10 @@ a{color:var(--gold-br)}
 </div>
 <script>
 const API="https://ttt-api.chukegbuchunam.workers.dev";
-const PRO_CHECKOUT="https://buy.stripe.com/test_dRmeV7a5X7Cwf1e7UV6Ri00"; // Stripe TEST checkout (Pro API $49/yr)
+// LIVE Stripe payment link for Pro ($49/yr). Create it in the Stripe dashboard in LIVE mode, and set its
+// success URL to  https://throwindata.com/api.html?session_id={CHECKOUT_SESSION_ID}  so the buyer returns
+// here and is auto-issued a key. Leave this empty until the live link exists (the button emails us instead).
+const PRO_CHECKOUT="";
 const fo=document.getElementById("freeout");
 document.getElementById("getfree").onclick=async()=>{
   const email=document.getElementById("email").value.trim();
@@ -114,6 +117,22 @@ document.getElementById("getpro").onclick=()=>{
   if(PRO_CHECKOUT){location.href=PRO_CHECKOUT;return;}
   po.className="out";po.innerHTML='Pro billing launches shortly — email <a href="mailto:throwinthetowel214@gmail.com?subject=TTT%20Pro%20API">throwinthetowel214@gmail.com</a> and we\'ll set you up now.';
 };
+// After a paid Stripe Checkout, Stripe returns the buyer here with ?session_id=… — mint + show their Pro key.
+(async()=>{
+  const sid=new URLSearchParams(location.search).get("session_id");
+  if(!sid)return;
+  const po=document.getElementById("proout");
+  po.className="out";po.textContent="Confirming your purchase and issuing your key…";
+  try{
+    const r=await fetch(`${API}/v1/provision?session_id=${encodeURIComponent(sid)}`);
+    const d=await r.json();
+    if(!r.ok||!d.api_key){po.className="out err";po.innerHTML=(d.error&&d.error.message?d.error.message+' ':'')+'Couldn\'t confirm that purchase — email <a href="mailto:throwinthetowel214@gmail.com?subject=TTT%20Pro%20API">throwinthetowel214@gmail.com</a>.';return;}
+    po.className="out";
+    po.innerHTML=`<div class="keybox"><code id="pk">${d.api_key}</code><button class="kbtn" id="pcp">Copy</button></div><div class="warn">Your Pro key — save it. It's your login for the API.</div>`;
+    document.getElementById("pcp").onclick=()=>{navigator.clipboard.writeText(d.api_key);document.getElementById("pcp").textContent="Copied";};
+    history.replaceState({},"",location.pathname); // strip session_id from the URL
+  }catch(e){po.className="out err";po.textContent="Network error confirming purchase — refresh to retry.";}
+})();
 </script>
 </body>
 </html>
